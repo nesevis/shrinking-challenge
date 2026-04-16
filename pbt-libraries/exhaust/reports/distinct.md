@@ -1,6 +1,6 @@
 # Distinct Report for Exhaust
 
-These results are from Exhaust v0.3.9, April 16th, 2026.
+These results are from Exhaust v0.3.15, April 20th, 2026.
 
 ## Normalization
 
@@ -10,12 +10,14 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `[-1, 0, 1]` |
 
+See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/distinctFailures.md).
+
 ## Performance
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
 | Evaluations | 8.0 | 31.0 | 15.0 | 15.2 | 14.9–15.4 |
-| Reduction time (ms) | 0.08 | 0.22 | 0.14 | 0.14 | 0.14–0.14 |
+| Reduction time (ms) | 0.08 | 0.24 | 0.14 | 0.14 | 0.14–0.14 |
 | Iterations to failure | 1.0 | 6.0 | 3.0 | 2.5 | 2.5–2.6 |
 
 ## Reproduction

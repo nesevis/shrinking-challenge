@@ -1,6 +1,6 @@
 # Binary Heap Report for Exhaust
 
-These results are from Exhaust v0.3.9, April 16th, 2026.
+These results are from Exhaust v0.3.15, April 20th, 2026.
 
 ## Normalization
 
@@ -8,16 +8,18 @@ Exhaust produced 3 distinct counterexamples across 1000 test runs:
 
 | Prevalence | Counterexample |
 |---|---|
-| 54.3% | `(0, (0, (1, None, None), (0, None, None)), None)` |
+| 54.7% | `(0, (0, (1, None, None), (0, None, None)), None)` |
 | 32.0% | `(0, (0, (0, None, None), None), (1, None, None))` |
-| 13.7% | `(0, None, (0, (1, None, None), (0, None, None)))` |
+| 13.3% | `(0, None, (0, (1, None, None), (0, None, None)))` |
+
+See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/binaryHeapFailures.md).
 
 ## Performance
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 380.0 | 627.0 | 495.0 | 492.4 | 490–494.7 |
-| Reduction time (ms) | 17.94 | 61.38 | 35.39 | 34.83 | 34.39–35.27 |
+| Evaluations | 203.0 | 434.0 | 311.0 | 321.6 | 318.7–324.4 |
+| Reduction time (ms) | 16.26 | 40.98 | 26.98 | 26.24 | 25.98–26.5 |
 | Iterations to failure | 1.0 | 9.0 | 1.0 | 1.7 | 1.7–1.8 |
 
 ## Reproduction
