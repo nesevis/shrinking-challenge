@@ -8,9 +8,9 @@
 import Exhaust
 
 enum CouplingChallenge {
-    static let gen = #gen(.int(in: 0 ... 10))
+    static let gen = #gen(.int(in: 0 ... 10, scaling: .constant))
         .bind { n in
-            #gen(.int(in: 0 ... n)).array(length: 2 ... max(2, n + 1))
+            #gen(.int(in: 0 ... n)).array(length: 2 ... max(2, n + 1), scaling: .constant)
         }
         .filter(.rejectionSampling) { arr in arr.allSatisfy { arr.indices.contains($0) } }
 

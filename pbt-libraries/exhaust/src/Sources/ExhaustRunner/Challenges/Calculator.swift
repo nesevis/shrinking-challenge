@@ -35,7 +35,7 @@ enum CalculatorChallenge {
     }
     
     static func gen(depth: UInt64) -> ReflectiveGenerator<Expr> {
-        let leaf = #gen(.int(in: -10 ... 10, scaling: .constant))
+        let leaf = #gen(.int())
             .mapped(forward: { Expr.value($0) }, backward: { $0.intValue ?? 0 })
 
         return #gen(.recursive(base: leaf, depthRange: 0 ... depth) { recurse, _ in
@@ -88,7 +88,8 @@ enum CalculatorChallenge {
         case let .value(value):
             return value
         case let .add(lhs, rhs):
-            return try evalExpr(lhs) + evalExpr(rhs)
+            // Wrapping addition for convenience
+            return try evalExpr(lhs) &+ evalExpr(rhs)
         case let .div(lhs, rhs):
             let denominator = try evalExpr(rhs)
             guard denominator != 0 else { throw EvalError.divisionByZero }

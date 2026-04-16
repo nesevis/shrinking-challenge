@@ -1,0 +1,818 @@
+# Calculator: first 50 failing results
+
+1337:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(490501599849),
+  .div(
+    .value(-4038979293),
+    .div(
+      .value(-62787300169),
+      .value(719350513183)
+    )
+  )
+)
+```
+
+1338:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-280969952),
+    .div(
+      .value(-85864842),
+      .value(230643489)
+    )
+  ),
+  .div(
+    .value(-200464671),
+    .value(-127104315)
+  )
+)
+```
+
+1339:
+ ```
+CalculatorChallenge.Expr.add(
+  .add(
+    .value(0),
+    .value(-1)
+  ),
+  .add(
+    .add(
+      .value(1),
+      .value(-1)
+    ),
+    .div(
+      .value(0),
+      .add(
+        .value(-1),
+        .value(1)
+      )
+    )
+  )
+)
+```
+
+1340:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(-144272942234),
+    .value(-74969344083)
+  ),
+  .div(
+    .value(69649295814),
+    .value(-98321038261)
+  )
+)
+```
+
+1341:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(4),
+    .value(4)
+  ),
+  .div(
+    .value(-2),
+    .value(4)
+  )
+)
+```
+
+1342:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-398507),
+  .div(
+    .value(-234285),
+    .value(355525)
+  )
+)
+```
+
+1343:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(6862973),
+    .value(9513938)
+  ),
+  .div(
+    .value(14971660),
+    .add(
+      .add(
+        .value(-15168903),
+        .value(-5950918)
+      ),
+      .add(
+        .value(-8251807),
+        .value(-14609528)
+      )
+    )
+  )
+)
+```
+
+1344:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-98),
+  .div(
+    .value(-92),
+    .value(-268)
+  )
+)
+```
+
+1345:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(12303),
+  .div(
+    .value(10008),
+    .value(-12087)
+  )
+)
+```
+
+1346:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(443),
+    .value(-254)
+  ),
+  .div(
+    .value(66),
+    .value(-82)
+  )
+)
+```
+
+1347:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .div(
+      .value(1),
+      .value(-1)
+    ),
+    .div(
+      .value(0),
+      .value(1)
+    )
+  ),
+  .add(
+    .value(-1),
+    .div(
+      .div(
+        .value(0),
+        .value(-1)
+      ),
+      .add(
+        .value(-1),
+        .value(1)
+      )
+    )
+  )
+)
+```
+
+1348:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-11732183),
+  .div(
+    .value(17434387),
+    .add(
+      .value(12112611),
+      .value(13386084)
+    )
+  )
+)
+```
+
+1349:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-1701733),
+  .div(
+    .value(-111539),
+    .add(
+      .value(2579235),
+      .value(-3815204)
+    )
+  )
+)
+```
+
+1350:
+ ```
+CalculatorChallenge.Expr.add(
+  .div(
+    .value(1991696),
+    .div(
+      .value(-268725),
+      .value(1746335)
+    )
+  ),
+  .value(-2389259)
+)
+```
+
+1351:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-481),
+  .div(
+    .div(
+      .div(
+        .value(956),
+        .value(822)
+      ),
+      .value(-2475)
+    ),
+    .div(
+      .value(139),
+      .value(1692)
+    )
+  )
+)
+```
+
+1352:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-4877),
+  .div(
+    .value(2996),
+    .add(
+      .value(833),
+      .value(6010)
+    )
+  )
+)
+```
+
+1353:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(0),
+    .div(
+      .value(0),
+      .value(-1)
+    )
+  ),
+  .add(
+    .value(-1),
+    .add(
+      .value(-1),
+      .value(0)
+    )
+  )
+)
+```
+
+1354:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(0),
+    .div(
+      .value(-7),
+      .value(7)
+    )
+  ),
+  .div(
+    .value(-2),
+    .value(8)
+  )
+)
+```
+
+1355:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-3848),
+  .div(
+    .value(-4873),
+    .value(5700)
+  )
+)
+```
+
+1356:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-7),
+    .value(-1)
+  ),
+  .div(
+    .value(-1),
+    .value(6)
+  )
+)
+```
+
+1357:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-431329610),
+  .div(
+    .value(-111625310),
+    .value(-322808723)
+  )
+)
+```
+
+1358:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-445232574),
+    .value(-485932624)
+  ),
+  .div(
+    .add(
+      .value(117780000),
+      .value(649913348)
+    ),
+    .div(
+      .value(59508094),
+      .value(99459293)
+    )
+  )
+)
+```
+
+1359:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-458),
+    .value(-591)
+  ),
+  .div(
+    .div(
+      .value(-35),
+      .value(-353)
+    ),
+    .add(
+      .value(-172),
+      .value(-307)
+    )
+  )
+)
+```
+
+1360:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(1),
+    .value(1)
+  ),
+  .div(
+    .value(0),
+    .add(
+      .value(-1),
+      .value(-1)
+    )
+  )
+)
+```
+
+1361:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(-2720814),
+    .value(-2867664)
+  ),
+  .div(
+    .div(
+      .value(-797092),
+      .value(2329615)
+    ),
+    .value(-6174299)
+  )
+)
+```
+
+1362:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(1),
+  .div(
+    .value(-1),
+    .value(-5)
+  )
+)
+```
+
+1363:
+ ```
+CalculatorChallenge.Expr.add(
+  .value(19),
+  .div(
+    .add(
+      .value(-11),
+      .value(-3)
+    ),
+    .div(
+      .value(-16),
+      .add(
+        .value(31),
+        .value(-8)
+      )
+    )
+  )
+)
+```
+
+1364:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(-10),
+    .value(58)
+  ),
+  .div(
+    .value(-72),
+    .div(
+      .div(
+        .value(65),
+        .value(53)
+      ),
+      .value(-14)
+    )
+  )
+)
+```
+
+1365:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(31),
+    .value(-19)
+  ),
+  .div(
+    .div(
+      .value(15),
+      .value(-23)
+    ),
+    .value(20)
+  )
+)
+```
+
+1366:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(167659),
+    .div(
+      .value(-579327),
+      .value(-642442)
+    )
+  ),
+  .value(-75429)
+)
+```
+
+1367:
+ ```
+CalculatorChallenge.Expr.add(
+  .div(
+    .value(-3),
+    .div(
+      .value(-4),
+      .value(8)
+    )
+  ),
+  .value(-6)
+)
+```
+
+1368:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(25),
+  .div(
+    .value(9),
+    .value(95)
+  )
+)
+```
+
+1369:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .value(-163),
+    .add(
+      .value(-116),
+      .value(-215)
+    )
+  ),
+  .div(
+    .value(-2),
+    .value(-29)
+  )
+)
+```
+
+1370:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(10186709),
+  .add(
+    .div(
+      .value(5639278),
+      .value(6869797)
+    ),
+    .div(
+      .div(
+        .value(-6210684),
+        .value(-18666242)
+      ),
+      .div(
+        .value(20158407),
+        .value(-2764090)
+      )
+    )
+  )
+)
+```
+
+1371:
+ ```
+CalculatorChallenge.Expr.div(
+  .add(
+    .div(
+      .value(6485),
+      .value(-79)
+    ),
+    .add(
+      .value(-9221),
+      .value(-5042)
+    )
+  ),
+  .div(
+    .value(4328),
+    .value(5436)
+  )
+)
+```
+
+1372:
+ ```
+CalculatorChallenge.Expr.add(
+  .value(-1),
+  .div(
+    .div(
+      .value(1),
+      .value(1)
+    ),
+    .div(
+      .value(0),
+      .value(-1)
+    )
+  )
+)
+```
+
+1373:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-20),
+  .div(
+    .add(
+      .add(
+        .value(-17),
+        .value(17)
+      ),
+      .value(-8)
+    ),
+    .value(-16)
+  )
+)
+```
+
+1374:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-4055685132),
+    .value(4951695936)
+  ),
+  .div(
+    .value(5753329218),
+    .value(8385624551)
+  )
+)
+```
+
+1375:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-9),
+  .div(
+    .value(12),
+    .add(
+      .value(-25),
+      .value(-28)
+    )
+  )
+)
+```
+
+1376:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(-691127),
+  .div(
+    .value(1831378),
+    .add(
+      .value(-7283490),
+      .value(-4744726)
+    )
+  )
+)
+```
+
+1377:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-784064),
+    .value(-1119393)
+  ),
+  .div(
+    .div(
+      .value(-691749),
+      .value(-464342)
+    ),
+    .value(-1316224)
+  )
+)
+```
+
+1378:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-2),
+    .value(3)
+  ),
+  .add(
+    .value(3),
+    .value(-3)
+  )
+)
+```
+
+1379:
+ ```
+CalculatorChallenge.Expr.add(
+  .div(
+    .value(617),
+    .div(
+      .value(2633),
+      .value(2711)
+    )
+  ),
+  .value(3114)
+)
+```
+
+1380:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-1835920),
+    .div(
+      .value(70125919),
+      .value(104083910)
+    )
+  ),
+  .add(
+    .div(
+      .value(86256131),
+      .value(135192764)
+    ),
+    .value(10633717)
+  )
+)
+```
+
+1381:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(59011882),
+  .div(
+    .value(34570404),
+    .value(50562801)
+  )
+)
+```
+
+1382:
+ ```
+CalculatorChallenge.Expr.add(
+  .add(
+    .div(
+      .value(41),
+      .value(-10)
+    ),
+    .value(-71)
+  ),
+  .div(
+    .div(
+      .value(56),
+      .value(20)
+    ),
+    .div(
+      .value(-20),
+      .value(34)
+    )
+  )
+)
+```
+
+1383:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(4784),
+    .div(
+      .value(-8712),
+      .value(-13327)
+    )
+  ),
+  .value(14707)
+)
+```
+
+1384:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .div(
+      .add(
+        .value(-42479),
+        .value(27561)
+      ),
+      .value(-70714)
+    ),
+    .value(-82553)
+  ),
+  .div(
+    .value(28091),
+    .value(-95589)
+  )
+)
+```
+
+1385:
+ ```
+CalculatorChallenge.Expr.div(
+  .value(1),
+  .add(
+    .value(1),
+    .value(-1)
+  )
+)
+```
+
+1386:
+ ```
+CalculatorChallenge.Expr.div(
+  .div(
+    .value(-46),
+    .div(
+      .value(-46),
+      .value(107)
+    )
+  ),
+  .add(
+    .add(
+      .value(21),
+      .value(-4)
+    ),
+    .add(
+      .value(67),
+      .add(
+        .value(-105),
+        .value(-94)
+      )
+    )
+  )
+)
+```

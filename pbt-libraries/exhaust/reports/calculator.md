@@ -1,6 +1,6 @@
 # Calculator Report for Exhaust
 
-These results are from Exhaust v0.3.9, April 16th, 2026.
+These results are from Exhaust v0.3.15, April 20th, 2026.
 
 ## Normalization
 
@@ -10,13 +10,15 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `div(value(0), add(value(0), value(0)))` |
 
+See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/calculatorFailures.md).
+
 ## Performance
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 79.0 | 240.0 | 91.0 | 93.9 | 93–94.7 |
-| Reduction time (ms) | 1.12 | 7.71 | 1.53 | 1.6 | 1.56–1.63 |
-| Iterations to failure | 1.0 | 219.0 | 20.0 | 28.1 | 26.5–29.8 |
+| Evaluations | 8.0 | 80.0 | 25.0 | 24.7 | 24.2–25.2 |
+| Reduction time (ms) | 0.38 | 9.13 | 0.91 | 0.91 | 0.88–0.93 |
+| Iterations to failure | 1.0 | 219.0 | 20.0 | 28.2 | 26.5–29.9 |
 
 ## Reproduction
 

@@ -1,6 +1,6 @@
 # Large Union List Report for Exhaust
 
-These results are from Exhaust v0.3.9, April 16th, 2026.
+These results are from Exhaust v0.3.15, April 20th, 2026.
 
 ## Normalization
 
@@ -10,13 +10,15 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `[[-2, -1, 0, 1, 2]]` |
 
+See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/largeUnionListFailures.md).
+
 ## Performance
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 54.0 | 157.0 | 110.0 | 104.3 | 102.6–106 |
-| Reduction time (ms) | 0.47 | 1.43 | 0.85 | 0.84 | 0.83–0.85 |
-| Iterations to failure | 3.0 | 9.0 | 5.0 | 5.0 | 4.9–5.1 |
+| Evaluations | 71.0 | 178.0 | 127.0 | 121.9 | 120.3–123.6 |
+| Reduction time (ms) | 0.6 | 2.7 | 0.97 | 0.96 | 0.95–0.97 |
+| Iterations to failure | 3.0 | 9.0 | 4.0 | 4.6 | 4.5–4.7 |
 
 ## Reproduction
 

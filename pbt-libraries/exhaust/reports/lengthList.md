@@ -1,6 +1,6 @@
 # Length List Report for Exhaust
 
-These results are from Exhaust v0.3.9, April 16th, 2026.
+These results are from Exhaust v0.3.15, April 20th, 2026.
 
 ## Normalization
 
@@ -10,13 +10,15 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `[900]` |
 
+See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/lengthListFailures.md).
+
 ## Performance
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 11.0 | 21.0 | 15.0 | 14.7 | 14.6–14.8 |
-| Reduction time (ms) | 0.06 | 0.24 | 0.09 | 0.1 | 0.1–0.1 |
-| Iterations to failure | 1.0 | 14.0 | 4.0 | 4.2 | 4–4.3 |
+| Evaluations | 12.0 | 26.0 | 21.0 | 20.8 | 20.6–20.9 |
+| Reduction time (ms) | 0.08 | 3.73 | 0.72 | 0.77 | 0.74–0.79 |
+| Iterations to failure | 1.0 | 5.0 | 1.0 | 1.1 | 1.1–1.1 |
 
 ## Reproduction
 
