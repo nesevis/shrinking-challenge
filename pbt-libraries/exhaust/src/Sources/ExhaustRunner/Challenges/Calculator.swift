@@ -34,7 +34,7 @@ enum CalculatorChallenge {
         case divisionByZero
     }
     
-    static func gen(depth: UInt64) -> ReflectiveGenerator<Expr> {
+    static func gen(depth: Int) -> ReflectiveGenerator<Expr> {
         let leaf = #gen(.int())
             .mapped(forward: { Expr.value($0) }, backward: { $0.intValue ?? 0 })
 
