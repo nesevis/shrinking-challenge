@@ -131,7 +131,7 @@ enum ChallengeRunner {
         var report: ExhaustReport!
         let output = #exhaust(
             gen,
-            .budget(.custom(coverage: 0, sampling: 25_000)),
+            .budget(.custom(screening: 0, sampling: 25_000)),
             .suppress(.all),
             .replay(.numeric(seed)),
             .onReport { report = $0 },
