@@ -23,3 +23,4 @@ One of the possible difficulties that might come up is the shrinking of recursiv
 | fast-check | [calculator.js](/pbt-libraries/fast-check/challenges/calculator.js)                                             | [calculator.md](/pbt-libraries/fast-check/reports/calculator.md)    |
 | CsCheck    | [ShrinkingChallengeTests.cs](/pbt-libraries/cscheck/ShrinkingChallengeTests.cs#L60)                             | [calculator.md](/pbt-libraries/cscheck/reports/calculator.md)       |
 | elm-test   | [Calculator.elm](/pbt-libraries/elm-test/src/Challenge/Calculator.elm)                                          | [calculator.md](/pbt-libraries/elm-test/reports/calculator.md)      |
+| Exhaust    | [Calculator.swift](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/Calculator.swift)                | [calculator.md](/pbt-libraries/exhaust/reports/calculator.md)       |
