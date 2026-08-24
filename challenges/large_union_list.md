@@ -19,3 +19,4 @@ In particular, a shrinker cannot hope to normalise this unless it is able to eit
 | fast-check | [large_union_list.js](/pbt-libraries/fast-check/challenges/large_union_list.js)                                             | [large_union_list.md](/pbt-libraries/fast-check/reports/large_union_list.md)     |
 | CsCheck    | [ShrinkingChallengeTests.cs](/pbt-libraries/cscheck/ShrinkingChallengeTests.cs#L30)                                         | [large_union_list.md](/pbt-libraries/cscheck/reports/large_union_list.md)        |
 | elm-test   | [LargeUnionList.elm](/pbt-libraries/elm-test/src/Challenge/LargeUnionList.elm)                                              | [largeUnionList.md](/pbt-libraries/elm-test/reports/largeUnionList.md)           |
+| Exhaust    | [LargeUnionList.swift](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/LargeUnionList.swift)                    | [largeUnionList.md](/pbt-libraries/exhaust/reports/largeUnionList.md)            |

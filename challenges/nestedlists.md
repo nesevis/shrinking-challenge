@@ -22,3 +22,4 @@ a single list of 11 elements: `[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]`.
 | fast-check | [nestedlist.js](/pbt-libraries/fast-check/challenges/nestedlists.js)                                               | [nestedlists.md](/pbt-libraries/fast-check/reports/nestedlists.md) |
 | CsCheck    | [ShrinkingChallengeTests.cs](/pbt-libraries/cscheck/ShrinkingChallengeTests.cs#L225)                               | [nestedlists.md](/pbt-libraries/cscheck/reports/nestedlists.md)    |
 | elm-test   | [NestedLists.elm](/pbt-libraries/elm-test/src/Challenge/NestedLists.elm)                                           | [nestedLists.md](/pbt-libraries/elm-test/reports/nestedLists.md)   |
+| Exhaust    | [NestedListsChallenge.swift](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedListsChallenge.swift) | [nestedLists.md](/pbt-libraries/exhaust/reports/nestedLists.md)    |

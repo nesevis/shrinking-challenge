@@ -19,3 +19,4 @@ In particular the use of the length parameter is critical, and the challenge is 
 | CsCheck         | [ShrinkingChallengeTests.cs](/pbt-libraries/cscheck/ShrinkingChallengeTests.cs#L93)                             | [lengthlist.md](/pbt-libraries/cscheck/reports/lengthlist.md)              |
 | elm-test        | [LengthList.elm](/pbt-libraries/elm-test/src/Challenge/LengthList.elm)                                          | [lengthList.md](/pbt-libraries/elm-test/reports/lengthList.md)             |
 | hedgehog-fsharp | [length_list.fsx](/pbt-libraries/hedgehog-fsharp/challenges/length_list.fsx)                                    | [length_list.md](/pbt-libraries/hedgehog-fsharp/challenges/length_list.md) |
+| Exhaust         | [LengthListChallenge.swift](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/LengthListChallenge.swift) | [lengthList.md](/pbt-libraries/exhaust/reports/lengthList.md)              |

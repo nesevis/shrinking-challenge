@@ -21,3 +21,4 @@ The expected smallest falsified sample is `[0, 1, -1]` or `[0, 1, 2]`.
 | fast-check | [distinct.js](/pbt-libraries/fast-check/challenges/distinct.js)                                           | [distinct.md](/pbt-libraries/fast-check/reports/distinct.md) |
 | CsCheck    | [ShrinkingChallengeTests.cs](/pbt-libraries/cscheck/ShrinkingChallengeTests.cs#L218)                      | [distinct.md](/pbt-libraries/cscheck/reports/distinct.md)    |
 | elm-test   | [Distinct.elm](/pbt-libraries/elm-test/src/Challenge/Distinct.elm)                                        | [distinct.md](/pbt-libraries/elm-test/reports/distinct.md)   |
+| Exhaust    | [Distinct.swift](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/Distinct.swift)              | [distinct.md](/pbt-libraries/exhaust/reports/distinct.md)    |

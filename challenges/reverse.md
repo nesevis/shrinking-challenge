@@ -18,3 +18,4 @@ It is a basic example to validate that a library can reliably normalize simple s
 | CsCheck         | [ShrinkingChallengeTests.cs](/pbt-libraries/cscheck/ShrinkingChallengeTests.cs#L46)                    | [reverse.md](/pbt-libraries/cscheck/reports/reverse.md)            |
 | elm-test        | [Reverse.elm](/pbt-libraries/elm-test/src/Challenge/Reverse.elm)                                       | [reverse.md](/pbt-libraries/elm-test/reports/reverse.md)           |
 | hedgehog-fsharp | [reverse.fsx](/pbt-libraries/hedgehog-fsharp/challenges/reverse.fsx)                                   | [reverse.md](/pbt-libraries/hedgehog-fsharp/challenges/reverse.md) |
+| Exhaust         | [ReverseChallenge.swift](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/ReverseChallenge.swift) | [reverse.md](/pbt-libraries/exhaust/reports/reverse.md)            |
