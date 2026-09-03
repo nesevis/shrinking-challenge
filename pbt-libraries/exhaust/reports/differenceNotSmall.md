@@ -1,6 +1,6 @@
 # Difference: Not Small Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -16,8 +16,8 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 43.0 | 204.0 | 94.0 | 93.1 | 90.8–95.4 |
-| Reduction time (ms) | 0.11 | 0.5 | 0.26 | 0.25 | 0.25–0.26 |
+| Evaluations | 35.0 | 193.0 | 89.0 | 85.6 | 83.2–88.0 |
+| Reduction time (ms) | 0.05 | 0.25 | 0.13 | 0.12 | 0.12–0.13 |
 | Iterations to failure | 6.0 | 2811.0 | 307.0 | 399.5 | 374.3–424.7 |
 
 ## Reproduction

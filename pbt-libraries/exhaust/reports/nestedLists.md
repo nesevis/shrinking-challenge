@@ -1,6 +1,6 @@
 # Nested Lists Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -17,7 +17,7 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
 | Evaluations | 23.0 | 69.0 | 36.0 | 37.1 | 36.6–37.5 |
-| Reduction time (ms) | 0.46 | 2.55 | 0.74 | 0.75 | 0.74–0.76 |
+| Reduction time (ms) | 0.14 | 0.6 | 0.28 | 0.29 | 0.29–0.3 |
 | Iterations to failure | 4.0 | 13.0 | 6.0 | 6.4 | 6.3–6.5 |
 
 ## Reproduction

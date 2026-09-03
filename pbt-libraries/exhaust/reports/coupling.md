@@ -1,6 +1,6 @@
 # Coupling Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -16,8 +16,8 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 6.0 | 88.0 | 13.0 | 16.6 | 15.8–17.4 |
-| Reduction time (ms) | 0.08 | 2.74 | 0.23 | 0.28 | 0.27–0.29 |
+| Evaluations | 5.0 | 86.0 | 17.0 | 23.2 | 22.1–24.3 |
+| Reduction time (ms) | 0.05 | 0.64 | 0.15 | 0.19 | 0.18–0.2 |
 | Iterations to failure | 1.0 | 27.0 | 3.0 | 3.7 | 3.5–3.9 |
 
 ## Reproduction
