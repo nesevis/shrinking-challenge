@@ -1,6 +1,6 @@
 # Deletion Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -17,7 +17,7 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
 | Evaluations | 0.0 | 21.0 | 4.0 | 4.5 | 4.3–4.7 |
-| Reduction time (ms) | 0.04 | 2.06 | 0.16 | 0.17 | 0.17–0.18 |
+| Reduction time (ms) | 0.01 | 0.22 | 0.06 | 0.07 | 0.06–0.07 |
 | Iterations to failure | 1.0 | 60.0 | 15.0 | 16.9 | 16.2–17.6 |
 
 ## Reproduction

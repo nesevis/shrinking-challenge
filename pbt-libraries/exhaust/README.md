@@ -38,23 +38,23 @@ See each linked report for counterexample(s) and statistical breakdown.
 
 | Challenge | Results | Evaluations | Reduction (ms) | Iterations to failure |
 |---|---|---|---|---|
-| [Binary Heap](/pbt-libraries/exhaust/reports/binaryHeap.md) | 3 | 321.6 | 26.24 | 1.7 |
-| [Bound5](/pbt-libraries/exhaust/reports/bound5.md) | 1 | 124.5 | 1.67 | 7.5 |
-| [Calculator](/pbt-libraries/exhaust/reports/calculator.md) | 1 | 24.7 | 0.91 | 28.2 |
-| [Coupling](/pbt-libraries/exhaust/reports/coupling.md) | 1 | 16.6 | 0.28 | 3.7 |
-| [Deletion](/pbt-libraries/exhaust/reports/deletion.md) | 1 | 4.5 | 0.17 | 16.9 |
-| [Difference: Not One](/pbt-libraries/exhaust/reports/differenceNotOne.md) | 1 | 107.5 | 0.28 | 1642.1 |
-| [Difference: Not Small](/pbt-libraries/exhaust/reports/differenceNotSmall.md) | 1 | 93.1 | 0.25 | 399.5 |
-| [Difference: Not Zero](/pbt-libraries/exhaust/reports/differenceNotZero.md) | 1 | 105.6 | 0.28 | 3380.4 |
-| [Distinct](/pbt-libraries/exhaust/reports/distinct.md) | 1 | 15.2 | 0.14 | 2.5 |
-| [Large Union List](/pbt-libraries/exhaust/reports/largeUnionList.md) | 1 | 121.9 | 0.96 | 4.6 |
-| [Length List](/pbt-libraries/exhaust/reports/lengthList.md) | 1 | 20.8 | 0.77 | 1.1 |
-| [Nested Lists](/pbt-libraries/exhaust/reports/nestedLists.md) | 1 | 37.1 | 0.75 | 6.4 |
-| [Reverse](/pbt-libraries/exhaust/reports/reverse.md) | 1 | 7.8 | 0.16 | 1.3 |
+| [Binary Heap](/pbt-libraries/exhaust/reports/binaryHeap.md) | 3 | 127.5 | 4.16 | 1.8 |
+| [Bound5](/pbt-libraries/exhaust/reports/bound5.md) | 1 | 104.9 | 0.68 | 7.5 |
+| [Calculator](/pbt-libraries/exhaust/reports/calculator.md) | 1 | 13.3 | 0.23 | 28.2 |
+| [Coupling](/pbt-libraries/exhaust/reports/coupling.md) | 1 | 23.2 | 0.19 | 3.7 |
+| [Deletion](/pbt-libraries/exhaust/reports/deletion.md) | 1 | 4.5 | 0.07 | 16.9 |
+| [Difference: Not One](/pbt-libraries/exhaust/reports/differenceNotOne.md) | 1 | 97.3 | 0.14 | 1642.1 |
+| [Difference: Not Small](/pbt-libraries/exhaust/reports/differenceNotSmall.md) | 1 | 85.6 | 0.12 | 399.5 |
+| [Difference: Not Zero](/pbt-libraries/exhaust/reports/differenceNotZero.md) | 1 | 91.2 | 0.12 | 3380.4 |
+| [Distinct](/pbt-libraries/exhaust/reports/distinct.md) | 1 | 10.6 | 0.05 | 2.5 |
+| [Large Union List](/pbt-libraries/exhaust/reports/largeUnionList.md) | 1 | 129.4 | 0.57 | 4.6 |
+| [Length List](/pbt-libraries/exhaust/reports/lengthList.md) | 1 | 19.8 | 0.17 | 1.1 |
+| [Nested Lists](/pbt-libraries/exhaust/reports/nestedLists.md) | 1 | 37.1 | 0.29 | 6.4 |
+| [Reverse](/pbt-libraries/exhaust/reports/reverse.md) | 1 | 7.8 | 0.07 | 1.3 |
 
 ## Running examples
 
-You need Swift 6.2 or newer and macOS 15/Sequoia or higher.
+Supported on macOS, Linux and Windows. Swift 6.3+
 
 ```bash
 cd pbt-libraries/exhaust/src

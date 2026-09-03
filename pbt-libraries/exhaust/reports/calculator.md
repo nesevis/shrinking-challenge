@@ -1,6 +1,6 @@
 # Calculator Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -16,8 +16,8 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 8.0 | 80.0 | 25.0 | 24.7 | 24.2–25.2 |
-| Reduction time (ms) | 0.38 | 9.13 | 0.91 | 0.91 | 0.88–0.93 |
+| Evaluations | 6.0 | 52.0 | 13.0 | 13.3 | 13.0–13.6 |
+| Reduction time (ms) | 0.11 | 0.92 | 0.22 | 0.23 | 0.23–0.24 |
 | Iterations to failure | 1.0 | 219.0 | 20.0 | 28.2 | 26.5–29.9 |
 
 ## Reproduction

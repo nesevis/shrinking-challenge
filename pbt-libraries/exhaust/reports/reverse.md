@@ -1,6 +1,6 @@
 # Reverse Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -16,8 +16,8 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 3.0 | 16.0 | 8.0 | 7.8 | 7.7–8.0 |
-| Reduction time (ms) | 0.03 | 0.42 | 0.16 | 0.16 | 0.16–0.17 |
+| Evaluations | 3.0 | 14.0 | 8.0 | 7.8 | 7.7–7.9 |
+| Reduction time (ms) | 0.02 | 0.13 | 0.07 | 0.07 | 0.07–0.07 |
 | Iterations to failure | 1.0 | 3.0 | 1.0 | 1.3 | 1.3–1.4 |
 
 ## Reproduction

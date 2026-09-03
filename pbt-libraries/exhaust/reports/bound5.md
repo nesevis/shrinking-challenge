@@ -1,6 +1,6 @@
 # Bound5 Report for Exhaust
 
-These results are from Exhaust v0.3.15, April 20th, 2026.
+These results are from Exhaust v1.1.0, September 3rd, 2026.
 
 ## Normalization
 
@@ -16,8 +16,8 @@ See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failur
 
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
-| Evaluations | 63.0 | 266.0 | 122.0 | 124.5 | 123.3–125.6 |
-| Reduction time (ms) | 0.91 | 6.95 | 1.62 | 1.67 | 1.65–1.69 |
+| Evaluations | 58.0 | 210.0 | 103.0 | 104.9 | 104.0–105.9 |
+| Reduction time (ms) | 0.37 | 1.69 | 0.66 | 0.68 | 0.67–0.69 |
 | Iterations to failure | 5.0 | 23.0 | 7.0 | 7.5 | 7.3–7.6 |
 
 ## Reproduction
