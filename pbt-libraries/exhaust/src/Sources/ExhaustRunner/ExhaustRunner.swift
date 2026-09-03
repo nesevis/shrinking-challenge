@@ -18,14 +18,25 @@ struct ExhaustRunner: ParsableCommand {
     @Option(name: .shortAndLong, help: "What seed to start with")
     var seed: UInt64 = 1337
 
+    @Option(name: .long, help: "Directory to write JSON reports into")
+    var reportPath: String?
+
     mutating func run() throws {
-        let challenges = challenge.map { [$0] } ?? Challenge.allCases
+        let challenges = challenge.map { [$0] }
+            ?? Challenge.allCases
         
         print("Starting run of \(challenges.count) challenge(s) with \(iterations) iteration(s)…")
 
         for challenge in challenges {
-            let stats = ChallengeRunner.run(challenge, seed: seed, iterations: iterations)
+            let stats = ChallengeRunner.run(
+                challenge,
+                seed: seed,
+                iterations: iterations
+            )
             stats.printSummary()
+            if let reportPath {
+                try stats.writeReport(toDirectory: reportPath)
+            }
             print()
         }
     }
