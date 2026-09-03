@@ -10,7 +10,7 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `([], [], [], [-32768], [-1])` |
 
-See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/bound5Failures.md).
+See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/bound5.json).
 
 ## Performance
 

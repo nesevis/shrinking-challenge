@@ -10,7 +10,7 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `[10, 6]` |
 
-See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/differenceNotSmallFailures.md).
+See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/differenceNotSmall.json).
 
 ## Performance
 

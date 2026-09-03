@@ -1,0 +1,1002 @@
+[
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[0, -1, 0, 1]"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[2, 3, -3]"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "[1, 2, 0, 1]"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[0, 1, -1, 1]"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[2, 4, -1]"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-3, -2, 3]"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[-7, -3, 7]"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0, 1]"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[1, -1, 0]"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[0, -1, -1, 1]"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[3, -3, -2]"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[-1, 0, 1]"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-5, 2, -2, 0]"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[-2, 3, 2, 0]"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[1, -1, 2, -1]"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, -2, 2, 3]"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[3, 0, -2, -1]"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 7,
+    "original" : {
+      "p" : "[1, -1, 2]"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 6,
+    "original" : {
+      "p" : "[0, 1, -1]"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[-3, 3, -1]"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-3, 2, 1]"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-2, 0, -1]"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[-1, 0, 1]"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 6,
+    "original" : {
+      "p" : "[0, -1, 1]"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[3, -3, 1, -1]"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 6,
+    "original" : {
+      "p" : "[0, -1, 1]"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "[1, 1, 3, 0]"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 6,
+    "original" : {
+      "p" : "[0, 1, -1]"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-5, -4, 5, 1]"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 2, -2, -3]"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[1, -1, -1, 0]"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[1, 4, 3, -2]"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "[0, -1, 1, 0]"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[4, -4, -3]"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[0, 1, 1, -1]"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[1, -1, 0, -1]"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[1, 3, -2]"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[-1, 0, 1]"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[1, 0, -1, 1]"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[0, 1, 1, -1]"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "[-1, 1, 1, 0]"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 6,
+    "original" : {
+      "p" : "[0, 1, -1]"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[-2, -3, 1]"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-2, 1, -2, -1]"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[2, -2, -3]"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "[2, -3, 3, 3]"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[-1, -1, 0, 1]"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[0, 1, 0, -1]"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[0, -1, 1, -1]"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-2, 2, 1]"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-1, 3, -3, 2]"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "[-3, 0, 1, 1]"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "[2, -4, -2, -2]"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[5, -2, 4]"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 0, 1, 1]"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-2, 2, -5]"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 0, 1, 1]"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[1, -1, 0]"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[-1, -3, -1, 1]"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-3, 5, -1]"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[-1, 0, 1]"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "[0, 2, -2, 0]"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "[-4, 1, -4, -3]"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-2, 0, 2]"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[3, -1, 0, -2]"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[-1, 2, 1]"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[0, 6, -1]"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[1, 0, -1]"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[1, 3, -2]"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[0, -1, 1, 1]"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[1, -1, 3]"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[-2, 2, -3, -1]"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[1, 0, -1, 0]"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "[1, 0, -1]"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[2, -3, -1]"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[-3, 3, 1]"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[1, -1, 0]"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[-2, 2, 3]"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "[2, -4, -5, -2]"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "[-2, 1, 0, 0]"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "[0, -3, 3]"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-2, -5, 5]"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[1, 0, -1, 0]"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 6,
+    "original" : {
+      "p" : "[0, -1, 1]"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[1, 1, 0, -1]"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "[1, 0, -1, 0]"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "[3, 5, 4]"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "[0, 3, 1]"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "[-1, 2, -3, 0]"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "[-2, 2, 0]"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "[-1, 1, 0]"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "[-1, 0, 1]"
+    }
+  }
+]

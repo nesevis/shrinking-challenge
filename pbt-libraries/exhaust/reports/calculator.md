@@ -10,7 +10,7 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `div(value(0), add(value(0), value(0)))` |
 
-See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/calculatorFailures.md).
+See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/calculator.json).
 
 ## Performance
 
