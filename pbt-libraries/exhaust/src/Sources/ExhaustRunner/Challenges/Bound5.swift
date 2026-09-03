@@ -27,7 +27,7 @@ enum Bound5Challenge {
         }
 
         var description: String {
-            "Bound5(a: \(a), b: \(b), c: \(c), d: \(d), e: \(e))"
+            "(\(a), \(b), \(c), \(d), \(e))"
         }
     }
     

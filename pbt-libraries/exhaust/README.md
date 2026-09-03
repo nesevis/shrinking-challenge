@@ -6,7 +6,7 @@ The library is packaged as a public API module that consumes a pre-compiled core
 
 ## Exhaust's Shrinking Approach
 
-Exhaust's reducer is a graph-based, dependency-aware integrated shrinker. It does not require any hints or generator co-design.
+Exhaust's reducer is a graph-based, dependency-aware integrated shrinker. It does not require any hints or specific generator co-design to enable shrinking.
 
 All constraints expressed during generation are preserved during shrinking.
 
@@ -32,7 +32,7 @@ All constraints expressed during generation are preserved during shrinking.
 
 All figures are means across 1,000 single-threaded runs on an M4 Max running macOS 26.4. 
 
-This is an unoptimised debug build, mirroring the experience of using Exhaust inside a `swift test` target rather than a best-case release benchmark.
+This is an unoptimised debug build, mirroring the experience of using Exhaust inside a `swift test` target on macOS rather than a best-case release benchmark.
 
 See each linked report for counterexample(s) and statistical breakdown.
 

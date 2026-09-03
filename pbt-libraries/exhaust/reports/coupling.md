@@ -10,7 +10,7 @@ Exhaust produced 1 distinct counterexample across 1000 test runs:
 |---|---|
 | 100% | `[1, 0]` |
 
-See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/couplingFailures.md).
+See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/coupling.json).
 
 ## Performance
 

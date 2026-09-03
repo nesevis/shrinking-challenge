@@ -12,7 +12,7 @@ Exhaust produced 3 distinct counterexamples across 1000 test runs:
 | 33.7% | `(0, (0, (1, None, None), None), (0, None, None))` |
 | 1.7% | `(0, None, (0, None, (0, (0, None, None), (1, None, None))))` |
 
-See [the first 50 failing inputs before shrinking](/pbt-libraries/exhaust/failures/binaryHeapFailures.md).
+See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/binaryHeap.json).
 
 ## Performance
 

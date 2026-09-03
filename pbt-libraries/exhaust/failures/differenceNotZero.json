@@ -1,0 +1,1002 @@
+[
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "[17, 17]"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "[16, 16]"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 146,
+    "original" : {
+      "p" : "[45, 45]"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "[20, 20]"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 120,
+    "original" : {
+      "p" : "[32, 32]"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[189, 189]"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "[20, 20]"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "[123, 123]"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 153,
+    "original" : {
+      "p" : "[49, 49]"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[18, 18]"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 155,
+    "original" : {
+      "p" : "[50, 50]"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 129,
+    "original" : {
+      "p" : "[37, 37]"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 118,
+    "original" : {
+      "p" : "[31, 31]"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 136,
+    "original" : {
+      "p" : "[40, 40]"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "[17, 17]"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "[65, 65]"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 146,
+    "original" : {
+      "p" : "[45, 45]"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 119,
+    "original" : {
+      "p" : "[3739, 3739]"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[18, 18]"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 96,
+    "original" : {
+      "p" : "[283, 283]"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 125,
+    "original" : {
+      "p" : "[35, 35]"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 134,
+    "original" : {
+      "p" : "[39, 39]"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 92,
+    "original" : {
+      "p" : "[19, 19]"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 109,
+    "original" : {
+      "p" : "[27, 27]"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 97,
+    "original" : {
+      "p" : "[22, 22]"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[18, 18]"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[188, 188]"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 132,
+    "original" : {
+      "p" : "[38, 38]"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "[16, 16]"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 109,
+    "original" : {
+      "p" : "[1166, 1166]"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "[121, 121]"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 127,
+    "original" : {
+      "p" : "[36, 36]"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "[17, 17]"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 115,
+    "original" : {
+      "p" : "[30, 30]"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 99,
+    "original" : {
+      "p" : "[23, 23]"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 109,
+    "original" : {
+      "p" : "[27, 27]"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[18, 18]"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[18, 18]"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[18, 18]"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "[14, 14]"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 70,
+    "original" : {
+      "p" : "[11, 11]"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 109,
+    "original" : {
+      "p" : "[27, 27]"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "[15, 15]"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "[15, 15]"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "[112, 112]"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "[17, 17]"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "[116, 116]"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "[14, 14]"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "[75, 75]"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 112,
+    "original" : {
+      "p" : "[29, 29]"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "[14, 14]"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 70,
+    "original" : {
+      "p" : "[11, 11]"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 92,
+    "original" : {
+      "p" : "[19, 19]"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[137, 137]"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "[16, 16]"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 36,
+    "original" : {
+      "p" : "[10, 10]"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 171,
+    "original" : {
+      "p" : "[57, 57]"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 70,
+    "original" : {
+      "p" : "[11, 11]"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "[15, 15]"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 132,
+    "original" : {
+      "p" : "[38, 38]"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "[75, 75]"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 74,
+    "original" : {
+      "p" : "[12, 12]"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 89,
+    "original" : {
+      "p" : "[144, 144]"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 96,
+    "original" : {
+      "p" : "[21, 21]"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 134,
+    "original" : {
+      "p" : "[39, 39]"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 70,
+    "original" : {
+      "p" : "[11, 11]"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 155,
+    "original" : {
+      "p" : "[50, 50]"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 110,
+    "original" : {
+      "p" : "[28, 28]"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 70,
+    "original" : {
+      "p" : "[11, 11]"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "[15, 15]"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "[66, 66]"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "[13, 13]"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "[99, 99]"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[178, 178]"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 109,
+    "original" : {
+      "p" : "[27, 27]"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 103,
+    "original" : {
+      "p" : "[25, 25]"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 115,
+    "original" : {
+      "p" : "[30, 30]"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "[96, 96]"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 153,
+    "original" : {
+      "p" : "[49, 49]"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "[179, 179]"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "[10, 10]"
+    }
+  }
+]

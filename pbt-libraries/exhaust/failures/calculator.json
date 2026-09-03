@@ -1,0 +1,1002 @@
+[
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(490501599849), div(value(-4038979293), div(value(-62787300169), value(719350513183))))"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "div(div(value(-280969952), div(value(-85864842), value(230643489))), div(value(-200464671), value(-127104315)))"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "add(add(value(0), value(-1)), add(add(value(1), value(-1)), div(value(0), add(value(-1), value(1)))))"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(add(value(-144272942234), value(-74969344083)), div(value(69649295814), value(-98321038261)))"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(div(value(4), value(4)), div(value(-2), value(4)))"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-398507), div(value(-234285), value(355525)))"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(add(value(6862973), value(9513938)), div(value(14971660), add(add(value(-15168903), value(-5950918)), add(value(-8251807), value(-14609528)))))"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-98), div(value(-92), value(-268)))"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(12303), div(value(10008), value(-12087)))"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(add(value(443), value(-254)), div(value(66), value(-82)))"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(div(div(value(1), value(-1)), div(value(0), value(1))), add(value(-1), div(div(value(0), value(-1)), add(value(-1), value(1)))))"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(value(-11732183), div(value(17434387), add(value(12112611), value(13386084))))"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(value(-1701733), div(value(-111539), add(value(2579235), value(-3815204))))"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "add(div(value(1991696), div(value(-268725), value(1746335))), value(-2389259))"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "div(value(-481), div(div(div(value(956), value(822)), value(-2475)), div(value(139), value(1692))))"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(value(-4877), div(value(2996), add(value(833), value(6010))))"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(div(value(0), div(value(0), value(-1))), add(value(-1), add(value(-1), value(0))))"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(div(value(0), div(value(-7), value(7))), div(value(-2), value(8)))"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-3848), div(value(-4873), value(5700)))"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(div(value(-7), value(-1)), div(value(-1), value(6)))"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-431329610), div(value(-111625310), value(-322808723)))"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(div(value(-445232574), value(-485932624)), div(add(value(117780000), value(649913348)), div(value(59508094), value(99459293))))"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(div(value(-458), value(-591)), div(div(value(-35), value(-353)), add(value(-172), value(-307))))"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(div(value(1), value(1)), div(value(0), add(value(-1), value(-1))))"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(add(value(-2720814), value(-2867664)), div(div(value(-797092), value(2329615)), value(-6174299)))"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(1), div(value(-1), value(-5)))"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 24,
+    "original" : {
+      "p" : "add(value(19), div(add(value(-11), value(-3)), div(value(-16), add(value(31), value(-8)))))"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(add(value(-10), value(58)), div(value(-72), div(div(value(65), value(53)), value(-14))))"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(add(value(31), value(-19)), div(div(value(15), value(-23)), value(20)))"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(div(value(167659), div(value(-579327), value(-642442))), value(-75429))"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "add(div(value(-3), div(value(-4), value(8))), value(-6))"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(25), div(value(9), value(95)))"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(add(value(-163), add(value(-116), value(-215))), div(value(-2), value(-29)))"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(value(10186709), add(div(value(5639278), value(6869797)), div(div(value(-6210684), value(-18666242)), div(value(20158407), value(-2764090)))))"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(add(div(value(6485), value(-79)), add(value(-9221), value(-5042))), div(value(4328), value(5436)))"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 25,
+    "original" : {
+      "p" : "add(value(-1), div(div(value(1), value(1)), div(value(0), value(-1))))"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(value(-20), div(add(add(value(-17), value(17)), value(-8)), value(-16)))"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(div(value(-4055685132), value(4951695936)), div(value(5753329218), value(8385624551)))"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-9), div(value(12), add(value(-25), value(-28))))"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(value(-691127), div(value(1831378), add(value(-7283490), value(-4744726))))"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(div(value(-784064), value(-1119393)), div(div(value(-691749), value(-464342)), value(-1316224)))"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "div(div(value(-2), value(3)), add(value(3), value(-3)))"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 19,
+    "original" : {
+      "p" : "add(div(value(617), div(value(2633), value(2711))), value(3114))"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(div(value(-1835920), div(value(70125919), value(104083910))), add(div(value(86256131), value(135192764)), value(10633717)))"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(value(59011882), div(value(34570404), value(50562801)))"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "add(add(div(value(41), value(-10)), value(-71)), div(div(value(56), value(20)), div(value(-20), value(34))))"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 29,
+    "original" : {
+      "p" : "div(div(value(4784), div(value(-8712), value(-13327))), value(14707))"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(div(div(add(value(-42479), value(27561)), value(-70714)), value(-82553)), div(value(28091), value(-95589)))"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(value(1), add(value(1), value(-1)))"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "div(div(value(-46), div(value(-46), value(107))), add(add(value(21), value(-4)), add(value(67), add(value(-105), value(-94)))))"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "add(div(div(value(-141552385749), value(-9059388658)), div(value(50996285771), value(127482260451))), div(value(178150515498), value(-20983040685)))"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(div(add(value(0), value(1)), add(value(-1), value(0))), add(value(-1), value(1)))"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(22594), div(div(value(-8122), value(-15296)), add(value(-19743), value(4023))))"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(add(add(value(-3), add(value(6), value(-7))), div(value(-8), div(value(-1), value(-7)))), value(6))"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "div(add(div(div(div(value(-254132219), value(-75351652)), value(-467033597)), value(411285455)), div(value(-395027151), div(div(value(142852942), value(-13676763)), value(-217196221)))), div(div(value(349551434), value(-137708026)), div(value(113193325), value(-89972828))))"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(225), div(add(div(value(396), value(404)), div(value(-317), value(90))), value(235)))"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(div(div(value(-75443), value(-65547)), add(value(-184241), value(278090))), div(add(div(value(-4490), value(-311057)), value(-111810)), add(value(-224536), value(-253404))))"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "add(div(add(value(21), value(-1)), div(value(9), value(-26))), div(value(32), value(1)))"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(value(-10), div(value(1), value(-11)))"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(value(1), div(value(0), value(-1)))"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "div(add(div(value(166), value(-167)), div(add(value(-141), value(-90)), add(value(14), value(-174)))), div(add(value(-70), value(64)), value(8)))"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(value(995), div(value(310), value(913)))"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "add(div(div(value(-643302394), value(1709896070)), div(value(-514684997), value(984604892))), value(-654963591))"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(add(value(80990237219), value(72671128624)), div(value(34970680656), value(-86719302318)))"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(div(value(206087961504), div(value(-16110689563), value(-91496433308))), value(114088283061))"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(div(value(-557), value(353)), div(add(value(346), value(-883)), div(value(-431), value(-456))))"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-829520685585755), div(value(-8428469373712183), div(value(-418912304421440), value(5414307776123000))))"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "add(div(value(14336), div(value(-8135), value(-13658))), add(value(2), value(-5500)))"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-141311), div(value(93663), value(-102075)))"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(value(-31945), div(value(-1674), div(value(35314), add(value(-30441), value(-17926)))))"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "div(value(30), div(value(37), value(47)))"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(1), div(value(0), value(1)))"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(div(value(171415), div(value(298905), value(1422156))), add(value(-1131567), value(-514785)))"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(add(value(-3), value(1)), div(value(0), value(2)))"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(div(value(6), div(value(1), value(-14))), div(value(12), value(-5)))"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-2392130937), div(value(868020512), value(2380575628)))"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(add(value(23988683), value(110135642)), div(value(76980376), value(-290448992)))"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(add(value(-34), add(value(20), value(-33))), div(value(4), value(8)))"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 25,
+    "original" : {
+      "p" : "add(value(-853), div(div(value(-11949), div(value(2955), value(6266))), add(div(add(value(1965), value(10632)), div(value(763), value(-5140))), value(7467))))"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "add(add(div(value(-21993669), div(value(7651813), value(-18080158))), value(-2380638)), add(add(add(value(19346439), value(9328865)), value(31601048)), div(value(-5188713), value(37934663))))"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(div(add(add(value(-242611768354), value(-745445275702)), div(value(-1324352273538), value(882593140448))), value(987925686353)), div(add(value(-195584059775), value(-548348081234)), value(-1144701241115)))"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "add(value(-197334169271), div(value(82939226849), div(value(-28523046862), value(148822485735))))"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(value(-8723), div(value(-8648), value(13803)))"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(div(value(-16), value(-7)), div(value(7), div(value(-22), div(value(-13), div(value(-3), value(-16))))))"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "div(add(value(12942), value(-2866)), div(value(-8439), value(-9762)))"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(div(value(-193869), value(95825)), div(value(62484), value(-355976)))"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(value(68392959802045), div(value(7891557305778), value(47260337924841)))"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 10,
+    "original" : {
+      "p" : "div(value(-1640), div(value(4210), value(-4820)))"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 9,
+    "original" : {
+      "p" : "div(value(-1160), div(value(960), value(-1021)))"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(div(value(54813), value(-58278)), div(value(52199), value(53615)))"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "add(value(-206843816), div(value(-153344269), div(value(-86870803), value(-149114871))))"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 20,
+    "original" : {
+      "p" : "div(div(div(div(value(-14829315), value(3933103)), div(value(-2616050), value(-12028623))), add(value(8624141), add(value(15947913), value(-17339800)))), value(-11774386))"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 20,
+    "original" : {
+      "p" : "add(div(value(751), value(254)), div(value(-965), add(div(value(-458), div(value(-869), value(-882))), value(792))))"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(value(-98326568729), div(value(6964720977), value(28051863891)))"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 8,
+    "original" : {
+      "p" : "div(value(0), div(value(0), value(-2)))"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 11,
+    "original" : {
+      "p" : "div(add(div(value(59005780), value(-243109725)), add(value(300909463), value(41994243))), div(value(57961720), value(-132969007)))"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "div(add(add(value(123600118248), value(-16344328869)), div(value(-27008331097), value(-184120901175))), div(div(value(-200724291044), value(-176433925495)), div(value(-148825054364), value(-202733648646))))"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "div(value(336747054236074), div(div(value(1397235596493838), add(value(1035253369941164), value(-198736921188880))), value(-768417583875197)))"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(div(add(value(109), value(-85)), value(-118)), div(add(value(75), div(value(97), value(43))), value(117)))"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "div(div(value(33), div(value(51), value(-71))), div(value(-47), add(value(-39), value(-42))))"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "div(value(0), add(value(0), value(0)))"
+    }
+  }
+]
