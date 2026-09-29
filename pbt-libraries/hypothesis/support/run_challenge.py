@@ -70,7 +70,7 @@ def main(filename):
         test = with_seed(seed)(
             settings(
                 database=None,
-                suppress_health_check=HealthCheck.all(),
+                suppress_health_check=list(HealthCheck),
                 max_examples=10 ** 6,
                 phases=[Phase.generate, Phase.shrink],
                 verbosity=Verbosity.quiet,
