@@ -74,9 +74,27 @@ final class Stats {
         let iters = Statistics(itersToFailure)
         let walls = Statistics(wallTimes)
         
-        print("\(challenge.description), \(iterations) runs, \(iterations - missed) failures:")
+        if challenge.reflectsInput {
+            print("\(challenge.description), reflected")
+        } else {
+            print("\(challenge.description), \(iterations) runs, \(iterations - missed) failures:")
+        }
+        
+        var fields = [
+            ("evaluations", evals, UInt(1)),
+            ("reductions (ms)", reductions, 2),
+            ("generation (ms)", generations, 3),
+            ("screening (ms)", screening, 3),
+            ("total (ms)", totals, 3),
+            ("wall (ms)", walls, 3),
+            ("iterations to failure", iters, 1)
+        ]
+        
+        if challenge.reflectsInput {
+            fields = [fields[0], fields[1], fields[4], fields[5]]
+        }
 
-        for (title, stats, decs) in [("evaluations", evals, UInt(1)), ("reductions (ms)", reductions, 2), ("generation (ms)", generations, 3), ("screening (ms)", screening, 3), ("total (ms)", totals, 3), ("wall (ms)", walls, 3), ("iterations to failure", iters, 1)] {
+        for (title, stats, decs) in fields {
             print("  \(title): min=\(stats.min.rounded(decimals: decs)) max=\(stats.max.rounded(decimals: decs)) median=\(stats.median.rounded(decimals: decs)) mean=\(stats.mean.rounded(decimals: decs)) (\(stats.ciLow.rounded(decimals: decs))—\(stats.ciHigh.rounded(decimals: decs)))")
         }
         
@@ -85,7 +103,11 @@ final class Stats {
 
         for example in examples {
             let percentage = ((Double(example.1.count) / Double(iterations - missed)) * 100).rounded(decimals: 2)
-            print("    \(percentage)% \(example.0) (\(example.1.count)) \(example.1.seeds.prefix(1))")
+            if challenge.reflectsInput {
+                print("    \(example.0)")
+            } else {
+                print("    \(percentage)% \(example.0) (\(example.1.count)) \(example.1.seeds.prefix(1))")
+            }
         }
     }
     
@@ -156,12 +178,14 @@ final class Stats {
                 : sorted[sorted.count / 2]
             let variance = sorted.map { pow($0 - mean, 2) }.reduce(0, +) / (count - 1)
             let stdError = sqrt(variance / count)
+            let ciLow = mean - 1.96 * stdError
+            let ciHigh = mean + 1.96 * stdError
             
             self.source = sorted
             self.min = sorted.min()!
             self.max = sorted.max()!
-            self.ciLow = mean - 1.96 * stdError
-            self.ciHigh = mean + 1.96 * stdError
+            self.ciLow = ciLow.isNaN ? mean : ciLow
+            self.ciHigh = ciHigh.isNaN ? mean : ciHigh
             self.mean = mean
             self.median = median
         }

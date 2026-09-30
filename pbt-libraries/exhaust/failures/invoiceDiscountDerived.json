@@ -1,0 +1,1002 @@
+[
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(39, 75, 22)"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "Invoice(193, 87, 5)"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "Invoice(12, 84, 1)"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(114, 77, 25)"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(19, 75, 44)"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 219,
+    "original" : {
+      "p" : "Invoice(121, 29, 48)"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 129,
+    "original" : {
+      "p" : "Invoice(28, 55, 15)"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "Invoice(19, 53, 1)"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(73, 52, 40)"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 214,
+    "original" : {
+      "p" : "Invoice(173, 31, 5)"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "Invoice(245, 84, 36)"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "Invoice(12, 84, 1)"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "Invoice(67, 19, 8)"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 121,
+    "original" : {
+      "p" : "Invoice(34, 36, 29)"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 131,
+    "original" : {
+      "p" : "Invoice(51, 57, 31)"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "Invoice(18, 56, 1)"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(68, 36, 17)"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 212,
+    "original" : {
+      "p" : "Invoice(38, 30, 44)"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 132,
+    "original" : {
+      "p" : "Invoice(47, 57, 26)"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "Invoice(18, 56, 1)"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "Invoice(66, 67, 15)"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 199,
+    "original" : {
+      "p" : "Invoice(29, 40, 35)"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 125,
+    "original" : {
+      "p" : "Invoice(47, 27, 35)"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "Invoice(22, 46, 1)"
+    }
+  },
+  {
+    "evaluations" : 86,
+    "original" : {
+      "p" : "Invoice(45, 70, 18)"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 139,
+    "original" : {
+      "p" : "Invoice(45, 65, 49)"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "Invoice(16, 63, 1)"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "Invoice(43, 67, 7)"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 206,
+    "original" : {
+      "p" : "Invoice(40, 34, 32)"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 123,
+    "original" : {
+      "p" : "Invoice(34, 39, 36)"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(78, 60, 9)"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(75, 41, 7)"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 202,
+    "original" : {
+      "p" : "Invoice(39, 26, 32)"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 139,
+    "original" : {
+      "p" : "Invoice(51, 64, 41)"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "Invoice(16, 63, 1)"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(187, 83, 7)"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 137,
+    "original" : {
+      "p" : "Invoice(66, 34, 8)"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "Invoice(16, 63, 1)"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(73, 71, 13)"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(75, 97, 18)"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "Invoice(11, 91, 1)"
+    }
+  },
+  {
+    "evaluations" : 126,
+    "original" : {
+      "p" : "Invoice(37, 36, 45)"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 131,
+    "original" : {
+      "p" : "Invoice(48, 48, 37)"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 86,
+    "original" : {
+      "p" : "Invoice(37, 71, 44)"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 118,
+    "original" : {
+      "p" : "Invoice(34, 46, 3)"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "Invoice(22, 46, 1)"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(36, 75, 36)"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(76, 35, 17)"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 127,
+    "original" : {
+      "p" : "Invoice(37, 44, 42)"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "Invoice(24, 42, 1)"
+    }
+  },
+  {
+    "evaluations" : 137,
+    "original" : {
+      "p" : "Invoice(118, 61, 40)"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "Invoice(17, 59, 1)"
+    }
+  },
+  {
+    "evaluations" : 118,
+    "original" : {
+      "p" : "Invoice(46, 22, 11)"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "Invoice(22, 46, 1)"
+    }
+  },
+  {
+    "evaluations" : 126,
+    "original" : {
+      "p" : "Invoice(110, 41, 29)"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 207,
+    "original" : {
+      "p" : "Invoice(41, 32, 44)"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(31, 78, 48)"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 86,
+    "original" : {
+      "p" : "Invoice(46, 71, 18)"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 129,
+    "original" : {
+      "p" : "Invoice(47, 48, 43)"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "Invoice(24, 42, 1)"
+    }
+  },
+  {
+    "evaluations" : 207,
+    "original" : {
+      "p" : "Invoice(28, 39, 46)"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(76, 73, 34)"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 128,
+    "original" : {
+      "p" : "Invoice(62, 52, 25)"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "Invoice(21, 48, 1)"
+    }
+  },
+  {
+    "evaluations" : 86,
+    "original" : {
+      "p" : "Invoice(85, 82, 5)"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "Invoice(12, 84, 1)"
+    }
+  },
+  {
+    "evaluations" : 134,
+    "original" : {
+      "p" : "Invoice(54, 51, 40)"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "Invoice(19, 53, 1)"
+    }
+  },
+  {
+    "evaluations" : 120,
+    "original" : {
+      "p" : "Invoice(36, 40, 7)"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(96, 42, 20)"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "Invoice(11, 91, 1)"
+    }
+  },
+  {
+    "evaluations" : 121,
+    "original" : {
+      "p" : "Invoice(32, 36, 31)"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 86,
+    "original" : {
+      "p" : "Invoice(22, 71, 36)"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 133,
+    "original" : {
+      "p" : "Invoice(36, 62, 46)"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "Invoice(17, 59, 1)"
+    }
+  },
+  {
+    "evaluations" : 123,
+    "original" : {
+      "p" : "Invoice(40, 26, 47)"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 127,
+    "original" : {
+      "p" : "Invoice(43, 53, 18)"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "Invoice(19, 53, 1)"
+    }
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(92, 52, 43)"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "Invoice(11, 91, 1)"
+    }
+  },
+  {
+    "evaluations" : 124,
+    "original" : {
+      "p" : "Invoice(47, 23, 35)"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "Invoice(22, 46, 1)"
+    }
+  },
+  {
+    "evaluations" : 245,
+    "original" : {
+      "p" : "Invoice(46, 47, 26)"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 123,
+    "original" : {
+      "p" : "Invoice(28, 45, 12)"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "Invoice(23, 44, 1)"
+    }
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(118, 78, 49)"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 75,
+    "original" : {
+      "p" : "Invoice(64, 76, 1)"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(74, 73, 38)"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 129,
+    "original" : {
+      "p" : "Invoice(50, 30, 35)"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "Invoice(21, 48, 1)"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "Invoice(37, 67, 18)"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(61, 78, 29)"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 125,
+    "original" : {
+      "p" : "Invoice(40, 29, 18)"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 207,
+    "original" : {
+      "p" : "Invoice(58, 40, 40)"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 129,
+    "original" : {
+      "p" : "Invoice(56, 29, 17)"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "Invoice(18, 56, 1)"
+    }
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(94, 55, 46)"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "Invoice(11, 91, 1)"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(106, 84, 48)"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "Invoice(12, 84, 1)"
+    }
+  },
+  {
+    "evaluations" : 122,
+    "original" : {
+      "p" : "Invoice(24, 54, 1)"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "Invoice(19, 53, 1)"
+    }
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(28, 84, 10)"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "Invoice(12, 84, 1)"
+    }
+  },
+  {
+    "evaluations" : 135,
+    "original" : {
+      "p" : "Invoice(65, 25, 7)"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "Invoice(16, 63, 1)"
+    }
+  },
+  {
+    "evaluations" : 211,
+    "original" : {
+      "p" : "Invoice(31, 38, 42)"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 212,
+    "original" : {
+      "p" : "Invoice(188, 39, 40)"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 127,
+    "original" : {
+      "p" : "Invoice(38, 49, 5)"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "Invoice(21, 48, 1)"
+    }
+  },
+  {
+    "evaluations" : 130,
+    "original" : {
+      "p" : "Invoice(60, 28, 3)"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "Invoice(17, 59, 1)"
+    }
+  },
+  {
+    "evaluations" : 130,
+    "original" : {
+      "p" : "Invoice(130, 53, 5)"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "Invoice(19, 53, 1)"
+    }
+  },
+  {
+    "evaluations" : 140,
+    "original" : {
+      "p" : "Invoice(66, 41, 28)"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "Invoice(16, 63, 1)"
+    }
+  },
+  {
+    "evaluations" : 83,
+    "original" : {
+      "p" : "Invoice(129, 86, 11)"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "Invoice(12, 84, 1)"
+    }
+  },
+  {
+    "evaluations" : 128,
+    "original" : {
+      "p" : "Invoice(20, 50, 43)"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "Invoice(20, 50, 1)"
+    }
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(15, 74, 46)"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(218, 78, 15)"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 131,
+    "original" : {
+      "p" : "Invoice(51, 53, 20)"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "Invoice(19, 53, 1)"
+    }
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(43, 69, 24)"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 132,
+    "original" : {
+      "p" : "Invoice(50, 38, 17)"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "Invoice(20, 50, 1)"
+    }
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(95, 57, 29)"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "Invoice(11, 91, 1)"
+    }
+  },
+  {
+    "evaluations" : 141,
+    "original" : {
+      "p" : "Invoice(61, 66, 19)"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "Invoice(16, 63, 1)"
+    }
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(67, 77, 38)"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "Invoice(13, 77, 1)"
+    }
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "Invoice(25, 70, 21)"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 78,
+    "original" : {
+      "p" : "Invoice(19, 72, 13)"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "Invoice(14, 72, 1)"
+    }
+  },
+  {
+    "evaluations" : 77,
+    "original" : {
+      "p" : "Invoice(67, 66, 1)"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 84,
+    "original" : {
+      "p" : "Invoice(71, 31, 35)"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  },
+  {
+    "evaluations" : 126,
+    "original" : {
+      "p" : "Invoice(42, 40, 45)"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 203,
+    "original" : {
+      "p" : "Invoice(47, 48, 35)"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "Invoice(28, 36, 1)"
+    }
+  },
+  {
+    "evaluations" : 136,
+    "original" : {
+      "p" : "Invoice(168, 61, 11)"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "Invoice(17, 59, 1)"
+    }
+  },
+  {
+    "evaluations" : 206,
+    "original" : {
+      "p" : "Invoice(38, 27, 15)"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "Invoice(25, 40, 1)"
+    }
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "Invoice(57, 70, 30)"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "Invoice(15, 67, 1)"
+    }
+  }
+]

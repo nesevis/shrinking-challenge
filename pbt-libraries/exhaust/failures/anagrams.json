@@ -1,0 +1,12 @@
+[
+  {
+    "evaluations" : 1222,
+    "original" : {
+      "p" : "(\"a gentle man and astronomer\", \"elegant man and moon starer\")"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "(\" \\0\", \"\\0 \")"
+    }
+  }
+]

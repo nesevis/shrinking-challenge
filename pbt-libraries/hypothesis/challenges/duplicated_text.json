@@ -1,0 +1,17 @@
+[
+    {
+        "evaluations": 30,
+        "generate_seconds": 0.0,
+        "original": {
+            "a": "'q7zq7zq7'",
+            "b": "'q7zq7zq7'"
+        },
+        "seed": 1336520150222393532,
+        "shrink_seconds": 0.005233833799138665,
+        "shrunk": {
+            "a": "'00000012'",
+            "b": "'00000012'"
+        },
+        "total_seconds": 0.00857533304952085
+    }
+]

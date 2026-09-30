@@ -31,5 +31,10 @@ These were:
 
 ${"##"} Performance
 
+% if n_runs == 1:
+In a single fixed-start run, Hypothesis performed ${max_cost} property evaluations,
+including the initial failing example. No generation phase was run.
+% else:
 Over ${n_runs} runs, Hypothesis performed between ${min_cost} and ${max_cost} evaluations during shrinking,
 with a mean cost of ${mean_est} (95% confidence interval ${mean_lower} - ${mean_upper}).
+% endif

@@ -1,0 +1,1002 @@
+[
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "983"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 29,
+    "original" : {
+      "p" : "993"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "942"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "980"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "906"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "929"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "905"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "942"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "954"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 27,
+    "original" : {
+      "p" : "923"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "910"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "910"
+    }
+  },
+  {
+    "evaluations" : 29,
+    "original" : {
+      "p" : "911"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "905"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "912"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "907"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "975"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 28,
+    "original" : {
+      "p" : "956"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "975"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "986"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "913"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "978"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "945"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "940"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "940"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "938"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "940"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 30,
+    "original" : {
+      "p" : "985"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "987"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "967"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "932"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "917"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "963"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "926"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "939"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "904"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "981"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "984"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "910"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "980"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "906"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "952"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 27,
+    "original" : {
+      "p" : "999"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 12,
+    "original" : {
+      "p" : "958"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "967"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "932"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "947"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "910"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "949"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "915"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "983"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "908"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 31,
+    "original" : {
+      "p" : "969"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "968"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "931"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "915"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 31,
+    "original" : {
+      "p" : "900"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "915"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 29,
+    "original" : {
+      "p" : "911"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "966"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "915"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "912"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "967"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "932"
+    }
+  },
+  {
+    "evaluations" : 27,
+    "original" : {
+      "p" : "923"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "994"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "996"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "922"
+    }
+  },
+  {
+    "evaluations" : 30,
+    "original" : {
+      "p" : "985"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "941"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "904"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "979"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "978"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "909"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "975"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "916"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "906"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "906"
+    }
+  },
+  {
+    "evaluations" : 27,
+    "original" : {
+      "p" : "923"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 18,
+    "original" : {
+      "p" : "964"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "927"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "904"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "990"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "901"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "971"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "957"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "949"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "901"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "928"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "905"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "905"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "928"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "909"
+    }
+  },
+  {
+    "evaluations" : 13,
+    "original" : {
+      "p" : "915"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "935"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "902"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "913"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "908"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "987"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "984"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "910"
+    }
+  },
+  {
+    "evaluations" : 29,
+    "original" : {
+      "p" : "948"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "984"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "910"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "1000"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "926"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "924"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "935"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "902"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "981"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "940"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "921"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "978"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "992"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "918"
+    }
+  },
+  {
+    "evaluations" : 32,
+    "original" : {
+      "p" : "937"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "941"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "934"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "981"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "913"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 16,
+    "original" : {
+      "p" : "982"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "913"
+    }
+  },
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "981"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "991"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "917"
+    }
+  },
+  {
+    "evaluations" : 27,
+    "original" : {
+      "p" : "999"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "925"
+    }
+  },
+  {
+    "evaluations" : 14,
+    "original" : {
+      "p" : "909"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "909"
+    }
+  }
+]

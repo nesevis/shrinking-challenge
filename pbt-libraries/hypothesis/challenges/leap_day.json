@@ -1,0 +1,15 @@
+[
+    {
+        "evaluations": 25,
+        "generate_seconds": 0.0,
+        "original": {
+            "moment": "datetime.datetime(2088, 2, 29, 13, 47)"
+        },
+        "seed": 5791047475824272970,
+        "shrink_seconds": 0.008827290963381529,
+        "shrunk": {
+            "moment": "datetime.datetime(2000, 2, 29, 0, 0)"
+        },
+        "total_seconds": 0.009262541076168418
+    }
+]

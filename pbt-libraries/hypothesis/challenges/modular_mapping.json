@@ -1,0 +1,1302 @@
+[
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.022231000009924173,
+        "original": {
+            "value": "927"
+        },
+        "seed": 13199079536553334994,
+        "shrink_seconds": 0.0022556250914931297,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.025936000049114227
+    },
+    {
+        "evaluations": 14,
+        "generate_seconds": 0.002776541979983449,
+        "original": {
+            "value": "930"
+        },
+        "seed": 16707721730164704101,
+        "shrink_seconds": 0.001726625021547079,
+        "shrunk": {
+            "value": "930"
+        },
+        "total_seconds": 0.00534020783379674
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0025588329881429672,
+        "original": {
+            "value": "927"
+        },
+        "seed": 1846416566041222508,
+        "shrink_seconds": 0.0032711250241845846,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.006599332904443145
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.003996083978563547,
+        "original": {
+            "value": "972"
+        },
+        "seed": 16684073211489983612,
+        "shrink_seconds": 0.0022907911334186792,
+        "shrunk": {
+            "value": "935"
+        },
+        "total_seconds": 0.00707029108889401
+    },
+    {
+        "evaluations": 22,
+        "generate_seconds": 0.0024673331063240767,
+        "original": {
+            "value": "918"
+        },
+        "seed": 11617004711506051171,
+        "shrink_seconds": 0.004174333997070789,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.007472541881725192
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.002267250092700124,
+        "original": {
+            "value": "928"
+        },
+        "seed": 6926352704787234754,
+        "shrink_seconds": 0.003191625000908971,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.00621945783495903
+    },
+    {
+        "evaluations": 22,
+        "generate_seconds": 0.005133208818733692,
+        "original": {
+            "value": "927"
+        },
+        "seed": 5786334802397726087,
+        "shrink_seconds": 0.002019542036578059,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.007905707927420735
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.003912749933078885,
+        "original": {
+            "value": "966"
+        },
+        "seed": 6989768792976738603,
+        "shrink_seconds": 0.003361999988555908,
+        "shrunk": {
+            "value": "913"
+        },
+        "total_seconds": 0.008079916005954146
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.0031104160007089376,
+        "original": {
+            "value": "941"
+        },
+        "seed": 1234129445407499395,
+        "shrink_seconds": 0.003300083102658391,
+        "shrunk": {
+            "value": "934"
+        },
+        "total_seconds": 0.007209334056824446
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.002249667188152671,
+        "original": {
+            "value": "958"
+        },
+        "seed": 1767696073905286862,
+        "shrink_seconds": 0.0027405410073697567,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.005822208011522889
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.004256417043507099,
+        "original": {
+            "value": "905"
+        },
+        "seed": 4908469461345539887,
+        "shrink_seconds": 0.00202579190954566,
+        "shrunk": {
+            "value": "905"
+        },
+        "total_seconds": 0.007080500014126301
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0034897089935839176,
+        "original": {
+            "value": "989"
+        },
+        "seed": 12750123063365072600,
+        "shrink_seconds": 0.003203375032171607,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.007474458077922463
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0025790000800043344,
+        "original": {
+            "value": "964"
+        },
+        "seed": 14358369864178302329,
+        "shrink_seconds": 0.0031913339626044035,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.0066248339135199785
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.002612791024148464,
+        "original": {
+            "value": "998"
+        },
+        "seed": 14247927210025989714,
+        "shrink_seconds": 0.003203874919563532,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.006568958982825279
+    },
+    {
+        "evaluations": 36,
+        "generate_seconds": 0.008756415918469429,
+        "original": {
+            "value": "996"
+        },
+        "seed": 15686405324149670745,
+        "shrink_seconds": 0.00491524999961257,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.014462624909356236
+    },
+    {
+        "evaluations": 26,
+        "generate_seconds": 0.006249541882425547,
+        "original": {
+            "value": "936"
+        },
+        "seed": 17589007314666374273,
+        "shrink_seconds": 0.0037031248211860657,
+        "shrunk": {
+            "value": "913"
+        },
+        "total_seconds": 0.010779374977573752
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.004007874988019466,
+        "original": {
+            "value": "924"
+        },
+        "seed": 3009217068721857872,
+        "shrink_seconds": 0.0034795000683516264,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.008330834098160267
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.0024513748940080404,
+        "original": {
+            "value": "962"
+        },
+        "seed": 7977400365463563442,
+        "shrink_seconds": 0.002838041866198182,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.006125417072325945
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.005063625052571297,
+        "original": {
+            "value": "986"
+        },
+        "seed": 3350959096678485115,
+        "shrink_seconds": 0.003093208186328411,
+        "shrunk": {
+            "value": "901"
+        },
+        "total_seconds": 0.008951916126534343
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0026624579913914204,
+        "original": {
+            "value": "904"
+        },
+        "seed": 16355453135455487365,
+        "shrink_seconds": 0.003244082909077406,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.006691083079203963
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.0054665831848979,
+        "original": {
+            "value": "940"
+        },
+        "seed": 4384947654477679059,
+        "shrink_seconds": 0.0025869589298963547,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.008837291970849037
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.002551875077188015,
+        "original": {
+            "value": "956"
+        },
+        "seed": 6662534236568119809,
+        "shrink_seconds": 0.0034126669634133577,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.00680187507532537
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.0033966670744121075,
+        "original": {
+            "value": "920"
+        },
+        "seed": 8177564810219332842,
+        "shrink_seconds": 0.003381958929821849,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.00759895914234221
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.004261957947164774,
+        "original": {
+            "value": "964"
+        },
+        "seed": 5361085916389798643,
+        "shrink_seconds": 0.0016937910113483667,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.006757041905075312
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.004813000094145536,
+        "original": {
+            "value": "965"
+        },
+        "seed": 5830998996214747880,
+        "shrink_seconds": 0.0033756671473383904,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.0090125419665128
+    },
+    {
+        "evaluations": 16,
+        "generate_seconds": 0.002364374930039048,
+        "original": {
+            "value": "1000"
+        },
+        "seed": 17499580384836807291,
+        "shrink_seconds": 0.002628625137731433,
+        "shrunk": {
+            "value": "926"
+        },
+        "total_seconds": 0.005798624828457832
+    },
+    {
+        "evaluations": 23,
+        "generate_seconds": 0.00237724999897182,
+        "original": {
+            "value": "974"
+        },
+        "seed": 13836524564937027417,
+        "shrink_seconds": 0.005035125184804201,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.008331167045980692
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0033149169757962227,
+        "original": {
+            "value": "995"
+        },
+        "seed": 8804597144975695461,
+        "shrink_seconds": 0.0038674999959766865,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.008097500074654818
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.0026962500996887684,
+        "original": {
+            "value": "947"
+        },
+        "seed": 16888413366832640335,
+        "shrink_seconds": 0.0028260000981390476,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.00638091703876853
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0027910422068089247,
+        "original": {
+            "value": "960"
+        },
+        "seed": 3740693579042768471,
+        "shrink_seconds": 0.0032849169801920652,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.006928249960765243
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0022527920082211494,
+        "original": {
+            "value": "923"
+        },
+        "seed": 17381632793349620213,
+        "shrink_seconds": 0.0032879579812288284,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.0063912090845406055
+    },
+    {
+        "evaluations": 33,
+        "generate_seconds": 0.01116862497292459,
+        "original": {
+            "value": "988"
+        },
+        "seed": 17277287529006142003,
+        "shrink_seconds": 0.0024271670263260603,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.014400667045265436
+    },
+    {
+        "evaluations": 22,
+        "generate_seconds": 0.0023473750334233046,
+        "original": {
+            "value": "964"
+        },
+        "seed": 7740862660172099818,
+        "shrink_seconds": 0.0035282080061733723,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.006674750009551644
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.004190332954749465,
+        "original": {
+            "value": "950"
+        },
+        "seed": 1088795539665766206,
+        "shrink_seconds": 0.0025747090112417936,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.007542166160419583
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0028632080648094416,
+        "original": {
+            "value": "964"
+        },
+        "seed": 549928516439792643,
+        "shrink_seconds": 0.0037642919924110174,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.0074038750026375055
+    },
+    {
+        "evaluations": 23,
+        "generate_seconds": 0.002274333033710718,
+        "original": {
+            "value": "959"
+        },
+        "seed": 1355455628157298341,
+        "shrink_seconds": 0.004965208005160093,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.008086374960839748
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.00472095818258822,
+        "original": {
+            "value": "942"
+        },
+        "seed": 557946543313018030,
+        "shrink_seconds": 0.003209959017112851,
+        "shrunk": {
+            "value": "905"
+        },
+        "total_seconds": 0.008762999903410673
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.004638083977624774,
+        "original": {
+            "value": "936"
+        },
+        "seed": 11058597123879830193,
+        "shrink_seconds": 0.0038254589308053255,
+        "shrunk": {
+            "value": "913"
+        },
+        "total_seconds": 0.009282124927267432
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.01012633298523724,
+        "original": {
+            "value": "905"
+        },
+        "seed": 13190897529808567268,
+        "shrink_seconds": 0.003339374903589487,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.014288167003542185
+    },
+    {
+        "evaluations": 43,
+        "generate_seconds": 0.014467958826571703,
+        "original": {
+            "value": "946"
+        },
+        "seed": 18167727401261441555,
+        "shrink_seconds": 0.0032987920567393303,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.018596000038087368
+    },
+    {
+        "evaluations": 26,
+        "generate_seconds": 0.006904916139319539,
+        "original": {
+            "value": "905"
+        },
+        "seed": 3510505770723788738,
+        "shrink_seconds": 0.0033080829307436943,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.011143208015710115
+    },
+    {
+        "evaluations": 26,
+        "generate_seconds": 0.0068875418510288,
+        "original": {
+            "value": "960"
+        },
+        "seed": 276735370333970743,
+        "shrink_seconds": 0.0035462500527501106,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.011257917154580355
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.0030285001266747713,
+        "original": {
+            "value": "942"
+        },
+        "seed": 16250127827407194010,
+        "shrink_seconds": 0.0027987919747829437,
+        "shrunk": {
+            "value": "905"
+        },
+        "total_seconds": 0.006617249920964241
+    },
+    {
+        "evaluations": 30,
+        "generate_seconds": 0.007957374909892678,
+        "original": {
+            "value": "948"
+        },
+        "seed": 15232828011246879300,
+        "shrink_seconds": 0.004265583120286465,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.013027790933847427
+    },
+    {
+        "evaluations": 33,
+        "generate_seconds": 0.011057874886319041,
+        "original": {
+            "value": "972"
+        },
+        "seed": 227605339908140481,
+        "shrink_seconds": 0.0028150000143796206,
+        "shrunk": {
+            "value": "913"
+        },
+        "total_seconds": 0.014761708909645677
+    },
+    {
+        "evaluations": 27,
+        "generate_seconds": 0.00452654086984694,
+        "original": {
+            "value": "964"
+        },
+        "seed": 2505018087052751510,
+        "shrink_seconds": 0.005859167082235217,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.01124112494289875
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.002600874984636903,
+        "original": {
+            "value": "948"
+        },
+        "seed": 14217937508043732309,
+        "shrink_seconds": 0.005203500157222152,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.008671458112075925
+    },
+    {
+        "evaluations": 14,
+        "generate_seconds": 0.0031447079963982105,
+        "original": {
+            "value": "921"
+        },
+        "seed": 7150438910173127514,
+        "shrink_seconds": 0.0017201248556375504,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.0056775829289108515
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.002719833981245756,
+        "original": {
+            "value": "933"
+        },
+        "seed": 5634600930594836458,
+        "shrink_seconds": 0.0033291669096797705,
+        "shrunk": {
+            "value": "930"
+        },
+        "total_seconds": 0.0068150421138852835
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.002311666961759329,
+        "original": {
+            "value": "964"
+        },
+        "seed": 5019781804584942641,
+        "shrink_seconds": 0.0035426670219749212,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.00661954190582037
+    },
+    {
+        "evaluations": 23,
+        "generate_seconds": 0.003530292073264718,
+        "original": {
+            "value": "972"
+        },
+        "seed": 15760616943223363459,
+        "shrink_seconds": 0.004096917109563947,
+        "shrunk": {
+            "value": "935"
+        },
+        "total_seconds": 0.008405957836657763
+    },
+    {
+        "evaluations": 15,
+        "generate_seconds": 0.0028809169307351112,
+        "original": {
+            "value": "964"
+        },
+        "seed": 10725240363078054431,
+        "shrink_seconds": 0.0017106670420616865,
+        "shrunk": {
+            "value": "913"
+        },
+        "total_seconds": 0.005355458939447999
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0025782908778637648,
+        "original": {
+            "value": "959"
+        },
+        "seed": 5725119649525270753,
+        "shrink_seconds": 0.0027910838834941387,
+        "shrunk": {
+            "value": "901"
+        },
+        "total_seconds": 0.0062063331715762615
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.002767832949757576,
+        "original": {
+            "value": "995"
+        },
+        "seed": 6148100749780068260,
+        "shrink_seconds": 0.0028434579726308584,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.006398875033482909
+    },
+    {
+        "evaluations": 25,
+        "generate_seconds": 0.005171791883185506,
+        "original": {
+            "value": "998"
+        },
+        "seed": 3308084749377174724,
+        "shrink_seconds": 0.005180040840059519,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.01115062483586371
+    },
+    {
+        "evaluations": 14,
+        "generate_seconds": 0.0022921250201761723,
+        "original": {
+            "value": "905"
+        },
+        "seed": 7371387675338310007,
+        "shrink_seconds": 0.0016898331232368946,
+        "shrunk": {
+            "value": "905"
+        },
+        "total_seconds": 0.004752582870423794
+    },
+    {
+        "evaluations": 24,
+        "generate_seconds": 0.006832459010183811,
+        "original": {
+            "value": "973"
+        },
+        "seed": 16224162528617190609,
+        "shrink_seconds": 0.002406124956905842,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.010005250107496977
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.0023240840528160334,
+        "original": {
+            "value": "964"
+        },
+        "seed": 6203735209103708746,
+        "shrink_seconds": 0.0035791669506579638,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.006678916048258543
+    },
+    {
+        "evaluations": 27,
+        "generate_seconds": 0.00880695809610188,
+        "original": {
+            "value": "987"
+        },
+        "seed": 10282065350326673308,
+        "shrink_seconds": 0.002426791936159134,
+        "shrunk": {
+            "value": "913"
+        },
+        "total_seconds": 0.012024041963741183
+    },
+    {
+        "evaluations": 13,
+        "generate_seconds": 0.0026364168152213097,
+        "original": {
+            "value": "931"
+        },
+        "seed": 13057062400492767590,
+        "shrink_seconds": 0.0017072500195354223,
+        "shrunk": {
+            "value": "934"
+        },
+        "total_seconds": 0.005119707901030779
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.002274999860674143,
+        "original": {
+            "value": "991"
+        },
+        "seed": 7159190407486524592,
+        "shrink_seconds": 0.002811624901369214,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.0058440829161554575
+    },
+    {
+        "evaluations": 26,
+        "generate_seconds": 0.007493625162169337,
+        "original": {
+            "value": "973"
+        },
+        "seed": 10830933322489993329,
+        "shrink_seconds": 0.0026163330767303705,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.010992875089868903
+    },
+    {
+        "evaluations": 16,
+        "generate_seconds": 0.0036160419695079327,
+        "original": {
+            "value": "930"
+        },
+        "seed": 12193897771500918200,
+        "shrink_seconds": 0.001660540932789445,
+        "shrunk": {
+            "value": "930"
+        },
+        "total_seconds": 0.006119125057011843
+    },
+    {
+        "evaluations": 26,
+        "generate_seconds": 0.005944415926933289,
+        "original": {
+            "value": "985"
+        },
+        "seed": 6277696634458995273,
+        "shrink_seconds": 0.004252125043421984,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.011016624979674816
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0031104169320315123,
+        "original": {
+            "value": "923"
+        },
+        "seed": 967111559200079545,
+        "shrink_seconds": 0.003369708079844713,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.007333084009587765
+    },
+    {
+        "evaluations": 13,
+        "generate_seconds": 0.0027259159833192825,
+        "original": {
+            "value": "917"
+        },
+        "seed": 11370036651115639453,
+        "shrink_seconds": 0.0018551249522715807,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.005483416840434074
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.004321584012359381,
+        "original": {
+            "value": "928"
+        },
+        "seed": 13638573475557024519,
+        "shrink_seconds": 0.0033688750118017197,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.008583666989579797
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.002326332964003086,
+        "original": {
+            "value": "948"
+        },
+        "seed": 10753653215796057077,
+        "shrink_seconds": 0.004363625077530742,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.007517040940001607
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.0033106249757111073,
+        "original": {
+            "value": "985"
+        },
+        "seed": 3820684306195606358,
+        "shrink_seconds": 0.004341375082731247,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.008493792032822967
+    },
+    {
+        "evaluations": 24,
+        "generate_seconds": 0.002350750146433711,
+        "original": {
+            "value": "955"
+        },
+        "seed": 850814618675319079,
+        "shrink_seconds": 0.005839708959683776,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.008978249970823526
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.002869166899472475,
+        "original": {
+            "value": "997"
+        },
+        "seed": 11938390801701434715,
+        "shrink_seconds": 0.003287083003669977,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.00706687499769032
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.002498541958630085,
+        "original": {
+            "value": "964"
+        },
+        "seed": 171942223182918425,
+        "shrink_seconds": 0.004232333041727543,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.007595208007842302
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.009797832928597927,
+        "original": {
+            "value": "903"
+        },
+        "seed": 16314275021894785522,
+        "shrink_seconds": 0.0037873329129070044,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.014397792052477598
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0025754589587450027,
+        "original": {
+            "value": "954"
+        },
+        "seed": 2338986260380523988,
+        "shrink_seconds": 0.002898000180721283,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.006338082952424884
+    },
+    {
+        "evaluations": 22,
+        "generate_seconds": 0.002317042089998722,
+        "original": {
+            "value": "985"
+        },
+        "seed": 13742529799441869514,
+        "shrink_seconds": 0.004292958183214068,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.007416999898850918
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.0022616658825427294,
+        "original": {
+            "value": "971"
+        },
+        "seed": 8529449284797141468,
+        "shrink_seconds": 0.003112833946943283,
+        "shrunk": {
+            "value": "934"
+        },
+        "total_seconds": 0.006208500126376748
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.002260332927107811,
+        "original": {
+            "value": "940"
+        },
+        "seed": 16257395716136099973,
+        "shrink_seconds": 0.003743999870494008,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.006800458068028092
+    },
+    {
+        "evaluations": 16,
+        "generate_seconds": 0.0026388750411570072,
+        "original": {
+            "value": "999"
+        },
+        "seed": 6136578877004387361,
+        "shrink_seconds": 0.00274649984203279,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.006166249979287386
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0030359169468283653,
+        "original": {
+            "value": "957"
+        },
+        "seed": 15827013963014642278,
+        "shrink_seconds": 0.0032741250470280647,
+        "shrunk": {
+            "value": "905"
+        },
+        "total_seconds": 0.0070676670875400305
+    },
+    {
+        "evaluations": 33,
+        "generate_seconds": 0.011348667088896036,
+        "original": {
+            "value": "947"
+        },
+        "seed": 4628125021544054996,
+        "shrink_seconds": 0.002586540998890996,
+        "shrunk": {
+            "value": "901"
+        },
+        "total_seconds": 0.014707457972690463
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0025745839811861515,
+        "original": {
+            "value": "952"
+        },
+        "seed": 402991078774268000,
+        "shrink_seconds": 0.0033015829976648092,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.0066576250828802586
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0025762910954654217,
+        "original": {
+            "value": "1000"
+        },
+        "seed": 7852413036180999166,
+        "shrink_seconds": 0.0038944589905440807,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.007229750044643879
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.004291666904464364,
+        "original": {
+            "value": "903"
+        },
+        "seed": 534479224396298714,
+        "shrink_seconds": 0.0038086671847850084,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.008874332997947931
+    },
+    {
+        "evaluations": 24,
+        "generate_seconds": 0.005461332853883505,
+        "original": {
+            "value": "960"
+        },
+        "seed": 3879697605443478732,
+        "shrink_seconds": 0.0033567079808562994,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.009606791893020272
+    },
+    {
+        "evaluations": 28,
+        "generate_seconds": 0.008502958109602332,
+        "original": {
+            "value": "995"
+        },
+        "seed": 17488673895854480527,
+        "shrink_seconds": 0.0027641658671200275,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.012107166927307844
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.002822292037308216,
+        "original": {
+            "value": "960"
+        },
+        "seed": 11465729661258147139,
+        "shrink_seconds": 0.003331708023324609,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.006982957944273949
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.002364249899983406,
+        "original": {
+            "value": "964"
+        },
+        "seed": 5649159598146858642,
+        "shrink_seconds": 0.0034000410232692957,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.0065637920051813126
+    },
+    {
+        "evaluations": 15,
+        "generate_seconds": 0.0023187920451164246,
+        "original": {
+            "value": "927"
+        },
+        "seed": 1101853640893455008,
+        "shrink_seconds": 0.0020832500886172056,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.0051916250959038734
+    },
+    {
+        "evaluations": 23,
+        "generate_seconds": 0.005965415854007006,
+        "original": {
+            "value": "981"
+        },
+        "seed": 16405868600972765822,
+        "shrink_seconds": 0.0031443750485777855,
+        "shrunk": {
+            "value": "917"
+        },
+        "total_seconds": 0.00994016695767641
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.0022450420074164867,
+        "original": {
+            "value": "927"
+        },
+        "seed": 7060351983217712991,
+        "shrink_seconds": 0.0020861248485744,
+        "shrunk": {
+            "value": "927"
+        },
+        "total_seconds": 0.005118417087942362
+    },
+    {
+        "evaluations": 26,
+        "generate_seconds": 0.006395458010956645,
+        "original": {
+            "value": "993"
+        },
+        "seed": 6275681187787034305,
+        "shrink_seconds": 0.0036510841455310583,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.010836707893759012
+    },
+    {
+        "evaluations": 13,
+        "generate_seconds": 0.0023683339823037386,
+        "original": {
+            "value": "934"
+        },
+        "seed": 15620389323346941547,
+        "shrink_seconds": 0.0022295420058071613,
+        "shrunk": {
+            "value": "934"
+        },
+        "total_seconds": 0.00538012501783669
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.0023369998671114445,
+        "original": {
+            "value": "942"
+        },
+        "seed": 1031854499413502927,
+        "shrink_seconds": 0.0028029999230057,
+        "shrunk": {
+            "value": "905"
+        },
+        "total_seconds": 0.005917042028158903
+    },
+    {
+        "evaluations": 22,
+        "generate_seconds": 0.005467250011861324,
+        "original": {
+            "value": "944"
+        },
+        "seed": 3669241303940757750,
+        "shrink_seconds": 0.002746082842350006,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.008983207866549492
+    },
+    {
+        "evaluations": 21,
+        "generate_seconds": 0.0050094169564545155,
+        "original": {
+            "value": "946"
+        },
+        "seed": 18247509756726379608,
+        "shrink_seconds": 0.0027317919302731752,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.008578042034059763
+    },
+    {
+        "evaluations": 20,
+        "generate_seconds": 0.0037948330864310265,
+        "original": {
+            "value": "918"
+        },
+        "seed": 12458103040902960494,
+        "shrink_seconds": 0.004015875048935413,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.00865245796740055
+    },
+    {
+        "evaluations": 18,
+        "generate_seconds": 0.003348208963871002,
+        "original": {
+            "value": "953"
+        },
+        "seed": 18088959978157477863,
+        "shrink_seconds": 0.003220750018954277,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.007325000129640102
+    },
+    {
+        "evaluations": 17,
+        "generate_seconds": 0.003098917193710804,
+        "original": {
+            "value": "946"
+        },
+        "seed": 1382130128094474903,
+        "shrink_seconds": 0.002735750051215291,
+        "shrunk": {
+            "value": "909"
+        },
+        "total_seconds": 0.006583707872778177
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.0023120841942727566,
+        "original": {
+            "value": "915"
+        },
+        "seed": 4709230348106278387,
+        "shrink_seconds": 0.0032297091092914343,
+        "shrunk": {
+            "value": "921"
+        },
+        "total_seconds": 0.006299583008512855
+    },
+    {
+        "evaluations": 19,
+        "generate_seconds": 0.0034308750182390213,
+        "original": {
+            "value": "927"
+        },
+        "seed": 8883376673129569777,
+        "shrink_seconds": 0.003260500030592084,
+        "shrunk": {
+            "value": "925"
+        },
+        "total_seconds": 0.007438665954396129
+    }
+]

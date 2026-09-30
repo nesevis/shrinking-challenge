@@ -1,0 +1,17 @@
+[
+    {
+        "evaluations": 798,
+        "generate_seconds": 0.0,
+        "original": {
+            "a": "'a gentle man and astronomer'",
+            "b": "'elegant man and moon starer'"
+        },
+        "seed": 5442746046257525168,
+        "shrink_seconds": 0.17697337502613664,
+        "shrunk": {
+            "a": "'000000000000000000000000011'",
+            "b": "'000000000000000000000000110'"
+        },
+        "total_seconds": 0.18363929097540677
+    }
+]

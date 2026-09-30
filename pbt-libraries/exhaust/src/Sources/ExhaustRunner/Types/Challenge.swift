@@ -21,6 +21,21 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case lengthList
     case nestedLists
     case reverse
+    
+    // The challenges below are not part of the official shrinking challenge
+    
+    case anagrams
+    case usernamePassword
+
+    case depthTwoBind
+    case depthThreeBind
+    case depthFourBind
+    case depthFiveBind
+    case depthSixBind
+    case modularMapping
+    case weightedLinearPreservation
+    case invoiceDiscount
+    case invoiceDiscountDerived
 
     var description: String {
         switch self {
@@ -37,6 +52,24 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
         case .lengthList: "Length List"
         case .nestedLists: "Nested Lists"
         case .reverse: "Reverse"
+        case .anagrams: "Anagrams"
+        case .usernamePassword: "Username and Password"
+        case .depthTwoBind: "Depth 2 Bind"
+        case .depthThreeBind: "Depth 3 Bind"
+        case .depthFourBind: "Depth 4 Bind"
+        case .depthFiveBind: "Depth 5 Bind"
+        case .depthSixBind: "Depth 6 Bind"
+        case .modularMapping: "Modular Mapping"
+        case .weightedLinearPreservation: "Weighted Linear Preservation"
+        case .invoiceDiscount: "Invoice Discount"
+        case .invoiceDiscountDerived: "Invoice Discount (derived)"
+        }
+    }
+    
+    var reflectsInput: Bool {
+        switch self {
+        case .anagrams, .usernamePassword: true
+        default: false
         }
     }
 }
