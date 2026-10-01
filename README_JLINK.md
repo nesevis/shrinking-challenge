@@ -1,0 +1,84 @@
+# The Shrinking Challenge
+
+One of the major aspects in which different property-based testing libraries differ
+is their approach towards shrinking. This repository collects
+concrete examples (challenges) for shrinking together with implementations
+in different frameworks so that one can compare and get a feel for
+weaknesses and strengths.
+
+## Contributing
+
+If you want to contribute
+
+- New challenges
+- New framework implementations
+- More information about shrinking and its different aspects
+
+...feel free to add a pull request!
+
+## What is Shrinking?
+
+The input data and parameters PBT library use to check a property's invariants,
+are fully or partially generated through pseudo-randomization.
+One problem that comes with random generation is the rather loose relation
+between the randomly chosen sample and the problem underlying the failing property.
+
+That's why it is important for PBT tools to try to find a simpler or even
+“the simplest” example that fails for (hopefully) the same reason.
+This searching phase is called shrinking because it starts with the original sample
+and tries to make it smaller and check the property again. The closer the shrunk
+sample is to the theoretically smallest one, the easier it is for the developer
+to recognize the real reason for a failing property.
+
+Two major difficulties in shrinking are:
+
+- Shrinking means searching in a (very) large space of possibilities.
+  Brute-forcing through all possible samples is usually not an option.
+- It is not always obvious what "smallest" means in a given domain or context.
+
+## Different Shrinking Approaches
+
+PBT libraries usually follow one of two approaches:
+
+- Users must define shrinking behaviour together with defining a generator.
+  This requires additional effort but also allows for domain-specific, targeted shrinking.
+- Shrinking behaviour is automatically derived from a generator's specification.
+  This is more convenient for users but may result in worse shrinking results in some cases.
+
+Another characteristic to differentiate between shrinking approaches is
+[type-based versus integrated shrinking](https://hypothesis.works/articles/integrated-shrinking/).
+
+## Challenges
+
+Some challenges were stolen from
+[this repository](https://github.com/mc-imperial/hypothesis-ecoop-2020-artifact/tree/master/smartcheck-benchmarks),
+which contains the code and data relevant to
+[this paper](https://drmaciver.github.io/papers/reduction-via-generation-preview.pdf).
+
+| Challenge                                           | Hypothesis                                                         | jqwik                                                      | PropEr                                                        | FsCheck                                                       | fast-check                                                      | CsCheck                                                      | Americium                                                      | elm-test                                                    | rapid                                                      | Exhaust                                                    |
+|-----------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|
+| [bound5](/challenges/bound5.md)                     | [report](/pbt-libraries/hypothesis/challenges/bound5.md)           | [report](/pbt-libraries/jqwik/reports/bound5.md)           |                                                               | [report](/pbt-libraries/fscheck/challenges/bound5.md)         | [report](/pbt-libraries/fast-check/reports/bound5.md)           | [report](/pbt-libraries/cscheck/reports/bound5.md)           | [report](/pbt-libraries/americium/reports/bound5.md)           | [report](/pbt-libraries/elm-test/reports/bound5.md)         | [report](/pbt-libraries/rapid/reports/bound5.md)           | [report](/pbt-libraries/exhaust/reports/bound5.md)         |
+| [large union list](/challenges/large_union_list.md) | [report](/pbt-libraries/hypothesis/challenges/large_union_list.md) | [report](/pbt-libraries/jqwik/reports/large_union_list.md) | [report](pbt-libraries/proper/challenges/large_union_list.md) | [report](/pbt-libraries/fscheck/challenges/LargeUnionList.md) | [report](/pbt-libraries/fast-check/reports/large_union_list.md) | [report](/pbt-libraries/cscheck/reports/large_union_list.md) | [report](/pbt-libraries/americium/reports/large_union_list.md) | [report](/pbt-libraries/elm-test/reports/largeUnionList.md) | [report](/pbt-libraries/rapid/reports/large_union_list.md) | [report](/pbt-libraries/exhaust/reports/largeUnionList.md) |
+| [reverse](/challenges/reverse.md)                   | [report](/pbt-libraries/hypothesis/challenges/reverse.md)          | [report](/pbt-libraries/jqwik/reports/reverse.md)          | [report](pbt-libraries/proper/challenges/reverse.md)          | [report](/pbt-libraries/fscheck/challenges/Reverse.md)        | [report](/pbt-libraries/fast-check/reports/reverse.md)          | [report](/pbt-libraries/cscheck/reports/reverse.md)          | [report](/pbt-libraries/americium/reports/reverse.md)          | [report](/pbt-libraries/elm-test/reports/reverse.md)        | [report](/pbt-libraries/rapid/reports/reverse.md)          | [report](/pbt-libraries/exhaust/reports/reverse.md)        |
+| [calculator](/challenges/calculator.md)             | [report](/pbt-libraries/hypothesis/challenges/calculator.md)       | [report](/pbt-libraries/jqwik/reports/calculator.md)       | [report](pbt-libraries/proper/challenges/calculator.md)       |                                                               | [report](/pbt-libraries/fast-check/reports/calculator.md)       | [report](/pbt-libraries/cscheck/reports/calculator.md)       | [report](/pbt-libraries/americium/reports/calculator.md)       | [report](/pbt-libraries/elm-test/reports/calculator.md)     |                                                            | [report](/pbt-libraries/exhaust/reports/calculator.md)     |
+| [length list](/challenges/lengthlist.md)            | [report](/pbt-libraries/hypothesis/challenges/lengthlist.md)       | [report](/pbt-libraries/jqwik/reports/lengthlist.md)       | [report](pbt-libraries/proper/challenges/lengthlist.md)       |                                                               | [report](/pbt-libraries/fast-check/reports/lengthlist.md)       | [report](/pbt-libraries/cscheck/reports/lengthlist.md)       | [report](/pbt-libraries/americium/reports/lengthlist.md)       | [report](/pbt-libraries/elm-test/reports/lengthList.md)     | [report](/pbt-libraries/rapid/reports/lengthlist.md)       | [report](/pbt-libraries/exhaust/reports/lengthList.md)     |
+| [difference](/challenges/difference.md)             |                                                                    | [report](/pbt-libraries/jqwik/reports/difference.md)       |                                                               |                                                               |                                                                 | [report](/pbt-libraries/cscheck/reports/difference.md)       | [report](/pbt-libraries/americium/reports/difference.md)       | [report](/pbt-libraries/elm-test/reports/difference.md)     | [report](/pbt-libraries/rapid/reports/difference.md)       | [report](/pbt-libraries/exhaust/reports/difference.md)     |
+| [binheap](/challenges/binheap.md)                   |                                                                    | [report](/pbt-libraries/jqwik/reports/binheap.md)          |                                                               |                                                               |                                                                 | [report](/pbt-libraries/cscheck/reports/binheap.md)          | [report](/pbt-libraries/americium/reports/binheap.md)          | [report](/pbt-libraries/elm-test/reports/binHeap.md)        |                                                            | [report](/pbt-libraries/exhaust/reports/binaryHeap.md)     |
+| [coupling](/challenges/coupling.md)                 |                                                                    | [report](/pbt-libraries/jqwik/reports/coupling.md)         |                                                               |                                                               | [report](/pbt-libraries/fast-check/reports/coupling.md)         | [report](/pbt-libraries/cscheck/reports/coupling.md)         | [report](/pbt-libraries/americium/reports/coupling.md)         | [report](/pbt-libraries/elm-test/reports/coupling.md)       | [report](/pbt-libraries/rapid/reports/coupling.md)         | [report](/pbt-libraries/exhaust/reports/coupling.md)       |
+| [deletion](/challenges/deletion.md)                 |                                                                    | [report](/pbt-libraries/jqwik/reports/deletion.md)         |                                                               |                                                               | [report](/pbt-libraries/fast-check/reports/deletion.md)         | [report](/pbt-libraries/cscheck/reports/deletion.md)         | [report](/pbt-libraries/americium/reports/deletion.md)         | [report](/pbt-libraries/elm-test/reports/deletion.md)       | [report](/pbt-libraries/rapid/reports/deletion.md)         | [report](/pbt-libraries/exhaust/reports/deletion.md)       |
+| [distinct](/challenges/distinct.md)                 |                                                                    | [report](/pbt-libraries/jqwik/reports/distinct.md)         | [report](pbt-libraries/proper/challenges/distinct.md)         |                                                               | [report](/pbt-libraries/fast-check/reports/distinct.md)         | [report](/pbt-libraries/cscheck/reports/distinct.md)         | [report](/pbt-libraries/americium/reports/distinct.md)         | [report](/pbt-libraries/elm-test/reports/distinct.md)       | [report](/pbt-libraries/rapid/reports/distinct.md)         | [report](/pbt-libraries/exhaust/reports/distinct.md)       |
+| [nestedlists](/challenges/nestedlists.md)           |                                                                    | [report](/pbt-libraries/jqwik/reports/nestedlists.md)      |                                                               |                                                               | [report](/pbt-libraries/fast-check/reports/nestedlists.md)      | [report](/pbt-libraries/cscheck/reports/nestedlists.md)      | [report](/pbt-libraries/americium/reports/nestedlists.md)      | [report](/pbt-libraries/elm-test/reports/nestedLists.md)    | [report](/pbt-libraries/rapid/reports/nestedlists.md)      | [report](/pbt-libraries/exhaust/reports/nestedLists.md)    |
+
+## PBT Libraries and Frameworks (alphabetically)
+
+- [Americium](/pbt-libraries/americium/README.md)
+- [CsCheck](/pbt-libraries/cscheck/README.md)
+- [elm-test](/pbt-libraries/elm-test/README.md)
+- [Exhaust](/pbt-libraries/exhaust/README.md)
+- [fast-check](/pbt-libraries/fast-check/README.md)
+- [FsCheck](/pbt-libraries/fscheck/README.md)
+- [Hedgehog F#](/pbt-libraries/hedgehog-fsharp/README.md)
+- [Hypothesis](/pbt-libraries/hypothesis/README.md)
+- [jqwik](/pbt-libraries/jqwik/README.md)
+- [PropEr](/pbt-libraries/proper/README.md)
+- [rapid](/pbt-libraries/rapid/README.md)
