@@ -1,6 +1,6 @@
 # Chunked Decoder Report for Exhaust
 
-These results are from Exhaust v1.5.2, October 1st, 2026.
+These results are from Exhaust v1.5.3, October 1st, 2026.
 
 A message is either binary (up to 64 bytes) or text (up to 16 Unicode scalars), chosen with `oneOf`. Its content is encoded to bytes, and the transport may split those bytes anywhere: the generator draws one cut flag per gap between bytes, so the chunking depends on the encoded byte count. The property is that decoding the reassembled chunks gives back the original message. The deliberate bug decodes each text chunk on its own, so a scalar split across two chunks turns into replacement characters. Counterexamples are written as `(kind, content, chunk sizes)`, with every scalar outside printable ASCII escaped as `\u{…}`.
 
@@ -27,7 +27,8 @@ See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failu
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
 | Evaluations | 16.0 | 222.0 | 76.0 | 84.1 | 78.0–90.2 |
-| Reduction time (ms) | 0.18 | 1.55 | 0.58 | 0.61 | 0.57–0.65 |
+| Reduction time (ms) | 0.15 | 1.58 | 0.55 | 0.58 | 0.54–0.62 |
+| Wall time (ms) | 0.245 | 1.673 | 0.629 | 0.66 | 0.621–0.7 |
 | Iterations to failure | 3.0 | 21.0 | 6.0 | 6.8 | 6.1–7.5 |
 
 ## Reproduction
@@ -36,4 +37,4 @@ From the `exhaust/src` folder, run the following command:
 
 `swift run -c release ExhaustRunner --challenge chunkedDecoder --iterations 100`
 
-The reduction time reflects running on an M4 Max running macOS 26.4. This is an optimised release build.
+The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.

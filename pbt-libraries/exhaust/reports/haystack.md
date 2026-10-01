@@ -1,6 +1,6 @@
 # Haystack Report for Exhaust
 
-These results are from Exhaust v1.5.2, October 1st, 2026.
+These results are from Exhaust v1.5.3, October 1st, 2026.
 
 ## Normalization
 
@@ -36,7 +36,8 @@ See [the starting input](/pbt-libraries/exhaust/failures/haystack.json).
 | Metric | Value |
 |---|---|
 | Evaluations | 4582 |
-| Reduction time (ms) | 99.95 |
+| Reduction time (ms) | 86.62 |
+| Wall time (ms) | 89.812 |
 
 ## Reproduction
 
@@ -44,4 +45,4 @@ From the `exhaust/src` folder, run the following command:
 
 `swift run -c release ExhaustRunner --challenge haystack --iterations 1`
 
-The reduction time reflects running on an M4 Max running macOS 26.4. This is an optimised release build.
+The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.

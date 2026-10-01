@@ -1,6 +1,6 @@
 # Branch Switching Report for Exhaust
 
-These results are from Exhaust v1.5.2, October 1st, 2026.
+These results are from Exhaust v1.5.3, October 1st, 2026.
 
 ## Normalization
 
@@ -19,7 +19,8 @@ See [the starting input](/pbt-libraries/exhaust/failures/branchSwitching.json).
 | Metric | Value |
 |---|---|
 | Evaluations | 17 |
-| Reduction time (ms) | 1.24 |
+| Reduction time (ms) | 1.09 |
+| Wall time (ms) | 1.19 |
 
 ## Reproduction
 
@@ -27,4 +28,4 @@ From the `exhaust/src` folder, run the following command:
 
 `swift run -c release ExhaustRunner --challenge branchSwitching --iterations 1`
 
-The reduction time reflects running on an M4 Max running macOS 26.4. This is an optimised release build.
+The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.

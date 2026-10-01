@@ -55,7 +55,7 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--customOnly"
+            argument = "--custom-only"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

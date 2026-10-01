@@ -33,7 +33,8 @@ final class Stats {
                     seed: seed,
                     evaluations: report.reductionInvocations,
                     original: original,
-                    shrunk: counterExample
+                    shrunk: counterExample,
+                    wallMilliseconds: wallMilliseconds
                 )
             )
         }
@@ -113,7 +114,7 @@ final class Stats {
     
     /// Writes the lowest `limit` seeds to `<directory>/<challenge>.json` in the shape the other libraries in this repository publish.
     ///
-    /// Each entry pairs the input as generated with the input after reduction, keyed `p` for the single property parameter. Seeds whose run never failed are absent.
+    /// Each entry pairs the input as generated with the input after reduction, keyed `p` for the single property parameter, and records the run's wall time from generation through reduction. Seeds whose run never failed are absent.
     func writeReport(toDirectory directory: String, limit: Int = 100) throws {
         let selected = entries.sorted(by: { $0.seed < $1.seed }).prefix(limit)
         guard selected.isEmpty == false else {
@@ -124,7 +125,8 @@ final class Stats {
                 evaluations: $0.evaluations,
                 original: ["p": $0.original],
                 seed: $0.seed,
-                shrunk: ["p": $0.shrunk]
+                shrunk: ["p": $0.shrunk],
+                wallMilliseconds: $0.wallMilliseconds
             )
         }
         let encoder = JSONEncoder()
@@ -139,6 +141,7 @@ final class Stats {
         let evaluations: Int
         let original: String
         let shrunk: String
+        let wallMilliseconds: Double
     }
 
     final class Accumulator {
@@ -158,6 +161,7 @@ final class Stats {
         let original: [String: String]
         let seed: UInt64
         let shrunk: [String: String]
+        let wallMilliseconds: Double
     }
 
     struct Statistics {
