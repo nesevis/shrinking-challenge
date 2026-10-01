@@ -53,6 +53,8 @@ def main(filename, n_runs=100):
         assert getattr(test, "is_hypothesis_test", False)
 
         base_function = test.hypothesis.inner_test
+        # Challenges whose arguments have no useful repr, such as state machines, can describe a run themselves
+        describe = namespace.get("describe")
 
         stats = {
             "seed": seed,
@@ -61,7 +63,10 @@ def main(filename, n_runs=100):
 
         def record(kwargs, interesting):
             if interesting:
-                kwargs = {name: repr(value) for name, value in kwargs.items()}
+                if describe is not None:
+                    kwargs = describe(kwargs)
+                else:
+                    kwargs = {name: repr(value) for name, value in kwargs.items()}
 
                 if "original" not in stats:
                     stats["original"] = kwargs
