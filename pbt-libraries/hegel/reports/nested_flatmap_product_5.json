@@ -1,0 +1,1115 @@
+{
+  "build_profile": "release",
+  "challenge": "nested_flatmap_product_5",
+  "engine_version": "0.44.1",
+  "environment": {
+    "arch": "aarch64",
+    "cpu": "Apple M4 Max",
+    "os": "macos",
+    "os_version": "26.6.2",
+    "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)"
+  },
+  "hegel_version": "0.48.1",
+  "runs": [
+    {
+      "evaluations": 4317,
+      "original": {
+        "value": "(10, 4, 1, 1, 1)"
+      },
+      "seed": 10782039729931456643,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026051042
+    },
+    {
+      "evaluations": 4329,
+      "original": {
+        "value": "(3, 3, 3, 3, 2)"
+      },
+      "seed": 1553391045661149217,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026331042
+    },
+    {
+      "evaluations": 4320,
+      "original": {
+        "value": "(7, 3, 3, 1, 1)"
+      },
+      "seed": 7492695519758482094,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026365917
+    },
+    {
+      "evaluations": 4325,
+      "original": {
+        "value": "(10, 4, 3, 1, 1)"
+      },
+      "seed": 8192413134594365653,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.0268655
+    },
+    {
+      "evaluations": 4323,
+      "original": {
+        "value": "(9, 5, 3, 3, 1)"
+      },
+      "seed": 12586877868716748261,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026146083
+    },
+    {
+      "evaluations": 4335,
+      "original": {
+        "value": "(5, 4, 2, 1, 1)"
+      },
+      "seed": 217076711091713736,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026426875
+    },
+    {
+      "evaluations": 4339,
+      "original": {
+        "value": "(6, 6, 5, 3, 1)"
+      },
+      "seed": 589403569770376823,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026197208
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(5, 5, 3, 1, 1)"
+      },
+      "seed": 13890426982037255899,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025830542
+    },
+    {
+      "evaluations": 4311,
+      "original": {
+        "value": "(5, 5, 1, 1, 1)"
+      },
+      "seed": 2224431796007263834,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025540542
+    },
+    {
+      "evaluations": 4347,
+      "original": {
+        "value": "(3, 2, 2, 2, 2)"
+      },
+      "seed": 13770575529060526910,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.0265255
+    },
+    {
+      "evaluations": 4325,
+      "original": {
+        "value": "(10, 4, 3, 1, 1)"
+      },
+      "seed": 11295149661296412847,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025943375
+    },
+    {
+      "evaluations": 4304,
+      "original": {
+        "value": "(8, 3, 1, 1, 1)"
+      },
+      "seed": 16516789155991749675,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025960583
+    },
+    {
+      "evaluations": 4350,
+      "original": {
+        "value": "(5, 4, 3, 3, 1)"
+      },
+      "seed": 15370066181796243238,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025955958
+    },
+    {
+      "evaluations": 4322,
+      "original": {
+        "value": "(10, 5, 1, 1, 1)"
+      },
+      "seed": 11254963360436665378,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026217875
+    },
+    {
+      "evaluations": 4323,
+      "original": {
+        "value": "(10, 8, 2, 2, 1)"
+      },
+      "seed": 9120928988410505692,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026560375
+    },
+    {
+      "evaluations": 4333,
+      "original": {
+        "value": "(9, 6, 5, 2, 2)"
+      },
+      "seed": 15905830817592518229,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026100958
+    },
+    {
+      "evaluations": 4319,
+      "original": {
+        "value": "(4, 3, 2, 1, 1)"
+      },
+      "seed": 6959895218531539398,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025997583
+    },
+    {
+      "evaluations": 4322,
+      "original": {
+        "value": "(9, 8, 1, 1, 1)"
+      },
+      "seed": 13170324151584074349,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026324167
+    },
+    {
+      "evaluations": 4330,
+      "original": {
+        "value": "(7, 7, 3, 3, 2)"
+      },
+      "seed": 546865696673326957,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025988833
+    },
+    {
+      "evaluations": 4339,
+      "original": {
+        "value": "(6, 6, 2, 2, 1)"
+      },
+      "seed": 6938007926999342798,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026133542
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(5, 5, 4, 4, 3)"
+      },
+      "seed": 13139123633564895431,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026017875
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(4, 4, 3, 1, 1)"
+      },
+      "seed": 1836957671282904419,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025713875
+    },
+    {
+      "evaluations": 4324,
+      "original": {
+        "value": "(3, 3, 3, 1, 1)"
+      },
+      "seed": 14653750546348582052,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025924041
+    },
+    {
+      "evaluations": 4319,
+      "original": {
+        "value": "(4, 3, 2, 1, 1)"
+      },
+      "seed": 5037053413979169446,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.02542775
+    },
+    {
+      "evaluations": 4325,
+      "original": {
+        "value": "(6, 2, 2, 2, 1)"
+      },
+      "seed": 575381222620000991,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026144166
+    },
+    {
+      "evaluations": 4329,
+      "original": {
+        "value": "(10, 10, 4, 3, 3)"
+      },
+      "seed": 17681999257010045752,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.029115875
+    },
+    {
+      "evaluations": 4319,
+      "original": {
+        "value": "(4, 3, 2, 1, 1)"
+      },
+      "seed": 13895164172536150858,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026624875
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(9, 6, 2, 1, 1)"
+      },
+      "seed": 15900185473705877544,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026718125
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(5, 5, 3, 1, 1)"
+      },
+      "seed": 8205608222851419468,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026229958
+    },
+    {
+      "evaluations": 4324,
+      "original": {
+        "value": "(8, 5, 5, 4, 2)"
+      },
+      "seed": 4087061007679440307,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026362667
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(8, 8, 5, 4, 3)"
+      },
+      "seed": 16799550176884265713,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026076
+    },
+    {
+      "evaluations": 4318,
+      "original": {
+        "value": "(8, 2, 2, 1, 1)"
+      },
+      "seed": 6407604088947814128,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025980583
+    },
+    {
+      "evaluations": 4323,
+      "original": {
+        "value": "(10, 3, 3, 2, 2)"
+      },
+      "seed": 8708525704174138360,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025934459
+    },
+    {
+      "evaluations": 4343,
+      "original": {
+        "value": "(9, 7, 4, 3, 2)"
+      },
+      "seed": 11376927376740961574,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.029100333
+    },
+    {
+      "evaluations": 4357,
+      "original": {
+        "value": "(4, 2, 2, 2, 2)"
+      },
+      "seed": 15696401172833676698,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026727958
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(5, 3, 2, 1, 1)"
+      },
+      "seed": 8450582670807356994,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026568708
+    },
+    {
+      "evaluations": 4322,
+      "original": {
+        "value": "(9, 3, 2, 1, 1)"
+      },
+      "seed": 11081500355334787176,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.02675775
+    },
+    {
+      "evaluations": 4323,
+      "original": {
+        "value": "(9, 3, 3, 3, 3)"
+      },
+      "seed": 15668071638880080178,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026691792
+    },
+    {
+      "evaluations": 4319,
+      "original": {
+        "value": "(10, 2, 2, 1, 1)"
+      },
+      "seed": 534221926461985758,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026069917
+    },
+    {
+      "evaluations": 4335,
+      "original": {
+        "value": "(7, 4, 4, 2, 1)"
+      },
+      "seed": 11727437502445854655,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026602125
+    },
+    {
+      "evaluations": 4324,
+      "original": {
+        "value": "(9, 8, 8, 8, 8)"
+      },
+      "seed": 872689081024283835,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.02658675
+    },
+    {
+      "evaluations": 4321,
+      "original": {
+        "value": "(10, 3, 3, 3, 3)"
+      },
+      "seed": 8691131860975853077,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026815958
+    },
+    {
+      "evaluations": 4314,
+      "original": {
+        "value": "(10, 3, 1, 1, 1)"
+      },
+      "seed": 2695100841559969541,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025805458
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(5, 3, 2, 1, 1)"
+      },
+      "seed": 2971711514044226936,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025873209
+    },
+    {
+      "evaluations": 4336,
+      "original": {
+        "value": "(9, 7, 2, 2, 1)"
+      },
+      "seed": 2864926982726889246,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025787166
+    },
+    {
+      "evaluations": 4314,
+      "original": {
+        "value": "(6, 4, 2, 1, 1)"
+      },
+      "seed": 16237207474431401094,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025968875
+    },
+    {
+      "evaluations": 4324,
+      "original": {
+        "value": "(10, 7, 7, 4, 2)"
+      },
+      "seed": 16823657597342752972,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026040625
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(10, 6, 2, 1, 1)"
+      },
+      "seed": 3196135719926738706,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025786666
+    },
+    {
+      "evaluations": 4329,
+      "original": {
+        "value": "(9, 9, 9, 9, 3)"
+      },
+      "seed": 4298124561794740503,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027099416
+    },
+    {
+      "evaluations": 4318,
+      "original": {
+        "value": "(10, 4, 3, 3, 2)"
+      },
+      "seed": 13879539014993978060,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027017042
+    },
+    {
+      "evaluations": 4327,
+      "original": {
+        "value": "(3, 3, 3, 3, 1)"
+      },
+      "seed": 16552173170006700712,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027132583
+    },
+    {
+      "evaluations": 4335,
+      "original": {
+        "value": "(3, 3, 2, 2, 1)"
+      },
+      "seed": 16971579857123528991,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026675
+    },
+    {
+      "evaluations": 4320,
+      "original": {
+        "value": "(8, 3, 3, 1, 1)"
+      },
+      "seed": 5153395453682536064,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026985958
+    },
+    {
+      "evaluations": 4319,
+      "original": {
+        "value": "(10, 2, 2, 1, 1)"
+      },
+      "seed": 9000353055693517510,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026865208
+    },
+    {
+      "evaluations": 4347,
+      "original": {
+        "value": "(3, 2, 2, 2, 2)"
+      },
+      "seed": 5338948754555415409,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026708584
+    },
+    {
+      "evaluations": 4335,
+      "original": {
+        "value": "(5, 5, 3, 2, 1)"
+      },
+      "seed": 2118733036745357848,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027119166
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(5, 5, 3, 1, 1)"
+      },
+      "seed": 6907062408490550086,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.0275365
+    },
+    {
+      "evaluations": 4306,
+      "original": {
+        "value": "(6, 4, 1, 1, 1)"
+      },
+      "seed": 17801942598940534775,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027179542
+    },
+    {
+      "evaluations": 4361,
+      "original": {
+        "value": "(4, 3, 3, 3, 2)"
+      },
+      "seed": 4991382595664513007,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026319375
+    },
+    {
+      "evaluations": 4331,
+      "original": {
+        "value": "(4, 4, 2, 1, 1)"
+      },
+      "seed": 18040314334138900992,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026988
+    },
+    {
+      "evaluations": 4337,
+      "original": {
+        "value": "(9, 4, 4, 3, 1)"
+      },
+      "seed": 7732757075928708932,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025452125
+    },
+    {
+      "evaluations": 4341,
+      "original": {
+        "value": "(5, 3, 3, 2, 1)"
+      },
+      "seed": 5008763071509839006,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025884959
+    },
+    {
+      "evaluations": 4329,
+      "original": {
+        "value": "(9, 9, 9, 6, 5)"
+      },
+      "seed": 9165857161278569936,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026018417
+    },
+    {
+      "evaluations": 4345,
+      "original": {
+        "value": "(5, 3, 2, 2, 1)"
+      },
+      "seed": 15539699012552325785,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025573541
+    },
+    {
+      "evaluations": 4305,
+      "original": {
+        "value": "(8, 3, 2, 2, 2)"
+      },
+      "seed": 17435297284640232168,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025645709
+    },
+    {
+      "evaluations": 4330,
+      "original": {
+        "value": "(9, 5, 2, 1, 1)"
+      },
+      "seed": 16633793135913309018,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025532666
+    },
+    {
+      "evaluations": 4318,
+      "original": {
+        "value": "(6, 3, 2, 1, 1)"
+      },
+      "seed": 1459457409850350499,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025284709
+    },
+    {
+      "evaluations": 4336,
+      "original": {
+        "value": "(9, 7, 6, 6, 1)"
+      },
+      "seed": 9838474184210459161,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.02535075
+    },
+    {
+      "evaluations": 4312,
+      "original": {
+        "value": "(7, 7, 1, 1, 1)"
+      },
+      "seed": 3368459126218095090,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026121
+    },
+    {
+      "evaluations": 4326,
+      "original": {
+        "value": "(9, 4, 2, 1, 1)"
+      },
+      "seed": 6783748660484004288,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026101083
+    },
+    {
+      "evaluations": 4326,
+      "original": {
+        "value": "(9, 6, 6, 5, 4)"
+      },
+      "seed": 2117301624712076708,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026038958
+    },
+    {
+      "evaluations": 4329,
+      "original": {
+        "value": "(9, 9, 8, 5, 4)"
+      },
+      "seed": 1755234909228220880,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025867083
+    },
+    {
+      "evaluations": 4312,
+      "original": {
+        "value": "(6, 6, 1, 1, 1)"
+      },
+      "seed": 2153355747468036242,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025895084
+    },
+    {
+      "evaluations": 4343,
+      "original": {
+        "value": "(4, 3, 3, 1, 1)"
+      },
+      "seed": 11185064063348773594,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025746209
+    },
+    {
+      "evaluations": 4343,
+      "original": {
+        "value": "(9, 7, 5, 2, 1)"
+      },
+      "seed": 13295470087953377383,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.02608525
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(10, 9, 5, 4, 1)"
+      },
+      "seed": 3165832988285587125,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.02559325
+    },
+    {
+      "evaluations": 4330,
+      "original": {
+        "value": "(9, 8, 2, 1, 1)"
+      },
+      "seed": 1324688250574201251,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025700375
+    },
+    {
+      "evaluations": 4307,
+      "original": {
+        "value": "(6, 4, 3, 3, 3)"
+      },
+      "seed": 8513170640073137839,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027091417
+    },
+    {
+      "evaluations": 4335,
+      "original": {
+        "value": "(7, 3, 3, 2, 1)"
+      },
+      "seed": 131034523231588859,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026356375
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(9, 6, 4, 1, 1)"
+      },
+      "seed": 3906200999142811217,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026173
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(10, 9, 5, 4, 1)"
+      },
+      "seed": 8365392486315482242,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026154333
+    },
+    {
+      "evaluations": 4338,
+      "original": {
+        "value": "(9, 8, 8, 5, 1)"
+      },
+      "seed": 5656001241320809617,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026168334
+    },
+    {
+      "evaluations": 4320,
+      "original": {
+        "value": "(7, 3, 3, 1, 1)"
+      },
+      "seed": 1626286142554014996,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025598875
+    },
+    {
+      "evaluations": 4329,
+      "original": {
+        "value": "(4, 4, 4, 3, 2)"
+      },
+      "seed": 5195439970089291735,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025867625
+    },
+    {
+      "evaluations": 4320,
+      "original": {
+        "value": "(8, 4, 4, 1, 1)"
+      },
+      "seed": 14424259424101030506,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.0263155
+    },
+    {
+      "evaluations": 4333,
+      "original": {
+        "value": "(9, 2, 2, 2, 1)"
+      },
+      "seed": 9319995490197303130,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.025792709
+    },
+    {
+      "evaluations": 4340,
+      "original": {
+        "value": "(7, 7, 2, 2, 1)"
+      },
+      "seed": 8844973344976416265,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026061875
+    },
+    {
+      "evaluations": 4325,
+      "original": {
+        "value": "(7, 4, 3, 1, 1)"
+      },
+      "seed": 11717982745790488577,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026093084
+    },
+    {
+      "evaluations": 4312,
+      "original": {
+        "value": "(7, 7, 1, 1, 1)"
+      },
+      "seed": 12088307375318195158,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027044291
+    },
+    {
+      "evaluations": 4343,
+      "original": {
+        "value": "(8, 7, 6, 4, 3)"
+      },
+      "seed": 17430139682330329250,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026750792
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(4, 3, 2, 2, 1)"
+      },
+      "seed": 17687224964607104397,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026574166
+    },
+    {
+      "evaluations": 4331,
+      "original": {
+        "value": "(6, 5, 2, 1, 1)"
+      },
+      "seed": 15838118260649107018,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026598792
+    },
+    {
+      "evaluations": 4312,
+      "original": {
+        "value": "(7, 7, 1, 1, 1)"
+      },
+      "seed": 15609446467507592220,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026419708
+    },
+    {
+      "evaluations": 4330,
+      "original": {
+        "value": "(5, 5, 3, 3, 2)"
+      },
+      "seed": 1999606627788252285,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026581791
+    },
+    {
+      "evaluations": 4318,
+      "original": {
+        "value": "(7, 4, 2, 2, 2)"
+      },
+      "seed": 17676298040864072719,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026398167
+    },
+    {
+      "evaluations": 4332,
+      "original": {
+        "value": "(8, 8, 8, 3, 1)"
+      },
+      "seed": 326548450891424925,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026335292
+    },
+    {
+      "evaluations": 4307,
+      "original": {
+        "value": "(6, 4, 2, 2, 1)"
+      },
+      "seed": 7800598566115693115,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026319125
+    },
+    {
+      "evaluations": 4312,
+      "original": {
+        "value": "(6, 6, 1, 1, 1)"
+      },
+      "seed": 13578865556946969369,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.026702958
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(8, 8, 7, 7, 6)"
+      },
+      "seed": 3371401645081198977,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.0264275
+    },
+    {
+      "evaluations": 4328,
+      "original": {
+        "value": "(7, 7, 3, 2, 2)"
+      },
+      "seed": 1921438263947257151,
+      "shrunk": {
+        "value": "(2, 2, 2, 2, 2)"
+      },
+      "total_seconds": 0.027138083
+    }
+  ]
+}
