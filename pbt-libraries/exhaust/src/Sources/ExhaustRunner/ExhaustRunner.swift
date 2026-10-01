@@ -8,7 +8,7 @@
 import ArgumentParser
 
 @main
-struct ExhaustRunner: ParsableCommand {
+struct ExhaustRunner: AsyncParsableCommand {
     @Option(name: .shortAndLong, help: "Which challenge to run. All of them if unspecified")
     var challenge: Challenge?
     
@@ -20,15 +20,18 @@ struct ExhaustRunner: ParsableCommand {
 
     @Option(name: .long, help: "Directory to write JSON reports into")
     var reportPath: String?
+    
+    @Option(name: .long, help: "Run only custom challenges")
+    var customOnly = false
 
-    mutating func run() throws {
+    mutating func run() async throws {
         let challenges = challenge.map { [$0] }
-            ?? Challenge.allCases
+            ?? Challenge.allCases.filter { customOnly == false || $0.isCustom }
         
         print("Starting run of \(challenges.count) challenge(s) with \(iterations) iteration(s)…")
 
         for challenge in challenges {
-            let stats = ChallengeRunner.run(
+            let stats = await ChallengeRunner.run(
                 challenge,
                 seed: seed,
                 iterations: iterations

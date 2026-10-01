@@ -1,8 +1,8 @@
 # Invoice Discount (Derived Generator) Report for Exhaust
 
-These results are from Exhaust v1.5.1, September 30th, 2026.
+These results are from Exhaust v1.5.2, October 1st, 2026.
 
-This variant generates `Invoice` with `@Exhaustable`'s derived generator, `Invoice.gen()`, which draws the three fields independently from the full `Int` range. The derived generator cannot express the field ranges or the discount eligibility rule, so the property treats any invoice outside them as passing. Evaluations therefore include reduction probes that leave the valid domain and pass immediately.
+This variant generates `Invoice` with `@Exhaustable`'s derived generator, `Invoice.gen()`, which draws the three fields independently from the full `Int` range. The derived generator cannot express the field ranges or the discount eligibility rule, so the property discards any invoice outside them by throwing `PropertySkip()`. Evaluations include the discarded reduction probes.
 
 ## Normalization
 
@@ -16,8 +16,8 @@ Exhaust produced 16 distinct counterexamples across 100 test runs:
 | 10% | `Invoice(28, 36, 1)` |
 | 8% | `Invoice(13, 77, 1)` |
 | 6% | `Invoice(16, 63, 1)` |
-| 6% | `Invoice(19, 53, 1)` |
 | 6% | `Invoice(12, 84, 1)` |
+| 6% | `Invoice(19, 53, 1)` |
 | 5% | `Invoice(11, 91, 1)` |
 | 4% | `Invoice(17, 59, 1)` |
 | 4% | `Invoice(22, 46, 1)` |
@@ -27,7 +27,7 @@ Exhaust produced 16 distinct counterexamples across 100 test runs:
 | 2% | `Invoice(20, 50, 1)` |
 | 1% | `Invoice(23, 44, 1)` |
 
-The minimum failing invoice under lexicographic order on `(unit_price_cents, quantity, discount_percent)` is `Invoice(10, 100, 1)`. 0 of 100 runs reached it.
+The minimal counterexample under shortlex on `(unit_price_cents, quantity, discount_percent)` is `Invoice(10, 100, 1)`. No run reached it.
 
 See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/invoiceDiscountDerived.json).
 
@@ -36,7 +36,7 @@ See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failu
 | Metric | Min | Max | Median | Mean | 95% CI |
 |---|---|---|---|---|---|
 | Evaluations | 75.0 | 245.0 | 121.5 | 119.4 | 110.9–127.9 |
-| Reduction time (ms) | 0.14 | 0.89 | 0.21 | 0.22 | 0.2–0.24 |
+| Reduction time (ms) | 0.15 | 0.51 | 0.23 | 0.24 | 0.23–0.26 |
 | Iterations to failure | 9.0 | 3310.0 | 510.0 | 708.4 | 572.9–843.9 |
 
 ## Reproduction

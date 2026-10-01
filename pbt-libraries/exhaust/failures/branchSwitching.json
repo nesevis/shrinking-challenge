@@ -1,0 +1,12 @@
+[
+  {
+    "evaluations" : 17,
+    "original" : {
+      "p" : "\"a branch switch\""
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "\"    \""
+    }
+  }
+]

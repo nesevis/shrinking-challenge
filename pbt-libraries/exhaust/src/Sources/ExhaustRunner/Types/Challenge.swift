@@ -26,16 +26,31 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     
     case anagrams
     case usernamePassword
+    case duplicatedText
+    case haystack
 
-    case depthTwoBind
-    case depthThreeBind
-    case depthFourBind
-    case depthFiveBind
-    case depthSixBind
+    case distinctSum
+    case leapDay
+    case branchSwitching
+
+    case depthTwoProductSequenceBind
+    case depthThreeProductSequenceBind
+    case depthFourProductSequenceBind
+    case depthFiveProductSequenceBind
+    case depthSixProductSequenceBind
+    case depthTwoProductBind
+    case depthThreeProductBind
+    case depthFourProductBind
+    case depthFiveProductBind
+    case depthSixProductBind
     case modularMapping
     case weightedLinearPreservation
     case invoiceDiscount
     case invoiceDiscountDerived
+    case depthFourSumBind
+    case floatCancellation
+    case chunkedDecoder
+    case snapshotStore
 
     var description: String {
         switch self {
@@ -54,22 +69,45 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
         case .reverse: "Reverse"
         case .anagrams: "Anagrams"
         case .usernamePassword: "Username and Password"
-        case .depthTwoBind: "Depth 2 Bind"
-        case .depthThreeBind: "Depth 3 Bind"
-        case .depthFourBind: "Depth 4 Bind"
-        case .depthFiveBind: "Depth 5 Bind"
-        case .depthSixBind: "Depth 6 Bind"
+        case .duplicatedText: "Duplicated Text"
+        case .distinctSum: "Distinct Sum"
+        case .leapDay: "Leap Day"
+        case .branchSwitching: "Branch Switching"
+        case .haystack: "Haystack"
+        case .depthTwoProductSequenceBind: "Depth 2 Bind (product sequence)"
+        case .depthThreeProductSequenceBind: "Depth 3 Bind (product sequence)"
+        case .depthFourProductSequenceBind: "Depth 4 Bind (product sequence)"
+        case .depthFiveProductSequenceBind: "Depth 5 Bind (product sequence)"
+        case .depthSixProductSequenceBind: "Depth 6 Bind (product sequence)"
+        case .depthTwoProductBind: "Depth 2 Bind (product)"
+        case .depthThreeProductBind: "Depth 3 Bind (product)"
+        case .depthFourProductBind: "Depth 4 Bind (product)"
+        case .depthFiveProductBind: "Depth 5 Bind (product)"
+        case .depthSixProductBind: "Depth 6 Bind (product)"
         case .modularMapping: "Modular Mapping"
         case .weightedLinearPreservation: "Weighted Linear Preservation"
         case .invoiceDiscount: "Invoice Discount"
         case .invoiceDiscountDerived: "Invoice Discount (derived)"
+        case .depthFourSumBind: "Depth 4 Bind (sum)"
+        case .floatCancellation: "Float Cancellation"
+        case .chunkedDecoder: "Chunked Decoder"
+        case .snapshotStore: "Snapshot Store"
         }
     }
     
     var reflectsInput: Bool {
         switch self {
-        case .anagrams, .usernamePassword: true
+        case .anagrams, .usernamePassword, .duplicatedText, .distinctSum, .leapDay, .branchSwitching, .haystack: true
         default: false
+        }
+    }
+    
+    var isCustom: Bool {
+        switch self {
+        case .binaryHeap, .bound5, .calculator, .coupling, .deletion, .differenceNotOne, .differenceNotSmall, .differenceNotZero, .distinct, .largeUnionList, .lengthList, .nestedLists, .reverse:
+            false
+        default:
+            true
         }
     }
 }

@@ -25,7 +25,6 @@ enum InvoiceDiscountChallenge {
         }
     }
 
-    // Discounts are only drawn once the undiscounted subtotal reaches 1000 cents
     static let gen = #gen(.int(in: 1 ... 1_000), .int(in: 1 ... 100))
         .bind { price, quantity in
             let eligible = price * quantity >= 1_000
@@ -42,10 +41,9 @@ enum InvoiceDiscountChallenge {
         invoice.totalCents() == expectedTotal(invoice)
     }
 
-    // Invoices the hand written generator cannot produce satisfy the property rather than constitute failures
-    static let derivedProperty: @Sendable (Invoice) -> Bool = { invoice in
+    static let derivedProperty: @Sendable (Invoice) throws -> Bool = { invoice in
         guard isValid(invoice) else {
-            return true
+            throw PropertySkip()
         }
         return property(invoice)
     }
@@ -56,7 +54,7 @@ enum InvoiceDiscountChallenge {
     }
 
     static func isValid(_ invoice: Invoice) -> Bool {
-        // Guarding here so @Exhaustable's unbound generator can use this as well
+        // Guarding here so @Exhaustable's derived generator can use this as well
         guard
             (1...1_000).contains(invoice.unitPriceCents),
             (1...100).contains(invoice.quantity),
