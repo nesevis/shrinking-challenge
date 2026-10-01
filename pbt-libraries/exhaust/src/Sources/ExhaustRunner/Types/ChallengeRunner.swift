@@ -340,7 +340,7 @@ enum ChallengeRunner {
                 stats.append(report: report, counterExample: output?.description, seed: seed, original: original, wallMilliseconds: wall)
             case .snapshotStore:
                 // Matches Hypothesis's default stateful_step_count, so both libraries generate histories of up to 50 commands
-                let (output, report, original, wall) = await execute(SnapshotStoreChallenge.Spec.self, commandLimit: 50, seed: seed)
+                let (output, report, _, wall) = await execute(SnapshotStoreChallenge.Spec.self, commandLimit: 50, seed: seed)
                 stats.append(
                     report: report,
                     counterExample: output.map { SnapshotStoreChallenge.render($0.commands) },
@@ -348,6 +348,37 @@ enum ChallengeRunner {
                     original: output.map { SnapshotStoreChallenge.render($0.originalCommands ?? $0.commands) },
                     wallMilliseconds: wall
                 )
+            case .hashCollisionTen:
+                let (output, report, original, wall) = exhaust(
+                    HashCollisionChallenge.gen(modulus: 10),
+                    seed: seed,
+                    property: HashCollisionChallenge.property(modulus: 10)
+                )
+                stats.append(report: report, counterExample: output.map { "\($0)" }, seed: seed, original: original, wallMilliseconds: wall)
+            case .hashCollisionHundred:
+                let (output, report, original, wall) = exhaust(
+                    HashCollisionChallenge.gen(modulus: 100),
+                    seed: seed,
+                    property: HashCollisionChallenge.property(modulus: 100)
+                )
+                stats.append(report: report, counterExample: output.map { "\($0)" }, seed: seed, original: original, wallMilliseconds: wall)
+            case .hashCollisionThousand:
+                let (output, report, original, wall) = exhaust(
+                    HashCollisionChallenge.gen(modulus: 1000),
+                    seed: seed,
+                    property: HashCollisionChallenge.property(modulus: 1000)
+                )
+                stats.append(report: report, counterExample: output.map { "\($0)" }, seed: seed, original: original, wallMilliseconds: wall)
+            // Matches Hypothesis's default stateful_step_count, as for Snapshot Store
+            case .hashCollisionStateMachineTen:
+                let (output, report, _, wall) = await execute(HashCollisionChallenge.SpecTen.self, commandLimit: 50, seed: seed)
+                stats.append(report: report, counterExample: output.map { HashCollisionChallenge.render($0.commands) }, seed: seed, original: output.map { HashCollisionChallenge.render($0.originalCommands ?? $0.commands) }, wallMilliseconds: wall)
+            case .hashCollisionStateMachineHundred:
+                let (output, report, _, wall) = await execute(HashCollisionChallenge.SpecHundred.self, commandLimit: 50, seed: seed)
+                stats.append(report: report, counterExample: output.map { HashCollisionChallenge.render($0.commands) }, seed: seed, original: output.map { HashCollisionChallenge.render($0.originalCommands ?? $0.commands) }, wallMilliseconds: wall)
+            case .hashCollisionStateMachineThousand:
+                let (output, report, _, wall) = await execute(HashCollisionChallenge.SpecThousand.self, commandLimit: 50, seed: seed)
+                stats.append(report: report, counterExample: output.map { HashCollisionChallenge.render($0.commands) }, seed: seed, original: output.map { HashCollisionChallenge.render($0.originalCommands ?? $0.commands) }, wallMilliseconds: wall)
             }
         }
         return stats

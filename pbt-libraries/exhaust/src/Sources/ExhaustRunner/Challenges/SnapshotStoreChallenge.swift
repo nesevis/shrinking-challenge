@@ -60,6 +60,8 @@ enum SnapshotStoreChallenge {
     @StateMachine
     final class Spec {
         static let gen = #gen(.int(in: 0...9))
+        // Wide enough that every live snapshot is reachable, and the modulo's bias towards some snapshots is negligible
+        static let snapshotGen = #gen(.int(in: 0...999))
 
         var writes = [(key: Int, value: Int)]()
         var snapshots = [(handle: Store.Snapshot, visibleWrites: Int)]()
@@ -81,17 +83,17 @@ enum SnapshotStoreChallenge {
             snapshots.append((store.snapshot(), writes.count))
         }
 
-        @Command(gen, gen)
+        @Command(snapshotGen, gen)
         func read(snapshot: Int, key: Int) throws {
             guard snapshots.isEmpty == false else { throw skip() }
-            let (handle, visibleWrites) = snapshots[snapshot % snapshots.count]
+            let (handle, visibleWrites) = snapshots[newestFirst(snapshot, among: snapshots.count)]
             try check(store.read(handle, key) == latest(key, among: visibleWrites), "read(\(snapshot), \(key))")
         }
 
-        @Command(gen)
+        @Command(snapshotGen)
         func release(snapshot: Int) throws {
             guard snapshots.isEmpty == false else { throw skip() }
-            let (handle, _) = snapshots.remove(at: snapshot % snapshots.count)
+            let (handle, _) = snapshots.remove(at: newestFirst(snapshot, among: snapshots.count))
             store.release(handle)
         }
 
@@ -107,6 +109,11 @@ enum SnapshotStoreChallenge {
         private func latest(_ key: Int, among visibleWrites: Int) -> Int? {
             writes.prefix(visibleWrites).last(where: { $0.key == key })?.value
         }
+    }
+
+    // Resolves a generated index against the live snapshots newest first, as Hypothesis draws from a bundle, so index 0 is the newest snapshot in both libraries
+    static func newestFirst(_ index: Int, among count: Int) -> Int {
+        count - 1 - index % count
     }
 
     // Renders the commands that ran, naming snapshots s0, s1, … in creation order, as the Hypothesis machine does
@@ -126,10 +133,10 @@ enum SnapshotStoreChallenge {
                 created += 1
             case let .read(snapshot, key):
                 guard live.isEmpty == false else { continue }
-                steps.append("read(\(live[snapshot % live.count]), \(key))")
+                steps.append("read(\(live[newestFirst(snapshot, among: live.count)]), \(key))")
             case let .release(snapshot):
                 guard live.isEmpty == false else { continue }
-                steps.append("release(\(live.remove(at: snapshot % live.count)))")
+                steps.append("release(\(live.remove(at: newestFirst(snapshot, among: live.count))))")
             case .compact:
                 steps.append("compact()")
             }

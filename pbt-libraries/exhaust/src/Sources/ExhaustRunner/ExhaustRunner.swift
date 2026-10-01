@@ -21,7 +21,7 @@ struct ExhaustRunner: AsyncParsableCommand {
     @Option(name: .long, help: "Directory to write JSON reports into")
     var reportPath: String?
     
-    @Option(name: .long, help: "Run only custom challenges")
+    @Flag(name: .long, help: "Run only custom challenges")
     var customOnly = false
 
     mutating func run() async throws {

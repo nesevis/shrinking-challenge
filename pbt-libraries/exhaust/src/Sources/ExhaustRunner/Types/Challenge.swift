@@ -51,6 +51,12 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case floatCancellation
     case chunkedDecoder
     case snapshotStore
+    case hashCollisionTen
+    case hashCollisionHundred
+    case hashCollisionThousand
+    case hashCollisionStateMachineTen
+    case hashCollisionStateMachineHundred
+    case hashCollisionStateMachineThousand
 
     var description: String {
         switch self {
@@ -92,6 +98,12 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
         case .floatCancellation: "Float Cancellation"
         case .chunkedDecoder: "Chunked Decoder"
         case .snapshotStore: "Snapshot Store"
+        case .hashCollisionTen: "Hash Collision (M = 10)"
+        case .hashCollisionHundred: "Hash Collision (M = 100)"
+        case .hashCollisionThousand: "Hash Collision (M = 1000)"
+        case .hashCollisionStateMachineTen: "Hash Collision, state machine (M = 10)"
+        case .hashCollisionStateMachineHundred: "Hash Collision, state machine (M = 100)"
+        case .hashCollisionStateMachineThousand: "Hash Collision, state machine (M = 1000)"
         }
     }
     
