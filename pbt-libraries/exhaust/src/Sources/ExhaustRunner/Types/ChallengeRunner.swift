@@ -74,6 +74,14 @@ enum ChallengeRunner {
                     property: HaystackChallenge.property
                 )
                 stats.append(report: report, counterExample: output.map { $0.debugDescription }, seed: seed, original: original, wallMilliseconds: wall)
+            case .zalgoHaystack:
+                let (output, report, original, wall) = exhaustReflecting(
+                    ZalgoHaystackChallenge.gen,
+                    reflecting: ZalgoHaystackChallenge.input,
+                    seed: seed,
+                    property: ZalgoHaystackChallenge.property
+                )
+                stats.append(report: report, counterExample: output.map { $0.debugDescription }, seed: seed, original: original, wallMilliseconds: wall)
             default:
                 break
             }
@@ -185,7 +193,7 @@ enum ChallengeRunner {
                     property: ReverseChallenge.property
                 )
                 stats.append(report: report, counterExample: output?.description, seed: seed, original: original, wallMilliseconds: wall)
-            case .anagrams, .usernamePassword, .duplicatedText, .distinctSum, .leapDay, .branchSwitching, .haystack:
+            case .anagrams, .usernamePassword, .duplicatedText, .distinctSum, .leapDay, .branchSwitching, .haystack, .zalgoHaystack:
                 break
             case .depthTwoProductSequenceBind:
                 let (output, report, original, wall) = exhaust(

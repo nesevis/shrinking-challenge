@@ -26,7 +26,8 @@ struct ExhaustRunner: AsyncParsableCommand {
 
     mutating func run() async throws {
         let challenges = challenge.map { [$0] }
-            ?? Challenge.allCases.filter { customOnly == false || $0.isCustom }
+            ?? Challenge.allCases
+            .filter { customOnly == false || $0.isCustom }
         
         print("Starting run of \(challenges.count) challenge(s) with \(iterations) iteration(s)…")
 

@@ -21,11 +21,11 @@ enum CalculatorChallenge {
         var description: String {
             switch self {
             case let .value(value):
-                "value(\(value))"
+                "\(value)"
             case let .add(lhs, rhs):
-                "add(\(lhs.description), \(rhs.description))"
+                "('+', \(lhs.description), \(rhs.description))"
             case let .div(lhs, rhs):
-                "div(\(lhs.description), \(rhs.description))"
+                "('/', \(lhs.description), \(rhs.description))"
             }
         }
     }

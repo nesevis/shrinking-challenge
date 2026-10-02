@@ -1,6 +1,6 @@
 [
   {
-    "evaluations" : 1222,
+    "evaluations" : 1226,
     "original" : {
       "p" : "(\"a gentle man and astronomer\", \"elegant man and moon starer\")"
     },
@@ -8,6 +8,6 @@
     "shrunk" : {
       "p" : "(\" \\0\", \"\\0 \")"
     },
-    "wallMilliseconds" : 9.096083
+    "wallMilliseconds" : 7.968084
   }
 ]

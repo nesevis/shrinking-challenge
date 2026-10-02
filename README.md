@@ -1,17 +1,17 @@
 # Shrinking Challenge: Hypothesis vs Exhaust vs Hegel
 
-A comparison of [Hypothesis](/pbt-libraries/hypothesis/README.md) 6.168.3, [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.3, and [Hegel](/pbt-libraries/hegel/README.md) 0.48.1 (native engine 0.44.1) on the challenges added in this fork.
+A comparison of [Hypothesis](/pbt-libraries/hypothesis/README.md) 6.168.3, [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.4, and [Hegel](/pbt-libraries/hegel/README.md) 0.48.1 (native engine 0.44.1) on seeded and fixed-start shrinking challenges.
 
 Each challenge links to the participating libraries' reports. 🎯 marks the ~minimal counterexample.
 
 ## Fixed start
 
-Hypothesis and Exhaust reduce the same fixed failing input once, with no generation phase. Both libraries count the starting input as an evaluation.
+Hypothesis and Exhaust reduce the same fixed failing input once, with no generation phase. Fixed-start rows use each runner's reported evaluation count directly; the +1 adjustment to Exhaust applies to the generated rows below.
 
 | Challenge | Library | Evaluations | Counterexample |
 |---|---|---|---|
 | Anagrams | [Hypothesis](/pbt-libraries/hypothesis/challenges/anagrams.md) | 798 | `("000000000000000000000000011", "000000000000000000000000110")` |
-|  | [Exhaust](/pbt-libraries/exhaust/reports/anagrams.md) | 1222 | 🎯 `(" \0", "\0 ")` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/anagrams.md) | 1226 | 🎯 `(" \0", "\0 ")` |
 |  |  |  |  |
 | Username and Password | [Hypothesis](/pbt-libraries/hypothesis/challenges/username_password.md) | 301 | `("u: p0000000", "p: p0000000")` |
 |  | [Exhaust](/pbt-libraries/exhaust/reports/usernamePassword.md) | 723 | 🎯 `("u: 0000", "p: 0000")` |
@@ -20,7 +20,10 @@ Hypothesis and Exhaust reduce the same fixed failing input once, with no generat
 |  | [Exhaust](/pbt-libraries/exhaust/reports/duplicatedText.md) | 54 | `("10210210", "10210210")` |
 |  |  |  |  |
 | Haystack | [Hypothesis](/pbt-libraries/hypothesis/challenges/haystack.md) | 242 | 🎯 `"CREEPIDIOT"` |
-|  | [Exhaust](/pbt-libraries/exhaust/reports/haystack.md) | 4582 | `"Creepidiot"` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/haystack.md) | 407 | 🎯 `"CREEPIDIOT"` |
+|  |  |  |  |
+| Zalgo Haystack | [Hypothesis](/challenges/zalgo-haystack.md#verification) | 444 | 🎯 `"THE ICHOR PERMEATES"` |
+|  | [Exhaust](/pbt-libraries/exhaust/failures/zalgoHaystack.json) | 461 | 🎯 `"THE ICHOR PERMEATES"` |
 |  |  |  |  |
 | Distinct Sum | [Hypothesis](/pbt-libraries/hypothesis/challenges/distinct_sum.md) | 133 | 🎯 `[0, 1, -1, 2, 49]` |
 |  | [Exhaust](/pbt-libraries/exhaust/reports/distinctSum.md) | 130 | `[-2, -1, 0, 1, 53]` |
@@ -35,6 +38,8 @@ Hypothesis and Exhaust reduce the same fixed failing input once, with no generat
 
 Each library generates and reduces a failure in each of 100 seeded runs.
 
+Exhaust results come from the 1.5.4 release run with seeds 1337–1436. The [full run log](/pbt-libraries/exhaust/reports/exhaust-1.5.4-custom-100-release.log) records phase timings; per-run JSON under [`failures/`](/pbt-libraries/exhaust/failures/) records original inputs, reduced inputs, evaluation counts, and wall times. The linked individual Exhaust Markdown reports have not yet been regenerated.
+
 - **Top counterexamples**: the share of runs ending at each counterexample. The top three are shown, followed by the minimal counterexample if it occurred outside them.
 - **Distinct CEs**: the number of different counterexamples across the 100 runs.
 - **Evaluations**: the mean across the 100 runs. How each library counts them is described below the table.
@@ -44,8 +49,18 @@ Hegel uses the same numeric seeds as the corresponding Hypothesis runs, but equa
 
 Hegel's fully derived invoice uses raw signed 64-bit fields, as Exhaust's does, rather than Hypothesis's arbitrary-precision integers.
 
+Calculator's Hegel generator uses signed-64-bit leaves and a maximum depth of 5; Hypothesis's integer and recursive expression domains are unbounded. Hegel evaluates with exact widened arithmetic and Python-style floor division, while Exhaust uses wrapping addition and truncating division.
+
 | Challenge | Library | Distinct CEs | Evaluations | Mean original length | Top counterexamples |
 |---|---|---|---|---|---|
+| Binary Heap | [Hypothesis](/pbt-libraries/hypothesis/challenges/binheap.md) | 3 | 102.5 | 151.1 | 85% 🎯 `(0, None, (0, (0, None, None), (1, None, None)))`<br>14% `(0, None, (0, None, (0, (0, None, None), (1, None, None))))`<br>1% `(0, None, (0, (0, None, None), (0, None, (1, None, None))))` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/binaryHeap.md) | 2 | 128.5 | 384.4 | 66% 🎯 `(0, None, (0, (0, None, None), (1, None, None)))`<br>34% `(0, (0, (1, None, None), None), (0, None, None))` |
+|  | [Hegel](/pbt-libraries/hegel/reports/binheap.md) | 1 | 5886.2 | 292.4 | 100% 🎯 `(0, None, (0, (0, None, None), (1, None, None)))` |
+|  |  |  |  |  |  |
+| Calculator | [Hypothesis](/pbt-libraries/hypothesis/challenges/calculator.md) | 1 | 90.5 | 125.7 | 100% 🎯 `('/', 0, ('+', 0, 0))` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/calculator.md) | 1 | 54.2 | 63.7 | 100% 🎯 `('/', 0, ('+', 0, 0))` |
+|  | [Hegel](/pbt-libraries/hegel/reports/calculator.md) | 1 | 446.9 | 240.6 | 100% 🎯 `('/', 0, ('+', 0, 0))` |
+|  |  |  |  |  |  |
 | Nested Flatmap (product sequence), depth 2 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_2.md) | 3 | 71.5 | 118.4 | 43% `(8, 3, 0x23 + 1x1)`<br>39% 🎯 `(6, 4, 0x23 + 1x1)`<br>18% `(5, 5, 0x24 + 1x1)` |
 |  | [Exhaust](/pbt-libraries/exhaust/reports/nestedFlatmapProductSequence.md#depth-2) | 2 | 311.8 | 141.0 | 99% 🎯 `(6, 4, 0x23 + 1x1)`<br>1% `(9, 3, 0x26 + 1x1)` |
 |  | [Hegel](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_2.md) | 2 | 1290.1 | 155.0 | 77% 🎯 `(6, 4, 0x23 + 1x1)`<br>23% `(8, 3, 0x23 + 1x1)` |
@@ -129,8 +144,8 @@ Hegel's fully derived invoice uses raw signed 64-bit fields, as Exhaust's does, 
 How each library counts evaluations:
 
 - **Hypothesis and Hegel** count every completed property call from the original failing input onwards. That includes any further generation calls after the first failure, and the final replay of the reduced counterexample.
-- **Hegel** also counts its confirmation calls. Rejected or overrun inputs that never reach a property verdict are not counted.
-- **Exhaust** reports only the calls made during reduction, so its means here have 1 added to count the original failing input. Exhaust makes no final replay.
+- **Hegel** also counts its confirmation calls. Rejected or overrun inputs that never reach a property verdict are not counted. Hypothesis's updated Calculator run likewise excludes assumption rejections from failure recording and evaluation counts.
+- **Exhaust** reports only the calls made during reduction, so its means here have 1 added to count the original failing input. Exhaust makes no final replay. Binary Heap's reduction mean of 127.5 is therefore shown as 128.5, and Calculator's 53.2 as 54.2.
 
 ## State machines
 
@@ -143,66 +158,71 @@ The Hash Collision rows run the same frame property as the generator rows above,
 | Challenge | Library | Distinct CEs | Evaluations | Mean original length | Top counterexamples |
 |---|---|---|---|---|---|
 | Snapshot Store | [Hypothesis](/pbt-libraries/hypothesis/challenges/snapshot_store.md) | 21 | 430.9 | 456.9 | 37% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>18% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]`<br>7% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/reports/snapshotStore.md) | 22 | 294.9 | 497.0 | 61% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>6% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]`<br>5% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), compact(), read(s0, 0)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/snapshotStore.md) | 17 | 232.9 | 497.0 | 67% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>6% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]`<br>5% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]` |
 |  | [Hegel](/pbt-libraries/hegel/reports/snapshot_store.md) | 3 | 1926.7 | 484.8 | 79% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>15% `[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]`<br>6% `[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]` |
 |  |  |  |  |  |  |
 | Hash Collision (M = 10) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_state_machine_10.md) | 77 | 34.4 | 59.0 | 7% 🎯 `[put(0, 0), put(10, 1)]`<br>5% `[put(30, 0), put(0, 1)]`<br>4% `[put(0, 0), put(30, 1)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/reports/hashCollision.md#state-machine-m--10) | 12 | 75.8 | 355.0 | 53% 🎯 `[put(0, 0), put(10, 1)]`<br>16% `[put(0, 1), put(10, 0)]`<br>9% `[put(0, 0), put(70, 1)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/hashCollision.md#state-machine-m--10) | 12 | 75.1 | 355.0 | 53% 🎯 `[put(0, 0), put(10, 1)]`<br>16% `[put(0, 1), put(10, 0)]`<br>9% `[put(0, 0), put(70, 1)]` |
 |  | [Hegel](/pbt-libraries/hegel/reports/hash_collision_state_machine_10.md) | 1 | 421.8 | 61.9 | 100% 🎯 `[put(0, 0), put(10, 1)]` |
 |  |  |  |  |  |  |
 | Hash Collision (M = 100) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_state_machine_100.md) | 59 | 46.5 | 184.5 | 39% 🎯 `[put(0, 0), put(100, 1)]`<br>2% `[put(499, 0), put(99, 1)]`<br>2% `[put(100, 0), put(0, 1)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/reports/hashCollision.md#state-machine-m--100) | 8 | 114.2 | 421.7 | 33% 🎯 `[put(0, 0), put(100, 1)]`<br>20% `[put(0, 1), put(100, 0)]`<br>13% `[put(0, 0), put(300, 1)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/hashCollision.md#state-machine-m--100) | 8 | 105.8 | 421.7 | 33% 🎯 `[put(0, 0), put(100, 1)]`<br>20% `[put(0, 1), put(100, 0)]`<br>13% `[put(0, 0), put(300, 1)]` |
 |  | [Hegel](/pbt-libraries/hegel/reports/hash_collision_state_machine_100.md) | 1 | 294.6 | 204.2 | 100% 🎯 `[put(0, 0), put(100, 1)]` |
 |  |  |  |  |  |  |
 | Hash Collision (M = 1000) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_state_machine_1000.md) | 98 | 103.5 | 434.6 | 2% `[put(140, 0), put(1140, 1)]`<br>2% `[put(4148, 0), put(148, 1)]`<br>1% `[put(3871, 0), put(7871, 1)]`<br>1% 🎯 `[put(0, 0), put(1000, 1)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/reports/hashCollision.md#state-machine-m--1000) | 9 | 181.1 | 512.5 | 30% `[put(0, 1), put(1000, 0)]`<br>28% 🎯 `[put(0, 0), put(1000, 1)]`<br>10% `[put(0, 0), put(3000, 1)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/reports/hashCollision.md#state-machine-m--1000) | 9 | 153.1 | 512.5 | 30% `[put(0, 1), put(1000, 0)]`<br>28% 🎯 `[put(0, 0), put(1000, 1)]`<br>10% `[put(0, 0), put(3000, 1)]` |
 |  | [Hegel](/pbt-libraries/hegel/reports/hash_collision_state_machine_1000.md) | 1 | 348.2 | 415.6 | 100% 🎯 `[put(0, 0), put(1000, 1)]` |
 
 
 ## Apples-to-oranges timings
 
-Mean milliseconds per run, on an M4 Max running macOS 26.4. Hypothesis 6.168.3 runs on Python 3.12, and Exhaust 1.5.3 with an optimised core.
+Mean milliseconds per run. Exhaust 1.5.4 was run in release mode on an Apple M4 Max running macOS 26.6.2. Hypothesis 6.168.3 runs on Python 3.12; its earlier results used macOS 26.4.
 
-- **Generation** is the time spent before reduction starts: Hypothesis's generate phase, and Exhaust's total time minus its reduction time. Fixed-start challenges have no generation phase.
+- **Generation** is Hypothesis's generate phase and Exhaust's reported generation metric. Exhaust's state-machine runners do not populate that metric, so their generation column uses total interpreter time minus reduction time, including remaining harness overhead. Fixed-start challenges have no generation phase.
 - **Reduction** is Hypothesis's shrink phase and Exhaust's reduction time.
 
 Hegel's total timings are reported separately below, because its Rust API does not expose structured generation and reduction durations.
 
+The new Binary Heap, Calculator, and Zalgo Haystack Hypothesis runs used macOS 26.6.2. All Exhaust timings below are from the same 1.5.4 release run.
+
 | Challenge | Hypothesis generation (ms) | Exhaust generation (ms) | Hypothesis reduction (ms) | Exhaust reduction (ms) |
 |---|---|---|---|---|
-| Anagrams | — | — | 177 | 8.56 |
-| Username and Password | — | — | 39.48 | 3.06 |
-| Duplicated Text | — | — | 5.23 | 0.36 |
-| Haystack | — | — | 112 | 86.62 |
-| Distinct Sum | — | — | 47.81 | 0.56 |
-| Leap Day | — | — | 8.83 | 0.25 |
-| Branch Switching | — | — | 5.62 | 1.09 |
-| Nested Flatmap (product sequence), depth 2 | 13.37 | 0.09 | 215 | 2.90 |
-| Nested Flatmap (product sequence), depth 3 | 19.65 | 0.13 | 381 | 6.38 |
-| Nested Flatmap (product sequence), depth 4 | 32.10 | 0.23 | 385 | 64.01 |
-| Nested Flatmap (product sequence), depth 5 | 38.21 | 0.57 | 455 | 983 |
-| Nested Flatmap (product sequence), depth 6 | 40.26 | 0.75 | 486 | 2,656 |
-| Nested Flatmap (product), depth 2 | 4.05 | 0.02 | 3.35 | 0.17 |
-| Nested Flatmap (product), depth 3 | 4.16 | 0.03 | 5.72 | 0.75 |
-| Nested Flatmap (product), depth 4 | 4.35 | 0.04 | 9.36 | 2.12 |
-| Nested Flatmap (product), depth 5 | 4.65 | 0.04 | 11.49 | 5.85 |
-| Nested Flatmap (product), depth 6 | 4.88 | 0.07 | 13.56 | 13.57 |
-| Nested Flatmap (sum), depth 4 | 12.56 | 0.15 | 591 | 36.83 |
-| Modular Mapping | 4.33 | 0.02 | 3.23 | 0.02 |
-| Weighted Linear Preservation | 14.36 | 0.06 | 7.92 | 0.09 |
-| Invoice Discount | 3.87 | 0.04 | 21.48 | 0.28 |
-| Invoice Discount (derived) | 414 | 0.40 | 22.36 | 0.23 |
-| Float Cancellation | 4.29 | 0.03 | 16.63 | 0.57 |
-| Chunked Decoder | 7.55 | 0.07 | 29.32 | 0.58 |
-| Hash Collision (M = 10) | 19.71 | 0.06 | 31.47 | 0.28 |
-| Hash Collision (M = 100) | 76.11 | 0.12 | 34.49 | 0.41 |
-| Hash Collision (M = 1000) | 1,055 | 0.89 | 62.61 | 0.56 |
-| Snapshot Store | 1,744 | 1.40 | 847 | 5.90 |
-| Hash Collision (M = 10) | 10.23 | 0.05 | 56.21 | 0.75 |
-| Hash Collision (M = 100) | 16.72 | 0.07 | 91.97 | 1.26 |
-| Hash Collision (M = 1000) | 56.09 | 0.16 | 392 | 2.42 |
+| Anagrams | — | — | 177 | 7.76 |
+| Username and Password | — | — | 39.48 | 2.95 |
+| Duplicated Text | — | — | 5.23 | 0.41 |
+| Haystack | — | — | 112 | 6.05 |
+| Zalgo Haystack | — | — | 2,872.52 | 9.26 |
+| Distinct Sum | — | — | 47.81 | 0.54 |
+| Leap Day | — | — | 8.83 | 0.26 |
+| Branch Switching | — | — | 5.62 | 0.28 |
+| Binary Heap | 60.69 | 0.073 | 75.30 | 4.65 |
+| Calculator | 1496.90 | 0.038 | 40.03 | 0.45 |
+| Nested Flatmap (product sequence), depth 2 | 13.37 | 0.020 | 215 | 2.88 |
+| Nested Flatmap (product sequence), depth 3 | 19.65 | 0.042 | 381 | 6.29 |
+| Nested Flatmap (product sequence), depth 4 | 32.10 | 0.109 | 385 | 63.34 |
+| Nested Flatmap (product sequence), depth 5 | 38.21 | 0.336 | 455 | 984.21 |
+| Nested Flatmap (product sequence), depth 6 | 40.26 | 0.527 | 486 | 2,671.84 |
+| Nested Flatmap (product), depth 2 | 4.05 | 0.004 | 3.35 | 0.17 |
+| Nested Flatmap (product), depth 3 | 4.16 | 0.005 | 5.72 | 0.76 |
+| Nested Flatmap (product), depth 4 | 4.35 | 0.006 | 9.36 | 2.13 |
+| Nested Flatmap (product), depth 5 | 4.65 | 0.008 | 11.49 | 5.84 |
+| Nested Flatmap (product), depth 6 | 4.88 | 0.010 | 13.56 | 13.42 |
+| Nested Flatmap (sum), depth 4 | 12.56 | 0.048 | 591 | 36.10 |
+| Modular Mapping | 4.33 | 0.002 | 3.23 | 0.02 |
+| Weighted Linear Preservation | 14.36 | 0.034 | 7.92 | 0.10 |
+| Invoice Discount | 3.87 | 0.004 | 21.48 | 0.28 |
+| Invoice Discount (derived) | 414 | 0.356 | 22.36 | 0.23 |
+| Float Cancellation | 4.29 | 0.007 | 16.63 | 0.57 |
+| Chunked Decoder | 7.55 | 0.021 | 29.32 | 0.59 |
+| Hash Collision (M = 10) | 19.71 | 0.029 | 31.47 | 0.28 |
+| Hash Collision (M = 100) | 76.11 | 0.091 | 34.49 | 0.42 |
+| Hash Collision (M = 1000) | 1,055 | 0.841 | 62.61 | 0.56 |
+| Snapshot Store | 1,744 | 1.40 | 847 | 4.58 |
+| Hash Collision (M = 10) | 10.23 | 0.05 | 56.21 | 0.76 |
+| Hash Collision (M = 100) | 16.72 | 0.06 | 91.97 | 1.06 |
+| Hash Collision (M = 1000) | 56.09 | 0.16 | 392 | 1.60 |
 
-## Hegel total timings
+## Total timings
 
 Hegel 0.48.1 / libhegel 0.44.1, rustc 1.93.1 (01f6ddf75 2026-02-11), release build with a statically linked native engine, on Apple M4 Max running macOS 26.6.2.
 
@@ -214,27 +234,29 @@ All three columns are mean wall-clock milliseconds per run:
 
 | Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |
 |---|---|---|---|
-| [Nested Flatmap (product sequence), depth 2](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_2.md) | 230.04 | 3.00 | 66.84 |
-| [Nested Flatmap (product sequence), depth 3](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_3.md) | 401.65 | 6.52 | 104.09 |
-| [Nested Flatmap (product sequence), depth 4](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_4.md) | 418.53 | 64.26 | 213.11 |
-| [Nested Flatmap (product sequence), depth 5](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_5.md) | 494.57 | 983.30 | 406.29 |
-| [Nested Flatmap (product sequence), depth 6](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_6.md) | 527.75 | 2,657.07 | 7,375.74 |
-| [Nested Flatmap (product), depth 2](/pbt-libraries/hegel/reports/nested_flatmap_product_2.md) | 8.15 | 0.20 | 21.06 |
-| [Nested Flatmap (product), depth 3](/pbt-libraries/hegel/reports/nested_flatmap_product_3.md) | 10.61 | 0.79 | 23.32 |
-| [Nested Flatmap (product), depth 4](/pbt-libraries/hegel/reports/nested_flatmap_product_4.md) | 14.47 | 2.16 | 29.63 |
-| [Nested Flatmap (product), depth 5](/pbt-libraries/hegel/reports/nested_flatmap_product_5.md) | 16.91 | 5.90 | 26.31 |
-| [Nested Flatmap (product), depth 6](/pbt-libraries/hegel/reports/nested_flatmap_product_6.md) | 19.25 | 13.65 | 22.72 |
-| [Nested Flatmap (sum), depth 4](/pbt-libraries/hegel/reports/nested_flatmap_sum_4.md) | 604.27 | 37.00 | 86.56 |
-| [Modular Mapping](/pbt-libraries/hegel/reports/modular_mapping.md) | 8.37 | 0.04 | 0.51 |
-| [Weighted Linear Preservation](/pbt-libraries/hegel/reports/weighted_linear_preservation.md) | 23.14 | 0.16 | 1.07 |
-| [Invoice Discount](/pbt-libraries/hegel/reports/invoice_discount.md) | 26.28 | 0.33 | 2.21 |
-| [Invoice Discount (derived)](/pbt-libraries/hegel/reports/invoice_discount_derived.md) | 436.97 | 0.63 | 5.44 |
-| [Float Cancellation](/pbt-libraries/hegel/reports/float_cancellation.md) | 21.64 | 0.60 | 3.63 |
-| [Chunked Decoder](/pbt-libraries/hegel/reports/chunked_decoder.md) | 37.79 | 0.66 | 17.59 |
-| [Hash Collision (M = 10)](/pbt-libraries/hegel/reports/hash_collision_10.md) | 52.25 | 0.34 | 6.34 |
-| [Hash Collision (M = 100)](/pbt-libraries/hegel/reports/hash_collision_100.md) | 111.66 | 0.54 | 8.04 |
-| [Hash Collision (M = 1000)](/pbt-libraries/hegel/reports/hash_collision_1000.md) | 1,119.13 | 1.45 | 16.08 |
-| [Snapshot Store](/pbt-libraries/hegel/reports/snapshot_store.md) | 2,592.94 | 7.32 | 513.02 |
-| [Hash Collision (M = 10) (state machine)](/pbt-libraries/hegel/reports/hash_collision_state_machine_10.md) | 68.35 | 0.81 | 78.73 |
-| [Hash Collision (M = 100) (state machine)](/pbt-libraries/hegel/reports/hash_collision_state_machine_100.md) | 110.53 | 1.34 | 76.20 |
-| [Hash Collision (M = 1000) (state machine)](/pbt-libraries/hegel/reports/hash_collision_state_machine_1000.md) | 449.59 | 2.60 | 80.75 |
+| [Binary Heap](/pbt-libraries/hegel/reports/binheap.md) | 137.17 | **4.86** | 296.48 |
+| [Calculator](/pbt-libraries/hegel/reports/calculator.md) | 1538.10 | **0.55** | 101.94 |
+| [Nested Flatmap (product sequence), depth 2](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_2.md) | 230.04 | **2.98** | 66.84 |
+| [Nested Flatmap (product sequence), depth 3](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_3.md) | 401.65 | **6.42** | 104.09 |
+| [Nested Flatmap (product sequence), depth 4](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_4.md) | 418.53 | **63.58** | 213.11 |
+| [Nested Flatmap (product sequence), depth 5](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_5.md) | 494.57 | 984.73 | **406.29** |
+| [Nested Flatmap (product sequence), depth 6](/pbt-libraries/hegel/reports/nested_flatmap_product_sequence_6.md) | **527.75** | 2,672.62 | 7,375.74 |
+| [Nested Flatmap (product), depth 2](/pbt-libraries/hegel/reports/nested_flatmap_product_2.md) | 8.15 | **0.20** | 21.06 |
+| [Nested Flatmap (product), depth 3](/pbt-libraries/hegel/reports/nested_flatmap_product_3.md) | 10.61 | **0.80** | 23.32 |
+| [Nested Flatmap (product), depth 4](/pbt-libraries/hegel/reports/nested_flatmap_product_4.md) | 14.47 | **2.17** | 29.63 |
+| [Nested Flatmap (product), depth 5](/pbt-libraries/hegel/reports/nested_flatmap_product_5.md) | 16.91 | **5.90** | 26.31 |
+| [Nested Flatmap (product), depth 6](/pbt-libraries/hegel/reports/nested_flatmap_product_6.md) | 19.25 | **13.50** | 22.72 |
+| [Nested Flatmap (sum), depth 4](/pbt-libraries/hegel/reports/nested_flatmap_sum_4.md) | 604.27 | **36.27** | 86.56 |
+| [Modular Mapping](/pbt-libraries/hegel/reports/modular_mapping.md) | 8.37 | **0.04** | 0.51 |
+| [Weighted Linear Preservation](/pbt-libraries/hegel/reports/weighted_linear_preservation.md) | 23.14 | **0.16** | 1.07 |
+| [Invoice Discount](/pbt-libraries/hegel/reports/invoice_discount.md) | 26.28 | **0.33** | 2.21 |
+| [Invoice Discount (derived)](/pbt-libraries/hegel/reports/invoice_discount_derived.md) | 436.97 | **0.63** | 5.44 |
+| [Float Cancellation](/pbt-libraries/hegel/reports/float_cancellation.md) | 21.64 | **0.60** | 3.63 |
+| [Chunked Decoder](/pbt-libraries/hegel/reports/chunked_decoder.md) | 37.79 | **0.67** | 17.59 |
+| [Hash Collision (M = 10)](/pbt-libraries/hegel/reports/hash_collision_10.md) | 52.25 | **0.35** | 6.34 |
+| [Hash Collision (M = 100)](/pbt-libraries/hegel/reports/hash_collision_100.md) | 111.66 | **0.55** | 8.04 |
+| [Hash Collision (M = 1000)](/pbt-libraries/hegel/reports/hash_collision_1000.md) | 1,119.13 | **1.44** | 16.08 |
+| [Snapshot Store](/pbt-libraries/hegel/reports/snapshot_store.md) | 2,592.94 | **6.00** | 513.02 |
+| [Hash Collision (M = 10) (state machine)](/pbt-libraries/hegel/reports/hash_collision_state_machine_10.md) | 68.35 | **0.81** | 78.73 |
+| [Hash Collision (M = 100) (state machine)](/pbt-libraries/hegel/reports/hash_collision_state_machine_100.md) | 110.53 | **1.13** | 76.20 |
+| [Hash Collision (M = 1000) (state machine)](/pbt-libraries/hegel/reports/hash_collision_state_machine_1000.md) | 449.59 | **1.77** | 80.75 |

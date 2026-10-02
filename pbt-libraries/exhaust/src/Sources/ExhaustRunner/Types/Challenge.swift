@@ -28,6 +28,7 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case usernamePassword
     case duplicatedText
     case haystack
+    case zalgoHaystack
 
     case distinctSum
     case leapDay
@@ -80,6 +81,7 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
         case .leapDay: "Leap Day"
         case .branchSwitching: "Branch Switching"
         case .haystack: "Haystack"
+        case .zalgoHaystack: "Zalgo Haystack"
         case .depthTwoProductSequenceBind: "Depth 2 Bind (product sequence)"
         case .depthThreeProductSequenceBind: "Depth 3 Bind (product sequence)"
         case .depthFourProductSequenceBind: "Depth 4 Bind (product sequence)"
@@ -109,14 +111,14 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     
     var reflectsInput: Bool {
         switch self {
-        case .anagrams, .usernamePassword, .duplicatedText, .distinctSum, .leapDay, .branchSwitching, .haystack: true
+        case .anagrams, .usernamePassword, .duplicatedText, .distinctSum, .leapDay, .branchSwitching, .haystack, .zalgoHaystack: true
         default: false
         }
     }
     
     var isCustom: Bool {
         switch self {
-        case .binaryHeap, .bound5, .calculator, .coupling, .deletion, .differenceNotOne, .differenceNotSmall, .differenceNotZero, .distinct, .largeUnionList, .lengthList, .nestedLists, .reverse:
+        case .bound5, .coupling, .deletion, .differenceNotOne, .differenceNotSmall, .differenceNotZero, .distinct, .largeUnionList, .lengthList, .nestedLists, .reverse:
             false
         default:
             true

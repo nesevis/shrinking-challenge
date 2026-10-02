@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.758416
+    "wallMilliseconds" : 0.675792
   },
   {
     "evaluations" : 80,
@@ -19,10 +19,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 1.143833
+    "wallMilliseconds" : 1.973125
   },
   {
-    "evaluations" : 92,
+    "evaluations" : 91,
     "original" : {
       "p" : "[put(39, 4), put(35, 3), put(47, 3), put(89, 7), put(13, 4), put(36, 5), put(34, 3), put(94, 4), put(87, 2), put(38, 8), put(28, 9), put(86, 3), put(69, 9), put(69, 2), put(13, 2), put(41, 6), put(95, 8), put(76, 9), put(27, 1), put(44, 7), put(26, 2), put(39, 5), put(56, 2), put(46, 7), put(87, 5), put(25, 5), put(4, 7), put(25, 0), put(32, 5), put(54, 0), put(61, 1), put(55, 5), put(15, 1), put(29, 1), put(0, 8), put(14, 0), put(85, 8), put(68, 3), put(48, 1), put(43, 2), put(33, 2), put(94, 0), put(27, 2)]"
     },
@@ -30,10 +30,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.174458
+    "wallMilliseconds" : 1.087041
   },
   {
-    "evaluations" : 97,
+    "evaluations" : 90,
     "original" : {
       "p" : "[put(54, 2), put(2, 2), put(36, 0), put(51, 4), put(48, 8), put(64, 9), put(39, 2), put(3, 5), put(21, 8)]"
     },
@@ -41,10 +41,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.811167
+    "wallMilliseconds" : 0.67
   },
   {
-    "evaluations" : 109,
+    "evaluations" : 103,
     "original" : {
       "p" : "[put(29, 1), put(76, 1), put(72, 4), put(73, 4), put(74, 2), put(35, 1), put(49, 8), put(42, 2), put(67, 7), put(93, 4), put(83, 8), put(56, 5), put(90, 2), put(19, 3), put(6, 8), put(2, 9), put(52, 2), put(32, 7), put(59, 7), put(21, 2), put(90, 5), put(56, 2), put(43, 0), put(93, 4), put(16, 6), put(42, 8), put(67, 7), put(37, 3), put(37, 0), put(48, 5), put(2, 7), put(37, 0), put(72, 4), put(13, 7), put(28, 0)]"
     },
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.206958
+    "wallMilliseconds" : 1.0365
   },
   {
     "evaluations" : 78,
@@ -63,10 +63,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.507958
+    "wallMilliseconds" : 0.489542
   },
   {
-    "evaluations" : 95,
+    "evaluations" : 93,
     "original" : {
       "p" : "[put(65, 5), put(48, 2), put(63, 6), put(99, 8), put(90, 1), put(58, 0), put(14, 3), put(76, 3), put(39, 0), put(15, 6), put(30, 3), put(72, 2), put(72, 2), put(51, 9), put(31, 2), put(39, 4), put(30, 8), put(80, 4), put(89, 0), put(12, 4), put(3, 9), put(31, 9), put(42, 7), put(5, 9), put(24, 8), put(26, 4), put(15, 8), put(35, 3), put(23, 4), put(84, 0), put(92, 6)]"
     },
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.973166
+    "wallMilliseconds" : 0.930667
   },
   {
     "evaluations" : 47,
@@ -85,10 +85,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.970333
+    "wallMilliseconds" : 1.002167
   },
   {
-    "evaluations" : 74,
+    "evaluations" : 72,
     "original" : {
       "p" : "[put(42, 2), put(48, 1), put(83, 5), put(19, 8), put(62, 4), put(38, 9), put(6, 2), put(26, 2), put(22, 7), put(61, 8), put(44, 0), put(70, 3), put(55, 4), put(9, 0), put(2, 0), put(93, 3), put(39, 9), put(29, 7), put(12, 5), put(75, 6), put(75, 3), put(90, 8), put(82, 0), put(97, 1), put(99, 2), put(59, 5), put(25, 8), put(60, 9), put(30, 9), put(2, 4), put(92, 9), put(54, 2), put(4, 6), put(27, 4), put(51, 7), put(79, 0), put(24, 9), put(85, 4), put(73, 3)]"
     },
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.93275
+    "wallMilliseconds" : 0.912375
   },
   {
     "evaluations" : 73,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.570792
+    "wallMilliseconds" : 0.576334
   },
   {
     "evaluations" : 72,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.705208
+    "wallMilliseconds" : 0.746166
   },
   {
     "evaluations" : 87,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.014958
+    "wallMilliseconds" : 0.98875
   },
   {
     "evaluations" : 42,
@@ -140,10 +140,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.611916
+    "wallMilliseconds" : 0.631625
   },
   {
-    "evaluations" : 71,
+    "evaluations" : 70,
     "original" : {
       "p" : "[put(41, 3), put(16, 6), put(43, 5), put(61, 6), put(24, 6), put(44, 4), put(68, 1), put(59, 5), put(53, 2), put(16, 4), put(12, 9), put(29, 6), put(82, 0), put(88, 0), put(91, 5), put(34, 9), put(23, 2), put(84, 5), put(62, 0), put(92, 9), put(64, 0), put(12, 9), put(63, 2), put(92, 9), put(69, 8), put(96, 7), put(63, 9), put(14, 6), put(49, 3), put(63, 5), put(64, 5), put(35, 2), put(14, 2), put(21, 5), put(40, 6), put(37, 7), put(25, 2), put(26, 5)]"
     },
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(11, 1)]"
     },
-    "wallMilliseconds" : 0.887709
+    "wallMilliseconds" : 0.880541
   },
   {
     "evaluations" : 82,
@@ -162,10 +162,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.705458
+    "wallMilliseconds" : 0.703209
   },
   {
-    "evaluations" : 93,
+    "evaluations" : 92,
     "original" : {
       "p" : "[put(97, 8), put(29, 6), put(75, 9), put(67, 7), put(34, 8), put(36, 0), put(69, 5), put(92, 9), put(10, 4), put(6, 8), put(18, 7)]"
     },
@@ -173,10 +173,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.719542
+    "wallMilliseconds" : 0.696083
   },
   {
-    "evaluations" : 81,
+    "evaluations" : 80,
     "original" : {
       "p" : "[put(68, 4), put(30, 2), put(68, 5), put(12, 1), put(39, 6), put(67, 8), put(70, 3), put(69, 6), put(84, 1), put(48, 6), put(1, 0), put(44, 0), put(53, 4), put(93, 8), put(12, 5), put(12, 0), put(19, 8), put(6, 0), put(6, 4), put(49, 0), put(69, 6), put(62, 4), put(64, 1)]"
     },
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.807917
+    "wallMilliseconds" : 0.76575
   },
   {
     "evaluations" : 80,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 0.769375
+    "wallMilliseconds" : 0.790333
   },
   {
     "evaluations" : 72,
@@ -206,10 +206,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.635833
+    "wallMilliseconds" : 0.662709
   },
   {
-    "evaluations" : 91,
+    "evaluations" : 89,
     "original" : {
       "p" : "[put(21, 7), put(78, 4), put(95, 2), put(59, 0), put(34, 6), put(98, 8), put(96, 1), put(2, 4), put(52, 8), put(86, 5), put(19, 1), put(3, 8), put(67, 3), put(86, 7), put(77, 7), put(68, 0), put(24, 5), put(76, 5), put(69, 2), put(48, 7), put(49, 0), put(80, 2), put(12, 0)]"
     },
@@ -217,10 +217,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.845125
+    "wallMilliseconds" : 0.841333
   },
   {
-    "evaluations" : 84,
+    "evaluations" : 77,
     "original" : {
       "p" : "[put(92, 7), put(45, 3), put(81, 6), put(67, 0), put(29, 0), put(22, 2), put(27, 5), put(91, 6), put(93, 4), put(25, 2), put(28, 5), put(40, 5), put(39, 3), put(42, 2), put(99, 7), put(56, 0), put(39, 8), put(79, 9), put(0, 8), put(45, 7), put(62, 0)]"
     },
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.785792
+    "wallMilliseconds" : 0.702625
   },
   {
     "evaluations" : 86,
@@ -239,7 +239,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.042709
+    "wallMilliseconds" : 1.08725
   },
   {
     "evaluations" : 75,
@@ -250,10 +250,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.994833
+    "wallMilliseconds" : 0.992875
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 46,
     "original" : {
       "p" : "[put(90, 2), put(85, 0), put(63, 9), put(70, 6), put(51, 0), put(85, 6), put(26, 5), put(49, 7), put(56, 8), put(39, 3), put(34, 6)]"
     },
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.505333
+    "wallMilliseconds" : 0.480167
   },
   {
     "evaluations" : 88,
@@ -272,10 +272,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.876667
+    "wallMilliseconds" : 0.894042
   },
   {
-    "evaluations" : 96,
+    "evaluations" : 94,
     "original" : {
       "p" : "[put(68, 9), put(30, 7), put(30, 9), put(65, 5), put(8, 7), put(66, 0), put(20, 4), put(26, 5), put(19, 3), put(87, 6), put(45, 4), put(32, 3), put(22, 2), put(70, 0), put(64, 6), put(13, 0), put(46, 0), put(64, 3), put(66, 1), put(15, 5), put(15, 0), put(94, 4), put(59, 2), put(84, 5), put(54, 5), put(39, 1), put(29, 6), put(76, 1), put(8, 8), put(67, 8), put(36, 0), put(99, 5), put(46, 6), put(64, 3), put(83, 9), put(55, 3), put(25, 5), put(19, 0), put(95, 7), put(91, 2), put(78, 5), put(8, 1), put(6, 7)]"
     },
@@ -283,10 +283,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 1.092958
+    "wallMilliseconds" : 1.06175
   },
   {
-    "evaluations" : 92,
+    "evaluations" : 91,
     "original" : {
       "p" : "[put(56, 5), put(29, 6), put(10, 5), put(87, 0), put(33, 8), put(75, 2), put(16, 9), put(80, 7), put(25, 9), put(92, 2), put(67, 3), put(28, 6), put(0, 8), put(65, 7), put(71, 9), put(84, 6), put(12, 9), put(86, 2), put(59, 5), put(63, 9), put(62, 6), put(82, 9), put(47, 1), put(3, 4), put(42, 9), put(32, 0), put(26, 9), put(84, 6), put(43, 1), put(83, 0), put(42, 0), put(22, 3), put(65, 5), put(33, 5)]"
     },
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.955958
+    "wallMilliseconds" : 0.919958
   },
   {
     "evaluations" : 68,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.664916
+    "wallMilliseconds" : 0.6755
   },
   {
     "evaluations" : 80,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.755084
+    "wallMilliseconds" : 0.7655
   },
   {
     "evaluations" : 75,
@@ -327,10 +327,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.700417
+    "wallMilliseconds" : 0.70225
   },
   {
-    "evaluations" : 84,
+    "evaluations" : 82,
     "original" : {
       "p" : "[put(25, 5), put(43, 1), put(76, 7), put(67, 8), put(85, 2), put(93, 6), put(97, 3), put(39, 0), put(12, 0), put(36, 6), put(70, 6), put(4, 6), put(98, 3), put(65, 9), put(98, 7), put(0, 4), put(60, 2), put(94, 6), put(9, 8), put(15, 0), put(34, 8), put(10, 6), put(24, 6), put(55, 1), put(75, 8), put(15, 6), put(9, 1), put(14, 0), put(79, 8), put(30, 2), put(38, 4), put(0, 5), put(32, 6), put(79, 5)]"
     },
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.868041
+    "wallMilliseconds" : 0.85075
   },
   {
     "evaluations" : 79,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(90, 0)]"
     },
-    "wallMilliseconds" : 0.932416
+    "wallMilliseconds" : 0.958833
   },
   {
     "evaluations" : 73,
@@ -360,10 +360,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.423959
+    "wallMilliseconds" : 0.422333
   },
   {
-    "evaluations" : 79,
+    "evaluations" : 73,
     "original" : {
       "p" : "[put(94, 3), put(42, 8), put(5, 4), put(14, 3), put(29, 8), put(40, 9), put(92, 7)]"
     },
@@ -371,10 +371,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 0.631708
+    "wallMilliseconds" : 0.529542
   },
   {
-    "evaluations" : 93,
+    "evaluations" : 91,
     "original" : {
       "p" : "[put(27, 0), put(27, 0), put(15, 0), put(82, 0), put(31, 5), put(46, 8), put(18, 6), put(53, 1), put(18, 4), put(26, 3), put(73, 8), put(1, 9), put(78, 9), put(83, 4), put(26, 5), put(72, 0), put(5, 6), put(93, 1), put(95, 6), put(67, 1), put(95, 2), put(9, 6)]"
     },
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.819916
+    "wallMilliseconds" : 0.807709
   },
   {
     "evaluations" : 70,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.813
+    "wallMilliseconds" : 0.820042
   },
   {
     "evaluations" : 92,
@@ -404,10 +404,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.703
+    "wallMilliseconds" : 0.703208
   },
   {
-    "evaluations" : 65,
+    "evaluations" : 63,
     "original" : {
       "p" : "[put(52, 9), put(7, 1), put(88, 8), put(11, 7), put(11, 2), put(79, 6), put(43, 1), put(18, 2), put(61, 8), put(5, 7), put(68, 2), put(13, 0), put(19, 8), put(11, 4), put(50, 1), put(39, 6), put(61, 9), put(89, 9)]"
     },
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(11, 1)]"
     },
-    "wallMilliseconds" : 0.640791
+    "wallMilliseconds" : 0.622542
   },
   {
     "evaluations" : 79,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.559792
+    "wallMilliseconds" : 0.55725
   },
   {
     "evaluations" : 65,
@@ -437,10 +437,10 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(71, 1)]"
     },
-    "wallMilliseconds" : 0.656292
+    "wallMilliseconds" : 0.662333
   },
   {
-    "evaluations" : 95,
+    "evaluations" : 94,
     "original" : {
       "p" : "[put(9, 7), put(75, 9), put(70, 3), put(99, 4), put(22, 4), put(75, 7), put(82, 9), put(9, 4), put(42, 7), put(29, 5), put(15, 5), put(97, 8), put(66, 4), put(34, 7), put(56, 0), put(28, 1), put(67, 7), put(58, 9), put(83, 2), put(91, 7), put(39, 5), put(84, 6), put(29, 1), put(55, 7), put(8, 6), put(66, 0), put(50, 4), put(57, 3), put(22, 5), put(0, 4), put(11, 2), put(27, 8), put(63, 7), put(32, 4), put(27, 6), put(35, 1), put(89, 5), put(51, 0), put(77, 3), put(61, 7), put(6, 6), put(4, 5), put(8, 0), put(88, 9), put(23, 2), put(63, 8)]"
     },
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.068625
+    "wallMilliseconds" : 1.062458
   },
   {
     "evaluations" : 81,
@@ -459,10 +459,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.001958
+    "wallMilliseconds" : 1.035375
   },
   {
-    "evaluations" : 93,
+    "evaluations" : 91,
     "original" : {
       "p" : "[put(38, 5), put(32, 7), put(81, 6), put(33, 5), put(5, 5), put(47, 6), put(49, 0), put(3, 7), put(32, 4), put(16, 1), put(16, 0), put(40, 3), put(80, 8), put(7, 5), put(12, 2), put(93, 1), put(42, 0), put(0, 2), put(54, 4), put(27, 7), put(73, 0), put(76, 2), put(58, 3), put(49, 5), put(82, 1), put(35, 7), put(14, 6), put(81, 7), put(54, 7), put(25, 7), put(52, 4), put(62, 2), put(51, 0), put(92, 9), put(36, 0), put(36, 8), put(91, 5), put(95, 7), put(40, 5), put(18, 8), put(26, 9), put(86, 0), put(15, 4), put(80, 0)]"
     },
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 1.19275
+    "wallMilliseconds" : 1.186208
   },
   {
     "evaluations" : 78,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.521333
+    "wallMilliseconds" : 0.519708
   },
   {
     "evaluations" : 74,
@@ -492,10 +492,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.519375
+    "wallMilliseconds" : 0.525042
   },
   {
-    "evaluations" : 103,
+    "evaluations" : 101,
     "original" : {
       "p" : "[put(30, 7), put(29, 9), put(72, 0), put(57, 8), put(63, 6), put(49, 2), put(20, 7), put(44, 8), put(50, 7), put(54, 4), put(44, 3), put(2, 3), put(29, 8), put(47, 7), put(86, 9), put(34, 6), put(0, 6), put(98, 9), put(44, 8), put(4, 7), put(82, 6), put(56, 3), put(69, 9), put(28, 0), put(52, 0), put(41, 8), put(9, 5), put(2, 3), put(79, 8), put(52, 1), put(63, 1), put(51, 8)]"
     },
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.996875
+    "wallMilliseconds" : 0.964167
   },
   {
     "evaluations" : 78,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.941125
+    "wallMilliseconds" : 0.944916
   },
   {
     "evaluations" : 39,
@@ -525,10 +525,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.434625
+    "wallMilliseconds" : 0.449958
   },
   {
-    "evaluations" : 69,
+    "evaluations" : 68,
     "original" : {
       "p" : "[put(4, 0), put(68, 3), put(85, 9), put(24, 3), put(40, 6), put(37, 8), put(17, 1), put(39, 3), put(39, 8), put(9, 9), put(71, 4), put(41, 4), put(87, 9), put(67, 7), put(72, 3), put(33, 6), put(51, 1), put(61, 4), put(56, 4), put(92, 2), put(26, 2), put(68, 8), put(60, 9), put(56, 7)]"
     },
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.714542
+    "wallMilliseconds" : 0.716667
   },
   {
     "evaluations" : 87,
@@ -547,10 +547,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.77675
+    "wallMilliseconds" : 0.8085
   },
   {
-    "evaluations" : 87,
+    "evaluations" : 86,
     "original" : {
       "p" : "[put(48, 1), put(52, 7), put(93, 3), put(55, 1), put(30, 4), put(49, 8), put(95, 2), put(33, 2)]"
     },
@@ -558,10 +558,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 0.660167
+    "wallMilliseconds" : 0.637417
   },
   {
-    "evaluations" : 70,
+    "evaluations" : 69,
     "original" : {
       "p" : "[put(63, 7), put(42, 4), put(42, 9), put(13, 8), put(60, 7), put(83, 2), put(11, 4), put(20, 3), put(60, 7), put(85, 6), put(88, 6), put(51, 1), put(63, 1), put(24, 0), put(59, 9), put(35, 5), put(62, 0), put(14, 9), put(56, 8), put(55, 8), put(6, 6), put(74, 4), put(68, 3), put(27, 7), put(15, 5), put(92, 6), put(90, 8), put(74, 6), put(57, 7), put(43, 0), put(26, 9), put(27, 9), put(16, 4), put(36, 8), put(25, 5)]"
     },
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.838834
+    "wallMilliseconds" : 0.895584
   },
   {
     "evaluations" : 81,
@@ -580,10 +580,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.915709
+    "wallMilliseconds" : 0.976875
   },
   {
-    "evaluations" : 94,
+    "evaluations" : 93,
     "original" : {
       "p" : "[put(27, 8), put(33, 3), put(29, 3), put(47, 3), put(56, 7), put(2, 2), put(40, 6), put(97, 0), put(86, 5), put(36, 5), put(17, 6), put(84, 7), put(53, 1), put(41, 6), put(5, 9), put(31, 3), put(79, 0), put(70, 6), put(74, 3), put(20, 1), put(64, 9), put(61, 8), put(39, 4), put(58, 8), put(74, 4), put(85, 6), put(38, 0), put(91, 7), put(23, 9), put(13, 3), put(73, 3), put(76, 9), put(8, 4), put(49, 8), put(41, 9), put(70, 7), put(65, 4), put(9, 3), put(31, 6), put(6, 5), put(63, 5), put(36, 0), put(0, 9), put(26, 0), put(11, 5)]"
     },
@@ -591,10 +591,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.044
+    "wallMilliseconds" : 1.057541
   },
   {
-    "evaluations" : 94,
+    "evaluations" : 92,
     "original" : {
       "p" : "[put(78, 8), put(32, 4), put(78, 2), put(19, 7), put(16, 2), put(83, 5), put(92, 4), put(11, 0), put(86, 8), put(98, 5), put(91, 0), put(57, 4), put(63, 8), put(45, 1), put(73, 8), put(42, 8), put(53, 0), put(13, 1), put(71, 5), put(55, 5), put(21, 7), put(40, 6), put(47, 9), put(61, 1), put(29, 3), put(96, 5), put(3, 8), put(96, 0), put(8, 0), put(26, 6)]"
     },
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 1.010541
+    "wallMilliseconds" : 0.982
   },
   {
     "evaluations" : 86,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.913958
+    "wallMilliseconds" : 0.916667
   },
   {
     "evaluations" : 68,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.576458
+    "wallMilliseconds" : 0.559791
   },
   {
     "evaluations" : 51,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(11, 1)]"
     },
-    "wallMilliseconds" : 0.987083
+    "wallMilliseconds" : 0.868333
   },
   {
     "evaluations" : 70,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.591375
+    "wallMilliseconds" : 0.554083
   },
   {
     "evaluations" : 62,
@@ -657,7 +657,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.718458
+    "wallMilliseconds" : 0.685417
   },
   {
     "evaluations" : 67,
@@ -668,7 +668,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.840625
+    "wallMilliseconds" : 0.804541
   },
   {
     "evaluations" : 40,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.811417
+    "wallMilliseconds" : 0.812834
   },
   {
     "evaluations" : 80,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.045041
+    "wallMilliseconds" : 1.061541
   },
   {
     "evaluations" : 59,
@@ -701,10 +701,10 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(11, 1)]"
     },
-    "wallMilliseconds" : 0.755792
+    "wallMilliseconds" : 0.749333
   },
   {
-    "evaluations" : 86,
+    "evaluations" : 85,
     "original" : {
       "p" : "[put(84, 2), put(58, 8), put(47, 0), put(20, 2), put(43, 1), put(87, 9), put(68, 0), put(1, 0), put(35, 4), put(62, 1), put(63, 8), put(10, 8), put(91, 4), put(77, 9), put(46, 3), put(26, 0), put(66, 0), put(34, 4), put(48, 8), put(81, 3), put(13, 0), put(46, 7), put(26, 2), put(94, 0), put(50, 5), put(73, 7), put(24, 4), put(62, 1), put(77, 3), put(25, 0), put(10, 7), put(32, 0), put(87, 3), put(82, 8), put(20, 8), put(90, 6), put(56, 5), put(14, 2), put(57, 1), put(55, 4), put(53, 0), put(37, 4), put(81, 4), put(91, 7), put(77, 2), put(28, 2), put(84, 6)]"
     },
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 1.096916
+    "wallMilliseconds" : 1.08975
   },
   {
     "evaluations" : 74,
@@ -723,10 +723,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.715542
+    "wallMilliseconds" : 0.703417
   },
   {
-    "evaluations" : 77,
+    "evaluations" : 76,
     "original" : {
       "p" : "[put(79, 5), put(63, 8), put(79, 5), put(26, 6), put(83, 1), put(90, 8), put(89, 2), put(39, 5), put(63, 9), put(5, 6), put(15, 6), put(13, 9), put(66, 6), put(13, 6), put(50, 6), put(99, 4), put(55, 4), put(88, 8), put(31, 5), put(52, 8), put(55, 0), put(40, 6), put(40, 2), put(93, 7), put(26, 2), put(68, 4), put(12, 8), put(23, 4), put(48, 5), put(32, 0), put(90, 9), put(37, 2), put(41, 3), put(47, 3), put(3, 6), put(61, 9), put(48, 5), put(71, 5), put(48, 9), put(34, 6), put(78, 6), put(15, 7), put(39, 5), put(75, 4), put(77, 1), put(47, 8), put(11, 2)]"
     },
@@ -734,10 +734,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 1.012666
+    "wallMilliseconds" : 1.014209
   },
   {
-    "evaluations" : 69,
+    "evaluations" : 67,
     "original" : {
       "p" : "[put(96, 6), put(71, 2), put(82, 4), put(27, 0), put(84, 7), put(70, 2), put(22, 9), put(60, 2), put(74, 8), put(77, 4), put(75, 1), put(25, 8), put(17, 9), put(99, 4), put(74, 7), put(41, 3), put(45, 2), put(12, 6), put(25, 1), put(60, 7), put(35, 7), put(32, 1), put(36, 7), put(11, 1), put(69, 6), put(43, 6), put(41, 3), put(11, 5), put(57, 7), put(34, 4), put(74, 4), put(92, 8), put(15, 8), put(64, 8), put(50, 0), put(58, 7), put(25, 6), put(79, 7), put(65, 4), put(44, 5), put(38, 1), put(81, 3), put(34, 0), put(15, 3), put(46, 5), put(2, 1), put(67, 9), put(15, 0), put(79, 0), put(15, 6)]"
     },
@@ -745,7 +745,7 @@
     "shrunk" : {
       "p" : "[put(2, 1), put(12, 0)]"
     },
-    "wallMilliseconds" : 1.11325
+    "wallMilliseconds" : 1.121167
   },
   {
     "evaluations" : 53,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "[put(1, 1), put(71, 0)]"
     },
-    "wallMilliseconds" : 0.9305
+    "wallMilliseconds" : 0.8265
   },
   {
     "evaluations" : 44,
@@ -767,7 +767,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.658459
+    "wallMilliseconds" : 0.641792
   },
   {
     "evaluations" : 33,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.712709
+    "wallMilliseconds" : 0.726041
   },
   {
     "evaluations" : 65,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(70, 0)]"
     },
-    "wallMilliseconds" : 0.642333
+    "wallMilliseconds" : 0.64025
   },
   {
     "evaluations" : 80,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.943375
+    "wallMilliseconds" : 0.931208
   },
   {
     "evaluations" : 78,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.979375
+    "wallMilliseconds" : 0.960084
   },
   {
     "evaluations" : 66,
@@ -822,7 +822,7 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(11, 1)]"
     },
-    "wallMilliseconds" : 0.893542
+    "wallMilliseconds" : 0.8855
   },
   {
     "evaluations" : 84,
@@ -833,7 +833,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.945125
+    "wallMilliseconds" : 0.959708
   },
   {
     "evaluations" : 85,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.922333
+    "wallMilliseconds" : 0.958333
   },
   {
     "evaluations" : 79,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.771584
+    "wallMilliseconds" : 0.795583
   },
   {
     "evaluations" : 73,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.841375
+    "wallMilliseconds" : 0.848209
   },
   {
     "evaluations" : 38,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.734416
+    "wallMilliseconds" : 0.754541
   },
   {
     "evaluations" : 83,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.713958
+    "wallMilliseconds" : 0.746
   },
   {
     "evaluations" : 47,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(11, 1)]"
     },
-    "wallMilliseconds" : 0.67
+    "wallMilliseconds" : 0.700084
   },
   {
     "evaluations" : 53,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "[put(1, 0), put(91, 1)]"
     },
-    "wallMilliseconds" : 0.423625
+    "wallMilliseconds" : 0.4185
   },
   {
     "evaluations" : 73,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(90, 0)]"
     },
-    "wallMilliseconds" : 0.737792
+    "wallMilliseconds" : 0.759375
   },
   {
     "evaluations" : 73,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 0.768917
+    "wallMilliseconds" : 0.789209
   },
   {
     "evaluations" : 69,
@@ -943,7 +943,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 0.713875
+    "wallMilliseconds" : 0.723125
   },
   {
     "evaluations" : 84,
@@ -954,10 +954,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 1.044167
+    "wallMilliseconds" : 1.039292
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 50,
     "original" : {
       "p" : "[put(77, 6), put(56, 4), put(25, 0), put(15, 0), put(69, 9), put(41, 5), put(18, 5), put(18, 0), put(33, 1), put(84, 3), put(59, 4), put(0, 4), put(76, 0), put(17, 2), put(80, 3), put(65, 8), put(69, 6), put(78, 4), put(82, 1), put(42, 5), put(81, 1), put(29, 0), put(61, 3), put(96, 0), put(49, 0), put(97, 6), put(53, 6), put(17, 4), put(6, 3), put(7, 5), put(53, 4), put(92, 7), put(78, 3), put(27, 2), put(26, 4)]"
     },
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.904084
+    "wallMilliseconds" : 0.907375
   },
   {
     "evaluations" : 73,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.988459
+    "wallMilliseconds" : 1.042958
   },
   {
     "evaluations" : 82,
@@ -987,10 +987,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.820208
+    "wallMilliseconds" : 0.838042
   },
   {
-    "evaluations" : 92,
+    "evaluations" : 90,
     "original" : {
       "p" : "[put(86, 1), put(41, 6), put(22, 4), put(60, 8), put(96, 7), put(98, 8), put(37, 4), put(3, 3), put(52, 5), put(68, 3), put(13, 5), put(19, 0), put(34, 4), put(5, 9), put(38, 0), put(3, 3), put(22, 0), put(23, 2), put(97, 0), put(62, 7), put(90, 0), put(95, 9), put(30, 4), put(61, 1), put(54, 1), put(71, 4), put(31, 1), put(13, 1), put(68, 5), put(64, 2), put(46, 3)]"
     },
@@ -998,7 +998,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.933667
+    "wallMilliseconds" : 0.935125
   },
   {
     "evaluations" : 81,
@@ -1009,7 +1009,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.990042
+    "wallMilliseconds" : 1.003791
   },
   {
     "evaluations" : 81,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(70, 1)]"
     },
-    "wallMilliseconds" : 0.764959
+    "wallMilliseconds" : 0.800292
   },
   {
     "evaluations" : 79,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(90, 0)]"
     },
-    "wallMilliseconds" : 0.650584
+    "wallMilliseconds" : 0.67575
   },
   {
     "evaluations" : 73,
@@ -1042,10 +1042,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.523708
+    "wallMilliseconds" : 0.521292
   },
   {
-    "evaluations" : 92,
+    "evaluations" : 91,
     "original" : {
       "p" : "[put(7, 3), put(8, 2), put(95, 5), put(3, 3), put(91, 8), put(27, 2), put(56, 5), put(84, 9), put(70, 8), put(66, 2), put(40, 6), put(82, 2), put(39, 8), put(88, 7), put(37, 2), put(14, 0), put(43, 5), put(18, 7), put(31, 8), put(92, 9), put(53, 2), put(91, 1), put(11, 6), put(11, 4), put(90, 3), put(44, 1), put(66, 4), put(95, 9), put(41, 4), put(44, 0), put(46, 5), put(60, 6), put(23, 1), put(32, 6), put(66, 7), put(16, 7), put(59, 4), put(50, 8)]"
     },
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.952542
+    "wallMilliseconds" : 0.967959
   },
   {
     "evaluations" : 84,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(10, 1)]"
     },
-    "wallMilliseconds" : 0.761458
+    "wallMilliseconds" : 0.801375
   },
   {
     "evaluations" : 54,
@@ -1075,10 +1075,10 @@
     "shrunk" : {
       "p" : "[put(1, 1), put(11, 0)]"
     },
-    "wallMilliseconds" : 0.637667
+    "wallMilliseconds" : 0.663459
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 46,
     "original" : {
       "p" : "[put(41, 3), put(43, 8), put(8, 9), put(1, 8), put(12, 1), put(40, 9), put(30, 2), put(55, 2), put(96, 6), put(92, 1), put(86, 8), put(86, 8), put(8, 6), put(60, 2), put(49, 0), put(92, 5), put(85, 6), put(15, 7), put(34, 9), put(70, 2), put(0, 1), put(67, 4), put(74, 7), put(65, 8)]"
     },
@@ -1086,10 +1086,10 @@
     "shrunk" : {
       "p" : "[put(0, 1), put(10, 0)]"
     },
-    "wallMilliseconds" : 0.648958
+    "wallMilliseconds" : 0.638209
   },
   {
-    "evaluations" : 70,
+    "evaluations" : 69,
     "original" : {
       "p" : "[put(60, 9), put(42, 0), put(78, 4), put(16, 9), put(92, 2), put(39, 0), put(70, 3), put(60, 8), put(67, 5), put(7, 5), put(71, 9), put(92, 9)]"
     },
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(90, 1)]"
     },
-    "wallMilliseconds" : 0.584958
+    "wallMilliseconds" : 0.577625
   }
 ]
