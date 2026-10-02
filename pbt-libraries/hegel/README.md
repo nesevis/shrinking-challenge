@@ -67,6 +67,43 @@ rerunning the benchmark:
 make comparison
 ```
 
+## Binary heap port
+
+The original [wrong binary heap challenge](../../challenges/binheap.md) is also
+implemented in [`src/binary_heap.rs`](src/binary_heap.rs). It matches Exhaust's
+bounded depth, dependent signed-64-bit keys, empty/node multiplicity, and buggy
+right-before-left traversal. [100-seed results](reports/binheap.md) are kept separate
+from the existing published comparison.
+
+```sh
+cargo run --release --locked -- --challenge binheap --seed 42 --output /tmp/hegel-binheap
+cargo run --release --locked -- --challenge binheap --iterations 100 \
+  --seed-file support/binheap-seeds.json --output reports
+```
+
+`--list` includes this standalone port; `--challenge all` retains the existing
+comparison suite. `support/binheap-seeds.json` matches the 100 recorded Hypothesis
+seeds. The existing comparison-report scripts remain scoped to the published suite.
+
+## Calculator port
+
+The original [calculator challenge](../../challenges/calculator.md) is implemented
+in [`src/calculator.rs`](src/calculator.rs), using the public recursive generator
+with signed-64-bit leaves and a maximum depth of 5. Literal `x / 0` subterms are
+rejected, but a computed zero denominator still fails. Exact widened arithmetic
+and floor division follow Python's evaluation semantics within the bounded
+expression domain, avoiding machine-overflow failures.
+
+```sh
+cargo run --release --locked -- --challenge calculator --seed 42 --output /tmp/hegel-calculator
+cargo run --release --locked -- --challenge calculator --iterations 100 \
+  --seed-file support/calculator-seeds.json --output reports
+```
+
+This is another standalone port listed by `--list`, outside `--challenge all` and
+the existing comparison-report scripts. See [the 100-seed report](reports/calculator.md)
+for results and generator/domain differences from Hypothesis and Exhaust.
+
 ## Comparison conventions
 
 - [`support/seeds.json`](support/seeds.json) copies the numeric seeds from the

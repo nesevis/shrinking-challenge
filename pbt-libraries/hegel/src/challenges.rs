@@ -3,6 +3,8 @@ use hegel::generators::{self as gs, Generator};
 
 #[derive(Clone, Copy, Debug)]
 pub enum Challenge {
+    BinaryHeap,
+    Calculator,
     ProductSequence(usize),
     Product(usize),
     Sum,
@@ -41,8 +43,18 @@ impl Challenge {
             .collect()
     }
 
+    /// Also lists standalone ports outside the published 100-seed comparison.
+    pub fn available() -> Vec<Self> {
+        Self::all()
+            .into_iter()
+            .chain([Self::BinaryHeap, Self::Calculator])
+            .collect()
+    }
+
     pub fn name(self) -> String {
         match self {
+            Self::BinaryHeap => "binheap".into(),
+            Self::Calculator => "calculator".into(),
             Self::ProductSequence(depth) => format!("nested_flatmap_product_sequence_{depth}"),
             Self::Product(depth) => format!("nested_flatmap_product_{depth}"),
             Self::Sum => "nested_flatmap_sum_4".into(),
@@ -64,6 +76,8 @@ impl Challenge {
 
     pub fn evaluate(self, tc: &TestCase) -> (String, bool) {
         match self {
+            Self::BinaryHeap => super::binary_heap::evaluate(tc),
+            Self::Calculator => super::calculator::evaluate(tc),
             Self::ProductSequence(depth) | Self::Product(depth) => {
                 let with_payload = matches!(self, Self::ProductSequence(_));
                 let (factors, payload) = tc.draw(nested(depth, false, with_payload));

@@ -1,3 +1,5 @@
+mod binary_heap;
+mod calculator;
 pub mod challenges;
 mod stateful;
 

@@ -10,6 +10,7 @@ from tqdm import trange
 from hypothesis import HealthCheck, Phase, Verbosity
 from hypothesis import seed as with_seed
 from hypothesis import settings
+from hypothesis.errors import UnsatisfiedAssumption
 from hypothesis.internal.reflection import proxies
 from hypothesis.statistics import collector
 
@@ -79,6 +80,9 @@ def main(filename, n_runs=100):
             try:
                 base_function(**kwargs)
                 record(kwargs, False)
+            except UnsatisfiedAssumption:
+                # Rejected inputs have no property verdict: do not record or count them.
+                raise
             except Exception:
                 record(kwargs, True)
                 raise

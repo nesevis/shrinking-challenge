@@ -29,7 +29,7 @@ fn execute() -> Result<(), Box<dyn std::error::Error>> {
             return Ok(());
         }
         if arg == "--list" {
-            for challenge in Challenge::all() {
+            for challenge in Challenge::available() {
                 println!("{}", challenge.name());
             }
             return Ok(());
@@ -52,10 +52,14 @@ fn execute() -> Result<(), Box<dyn std::error::Error>> {
     if seed.is_some() && selected == "all" {
         return Err("--seed requires --challenge NAME".into());
     }
-    let challenges: Vec<_> = Challenge::all()
-        .into_iter()
-        .filter(|c| selected == "all" || c.name() == selected)
-        .collect();
+    let challenges: Vec<_> = if selected == "all" {
+        Challenge::all()
+    } else {
+        Challenge::available()
+            .into_iter()
+            .filter(|c| c.name() == selected)
+            .collect()
+    };
     if challenges.is_empty() {
         return Err(format!("unknown challenge: {selected}").into());
     }

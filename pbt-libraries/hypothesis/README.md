@@ -11,6 +11,7 @@ This approach is described in [an ECOOP paper about the Hypothesis reducer](http
 
 ## Implemented Challenges
 
+- [wrong binary heap](/pbt-libraries/hypothesis/challenges/binheap.py) ([100-seed report](/pbt-libraries/hypothesis/challenges/binheap.md))
 - [invoice discount rounding](/pbt-libraries/hypothesis/challenges/invoice_discount.py)
 - [invoice discount rounding, fully derived](/pbt-libraries/hypothesis/challenges/invoice_discount_derived.py)
 - [username/password collision](/pbt-libraries/hypothesis/challenges/username_password.py) (one fixed-start shrinking run)
@@ -20,11 +21,11 @@ This approach is described in [an ECOOP paper about the Hypothesis reducer](http
 - [bound5](/pbt-libraries/hypothesis/challenges/bound5.py)
 - [large union list](/pbt-libraries/hypothesis/challenges/large_union_list.py)
 - [calculator](/pbt-libraries/hypothesis/challenges/calculator.py)
-- [nested binds (composite), depth 2](/pbt-libraries/hypothesis/challenges/nested_flatmap_2.py)
-- [nested binds (composite), depth 3](/pbt-libraries/hypothesis/challenges/nested_flatmap_3.py)
-- [nested binds (composite), depth 4](/pbt-libraries/hypothesis/challenges/nested_flatmap_4.py)
-- [nested binds (composite), depth 5](/pbt-libraries/hypothesis/challenges/nested_flatmap_5.py)
-- [nested binds (composite), depth 6](/pbt-libraries/hypothesis/challenges/nested_flatmap_6.py)
+- [nested binds (composite, product sequence), depth 2](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_2.py)
+- [nested binds (composite, product sequence), depth 3](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_3.py)
+- [nested binds (composite, product sequence), depth 4](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_4.py)
+- [nested binds (composite, product sequence), depth 5](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_5.py)
+- [nested binds (composite, product sequence), depth 6](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_6.py)
 - [length list](/pbt-libraries/hypothesis/challenges/lengthlist.py)
 - [reverse](/pbt-libraries/hypothesis/challenges/reverse.py)
 

@@ -69,6 +69,61 @@ fn one_seed_produces_reproducible_results_and_environment_metadata() {
 }
 
 #[test]
+fn binary_heap_port_is_listed_and_reduces_a_generated_failure() {
+    let directory = OutputDirectory::new();
+    let listed = directory.invoke(&["--list"]);
+    assert!(listed.status.success());
+    assert!(
+        String::from_utf8_lossy(&listed.stdout)
+            .lines()
+            .any(|name| name == "binheap")
+    );
+    let result = directory.invoke(&["--challenge", "binheap", "--seed", "42"]);
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
+    );
+    let report: Value =
+        serde_json::from_slice(&std::fs::read(directory.0.join("binheap.json")).unwrap()).unwrap();
+    assert_eq!(report["challenge"], "binheap");
+    assert_eq!(report["runs"][0]["seed"], 42);
+    assert_eq!(
+        report["runs"][0]["shrunk"]["value"],
+        "(0, None, (0, (0, None, None), (1, None, None)))"
+    );
+    assert_ne!(report["runs"][0]["original"], report["runs"][0]["shrunk"]);
+}
+
+#[test]
+fn calculator_port_is_listed_and_reduces_a_computed_zero_divisor() {
+    let directory = OutputDirectory::new();
+    let listed = directory.invoke(&["--list"]);
+    assert!(listed.status.success());
+    assert!(
+        String::from_utf8_lossy(&listed.stdout)
+            .lines()
+            .any(|name| name == "calculator")
+    );
+    let result = directory.invoke(&["--challenge", "calculator", "--seed", "42"]);
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
+    );
+    let report: Value =
+        serde_json::from_slice(&std::fs::read(directory.0.join("calculator.json")).unwrap())
+            .unwrap();
+    assert_eq!(report["challenge"], "calculator");
+    assert_eq!(report["runs"][0]["seed"], 42);
+    assert_eq!(
+        report["runs"][0]["shrunk"]["value"],
+        "('/', 0, ('+', 0, 0))"
+    );
+    assert_ne!(report["runs"][0]["original"], report["runs"][0]["shrunk"]);
+}
+
+#[test]
 fn invalid_requests_fail_without_replacing_existing_results() {
     let directory = OutputDirectory::new();
     let path = directory.0.join("modular_mapping.json");
