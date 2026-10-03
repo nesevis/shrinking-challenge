@@ -1,8 +1,13 @@
 import json
 import unittest
 from copy import deepcopy
+from decimal import Decimal
+from unittest.mock import patch
 
-from make_reports import ROOT, SPECS, code, compact, examples, markdown, summarise, table_row, timing_table, phase_time_totals, update_comparison, validate_comparison
+from make_reports import (
+    ROOT, SPECS, code, compact, examples, markdown, summarise, table_row,
+    timing_table, timing_totals, update_comparison, validate_comparison,
+)
 
 
 def report(name="modular_mapping", values=(925, 925, 927)):
@@ -42,12 +47,11 @@ class ReportsTests(unittest.TestCase):
         self.assertEqual(len(examples(summary, "900", 3)), 3)
 
     def test_counts_and_times_use_actual_number_of_runs(self):
-        data = report()
-        summary = summarise(data)
+        summary = summarise(report())
         self.assertEqual(summary["distinct"], 2)
         self.assertEqual(summary["evaluations"], 2)
         self.assertEqual(summary["total_ms"], 1)
-        self.assertIn("66.6667% 🎯 `925`", table_row(data))
+        self.assertIn("66.6667% 🎯 `925`", table_row(report()))
 
     def test_refresh_is_idempotent_and_preserves_other_libraries(self):
         text = ("User introduction\n"
@@ -56,7 +60,11 @@ class ReportsTests(unittest.TestCase):
                 "\nUser timing note\n"
                 "| Challenge | Hypothesis generation (ms) | Exhaust generation (ms) | Hypothesis reduction (ms) | Exhaust reduction (ms) |\n"
                 "|---|---|---|---|---|\n"
-                "| Modular Mapping | 4.33 | 0.01 | 3.23 | 0.02 |\n")
+                "| Modular Mapping | 4.33 | 0.01 | 3.23 | 0.02 |\n"
+                "\n## Total timings\nKeep the timing explanation.\n"
+                "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n"
+                "|---|---|---|---|\n"
+                "| Modular Mapping | 8.37 | **0.04** | 999.00 |\n")
         data = {"modular_mapping": report()}
         first = update_comparison(text, data)
         self.assertEqual(update_comparison(first, data), first)
@@ -64,20 +72,42 @@ class ReportsTests(unittest.TestCase):
         self.assertIn("User timing note", first)
         self.assertIn("modularMapping.md) | original |", first)
         self.assertEqual(first.count("[Hegel]("), 1)
-        self.assertNotIn("<!-- hegel-timings:", first)
+        self.assertIn("| Modular Mapping | 8.37 | **0.04** | 1.00 |", first)
+        self.assertIn("Keep the timing explanation.", first)
+        self.assertNotIn("## Hegel total timings", first)
+        self.assertNotIn("[Modular Mapping]", first)
         with_following_section = first + "\n## User section\nKeep this text.\n"
         self.assertEqual(update_comparison(with_following_section, data), with_following_section)
 
-    def test_timing_totals_distinguish_generator_and_state_machine_rows(self):
-        text = ("| Challenge | Hypothesis generation (ms) | Exhaust generation (ms) | Hypothesis reduction (ms) | Exhaust reduction (ms) |\n"
-                "|---|---|---|---|---|\n"
-                "| Hash Collision (M = 1000) | 1,055 | 0.95 | 62.61 | 0.60 |\n"
-                "| Hash Collision (M = 1000) | 56.09 | 0.16 | 392 | 2.02 |\n")
+    def test_timing_totals_preserve_wall_times_and_distinguish_state_machine_rows(self):
+        text = ("| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n"
+                "|---|---|---|---|\n"
+                "| Hash Collision (M = 1000) | 1,119.13 | **1.44** | 16.08 |\n"
+                "| Hash Collision (M = 1000) (state machine) | 449.59 | **1.77** | 80.75 |\n")
         data = {name: report(name) for name in
                 ("hash_collision_1000", "hash_collision_state_machine_1000")}
-        table = timing_table(data, phase_time_totals(text))
-        self.assertIn("hash_collision_1000.md) | 1,117.61 | 1.55 | 1.00 |", table)
-        self.assertIn("hash_collision_state_machine_1000.md) | 448.09 | 2.18 | 1.00 |", table)
+        table = timing_table(data, timing_totals(text))
+        self.assertIn("| Hash Collision (M = 1000) | 1,119.13 | 1.44 | **1.00** |", table)
+        self.assertIn("| Hash Collision (M = 1000) (state machine) | 449.59 | 1.77 | **1.00** |", table)
+        self.assertNotIn("/hegel/reports/", table)
+
+    def test_refund_json_links_refresh_without_moving_its_table(self):
+        text = ("## Handwritten and derived generators\n"
+                "| Refund Allocation | [Hypothesis](/pbt-libraries/hypothesis/challenges/refund_allocation.json) | original |\n"
+                "|  | [Exhaust](/pbt-libraries/exhaust/reports/refundAllocation.txt) | original |\n"
+                "|  | [Hegel](/pbt-libraries/hegel/reports/refund_allocation.json) | old |\n"
+                "\n## State machines\nKeep this section.\n"
+                "\n## Total timings\n"
+                "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n"
+                "|---|---|---|---|\n")
+        data = {"refund_allocation": report("refund_allocation", ("RefundRequest([31, 33], 4)",))}
+        with patch("make_reports.refund_totals", return_value=(Decimal("95.83"), Decimal("3.96"))):
+            first = update_comparison(text, data)
+            self.assertEqual(first, update_comparison(first, data))
+        self.assertIn("| Refund Allocation | 95.83 | 3.96 | **1.00** |", first)
+        self.assertIn("[Hegel](/pbt-libraries/hegel/reports/refund_allocation.md)", first.split("## State machines")[0])
+        self.assertIn("## State machines\nKeep this section.", first)
+        self.assertEqual(first.count("[Hegel]("), 1)
 
     def test_markdown_protects_table_pipes_and_embedded_backticks(self):
         self.assertEqual(code('(text, "a|b`c", [1, 1])'), '``(text, "a\\|b`c", [1, 1])``')
@@ -102,7 +132,7 @@ class ReportsTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError):
                 validate_comparison(invalid)
 
-    def test_checked_in_historical_reports_remain_valid(self):
+    def test_checked_in_consecutive_reports_remain_valid(self):
         reports = {name: json.loads((ROOT / "reports" / f"{name}.json").read_text()) for name in SPECS}
         validate_comparison(reports)
         invalid = deepcopy(reports)

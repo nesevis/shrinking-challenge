@@ -1,54 +1,20 @@
-# Wrong Binary Heap — Hegel
+# Binary Heap
 
-Hegel 0.48.1, native engine 0.44.1, release build. **100 generated-and-shrunk
-runs**, using the same numeric seeds as Hypothesis. [Raw results](binheap.json).
-Equal seeds do not imply equal generated starting heaps.
+Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results](binheap.json).
 
-The generator matches Exhaust's depth controller (`0...20`), dependent nonnegative
-signed-64-bit keys, and 1:5 empty/node multiplicity. Hegel's `one_of!` uses an empty
-alternative followed by five equivalent node alternatives. The property checks
-sortedness and preservation of the original multiset; the deliberately buggy
-implementation traverses the merged children rather than repeatedly extracting
-the minimum.
+| Metric | Mean |
+|---|---|
+| Evaluations from first failure | 5837.4 |
+| Original counterexample length | 312.2 |
+| Total elapsed time (ms) | 264.43 |
 
-| Metric | Value |
-|---|---:|
-| Runs | 100 |
-| Distinct reduced counterexamples | 1 |
-| Known four-node minimum | 100% |
-| Mean evaluations from first failure | 5886.23 |
-| Mean total elapsed time (ms) | 296.48 |
+Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 
-All runs reduced to:
+Original length uses the full counterexample notation, including the complete nested payload. Payloads below use run-length notation. 🎯 matches the reference counterexample in the main comparison.
 
-```text
-(0, None, (0, (0, None, None), (1, None, None)))
-```
+## Counterexamples (2 distinct)
 
-Its buggy output is `[0, 0, 1, 0]`. Evaluation counts include confirmation and
-final replay; elapsed time includes generation and shrinking. All 100 original
-and reduced heaps were validated against the Python fixture's heap invariant and
-buggy traversal.
-
-## Hypothesis comparison
-
-Hypothesis 6.168.3 found the same minimum in 85% of runs; the remaining 15% had
-five nodes. It averaged 102.46 evaluations and 137.17 ms total elapsed time.
-These are library-specific generated starts, not a paired-start reducer A/B test.
-Evaluation accounting differs between libraries.
-
-## Running
-
-From `pbt-libraries/hegel`:
-
-```sh
-cargo run --release --locked -- --challenge binheap --seed 1337 --iterations 100 --output reports
-```
-
-This standalone port is available through `--list` and explicit
-`--challenge binheap`. It is not included in the existing 24-challenge published
-comparison or comparison-report scripts.
-
-The recorded results above used historical Hypothesis-derived seeds. The command
-starts a new consecutive-seed run; to replay one recorded run, use its JSON seed
-with `--seed N --iterations 1`.
+| Share | Counterexample |
+|---|---|
+| 99% | 🎯 `(0, None, (0, (0, None, None), (1, None, None)))` |
+| 1% | `(127, None, (55190086533789320, (401787435511877632, None, (7196582761221413107, None, None)), (7196582761221412864, (7196582761221413107, None, None), None)))` |

@@ -11,9 +11,11 @@ public but marked `doc(hidden)`; the crate versions and `Cargo.lock` are pinned.
 
 ## Challenges
 
-All 20 generated challenges and four state-machine variants from the main
+All 24 generated challenges and four state-machine variants from the main
 comparison are implemented. Fixed-start challenges are intentionally omitted.
 
+- Binary heap and calculator.
+- Refund allocation, handwritten and fully derived.
 - Nested product and product-sequence composites, depths 2–6; depth-four sum.
 - Modular mapping and weighted linear preservation.
 - Invoice discount, constrained and fully derived.
@@ -36,7 +38,7 @@ cd pbt-libraries/hegel
 make benchmark
 ```
 
-This runs seeds 1337–1436 for each challenge, generates the reports, and refreshes
+This runs seeds 1337–1436 for all 28 listed challenges, generates the reports, and refreshes
 only Hegel's data rows and total-timing section in the root `README.md`.
 
 Run one challenge, then generate its report:
@@ -76,16 +78,16 @@ make comparison
 The original [wrong binary heap challenge](../../challenges/binheap.md) is also
 implemented in [`src/binary_heap.rs`](src/binary_heap.rs). It matches Exhaust's
 bounded depth, dependent signed-64-bit keys, empty/node multiplicity, and buggy
-right-before-left traversal. [100-seed results](reports/binheap.md) are kept separate
-from the existing published comparison.
+right-before-left traversal. [100-seed results](reports/binheap.md) are included
+in the main comparison.
 
 ```sh
 cargo run --release --locked -- --challenge binheap --seed 42 --iterations 1 --output /tmp/hegel-binheap
 cargo run --release --locked -- --challenge binheap --seed 1337 --iterations 100 --output reports
 ```
 
-`--list` includes this standalone port; `--challenge all` retains the existing
-comparison suite. The existing comparison-report scripts remain scoped to the published suite.
+`--list` includes this standalone port; `--challenge all` retains the core suite.
+`make benchmark` runs every listed challenge, including standalone ports.
 
 ## Calculator port
 
@@ -101,8 +103,8 @@ cargo run --release --locked -- --challenge calculator --seed 42 --iterations 1 
 cargo run --release --locked -- --challenge calculator --seed 1337 --iterations 100 --output reports
 ```
 
-This is another standalone port listed by `--list`, outside `--challenge all` and
-the existing comparison-report scripts. See [the 100-seed report](reports/calculator.md)
+This standalone port is listed by `--list` and included in `make benchmark`,
+but remains outside `--challenge all`. See [the 100-seed report](reports/calculator.md)
 for results and generator/domain differences from Hypothesis and Exhaust.
 
 ## Refund allocation ports
@@ -120,19 +122,14 @@ cargo run --release --locked -- --challenge refund_allocation_derived --seed 133
   --iterations 100 --output /tmp/hegel-refund
 ```
 
-Both appear in `--list`, outside `--challenge all` and the published comparison
-scripts. Sequential runs starting at 1337 match Exhaust's numeric seeds, not its
+Both appear in `--list` and `make benchmark`, outside the core `--challenge all` suite. Sequential runs starting at 1337 match Exhaust's numeric seeds, not its
 generated inputs. Existing reporting is unchanged.
 
 ## Comparison conventions
 
-- New runs use consecutive seeds, starting at 1337 by default. Historical checked-in
-  results used the numeric seeds from the corresponding Hypothesis JSON files.
-  Those recorded seeds remain in the result JSON; replay an individual run with
-  `--seed N --iterations 1`. Equal seeds do not imply equal inputs across libraries.
-  Report refresh accepts a consistent consecutive schedule or the historical
-  Hypothesis-derived schedules, and rejects mixed schedules. Generation uses each
-  library's own distribution.
+- Recorded runs use consecutive seeds 1337–1436. Replay an individual run with
+  `--seed N --iterations 1`. Report refresh requires a consistent consecutive
+  schedule. Generation uses each library's own distribution.
 - Database reuse and targeting are disabled. Generation and shrinking are
   enabled, with one million allowed valid examples and health checks suppressed,
   matching the Hypothesis harness. Multiple-failure reporting is disabled.
@@ -178,5 +175,5 @@ CLI output/error handling, report formatting, README refresh idempotence and
 seed-schedule consistency. Every checked-in original and reduced counterexample is also
 replayed against independent fixture checks in Python.
 
-README updates require all 24 release-build result files, the checked-in seed
-lists, and consistent compiler/OS/CPU metadata.
+README updates require all 28 release-build result files, 100 consecutive seeds
+per challenge, and consistent build/environment metadata.

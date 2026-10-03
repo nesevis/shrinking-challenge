@@ -4,7 +4,7 @@ import ast
 import itertools
 import json
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 from decimal import Decimal
 from pathlib import Path
 from statistics import mean
@@ -14,7 +14,12 @@ PROJECT = ROOT.parents[1]
 
 
 def specifications():
-    specs = {}
+    specs = {
+        "binheap": ("Binary Heap", "(0, None, (0, (0, None, None), (1, None, None)))"),
+        "calculator": ("Calculator", "('/', 0, ('+', 0, 0))"),
+        "refund_allocation": ("Refund Allocation", "RefundRequest([31, 33], 4)"),
+        "refund_allocation_derived": ("Refund Allocation (derived)", "RefundRequest([31, 33], 4)"),
+    }
     products = {2: (5, 5), 3: (3, 3, 3), 4: (3, 2, 2, 2),
                 5: (2, 2, 2, 2, 2), 6: (2, 2, 2, 2, 2, 1)}
     sequences = {2: (6, 4), 3: (4, 3, 2), 4: (3, 2, 2, 2),
@@ -132,88 +137,82 @@ def markdown(report):
     return "\n".join(lines) + "\n"
 
 
-def phase_time_totals(text):
-    header = "| Challenge | Hypothesis generation (ms) | Exhaust generation (ms) | Hypothesis reduction (ms) | Exhaust reduction (ms) |"
-    if header not in text:
-        raise ValueError("Hypothesis/Exhaust phase timing table is missing")
-    rows = text.split(header, 1)[1].strip().splitlines()
-    totals = defaultdict(list)
-    for row in rows:
-        if not row.startswith("|"):
-            break
+TOTAL_HEADER = "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |"
+TOTAL_TABLE = re.compile(re.escape(TOTAL_HEADER) + r"\n(?:\|[^\n]*\n)+")
+
+
+def timing_totals(text):
+    table = TOTAL_TABLE.search(text)
+    if table is None:
+        raise ValueError("total wall-time table is missing")
+    totals = {}
+    for row in table[0].splitlines()[2:]:
         cells = [cell.strip() for cell in row.strip("|").split("|")]
-        if cells[0].startswith("---"):
-            continue
-        numbers = [Decimal(cell.replace(",", "")) if cell != "—" else Decimal(0)
-                   for cell in cells[1:]]
-        totals[cells[0]].append((numbers[0] + numbers[2], numbers[1] + numbers[3]))
+        label = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", cells[0])
+        totals[label] = tuple(Decimal(cell.replace(",", "").replace("**", ""))
+                              for cell in cells[1:3])
     return totals
 
 
-def timing_table(reports, phase_totals):
-    report = next(iter(reports.values()))
-    env = report["environment"]
-    machine = env.get("cpu") or env["arch"]
-    system = "macOS" if env["os"] == "macos" else env["os"]
-    version = env.get("os_version") or "(version not recorded)"
-    lines = ["## Hegel total timings", "",
-             f"Hegel {report['hegel_version']} / libhegel {report['engine_version']}, "
-             f"{env['rustc']}, {report['build_profile']} build with a statically linked native "
-             f"engine, on {machine} running {system} {version}. "
-             "These are total wall-clock milliseconds per run, including generation, "
-             "reduction, counterexample recording, confirmation calls and final replay. "
-             "They are not reduction-only timings. Hegel does not expose structured "
-             "phase durations through its Rust API. Hypothesis and Exhaust totals below "
-             "are the sums of their mean generation and reduction times in the preceding "
-             "table, using its displayed values.", "",
-             "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |",
-             "|---|---|---|---|"]
-    for name in SPECS:
-        if name in reports:
-            label = SPECS[name][0]
-            occurrence = 1 if "state_machine" in name else 0
-            if label not in phase_totals or occurrence >= len(phase_totals[label]):
-                raise ValueError(f"{name}: matching phase timing row is missing")
-            hypothesis, exhaust = phase_totals[label][occurrence]
-            if "state_machine" in name:
-                label += " (state machine)"
-            lines.append(f"| [{label}](/pbt-libraries/hegel/reports/{name}.md) | "
-                         f"{hypothesis:,.2f} | {exhaust:,.2f} | "
-                         f"{summarise(reports[name])['total_ms']:,.2f} |")
-    return "\n".join(lines)
+def refund_totals(name):
+    hypothesis = json.loads((ROOT.parent / "hypothesis/challenges" / f"{name}.json").read_text())
+    hypothesis_ms = Decimal(str(1000 * mean(run["total_seconds"] for run in hypothesis)))
+    filename = "refundAllocationDerived" if name.endswith("_derived") else "refundAllocation"
+    log = (ROOT.parent / "exhaust/reports" / f"{filename}.txt").read_text()
+    match = re.search(r"^\s+wall \(ms\): .*?mean=([0-9.]+)", log, re.MULTILINE)
+    if match is None:
+        raise ValueError(f"{name}: Exhaust wall time is missing")
+    return hypothesis_ms, Decimal(match[1])
+
+
+def timing_label(name):
+    return SPECS[name][0] + (" (state machine)" if "state_machine" in name else "")
+
+
+def timing_table(reports, existing_totals):
+    names = {timing_label(name): name for name in reports}
+    labels = [label for label in existing_totals if label in names]
+    labels.extend(label for label in names if label not in existing_totals)
+    lines = [TOTAL_HEADER, "|---|---|---|---|"]
+    for label in labels:
+        name = names[label]
+        totals = existing_totals.get(label)
+        if totals is None:
+            if not name.startswith("refund_allocation"):
+                raise ValueError(f"{name}: existing wall-time row is missing")
+            totals = refund_totals(name)
+        numbers = [number.quantize(Decimal(".01")) for number in totals]
+        numbers.append(Decimal(f"{summarise(reports[name])['total_ms']:.2f}"))
+        smallest = min(numbers)
+        cells = [f"**{number:,.2f}**" if number == smallest else f"{number:,.2f}"
+                 for number in numbers]
+        lines.append(f"| {label} | " + " | ".join(cells) + " |")
+    return "\n".join(lines) + "\n"
 
 
 def update_comparison(text, reports):
-    # Preserve every existing library's data and any unrelated user edits.
-    phase_totals = phase_time_totals(text)
-    lines = text.splitlines()
+    # Preserve other libraries' recorded wall times, never substitute phase sums.
+    totals = timing_totals(text)
     updated = []
     current = None
-    for line in lines:
-        if "[Hegel](/pbt-libraries/hegel/reports/" in line:
+    for line in text.splitlines():
+        hegel = re.search(r"\[Hegel\]\(/pbt-libraries/hegel/reports/([^/.]+)\.(?:md|json)\)", line)
+        if hegel and hegel[1] in reports:
             continue
-        if "[Hypothesis](/pbt-libraries/hypothesis/challenges/" in line:
-            current = line.split("/challenges/", 1)[1].split(".md", 1)[0]
+        hypothesis = re.search(r"\[Hypothesis\]\(/pbt-libraries/hypothesis/challenges/([^/.]+)\.(?:md|json)\)", line)
+        if hypothesis:
+            current = hypothesis[1]
         updated.append(line)
         if "[Exhaust](/pbt-libraries/exhaust/reports/" in line and current in reports:
             updated.append(table_row(reports[current]))
             current = None
     result = "\n".join(updated).rstrip() + "\n"
-    heading = "## Hegel total timings"
-    if heading in result:
-        before, remaining = result.split(heading, 1)
-        section, separator, following = remaining.lstrip("\n").partition("\n## ")
-        spacing = section[len(section.rstrip("\n")):]
-        after = spacing + "\n## " + following if separator else "\n"
-        result = before + timing_table(reports, phase_totals) + after
-    else:
-        result += "\n" + timing_table(reports, phase_totals) + "\n"
-    return result
+    return TOTAL_TABLE.sub(lambda _: timing_table(reports, totals), result, count=1)
 
 
 def validate_comparison(reports):
     if set(reports) != set(SPECS):
-        raise ValueError("README comparison requires all 24 challenges")
+        raise ValueError(f"README comparison requires all {len(SPECS)} challenges")
     first = next(iter(reports.values()))
     first_seeds = [run["seed"] for run in first["runs"]]
     consecutive = bool(first_seeds) and first_seeds == list(range(first_seeds[0], first_seeds[0] + 100))
@@ -221,14 +220,7 @@ def validate_comparison(reports):
         runs = report["runs"]
         if len(runs) != 100:
             raise ValueError(f"{name}: README comparison requires 100 runs")
-        if consecutive:
-            expected_seeds = first_seeds
-        else:
-            # Historical reports used Hypothesis's filename-derived schedules.
-            # Read their provenance directly instead of maintaining duplicate lists.
-            hypothesis = json.loads((ROOT.parent / "hypothesis/challenges" / f"{name}.json").read_text())
-            expected_seeds = [run["seed"] for run in hypothesis]
-        if [run["seed"] for run in runs] != expected_seeds:
+        if not consecutive or [run["seed"] for run in runs] != first_seeds:
             raise ValueError(f"{name}: inconsistent comparison seed schedule")
         if report["build_profile"] != "release":
             raise ValueError(f"{name}: README comparison requires a release build")

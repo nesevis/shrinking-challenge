@@ -4,9 +4,9 @@ Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results
 
 | Metric | Mean |
 |---|---|
-| Evaluations from first failure | 32.6 |
+| Evaluations from first failure | 32.8 |
 | Original counterexample length | 3.0 |
-| Total elapsed time (ms) | 0.51 |
+| Total elapsed time (ms) | 0.56 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 
@@ -16,9 +16,9 @@ Original length uses the full counterexample notation, including the complete ne
 
 | Share | Counterexample |
 |---|---|
-| 63% | 🎯 `925` |
-| 15% | `927` |
-| 12% | `926` |
-| 4% | `930` |
-| 4% | `901` |
-| 2% | `905` |
+| 71% | 🎯 `925` |
+| 14% | `926` |
+| 6% | `927` |
+| 6% | `905` |
+| 2% | `930` |
+| 1% | `901` |

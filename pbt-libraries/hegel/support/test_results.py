@@ -97,7 +97,84 @@ def decode_text(literal):
     return "".join(text)
 
 
+def heap_fails(text):
+    heap = ast.literal_eval(text)
+    def keys(node, minimum=0, depth=0):
+        if node is None:
+            return []
+        key, left, right = node
+        assert depth < 5 and minimum <= key <= 2**63 - 1
+        return [key] + keys(left, key, depth + 1) + keys(right, key, depth + 1)
+    def merge(first, second):
+        if first is None:
+            return second
+        if second is None:
+            return first
+        x, left_x, right_x = first
+        y, left_y, right_y = second
+        if x <= y:
+            return x, merge(right_x, second), left_x
+        return y, merge(right_y, first), left_y
+    def traverse(node):
+        if node is None:
+            return []
+        key, left, right = node
+        return [key] + traverse(right) + traverse(left)
+    reference = sorted(keys(heap))
+    assert heap is not None
+    key, left, right = heap
+    return [key] + traverse(merge(left, right)) != reference
+
+
+def calculator_fails(text):
+    expression = ast.literal_eval(text)
+    def validate(node, depth=0):
+        if isinstance(node, int):
+            assert -2**63 <= node <= 2**63 - 1
+            return
+        assert depth < 5
+        operation, left, right = node
+        assert operation in ("+", "/") and not (operation == "/" and right == 0)
+        validate(left, depth + 1)
+        validate(right, depth + 1)
+    def evaluate(node):
+        if isinstance(node, int):
+            return node
+        operation, left, right = node
+        a, b = evaluate(left), evaluate(right)
+        return a + b if operation == "+" else a // b
+    validate(expression)
+    try:
+        evaluate(expression)
+    except ZeroDivisionError:
+        return True
+    return False
+
+
+def refund_fails(text):
+    assert text.startswith("RefundRequest(")
+    payments, refund = ast.literal_eval(text[len("RefundRequest("):-1])
+    net = [payment - 30 for payment in payments]
+    assert 1 <= len(payments) <= 20 and all(31 <= payment <= 2**63 - 1 for payment in payments)
+    assert 0 <= refund <= min(sum(net), 2**63 - 1)
+    def allocate(weights):
+        total = sum(weights)
+        shares = [divmod(refund * weight, total) for weight in weights]
+        allocations = [floor for floor, _ in shares]
+        priority = sorted(range(len(weights)), key=lambda i: (-shares[i][1], i))
+        for i in priority[:refund - sum(allocations)]:
+            allocations[i] += 1
+        return allocations
+    return allocate(payments) != allocate(net)
+
+
 def is_failure(name, text):
+    if name == "binheap":
+        return heap_fails(text)
+    if name == "calculator":
+        return calculator_fails(text)
+    if name.startswith("refund_allocation"):
+        return refund_fails(text)
     if name.startswith("nested_flatmap_"):
         fields = ast.literal_eval(text)
         with_payload = "sequence" in name or "sum" in name
@@ -169,6 +246,14 @@ def is_failure(name, text):
 
 
 class RecordedResultsTests(unittest.TestCase):
+    def test_standalone_checks_distinguish_failures_from_passing_inputs(self):
+        self.assertTrue(heap_fails("(0, None, (0, (0, None, None), (1, None, None)))"))
+        self.assertFalse(heap_fails("(0, None, (1, None, None))"))
+        self.assertTrue(calculator_fails("('/', 0, ('+', 0, 0))"))
+        self.assertFalse(calculator_fails("('/', -3, 2)"))
+        self.assertTrue(refund_fails("RefundRequest([31, 33], 4)"))
+        self.assertFalse(refund_fails("RefundRequest([31, 31], 1)"))
+
     def test_every_recorded_original_and_reduced_example_reproduces(self):
         reports = {name: json.loads((ROOT / "reports" / f"{name}.json").read_text()) for name in SPECS}
         validate_comparison(reports)
