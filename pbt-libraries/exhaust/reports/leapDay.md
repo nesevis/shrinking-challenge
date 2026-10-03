@@ -1,31 +1,27 @@
-# Leap Day Report for Exhaust
+# Leap Day
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. One fixed-start reduction.
 
-## Normalization
+[Raw results](../failures/leapDay.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust reduced the fixed starting example `2088-02-29 13:47:00 UTC` once, passing it to `#exhaust` with `reflecting:` instead of generating a failure:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 34.0 | 34.0 |
+| Original input length | 25.0 | 25.0 |
+| Wall time (ms) | 0.807 | 0.807 |
+| reductions (ms) | 0.220 | 0.220 |
+| total (ms) | 0.796 | 0.796 |
 
-| Counterexample |
-|---|
-| `2088-02-29 00:00:00 +0000` |
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-The property fails on February 29. The generator is Exhaust's default `Date` generator, `.date(between: .distantPast ... .distantFuture, interval: .seconds(60))`, which reduces a date as a single step index towards `.distantPast`, so its own minimal counterexample is the first leap day after `.distantPast`, around `0004-02-29 00:00:00`.
+## Counterexamples (1 distinct)
 
-See [the starting input](/pbt-libraries/exhaust/failures/leapDay.json).
-
-## Performance
-
-| Metric | Value |
+| Share | Counterexample |
 |---|---|
-| Evaluations | 34 |
-| Reduction time (ms) | 0.25 |
-| Wall time (ms) | 0.927 |
+| 100% | `2088-02-29 00:00:00 +0000` |
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge leapDay --iterations 1`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge leapDay --iterations 100 --seed 1337 --report-path ../failures
+```

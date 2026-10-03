@@ -1,0 +1,15 @@
+Start: 2026-10-03T01:31:52Z
+Repository: b1f66b640ad65f04bb7c48e045574558702af176
+Command: swift run -c release ExhaustRunner --custom-only --iterations 100 --seed 1337 --report-path /tmp/exhaust-155-custom-ZrktXE/failures
+Apple Swift version 6.4 (swiftlang-6.4.0.27.1 clang-2100.3.27.1)
+Target: arm64-apple-macosx26.0
+ M ../../../README.md
+ M ../reports/binaryHeap.md
+ M ../reports/calculator.md
+ M .swiftpm/xcode/xcshareddata/xcschemes/ExhaustRunner.xcscheme
+ M Package.swift
+ M ../../hegel/support/make_reports.py
+ M ../../hegel/support/test_reports.py
+?? ../reports/refundAllocation.txt
+?? ../reports/refundAllocationDerived.txt
+Finish: 2026-10-03T01:38:55Z

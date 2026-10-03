@@ -20,7 +20,7 @@ enum RefundAllocationChallenge {
         let refundCents: Int
 
         var description: String {
-            "RefundRequest(\(self.charges.map(\.paidCents)), \(self.refundCents))"
+            "\(Self.self)(\(self.charges.map(\.paidCents)), \(self.refundCents))"
         }
     }
 
@@ -29,22 +29,17 @@ enum RefundAllocationChallenge {
     // Twenty charges is a shared benchmark resource bound, not a monetary bound.
     static let chargeLimit = 20
     static let gen: ReflectiveGenerator<RefundRequest> = {
-        let charge = #gen(.int(in: (processingFeeCents + 1)...Int.max)) {
+        let charge = #gen(.int(in: (processingFeeCents + 1)...Int.max)).map {
             Charge(paidCents: $0)
         }
         let charges = #gen(charge.array(length: 1...chargeLimit))
-        return charges.bound(
-            forward: { charges in
-                let total = totalRefundable(charges)
-                let maximumRefund = Int(min(total, Int128(Int.max)))
-                let refund = #gen(.int(in: 0...maximumRefund))
-                return refund.mapped(
-                    forward: { RefundRequest(charges: charges, refundCents: $0) },
-                    backward: \.refundCents,
-                )
-            },
-            backward: \.charges,
-        )
+        return charges.bind { charges in
+            let total = totalRefundable(charges)
+            let maximumRefund = Int(min(total, Int128(Int.max)))
+            return #gen(.int(in: 0...maximumRefund)).map {
+                RefundRequest(charges: charges, refundCents: $0)
+            }
+        }
     }()
 
     // Intentionally raw: no domain settings, overrides, repair, or filtering.

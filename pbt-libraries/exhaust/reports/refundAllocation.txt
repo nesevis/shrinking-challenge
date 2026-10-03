@@ -1,0 +1,12 @@
+Starting run of 1 challenge(s) with 100 iteration(s)…
+Refund Allocation, 100 runs, 100 failures:
+  evaluations: min=490.0 max=9928.0 median=628.0 mean=883.4 (668.7—1098.0)
+  reductions (ms): min=2.0 max=39.7 median=2.68 mean=3.83 (2.94—4.72)
+  generation (ms): min=0.008 max=0.47 median=0.011 mean=0.017 (0.008—0.026)
+  screening (ms): min=0.0 max=0.022 median=0.0 mean=0.0 (-0.0—0.001)
+  total (ms): min=2.083 max=39.813 median=2.764 mean=3.951 (3.054—4.848)
+  wall (ms): min=2.093 max=39.823 median=2.771 mean=3.963 (3.065—4.861)
+  iterations to failure: min=3.0 max=14.0 median=4.0 mean=4.3 (4.0—4.7)
+    98.0% RefundRequest([31, 34], 2) (98) [1337]
+    2.0% RefundRequest([31, 33], 4) (2) [1413]
+

@@ -1,31 +1,27 @@
-# Distinct Sum Report for Exhaust
+# Distinct Sum
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. One fixed-start reduction.
 
-## Normalization
+[Raw results](../failures/distinctSum.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust reduced the fixed starting example `[9973, 4421, 8810, 1203, 7777, 5050]` once, passing it to `#exhaust` with `reflecting:` instead of generating a failure:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 130.0 | 130.0 |
+| Original input length | 36.0 | 36.0 |
+| Wall time (ms) | 0.537 | 0.537 |
+| reductions (ms) | 0.490 | 0.490 |
+| total (ms) | 0.526 | 0.526 |
 
-| Counterexample |
-|---|
-| `[-2, -1, 0, 1, 53]` |
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-The property fails when the list has at least five distinct elements and a sum over 50. The generator is `.int().unique().array()`. Its uniqueness applies while generating, not during reduction, so the property itself requires distinct elements.
+## Counterexamples (1 distinct)
 
-See [the starting input](/pbt-libraries/exhaust/failures/distinctSum.json).
-
-## Performance
-
-| Metric | Value |
+| Share | Counterexample |
 |---|---|
-| Evaluations | 130 |
-| Reduction time (ms) | 0.56 |
-| Wall time (ms) | 0.644 |
+| 100% | `[-2, -1, 0, 1, 53]` |
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge distinctSum --iterations 1`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge distinctSum --iterations 100 --seed 1337 --report-path ../failures
+```

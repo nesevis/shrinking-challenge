@@ -1,14 +1,25 @@
-# Modular Mapping Report for Exhaust
+# Modular Mapping
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
 
-## Normalization
+[Raw results](../failures/modularMapping.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust produced 18 distinct counterexamples across 100 test runs:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 17.5 | 16.0 |
+| Original input length | 3.0 | 3.0 |
+| Wall time (ms) | 0.041 | 0.038 |
+| generation (ms) | 0.003 | 0.002 |
+| reductions (ms) | 0.030 | 0.020 |
+| total (ms) | 0.035 | 0.033 |
 
-| Prevalence | Counterexample |
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
+
+## Counterexamples (18 distinct)
+
+| Share | Counterexample |
 |---|---|
-| 15% | `925` |
+| 15% | 🎯 `925` |
 | 13% | `921` |
 | 10% | `901` |
 | 9% | `917` |
@@ -21,29 +32,14 @@ Exhaust produced 18 distinct counterexamples across 100 test runs:
 | 3% | `932` |
 | 2% | `926` |
 | 2% | `902` |
-| 1% | `927` |
-| 1% | `931` |
 | 1% | `904` |
+| 1% | `931` |
 | 1% | `922` |
+| 1% | `927` |
 | 1% | `918` |
 
-The minimal counterexample is `925`. Minimality is judged on the generated input, not the mapped output, and `n = 25` is the smallest failing input. 15 of 100 runs reached it.
+## Running
 
-See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/modularMapping.json).
-
-## Performance
-
-| Metric | Min | Max | Median | Mean | 95% CI |
-|---|---|---|---|---|---|
-| Evaluations | 12.0 | 32.0 | 16.0 | 17.5 | 16.5–18.5 |
-| Reduction time (ms) | 0.02 | 0.05 | 0.02 | 0.02 | 0.02–0.03 |
-| Wall time (ms) | 0.028 | 0.081 | 0.037 | 0.04 | 0.039–0.042 |
-| Iterations to failure | 1.0 | 38.0 | 6.5 | 8.5 | 7.0–10.0 |
-
-## Reproduction
-
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge modularMapping --iterations 100`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge modularMapping --iterations 100 --seed 1337 --report-path ../failures
+```

@@ -53,6 +53,22 @@ class ReportsTests(unittest.TestCase):
         self.assertEqual(summary["total_ms"], 1)
         self.assertIn("66.6667% 🎯 `925`", table_row(report()))
 
+    def test_evaluation_columns_distinguish_outliers_and_even_sample_medians(self):
+        data = report(values=(925,) * 4)
+        for run, count in zip(data["runs"], (1, 2, 2, 101)):
+            run["evaluations"] = count
+        summary = summarise(data)
+        self.assertEqual(summary["evaluations"], 26.5)
+        self.assertEqual(summary["median_evaluations"], 2)
+        cells = [cell.strip() for cell in table_row(data).strip("|").split("|")]
+        self.assertEqual(len(cells), 7)
+        self.assertEqual(cells[3:5], ["26.5", "2.0"])
+
+        data["runs"] = data["runs"][:2]
+        self.assertEqual(summarise(data)["median_evaluations"], 1.5)
+        cells = [cell.strip() for cell in table_row(data).strip("|").split("|")]
+        self.assertEqual(cells[3:5], ["1.5", "1.5"])
+
     def test_refresh_is_idempotent_and_preserves_other_libraries(self):
         text = ("User introduction\n"
                 "| Modular Mapping | [Hypothesis](/pbt-libraries/hypothesis/challenges/modular_mapping.md) | original |\n"

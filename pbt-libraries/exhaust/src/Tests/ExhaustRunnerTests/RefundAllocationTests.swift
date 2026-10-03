@@ -94,21 +94,16 @@ struct RefundAllocationTests {
     @Test("Remainder priority and stable ties use net balances", arguments: [1, 2])
     func remainderPriority(firstBalanceMultiplier: Int) {
         let scales = #gen(.int(in: 1...(Int.max - RefundAllocationChallenge.processingFeeCents) / 3))
-        let gen = scales.mapped(
-            forward: { scale in
-                RefundAllocationChallenge.RefundRequest(
-                    charges: [
-                        .init(paidCents: firstBalanceMultiplier * scale
-                            + RefundAllocationChallenge.processingFeeCents),
-                        .init(paidCents: scale + RefundAllocationChallenge.processingFeeCents),
-                    ],
-                    refundCents: 1,
-                )
-            },
-            backward: {
-                Int($0.charges.last?.refundableCents ?? 1)
-            },
-        )
+        let gen = scales.map { scale in
+            RefundAllocationChallenge.RefundRequest(
+                charges: [
+                    .init(paidCents: firstBalanceMultiplier * scale
+                        + RefundAllocationChallenge.processingFeeCents),
+                    .init(paidCents: scale + RefundAllocationChallenge.processingFeeCents),
+                ],
+                refundCents: 1,
+            )
+        }
         #exhaust(gen, .budget(.extensive), .replay(42)) { request in
             #expect(RefundAllocationChallenge.satisfiesContract(request, allocations: [1, 0]))
             #expect(RefundAllocationChallenge.satisfiesContract(
@@ -118,7 +113,7 @@ struct RefundAllocationTests {
     }
 
     @Test(
-        "Known fee imbalance remains failing through both generators",
+        "Both generators discover and reduce the fee imbalance without reflection",
         arguments: [Challenge.refundAllocation, .refundAllocationDerived],
     )
     func feeImbalance(challenge: Challenge) throws {
@@ -130,7 +125,7 @@ struct RefundAllocationTests {
         )
         let reduced = #exhaust(
             gen,
-            reflecting: input,
+            .replay(1337),
             .budget(.extensive),
             .suppress(.all),
             property: RefundAllocationChallenge.property,

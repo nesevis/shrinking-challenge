@@ -1,48 +1,27 @@
-# Haystack Report for Exhaust
+# Haystack
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. One fixed-start reduction.
 
-## Normalization
+[Raw results](../failures/haystack.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust reduced this fixed starting example once, passing it to `#exhaust` with `reflecting:` instead of generating a failure:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 407.0 | 407.0 |
+| Original input length | 480.0 | 480.0 |
+| Wall time (ms) | 9.527 | 9.527 |
+| reductions (ms) | 6.550 | 6.550 |
+| total (ms) | 9.506 | 9.506 |
 
-```
-"""
-She should have died hereafter;
-There would have been a time for such a word.
-Tomorrow, and tomorrow, and tomorrow,
-Creeps in this petty pace from day to day,
-To the last syllable of recorded time;
-And all our yesterdays have lighted fools
-The way to dusty death. Out, out, brief candle!
-Life's but a walking shadow, a poor player,
-That struts and frets his hour upon the stage,
-And then is heard no more. It is a tale
-Told by an idiot, full of sound and fury,
-Signifying nothing.
-"""
-```
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-| Counterexample |
-|---|
-| `"Creepidiot"` |
+## Counterexamples (1 distinct)
 
-The property lowercases the text and fails when it contains both `"creep"` and `"idiot"`. The minimal counterexample has ten characters.
-
-See [the starting input](/pbt-libraries/exhaust/failures/haystack.json).
-
-## Performance
-
-| Metric | Value |
+| Share | Counterexample |
 |---|---|
-| Evaluations | 4582 |
-| Reduction time (ms) | 86.62 |
-| Wall time (ms) | 89.812 |
+| 100% | 🎯 `"CREEPIDIOT"` |
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge haystack --iterations 1`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge haystack --iterations 100 --seed 1337 --report-path ../failures
+```

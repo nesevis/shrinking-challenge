@@ -1,14 +1,25 @@
-# Weighted Linear Preservation Report for Exhaust
+# Weighted Linear Preservation
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
 
-## Normalization
+[Raw results](../failures/weightedLinearPreservation.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust produced 11 distinct counterexamples across 100 test runs:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 42.0 | 43.0 |
+| Original input length | 9.6 | 10.0 |
+| Wall time (ms) | 0.165 | 0.165 |
+| generation (ms) | 0.035 | 0.023 |
+| reductions (ms) | 0.100 | 0.100 |
+| total (ms) | 0.159 | 0.159 |
 
-| Prevalence | Counterexample |
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
+
+## Counterexamples (11 distinct)
+
+| Share | Counterexample |
 |---|---|
-| 22% | `(0, 0, 20)` |
+| 22% | 🎯 `(0, 0, 20)` |
 | 16% | `(2, 0, 16)` |
 | 14% | `(1, 0, 18)` |
 | 12% | `(3, 0, 14)` |
@@ -16,27 +27,12 @@ Exhaust produced 11 distinct counterexamples across 100 test runs:
 | 10% | `(5, 0, 10)` |
 | 6% | `(4, 0, 12)` |
 | 5% | `(7, 0, 6)` |
-| 1% | `(8, 0, 4)` |
 | 1% | `(10, 0, 0)` |
 | 1% | `(9, 0, 2)` |
+| 1% | `(8, 0, 4)` |
 
-The minimal counterexample under shortlex is `(0, 0, 20)`. 22 of 100 runs reached it.
+## Running
 
-See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/weightedLinearPreservation.json).
-
-## Performance
-
-| Metric | Min | Max | Median | Mean | 95% CI |
-|---|---|---|---|---|---|
-| Evaluations | 19.0 | 51.0 | 43.0 | 42.0 | 40.4–43.6 |
-| Reduction time (ms) | 0.04 | 0.16 | 0.1 | 0.09 | 0.09–0.1 |
-| Wall time (ms) | 0.062 | 0.285 | 0.153 | 0.157 | 0.149–0.165 |
-| Iterations to failure | 1.0 | 401.0 | 49.5 | 77.9 | 62.9–92.9 |
-
-## Reproduction
-
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge weightedLinearPreservation --iterations 100`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge weightedLinearPreservation --iterations 100 --seed 1337 --report-path ../failures
+```

@@ -9,7 +9,8 @@ let package = Package(
         .macOS(.v15),
     ],
     dependencies: [
-        .package(url: "https://github.com/nesevis/exhaust", from: "1.5.4"),
+//        .package(path: "/Users/chriskolbu/Fun/Exhaust"),
+        .package(url: "https://github.com/nesevis/exhaust", from: "1.5.5"),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.7.0")
     ],
     targets: [

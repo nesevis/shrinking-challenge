@@ -1,31 +1,27 @@
-# Username and Password Report for Exhaust
+# Username and Password
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. One fixed-start reduction.
 
-## Normalization
+[Raw results](../failures/usernamePassword.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust reduced the fixed starting example `("u: passw0rd", "p: passw0rd")` once, passing it to `#exhaust` with `reflecting:` instead of generating a failure:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 731.0 | 731.0 |
+| Original input length | 30.0 | 30.0 |
+| Wall time (ms) | 2.871 | 2.871 |
+| reductions (ms) | 2.810 | 2.810 |
+| total (ms) | 2.858 | 2.858 |
 
-| Counterexample |
-|---|
-| `("u: 0000", "p: 0000")` |
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-The minimal counterexample is `("u: 0000", "p: 0000")`.
+## Counterexamples (1 distinct)
 
-See [the starting input](/pbt-libraries/exhaust/failures/usernamePassword.json).
-
-## Performance
-
-| Metric | Value |
+| Share | Counterexample |
 |---|---|
-| Evaluations | 723 |
-| Reduction time (ms) | 3.06 |
-| Wall time (ms) | 3.136 |
+| 100% | 🎯 `("u: 0000", "p: 0000")` |
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge usernamePassword --iterations 1`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge usernamePassword --iterations 100 --seed 1337 --report-path ../failures
+```

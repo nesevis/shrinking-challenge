@@ -1,34 +1,28 @@
-# Bind4 (Sum-Sized Payload) Report for Exhaust
+# Nested Flatmap (sum), depth 4
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
 
-Four dependent factors `1 ≤ d ≤ c ≤ b ≤ a ≤ 100` and a payload of zeros and ones whose length is `a + b + c + d`. The property fails when the payload has at least 24 elements and contains a `1`. Counterexamples are written as `(factors…, payload)`.
+[Raw results](../failures/depthFourSumBind.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-## Normalization
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 734.4 | 530.5 |
+| Original input length | 344.8 | 339.5 |
+| Wall time (ms) | 37.062 | 36.665 |
+| generation (ms) | 0.049 | 0.050 |
+| reductions (ms) | 36.880 | 36.490 |
+| total (ms) | 37.043 | 36.646 |
 
-Exhaust produced 1 distinct counterexample across 100 test runs:
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-| Prevalence | Length | Counterexample |
-|---|---|---|
-| 100% | 24 | `(6, 6, 6, 6, [0] * 23 + [1])` |
+## Counterexamples (1 distinct)
 
-The minimal counterexample is `(6, 6, 6, 6, [0] * 23 + [1])`. All 100 runs reached it, and all 100 reached the minimum payload length of 24.
+| Share | Counterexample |
+|---|---|
+| 100% | 🎯 `(6, 6, 6, 6, 0x23 + 1x1)` |
 
-See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/depthFourSumBind.json).
+## Running
 
-## Performance
-
-| Metric | Min | Max | Median | Mean | 95% CI |
-|---|---|---|---|---|---|
-| Evaluations | 191.0 | 2041.0 | 530.5 | 734.4 | 621.0–847.8 |
-| Reduction time (ms) | 12.88 | 101.88 | 36.68 | 36.83 | 32.25–41.4 |
-| Wall time (ms) | 13.026 | 102.058 | 36.85 | 36.998 | 32.424–41.572 |
-| Iterations to failure | 1.0 | 2.0 | 1.0 | 1.1 | 1.1–1.2 |
-
-## Reproduction
-
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge depthFourSumBind --iterations 100`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge depthFourSumBind --iterations 100 --seed 1337 --report-path ../failures
+```

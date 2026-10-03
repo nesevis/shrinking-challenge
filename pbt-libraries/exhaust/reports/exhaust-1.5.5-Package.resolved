@@ -1,0 +1,69 @@
+{
+  "originHash" : "abb05b76d0d88651ba76626a329d24ea1528b7146c8c4c1b571f7cd576571d66",
+  "pins" : [
+    {
+      "identity" : "exhaust",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nesevis/exhaust",
+      "state" : {
+        "revision" : "c7dbb96f2c713e463cd284b41db92d478799b61c",
+        "version" : "1.5.5"
+      }
+    },
+    {
+      "identity" : "exhaust-macros",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nesevis/exhaust-macros.git",
+      "state" : {
+        "revision" : "55852dfb131a5d2fbd63a9ebd0fd01b384c602ee",
+        "version" : "1.5.5"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "6a52f3251125d74daf04fcbd5e6f08a75d074382",
+        "version" : "1.8.2"
+      }
+    },
+    {
+      "identity" : "swift-custom-dump",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-custom-dump",
+      "state" : {
+        "revision" : "4fb9e7cbb4b8f5a7354005db39447f570d6b3e19",
+        "version" : "1.7.3"
+      }
+    },
+    {
+      "identity" : "swift-issue-reporting",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-issue-reporting",
+      "state" : {
+        "revision" : "75b000cea2ca6d7527a57e1b9cc0bdf21a9abe9f",
+        "version" : "2.1.1"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "79e4b74a295b6eb74a8b585e3a39d29e70c1dbd1",
+        "version" : "603.0.2"
+      }
+    },
+    {
+      "identity" : "xctest-dynamic-overlay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
+      "state" : {
+        "revision" : "d9308ad679143c26a30dec52daefe82f54af2b82",
+        "version" : "1.13.1"
+      }
+    }
+  ],
+  "version" : 3
+}

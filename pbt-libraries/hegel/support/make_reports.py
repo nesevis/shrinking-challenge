@@ -7,7 +7,7 @@ import re
 from collections import Counter
 from decimal import Decimal
 from pathlib import Path
-from statistics import mean
+from statistics import mean, median
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT.parents[1]
@@ -84,6 +84,7 @@ def summarise(report):
     return {
         "count": len(runs), "counts": counts, "distinct": len(counts),
         "evaluations": mean(run["evaluations"] for run in runs),
+        "median_evaluations": median(run["evaluations"] for run in runs),
         "original_length": mean(len(canonical(name, value(run, "original"))) for run in runs),
         "total_ms": 1000 * mean(run["total_seconds"] for run in runs),
     }
@@ -109,7 +110,8 @@ def table_row(report):
     top = "<br>".join(f"{percent:g}% {'🎯 ' if target else ''}{code(text)}"
                         for text, percent, target in examples(summary, minimal, 3))
     return (f"|  | [Hegel](/pbt-libraries/hegel/reports/{name}.md) | {summary['distinct']} | "
-            f"{summary['evaluations']:.1f} | {summary['original_length']:.1f} | {top} |")
+            f"{summary['evaluations']:.1f} | {summary['median_evaluations']:.1f} | "
+            f"{summary['original_length']:.1f} | {top} |")
 
 
 def markdown(report):

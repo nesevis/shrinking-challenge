@@ -1,31 +1,27 @@
-# Anagrams Report for Exhaust
+# Anagrams
 
-These results are from Exhaust v1.5.3, October 1st, 2026.
+Exhaust 1.5.5, release build. One fixed-start reduction.
 
-## Normalization
+[Raw results](../failures/anagrams.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
 
-Exhaust reduced the fixed starting example `("a gentle man and astronomer", "elegant man and moon starer")` once, passing it to `#exhaust` with `reflecting:` instead of generating a failure:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 1239.0 | 1239.0 |
+| Original input length | 62.0 | 62.0 |
+| Wall time (ms) | 8.063 | 8.063 |
+| reductions (ms) | 7.890 | 7.890 |
+| total (ms) | 8.051 | 8.051 |
 
-| Counterexample |
-|---|
-| `(" \0", "\0 ")` |
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-Here `\0` is U+0000. Each string has two characters, the size of a minimal counterexample.
+## Counterexamples (1 distinct)
 
-See [the starting input](/pbt-libraries/exhaust/failures/anagrams.json).
-
-## Performance
-
-| Metric | Value |
+| Share | Counterexample |
 |---|---|
-| Evaluations | 1222 |
-| Reduction time (ms) | 8.56 |
-| Wall time (ms) | 9.096 |
+| 100% | 🎯 `(" \0", "\0 ")` |
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run -c release ExhaustRunner --challenge anagrams --iterations 1`
-
-The reduction and wall times reflect running on an M4 Max running macOS 26.4. Wall time covers generation and reduction. This is an optimised release build.
+```sh
+swift run -c release ExhaustRunner --challenge anagrams --iterations 100 --seed 1337 --report-path ../failures
+```

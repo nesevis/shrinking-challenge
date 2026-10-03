@@ -1,6 +1,6 @@
 [
   {
-    "evaluations" : 17,
+    "evaluations" : 16,
     "original" : {
       "p" : "\"a branch switch\""
     },
@@ -8,6 +8,6 @@
     "shrunk" : {
       "p" : "\"    \""
     },
-    "wallMilliseconds" : 0.395042
+    "wallMilliseconds" : 0.335792
   }
 ]
