@@ -14,6 +14,8 @@ This approach is described in [an ECOOP paper about the Hypothesis reducer](http
 - [wrong binary heap](/pbt-libraries/hypothesis/challenges/binheap.py) ([100-seed report](/pbt-libraries/hypothesis/challenges/binheap.md))
 - [invoice discount rounding](/pbt-libraries/hypothesis/challenges/invoice_discount.py)
 - [invoice discount rounding, fully derived](/pbt-libraries/hypothesis/challenges/invoice_discount_derived.py)
+- [refund allocation](/pbt-libraries/hypothesis/challenges/refund_allocation.py)
+- [refund allocation, fully derived](/pbt-libraries/hypothesis/challenges/refund_allocation_derived.py)
 - [username/password collision](/pbt-libraries/hypothesis/challenges/username_password.py) (one fixed-start shrinking run)
 - [WeightedLinearPreservation](/pbt-libraries/hypothesis/challenges/weighted_linear_preservation.py)
 - [modular mapping](/pbt-libraries/hypothesis/challenges/modular_mapping.py)
@@ -28,6 +30,25 @@ This approach is described in [an ECOOP paper about the Hypothesis reducer](http
 - [nested binds (composite, product sequence), depth 6](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_6.py)
 - [length list](/pbt-libraries/hypothesis/challenges/lengthlist.py)
 - [reverse](/pbt-libraries/hypothesis/challenges/reverse.py)
+
+## Running Refund Allocation
+
+Both [refund allocation treatments](../../challenges/refund-allocation.md) share
+`support/refund_allocation_model.py`: the fee rule, faulty gross-weighted allocator,
+and independent contract checks. The handwritten strategy constructs valid requests;
+the derived strategy uses plain `st.from_type(RefundRequest)`. Invalid derived
+requests are rejected with `assume()`. Python arithmetic is exact; the accepted
+amounts are bounded to signed-64-bit values to match Exhaust and Hegel.
+
+```sh
+venv/bin/python support/run_challenge.py challenges/refund_allocation.py 100
+venv/bin/python support/run_challenge.py challenges/refund_allocation_derived.py 100
+venv/bin/python -m unittest support.test_refund_allocation
+```
+
+These commands write the existing per-run JSON format beside each challenge.
+Seeds retain the harness's SHA1-of-filename convention, so the two variants and
+other libraries do not share starting inputs. No reporting fields are added.
 
 ## Running Anagrams
 

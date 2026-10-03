@@ -105,6 +105,25 @@ This is another standalone port listed by `--list`, outside `--challenge all` an
 the existing comparison-report scripts. See [the 100-seed report](reports/calculator.md)
 for results and generator/domain differences from Hypothesis and Exhaust.
 
+## Refund allocation ports
+
+The [refund allocation challenge](../../challenges/refund-allocation.md) is implemented
+in [`src/refund_allocation.rs`](src/refund_allocation.rs), with handwritten and raw
+`DefaultGenerator` treatments. Both preserve Exhaust's 30-cent non-refundable fee,
+1–20-charge domain, signed-64-bit amounts, exact widened arithmetic, stable remainder
+ties, and deliberately incorrect gross-payment weighting. Invalid requests are
+rejected with `tc.assume`, before recording any property verdict.
+
+```sh
+cargo run --release --locked -- --challenge refund_allocation --seed 42 --iterations 1 --output /tmp/hegel-refund
+cargo run --release --locked -- --challenge refund_allocation_derived --seed 1337 \
+  --iterations 100 --output /tmp/hegel-refund
+```
+
+Both appear in `--list`, outside `--challenge all` and the published comparison
+scripts. Sequential runs starting at 1337 match Exhaust's numeric seeds, not its
+generated inputs. Existing reporting is unchanged.
+
 ## Comparison conventions
 
 - New runs use consecutive seeds, starting at 1337 by default. Historical checked-in

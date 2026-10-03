@@ -24,6 +24,8 @@ format: venv/installed
 	venv/bin/python support/make_report.py $<
 
 
+challenges/refund_allocation.json challenges/refund_allocation_derived.json: support/refund_allocation_model.py
+
 BENCHMARKS=$(wildcard challenges/*.py)
 DATA=$(patsubst %.py,%.json,$(BENCHMARKS))
 REPORTS=$(patsubst %.py,%.md,$(BENCHMARKS))

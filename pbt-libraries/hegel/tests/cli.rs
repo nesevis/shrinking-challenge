@@ -145,6 +145,44 @@ fn calculator_port_is_listed_and_reduces_a_computed_zero_divisor() {
 }
 
 #[test]
+fn refund_allocation_ports_are_listed_and_find_reproducible_fee_failures() {
+    let directory = OutputDirectory::new();
+    let listed = directory.invoke(&["--list"]);
+    assert!(listed.status.success());
+    for name in ["refund_allocation", "refund_allocation_derived"] {
+        assert!(
+            String::from_utf8_lossy(&listed.stdout)
+                .lines()
+                .any(|line| line == name)
+        );
+        let arguments = ["--challenge", name, "--seed", "42", "--iterations", "1"];
+        let result = directory.invoke(&arguments);
+        assert!(
+            result.status.success(),
+            "{}",
+            String::from_utf8_lossy(&result.stderr)
+        );
+        let path = directory.0.join(format!("{name}.json"));
+        let first: Value = serde_json::from_slice(&std::fs::read(&path).unwrap()).unwrap();
+        assert_eq!(first["challenge"], name);
+        assert_eq!(first["runs"][0]["seed"], 42);
+        assert!(first["runs"][0]["evaluations"].as_u64().unwrap() > 0);
+        assert!(
+            first["runs"][0]["shrunk"]["value"]
+                .as_str()
+                .unwrap()
+                .starts_with("RefundRequest([")
+        );
+        let repeated = directory.invoke(&arguments);
+        assert!(repeated.status.success());
+        let second: Value = serde_json::from_slice(&std::fs::read(path).unwrap()).unwrap();
+        for field in ["original", "shrunk", "evaluations"] {
+            assert_eq!(first["runs"][0][field], second["runs"][0][field]);
+        }
+    }
+}
+
+#[test]
 fn invalid_requests_fail_without_replacing_existing_results() {
     let directory = OutputDirectory::new();
     let path = directory.0.join("modular_mapping.json");
@@ -186,6 +224,30 @@ fn iterations_selects_consecutive_seeds_from_the_default_start() {
 }
 
 #[test]
+fn starting_seed_honors_iterations_for_both_refund_variants() {
+    let directory = OutputDirectory::new();
+    for name in ["refund_allocation", "refund_allocation_derived"] {
+        let result = directory.invoke(&["--challenge", name, "--seed", "42", "--iterations", "3"]);
+        assert!(
+            result.status.success(),
+            "{}",
+            String::from_utf8_lossy(&result.stderr)
+        );
+        let report: Value = serde_json::from_slice(
+            &std::fs::read(directory.0.join(format!("{name}.json"))).unwrap(),
+        )
+        .unwrap();
+        let seeds: Vec<_> = report["runs"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .map(|run| run["seed"].as_u64().unwrap())
+            .collect();
+        assert_eq!(seeds, [42, 43, 44]);
+    }
+}
+
+#[test]
 fn sequential_runs_are_not_limited_to_historical_seed_lists() {
     let directory = OutputDirectory::new();
     let result = directory.invoke(&["--challenge", "modular_mapping", "--iterations", "101"]);
@@ -221,6 +283,18 @@ fn sequential_runs_are_not_limited_to_historical_seed_lists() {
         .map(|run| run["seed"].as_u64().unwrap())
         .collect();
     assert_eq!(seeds, (42..142).collect::<Vec<u64>>());
+
+    let result = directory.invoke(&["--challenge", "refund_allocation", "--iterations", "2"]);
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
+    );
+    let report: Value =
+        serde_json::from_slice(&std::fs::read(directory.0.join("refund_allocation.json")).unwrap())
+            .unwrap();
+    assert_eq!(report["runs"][0]["seed"], 1337);
+    assert_eq!(report["runs"][1]["seed"], 1338);
 }
 
 #[test]

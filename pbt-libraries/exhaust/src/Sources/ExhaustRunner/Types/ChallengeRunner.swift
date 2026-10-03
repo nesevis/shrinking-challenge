@@ -320,6 +320,16 @@ enum ChallengeRunner {
                     property: InvoiceDiscountChallenge.derivedProperty
                 )
                 stats.append(report: report, counterExample: output?.description, seed: seed, original: original, wallMilliseconds: wall)
+            case .refundAllocation, .refundAllocationDerived:
+                let gen = challenge == .refundAllocation
+                    ? RefundAllocationChallenge.gen : RefundAllocationChallenge.derivedGen
+                let (output, report, original, wall) = exhaustSkipping(
+                    gen,
+                    seed: seed,
+                    property: RefundAllocationChallenge.property
+                )
+                stats.append(report: report, counterExample: output?.description, seed: seed, original: original, wallMilliseconds: wall)
+
             case .depthFourSumBind:
                 let (output, report, original, wall) = exhaust(
                     NestedBindsChallenge.depthFourSum,

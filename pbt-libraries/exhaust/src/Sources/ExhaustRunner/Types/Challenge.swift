@@ -48,6 +48,8 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case weightedLinearPreservation
     case invoiceDiscount
     case invoiceDiscountDerived
+    case refundAllocation
+    case refundAllocationDerived
     case depthFourSumBind
     case floatCancellation
     case chunkedDecoder
@@ -96,6 +98,8 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
         case .weightedLinearPreservation: "Weighted Linear Preservation"
         case .invoiceDiscount: "Invoice Discount"
         case .invoiceDiscountDerived: "Invoice Discount (derived)"
+        case .refundAllocation: "Refund Allocation"
+        case .refundAllocationDerived: "Refund Allocation (derived)"
         case .depthFourSumBind: "Depth 4 Bind (sum)"
         case .floatCancellation: "Float Cancellation"
         case .chunkedDecoder: "Chunked Decoder"

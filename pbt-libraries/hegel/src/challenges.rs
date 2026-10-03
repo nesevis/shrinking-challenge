@@ -5,6 +5,8 @@ use hegel::generators::{self as gs, Generator};
 pub enum Challenge {
     BinaryHeap,
     Calculator,
+    RefundAllocation,
+    RefundAllocationDerived,
     ProductSequence(usize),
     Product(usize),
     Sum,
@@ -47,7 +49,12 @@ impl Challenge {
     pub fn available() -> Vec<Self> {
         Self::all()
             .into_iter()
-            .chain([Self::BinaryHeap, Self::Calculator])
+            .chain([
+                Self::BinaryHeap,
+                Self::Calculator,
+                Self::RefundAllocation,
+                Self::RefundAllocationDerived,
+            ])
             .collect()
     }
 
@@ -55,6 +62,8 @@ impl Challenge {
         match self {
             Self::BinaryHeap => "binheap".into(),
             Self::Calculator => "calculator".into(),
+            Self::RefundAllocation => "refund_allocation".into(),
+            Self::RefundAllocationDerived => "refund_allocation_derived".into(),
             Self::ProductSequence(depth) => format!("nested_flatmap_product_sequence_{depth}"),
             Self::Product(depth) => format!("nested_flatmap_product_{depth}"),
             Self::Sum => "nested_flatmap_sum_4".into(),
@@ -78,6 +87,9 @@ impl Challenge {
         match self {
             Self::BinaryHeap => super::binary_heap::evaluate(tc),
             Self::Calculator => super::calculator::evaluate(tc),
+            Self::RefundAllocation | Self::RefundAllocationDerived => {
+                super::refund_allocation::evaluate(tc, matches!(self, Self::RefundAllocationDerived))
+            }
             Self::ProductSequence(depth) | Self::Product(depth) => {
                 let with_payload = matches!(self, Self::ProductSequence(_));
                 let (factors, payload) = tc.draw(nested(depth, false, with_payload));

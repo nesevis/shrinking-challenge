@@ -1,5 +1,6 @@
 mod binary_heap;
 mod calculator;
+mod refund_allocation;
 pub mod challenges;
 mod stateful;
 
