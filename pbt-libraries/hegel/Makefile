@@ -4,7 +4,7 @@ benchmark: run
 	python3 support/make_reports.py --update-readme
 
 run:
-	cargo run --release --locked -- --iterations 100
+	cargo run --release --locked -- --seed 1337 --iterations 100
 
 reports:
 	python3 support/make_reports.py

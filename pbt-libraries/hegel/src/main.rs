@@ -1,6 +1,5 @@
 use hegel_runner::{ENGINE_VERSION, HEGEL_VERSION, challenges::Challenge, run};
 use serde_json::json;
-use std::collections::BTreeMap;
 use std::path::PathBuf;
 
 fn main() {
@@ -14,17 +13,16 @@ fn execute() -> Result<(), Box<dyn std::error::Error>> {
     let root = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
     let mut selected = "all".to_string();
     let mut iterations = 100usize;
-    let mut seed = None;
+    let mut seed = 1337u64;
     let mut output = root.join("reports");
-    let mut seed_file = root.join("support/seeds.json");
     let mut args = std::env::args().skip(1);
     while let Some(arg) = args.next() {
         if arg == "--help" || arg == "-h" {
             println!(
                 "hegel-runner [--challenge NAME|all] [--iterations N] [--seed N]\n\
-                \x20            [--seed-file PATH] [--output DIR] [--list]\n\
-                Defaults: all challenges, 100 seeds from support/seeds.json, reports/.\n\
-                --seed runs one seed of one challenge, ignoring --iterations."
+                \x20            [--output DIR] [--list]\n\
+                Defaults: all challenges, 100 consecutive seeds starting at 1337, reports/.\n\
+                --seed sets the starting seed; use --iterations 1 for a single run."
             );
             return Ok(());
         }
@@ -40,17 +38,13 @@ fn execute() -> Result<(), Box<dyn std::error::Error>> {
         match arg.as_str() {
             "--challenge" => selected = value,
             "--iterations" => iterations = value.parse()?,
-            "--seed" => seed = Some(value.parse::<u64>()?),
+            "--seed" => seed = value.parse::<u64>()?,
             "--output" => output = value.into(),
-            "--seed-file" => seed_file = value.into(),
             _ => return Err(format!("unknown option: {arg}").into()),
         }
     }
     if iterations == 0 {
         return Err("--iterations must be positive".into());
-    }
-    if seed.is_some() && selected == "all" {
-        return Err("--seed requires --challenge NAME".into());
     }
     let challenges: Vec<_> = if selected == "all" {
         Challenge::all()
@@ -63,11 +57,9 @@ fn execute() -> Result<(), Box<dyn std::error::Error>> {
     if challenges.is_empty() {
         return Err(format!("unknown challenge: {selected}").into());
     }
-    let seeds: BTreeMap<String, Vec<u64>> = if seed.is_some() {
-        BTreeMap::new()
-    } else {
-        serde_json::from_slice(&std::fs::read(seed_file)?)?
-    };
+    let last_seed = seed
+        .checked_add(u64::try_from(iterations - 1)?)
+        .ok_or("seed range exceeds u64::MAX")?;
     std::fs::create_dir_all(&output)?;
     let environment = json!({
         "rustc": env!("HEGEL_BENCH_RUSTC"),
@@ -79,25 +71,10 @@ fn execute() -> Result<(), Box<dyn std::error::Error>> {
     });
     for challenge in challenges {
         let name = challenge.name();
-        let run_seeds = if let Some(seed) = seed {
-            vec![seed]
-        } else {
-            let available = seeds
-                .get(&name)
-                .ok_or_else(|| format!("no seeds for {name}"))?;
-            if iterations > available.len() {
-                return Err(format!(
-                    "{name}: requested {iterations} runs, only {} seeds available",
-                    available.len()
-                )
-                .into());
-            }
-            available[..iterations].to_vec()
-        };
         let mut records = Vec::new();
-        for (index, seed) in run_seeds.iter().enumerate() {
-            records.push(run(challenge, *seed)?);
-            eprintln!("{name}: {}/{}", index + 1, run_seeds.len());
+        for (index, run_seed) in (seed..=last_seed).enumerate() {
+            records.push(run(challenge, run_seed)?);
+            eprintln!("{name}: {}/{}", index + 1, iterations);
         }
         let report = json!({
             "challenge": name, "hegel_version": HEGEL_VERSION,

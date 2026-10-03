@@ -36,7 +36,7 @@ cd pbt-libraries/hegel
 make benchmark
 ```
 
-This runs 100 seeds for each challenge, generates the reports, and refreshes
+This runs seeds 1337–1436 for each challenge, generates the reports, and refreshes
 only Hegel's data rows and total-timing section in the root `README.md`.
 
 Run one challenge, then generate its report:
@@ -50,14 +50,18 @@ List challenge names or replay one seed into a separate output directory:
 
 ```sh
 cargo run --release --locked -- --list
-cargo run --release --locked -- --challenge modular_mapping --seed 42 --output /tmp/hegel-results
+cargo run --release --locked -- --challenge modular_mapping --seed 42 --iterations 1 --output /tmp/hegel-results
 python3 support/make_reports.py --reports /tmp/hegel-results
 ```
 
-`--seed` reruns generation and shrinking under that seed; it is not direct
-counterexample replay. `--iterations N` uses the first N seeds of the checked-in
-100-seed list. `--seed-file PATH` can supply alternative lists, in the same JSON
-format. A challenge's JSON is replaced only when every requested run succeeds;
+The CLI defaults to 100 consecutive seeds starting at **1337**. `--seed N` sets
+the starting seed, and `--iterations K` runs `N` through `N + K - 1` for each
+selected challenge. Use `--iterations 1` for a single seed. `--seed` also works
+with `--challenge all`; no JSON seed file is needed. Generation and shrinking
+are rerun, rather than directly replaying a counterexample. Seed overflow is
+rejected before running.
+
+A challenge's JSON is replaced only when every requested run succeeds;
 a no-failure result or unexpected runner error causes a nonzero exit.
 
 Regenerate Markdown and the comparison from existing 100-run JSON, without
@@ -76,14 +80,12 @@ right-before-left traversal. [100-seed results](reports/binheap.md) are kept sep
 from the existing published comparison.
 
 ```sh
-cargo run --release --locked -- --challenge binheap --seed 42 --output /tmp/hegel-binheap
-cargo run --release --locked -- --challenge binheap --iterations 100 \
-  --seed-file support/binheap-seeds.json --output reports
+cargo run --release --locked -- --challenge binheap --seed 42 --iterations 1 --output /tmp/hegel-binheap
+cargo run --release --locked -- --challenge binheap --seed 1337 --iterations 100 --output reports
 ```
 
 `--list` includes this standalone port; `--challenge all` retains the existing
-comparison suite. `support/binheap-seeds.json` matches the 100 recorded Hypothesis
-seeds. The existing comparison-report scripts remain scoped to the published suite.
+comparison suite. The existing comparison-report scripts remain scoped to the published suite.
 
 ## Calculator port
 
@@ -95,9 +97,8 @@ and floor division follow Python's evaluation semantics within the bounded
 expression domain, avoiding machine-overflow failures.
 
 ```sh
-cargo run --release --locked -- --challenge calculator --seed 42 --output /tmp/hegel-calculator
-cargo run --release --locked -- --challenge calculator --iterations 100 \
-  --seed-file support/calculator-seeds.json --output reports
+cargo run --release --locked -- --challenge calculator --seed 42 --iterations 1 --output /tmp/hegel-calculator
+cargo run --release --locked -- --challenge calculator --seed 1337 --iterations 100 --output reports
 ```
 
 This is another standalone port listed by `--list`, outside `--challenge all` and
@@ -106,9 +107,13 @@ for results and generator/domain differences from Hypothesis and Exhaust.
 
 ## Comparison conventions
 
-- [`support/seeds.json`](support/seeds.json) copies the numeric seeds from the
-  corresponding Hypothesis JSON files. Equal seeds do not imply equal inputs
-  across libraries. Generation uses each library's own distribution.
+- New runs use consecutive seeds, starting at 1337 by default. Historical checked-in
+  results used the numeric seeds from the corresponding Hypothesis JSON files.
+  Those recorded seeds remain in the result JSON; replay an individual run with
+  `--seed N --iterations 1`. Equal seeds do not imply equal inputs across libraries.
+  Report refresh accepts a consistent consecutive schedule or the historical
+  Hypothesis-derived schedules, and rejects mixed schedules. Generation uses each
+  library's own distribution.
 - Database reuse and targeting are disabled. Generation and shrinking are
   enabled, with one million allowed valid examples and health checks suppressed,
   matching the Hypothesis harness. Multiple-failure reporting is disabled.
@@ -151,7 +156,7 @@ make test
 Tests exercise the deliberate fixture bugs, dependent generator constraints,
 seeded generation/reduction, native state-machine shrinking, evaluation counting,
 CLI output/error handling, report formatting, README refresh idempotence and
-seed-list parity. Every checked-in original and reduced counterexample is also
+seed-schedule consistency. Every checked-in original and reduced counterexample is also
 replayed against independent fixture checks in Python.
 
 README updates require all 24 release-build result files, the checked-in seed

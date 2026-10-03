@@ -50,14 +50,17 @@ time. Exhaust's supplied 100-run summary likewise reports 100% at the equivalent
 mean. Generator domains, evaluation semantics, and accounting differ as described
 above and in the library reports; these are not paired-start performance results.
 
-## Reproduction
+## Running
 
 From `pbt-libraries/hegel`:
 
 ```sh
-cargo run --release --locked -- --challenge calculator --iterations 100 --seed-file support/calculator-seeds.json --output reports
+cargo run --release --locked -- --challenge calculator --seed 1337 --iterations 100 --output reports
 ```
 
 The standalone port is included in `--list` but excluded from `--challenge all`
-and the existing comparison-report scripts. `support/calculator-seeds.json`
-contains the 100 numeric seeds from the recorded Hypothesis calculator results.
+and the existing comparison-report scripts.
+
+The recorded results above used historical Hypothesis-derived seeds. The command
+starts a new consecutive-seed run; to replay one recorded run, use its JSON seed
+with `--seed N --iterations 1`.

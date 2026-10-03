@@ -82,31 +82,33 @@ class ReportsTests(unittest.TestCase):
     def test_markdown_protects_table_pipes_and_embedded_backticks(self):
         self.assertEqual(code('(text, "a|b`c", [1, 1])'), '``(text, "a\\|b`c", [1, 1])``')
 
-    def test_comparison_rejects_mixed_or_unpaired_results(self):
+    def test_comparison_rejects_mixed_or_inconsistent_results(self):
         reports = {name: report(name, (925,) * 100) for name in SPECS}
-        seeds = {name: list(range(100)) for name in SPECS}
-        validate_comparison(reports, seeds)
-        for change in ("count", "seed", "environment", "profile"):
+        validate_comparison(reports)
+        for change in ("count", "seed", "range", "environment", "profile"):
             invalid = deepcopy(reports)
             item = invalid["modular_mapping"]
             if change == "count":
                 item["runs"].pop()
             elif change == "seed":
                 item["runs"][0]["seed"] = 999
+            elif change == "range":
+                for run in item["runs"]:
+                    run["seed"] += 1
             elif change == "environment":
                 item["environment"]["cpu"] = "different CPU"
             else:
                 item["build_profile"] = "debug"
             with self.subTest(change=change), self.assertRaises(ValueError):
-                validate_comparison(invalid, seeds)
+                validate_comparison(invalid)
 
-    def test_committed_seed_lists_match_hypothesis(self):
-        seeds = json.loads((ROOT / "support/seeds.json").read_text())
-        self.assertEqual(set(seeds), set(SPECS))
-        for name, values in seeds.items():
-            hypothesis = json.loads((ROOT.parent / "hypothesis/challenges" / f"{name}.json").read_text())
-            self.assertEqual(values, [run["seed"] for run in hypothesis])
-            self.assertEqual(len(values), 100)
+    def test_checked_in_historical_reports_remain_valid(self):
+        reports = {name: json.loads((ROOT / "reports" / f"{name}.json").read_text()) for name in SPECS}
+        validate_comparison(reports)
+        invalid = deepcopy(reports)
+        invalid["modular_mapping"]["runs"][0]["seed"] += 1
+        with self.assertRaises(ValueError):
+            validate_comparison(invalid)
 
 
 if __name__ == "__main__":

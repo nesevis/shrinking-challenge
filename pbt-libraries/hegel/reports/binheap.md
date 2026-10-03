@@ -37,14 +37,18 @@ five nodes. It averaged 102.46 evaluations and 137.17 ms total elapsed time.
 These are library-specific generated starts, not a paired-start reducer A/B test.
 Evaluation accounting differs between libraries.
 
-## Reproduction
+## Running
 
 From `pbt-libraries/hegel`:
 
 ```sh
-cargo run --release --locked -- --challenge binheap --iterations 100 --seed-file support/binheap-seeds.json --output reports
+cargo run --release --locked -- --challenge binheap --seed 1337 --iterations 100 --output reports
 ```
 
 This standalone port is available through `--list` and explicit
 `--challenge binheap`. It is not included in the existing 24-challenge published
-comparison, its default seed file, or comparison-report scripts.
+comparison or comparison-report scripts.
+
+The recorded results above used historical Hypothesis-derived seeds. The command
+starts a new consecutive-seed run; to replay one recorded run, use its JSON seed
+with `--seed N --iterations 1`.

@@ -5,7 +5,7 @@ import math
 import re
 import unittest
 
-from make_reports import ROOT, SPECS, value
+from make_reports import ROOT, SPECS, validate_comparison, value
 
 
 def hash_put(entries, modulus, key, val):
@@ -170,15 +170,13 @@ def is_failure(name, text):
 
 class RecordedResultsTests(unittest.TestCase):
     def test_every_recorded_original_and_reduced_example_reproduces(self):
-        seeds = json.loads((ROOT / "support/seeds.json").read_text())
-        for name in SPECS:
-            path = ROOT / "reports" / f"{name}.json"
+        reports = {name: json.loads((ROOT / "reports" / f"{name}.json").read_text()) for name in SPECS}
+        validate_comparison(reports)
+        for name, report in reports.items():
             with self.subTest(challenge=name):
-                report = json.loads(path.read_text())
                 self.assertEqual(report["challenge"], name)
                 self.assertEqual(report["build_profile"], "release")
                 runs = report["runs"]
-                self.assertEqual([r["seed"] for r in runs], seeds[name])
                 for record in runs:
                     with self.subTest(seed=record["seed"]):
                         self.assertGreater(record["evaluations"], 0)

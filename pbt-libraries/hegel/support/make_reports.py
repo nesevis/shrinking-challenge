@@ -211,16 +211,25 @@ def update_comparison(text, reports):
     return result
 
 
-def validate_comparison(reports, seeds):
+def validate_comparison(reports):
     if set(reports) != set(SPECS):
         raise ValueError("README comparison requires all 24 challenges")
     first = next(iter(reports.values()))
+    first_seeds = [run["seed"] for run in first["runs"]]
+    consecutive = bool(first_seeds) and first_seeds == list(range(first_seeds[0], first_seeds[0] + 100))
     for name, report in reports.items():
         runs = report["runs"]
         if len(runs) != 100:
             raise ValueError(f"{name}: README comparison requires 100 runs")
-        if [run["seed"] for run in runs] != seeds[name]:
-            raise ValueError(f"{name}: seeds differ from the checked-in comparison seeds")
+        if consecutive:
+            expected_seeds = first_seeds
+        else:
+            # Historical reports used Hypothesis's filename-derived schedules.
+            # Read their provenance directly instead of maintaining duplicate lists.
+            hypothesis = json.loads((ROOT.parent / "hypothesis/challenges" / f"{name}.json").read_text())
+            expected_seeds = [run["seed"] for run in hypothesis]
+        if [run["seed"] for run in runs] != expected_seeds:
+            raise ValueError(f"{name}: inconsistent comparison seed schedule")
         if report["build_profile"] != "release":
             raise ValueError(f"{name}: README comparison requires a release build")
         for field in ("hegel_version", "engine_version", "build_profile", "environment"):
@@ -245,9 +254,8 @@ def main():
     if not reports:
         parser.error("no result JSON files found; run the Rust runner first")
     if args.update_readme:
-        seeds = json.loads((ROOT / "support/seeds.json").read_text())
         try:
-            validate_comparison(reports, seeds)
+            validate_comparison(reports)
         except ValueError as error:
             parser.error(str(error))
         path = PROJECT / "README.md"

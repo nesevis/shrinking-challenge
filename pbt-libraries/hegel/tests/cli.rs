@@ -33,7 +33,14 @@ impl Drop for OutputDirectory {
 #[test]
 fn one_seed_produces_reproducible_results_and_environment_metadata() {
     let directory = OutputDirectory::new();
-    let args = ["--challenge", "modular_mapping", "--seed", "42"];
+    let args = [
+        "--challenge",
+        "modular_mapping",
+        "--seed",
+        "42",
+        "--iterations",
+        "1",
+    ];
     let first = directory.invoke(&args);
     assert!(
         first.status.success(),
@@ -78,7 +85,14 @@ fn binary_heap_port_is_listed_and_reduces_a_generated_failure() {
             .lines()
             .any(|name| name == "binheap")
     );
-    let result = directory.invoke(&["--challenge", "binheap", "--seed", "42"]);
+    let result = directory.invoke(&[
+        "--challenge",
+        "binheap",
+        "--seed",
+        "42",
+        "--iterations",
+        "1",
+    ]);
     assert!(
         result.status.success(),
         "{}",
@@ -105,7 +119,14 @@ fn calculator_port_is_listed_and_reduces_a_computed_zero_divisor() {
             .lines()
             .any(|name| name == "calculator")
     );
-    let result = directory.invoke(&["--challenge", "calculator", "--seed", "42"]);
+    let result = directory.invoke(&[
+        "--challenge",
+        "calculator",
+        "--seed",
+        "42",
+        "--iterations",
+        "1",
+    ]);
     assert!(
         result.status.success(),
         "{}",
@@ -131,8 +152,9 @@ fn invalid_requests_fail_without_replacing_existing_results() {
     for args in [
         vec!["--challenge", "not_a_challenge"],
         vec!["--challenge", "modular_mapping", "--iterations", "0"],
-        vec!["--challenge", "modular_mapping", "--iterations", "101"],
-        vec!["--seed", "42"],
+        vec!["--seed", "18446744073709551615", "--iterations", "2"],
+        vec!["--seed", "42", "--seed-file", "unused.json"],
+        vec!["--seed-file", "does-not-exist.json"],
         vec!["--challenge", "modular_mapping", "--seed", "not_a_number"],
     ] {
         let result = directory.invoke(&args);
@@ -143,24 +165,105 @@ fn invalid_requests_fail_without_replacing_existing_results() {
 }
 
 #[test]
-fn iterations_selects_the_checked_in_seed_list() {
+fn iterations_selects_consecutive_seeds_from_the_default_start() {
     let directory = OutputDirectory::new();
     let result = directory.invoke(&["--challenge", "modular_mapping", "--iterations", "2"]);
-    assert!(result.status.success());
-    let output: Value =
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
+    );
+    let report: Value =
         serde_json::from_slice(&std::fs::read(directory.0.join("modular_mapping.json")).unwrap())
             .unwrap();
-    let seeds: Value = serde_json::from_str(include_str!("../support/seeds.json")).unwrap();
-    let actual: Vec<_> = output["runs"]
+    let seeds: Vec<_> = report["runs"]
         .as_array()
         .unwrap()
         .iter()
-        .map(|run| &run["seed"])
+        .map(|run| run["seed"].as_u64().unwrap())
         .collect();
-    assert_eq!(
-        actual,
-        seeds["modular_mapping"].as_array().unwrap()[..2]
-            .iter()
-            .collect::<Vec<_>>()
+    assert_eq!(seeds, [1337, 1338]);
+}
+
+#[test]
+fn sequential_runs_are_not_limited_to_historical_seed_lists() {
+    let directory = OutputDirectory::new();
+    let result = directory.invoke(&["--challenge", "modular_mapping", "--iterations", "101"]);
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
     );
+    let report: Value =
+        serde_json::from_slice(&std::fs::read(directory.0.join("modular_mapping.json")).unwrap())
+            .unwrap();
+    let seeds: Vec<_> = report["runs"]
+        .as_array()
+        .unwrap()
+        .iter()
+        .map(|run| run["seed"].as_u64().unwrap())
+        .collect();
+    assert_eq!(seeds, (1337..1438).collect::<Vec<u64>>());
+
+    let result = directory.invoke(&["--challenge", "modular_mapping", "--seed", "42"]);
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
+    );
+    let report: Value =
+        serde_json::from_slice(&std::fs::read(directory.0.join("modular_mapping.json")).unwrap())
+            .unwrap();
+    let seeds: Vec<_> = report["runs"]
+        .as_array()
+        .unwrap()
+        .iter()
+        .map(|run| run["seed"].as_u64().unwrap())
+        .collect();
+    assert_eq!(seeds, (42..142).collect::<Vec<u64>>());
+}
+
+#[test]
+fn maximum_seed_is_valid_for_one_iteration_and_overflow_is_explicit() {
+    let directory = OutputDirectory::new();
+    let result = directory.invoke(&[
+        "--challenge",
+        "modular_mapping",
+        "--seed",
+        "18446744073709551615",
+        "--iterations",
+        "1",
+    ]);
+    assert!(
+        result.status.success(),
+        "{}",
+        String::from_utf8_lossy(&result.stderr)
+    );
+    let report: Value =
+        serde_json::from_slice(&std::fs::read(directory.0.join("modular_mapping.json")).unwrap())
+            .unwrap();
+    assert_eq!(report["runs"][0]["seed"].as_u64(), Some(u64::MAX));
+    let result = directory.invoke(&[
+        "--challenge",
+        "all",
+        "--seed",
+        "18446744073709551615",
+        "--iterations",
+        "2",
+    ]);
+    assert!(!result.status.success());
+    assert!(String::from_utf8_lossy(&result.stderr).contains("seed range exceeds u64::MAX"));
+}
+
+#[test]
+fn seed_file_option_is_no_longer_supported() {
+    let directory = OutputDirectory::new();
+    let result = directory.invoke(&["--seed-file", "unused.json"]);
+    assert!(!result.status.success());
+    assert!(String::from_utf8_lossy(&result.stderr).contains("unknown option: --seed-file"));
+    assert_eq!(std::fs::read_dir(&directory.0).unwrap().count(), 0);
+
+    let help = directory.invoke(&["--help"]);
+    assert!(help.status.success());
+    assert!(!String::from_utf8_lossy(&help.stdout).contains("--seed-file"));
 }
