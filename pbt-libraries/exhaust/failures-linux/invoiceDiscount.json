@@ -1,0 +1,1102 @@
+[
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(234, 77, 27)"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.578542
+  },
+  {
+    "evaluations" : 89,
+    "original" : {
+      "p" : "Invoice(979, 58, 2)"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.529208
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(376, 81, 44)"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.693708
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(67, 79, 44)"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.643917
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(694, 40, 33)"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.54825
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(372, 63, 24)"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.347041
+  },
+  {
+    "evaluations" : 102,
+    "original" : {
+      "p" : "Invoice(611, 55, 20)"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 6.106791
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(967, 27, 32)"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.36875
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "Invoice(772, 88, 6)"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.678792
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(326, 9, 3)"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.849083
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(415, 81, 9)"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.4135
+  },
+  {
+    "evaluations" : 96,
+    "original" : {
+      "p" : "Invoice(861, 3, 19)"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 6.26525
+  },
+  {
+    "evaluations" : 69,
+    "original" : {
+      "p" : "Invoice(526, 14, 22)"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 4.951917
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "Invoice(760, 12, 31)"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.374292
+  },
+  {
+    "evaluations" : 100,
+    "original" : {
+      "p" : "Invoice(275, 9, 11)"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.950667
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(108, 71, 18)"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.467709
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(463, 57, 35)"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.321166
+  },
+  {
+    "evaluations" : 92,
+    "original" : {
+      "p" : "Invoice(586, 90, 45)"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.470208
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(415, 59, 47)"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.310833
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(460, 13, 37)"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.283125
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(417, 77, 39)"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.377917
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(967, 49, 40)"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.323292
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(920, 17, 26)"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.274541
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "Invoice(224, 44, 9)"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.519042
+  },
+  {
+    "evaluations" : 95,
+    "original" : {
+      "p" : "Invoice(618, 76, 34)"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.542
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "Invoice(845, 45, 11)"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.19825
+  },
+  {
+    "evaluations" : 88,
+    "original" : {
+      "p" : "Invoice(680, 8, 34)"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.841791
+  },
+  {
+    "evaluations" : 35,
+    "original" : {
+      "p" : "Invoice(459, 20, 18)"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 3.874292
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(507, 35, 39)"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.393125
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(514, 99, 31)"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.382584
+  },
+  {
+    "evaluations" : 100,
+    "original" : {
+      "p" : "Invoice(671, 36, 25)"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.899625
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(935, 97, 15)"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.370875
+  },
+  {
+    "evaluations" : 66,
+    "original" : {
+      "p" : "Invoice(74, 22, 9)"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.163833
+  },
+  {
+    "evaluations" : 87,
+    "original" : {
+      "p" : "Invoice(138, 11, 35)"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.170584
+  },
+  {
+    "evaluations" : 71,
+    "original" : {
+      "p" : "Invoice(445, 16, 24)"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.020417
+  },
+  {
+    "evaluations" : 95,
+    "original" : {
+      "p" : "Invoice(104, 54, 34)"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.559916
+  },
+  {
+    "evaluations" : 89,
+    "original" : {
+      "p" : "Invoice(218, 21, 13)"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.360792
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(361, 25, 46)"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.380084
+  },
+  {
+    "evaluations" : 29,
+    "original" : {
+      "p" : "Invoice(198, 10, 32)"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 3.6785
+  },
+  {
+    "evaluations" : 92,
+    "original" : {
+      "p" : "Invoice(437, 28, 31)"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.622125
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(914, 31, 49)"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.335167
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(992, 25, 8)"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.905708
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(870, 39, 39)"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.390667
+  },
+  {
+    "evaluations" : 88,
+    "original" : {
+      "p" : "Invoice(180, 21, 6)"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.421583
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(194, 74, 19)"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.59175
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(633, 67, 46)"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.4425
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "Invoice(863, 38, 25)"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.5505
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(313, 15, 22)"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.246334
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(473, 83, 48)"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.41725
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(58, 89, 31)"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.419708
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(161, 77, 18)"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.414167
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(701, 93, 34)"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.348667
+  },
+  {
+    "evaluations" : 91,
+    "original" : {
+      "p" : "Invoice(822, 46, 47)"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.440625
+  },
+  {
+    "evaluations" : 76,
+    "original" : {
+      "p" : "Invoice(884, 23, 33)"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.211125
+  },
+  {
+    "evaluations" : 77,
+    "original" : {
+      "p" : "Invoice(595, 89, 13)"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.339583
+  },
+  {
+    "evaluations" : 92,
+    "original" : {
+      "p" : "Invoice(741, 64, 18)"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.492667
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(217, 70, 8)"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.642792
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(41, 56, 34)"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.361167
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(229, 83, 19)"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.516917
+  },
+  {
+    "evaluations" : 86,
+    "original" : {
+      "p" : "Invoice(543, 80, 40)"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.748209
+  },
+  {
+    "evaluations" : 102,
+    "original" : {
+      "p" : "Invoice(719, 4, 9)"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 6.043917
+  },
+  {
+    "evaluations" : 93,
+    "original" : {
+      "p" : "Invoice(908, 68, 13)"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.63075
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(964, 79, 38)"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.453208
+  },
+  {
+    "evaluations" : 92,
+    "original" : {
+      "p" : "Invoice(647, 36, 4)"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.586417
+  },
+  {
+    "evaluations" : 102,
+    "original" : {
+      "p" : "Invoice(935, 25, 28)"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 6.103542
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(530, 97, 7)"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.408541
+  },
+  {
+    "evaluations" : 98,
+    "original" : {
+      "p" : "Invoice(932, 75, 4)"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.996875
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(996, 77, 34)"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.425041
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(173, 87, 19)"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.501375
+  },
+  {
+    "evaluations" : 34,
+    "original" : {
+      "p" : "Invoice(553, 20, 8)"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 3.869
+  },
+  {
+    "evaluations" : 95,
+    "original" : {
+      "p" : "Invoice(805, 44, 35)"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.613583
+  },
+  {
+    "evaluations" : 95,
+    "original" : {
+      "p" : "Invoice(479, 98, 49)"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.598541
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(788, 71, 18)"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.499459
+  },
+  {
+    "evaluations" : 89,
+    "original" : {
+      "p" : "Invoice(954, 21, 12)"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.415084
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(881, 51, 20)"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.367209
+  },
+  {
+    "evaluations" : 78,
+    "original" : {
+      "p" : "Invoice(898, 31, 16)"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.261
+  },
+  {
+    "evaluations" : 85,
+    "original" : {
+      "p" : "Invoice(747, 4, 30)"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.779792
+  },
+  {
+    "evaluations" : 90,
+    "original" : {
+      "p" : "Invoice(548, 60, 7)"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.462625
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(73, 90, 24)"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.559416
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(755, 25, 38)"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.447417
+  },
+  {
+    "evaluations" : 108,
+    "original" : {
+      "p" : "Invoice(483, 9, 37)"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 6.2835
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(935, 53, 37)"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.488833
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(141, 76, 28)"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.617208
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(89, 89, 25)"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.618834
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(555, 79, 48)"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.436125
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(914, 87, 27)"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.485375
+  },
+  {
+    "evaluations" : 80,
+    "original" : {
+      "p" : "Invoice(891, 15, 8)"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.222125
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(704, 27, 46)"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.386792
+  },
+  {
+    "evaluations" : 35,
+    "original" : {
+      "p" : "Invoice(922, 18, 34)"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 3.835333
+  },
+  {
+    "evaluations" : 88,
+    "original" : {
+      "p" : "Invoice(612, 19, 16)"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.432
+  },
+  {
+    "evaluations" : 751,
+    "original" : {
+      "p" : "Invoice(40, 27, 42)"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 15.794208
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(864, 13, 2)"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.280541
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(612, 49, 10)"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.353458
+  },
+  {
+    "evaluations" : 81,
+    "original" : {
+      "p" : "Invoice(271, 53, 30)"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.411417
+  },
+  {
+    "evaluations" : 94,
+    "original" : {
+      "p" : "Invoice(336, 82, 34)"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.597375
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(757, 15, 5)"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.219375
+  },
+  {
+    "evaluations" : 78,
+    "original" : {
+      "p" : "Invoice(545, 73, 3)"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.470875
+  },
+  {
+    "evaluations" : 79,
+    "original" : {
+      "p" : "Invoice(419, 89, 50)"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.342834
+  },
+  {
+    "evaluations" : 82,
+    "original" : {
+      "p" : "Invoice(475, 69, 17)"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.481625
+  },
+  {
+    "evaluations" : 101,
+    "original" : {
+      "p" : "Invoice(242, 6, 36)"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "Invoice(10, 100, 1)"
+    },
+    "wallMilliseconds" : 5.92475
+  }
+]

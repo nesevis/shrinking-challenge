@@ -1,0 +1,13 @@
+[
+  {
+    "evaluations" : 15,
+    "original" : {
+      "p" : "\"a branch switch\""
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "\"    \""
+    },
+    "wallMilliseconds" : 1.33775
+  }
+]

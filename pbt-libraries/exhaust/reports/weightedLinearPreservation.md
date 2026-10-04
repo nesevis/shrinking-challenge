@@ -1,38 +1,31 @@
 # Weighted Linear Preservation
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/weightedLinearPreservation.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/weightedLinearPreservation.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 42.0 | 43.0 |
+| Reduction invocations | 154.4 | 93.0 |
 | Original input length | 9.6 | 10.0 |
-| Wall time (ms) | 0.165 | 0.165 |
-| generation (ms) | 0.035 | 0.023 |
-| reductions (ms) | 0.100 | 0.100 |
-| total (ms) | 0.159 | 0.159 |
+| Wall time (ms) | 0.439 | 0.345 |
+| Wall time, Linux/Windows build (ms) | 1.895 | 1.310 |
+| generation (ms) | 0.036 | 0.024 |
+| reductions (ms) | 0.360 | 0.230 |
+| total (ms) | 0.430 | 0.337 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/weightedLinearPreservation.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-## Counterexamples (11 distinct)
+## Counterexamples (1 distinct)
 
 | Share | Counterexample |
 |---|---|
-| 22% | 🎯 `(0, 0, 20)` |
-| 16% | `(2, 0, 16)` |
-| 14% | `(1, 0, 18)` |
-| 12% | `(3, 0, 14)` |
-| 12% | `(6, 0, 8)` |
-| 10% | `(5, 0, 10)` |
-| 6% | `(4, 0, 12)` |
-| 5% | `(7, 0, 6)` |
-| 1% | `(10, 0, 0)` |
-| 1% | `(9, 0, 2)` |
-| 1% | `(8, 0, 4)` |
+| 100% | 🎯 `(0, 0, 20)` |
 
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge weightedLinearPreservation --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge weightedLinearPreservation --iterations 100 --seed 1337 --report-path ../failures
 ```

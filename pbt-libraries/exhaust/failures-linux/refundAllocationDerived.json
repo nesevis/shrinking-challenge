@@ -1,0 +1,1102 @@
+[
+  {
+    "evaluations" : 871,
+    "original" : {
+      "p" : "RefundRequest([28660694703, 121944289334], 93104535157)"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 34], 2)"
+    },
+    "wallMilliseconds" : 13.361458
+  },
+  {
+    "evaluations" : 813,
+    "original" : {
+      "p" : "RefundRequest([3879836545257130, 3429896602809591, 2388229882076538], 2783774963393828)"
+    },
+    "seed" : 1338,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 14.975042
+  },
+  {
+    "evaluations" : 769,
+    "original" : {
+      "p" : "RefundRequest([311283394, 6757275276], 2847235020)"
+    },
+    "seed" : 1339,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 34], 2)"
+    },
+    "wallMilliseconds" : 11.973917
+  },
+  {
+    "evaluations" : 6843,
+    "original" : {
+      "p" : "RefundRequest([50174197, 45582159], 58491377)"
+    },
+    "seed" : 1340,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 98.996958
+  },
+  {
+    "evaluations" : 1630,
+    "original" : {
+      "p" : "RefundRequest([14437815779, 131538906751, 36152265105, 60822474451, 29980148190], 117395449415)"
+    },
+    "seed" : 1341,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 31, 33], 4)"
+    },
+    "wallMilliseconds" : 37.637625
+  },
+  {
+    "evaluations" : 1139,
+    "original" : {
+      "p" : "RefundRequest([11436339, 9817381, 1503781], 15858356)"
+    },
+    "seed" : 1342,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 20.292958
+  },
+  {
+    "evaluations" : 637,
+    "original" : {
+      "p" : "RefundRequest([29899303, 31855745, 33115751], 48254143)"
+    },
+    "seed" : 1343,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 11.774416
+  },
+  {
+    "evaluations" : 396,
+    "original" : {
+      "p" : "RefundRequest([999457, 733491], 455950)"
+    },
+    "seed" : 1344,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.635292
+  },
+  {
+    "evaluations" : 664,
+    "original" : {
+      "p" : "RefundRequest([267704878, 490656895], 160018539)"
+    },
+    "seed" : 1345,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 10.248333
+  },
+  {
+    "evaluations" : 837,
+    "original" : {
+      "p" : "RefundRequest([44339125816, 52788924547], 45276485404)"
+    },
+    "seed" : 1346,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 34], 2)"
+    },
+    "wallMilliseconds" : 12.633375
+  },
+  {
+    "evaluations" : 1564,
+    "original" : {
+      "p" : "RefundRequest([1136841, 1476089], 1569754)"
+    },
+    "seed" : 1347,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 24.028667
+  },
+  {
+    "evaluations" : 13257,
+    "original" : {
+      "p" : "RefundRequest([515691204, 141625527], 182012374)"
+    },
+    "seed" : 1348,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 186.422125
+  },
+  {
+    "evaluations" : 661,
+    "original" : {
+      "p" : "RefundRequest([18937159700, 7678279760, 9052818892], 10543678963)"
+    },
+    "seed" : 1349,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 12.078959
+  },
+  {
+    "evaluations" : 767,
+    "original" : {
+      "p" : "RefundRequest([328505891, 140564850, 132483405], 526642389)"
+    },
+    "seed" : 1350,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 14.188084
+  },
+  {
+    "evaluations" : 411,
+    "original" : {
+      "p" : "RefundRequest([398181, 367285], 360669)"
+    },
+    "seed" : 1351,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.554667
+  },
+  {
+    "evaluations" : 1484,
+    "original" : {
+      "p" : "RefundRequest([2108490359233, 954748937646, 460621264428, 520055339806], 1656661397671)"
+    },
+    "seed" : 1352,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 29.993
+  },
+  {
+    "evaluations" : 560,
+    "original" : {
+      "p" : "RefundRequest([2916277, 22090437], 20981109)"
+    },
+    "seed" : 1353,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 8.802375
+  },
+  {
+    "evaluations" : 49283,
+    "original" : {
+      "p" : "RefundRequest([276312405384, 236449816053], 354696317462)"
+    },
+    "seed" : 1354,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 656.936375
+  },
+  {
+    "evaluations" : 453,
+    "original" : {
+      "p" : "RefundRequest([57892, 1422097], 1319222)"
+    },
+    "seed" : 1355,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 7.355709
+  },
+  {
+    "evaluations" : 1065,
+    "original" : {
+      "p" : "RefundRequest([2621370668115, 4891232116020], 4668251895636)"
+    },
+    "seed" : 1356,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 16.26175
+  },
+  {
+    "evaluations" : 2198,
+    "original" : {
+      "p" : "RefundRequest([16022823, 18027880], 18492927)"
+    },
+    "seed" : 1357,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 33.036208
+  },
+  {
+    "evaluations" : 549,
+    "original" : {
+      "p" : "RefundRequest([9880537532422, 4597394544656, 4819048547747], 6796238170842)"
+    },
+    "seed" : 1358,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33, 33], 4)"
+    },
+    "wallMilliseconds" : 10.317708
+  },
+  {
+    "evaluations" : 69285,
+    "original" : {
+      "p" : "RefundRequest([1072751312404285, 4167235591526471], 4541274105970084)"
+    },
+    "seed" : 1359,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 910.697584
+  },
+  {
+    "evaluations" : 4621,
+    "original" : {
+      "p" : "RefundRequest([1684094, 2092492], 3101346)"
+    },
+    "seed" : 1360,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 68.151708
+  },
+  {
+    "evaluations" : 216002,
+    "original" : {
+      "p" : "RefundRequest([2637845341768201176, 872502936474017950], 1707217783482515123)"
+    },
+    "seed" : 1361,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 2760.337333
+  },
+  {
+    "evaluations" : 932,
+    "original" : {
+      "p" : "RefundRequest([933214508437, 1167265725012, 247466203271], 816450839869)"
+    },
+    "seed" : 1362,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 16.956417
+  },
+  {
+    "evaluations" : 741,
+    "original" : {
+      "p" : "RefundRequest([2401991002, 2927676215], 1535172909)"
+    },
+    "seed" : 1363,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 11.041084
+  },
+  {
+    "evaluations" : 18471,
+    "original" : {
+      "p" : "RefundRequest([184808316, 191093137], 308276915)"
+    },
+    "seed" : 1364,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 253.735209
+  },
+  {
+    "evaluations" : 829,
+    "original" : {
+      "p" : "RefundRequest([4759526267656133, 5241521680827777, 2868524969846943], 8039400306692741)"
+    },
+    "seed" : 1365,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 15.411791
+  },
+  {
+    "evaluations" : 66612,
+    "original" : {
+      "p" : "RefundRequest([13900983818035, 3851678130331], 15367774764141)"
+    },
+    "seed" : 1366,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 873.552209
+  },
+  {
+    "evaluations" : 12591,
+    "original" : {
+      "p" : "RefundRequest([68085625, 29256217], 44484686)"
+    },
+    "seed" : 1367,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 177.388583
+  },
+  {
+    "evaluations" : 557,
+    "original" : {
+      "p" : "RefundRequest([9115008, 34227494], 18588263)"
+    },
+    "seed" : 1368,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 8.853333
+  },
+  {
+    "evaluations" : 399,
+    "original" : {
+      "p" : "RefundRequest([353862, 817024], 160780)"
+    },
+    "seed" : 1369,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 7.10675
+  },
+  {
+    "evaluations" : 3425,
+    "original" : {
+      "p" : "RefundRequest([244687, 355929], 460015)"
+    },
+    "seed" : 1370,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 51.039708
+  },
+  {
+    "evaluations" : 558,
+    "original" : {
+      "p" : "RefundRequest([5728462, 20262197], 8526977)"
+    },
+    "seed" : 1371,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 8.581791
+  },
+  {
+    "evaluations" : 768,
+    "original" : {
+      "p" : "RefundRequest([293293144017, 734913905430, 356399795950], 767209683060)"
+    },
+    "seed" : 1372,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 14.043167
+  },
+  {
+    "evaluations" : 324,
+    "original" : {
+      "p" : "RefundRequest([4432912926190, 481894263893, 4589324466964], 903755461712)"
+    },
+    "seed" : 1373,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 6.612833
+  },
+  {
+    "evaluations" : 454,
+    "original" : {
+      "p" : "RefundRequest([4036870, 8932166], 1149038)"
+    },
+    "seed" : 1374,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 7.188542
+  },
+  {
+    "evaluations" : 395,
+    "original" : {
+      "p" : "RefundRequest([508252, 798771], 121439)"
+    },
+    "seed" : 1375,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.43075
+  },
+  {
+    "evaluations" : 484,
+    "original" : {
+      "p" : "RefundRequest([3567184, 1817786], 1705827)"
+    },
+    "seed" : 1376,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 7.515333
+  },
+  {
+    "evaluations" : 584,
+    "original" : {
+      "p" : "RefundRequest([4372986794, 6718865616, 437030435, 5236370509], 3973176928)"
+    },
+    "seed" : 1377,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 31, 33], 4)"
+    },
+    "wallMilliseconds" : 12.733167
+  },
+  {
+    "evaluations" : 619,
+    "original" : {
+      "p" : "RefundRequest([213883228, 171190880], 128804398)"
+    },
+    "seed" : 1378,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 9.568541
+  },
+  {
+    "evaluations" : 12611,
+    "original" : {
+      "p" : "RefundRequest([39349901522, 32657016711], 34083271473)"
+    },
+    "seed" : 1379,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 175.800917
+  },
+  {
+    "evaluations" : 369,
+    "original" : {
+      "p" : "RefundRequest([1137458, 280976], 79344)"
+    },
+    "seed" : 1380,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.176584
+  },
+  {
+    "evaluations" : 18215,
+    "original" : {
+      "p" : "RefundRequest([314130065, 64139114], 169929178)"
+    },
+    "seed" : 1381,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 250.458833
+  },
+  {
+    "evaluations" : 333,
+    "original" : {
+      "p" : "RefundRequest([21594684, 24776829, 15856907], 5319699)"
+    },
+    "seed" : 1382,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 8.383625
+  },
+  {
+    "evaluations" : 87032,
+    "original" : {
+      "p" : "RefundRequest([98642581754128, 18378959241581], 32813122228531)"
+    },
+    "seed" : 1383,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 1131.175375
+  },
+  {
+    "evaluations" : 736,
+    "original" : {
+      "p" : "RefundRequest([1883335321, 1439393383], 1323785495)"
+    },
+    "seed" : 1384,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 11.102292
+  },
+  {
+    "evaluations" : 394,
+    "original" : {
+      "p" : "RefundRequest([635939, 447404], 254020)"
+    },
+    "seed" : 1385,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.523667
+  },
+  {
+    "evaluations" : 10959,
+    "original" : {
+      "p" : "RefundRequest([15303361, 3953923], 13293608)"
+    },
+    "seed" : 1386,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 153.074041
+  },
+  {
+    "evaluations" : 3914,
+    "original" : {
+      "p" : "RefundRequest([696717, 880382], 1295439)"
+    },
+    "seed" : 1387,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 57.663584
+  },
+  {
+    "evaluations" : 138466,
+    "original" : {
+      "p" : "RefundRequest([15405403181860856, 12060498153497747], 16904701057790059)"
+    },
+    "seed" : 1388,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 1787.588291
+  },
+  {
+    "evaluations" : 1198,
+    "original" : {
+      "p" : "RefundRequest([4063196389, 4532280524, 408518925], 4389761421)"
+    },
+    "seed" : 1389,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 21.409875
+  },
+  {
+    "evaluations" : 523,
+    "original" : {
+      "p" : "RefundRequest([3652153, 6710796], 3322720)"
+    },
+    "seed" : 1390,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 8.085416
+  },
+  {
+    "evaluations" : 960,
+    "original" : {
+      "p" : "RefundRequest([38304911476007, 930189536282, 16761819169976], 37979098665333)"
+    },
+    "seed" : 1391,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 17.090333
+  },
+  {
+    "evaluations" : 594,
+    "original" : {
+      "p" : "RefundRequest([10028530152, 1596407146, 9543216209], 6606280752)"
+    },
+    "seed" : 1392,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 10.974542
+  },
+  {
+    "evaluations" : 312,
+    "original" : {
+      "p" : "RefundRequest([7106938, 16497144, 23335156], 4679326)"
+    },
+    "seed" : 1393,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 6.148209
+  },
+  {
+    "evaluations" : 449,
+    "original" : {
+      "p" : "RefundRequest([5526403, 2837723], 1269624)"
+    },
+    "seed" : 1394,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 7.304375
+  },
+  {
+    "evaluations" : 550,
+    "original" : {
+      "p" : "RefundRequest([1811456799, 1636998239, 473680787], 410031387)"
+    },
+    "seed" : 1395,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 10.050042
+  },
+  {
+    "evaluations" : 809,
+    "original" : {
+      "p" : "RefundRequest([17757211744, 51394642741], 15004254318)"
+    },
+    "seed" : 1396,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 34], 2)"
+    },
+    "wallMilliseconds" : 12.167875
+  },
+  {
+    "evaluations" : 700,
+    "original" : {
+      "p" : "RefundRequest([2090528052, 493472060, 3930175324], 4646634925)"
+    },
+    "seed" : 1397,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 12.556417
+  },
+  {
+    "evaluations" : 971,
+    "original" : {
+      "p" : "RefundRequest([4070163792, 2489487611, 1131753694], 3904176048)"
+    },
+    "seed" : 1398,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 17.9735
+  },
+  {
+    "evaluations" : 5127,
+    "original" : {
+      "p" : "RefundRequest([1742652, 363362], 990966)"
+    },
+    "seed" : 1399,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 74.022084
+  },
+  {
+    "evaluations" : 423,
+    "original" : {
+      "p" : "RefundRequest([5722620, 2088916], 525974)"
+    },
+    "seed" : 1400,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.891625
+  },
+  {
+    "evaluations" : 483,
+    "original" : {
+      "p" : "RefundRequest([17731497734552, 25476915502476, 244967836817029], 238373937357031)"
+    },
+    "seed" : 1401,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 9.287875
+  },
+  {
+    "evaluations" : 431,
+    "original" : {
+      "p" : "RefundRequest([1371650, 41346292, 41496279], 48772176)"
+    },
+    "seed" : 1402,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 8.396959
+  },
+  {
+    "evaluations" : 3960,
+    "original" : {
+      "p" : "RefundRequest([2195243, 4682540], 5909725)"
+    },
+    "seed" : 1403,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 58.603333
+  },
+  {
+    "evaluations" : 18446,
+    "original" : {
+      "p" : "RefundRequest([1105825343, 108359732], 793318336)"
+    },
+    "seed" : 1404,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 252.500042
+  },
+  {
+    "evaluations" : 686,
+    "original" : {
+      "p" : "RefundRequest([178917476, 350125817], 289050991)"
+    },
+    "seed" : 1405,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 34], 2)"
+    },
+    "wallMilliseconds" : 10.253792
+  },
+  {
+    "evaluations" : 17117,
+    "original" : {
+      "p" : "RefundRequest([443853986, 93491717], 474412229)"
+    },
+    "seed" : 1406,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 234.606417
+  },
+  {
+    "evaluations" : 26757,
+    "original" : {
+      "p" : "RefundRequest([7339540069, 13895199982], 16015875512)"
+    },
+    "seed" : 1407,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 362.347
+  },
+  {
+    "evaluations" : 1081,
+    "original" : {
+      "p" : "RefundRequest([3506733075116, 9886184211474], 7583940237108)"
+    },
+    "seed" : 1408,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 17.059375
+  },
+  {
+    "evaluations" : 7702,
+    "original" : {
+      "p" : "RefundRequest([1474928, 761937], 1645751)"
+    },
+    "seed" : 1409,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 110.189625
+  },
+  {
+    "evaluations" : 844,
+    "original" : {
+      "p" : "RefundRequest([7229065, 23796309, 15366591], 37674776)"
+    },
+    "seed" : 1410,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 16.340042
+  },
+  {
+    "evaluations" : 891,
+    "original" : {
+      "p" : "RefundRequest([23989496, 4397637, 21780557], 42664878)"
+    },
+    "seed" : 1411,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 15.997459
+  },
+  {
+    "evaluations" : 1448,
+    "original" : {
+      "p" : "RefundRequest([2624325249700435, 508758813997063, 945359126546371, 1438623260592796, 727505516740874], 2341081822294636)"
+    },
+    "seed" : 1412,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 31, 33], 4)"
+    },
+    "wallMilliseconds" : 32.904042
+  },
+  {
+    "evaluations" : 517,
+    "original" : {
+      "p" : "RefundRequest([28639034323, 345640808937, 111333672850], 92905684688)"
+    },
+    "seed" : 1413,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 9.740291
+  },
+  {
+    "evaluations" : 657,
+    "original" : {
+      "p" : "RefundRequest([3586979566, 486343497, 5798892048], 5666136824)"
+    },
+    "seed" : 1414,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 11.898958
+  },
+  {
+    "evaluations" : 656,
+    "original" : {
+      "p" : "RefundRequest([370997236, 418791419], 253212008)"
+    },
+    "seed" : 1415,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 10.048375
+  },
+  {
+    "evaluations" : 808,
+    "original" : {
+      "p" : "RefundRequest([433341925, 561721249, 476407764], 637799956)"
+    },
+    "seed" : 1416,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 15.836125
+  },
+  {
+    "evaluations" : 12921,
+    "original" : {
+      "p" : "RefundRequest([10605886, 11907703], 20970435)"
+    },
+    "seed" : 1417,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 180.246625
+  },
+  {
+    "evaluations" : 490,
+    "original" : {
+      "p" : "RefundRequest([7228689, 3426910], 2314064)"
+    },
+    "seed" : 1418,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 8.629708
+  },
+  {
+    "evaluations" : 371,
+    "original" : {
+      "p" : "RefundRequest([72595000, 15417966, 38090129], 108696856)"
+    },
+    "seed" : 1419,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 9.239333
+  },
+  {
+    "evaluations" : 20621,
+    "original" : {
+      "p" : "RefundRequest([3966847583, 2037645645], 2495809154)"
+    },
+    "seed" : 1420,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 279.767
+  },
+  {
+    "evaluations" : 501,
+    "original" : {
+      "p" : "RefundRequest([4312499, 3631302], 3475606)"
+    },
+    "seed" : 1421,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 8.356166
+  },
+  {
+    "evaluations" : 389,
+    "original" : {
+      "p" : "RefundRequest([114367, 297677], 91110)"
+    },
+    "seed" : 1422,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.437125
+  },
+  {
+    "evaluations" : 594,
+    "original" : {
+      "p" : "RefundRequest([209771610017937, 22445228495154, 397252084495487], 303177304531530)"
+    },
+    "seed" : 1423,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 10.966792
+  },
+  {
+    "evaluations" : 1060,
+    "original" : {
+      "p" : "RefundRequest([767940076277, 1574673398483], 1218527108559)"
+    },
+    "seed" : 1424,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 15.325625
+  },
+  {
+    "evaluations" : 393,
+    "original" : {
+      "p" : "RefundRequest([103960, 242419], 119346)"
+    },
+    "seed" : 1425,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.191417
+  },
+  {
+    "evaluations" : 363,
+    "original" : {
+      "p" : "RefundRequest([2098966894800, 4469623897681, 3115111537991], 2694430059719)"
+    },
+    "seed" : 1426,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 7.144792
+  },
+  {
+    "evaluations" : 10221,
+    "original" : {
+      "p" : "RefundRequest([57522308, 27639600], 40209480)"
+    },
+    "seed" : 1427,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 143.637542
+  },
+  {
+    "evaluations" : 362,
+    "original" : {
+      "p" : "RefundRequest([24305335290, 28968751150, 23727202868], 19585728407)"
+    },
+    "seed" : 1428,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 7.303292
+  },
+  {
+    "evaluations" : 1105,
+    "original" : {
+      "p" : "RefundRequest([18248812, 69614812, 14091225], 77936466)"
+    },
+    "seed" : 1429,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 19.900667
+  },
+  {
+    "evaluations" : 596,
+    "original" : {
+      "p" : "RefundRequest([104304648, 75399016], 49504221)"
+    },
+    "seed" : 1430,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 9.101209
+  },
+  {
+    "evaluations" : 372,
+    "original" : {
+      "p" : "RefundRequest([189285, 75488], 59610)"
+    },
+    "seed" : 1431,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 6.233125
+  },
+  {
+    "evaluations" : 696,
+    "original" : {
+      "p" : "RefundRequest([54232367, 110909785, 26039075], 30322538)"
+    },
+    "seed" : 1432,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 12.87475
+  },
+  {
+    "evaluations" : 400,
+    "original" : {
+      "p" : "RefundRequest([159746441746094787, 743979003249510503, 666425848246244428], 925963099177320362)"
+    },
+    "seed" : 1433,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 33], 4)"
+    },
+    "wallMilliseconds" : 7.673166
+  },
+  {
+    "evaluations" : 7067,
+    "original" : {
+      "p" : "RefundRequest([715034, 524631], 1146164)"
+    },
+    "seed" : 1434,
+    "shrunk" : {
+      "p" : "RefundRequest([33, 31], 2)"
+    },
+    "wallMilliseconds" : 101.508417
+  },
+  {
+    "evaluations" : 388,
+    "original" : {
+      "p" : "RefundRequest([110373859821748, 97641830854568, 245100586853119], 128652590601849)"
+    },
+    "seed" : 1435,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 7.730958
+  },
+  {
+    "evaluations" : 817,
+    "original" : {
+      "p" : "RefundRequest([30707102, 2648168, 24047990], 46129812)"
+    },
+    "seed" : 1436,
+    "shrunk" : {
+      "p" : "RefundRequest([31, 31, 33], 3)"
+    },
+    "wallMilliseconds" : 14.473625
+  }
+]

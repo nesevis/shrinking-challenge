@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 14.814625
+    "wallMilliseconds" : 15.76225
   },
   {
     "evaluations" : 244,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.2535
+    "wallMilliseconds" : 3.950708
   },
   {
     "evaluations" : 418,
@@ -30,7 +30,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 11.531833
+    "wallMilliseconds" : 11.774959
   },
   {
     "evaluations" : 223,
@@ -41,18 +41,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.129291
+    "wallMilliseconds" : 3.280292
   },
   {
-    "evaluations" : 75,
+    "evaluations" : 287,
     "original" : {
       "p" : "(7, 3, 2, [0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0])"
     },
     "seed" : 1341,
     "shrunk" : {
-      "p" : "8, 3, 1, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.059542
+    "wallMilliseconds" : 5.037958
   },
   {
     "evaluations" : 276,
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.070917
+    "wallMilliseconds" : 4.175625
   },
   {
     "evaluations" : 303,
@@ -74,18 +74,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.953833
+    "wallMilliseconds" : 5.06775
   },
   {
-    "evaluations" : 96,
+    "evaluations" : 308,
     "original" : {
       "p" : "(10, 3, 2, [0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1])"
     },
     "seed" : 1344,
     "shrunk" : {
-      "p" : "8, 3, 1, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.355375
+    "wallMilliseconds" : 5.297667
   },
   {
     "evaluations" : 274,
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.984875
+    "wallMilliseconds" : 5.144875
   },
   {
     "evaluations" : 269,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.135834
+    "wallMilliseconds" : 4.380042
   },
   {
     "evaluations" : 203,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.121583
+    "wallMilliseconds" : 2.731875
   },
   {
     "evaluations" : 253,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.516833
+    "wallMilliseconds" : 3.548083
   },
   {
     "evaluations" : 387,
@@ -140,7 +140,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 9.448417
+    "wallMilliseconds" : 9.128667
   },
   {
     "evaluations" : 255,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.506416
+    "wallMilliseconds" : 3.579417
   },
   {
     "evaluations" : 297,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.524959
+    "wallMilliseconds" : 5.9165
   },
   {
     "evaluations" : 302,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.785833
+    "wallMilliseconds" : 4.738833
   },
   {
     "evaluations" : 242,
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.5275
+    "wallMilliseconds" : 3.644541
   },
   {
     "evaluations" : 363,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 8.191833
+    "wallMilliseconds" : 7.72325
   },
   {
     "evaluations" : 246,
@@ -206,18 +206,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.513666
+    "wallMilliseconds" : 3.722125
   },
   {
-    "evaluations" : 31,
+    "evaluations" : 238,
     "original" : {
       "p" : "(9, 3, 1, [0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1])"
     },
     "seed" : 1356,
     "shrunk" : {
-      "p" : "9, 3, 1, 27 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 2.595417
+    "wallMilliseconds" : 4.237417
   },
   {
     "evaluations" : 282,
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.429833
+    "wallMilliseconds" : 4.334875
   },
   {
     "evaluations" : 346,
@@ -239,18 +239,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.828
+    "wallMilliseconds" : 7.045
   },
   {
-    "evaluations" : 286,
+    "evaluations" : 462,
     "original" : {
       "p" : "(10, 2, 2, [1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0])"
     },
     "seed" : 1359,
     "shrunk" : {
-      "p" : "6, 2, 2, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.186417
+    "wallMilliseconds" : 6.986542
   },
   {
     "evaluations" : 245,
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.736125
+    "wallMilliseconds" : 4.014334
   },
   {
     "evaluations" : 344,
@@ -272,7 +272,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.856125
+    "wallMilliseconds" : 7.066584
   },
   {
     "evaluations" : 283,
@@ -283,7 +283,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.41875
+    "wallMilliseconds" : 4.183667
   },
   {
     "evaluations" : 285,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.165042
+    "wallMilliseconds" : 5.340334
   },
   {
     "evaluations" : 239,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.783375
+    "wallMilliseconds" : 3.767916
   },
   {
     "evaluations" : 240,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.5555
+    "wallMilliseconds" : 3.685333
   },
   {
     "evaluations" : 325,
@@ -327,18 +327,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.594666
+    "wallMilliseconds" : 5.762333
   },
   {
-    "evaluations" : 80,
+    "evaluations" : 292,
     "original" : {
       "p" : "(7, 3, 2, [1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1])"
     },
     "seed" : 1367,
     "shrunk" : {
-      "p" : "8, 3, 1, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.069834
+    "wallMilliseconds" : 4.940166
   },
   {
     "evaluations" : 447,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 14.030542
+    "wallMilliseconds" : 14.373625
   },
   {
     "evaluations" : 255,
@@ -360,7 +360,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.305458
+    "wallMilliseconds" : 4.322
   },
   {
     "evaluations" : 316,
@@ -371,7 +371,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.351542
+    "wallMilliseconds" : 5.455167
   },
   {
     "evaluations" : 320,
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.520125
+    "wallMilliseconds" : 5.593666
   },
   {
     "evaluations" : 291,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.787042
+    "wallMilliseconds" : 4.811792
   },
   {
     "evaluations" : 360,
@@ -404,7 +404,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 9.41875
+    "wallMilliseconds" : 9.163
   },
   {
     "evaluations" : 234,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.451208
+    "wallMilliseconds" : 3.478833
   },
   {
     "evaluations" : 267,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.673083
+    "wallMilliseconds" : 4.74025
   },
   {
     "evaluations" : 269,
@@ -437,7 +437,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.727166
+    "wallMilliseconds" : 4.721333
   },
   {
     "evaluations" : 270,
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.720167
+    "wallMilliseconds" : 4.785167
   },
   {
     "evaluations" : 44,
@@ -459,7 +459,7 @@
     "shrunk" : {
       "p" : "9, 3, 1, 27 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.242459
+    "wallMilliseconds" : 0.917792
   },
   {
     "evaluations" : 213,
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.87975
+    "wallMilliseconds" : 3.091916
   },
   {
     "evaluations" : 228,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.1335
+    "wallMilliseconds" : 3.296709
   },
   {
     "evaluations" : 249,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.564083
+    "wallMilliseconds" : 3.782625
   },
   {
     "evaluations" : 343,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.184458
+    "wallMilliseconds" : 6.693625
   },
   {
     "evaluations" : 324,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.51375
+    "wallMilliseconds" : 5.875167
   },
   {
     "evaluations" : 314,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.234958
+    "wallMilliseconds" : 5.448167
   },
   {
     "evaluations" : 311,
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.021834
+    "wallMilliseconds" : 5.297125
   },
   {
     "evaluations" : 275,
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.115416
+    "wallMilliseconds" : 3.945667
   },
   {
     "evaluations" : 67,
@@ -558,7 +558,7 @@
     "shrunk" : {
       "p" : "7, 2, 2, 28 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.562292
+    "wallMilliseconds" : 1.590209
   },
   {
     "evaluations" : 521,
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 19.891083
+    "wallMilliseconds" : 21.687084
   },
   {
     "evaluations" : 371,
@@ -580,18 +580,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 8.562208
+    "wallMilliseconds" : 8.171709
   },
   {
-    "evaluations" : 86,
+    "evaluations" : 298,
     "original" : {
       "p" : "(9, 3, 2, [1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0])"
     },
     "seed" : 1390,
     "shrunk" : {
-      "p" : "8, 3, 1, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.200875
+    "wallMilliseconds" : 5.190875
   },
   {
     "evaluations" : 277,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.056792
+    "wallMilliseconds" : 3.970208
   },
   {
     "evaluations" : 289,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.85275
+    "wallMilliseconds" : 4.533042
   },
   {
     "evaluations" : 320,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.528291
+    "wallMilliseconds" : 5.849333
   },
   {
     "evaluations" : 301,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.907416
+    "wallMilliseconds" : 4.889667
   },
   {
     "evaluations" : 304,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.813583
+    "wallMilliseconds" : 4.958667
   },
   {
     "evaluations" : 310,
@@ -657,18 +657,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.028167
+    "wallMilliseconds" : 5.1065
   },
   {
-    "evaluations" : 254,
+    "evaluations" : 430,
     "original" : {
       "p" : "(8, 2, 2, [0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1])"
     },
     "seed" : 1397,
     "shrunk" : {
-      "p" : "6, 2, 2, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.001583
+    "wallMilliseconds" : 6.729708
   },
   {
     "evaluations" : 317,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.39325
+    "wallMilliseconds" : 5.381959
   },
   {
     "evaluations" : 323,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.691209
+    "wallMilliseconds" : 5.813625
   },
   {
     "evaluations" : 573,
@@ -701,18 +701,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 26.287709
+    "wallMilliseconds" : 29.381583
   },
   {
-    "evaluations" : 94,
+    "evaluations" : 306,
     "original" : {
       "p" : "(10, 3, 2, [0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0])"
     },
     "seed" : 1401,
     "shrunk" : {
-      "p" : "8, 3, 1, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.311541
+    "wallMilliseconds" : 5.313791
   },
   {
     "evaluations" : 217,
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.263541
+    "wallMilliseconds" : 2.980833
   },
   {
     "evaluations" : 569,
@@ -734,7 +734,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 25.610958
+    "wallMilliseconds" : 28.624166
   },
   {
     "evaluations" : 572,
@@ -745,29 +745,29 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 26.078959
+    "wallMilliseconds" : 28.842583
   },
   {
-    "evaluations" : 266,
+    "evaluations" : 442,
     "original" : {
       "p" : "(9, 2, 2, [1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1])"
     },
     "seed" : 1405,
     "shrunk" : {
-      "p" : "6, 2, 2, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.055667
+    "wallMilliseconds" : 6.872084
   },
   {
-    "evaluations" : 76,
+    "evaluations" : 252,
     "original" : {
       "p" : "(6, 2, 2, [1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0])"
     },
     "seed" : 1406,
     "shrunk" : {
-      "p" : "6, 2, 2, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.47425
+    "wallMilliseconds" : 4.069875
   },
   {
     "evaluations" : 220,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.259791
+    "wallMilliseconds" : 3.160583
   },
   {
     "evaluations" : 312,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.135333
+    "wallMilliseconds" : 5.322292
   },
   {
     "evaluations" : 381,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 9.224542
+    "wallMilliseconds" : 8.924083
   },
   {
     "evaluations" : 218,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.013666
+    "wallMilliseconds" : 3.144167
   },
   {
     "evaluations" : 274,
@@ -822,18 +822,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.877208
+    "wallMilliseconds" : 5.029542
   },
   {
-    "evaluations" : 39,
+    "evaluations" : 246,
     "original" : {
       "p" : "(9, 3, 1, [0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0])"
     },
     "seed" : 1412,
     "shrunk" : {
-      "p" : "9, 3, 1, 27 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 2.803959
+    "wallMilliseconds" : 4.349292
   },
   {
     "evaluations" : 350,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.681959
+    "wallMilliseconds" : 7.123834
   },
   {
     "evaluations" : 280,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.641583
+    "wallMilliseconds" : 4.422875
   },
   {
     "evaluations" : 309,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.004916
+    "wallMilliseconds" : 5.124041
   },
   {
     "evaluations" : 316,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.717916
+    "wallMilliseconds" : 5.893667
   },
   {
     "evaluations" : 215,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.4415
+    "wallMilliseconds" : 3.044833
   },
   {
     "evaluations" : 403,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 10.722208
+    "wallMilliseconds" : 10.72525
   },
   {
     "evaluations" : 356,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 8.178791
+    "wallMilliseconds" : 7.695916
   },
   {
     "evaluations" : 64,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "7, 2, 2, 28 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.614791
+    "wallMilliseconds" : 1.582458
   },
   {
     "evaluations" : 324,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.749
+    "wallMilliseconds" : 6.020125
   },
   {
     "evaluations" : 242,
@@ -943,18 +943,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.566417
+    "wallMilliseconds" : 3.757875
   },
   {
-    "evaluations" : 271,
+    "evaluations" : 447,
     "original" : {
       "p" : "(9, 2, 2, [0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1])"
     },
     "seed" : 1423,
     "shrunk" : {
-      "p" : "6, 2, 2, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.076542
+    "wallMilliseconds" : 6.946708
   },
   {
     "evaluations" : 256,
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.933333
+    "wallMilliseconds" : 4.128208
   },
   {
     "evaluations" : 235,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.337375
+    "wallMilliseconds" : 3.516166
   },
   {
     "evaluations" : 84,
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "7, 2, 2, 28 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.844833
+    "wallMilliseconds" : 1.821834
   },
   {
     "evaluations" : 278,
@@ -998,18 +998,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.118208
+    "wallMilliseconds" : 4.209083
   },
   {
-    "evaluations" : 271,
+    "evaluations" : 447,
     "original" : {
       "p" : "(9, 2, 2, [0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0])"
     },
     "seed" : 1428,
     "shrunk" : {
-      "p" : "6, 2, 2, 24 length, [0,…,1]"
+      "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.142625
+    "wallMilliseconds" : 6.911209
   },
   {
     "evaluations" : 308,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.026167
+    "wallMilliseconds" : 5.156458
   },
   {
     "evaluations" : 292,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.657
+    "wallMilliseconds" : 5.847959
   },
   {
     "evaluations" : 239,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.453583
+    "wallMilliseconds" : 3.51975
   },
   {
     "evaluations" : 242,
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.271208
+    "wallMilliseconds" : 3.844417
   },
   {
     "evaluations" : 212,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.2065
+    "wallMilliseconds" : 2.907833
   },
   {
     "evaluations" : 300,
@@ -1075,7 +1075,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.086958
+    "wallMilliseconds" : 5.103875
   },
   {
     "evaluations" : 282,
@@ -1086,7 +1086,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.359666
+    "wallMilliseconds" : 4.394875
   },
   {
     "evaluations" : 212,
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.196416
+    "wallMilliseconds" : 2.901458
   }
 ]

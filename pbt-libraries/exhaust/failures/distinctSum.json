@@ -1,6 +1,6 @@
 [
   {
-    "evaluations" : 130,
+    "evaluations" : 636,
     "original" : {
       "p" : "[9973, 4421, 8810, 1203, 7777, 5050]"
     },
@@ -8,6 +8,6 @@
     "shrunk" : {
       "p" : "[-2, -1, 0, 1, 53]"
     },
-    "wallMilliseconds" : 0.537125
+    "wallMilliseconds" : 1.824791
   }
 ]

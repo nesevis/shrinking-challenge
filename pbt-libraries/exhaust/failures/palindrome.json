@@ -1,0 +1,13 @@
+[
+  {
+    "evaluations" : 26,
+    "original" : {
+      "p" : "racecar"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "\"baaaaab\""
+    },
+    "wallMilliseconds" : 2.701667
+  }
+]

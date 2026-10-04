@@ -1,29 +1,31 @@
 # Refund Allocation
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/refundAllocation.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/refundAllocation.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 883.4 | 628.0 |
+| Reduction invocations | 902.8 | 648.0 |
 | Original input length | 78.6 | 78.0 |
-| Wall time (ms) | 4.245 | 3.136 |
-| generation (ms) | 0.013 | 0.012 |
-| reductions (ms) | 4.140 | 3.040 |
-| total (ms) | 4.237 | 3.128 |
+| Wall time (ms) | 9.587 | 6.915 |
+| Wall time, Linux/Windows build (ms) | 20.530 | 16.107 |
+| generation (ms) | 0.032 | 0.028 |
+| reductions (ms) | 9.450 | 6.780 |
+| total (ms) | 9.577 | 6.905 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/refundAllocation.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-## Counterexamples (2 distinct)
+## Counterexamples (1 distinct)
 
 | Share | Counterexample |
 |---|---|
-| 98% | `RefundRequest([31, 34], 2)` |
-| 2% | 🎯 `RefundRequest([31, 33], 4)` |
+| 100% | 🎯 `RefundRequest([31, 33], 4)` |
 
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge refundAllocation --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge refundAllocation --iterations 100 --seed 1337 --report-path ../failures
 ```

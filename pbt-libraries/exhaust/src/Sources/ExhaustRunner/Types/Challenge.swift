@@ -34,16 +34,6 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case leapDay
     case branchSwitching
 
-    case depthTwoProductSequenceBind
-    case depthThreeProductSequenceBind
-    case depthFourProductSequenceBind
-    case depthFiveProductSequenceBind
-    case depthSixProductSequenceBind
-    case depthTwoProductBind
-    case depthThreeProductBind
-    case depthFourProductBind
-    case depthFiveProductBind
-    case depthSixProductBind
     case modularMapping
     case weightedLinearPreservation
     case invoiceDiscount
@@ -60,6 +50,16 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case hashCollisionStateMachineTen
     case hashCollisionStateMachineHundred
     case hashCollisionStateMachineThousand
+    case depthTwoProductSequenceBind
+    case depthThreeProductSequenceBind
+    case depthFourProductSequenceBind
+    case depthFiveProductSequenceBind
+    case depthSixProductSequenceBind
+    case depthTwoProductBind
+    case depthThreeProductBind
+    case depthFourProductBind
+    case depthFiveProductBind
+    case depthSixProductBind
 
     var description: String {
         switch self {

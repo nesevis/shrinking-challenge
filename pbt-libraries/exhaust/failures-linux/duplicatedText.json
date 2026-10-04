@@ -1,0 +1,13 @@
+[
+  {
+    "evaluations" : 54,
+    "original" : {
+      "p" : "(\"q7zq7zq7\", \"q7zq7zq7\")"
+    },
+    "seed" : 1337,
+    "shrunk" : {
+      "p" : "(\"10210210\", \"10210210\")"
+    },
+    "wallMilliseconds" : 2.222125
+  }
+]

@@ -1,31 +1,31 @@
 # Invoice Discount
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/invoiceDiscount.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/invoiceDiscount.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 58.4 | 55.0 |
+| Reduction invocations | 90.4 | 82.0 |
 | Original input length | 19.7 | 20.0 |
-| Wall time (ms) | 0.346 | 0.336 |
+| Wall time (ms) | 1.534 | 1.509 |
+| Wall time, Linux/Windows build (ms) | 5.540 | 5.442 |
 | generation (ms) | 0.005 | 0.004 |
-| reductions (ms) | 0.300 | 0.290 |
-| total (ms) | 0.341 | 0.331 |
+| reductions (ms) | 1.470 | 1.440 |
+| total (ms) | 1.525 | 1.500 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/invoiceDiscount.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-## Counterexamples (4 distinct)
+## Counterexamples (1 distinct)
 
 | Share | Counterexample |
 |---|---|
-| 84% | `Invoice(12, 84, 1)` |
-| 11% | `Invoice(11, 91, 1)` |
-| 4% | 🎯 `Invoice(10, 100, 1)` |
-| 1% | `Invoice(23, 44, 1)` |
+| 100% | 🎯 `Invoice(10, 100, 1)` |
 
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge invoiceDiscount --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge invoiceDiscount --iterations 100 --seed 1337 --report-path ../failures
 ```

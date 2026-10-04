@@ -1,33 +1,31 @@
 # Hash Collision (M = 10) (state machine)
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/hashCollisionStateMachineTen.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/hashCollisionStateMachineTen.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 76.7 | 79.0 |
+| Reduction invocations | 221.5 | 177.0 |
 | Original input length | 355.0 | 369.0 |
-| Wall time (ms) | 0.906 | 0.886 |
+| Wall time (ms) | 1.920 | 1.794 |
+| Wall time, Linux/Windows build (ms) | 6.977 | 6.805 |
 | generation (ms) | 0.000 | 0.000 |
-| reductions (ms) | 0.840 | 0.830 |
-| total (ms) | 0.895 | 0.876 |
+| reductions (ms) | 1.830 | 1.690 |
+| total (ms) | 1.907 | 1.781 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/hashCollisionStateMachineTen.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-## Counterexamples (6 distinct)
+## Counterexamples (1 distinct)
 
 | Share | Counterexample |
 |---|---|
-| 60% | 🎯 `[put(0, 0), put(10, 1)]` |
-| 18% | `[put(0, 1), put(10, 0)]` |
-| 10% | `[put(0, 0), put(70, 1)]` |
-| 7% | `[put(0, 0), put(90, 1)]` |
-| 3% | `[put(0, 1), put(90, 0)]` |
-| 2% | `[put(0, 1), put(70, 0)]` |
+| 100% | 🎯 `[put(0, 0), put(10, 1)]` |
 
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge hashCollisionStateMachineTen --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge hashCollisionStateMachineTen --iterations 100 --seed 1337 --report-path ../failures
 ```

@@ -1,69 +1,69 @@
 [
   {
-    "evaluations" : 50,
+    "evaluations" : 201,
     "original" : {
       "p" : "(4, 11, 1)"
     },
     "seed" : 1337,
     "shrunk" : {
-      "p" : "(4, 0, 12)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.223625
+    "wallMilliseconds" : 0.564375
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 93,
     "original" : {
       "p" : "(2, 9, 7)"
     },
     "seed" : 1338,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.177292
+    "wallMilliseconds" : 0.299916
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 3, 7)"
     },
     "seed" : 1339,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.228709
+    "wallMilliseconds" : 0.705708
   },
   {
-    "evaluations" : 45,
+    "evaluations" : 85,
     "original" : {
       "p" : "(1, 3, 15)"
     },
     "seed" : 1340,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.143708
+    "wallMilliseconds" : 0.280541
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 93,
     "original" : {
       "p" : "(2, 10, 6)"
     },
     "seed" : 1341,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.159875
+    "wallMilliseconds" : 0.282917
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 147,
     "original" : {
       "p" : "(3, 5, 9)"
     },
     "seed" : 1342,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.147583
+    "wallMilliseconds" : 0.387916
   },
   {
     "evaluations" : 41,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.167083
+    "wallMilliseconds" : 0.182291
   },
   {
     "evaluations" : 20,
@@ -85,18 +85,18 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.071416
+    "wallMilliseconds" : 0.084542
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 7, 3)"
     },
     "seed" : 1345,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.24575
+    "wallMilliseconds" : 0.738333
   },
   {
     "evaluations" : 40,
@@ -107,84 +107,84 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.215125
+    "wallMilliseconds" : 0.254875
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 93,
     "original" : {
       "p" : "(2, 9, 7)"
     },
     "seed" : 1347,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.195833
+    "wallMilliseconds" : 0.31775
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 2, 8)"
     },
     "seed" : 1348,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.141166
+    "wallMilliseconds" : 0.62675
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 93,
     "original" : {
       "p" : "(2, 9, 7)"
     },
     "seed" : 1349,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.166541
+    "wallMilliseconds" : 0.2905
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 201,
     "original" : {
       "p" : "(4, 10, 2)"
     },
     "seed" : 1350,
     "shrunk" : {
-      "p" : "(4, 0, 12)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.181
+    "wallMilliseconds" : 0.539542
   },
   {
-    "evaluations" : 29,
+    "evaluations" : 126,
     "original" : {
       "p" : "(3, 14, 0)"
     },
     "seed" : 1351,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.130667
+    "wallMilliseconds" : 0.379875
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 3, 7)"
     },
     "seed" : 1352,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.135083
+    "wallMilliseconds" : 0.635209
   },
   {
-    "evaluations" : 28,
+    "evaluations" : 125,
     "original" : {
       "p" : "(3, 0, 14)"
     },
     "seed" : 1353,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.090084
+    "wallMilliseconds" : 0.348625
   },
   {
     "evaluations" : 40,
@@ -195,18 +195,18 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.141416
+    "wallMilliseconds" : 0.162833
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 351,
     "original" : {
       "p" : "(7, 1, 5)"
     },
     "seed" : 1355,
     "shrunk" : {
-      "p" : "(7, 0, 6)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.174542
+    "wallMilliseconds" : 0.895625
   },
   {
     "evaluations" : 41,
@@ -217,29 +217,29 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.281833
+    "wallMilliseconds" : 0.320041
   },
   {
-    "evaluations" : 45,
+    "evaluations" : 85,
     "original" : {
       "p" : "(1, 4, 14)"
     },
     "seed" : 1357,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.178791
+    "wallMilliseconds" : 0.304958
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 302,
     "original" : {
       "p" : "(6, 2, 6)"
     },
     "seed" : 1358,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.14875
+    "wallMilliseconds" : 0.748459
   },
   {
     "evaluations" : 40,
@@ -250,51 +250,51 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.149208
+    "wallMilliseconds" : 0.168083
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 202,
     "original" : {
       "p" : "(4, 9, 3)"
     },
     "seed" : 1360,
     "shrunk" : {
-      "p" : "(4, 0, 12)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.154333
+    "wallMilliseconds" : 0.518084
   },
   {
-    "evaluations" : 45,
+    "evaluations" : 85,
     "original" : {
       "p" : "(1, 8, 10)"
     },
     "seed" : 1361,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.140834
+    "wallMilliseconds" : 0.260833
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 302,
     "original" : {
       "p" : "(6, 2, 6)"
     },
     "seed" : 1362,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.141709
+    "wallMilliseconds" : 0.734
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 202,
     "original" : {
       "p" : "(4, 7, 5)"
     },
     "seed" : 1363,
     "shrunk" : {
-      "p" : "(4, 0, 12)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.16725
+    "wallMilliseconds" : 0.525916
   },
   {
     "evaluations" : 41,
@@ -305,29 +305,29 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.133083
+    "wallMilliseconds" : 0.157833
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 146,
     "original" : {
       "p" : "(3, 2, 12)"
     },
     "seed" : 1365,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.268041
+    "wallMilliseconds" : 0.507916
   },
   {
-    "evaluations" : 45,
+    "evaluations" : 85,
     "original" : {
       "p" : "(1, 5, 13)"
     },
     "seed" : 1366,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.149125
+    "wallMilliseconds" : 0.259792
   },
   {
     "evaluations" : 40,
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.134083
+    "wallMilliseconds" : 0.15425
   },
   {
     "evaluations" : 41,
@@ -349,62 +349,62 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.169
+    "wallMilliseconds" : 0.188334
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 351,
     "original" : {
       "p" : "(7, 5, 1)"
     },
     "seed" : 1369,
     "shrunk" : {
-      "p" : "(7, 0, 6)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.199542
+    "wallMilliseconds" : 0.902958
   },
   {
-    "evaluations" : 48,
+    "evaluations" : 91,
     "original" : {
       "p" : "(2, 2, 14)"
     },
     "seed" : 1370,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.143917
+    "wallMilliseconds" : 0.260541
   },
   {
-    "evaluations" : 42,
+    "evaluations" : 301,
     "original" : {
       "p" : "(6, 5, 3)"
     },
     "seed" : 1371,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.192583
+    "wallMilliseconds" : 0.784583
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 93,
     "original" : {
       "p" : "(2, 9, 7)"
     },
     "seed" : 1372,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.157917
+    "wallMilliseconds" : 0.275042
   },
   {
-    "evaluations" : 44,
+    "evaluations" : 84,
     "original" : {
       "p" : "(1, 1, 17)"
     },
     "seed" : 1373,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.208666
+    "wallMilliseconds" : 0.325166
   },
   {
     "evaluations" : 20,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.102292
+    "wallMilliseconds" : 0.117916
   },
   {
     "evaluations" : 20,
@@ -426,51 +426,51 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.065375
+    "wallMilliseconds" : 0.079792
   },
   {
-    "evaluations" : 41,
+    "evaluations" : 300,
     "original" : {
       "p" : "(6, 3, 5)"
     },
     "seed" : 1376,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.200542
+    "wallMilliseconds" : 0.789792
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 302,
     "original" : {
       "p" : "(6, 2, 6)"
     },
     "seed" : 1377,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.165666
+    "wallMilliseconds" : 0.760833
   },
   {
-    "evaluations" : 45,
+    "evaluations" : 85,
     "original" : {
       "p" : "(1, 7, 11)"
     },
     "seed" : 1378,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.15875
+    "wallMilliseconds" : 0.271292
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 351,
     "original" : {
       "p" : "(7, 2, 4)"
     },
     "seed" : 1379,
     "shrunk" : {
-      "p" : "(7, 0, 6)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.170292
+    "wallMilliseconds" : 0.878666
   },
   {
     "evaluations" : 40,
@@ -481,18 +481,18 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.145625
+    "wallMilliseconds" : 0.166
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 93,
     "original" : {
       "p" : "(2, 12, 4)"
     },
     "seed" : 1381,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.223417
+    "wallMilliseconds" : 0.342
   },
   {
     "evaluations" : 41,
@@ -503,95 +503,95 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.148666
+    "wallMilliseconds" : 0.164042
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 1, 9)"
     },
     "seed" : 1383,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.211292
+    "wallMilliseconds" : 0.697125
   },
   {
-    "evaluations" : 29,
+    "evaluations" : 235,
     "original" : {
       "p" : "(5, 0, 10)"
     },
     "seed" : 1384,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.087833
+    "wallMilliseconds" : 0.586625
   },
   {
-    "evaluations" : 42,
+    "evaluations" : 301,
     "original" : {
       "p" : "(6, 5, 3)"
     },
     "seed" : 1385,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.147375
+    "wallMilliseconds" : 0.732542
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 92,
     "original" : {
       "p" : "(2, 3, 13)"
     },
     "seed" : 1386,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.172208
+    "wallMilliseconds" : 0.293792
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 146,
     "original" : {
       "p" : "(3, 1, 13)"
     },
     "seed" : 1387,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.166417
+    "wallMilliseconds" : 0.396709
   },
   {
-    "evaluations" : 46,
+    "evaluations" : 86,
     "original" : {
       "p" : "(1, 16, 2)"
     },
     "seed" : 1388,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.152834
+    "wallMilliseconds" : 0.269667
   },
   {
-    "evaluations" : 48,
+    "evaluations" : 254,
     "original" : {
       "p" : "(5, 8, 2)"
     },
     "seed" : 1389,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.19825
+    "wallMilliseconds" : 0.660584
   },
   {
-    "evaluations" : 46,
+    "evaluations" : 86,
     "original" : {
       "p" : "(1, 16, 2)"
     },
     "seed" : 1390,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.190834
+    "wallMilliseconds" : 0.264542
   },
   {
     "evaluations" : 41,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.166375
+    "wallMilliseconds" : 0.184334
   },
   {
     "evaluations" : 40,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.23475
+    "wallMilliseconds" : 0.227875
   },
   {
     "evaluations" : 41,
@@ -624,18 +624,18 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.154916
+    "wallMilliseconds" : 0.163875
   },
   {
-    "evaluations" : 42,
+    "evaluations" : 301,
     "original" : {
       "p" : "(6, 5, 3)"
     },
     "seed" : 1394,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.235417
+    "wallMilliseconds" : 0.799
   },
   {
     "evaluations" : 41,
@@ -646,128 +646,128 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.152084
+    "wallMilliseconds" : 0.173375
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 7, 3)"
     },
     "seed" : 1396,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.189292
+    "wallMilliseconds" : 0.672041
   },
   {
-    "evaluations" : 24,
+    "evaluations" : 64,
     "original" : {
       "p" : "(1, 0, 18)"
     },
     "seed" : 1397,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.08525
+    "wallMilliseconds" : 0.2105
   },
   {
-    "evaluations" : 29,
+    "evaluations" : 126,
     "original" : {
       "p" : "(3, 14, 0)"
     },
     "seed" : 1398,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.176333
+    "wallMilliseconds" : 0.414875
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 92,
     "original" : {
       "p" : "(2, 8, 8)"
     },
     "seed" : 1399,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.167916
+    "wallMilliseconds" : 0.271625
   },
   {
-    "evaluations" : 46,
+    "evaluations" : 86,
     "original" : {
       "p" : "(1, 14, 4)"
     },
     "seed" : 1400,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.17675
+    "wallMilliseconds" : 0.295834
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 92,
     "original" : {
       "p" : "(2, 6, 10)"
     },
     "seed" : 1401,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.223291
+    "wallMilliseconds" : 0.349666
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 351,
     "original" : {
       "p" : "(7, 3, 3)"
     },
     "seed" : 1402,
     "shrunk" : {
-      "p" : "(7, 0, 6)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.140041
+    "wallMilliseconds" : 0.852458
   },
   {
-    "evaluations" : 45,
+    "evaluations" : 85,
     "original" : {
       "p" : "(1, 8, 10)"
     },
     "seed" : 1403,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.149125
+    "wallMilliseconds" : 0.267625
   },
   {
-    "evaluations" : 48,
+    "evaluations" : 91,
     "original" : {
       "p" : "(2, 2, 14)"
     },
     "seed" : 1404,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.154667
+    "wallMilliseconds" : 0.274208
   },
   {
-    "evaluations" : 41,
+    "evaluations" : 300,
     "original" : {
       "p" : "(6, 3, 5)"
     },
     "seed" : 1405,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.166709
+    "wallMilliseconds" : 0.764375
   },
   {
-    "evaluations" : 28,
+    "evaluations" : 125,
     "original" : {
       "p" : "(3, 0, 14)"
     },
     "seed" : 1406,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.097125
+    "wallMilliseconds" : 0.353708
   },
   {
     "evaluations" : 41,
@@ -778,172 +778,172 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.163417
+    "wallMilliseconds" : 0.188291
   },
   {
-    "evaluations" : 27,
+    "evaluations" : 70,
     "original" : {
       "p" : "(2, 0, 16)"
     },
     "seed" : 1408,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.136125
+    "wallMilliseconds" : 0.272458
   },
   {
-    "evaluations" : 46,
+    "evaluations" : 86,
     "original" : {
       "p" : "(1, 13, 5)"
     },
     "seed" : 1409,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.150708
+    "wallMilliseconds" : 0.267875
   },
   {
-    "evaluations" : 30,
+    "evaluations" : 181,
     "original" : {
       "p" : "(4, 0, 12)"
     },
     "seed" : 1410,
     "shrunk" : {
-      "p" : "(4, 0, 12)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.094834
+    "wallMilliseconds" : 0.467083
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 148,
     "original" : {
       "p" : "(3, 10, 4)"
     },
     "seed" : 1411,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.189084
+    "wallMilliseconds" : 0.436708
   },
   {
-    "evaluations" : 47,
+    "evaluations" : 253,
     "original" : {
       "p" : "(5, 2, 8)"
     },
     "seed" : 1412,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.144375
+    "wallMilliseconds" : 0.627125
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 351,
     "original" : {
       "p" : "(7, 3, 3)"
     },
     "seed" : 1413,
     "shrunk" : {
-      "p" : "(7, 0, 6)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.1605
+    "wallMilliseconds" : 0.874167
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 148,
     "original" : {
       "p" : "(3, 10, 4)"
     },
     "seed" : 1414,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.196958
+    "wallMilliseconds" : 0.444791
   },
   {
-    "evaluations" : 41,
+    "evaluations" : 300,
     "original" : {
       "p" : "(6, 3, 5)"
     },
     "seed" : 1415,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.244166
+    "wallMilliseconds" : 0.816709
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 302,
     "original" : {
       "p" : "(6, 6, 2)"
     },
     "seed" : 1416,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.194542
+    "wallMilliseconds" : 0.786417
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 302,
     "original" : {
       "p" : "(6, 4, 4)"
     },
     "seed" : 1417,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.158
+    "wallMilliseconds" : 0.760917
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 202,
     "original" : {
       "p" : "(4, 7, 5)"
     },
     "seed" : 1418,
     "shrunk" : {
-      "p" : "(4, 0, 12)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.215667
+    "wallMilliseconds" : 0.582291
   },
   {
-    "evaluations" : 27,
+    "evaluations" : 70,
     "original" : {
       "p" : "(2, 0, 16)"
     },
     "seed" : 1419,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.103459
+    "wallMilliseconds" : 0.234333
   },
   {
-    "evaluations" : 24,
+    "evaluations" : 64,
     "original" : {
       "p" : "(1, 0, 18)"
     },
     "seed" : 1420,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.090541
+    "wallMilliseconds" : 0.220542
   },
   {
-    "evaluations" : 19,
+    "evaluations" : 468,
     "original" : {
       "p" : "(10, 0, 0)"
     },
     "seed" : 1421,
     "shrunk" : {
-      "p" : "(10, 0, 0)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.070167
+    "wallMilliseconds" : 1.098541
   },
   {
-    "evaluations" : 37,
+    "evaluations" : 443,
     "original" : {
       "p" : "(9, 2, 0)"
     },
     "seed" : 1422,
     "shrunk" : {
-      "p" : "(9, 0, 2)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.182167
+    "wallMilliseconds" : 1.114625
   },
   {
     "evaluations" : 41,
@@ -954,62 +954,62 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.185
+    "wallMilliseconds" : 0.208083
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 92,
     "original" : {
       "p" : "(2, 4, 12)"
     },
     "seed" : 1424,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.227958
+    "wallMilliseconds" : 0.353083
   },
   {
-    "evaluations" : 50,
+    "evaluations" : 147,
     "original" : {
       "p" : "(3, 7, 7)"
     },
     "seed" : 1425,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.148458
+    "wallMilliseconds" : 0.391542
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 148,
     "original" : {
       "p" : "(3, 8, 6)"
     },
     "seed" : 1426,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.169375
+    "wallMilliseconds" : 0.416458
   },
   {
-    "evaluations" : 49,
+    "evaluations" : 92,
     "original" : {
       "p" : "(2, 14, 2)"
     },
     "seed" : 1427,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.172917
+    "wallMilliseconds" : 0.295833
   },
   {
-    "evaluations" : 46,
+    "evaluations" : 86,
     "original" : {
       "p" : "(1, 12, 6)"
     },
     "seed" : 1428,
     "shrunk" : {
-      "p" : "(1, 0, 18)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.157
+    "wallMilliseconds" : 0.26525
   },
   {
     "evaluations" : 41,
@@ -1020,18 +1020,18 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.148083
+    "wallMilliseconds" : 0.170834
   },
   {
-    "evaluations" : 43,
+    "evaluations" : 400,
     "original" : {
       "p" : "(8, 1, 3)"
     },
     "seed" : 1430,
     "shrunk" : {
-      "p" : "(8, 0, 4)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.188583
+    "wallMilliseconds" : 1.00925
   },
   {
     "evaluations" : 40,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.166917
+    "wallMilliseconds" : 0.18825
   },
   {
     "evaluations" : 41,
@@ -1053,50 +1053,50 @@
     "shrunk" : {
       "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.144375
+    "wallMilliseconds" : 0.170167
   },
   {
-    "evaluations" : 51,
+    "evaluations" : 148,
     "original" : {
       "p" : "(3, 10, 4)"
     },
     "seed" : 1433,
     "shrunk" : {
-      "p" : "(3, 0, 14)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.203292
+    "wallMilliseconds" : 0.450959
   },
   {
-    "evaluations" : 28,
+    "evaluations" : 71,
     "original" : {
       "p" : "(2, 16, 0)"
     },
     "seed" : 1434,
     "shrunk" : {
-      "p" : "(2, 0, 16)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.125791
+    "wallMilliseconds" : 0.246125
   },
   {
-    "evaluations" : 42,
+    "evaluations" : 301,
     "original" : {
       "p" : "(6, 5, 3)"
     },
     "seed" : 1435,
     "shrunk" : {
-      "p" : "(6, 0, 8)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.178416
+    "wallMilliseconds" : 0.770041
   },
   {
-    "evaluations" : 29,
+    "evaluations" : 235,
     "original" : {
       "p" : "(5, 0, 10)"
     },
     "seed" : 1436,
     "shrunk" : {
-      "p" : "(5, 0, 10)"
+      "p" : "(0, 0, 20)"
     },
-    "wallMilliseconds" : 0.118917
+    "wallMilliseconds" : 0.615708
   }
 ]

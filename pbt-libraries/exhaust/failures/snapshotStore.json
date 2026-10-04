@@ -1,6 +1,6 @@
 [
   {
-    "evaluations" : 118,
+    "evaluations" : 126,
     "original" : {
       "p" : "[put(3, 7), put(0, 4), put(3, 8), compact(), put(6, 3), s0 = snapshot(), put(6, 2), get(2), s1 = snapshot(), put(2, 0), s2 = snapshot(), read(s2, 8), s3 = snapshot(), read(s1, 4), get(0), get(0), read(s3, 3), compact(), put(6, 2), compact(), get(1), read(s1, 6), compact(), compact(), get(0), read(s0, 6), compact(), read(s3, 0), get(4), read(s1, 7), get(8), s4 = snapshot(), release(s1), release(s0), s5 = snapshot(), put(5, 2), release(s5), read(s3, 9), s6 = snapshot(), release(s2), put(2, 4), release(s6), release(s3), get(3), release(s4)]"
     },
@@ -8,10 +8,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.629916
+    "wallMilliseconds" : 4.573084
   },
   {
-    "evaluations" : 365,
+    "evaluations" : 381,
     "original" : {
       "p" : "[s0 = snapshot(), release(s0), put(3, 3), s1 = snapshot(), s2 = snapshot(), read(s1, 7), s3 = snapshot(), put(5, 1), put(9, 4), put(5, 6), read(s1, 6), compact(), read(s1, 4), get(1), read(s1, 8), s4 = snapshot(), release(s3), compact(), compact(), release(s2), compact(), put(7, 5), s5 = snapshot(), s6 = snapshot(), put(3, 0), get(7), s7 = snapshot(), put(6, 4), release(s6), put(8, 6), compact(), get(4), compact(), release(s1), s8 = snapshot(), s9 = snapshot(), put(1, 1), release(s8), get(5), put(7, 3), compact(), get(8), s10 = snapshot(), read(s4, 3), compact(), s11 = snapshot()]"
     },
@@ -19,10 +19,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), release(s1), s2 = snapshot(), s3 = snapshot(), release(s3), compact(), s4 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 12.34075
+    "wallMilliseconds" : 18.299084
   },
   {
-    "evaluations" : 199,
+    "evaluations" : 207,
     "original" : {
       "p" : "[put(8, 5), get(4), s0 = snapshot(), put(0, 6), get(0), s1 = snapshot(), get(0), get(2), s2 = snapshot(), compact(), compact(), s3 = snapshot(), get(3), compact(), compact(), release(s3), put(0, 0), s4 = snapshot(), release(s0), read(s4, 0), put(1, 1), get(1), release(s2), s5 = snapshot(), put(3, 0), read(s1, 0), get(5), read(s4, 6), compact(), put(3, 4), read(s4, 5), compact(), get(0), get(4), get(6), release(s4), put(2, 3), read(s1, 0)]"
     },
@@ -30,10 +30,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.715209
+    "wallMilliseconds" : 9.6825
   },
   {
-    "evaluations" : 227,
+    "evaluations" : 234,
     "original" : {
       "p" : "[compact(), get(4), s0 = snapshot(), compact(), read(s0, 9), get(4), put(0, 8), get(1), s1 = snapshot(), get(2), read(s0, 8), release(s1), compact(), put(5, 0), release(s0), put(5, 5), put(7, 7), put(9, 1), compact(), get(5), get(8), s2 = snapshot(), s3 = snapshot(), get(7), release(s3), read(s2, 0), put(1, 5), s4 = snapshot(), read(s2, 6), s5 = snapshot(), put(7, 5), s6 = snapshot(), get(5), compact(), read(s6, 5), compact(), get(3), release(s6), read(s2, 7), put(2, 0), s7 = snapshot(), read(s5, 1), read(s5, 9), put(4, 4), put(9, 6)]"
     },
@@ -41,10 +41,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.959833
+    "wallMilliseconds" : 8.285958
   },
   {
-    "evaluations" : 385,
+    "evaluations" : 393,
     "original" : {
       "p" : "[s0 = snapshot(), compact(), release(s0), s1 = snapshot(), get(3), read(s1, 2), put(5, 2), compact(), s2 = snapshot(), read(s1, 0), s3 = snapshot(), release(s1), put(0, 2), compact(), read(s3, 2), s4 = snapshot(), get(7), s5 = snapshot(), compact(), put(3, 3), compact(), release(s4), compact(), put(2, 3), s6 = snapshot(), s7 = snapshot(), get(6), s8 = snapshot(), compact(), read(s2, 1), release(s7), s9 = snapshot(), get(6), put(4, 3), compact(), read(s2, 7), s10 = snapshot(), put(7, 3), put(8, 5), get(7), release(s5), put(2, 5), s11 = snapshot(), get(4), release(s2), s12 = snapshot(), compact(), read(s9, 2), put(1, 1)]"
     },
@@ -52,10 +52,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.986625
+    "wallMilliseconds" : 13.55875
   },
   {
-    "evaluations" : 258,
+    "evaluations" : 266,
     "original" : {
       "p" : "[get(6), s0 = snapshot(), s1 = snapshot(), put(3, 1), compact(), get(4), put(5, 0), s2 = snapshot(), get(9), s3 = snapshot(), put(6, 8), s4 = snapshot(), get(9), compact(), put(6, 5), read(s4, 9), put(9, 2), put(0, 4), release(s3), read(s2, 5), put(5, 4), get(9), get(4), compact(), s5 = snapshot(), read(s2, 7), read(s0, 0), s6 = snapshot(), s7 = snapshot(), compact(), release(s6), read(s1, 5), read(s0, 6), read(s2, 5), s8 = snapshot(), compact(), release(s1), get(5), s9 = snapshot(), get(7), release(s9)]"
     },
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 13.494084
+    "wallMilliseconds" : 22.321166
   },
   {
     "evaluations" : 139,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.52975
+    "wallMilliseconds" : 6.230666
   },
   {
     "evaluations" : 250,
@@ -85,10 +85,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), release(s3), release(s2), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.434667
+    "wallMilliseconds" : 8.470208
   },
   {
-    "evaluations" : 323,
+    "evaluations" : 344,
     "original" : {
       "p" : "[s0 = snapshot(), compact(), read(s0, 9), read(s0, 9), put(1, 9), read(s0, 5), release(s0), put(9, 6), s1 = snapshot(), compact(), read(s1, 1), compact(), put(9, 1), s2 = snapshot(), put(6, 9), put(8, 2), put(9, 2), get(8), compact(), read(s1, 5), s3 = snapshot(), s4 = snapshot(), read(s1, 0), release(s3), release(s2), release(s4), read(s1, 8), put(1, 2), s5 = snapshot(), s6 = snapshot(), put(1, 2), read(s5, 5), put(2, 2), release(s5), read(s1, 1), compact(), read(s1, 9), get(4), s7 = snapshot()]"
     },
@@ -96,10 +96,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), release(s3), release(s2), release(s1), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.5315
+    "wallMilliseconds" : 9.929541
   },
   {
-    "evaluations" : 128,
+    "evaluations" : 136,
     "original" : {
       "p" : "[put(8, 3), put(7, 2), s0 = snapshot(), s1 = snapshot(), put(7, 7), get(6), s2 = snapshot(), read(s1, 8), compact(), put(0, 5), compact(), s3 = snapshot(), release(s2), compact(), get(4), s4 = snapshot(), get(7), read(s0, 3), read(s3, 6), read(s3, 9), read(s0, 7), read(s4, 6), s5 = snapshot(), read(s5, 2), compact(), read(s1, 2), put(5, 9), release(s4), get(3)]"
     },
@@ -107,10 +107,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.617417
+    "wallMilliseconds" : 5.299541
   },
   {
-    "evaluations" : 206,
+    "evaluations" : 214,
     "original" : {
       "p" : "[get(2), compact(), compact(), compact(), compact(), get(4), compact(), put(1, 2), compact(), compact(), s0 = snapshot(), read(s0, 6), s1 = snapshot(), compact(), put(3, 1), s2 = snapshot(), s3 = snapshot(), read(s3, 2), put(1, 2), compact(), get(1), compact(), release(s2), put(6, 7), put(5, 7), compact(), s4 = snapshot(), read(s4, 6), s5 = snapshot(), get(6), read(s0, 6), compact(), get(6), s6 = snapshot(), read(s0, 1), compact()]"
     },
@@ -118,10 +118,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.646958
+    "wallMilliseconds" : 6.271833
   },
   {
-    "evaluations" : 149,
+    "evaluations" : 157,
     "original" : {
       "p" : "[put(7, 6), put(9, 4), s0 = snapshot(), s1 = snapshot(), release(s0), read(s1, 1), put(3, 3), read(s1, 9), put(2, 5), put(8, 7), get(6), compact(), compact(), read(s1, 0), compact(), get(8), release(s1), compact(), put(0, 5), put(4, 7), put(3, 1), put(9, 4), s2 = snapshot(), get(1), release(s2), get(9), get(6), s3 = snapshot(), compact(), put(8, 3), s4 = snapshot(), compact(), read(s4, 4), read(s3, 8), read(s3, 1), put(3, 3), s5 = snapshot(), put(8, 9), get(1), s6 = snapshot(), release(s3), get(8), s7 = snapshot(), s8 = snapshot(), compact()]"
     },
@@ -129,10 +129,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.954667
+    "wallMilliseconds" : 9.298292
   },
   {
-    "evaluations" : 199,
+    "evaluations" : 207,
     "original" : {
       "p" : "[get(1), compact(), get(0), get(9), compact(), compact(), put(3, 1), s0 = snapshot(), compact(), put(8, 3), s1 = snapshot(), put(1, 2), get(6), put(5, 8), s2 = snapshot(), put(2, 3), get(3), get(1), read(s0, 3), release(s0), get(3), release(s2), get(5), get(0), put(9, 2), get(9), release(s1), put(8, 7), compact(), s3 = snapshot(), compact(), s4 = snapshot(), put(1, 4), put(2, 5), s5 = snapshot(), s6 = snapshot(), get(6), release(s6), put(8, 2), compact(), read(s3, 2), release(s5), compact()]"
     },
@@ -140,10 +140,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), release(s2), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.428667
+    "wallMilliseconds" : 5.73075
   },
   {
-    "evaluations" : 109,
+    "evaluations" : 117,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), get(3), compact(), get(1), release(s0), compact(), compact(), compact(), s1 = snapshot(), release(s1), put(6, 2), put(3, 4), s2 = snapshot(), compact(), put(7, 0), s3 = snapshot(), compact(), release(s2), release(s3), compact(), put(0, 8), s4 = snapshot(), put(0, 6), put(4, 2), compact(), s5 = snapshot(), get(6), compact(), put(1, 7), s6 = snapshot(), get(9), compact(), read(s4, 0), release(s4), read(s6, 9), get(7), release(s6), put(3, 3), s7 = snapshot(), release(s5), compact(), s8 = snapshot(), release(s8)]"
     },
@@ -151,10 +151,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.174958
+    "wallMilliseconds" : 4.396333
   },
   {
-    "evaluations" : 213,
+    "evaluations" : 221,
     "original" : {
       "p" : "[put(0, 1), s0 = snapshot(), compact(), read(s0, 9), compact(), get(8), put(9, 9), compact(), put(6, 3), read(s0, 8), get(0), read(s0, 3), release(s0), s1 = snapshot(), put(4, 7), compact(), compact(), s2 = snapshot(), get(1), s3 = snapshot(), read(s1, 1), read(s2, 0), put(6, 6), read(s3, 9), compact(), s4 = snapshot(), put(1, 5), compact(), compact(), put(6, 8), s5 = snapshot(), read(s5, 4), read(s2, 6), s6 = snapshot(), s7 = snapshot(), compact(), get(3), get(4), compact()]"
     },
@@ -162,10 +162,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.1425
+    "wallMilliseconds" : 8.73125
   },
   {
-    "evaluations" : 420,
+    "evaluations" : 427,
     "original" : {
       "p" : "[s0 = snapshot(), put(8, 3), get(0), get(8), s1 = snapshot(), release(s1), compact(), get(0), compact(), put(9, 0), get(3), put(8, 0), compact(), compact(), s2 = snapshot(), s3 = snapshot(), get(0), read(s2, 1), read(s2, 2), put(0, 5), release(s2), s4 = snapshot(), compact(), release(s0), release(s4), get(7), s5 = snapshot(), compact(), read(s5, 5), s6 = snapshot(), release(s6), put(8, 4), s7 = snapshot(), get(6), compact(), s8 = snapshot(), compact(), compact(), read(s7, 6), s9 = snapshot(), get(0), s10 = snapshot(), get(2), read(s3, 8)]"
     },
@@ -173,10 +173,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.85325
+    "wallMilliseconds" : 14.153458
   },
   {
-    "evaluations" : 308,
+    "evaluations" : 332,
     "original" : {
       "p" : "[compact(), compact(), put(4, 9), s0 = snapshot(), get(1), s1 = snapshot(), put(2, 4), s2 = snapshot(), compact(), read(s0, 2), put(6, 2), get(7), put(1, 6), release(s2), put(9, 2), s3 = snapshot(), s4 = snapshot(), compact(), put(6, 3), compact(), read(s1, 9), s5 = snapshot(), s6 = snapshot(), s7 = snapshot(), put(1, 4), read(s7, 3), s8 = snapshot(), compact(), s9 = snapshot(), read(s5, 2), release(s5), s10 = snapshot(), read(s4, 1), compact(), put(7, 7), s11 = snapshot(), get(7), put(3, 7), get(0), put(7, 9), s12 = snapshot(), put(3, 5), get(9), s13 = snapshot(), compact(), get(2), s14 = snapshot(), release(s9)]"
     },
@@ -184,10 +184,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), s3 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.941625
+    "wallMilliseconds" : 10.662333
   },
   {
-    "evaluations" : 341,
+    "evaluations" : 374,
     "original" : {
       "p" : "[put(5, 2), compact(), s0 = snapshot(), read(s0, 7), get(3), put(0, 9), s1 = snapshot(), put(8, 7), put(3, 3), get(7), put(7, 8), s2 = snapshot(), read(s2, 0), put(7, 2), put(5, 1), s3 = snapshot(), s4 = snapshot(), release(s0), s5 = snapshot(), compact(), get(2), s6 = snapshot(), read(s3, 2), compact(), read(s6, 4), get(5), read(s6, 8), put(2, 6), read(s2, 7), read(s3, 5), put(7, 9), s7 = snapshot(), put(9, 2), release(s7), put(5, 9), read(s1, 9), s8 = snapshot(), release(s3), get(4), s9 = snapshot(), get(5), put(6, 0), get(4), s10 = snapshot()]"
     },
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.295708
+    "wallMilliseconds" : 10.033084
   },
   {
     "evaluations" : 190,
@@ -206,10 +206,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.283958
+    "wallMilliseconds" : 9.031375
   },
   {
-    "evaluations" : 124,
+    "evaluations" : 132,
     "original" : {
       "p" : "[s0 = snapshot(), s1 = snapshot(), put(1, 1), get(8), put(3, 6), s2 = snapshot(), release(s1), get(0), put(1, 5), s3 = snapshot(), get(8), compact(), put(7, 0), s4 = snapshot(), s5 = snapshot(), get(1), compact(), s6 = snapshot(), get(2), put(7, 6), s7 = snapshot(), compact(), put(9, 0), compact(), read(s6, 7), compact(), compact(), compact(), get(0), s8 = snapshot(), put(4, 1), get(1), s9 = snapshot(), put(7, 3), read(s6, 6), release(s5), get(3), release(s9), read(s2, 3), get(5), put(2, 4), release(s0), read(s6, 2), release(s4)]"
     },
@@ -217,10 +217,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.4445
+    "wallMilliseconds" : 6.545875
   },
   {
-    "evaluations" : 325,
+    "evaluations" : 355,
     "original" : {
       "p" : "[compact(), get(3), s0 = snapshot(), put(9, 0), compact(), s1 = snapshot(), read(s1, 1), get(1), read(s1, 9), read(s0, 1), s2 = snapshot(), read(s0, 5), read(s2, 9), read(s0, 8), release(s0), get(7), s3 = snapshot(), read(s3, 4), put(6, 6), put(2, 9), put(7, 5), compact(), put(6, 3), put(9, 6), s4 = snapshot(), s5 = snapshot(), put(1, 6), read(s1, 3), get(5), compact(), get(0), compact(), put(8, 7), get(6), s6 = snapshot(), compact(), get(6), put(6, 6), compact(), put(7, 3), release(s1), read(s3, 3), put(7, 1), compact(), read(s2, 9)]"
     },
@@ -228,10 +228,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.39925
+    "wallMilliseconds" : 9.939958
   },
   {
-    "evaluations" : 225,
+    "evaluations" : 233,
     "original" : {
       "p" : "[put(7, 3), s0 = snapshot(), compact(), read(s0, 0), read(s0, 6), s1 = snapshot(), read(s0, 4), compact(), s2 = snapshot(), read(s0, 3), put(5, 4), get(6), get(6), put(1, 9), read(s1, 8), put(6, 3), put(3, 2), read(s2, 7), release(s1), release(s2), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), release(s5), s6 = snapshot(), release(s4), read(s6, 1), put(3, 7), s7 = snapshot(), compact(), put(5, 8), read(s7, 8), release(s6), s8 = snapshot(), read(s3, 3), compact(), put(9, 3), put(7, 5), release(s3), s9 = snapshot(), put(7, 3), s10 = snapshot(), release(s9), release(s10), compact(), s11 = snapshot(), compact()]"
     },
@@ -239,10 +239,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.293666
+    "wallMilliseconds" : 10.067792
   },
   {
-    "evaluations" : 260,
+    "evaluations" : 268,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), put(9, 6), put(5, 3), release(s0), s1 = snapshot(), put(2, 0), s2 = snapshot(), s3 = snapshot(), read(s2, 3), compact(), get(7), read(s3, 2), s4 = snapshot(), s5 = snapshot(), compact(), s6 = snapshot(), release(s3), compact(), get(6), read(s5, 5), compact(), read(s5, 9), put(5, 1), get(3), put(6, 9), get(9), s7 = snapshot(), get(6), compact(), s8 = snapshot(), read(s2, 0), release(s4), put(6, 8), read(s5, 5), compact(), read(s2, 3), compact(), read(s6, 9), get(2), read(s5, 0), read(s8, 5), s9 = snapshot(), release(s8)]"
     },
@@ -250,10 +250,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.134458
+    "wallMilliseconds" : 11.41325
   },
   {
-    "evaluations" : 400,
+    "evaluations" : 416,
     "original" : {
       "p" : "[put(8, 3), get(4), get(8), put(9, 5), put(5, 8), s0 = snapshot(), s1 = snapshot(), put(8, 4), put(7, 2), put(2, 7), get(0), release(s1), put(2, 1), s2 = snapshot(), release(s2), get(9), compact(), get(4), get(0), compact(), s3 = snapshot(), put(3, 8), s4 = snapshot(), s5 = snapshot(), put(0, 7), get(7), release(s5), s6 = snapshot(), compact(), get(8), get(6), read(s0, 8), put(4, 6), put(1, 5), release(s4), release(s6), s7 = snapshot(), get(3), get(8), s8 = snapshot(), compact(), s9 = snapshot(), get(3), release(s9), compact(), s10 = snapshot(), get(9), compact()]"
     },
@@ -261,10 +261,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.178083
+    "wallMilliseconds" : 9.655625
   },
   {
-    "evaluations" : 703,
+    "evaluations" : 736,
     "original" : {
       "p" : "[s0 = snapshot(), get(9), s1 = snapshot(), release(s0), s2 = snapshot(), release(s2), s3 = snapshot(), read(s1, 6), get(8), s4 = snapshot(), read(s1, 3), read(s3, 3), put(5, 2), release(s3), s5 = snapshot(), s6 = snapshot(), read(s1, 2), s7 = snapshot(), compact(), release(s4), get(5), s8 = snapshot(), put(9, 5), read(s1, 6), release(s5), compact(), s9 = snapshot(), release(s8), s10 = snapshot(), s11 = snapshot(), put(5, 9), put(6, 4), s12 = snapshot(), release(s6), s13 = snapshot(), read(s10, 8), compact(), read(s7, 0), release(s11), s14 = snapshot(), s15 = snapshot(), get(2), s16 = snapshot(), release(s15), put(8, 1), put(1, 7), get(8), read(s10, 5), read(s9, 9)]"
     },
@@ -272,10 +272,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 17.852208
+    "wallMilliseconds" : 23.638834
   },
   {
-    "evaluations" : 275,
+    "evaluations" : 289,
     "original" : {
       "p" : "[put(3, 6), s0 = snapshot(), release(s0), put(6, 0), put(8, 5), s1 = snapshot(), s2 = snapshot(), read(s2, 0), release(s1), s3 = snapshot(), release(s3), put(6, 9), read(s2, 6), compact(), get(4), put(3, 0), compact(), compact(), s4 = snapshot(), put(7, 8), put(3, 3), compact(), release(s4), put(7, 6), read(s2, 7), read(s2, 6), compact(), get(1), put(2, 7), put(0, 8), put(3, 5), compact(), release(s2), put(0, 8), compact(), compact(), compact()]"
     },
@@ -283,10 +283,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.969875
+    "wallMilliseconds" : 11.3205
   },
   {
-    "evaluations" : 213,
+    "evaluations" : 229,
     "original" : {
       "p" : "[compact(), compact(), s0 = snapshot(), put(4, 0), s1 = snapshot(), s2 = snapshot(), put(4, 1), put(5, 2), s3 = snapshot(), read(s2, 0), get(2), get(9), compact(), put(0, 2), read(s2, 0), s4 = snapshot(), put(9, 7), release(s0), read(s3, 5), read(s2, 4), read(s2, 1), compact(), read(s3, 4), s5 = snapshot(), read(s2, 1), read(s1, 0), get(4), s6 = snapshot(), get(9), get(3), compact(), put(4, 8)]"
     },
@@ -294,10 +294,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.816542
+    "wallMilliseconds" : 6.57625
   },
   {
-    "evaluations" : 111,
+    "evaluations" : 119,
     "original" : {
       "p" : "[put(3, 9), put(2, 3), put(9, 1), s0 = snapshot(), put(3, 2), s1 = snapshot(), s2 = snapshot(), compact(), compact(), release(s1), compact(), read(s0, 3), get(2), put(0, 4), release(s0), release(s2), put(2, 8), put(3, 8), compact(), put(4, 2), get(0), s3 = snapshot(), read(s3, 6), read(s3, 9), compact(), read(s3, 3), compact(), get(2), compact(), compact(), read(s3, 1), get(9), get(3), read(s3, 3)]"
     },
@@ -305,10 +305,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 2.879375
+    "wallMilliseconds" : 3.969167
   },
   {
-    "evaluations" : 427,
+    "evaluations" : 435,
     "original" : {
       "p" : "[s0 = snapshot(), put(6, 8), put(7, 1), put(4, 7), read(s0, 3), release(s0), s1 = snapshot(), s2 = snapshot(), get(7), release(s1), get(0), get(6), put(3, 6), read(s2, 9), put(1, 9), put(7, 4), read(s2, 9), s3 = snapshot(), compact(), read(s2, 4), read(s3, 5), compact(), compact(), compact(), s4 = snapshot(), compact(), read(s4, 4), put(0, 6), release(s3), read(s2, 7)]"
     },
@@ -316,10 +316,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.704792
+    "wallMilliseconds" : 16.235708
   },
   {
-    "evaluations" : 130,
+    "evaluations" : 138,
     "original" : {
       "p" : "[get(6), get(4), get(5), compact(), put(1, 7), get(9), get(6), get(1), put(0, 2), s0 = snapshot(), release(s0), s1 = snapshot(), read(s1, 6), s2 = snapshot(), s3 = snapshot(), read(s1, 2), get(6), put(1, 1), put(9, 5), put(9, 9), get(2), put(0, 2), compact(), get(3), s4 = snapshot(), compact(), release(s4), read(s2, 0), read(s1, 0), release(s2), release(s3), get(6), compact(), put(6, 6), put(3, 5), compact(), compact(), read(s1, 7), get(0), s5 = snapshot(), s6 = snapshot(), compact(), compact()]"
     },
@@ -327,10 +327,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.806959
+    "wallMilliseconds" : 5.322083
   },
   {
-    "evaluations" : 128,
+    "evaluations" : 144,
     "original" : {
       "p" : "[compact(), put(6, 9), s0 = snapshot(), put(5, 0), put(6, 8), compact(), compact(), s1 = snapshot(), compact(), compact(), compact(), compact(), put(3, 6), put(8, 7), put(8, 6), s2 = snapshot(), get(7), read(s0, 6), read(s2, 2), release(s2), put(5, 3), put(1, 2), s3 = snapshot(), release(s3), get(6), get(4), s4 = snapshot(), release(s0), put(1, 7)]"
     },
@@ -338,10 +338,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.869208
+    "wallMilliseconds" : 5.679041
   },
   {
-    "evaluations" : 181,
+    "evaluations" : 189,
     "original" : {
       "p" : "[get(9), put(4, 4), put(5, 4), get(5), put(3, 8), get(4), compact(), get(8), s0 = snapshot(), release(s0), s1 = snapshot(), compact(), s2 = snapshot(), put(0, 2), release(s1), read(s2, 9), get(2), s3 = snapshot(), s4 = snapshot(), put(8, 4), read(s4, 0), s5 = snapshot(), s6 = snapshot(), put(0, 0), compact(), compact(), s7 = snapshot(), put(3, 2), read(s3, 4), compact(), get(7), release(s7), get(8), get(2), release(s2), read(s3, 0), compact(), release(s5), get(2)]"
     },
@@ -349,10 +349,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.751666
+    "wallMilliseconds" : 4.774875
   },
   {
-    "evaluations" : 177,
+    "evaluations" : 185,
     "original" : {
       "p" : "[put(6, 5), s0 = snapshot(), put(6, 3), put(2, 4), get(3), read(s0, 4), s1 = snapshot(), put(8, 7), s2 = snapshot(), get(8), compact(), release(s0), put(1, 8), s3 = snapshot(), get(3), release(s2), s4 = snapshot(), release(s1), read(s4, 8), read(s3, 3), put(7, 6), put(6, 1), read(s3, 8), compact(), s5 = snapshot(), put(7, 8), get(9), release(s3), compact(), put(5, 8), read(s4, 6), release(s5), put(4, 2), get(7)]"
     },
@@ -360,10 +360,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.757792
+    "wallMilliseconds" : 8.096292
   },
   {
-    "evaluations" : 166,
+    "evaluations" : 174,
     "original" : {
       "p" : "[put(7, 4), put(3, 0), s0 = snapshot(), s1 = snapshot(), put(0, 1), s2 = snapshot(), put(4, 5), compact(), put(2, 1), read(s2, 4), s3 = snapshot(), put(5, 4), release(s0), compact(), compact(), put(3, 7), s4 = snapshot(), release(s3), compact(), read(s4, 7), get(5), get(4), s5 = snapshot(), read(s1, 5), release(s4), s6 = snapshot(), get(6), get(9), release(s6), read(s2, 3), release(s5), s7 = snapshot(), get(2), read(s7, 1), release(s2)]"
     },
@@ -371,10 +371,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.190958
+    "wallMilliseconds" : 5.744583
   },
   {
-    "evaluations" : 250,
+    "evaluations" : 258,
     "original" : {
       "p" : "[s0 = snapshot(), put(5, 5), read(s0, 0), put(8, 1), s1 = snapshot(), put(5, 0), s2 = snapshot(), put(5, 2), s3 = snapshot(), compact(), release(s3), s4 = snapshot(), compact(), read(s1, 6), compact(), put(8, 4), compact(), read(s4, 6), release(s2), put(2, 1), s5 = snapshot(), get(4), compact(), release(s0), s6 = snapshot(), read(s6, 6), release(s6), get(4), read(s1, 4), compact(), release(s1), s7 = snapshot(), compact(), compact(), compact(), read(s4, 3), read(s5, 1), read(s5, 0), s8 = snapshot(), read(s4, 8), s9 = snapshot(), s10 = snapshot(), compact(), read(s10, 7), read(s8, 7), get(3), release(s5), read(s9, 2), get(4)]"
     },
@@ -382,10 +382,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.849375
+    "wallMilliseconds" : 11.178292
   },
   {
-    "evaluations" : 234,
+    "evaluations" : 242,
     "original" : {
       "p" : "[get(3), get(5), put(3, 3), get(0), s0 = snapshot(), get(7), compact(), compact(), s1 = snapshot(), read(s0, 9), compact(), get(5), s2 = snapshot(), put(6, 6), put(9, 2), read(s2, 6), put(3, 9), s3 = snapshot(), read(s2, 5), read(s1, 0), get(8), compact(), read(s3, 3), put(2, 6), release(s1), put(5, 4), s4 = snapshot(), s5 = snapshot(), put(6, 3), compact(), release(s5), release(s3), put(2, 2), read(s2, 5), get(6), get(5), put(0, 8), read(s0, 3), compact(), read(s2, 3), compact(), read(s4, 7)]"
     },
@@ -393,10 +393,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.473792
+    "wallMilliseconds" : 12.421125
   },
   {
-    "evaluations" : 131,
+    "evaluations" : 139,
     "original" : {
       "p" : "[put(5, 7), compact(), s0 = snapshot(), put(3, 4), s1 = snapshot(), put(5, 0), compact(), compact(), s2 = snapshot(), get(1), compact(), read(s0, 4), compact(), put(7, 2), read(s1, 2), read(s1, 5), release(s0), read(s1, 9), release(s1), s3 = snapshot(), put(9, 4), release(s2), compact(), read(s3, 6), get(4), put(5, 5), get(6), read(s3, 9), put(8, 1), release(s3)]"
     },
@@ -404,10 +404,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 2.897875
+    "wallMilliseconds" : 4.074458
   },
   {
-    "evaluations" : 302,
+    "evaluations" : 309,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), release(s0), put(9, 3), get(3), compact(), compact(), get(2), compact(), compact(), s1 = snapshot(), s2 = snapshot(), get(4), compact(), compact(), put(9, 7), read(s2, 6), put(7, 1), compact(), get(0), s3 = snapshot(), put(5, 1), release(s3), s4 = snapshot(), s5 = snapshot(), read(s1, 5), compact(), release(s2), read(s4, 9), read(s4, 4), put(7, 9), read(s5, 9), read(s5, 6), put(1, 7), release(s5), get(4), get(5), read(s1, 9), s6 = snapshot(), release(s4), compact(), release(s1)]"
     },
@@ -415,10 +415,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.259
+    "wallMilliseconds" : 9.54525
   },
   {
-    "evaluations" : 152,
+    "evaluations" : 160,
     "original" : {
       "p" : "[compact(), put(6, 8), s0 = snapshot(), release(s0), compact(), s1 = snapshot(), read(s1, 3), read(s1, 2), put(3, 8), put(9, 2), get(9), put(1, 9), s2 = snapshot(), put(5, 4), put(1, 1), put(1, 5), read(s2, 2), read(s2, 4), s3 = snapshot(), read(s1, 7), compact(), read(s2, 1), release(s3), release(s1), release(s2), get(7), get(7), s4 = snapshot(), s5 = snapshot(), put(8, 0), get(3), release(s5), read(s4, 2), release(s4), s6 = snapshot(), compact(), get(6), compact(), compact(), compact(), s7 = snapshot(), read(s6, 6), compact(), get(3), read(s6, 5)]"
     },
@@ -426,10 +426,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.409208
+    "wallMilliseconds" : 4.0695
   },
   {
-    "evaluations" : 233,
+    "evaluations" : 241,
     "original" : {
       "p" : "[get(8), compact(), put(2, 0), s0 = snapshot(), put(3, 0), read(s0, 5), s1 = snapshot(), read(s1, 4), read(s0, 9), compact(), read(s0, 8), read(s0, 5), s2 = snapshot(), release(s0), compact(), put(9, 2), compact(), put(2, 0), compact(), release(s1), compact(), read(s2, 0), compact(), s3 = snapshot(), get(7), s4 = snapshot(), s5 = snapshot(), get(4), put(3, 4), release(s4), read(s5, 5), release(s5), compact(), put(1, 0), s6 = snapshot(), read(s2, 2), put(9, 5), release(s2), s7 = snapshot(), get(2), get(5), release(s3), s8 = snapshot(), release(s8), release(s7), read(s6, 6)]"
     },
@@ -437,10 +437,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.868209
+    "wallMilliseconds" : 7.115667
   },
   {
-    "evaluations" : 226,
+    "evaluations" : 259,
     "original" : {
       "p" : "[get(1), get(8), get(9), s0 = snapshot(), read(s0, 4), release(s0), put(0, 0), get(1), get(7), compact(), s1 = snapshot(), put(0, 3), put(0, 1), s2 = snapshot(), s3 = snapshot(), read(s2, 4), s4 = snapshot(), release(s4), read(s3, 8), get(8), s5 = snapshot(), s6 = snapshot(), read(s1, 5), put(8, 9), compact(), read(s2, 5), release(s3), put(9, 5), s7 = snapshot(), read(s1, 0), release(s7), compact(), get(2), put(4, 0), s8 = snapshot(), s9 = snapshot(), compact()]"
     },
@@ -448,10 +448,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), release(s3), s4 = snapshot(), s5 = snapshot(), compact(), release(s5), s6 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.996459
+    "wallMilliseconds" : 9.061916
   },
   {
-    "evaluations" : 206,
+    "evaluations" : 214,
     "original" : {
       "p" : "[put(0, 1), get(0), get(6), s0 = snapshot(), get(5), get(0), read(s0, 7), put(4, 9), get(6), get(3), compact(), get(2), read(s0, 3), s1 = snapshot(), put(0, 3), compact(), compact(), s2 = snapshot(), compact(), s3 = snapshot(), put(2, 2), compact(), release(s2), put(0, 2), compact(), read(s0, 4), put(3, 9), put(7, 0), compact(), put(8, 8), release(s3), compact(), put(7, 6), read(s0, 0), put(2, 7), put(1, 7), read(s1, 8), read(s0, 4), get(2), s4 = snapshot(), get(4), read(s4, 8), put(7, 8), release(s4), release(s0), put(0, 5), get(8), get(1)]"
     },
@@ -459,10 +459,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.020542
+    "wallMilliseconds" : 9.809834
   },
   {
-    "evaluations" : 307,
+    "evaluations" : 323,
     "original" : {
       "p" : "[put(5, 6), s0 = snapshot(), compact(), compact(), read(s0, 2), compact(), s1 = snapshot(), compact(), s2 = snapshot(), get(6), get(5), release(s2), read(s1, 3), read(s1, 4), read(s0, 9), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), put(9, 6), read(s0, 8), s6 = snapshot(), put(7, 7), compact(), s7 = snapshot(), put(5, 6), get(9), s8 = snapshot(), release(s8), read(s6, 5), compact(), s9 = snapshot(), put(8, 4), compact(), put(3, 4), compact(), get(2), get(3), s10 = snapshot(), compact(), s11 = snapshot(), read(s6, 5), compact(), compact(), s12 = snapshot(), release(s5), compact(), put(1, 5)]"
     },
@@ -470,10 +470,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.749542
+    "wallMilliseconds" : 9.050959
   },
   {
-    "evaluations" : 264,
+    "evaluations" : 306,
     "original" : {
       "p" : "[put(0, 0), get(9), compact(), s0 = snapshot(), release(s0), put(1, 5), get(4), compact(), s1 = snapshot(), put(0, 9), release(s1), s2 = snapshot(), read(s2, 1), s3 = snapshot(), s4 = snapshot(), put(1, 9), get(7), get(1), get(5), put(2, 7), s5 = snapshot(), get(7), compact(), compact(), s6 = snapshot(), release(s5), s7 = snapshot(), put(6, 0), s8 = snapshot(), s9 = snapshot(), read(s2, 1), read(s3, 5), read(s8, 5), s10 = snapshot(), compact(), release(s10), s11 = snapshot(), put(7, 5), get(1), compact(), read(s3, 0), s12 = snapshot(), put(0, 4), s13 = snapshot(), read(s7, 8), compact()]"
     },
@@ -481,10 +481,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.564417
+    "wallMilliseconds" : 9.080708
   },
   {
-    "evaluations" : 373,
+    "evaluations" : 381,
     "original" : {
       "p" : "[get(1), get(1), put(2, 5), get(3), put(4, 8), get(4), compact(), get(9), compact(), put(6, 7), put(1, 3), get(4), s0 = snapshot(), compact(), put(9, 1), s1 = snapshot(), read(s0, 0), read(s1, 3), release(s0), s2 = snapshot(), get(5), compact(), release(s2), get(6), s3 = snapshot(), read(s3, 3), get(8), release(s3), compact(), get(0), read(s1, 7), get(9), read(s1, 2), compact(), put(3, 2), put(4, 7), s4 = snapshot(), compact(), read(s1, 0), compact(), release(s4), read(s1, 4), get(2), get(8), s5 = snapshot()]"
     },
@@ -492,10 +492,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.763125
+    "wallMilliseconds" : 11.066542
   },
   {
-    "evaluations" : 169,
+    "evaluations" : 185,
     "original" : {
       "p" : "[s0 = snapshot(), compact(), release(s0), put(5, 9), put(1, 9), s1 = snapshot(), get(0), release(s1), s2 = snapshot(), read(s2, 3), release(s2), put(5, 4), s3 = snapshot(), put(4, 3), read(s3, 4), s4 = snapshot(), put(0, 6), get(4), read(s3, 6), get(3), s5 = snapshot(), get(5), put(1, 9), compact(), get(3), s6 = snapshot(), s7 = snapshot(), compact(), read(s5, 1), s8 = snapshot(), get(5), s9 = snapshot(), get(1), release(s7), s10 = snapshot(), compact(), read(s5, 4), release(s3), read(s10, 0), get(9), s11 = snapshot(), read(s10, 4), get(5)]"
     },
@@ -503,10 +503,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.839042
+    "wallMilliseconds" : 6.479125
   },
   {
-    "evaluations" : 203,
+    "evaluations" : 210,
     "original" : {
       "p" : "[put(5, 0), put(6, 0), s0 = snapshot(), compact(), read(s0, 5), compact(), put(8, 5), put(2, 5), s1 = snapshot(), compact(), release(s0), s2 = snapshot(), read(s2, 7), s3 = snapshot(), get(6), get(0), compact(), compact(), read(s2, 3), release(s1), put(1, 1), get(0), get(1), release(s2), s4 = snapshot(), put(7, 1), get(9), read(s3, 3), s5 = snapshot(), s6 = snapshot(), read(s3, 9), put(8, 7), s7 = snapshot(), compact(), compact(), put(4, 2), read(s3, 8), s8 = snapshot(), read(s7, 4)]"
     },
@@ -514,10 +514,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.79775
+    "wallMilliseconds" : 4.819583
   },
   {
-    "evaluations" : 275,
+    "evaluations" : 283,
     "original" : {
       "p" : "[s0 = snapshot(), s1 = snapshot(), get(2), compact(), release(s0), put(7, 5), put(7, 8), s2 = snapshot(), read(s1, 5), compact(), release(s2), put(6, 0), release(s1), put(9, 6), put(2, 6), get(6), put(9, 1), get(6), put(9, 9), compact(), get(1), compact(), put(4, 4), s3 = snapshot(), s4 = snapshot(), compact(), put(6, 6), put(4, 9), release(s4), compact(), compact(), s5 = snapshot(), compact(), put(5, 0), release(s5), read(s3, 6)]"
     },
@@ -525,10 +525,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.900209
+    "wallMilliseconds" : 6.352625
   },
   {
-    "evaluations" : 324,
+    "evaluations" : 339,
     "original" : {
       "p" : "[get(2), s0 = snapshot(), put(4, 7), release(s0), compact(), compact(), get(3), compact(), s1 = snapshot(), get(1), s2 = snapshot(), put(8, 0), read(s2, 8), release(s2), compact(), get(0), s3 = snapshot(), read(s1, 9), put(0, 2), read(s3, 2), put(4, 5), s4 = snapshot(), put(4, 6), s5 = snapshot(), compact(), s6 = snapshot(), release(s6), read(s1, 8), get(4), release(s5), release(s1), get(2), get(2), compact(), read(s4, 4), compact(), put(7, 4), read(s4, 0), compact(), s7 = snapshot()]"
     },
@@ -536,10 +536,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.581333
+    "wallMilliseconds" : 7.400208
   },
   {
-    "evaluations" : 134,
+    "evaluations" : 142,
     "original" : {
       "p" : "[s0 = snapshot(), compact(), get(1), s1 = snapshot(), release(s1), s2 = snapshot(), release(s2), release(s0), compact(), compact(), get(3), s3 = snapshot(), compact(), put(5, 9), compact(), read(s3, 1), get(7), put(7, 6), get(7), get(6), read(s3, 4), put(4, 1), put(1, 1), compact(), get(4), put(2, 1), compact(), s4 = snapshot(), release(s3), put(6, 3), get(5), s5 = snapshot(), s6 = snapshot(), s7 = snapshot(), compact(), put(3, 5), compact(), read(s5, 9), put(8, 6), put(6, 0), s8 = snapshot(), compact(), read(s5, 6), get(3)]"
     },
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.399333
+    "wallMilliseconds" : 4.615542
   },
   {
     "evaluations" : 348,
@@ -558,10 +558,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.890916
+    "wallMilliseconds" : 11.153208
   },
   {
-    "evaluations" : 251,
+    "evaluations" : 267,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), compact(), read(s0, 0), put(8, 7), put(1, 0), put(6, 3), compact(), s1 = snapshot(), read(s0, 7), put(0, 6), get(1), read(s0, 0), put(0, 7), compact(), get(2), put(9, 3), release(s0), put(2, 0), s2 = snapshot(), s3 = snapshot(), compact(), s4 = snapshot(), compact(), put(5, 9), release(s4), compact(), release(s1), s5 = snapshot(), read(s3, 7), release(s2), put(6, 5), put(2, 0), compact(), compact(), get(7), put(8, 3), get(4), get(5), read(s5, 6), s6 = snapshot(), read(s6, 1), compact(), s7 = snapshot(), read(s3, 8), put(0, 3), put(8, 7), put(5, 4), read(s3, 4), release(s7)]"
     },
@@ -569,10 +569,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.568167
+    "wallMilliseconds" : 8.448792
   },
   {
-    "evaluations" : 147,
+    "evaluations" : 155,
     "original" : {
       "p" : "[get(8), compact(), put(8, 7), s0 = snapshot(), read(s0, 8), read(s0, 8), get(8), s1 = snapshot(), s2 = snapshot(), put(6, 7), get(1), release(s1), read(s2, 5), compact(), get(7), release(s2), compact(), s3 = snapshot(), release(s0), get(8), put(3, 1), read(s3, 3), get(0), s4 = snapshot(), s5 = snapshot(), put(7, 2), read(s5, 0), read(s4, 8), put(7, 3), s6 = snapshot(), put(4, 6), put(3, 6), read(s3, 5), get(5), put(5, 6), get(0), release(s3), compact(), get(5), s7 = snapshot(), compact(), put(3, 8), read(s6, 3), s8 = snapshot(), read(s7, 5), get(3)]"
     },
@@ -580,10 +580,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.833
+    "wallMilliseconds" : 4.910875
   },
   {
-    "evaluations" : 154,
+    "evaluations" : 162,
     "original" : {
       "p" : "[put(5, 4), put(9, 7), put(5, 7), get(8), put(0, 0), put(5, 7), compact(), s0 = snapshot(), compact(), get(5), put(6, 4), read(s0, 6), read(s0, 0), read(s0, 3), put(2, 0), s1 = snapshot(), release(s1), release(s0), s2 = snapshot(), get(0), read(s2, 0), put(5, 0), put(5, 4), s3 = snapshot(), get(7), put(3, 1), put(9, 1), put(6, 7), compact(), release(s3), read(s2, 0), read(s2, 5), put(9, 1), get(0), s4 = snapshot(), release(s2)]"
     },
@@ -591,10 +591,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.377708
+    "wallMilliseconds" : 11.4425
   },
   {
-    "evaluations" : 118,
+    "evaluations" : 126,
     "original" : {
       "p" : "[compact(), put(8, 2), put(4, 9), s0 = snapshot(), s1 = snapshot(), get(7), s2 = snapshot(), s3 = snapshot(), put(4, 7), s4 = snapshot(), put(5, 2), compact(), put(6, 7), read(s4, 3), read(s1, 4), s5 = snapshot(), compact(), get(2), s6 = snapshot(), s7 = snapshot(), get(3), s8 = snapshot(), get(4), read(s5, 3), read(s2, 7), read(s2, 8), get(6), put(7, 1), s9 = snapshot(), read(s8, 8), compact(), read(s7, 2), release(s3), put(3, 3), compact(), put(8, 5), s10 = snapshot(), put(6, 6), s11 = snapshot(), get(6), get(9), release(s1), put(9, 2), get(0), get(8), get(2), get(3)]"
     },
@@ -602,10 +602,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 2.634583
+    "wallMilliseconds" : 3.164083
   },
   {
-    "evaluations" : 493,
+    "evaluations" : 501,
     "original" : {
       "p" : "[s0 = snapshot(), compact(), s1 = snapshot(), put(7, 2), s2 = snapshot(), read(s1, 9), s3 = snapshot(), release(s0), get(3), release(s3), s4 = snapshot(), s5 = snapshot(), compact(), s6 = snapshot(), compact(), get(2), read(s5, 5), compact(), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), put(7, 2), put(6, 5), read(s4, 5), compact(), s10 = snapshot(), release(s8), get(4), compact(), put(1, 9), release(s5), read(s1, 8), s11 = snapshot(), read(s9, 7)]"
     },
@@ -613,10 +613,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.785541
+    "wallMilliseconds" : 16.50075
   },
   {
-    "evaluations" : 164,
+    "evaluations" : 172,
     "original" : {
       "p" : "[compact(), put(1, 7), s0 = snapshot(), release(s0), get(2), get(6), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), get(5), put(5, 4), read(s3, 0), put(1, 3), put(3, 0), s4 = snapshot(), compact(), put(2, 6), get(9), compact(), read(s1, 8), put(1, 1), read(s3, 3), compact(), get(0), release(s2), compact(), read(s3, 1), s5 = snapshot(), read(s3, 4), put(1, 8), put(3, 1), put(6, 6), compact()]"
     },
@@ -624,10 +624,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.183375
+    "wallMilliseconds" : 5.63875
   },
   {
-    "evaluations" : 218,
+    "evaluations" : 225,
     "original" : {
       "p" : "[put(1, 1), s0 = snapshot(), compact(), put(8, 0), put(4, 6), put(2, 4), s1 = snapshot(), put(7, 6), read(s1, 1), put(8, 0), compact(), s2 = snapshot(), get(5), get(2), s3 = snapshot(), release(s3), read(s1, 6), put(0, 0), read(s2, 0), read(s1, 1), compact(), read(s2, 6), read(s1, 8), read(s1, 9), compact(), release(s2), s4 = snapshot(), compact(), compact(), read(s0, 1), read(s0, 7), read(s0, 0), read(s1, 5), read(s4, 6), s5 = snapshot(), get(5)]"
     },
@@ -635,10 +635,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), release(s2), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.044042
+    "wallMilliseconds" : 5.106583
   },
   {
-    "evaluations" : 181,
+    "evaluations" : 188,
     "original" : {
       "p" : "[put(5, 3), compact(), get(7), put(7, 7), put(5, 0), s0 = snapshot(), read(s0, 9), s1 = snapshot(), put(9, 2), get(2), get(2), put(5, 0), put(7, 8), put(9, 2), s2 = snapshot(), get(1), put(9, 8), read(s2, 8), compact(), release(s1), compact(), get(5), compact(), read(s0, 5), put(0, 9), read(s2, 4), get(7), release(s2), put(9, 7), read(s0, 1), s3 = snapshot(), put(4, 4), release(s3), read(s0, 2), read(s0, 7), release(s0), put(9, 8), put(9, 8), compact(), put(7, 0)]"
     },
@@ -646,10 +646,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.645917
+    "wallMilliseconds" : 4.575208
   },
   {
-    "evaluations" : 163,
+    "evaluations" : 171,
     "original" : {
       "p" : "[put(5, 2), get(7), put(8, 0), put(2, 3), s0 = snapshot(), s1 = snapshot(), put(7, 6), get(1), s2 = snapshot(), put(8, 3), get(4), read(s1, 4), get(2), read(s2, 6), compact(), get(4), put(2, 7), s3 = snapshot(), read(s1, 2), get(5), put(2, 1), compact(), put(7, 4), release(s3), get(3), read(s2, 2), get(7), compact(), s4 = snapshot(), compact()]"
     },
@@ -657,10 +657,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.76875
+    "wallMilliseconds" : 6.438333
   },
   {
-    "evaluations" : 170,
+    "evaluations" : 178,
     "original" : {
       "p" : "[put(9, 7), get(6), get(4), compact(), get(1), put(7, 3), get(9), put(2, 0), put(4, 7), s0 = snapshot(), read(s0, 4), read(s0, 6), put(9, 0), get(2), put(7, 5), read(s0, 4), get(6), put(9, 7), compact(), s1 = snapshot(), read(s1, 4), read(s1, 2), compact(), s2 = snapshot(), put(8, 9), s3 = snapshot(), release(s1), read(s3, 9), read(s2, 3), release(s3), read(s2, 1), read(s2, 4), read(s0, 9), put(6, 0), read(s0, 8)]"
     },
@@ -668,10 +668,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.084125
+    "wallMilliseconds" : 5.169666
   },
   {
-    "evaluations" : 445,
+    "evaluations" : 478,
     "original" : {
       "p" : "[compact(), compact(), get(0), put(1, 8), get(4), put(7, 8), s0 = snapshot(), compact(), put(0, 4), s1 = snapshot(), read(s0, 4), put(0, 2), read(s1, 9), read(s0, 2), s2 = snapshot(), read(s1, 8), put(5, 2), release(s0), put(0, 9), put(3, 0), s3 = snapshot(), read(s1, 4), release(s2), put(3, 7), s4 = snapshot(), put(1, 8), put(9, 6), s5 = snapshot(), put(2, 2), put(9, 4), compact(), release(s4), put(1, 2), read(s1, 0), release(s3), release(s5), put(4, 7), put(1, 1), compact(), get(9), put(7, 7), s6 = snapshot(), s7 = snapshot(), put(1, 6), read(s1, 9), release(s6), s8 = snapshot(), s9 = snapshot(), get(8)]"
     },
@@ -679,10 +679,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), s4 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.291833
+    "wallMilliseconds" : 13.118834
   },
   {
-    "evaluations" : 358,
+    "evaluations" : 374,
     "original" : {
       "p" : "[compact(), put(9, 7), s0 = snapshot(), read(s0, 5), put(0, 2), s1 = snapshot(), get(9), put(1, 9), read(s0, 4), put(5, 2), s2 = snapshot(), put(2, 0), read(s0, 2), put(6, 1), read(s1, 4), read(s1, 5), compact(), put(4, 4), release(s2), put(6, 8), get(2), read(s0, 8), s3 = snapshot(), s4 = snapshot(), release(s4), put(4, 7), release(s1), compact(), s5 = snapshot(), compact(), release(s0), release(s5), s6 = snapshot(), compact(), s7 = snapshot(), read(s3, 4), read(s6, 1), put(0, 7), release(s7), read(s6, 1), s8 = snapshot(), get(1)]"
     },
@@ -690,10 +690,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), release(s1), s2 = snapshot(), compact(), s3 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 14.838792
+    "wallMilliseconds" : 23.2115
   },
   {
-    "evaluations" : 191,
+    "evaluations" : 199,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), read(s0, 3), release(s0), get(5), put(9, 4), s1 = snapshot(), compact(), put(0, 7), read(s1, 4), read(s1, 9), s2 = snapshot(), get(2), put(1, 6), get(3), compact(), compact(), put(6, 0), get(3), put(9, 2), get(0), s3 = snapshot(), read(s3, 8), release(s1), compact(), get(2), put(2, 0), read(s2, 9), read(s3, 9), release(s3), read(s2, 2), s4 = snapshot(), read(s2, 4), read(s2, 4), read(s4, 3), release(s4), put(2, 6), compact(), s5 = snapshot(), get(9), read(s5, 0)]"
     },
@@ -701,10 +701,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.6645
+    "wallMilliseconds" : 9.746417
   },
   {
-    "evaluations" : 177,
+    "evaluations" : 185,
     "original" : {
       "p" : "[s0 = snapshot(), get(4), get(6), compact(), read(s0, 7), get(8), release(s0), put(0, 9), get(6), s1 = snapshot(), compact(), put(2, 5), release(s1), get(5), get(2), get(9), get(5), s2 = snapshot(), read(s2, 5), get(4), put(7, 5), get(6), compact(), put(3, 8), s3 = snapshot(), s4 = snapshot(), compact(), put(2, 2), put(0, 1), s5 = snapshot(), put(9, 2), put(1, 3), s6 = snapshot(), read(s5, 3), compact(), compact(), release(s4), read(s2, 2), release(s6), release(s3), get(4), compact(), compact(), read(s5, 7), read(s2, 2), s7 = snapshot(), read(s5, 9), put(5, 1), read(s7, 0), compact()]"
     },
@@ -712,10 +712,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.553375
+    "wallMilliseconds" : 5.624708
   },
   {
-    "evaluations" : 238,
+    "evaluations" : 246,
     "original" : {
       "p" : "[s0 = snapshot(), read(s0, 5), release(s0), put(3, 0), s1 = snapshot(), s2 = snapshot(), get(5), s3 = snapshot(), get(6), s4 = snapshot(), read(s3, 5), put(6, 5), put(8, 5), put(3, 3), compact(), read(s2, 8), compact(), compact(), put(0, 4), put(5, 4), compact(), release(s2), s5 = snapshot(), put(7, 7), release(s4), read(s1, 4), put(0, 5), s6 = snapshot(), get(4), put(8, 8), put(8, 9), get(4), compact(), release(s3), put(2, 8), read(s1, 3), compact(), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), release(s9), get(9), put(8, 8), put(9, 3), put(2, 4), put(8, 1), get(0), put(6, 1)]"
     },
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.043834
+    "wallMilliseconds" : 6.494958
   },
   {
     "evaluations" : 94,
@@ -734,10 +734,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 2.875583
+    "wallMilliseconds" : 3.802292
   },
   {
-    "evaluations" : 215,
+    "evaluations" : 223,
     "original" : {
       "p" : "[put(6, 1), put(1, 0), compact(), s0 = snapshot(), put(6, 4), s1 = snapshot(), read(s1, 1), put(1, 4), release(s1), s2 = snapshot(), put(7, 0), s3 = snapshot(), compact(), compact(), get(2), put(2, 3), release(s2), put(0, 3), read(s0, 1), compact(), release(s3), s4 = snapshot(), compact(), s5 = snapshot(), put(3, 0), put(4, 5), read(s5, 2), read(s5, 1), compact(), s6 = snapshot(), get(5), s7 = snapshot()]"
     },
@@ -745,10 +745,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.000833
+    "wallMilliseconds" : 14.310166
   },
   {
-    "evaluations" : 151,
+    "evaluations" : 159,
     "original" : {
       "p" : "[compact(), compact(), get(6), get(0), put(1, 2), s0 = snapshot(), put(6, 5), release(s0), compact(), compact(), compact(), s1 = snapshot(), put(8, 6), get(9), compact(), get(8), s2 = snapshot(), get(0), read(s1, 2), release(s1), s3 = snapshot(), put(8, 0), release(s3), s4 = snapshot(), release(s4), get(0), s5 = snapshot(), s6 = snapshot(), compact(), s7 = snapshot(), compact(), read(s2, 8), s8 = snapshot(), put(0, 8), get(9), s9 = snapshot(), get(1), get(1), s10 = snapshot(), put(7, 0)]"
     },
@@ -756,10 +756,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.007167
+    "wallMilliseconds" : 9.289292
   },
   {
-    "evaluations" : 152,
+    "evaluations" : 160,
     "original" : {
       "p" : "[get(4), compact(), put(6, 7), get(8), s0 = snapshot(), compact(), s1 = snapshot(), release(s1), s2 = snapshot(), get(7), compact(), release(s0), get(4), s3 = snapshot(), get(3), release(s2), s4 = snapshot(), get(5), s5 = snapshot(), s6 = snapshot(), read(s5, 6), put(8, 9), release(s4), get(9), read(s5, 6), put(7, 4), put(6, 8), release(s6), get(4), read(s5, 4), s7 = snapshot(), put(4, 4), compact(), get(2), get(3), read(s5, 6)]"
     },
@@ -767,10 +767,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.850542
+    "wallMilliseconds" : 7.088916
   },
   {
-    "evaluations" : 158,
+    "evaluations" : 166,
     "original" : {
       "p" : "[get(5), s0 = snapshot(), s1 = snapshot(), get(3), put(3, 1), get(8), release(s0), read(s1, 0), put(0, 1), release(s1), s2 = snapshot(), s3 = snapshot(), get(6), compact(), put(0, 1), put(3, 0), get(1), get(2), s4 = snapshot(), s5 = snapshot(), read(s4, 3), read(s4, 3), read(s5, 1), compact(), read(s2, 3), get(1), get(7), get(8), put(3, 7), get(1), s6 = snapshot(), compact(), put(9, 3), release(s3), s7 = snapshot(), get(3), read(s5, 2), read(s6, 7), get(5), release(s4), get(7), compact(), release(s5), compact(), release(s2)]"
     },
@@ -778,10 +778,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.866958
+    "wallMilliseconds" : 4.910458
   },
   {
-    "evaluations" : 189,
+    "evaluations" : 197,
     "original" : {
       "p" : "[compact(), put(6, 0), put(2, 9), put(4, 3), get(6), s0 = snapshot(), release(s0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), release(s2), compact(), get(0), release(s3), compact(), put(6, 7), compact(), s4 = snapshot(), get(6), read(s1, 9), s5 = snapshot(), read(s4, 4), compact(), release(s4), read(s5, 5), read(s1, 8), read(s1, 6), get(3), put(6, 2), release(s1), s6 = snapshot(), read(s5, 9), compact(), s7 = snapshot(), put(1, 1), get(1), s8 = snapshot(), release(s8), get(4), get(4)]"
     },
@@ -789,10 +789,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.392458
+    "wallMilliseconds" : 9.462709
   },
   {
-    "evaluations" : 173,
+    "evaluations" : 181,
     "original" : {
       "p" : "[put(7, 3), get(7), put(6, 6), get(0), s0 = snapshot(), get(5), put(8, 9), put(6, 9), put(8, 2), read(s0, 4), release(s0), put(6, 6), put(0, 6), put(2, 9), s1 = snapshot(), put(2, 0), get(1), read(s1, 3), get(1), s2 = snapshot(), read(s1, 5), put(1, 1), s3 = snapshot(), put(2, 9), get(4), release(s2), get(5), compact(), compact(), put(9, 7), read(s1, 2), compact()]"
     },
@@ -800,10 +800,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), release(s2), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.878333
+    "wallMilliseconds" : 4.780875
   },
   {
-    "evaluations" : 170,
+    "evaluations" : 178,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), s1 = snapshot(), put(8, 5), s2 = snapshot(), read(s1, 0), read(s0, 6), read(s0, 9), release(s0), get(3), get(1), compact(), put(7, 0), release(s1), put(1, 0), compact(), put(6, 4), s3 = snapshot(), compact(), read(s2, 8), read(s2, 5), get(2), put(5, 9), s4 = snapshot(), release(s2), put(0, 9), s5 = snapshot(), release(s4), s6 = snapshot(), put(5, 1), read(s3, 2), put(1, 7), s7 = snapshot(), compact(), s8 = snapshot(), get(8), read(s6, 1), compact(), put(6, 3), s9 = snapshot(), get(3), put(6, 2), put(4, 9), compact(), release(s5), s10 = snapshot(), get(7)]"
     },
@@ -811,10 +811,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.706625
+    "wallMilliseconds" : 9.880875
   },
   {
-    "evaluations" : 271,
+    "evaluations" : 279,
     "original" : {
       "p" : "[put(5, 7), s0 = snapshot(), s1 = snapshot(), read(s0, 7), put(0, 1), read(s0, 0), read(s1, 9), read(s0, 1), get(9), compact(), s2 = snapshot(), release(s1), put(9, 8), compact(), s3 = snapshot(), put(0, 4), compact(), put(1, 8), put(4, 7), release(s0), compact(), s4 = snapshot(), compact(), put(8, 5), get(9), compact(), read(s2, 0), read(s2, 3), compact(), release(s4), s5 = snapshot(), put(4, 6), compact(), put(3, 2), read(s5, 0), read(s5, 8), compact(), put(2, 7), compact(), get(4), compact(), read(s5, 0), get(2)]"
     },
@@ -822,10 +822,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.771583
+    "wallMilliseconds" : 7.248791
   },
   {
-    "evaluations" : 195,
+    "evaluations" : 209,
     "original" : {
       "p" : "[get(3), compact(), compact(), put(8, 9), get(0), put(3, 4), compact(), compact(), s0 = snapshot(), read(s0, 6), put(7, 0), s1 = snapshot(), put(2, 4), compact(), read(s1, 2), s2 = snapshot(), s3 = snapshot(), put(7, 8), s4 = snapshot(), s5 = snapshot(), compact(), get(4), compact(), get(3), get(4), read(s2, 2), release(s0), get(8), release(s5), read(s1, 3), compact(), compact(), put(8, 5), read(s2, 7), put(0, 2), put(7, 8), s6 = snapshot(), s7 = snapshot(), compact(), compact(), read(s2, 1), put(5, 8), put(4, 5), release(s4), release(s2)]"
     },
@@ -833,10 +833,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.83425
+    "wallMilliseconds" : 6.604
   },
   {
-    "evaluations" : 130,
+    "evaluations" : 138,
     "original" : {
       "p" : "[put(2, 2), put(4, 3), get(3), s0 = snapshot(), put(9, 0), get(5), compact(), put(2, 7), compact(), s1 = snapshot(), compact(), put(9, 4), get(1), read(s0, 7), read(s0, 2), s2 = snapshot(), put(2, 4), put(4, 3), read(s2, 4), release(s1), put(0, 1), s3 = snapshot(), get(6), put(8, 2), release(s0), s4 = snapshot(), release(s4), get(3), compact(), get(8), release(s3), release(s2), get(3), put(0, 7), put(2, 1), s5 = snapshot(), put(6, 7), read(s5, 5), put(9, 4), release(s5), compact(), get(4), s6 = snapshot(), put(5, 6), compact()]"
     },
@@ -844,10 +844,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.361417
+    "wallMilliseconds" : 6.238167
   },
   {
-    "evaluations" : 119,
+    "evaluations" : 127,
     "original" : {
       "p" : "[get(0), get(1), get(1), get(0), put(8, 3), get(2), s0 = snapshot(), read(s0, 0), compact(), put(8, 5), put(7, 7), get(1), s1 = snapshot(), get(3), read(s1, 3), compact(), put(3, 3), read(s0, 8), s2 = snapshot(), put(0, 0), put(2, 7), read(s2, 4), s3 = snapshot(), release(s0), s4 = snapshot(), compact(), put(6, 4), compact(), s5 = snapshot(), release(s2)]"
     },
@@ -855,10 +855,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.347792
+    "wallMilliseconds" : 6.656542
   },
   {
-    "evaluations" : 237,
+    "evaluations" : 259,
     "original" : {
       "p" : "[put(4, 4), get(8), s0 = snapshot(), read(s0, 6), s1 = snapshot(), compact(), compact(), compact(), get(0), s2 = snapshot(), put(0, 7), compact(), read(s2, 8), put(4, 7), compact(), compact(), s3 = snapshot(), compact(), put(5, 2), read(s1, 3), put(3, 6), get(2), s4 = snapshot(), get(8), s5 = snapshot(), put(2, 8), put(1, 8), read(s2, 4), get(5), read(s4, 9), s6 = snapshot(), compact(), release(s5)]"
     },
@@ -866,10 +866,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), s3 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.55125
+    "wallMilliseconds" : 6.152542
   },
   {
-    "evaluations" : 245,
+    "evaluations" : 253,
     "original" : {
       "p" : "[get(9), put(2, 4), put(9, 3), get(1), put(8, 7), s0 = snapshot(), put(4, 0), compact(), put(5, 5), get(7), s1 = snapshot(), get(5), s2 = snapshot(), get(8), release(s1), compact(), get(5), compact(), get(8), get(6), read(s0, 0), compact(), get(4), put(5, 2), put(7, 8), compact(), s3 = snapshot(), compact(), compact(), get(8), read(s2, 5)]"
     },
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.964959
+    "wallMilliseconds" : 10.666917
   },
   {
     "evaluations" : 111,
@@ -888,10 +888,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.281375
+    "wallMilliseconds" : 4.102541
   },
   {
-    "evaluations" : 171,
+    "evaluations" : 179,
     "original" : {
       "p" : "[put(3, 2), compact(), put(9, 9), put(3, 7), put(4, 2), compact(), put(3, 3), s0 = snapshot(), get(6), release(s0), compact(), get(3), s1 = snapshot(), put(3, 8), s2 = snapshot(), s3 = snapshot(), put(0, 1), compact(), get(7), get(5), release(s2), put(5, 5), get(4), get(0), compact(), get(2), read(s1, 3), compact(), read(s1, 4), s4 = snapshot(), put(8, 6), s5 = snapshot(), compact(), compact(), get(0), read(s5, 9), get(1), read(s5, 3), get(1)]"
     },
@@ -899,10 +899,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), release(s2), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.576959
+    "wallMilliseconds" : 4.758458
   },
   {
-    "evaluations" : 274,
+    "evaluations" : 282,
     "original" : {
       "p" : "[put(3, 9), s0 = snapshot(), compact(), release(s0), compact(), s1 = snapshot(), get(7), put(1, 8), put(8, 8), get(3), read(s1, 7), compact(), put(3, 2), s2 = snapshot(), release(s1), compact(), s3 = snapshot(), get(0), compact(), get(7), s4 = snapshot(), put(9, 5), read(s4, 8), read(s2, 4), get(9), put(3, 5), put(0, 2), read(s4, 2), read(s4, 4), release(s3), s5 = snapshot(), put(6, 6), compact(), read(s5, 5), s6 = snapshot(), compact(), compact(), release(s5), release(s2), get(7), get(4), read(s4, 3), read(s6, 0)]"
     },
@@ -910,10 +910,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 12.223917
+    "wallMilliseconds" : 19.23275
   },
   {
-    "evaluations" : 161,
+    "evaluations" : 169,
     "original" : {
       "p" : "[put(4, 4), compact(), s0 = snapshot(), get(4), s1 = snapshot(), s2 = snapshot(), release(s0), read(s2, 7), put(6, 2), s3 = snapshot(), get(6), put(4, 9), read(s2, 1), s4 = snapshot(), put(7, 6), put(6, 9), get(6), s5 = snapshot(), put(5, 5), compact(), put(3, 6), read(s2, 7), read(s3, 4), s6 = snapshot(), read(s2, 0), get(7), release(s3), compact(), release(s2), read(s6, 8), put(1, 9), compact(), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), release(s9), read(s7, 4), release(s5), put(3, 0), s10 = snapshot(), put(0, 5), read(s4, 8), release(s4), get(0), put(5, 4)]"
     },
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.874292
+    "wallMilliseconds" : 7.096667
   },
   {
     "evaluations" : 222,
@@ -932,10 +932,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), compact(), release(s2), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.883375
+    "wallMilliseconds" : 10.704
   },
   {
-    "evaluations" : 152,
+    "evaluations" : 160,
     "original" : {
       "p" : "[s0 = snapshot(), put(0, 3), read(s0, 2), get(3), s1 = snapshot(), s2 = snapshot(), release(s0), get(2), compact(), get(7), put(0, 8), read(s2, 3), compact(), get(8), read(s1, 6), s3 = snapshot(), read(s2, 1), compact(), compact(), put(8, 1), read(s3, 2), s4 = snapshot(), s5 = snapshot(), compact(), read(s5, 0), read(s1, 0), get(0), compact(), release(s4), put(0, 2), release(s3), put(9, 5), compact(), s6 = snapshot(), read(s6, 5), read(s6, 9), read(s2, 3), get(4), put(9, 8), compact()]"
     },
@@ -943,10 +943,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.443292
+    "wallMilliseconds" : 7.806667
   },
   {
-    "evaluations" : 130,
+    "evaluations" : 138,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), release(s0), s1 = snapshot(), read(s1, 1), put(6, 2), get(6), read(s1, 4), put(5, 4), read(s1, 5), s2 = snapshot(), get(7), put(6, 6), read(s1, 1), s3 = snapshot(), compact(), read(s2, 6), put(4, 7), put(6, 8), compact(), compact(), put(9, 0), get(7), get(8), s4 = snapshot(), release(s2), get(2), compact(), get(5), get(2), s5 = snapshot(), put(1, 0), read(s1, 8), get(9)]"
     },
@@ -954,10 +954,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.486542
+    "wallMilliseconds" : 8.425667
   },
   {
-    "evaluations" : 232,
+    "evaluations" : 240,
     "original" : {
       "p" : "[get(0), get(8), put(2, 3), compact(), compact(), put(0, 7), s0 = snapshot(), read(s0, 8), compact(), release(s0), put(7, 9), s1 = snapshot(), put(0, 3), read(s1, 2), get(9), release(s1), s2 = snapshot(), s3 = snapshot(), compact(), put(2, 3), s4 = snapshot(), compact(), put(0, 3), release(s2), release(s4), read(s3, 4), get(6), compact(), get(2), read(s3, 2), get(7), release(s3), s5 = snapshot(), release(s5), get(5), compact(), get(3), compact(), s6 = snapshot(), compact(), compact(), read(s6, 0)]"
     },
@@ -965,10 +965,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.543625
+    "wallMilliseconds" : 7.474459
   },
   {
-    "evaluations" : 97,
+    "evaluations" : 105,
     "original" : {
       "p" : "[put(0, 6), s0 = snapshot(), read(s0, 0), s1 = snapshot(), compact(), put(2, 8), put(7, 3), s2 = snapshot(), put(7, 8), s3 = snapshot(), put(9, 5), read(s1, 8), compact(), read(s2, 7), put(2, 7), read(s0, 9), put(2, 3), get(5), get(2), put(0, 7), put(7, 7)]"
     },
@@ -976,10 +976,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.940625
+    "wallMilliseconds" : 6.1295
   },
   {
-    "evaluations" : 376,
+    "evaluations" : 384,
     "original" : {
       "p" : "[put(4, 9), get(3), compact(), s0 = snapshot(), release(s0), put(9, 1), s1 = snapshot(), put(1, 4), read(s1, 0), s2 = snapshot(), release(s1), get(7), s3 = snapshot(), compact(), put(0, 1), read(s2, 0), put(5, 3), s4 = snapshot(), get(7), put(0, 4), s5 = snapshot(), release(s5), s6 = snapshot(), release(s6), s7 = snapshot(), read(s2, 2), get(5), put(9, 5), release(s2), compact(), compact(), read(s7, 2), read(s3, 6), release(s7), s8 = snapshot(), put(4, 1), compact(), read(s4, 9), read(s3, 5), read(s4, 1), put(3, 1), release(s3)]"
     },
@@ -987,10 +987,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.0415
+    "wallMilliseconds" : 16.039458
   },
   {
-    "evaluations" : 386,
+    "evaluations" : 394,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), compact(), read(s0, 4), compact(), s1 = snapshot(), get(2), compact(), read(s0, 4), put(8, 7), s2 = snapshot(), s3 = snapshot(), get(3), release(s1), release(s0), get(0), get(9), s4 = snapshot(), put(1, 1), compact(), get(3), s5 = snapshot(), compact(), read(s3, 3), put(8, 5), put(4, 6), put(3, 4), release(s2), release(s3), s6 = snapshot(), get(6), read(s4, 1), read(s4, 9), compact(), read(s6, 8), s7 = snapshot(), get(0), s8 = snapshot(), s9 = snapshot(), s10 = snapshot(), s11 = snapshot(), compact(), read(s5, 8), compact(), get(6), s12 = snapshot(), get(2)]"
     },
@@ -998,10 +998,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.415042
+    "wallMilliseconds" : 11.398875
   },
   {
-    "evaluations" : 287,
+    "evaluations" : 295,
     "original" : {
       "p" : "[get(8), put(3, 1), s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), compact(), get(3), release(s2), compact(), get(7), release(s1), read(s0, 2), put(3, 7), s4 = snapshot(), read(s3, 2), put(9, 0), release(s4), get(0), get(4), get(1), get(5), read(s3, 8), get(4), s5 = snapshot(), compact(), get(6), release(s5), s6 = snapshot(), s7 = snapshot(), read(s0, 5), get(7), release(s7), put(2, 4), read(s0, 3), read(s0, 7), get(6), put(0, 4), put(5, 4), s8 = snapshot(), read(s0, 2), s9 = snapshot(), put(7, 2), compact()]"
     },
@@ -1009,10 +1009,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 12.668667
+    "wallMilliseconds" : 19.721667
   },
   {
-    "evaluations" : 199,
+    "evaluations" : 207,
     "original" : {
       "p" : "[compact(), put(5, 0), put(6, 5), compact(), s0 = snapshot(), put(0, 2), read(s0, 0), get(9), put(5, 5), get(2), put(5, 2), get(7), put(5, 7), put(4, 3), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), put(8, 2), put(0, 0), read(s3, 0), compact(), put(8, 3), read(s0, 1), put(6, 6), s4 = snapshot(), put(9, 6), release(s2), put(5, 0), get(0), read(s4, 3), s5 = snapshot(), put(3, 4), s6 = snapshot(), compact(), compact(), release(s3), get(3), put(3, 3), read(s4, 5), s7 = snapshot(), read(s4, 5), release(s6), read(s5, 7), get(5), release(s4), s8 = snapshot()]"
     },
@@ -1020,10 +1020,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.381833
+    "wallMilliseconds" : 7.396292
   },
   {
-    "evaluations" : 393,
+    "evaluations" : 401,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), s1 = snapshot(), compact(), put(8, 6), s2 = snapshot(), release(s0), put(7, 1), compact(), compact(), get(5), s3 = snapshot(), put(8, 2), compact(), compact(), get(2), release(s1), release(s2), put(7, 6), get(8), put(4, 1), s4 = snapshot(), put(7, 8), compact(), put(7, 8), put(9, 8), compact(), read(s3, 7), s5 = snapshot(), get(0), get(3), compact(), get(3), read(s4, 0)]"
     },
@@ -1031,10 +1031,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.729792
+    "wallMilliseconds" : 9.051625
   },
   {
-    "evaluations" : 310,
+    "evaluations" : 343,
     "original" : {
       "p" : "[get(5), put(6, 7), get(2), compact(), put(9, 3), s0 = snapshot(), get(9), release(s0), s1 = snapshot(), put(8, 0), s2 = snapshot(), release(s1), s3 = snapshot(), put(9, 9), put(3, 2), put(3, 6), put(8, 2), get(6), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), put(1, 3), compact(), get(4), s7 = snapshot(), get(0), get(3), compact(), put(4, 2), get(3), compact(), release(s7), s8 = snapshot(), put(3, 8), read(s3, 6), read(s2, 8)]"
     },
@@ -1042,10 +1042,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), release(s4), s5 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.233625
+    "wallMilliseconds" : 8.596958
   },
   {
-    "evaluations" : 161,
+    "evaluations" : 169,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), s1 = snapshot(), read(s0, 4), s2 = snapshot(), compact(), compact(), release(s0), get(5), release(s1), compact(), read(s2, 0), compact(), release(s2), put(2, 4), compact(), put(0, 5), get(1), get(0), get(6), compact(), put(8, 7), s3 = snapshot(), read(s3, 4), compact(), release(s3), compact(), s4 = snapshot(), put(0, 5), s5 = snapshot(), put(9, 4), s6 = snapshot(), compact(), read(s6, 5), s7 = snapshot(), put(8, 2), read(s4, 0), compact()]"
     },
@@ -1053,10 +1053,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.544333
+    "wallMilliseconds" : 4.782333
   },
   {
-    "evaluations" : 123,
+    "evaluations" : 131,
     "original" : {
       "p" : "[compact(), s0 = snapshot(), s1 = snapshot(), release(s0), read(s1, 5), get(9), get(7), release(s1), compact(), put(2, 4), get(8), s2 = snapshot(), put(2, 6), get(4), compact(), s3 = snapshot(), get(8), read(s2, 7), read(s2, 1), compact(), get(3), read(s2, 2), read(s3, 4), release(s2), put(2, 5), read(s3, 6), read(s3, 4), compact(), s4 = snapshot(), get(1), read(s4, 4), put(4, 5), compact(), compact(), read(s4, 0), s5 = snapshot(), get(4), get(0), compact(), read(s4, 0)]"
     },
@@ -1064,10 +1064,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 2.740458
+    "wallMilliseconds" : 3.455833
   },
   {
-    "evaluations" : 382,
+    "evaluations" : 389,
     "original" : {
       "p" : "[compact(), compact(), s0 = snapshot(), compact(), s1 = snapshot(), release(s0), get(6), s2 = snapshot(), s3 = snapshot(), get(3), compact(), read(s2, 5), compact(), release(s3), read(s1, 0), compact(), release(s2), read(s1, 7), release(s1), compact(), s4 = snapshot(), compact(), put(6, 0), s5 = snapshot(), read(s4, 6), compact(), read(s5, 2), compact(), put(6, 2), s6 = snapshot(), s7 = snapshot(), compact(), get(1), put(3, 2), s8 = snapshot(), s9 = snapshot(), put(0, 9), compact(), release(s8), compact(), s10 = snapshot(), release(s6), put(0, 2), read(s5, 6), s11 = snapshot(), get(6), get(5)]"
     },
@@ -1075,10 +1075,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.786958
+    "wallMilliseconds" : 9.007625
   },
   {
-    "evaluations" : 130,
+    "evaluations" : 138,
     "original" : {
       "p" : "[s0 = snapshot(), s1 = snapshot(), put(9, 5), put(5, 2), release(s1), compact(), put(0, 6), read(s0, 9), get(1), s2 = snapshot(), s3 = snapshot(), compact(), put(5, 1), put(0, 1), read(s3, 2), get(6), release(s0), s4 = snapshot(), get(6), compact(), s5 = snapshot(), read(s2, 0), compact(), read(s4, 4), compact(), release(s5), get(4), get(1), compact(), release(s3), put(9, 1), release(s2), release(s4), get(4), get(8), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), read(s7, 6), read(s8, 3)]"
     },
@@ -1086,10 +1086,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.494083
+    "wallMilliseconds" : 4.806708
   },
   {
-    "evaluations" : 203,
+    "evaluations" : 236,
     "original" : {
       "p" : "[get(0), get(9), s0 = snapshot(), put(3, 2), put(8, 6), read(s0, 5), put(4, 9), s1 = snapshot(), s2 = snapshot(), compact(), put(9, 3), get(2), compact(), s3 = snapshot(), read(s2, 1), s4 = snapshot(), compact(), get(3), put(4, 8), compact(), get(4), s5 = snapshot(), s6 = snapshot(), compact(), compact(), s7 = snapshot(), s8 = snapshot(), compact(), read(s0, 4), s9 = snapshot(), compact(), put(3, 0), compact(), release(s2), put(8, 5), get(1), get(5), put(2, 3), get(6), put(1, 6), read(s5, 0), compact(), get(4), read(s1, 4), release(s4), release(s0), compact(), release(s7)]"
     },
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.639209
+    "wallMilliseconds" : 7.955584
   }
 ]

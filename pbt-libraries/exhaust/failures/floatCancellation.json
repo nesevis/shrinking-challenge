@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.34689438395)"
     },
-    "wallMilliseconds" : 0.643167
+    "wallMilliseconds" : 0.579333
   },
   {
     "evaluations" : 548,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "(-524287.0322793909, -1.0)"
     },
-    "wallMilliseconds" : 1.075042
+    "wallMilliseconds" : 1.060791
   },
   {
     "evaluations" : 371,
@@ -30,18 +30,18 @@
     "shrunk" : {
       "p" : "(-524287.013651779, -1.0)"
     },
-    "wallMilliseconds" : 0.7105
+    "wallMilliseconds" : 0.696541
   },
   {
-    "evaluations" : 302,
+    "evaluations" : 27242,
     "original" : {
       "p" : "(-94271.89696746873, 826069.7217070954)"
     },
     "seed" : 1340,
     "shrunk" : {
-      "p" : "(-1.046203494130168, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.562209
+    "wallMilliseconds" : 43.580625
   },
   {
     "evaluations" : 785,
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "(-524287.00000000006, -1.0)"
     },
-    "wallMilliseconds" : 1.385459
+    "wallMilliseconds" : 1.492208
   },
   {
     "evaluations" : 328,
@@ -63,29 +63,29 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0002971441)"
     },
-    "wallMilliseconds" : 0.644834
+    "wallMilliseconds" : 0.711667
   },
   {
-    "evaluations" : 142,
+    "evaluations" : 30573,
     "original" : {
       "p" : "(-594667.4039423869, -798878.25771024)"
     },
     "seed" : 1343,
     "shrunk" : {
-      "p" : "(-899909.25771024, -148667.0)"
+      "p" : "(-65535.95360689, -1.0)"
     },
-    "wallMilliseconds" : 0.311542
+    "wallMilliseconds" : 47.473666
   },
   {
-    "evaluations" : 242,
+    "evaluations" : 2049,
     "original" : {
       "p" : "(-236268.33098606288, -860664.1701024866)"
     },
     "seed" : 1344,
     "shrunk" : {
-      "p" : "(-999998.9252833527, -48578.0)"
+      "p" : "(-65535.995330209546, -1.0)"
     },
-    "wallMilliseconds" : 0.528917
+    "wallMilliseconds" : 3.466458
   },
   {
     "evaluations" : 323,
@@ -96,29 +96,29 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0080416501)"
     },
-    "wallMilliseconds" : 0.622459
+    "wallMilliseconds" : 0.677125
   },
   {
-    "evaluations" : 233,
+    "evaluations" : 27173,
     "original" : {
       "p" : "(-172393.91652889253, 971234.9609198708)"
     },
     "seed" : 1346,
     "shrunk" : {
-      "p" : "(-1.7967458367929794, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.458958
+    "wallMilliseconds" : 43.280166
   },
   {
-    "evaluations" : 401,
+    "evaluations" : 29662,
     "original" : {
       "p" : "(266115.0700661628, -913679.1059629059)"
     },
     "seed" : 1347,
     "shrunk" : {
-      "p" : "(1.0026644468889572, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.722
+    "wallMilliseconds" : 46.186417
   },
   {
     "evaluations" : 323,
@@ -129,18 +129,18 @@
     "shrunk" : {
       "p" : "(-524287.02030395163, -1.0)"
     },
-    "wallMilliseconds" : 0.631875
+    "wallMilliseconds" : 0.687166
   },
   {
-    "evaluations" : 141,
+    "evaluations" : 1792,
     "original" : {
       "p" : "(-458093.93846362917, -236505.42624185095)"
     },
     "seed" : 1349,
     "shrunk" : {
-      "p" : "(-406035.93846362917, -118253.0)"
+      "p" : "(-524287.93846362917, -1.0)"
     },
-    "wallMilliseconds" : 0.358167
+    "wallMilliseconds" : 3.272208
   },
   {
     "evaluations" : 256,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.4835949607)"
     },
-    "wallMilliseconds" : 0.59325
+    "wallMilliseconds" : 0.639458
   },
   {
     "evaluations" : 329,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "(-524287.0103373938, -1.0)"
     },
-    "wallMilliseconds" : 0.686083
+    "wallMilliseconds" : 0.736958
   },
   {
     "evaluations" : 553,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.15307603317)"
     },
-    "wallMilliseconds" : 1.025417
+    "wallMilliseconds" : 1.101958
   },
   {
     "evaluations" : 241,
@@ -184,18 +184,18 @@
     "shrunk" : {
       "p" : "(1.0, 524287.04256482614)"
     },
-    "wallMilliseconds" : 0.502917
+    "wallMilliseconds" : 0.545917
   },
   {
-    "evaluations" : 238,
+    "evaluations" : 1926,
     "original" : {
       "p" : "(-726693.1389660108, -934201.9302116551)"
     },
     "seed" : 1354,
     "shrunk" : {
-      "p" : "(-999999.7516358065, -48577.0)"
+      "p" : "(-65535.98447723791, -1.0)"
     },
-    "wallMilliseconds" : 0.529375
+    "wallMilliseconds" : 3.307375
   },
   {
     "evaluations" : 738,
@@ -206,7 +206,7 @@
     "shrunk" : {
       "p" : "(-524287.0083795116, -1.0)"
     },
-    "wallMilliseconds" : 1.336
+    "wallMilliseconds" : 1.477833
   },
   {
     "evaluations" : 354,
@@ -217,40 +217,40 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0069631432)"
     },
-    "wallMilliseconds" : 0.6665
+    "wallMilliseconds" : 0.739167
   },
   {
-    "evaluations" : 345,
+    "evaluations" : 29606,
     "original" : {
       "p" : "(-831417.1190555404, 229373.9915553368)"
     },
     "seed" : 1357,
     "shrunk" : {
-      "p" : "(1.0092094839201309, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.632125
+    "wallMilliseconds" : 47.283625
   },
   {
-    "evaluations" : 229,
+    "evaluations" : 27169,
     "original" : {
       "p" : "(-23936.59260756598, 585422.5651818949)"
     },
     "seed" : 1358,
     "shrunk" : {
-      "p" : "(-1.3935312405810691, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.449209
+    "wallMilliseconds" : 45.411791
   },
   {
-    "evaluations" : 229,
+    "evaluations" : 27169,
     "original" : {
       "p" : "(-57468.64600478968, 640962.7183140849)"
     },
     "seed" : 1359,
     "shrunk" : {
-      "p" : "(-1.4402541909948923, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.443875
+    "wallMilliseconds" : 45.404917
   },
   {
     "evaluations" : 357,
@@ -261,29 +261,29 @@
     "shrunk" : {
       "p" : "(1.0, 524287.00872356823)"
     },
-    "wallMilliseconds" : 0.678625
+    "wallMilliseconds" : 0.774292
   },
   {
-    "evaluations" : 137,
+    "evaluations" : 1846,
     "original" : {
       "p" : "(208381.33482562937, 506402.7322945033)"
     },
     "seed" : 1361,
     "shrunk" : {
-      "p" : "(208381.0, 315907.7322945033)"
+      "p" : "(1.0, 524287.7322945033)"
     },
-    "wallMilliseconds" : 0.335167
+    "wallMilliseconds" : 3.571
   },
   {
-    "evaluations" : 167,
+    "evaluations" : 279,
     "original" : {
       "p" : "(-436436.156182455, -416478.6204867012)"
     },
     "seed" : 1362,
     "shrunk" : {
-      "p" : "(-524285.1438216756, -3.0)"
+      "p" : "(-524287.1438216756, -1.0)"
     },
-    "wallMilliseconds" : 0.399
+    "wallMilliseconds" : 0.692458
   },
   {
     "evaluations" : 359,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.08664071566)"
     },
-    "wallMilliseconds" : 0.709083
+    "wallMilliseconds" : 0.778334
   },
   {
     "evaluations" : 135,
@@ -305,18 +305,18 @@
     "shrunk" : {
       "p" : "(1.0, 524287.3210467499)"
     },
-    "wallMilliseconds" : 0.333208
+    "wallMilliseconds" : 0.376667
   },
   {
-    "evaluations" : 269,
+    "evaluations" : 27209,
     "original" : {
       "p" : "(-55832.97296452598, 873607.6332014487)"
     },
     "seed" : 1365,
     "shrunk" : {
-      "p" : "(-1.7179089245037176, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.508209
+    "wallMilliseconds" : 44.757958
   },
   {
     "evaluations" : 361,
@@ -327,18 +327,18 @@
     "shrunk" : {
       "p" : "(1.0, 524287.14376520744)"
     },
-    "wallMilliseconds" : 0.785583
+    "wallMilliseconds" : 0.752792
   },
   {
-    "evaluations" : 157,
+    "evaluations" : 27097,
     "original" : {
       "p" : "(-255456.10214896227, 913739.8396057033)"
     },
     "seed" : 1367,
     "shrunk" : {
-      "p" : "(-1.1021489622653462, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.37125
+    "wallMilliseconds" : 44.496916
   },
   {
     "evaluations" : 353,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0590821822)"
     },
-    "wallMilliseconds" : 0.7495
+    "wallMilliseconds" : 0.75675
   },
   {
     "evaluations" : 326,
@@ -360,29 +360,29 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0892774836)"
     },
-    "wallMilliseconds" : 0.633417
+    "wallMilliseconds" : 0.697666
   },
   {
-    "evaluations" : 232,
+    "evaluations" : 27172,
     "original" : {
       "p" : "(-280841.6010642669, 816032.5964289834)"
     },
     "seed" : 1370,
     "shrunk" : {
-      "p" : "(-1.400931233598385, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.434125
+    "wallMilliseconds" : 43.832333
   },
   {
-    "evaluations" : 233,
+    "evaluations" : 27173,
     "original" : {
       "p" : "(-110365.11380996794, 750997.7341477408)"
     },
     "seed" : 1371,
     "shrunk" : {
-      "p" : "(-1.1138089057640173, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.444792
+    "wallMilliseconds" : 44.071792
   },
   {
     "evaluations" : 372,
@@ -393,18 +393,18 @@
     "shrunk" : {
       "p" : "(-524287.1143757655, -1.0)"
     },
-    "wallMilliseconds" : 0.698292
+    "wallMilliseconds" : 0.7855
   },
   {
-    "evaluations" : 138,
+    "evaluations" : 1562,
     "original" : {
       "p" : "(469060.2356410785, 217711.80692389235)"
     },
     "seed" : 1373,
     "shrunk" : {
-      "p" : "(217711.0, 306577.2356410785)"
+      "p" : "(1.0, 524287.2356410785)"
     },
-    "wallMilliseconds" : 0.335875
+    "wallMilliseconds" : 2.98125
   },
   {
     "evaluations" : 340,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "(-524287.15731732926, -1.0)"
     },
-    "wallMilliseconds" : 0.664292
+    "wallMilliseconds" : 0.718042
   },
   {
     "evaluations" : 363,
@@ -426,51 +426,51 @@
     "shrunk" : {
       "p" : "(-524287.03288312076, -1.0)"
     },
-    "wallMilliseconds" : 0.700542
+    "wallMilliseconds" : 0.755875
   },
   {
-    "evaluations" : 143,
+    "evaluations" : 1855,
     "original" : {
       "p" : "(439995.76391800324, 423854.2783047126)"
     },
     "seed" : 1376,
     "shrunk" : {
-      "p" : "(211927.0, 312361.76391800324)"
+      "p" : "(1.0, 524287.76391800324)"
     },
-    "wallMilliseconds" : 0.371083
+    "wallMilliseconds" : 3.512583
   },
   {
-    "evaluations" : 145,
+    "evaluations" : 37015,
     "original" : {
       "p" : "(-961564.889455679, -731001.0257657673)"
     },
     "seed" : 1377,
     "shrunk" : {
-      "p" : "(-683075.889455679, -365501.0)"
+      "p" : "(-65535.99309097994, -1.0)"
     },
-    "wallMilliseconds" : 0.325833
+    "wallMilliseconds" : 57.298042
   },
   {
-    "evaluations" : 203,
+    "evaluations" : 1891,
     "original" : {
       "p" : "(-602455.7467483458, -802724.8504169111)"
     },
     "seed" : 1378,
     "shrunk" : {
-      "p" : "(-999999.9596647498, -48577.0)"
+      "p" : "(-65535.99747904686, -1.0)"
     },
-    "wallMilliseconds" : 0.481208
+    "wallMilliseconds" : 3.2255
   },
   {
-    "evaluations" : 242,
+    "evaluations" : 1921,
     "original" : {
       "p" : "(-749627.702654075, -824198.4940127986)"
     },
     "seed" : 1379,
     "shrunk" : {
-      "p" : "(-999999.9781716728, -48577.0)"
+      "p" : "(-65535.99863572955, -1.0)"
     },
-    "wallMilliseconds" : 0.51
+    "wallMilliseconds" : 3.228042
   },
   {
     "evaluations" : 350,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0451223497)"
     },
-    "wallMilliseconds" : 0.66775
+    "wallMilliseconds" : 0.711667
   },
   {
     "evaluations" : 782,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "(-524287.07006778946, -1.0)"
     },
-    "wallMilliseconds" : 1.4395
+    "wallMilliseconds" : 1.523584
   },
   {
     "evaluations" : 254,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "(-524287.00983189425, -1.0)"
     },
-    "wallMilliseconds" : 0.521583
+    "wallMilliseconds" : 0.564959
   },
   {
     "evaluations" : 202,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "(-524287.5505818347, -1.0)"
     },
-    "wallMilliseconds" : 0.507375
+    "wallMilliseconds" : 0.520875
   },
   {
     "evaluations" : 191,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "(-524287.2516563903, -1.0)"
     },
-    "wallMilliseconds" : 0.439708
+    "wallMilliseconds" : 0.468625
   },
   {
     "evaluations" : 369,
@@ -536,40 +536,40 @@
     "shrunk" : {
       "p" : "(-524287.039631093, -1.0)"
     },
-    "wallMilliseconds" : 0.816542
+    "wallMilliseconds" : 0.743125
   },
   {
-    "evaluations" : 194,
+    "evaluations" : 1873,
     "original" : {
       "p" : "(-885410.508263123, -317586.9084410259)"
     },
     "seed" : 1386,
     "shrunk" : {
-      "p" : "(-999999.9931839445, -48577.0)"
+      "p" : "(-65535.99957399653, -1.0)"
     },
-    "wallMilliseconds" : 0.487959
+    "wallMilliseconds" : 3.144042
   },
   {
-    "evaluations" : 235,
+    "evaluations" : 27175,
     "original" : {
       "p" : "(-65482.15354456351, 722211.7518366142)"
     },
     "seed" : 1387,
     "shrunk" : {
-      "p" : "(-1.1354852263466455, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.451333
+    "wallMilliseconds" : 43.628708
   },
   {
-    "evaluations" : 204,
+    "evaluations" : 1892,
     "original" : {
       "p" : "(-921726.7582622764, -886657.4159404844)"
     },
     "seed" : 1388,
     "shrunk" : {
-      "p" : "(-999999.8894184887, -48577.0)"
+      "p" : "(-65535.993088655545, -1.0)"
     },
-    "wallMilliseconds" : 0.482541
+    "wallMilliseconds" : 3.19925
   },
   {
     "evaluations" : 358,
@@ -580,18 +580,18 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0703905691)"
     },
-    "wallMilliseconds" : 0.697375
+    "wallMilliseconds" : 0.74425
   },
   {
-    "evaluations" : 146,
+    "evaluations" : 27864,
     "original" : {
       "p" : "(-895839.2418252536, -832157.0038794987)"
     },
     "seed" : 1390,
     "shrunk" : {
-      "p" : "(-632497.2418252536, -416079.0)"
+      "p" : "(-65535.95261407835, -1.0)"
     },
-    "wallMilliseconds" : 0.373458
+    "wallMilliseconds" : 42.892833
   },
   {
     "evaluations" : 477,
@@ -602,40 +602,40 @@
     "shrunk" : {
       "p" : "(-524287.0099332855, -1.0)"
     },
-    "wallMilliseconds" : 0.935292
+    "wallMilliseconds" : 1.014375
   },
   {
-    "evaluations" : 274,
+    "evaluations" : 29535,
     "original" : {
       "p" : "(-951071.5282000155, 167856.727333354)"
     },
     "seed" : 1392,
     "shrunk" : {
-      "p" : "(1.5114166662679054, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.525042
+    "wallMilliseconds" : 46.358209
   },
   {
-    "evaluations" : 238,
+    "evaluations" : 1926,
     "original" : {
       "p" : "(-905079.6784252748, -226455.69174733234)"
     },
     "seed" : 1393,
     "shrunk" : {
-      "p" : "(-999999.7584702767, -48577.0)"
+      "p" : "(-65535.984904392295, -1.0)"
     },
-    "wallMilliseconds" : 0.543625
+    "wallMilliseconds" : 3.3735
   },
   {
-    "evaluations" : 132,
+    "evaluations" : 830,
     "original" : {
       "p" : "(403471.53089995816, 137793.46307964693)"
     },
     "seed" : 1394,
     "shrunk" : {
-      "p" : "(137793.0, 386495.53089995816)"
+      "p" : "(1.0, 524287.53089995816)"
     },
-    "wallMilliseconds" : 0.326875
+    "wallMilliseconds" : 1.663833
   },
   {
     "evaluations" : 459,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.00740351534)"
     },
-    "wallMilliseconds" : 0.876584
+    "wallMilliseconds" : 0.976917
   },
   {
     "evaluations" : 379,
@@ -657,29 +657,29 @@
     "shrunk" : {
       "p" : "(-524287.00797905686, -1.0)"
     },
-    "wallMilliseconds" : 0.840958
+    "wallMilliseconds" : 0.818708
   },
   {
-    "evaluations" : 129,
+    "evaluations" : 14155,
     "original" : {
       "p" : "(-842796.223055313, -674878.4695722596)"
     },
     "seed" : 1397,
     "shrunk" : {
-      "p" : "(-674879.0, -373697.223055313)"
+      "p" : "(-65535.95144095706, -1.0)"
     },
-    "wallMilliseconds" : 0.298917
+    "wallMilliseconds" : 22.78175
   },
   {
-    "evaluations" : 302,
+    "evaluations" : 27242,
     "original" : {
       "p" : "(-231659.30584648665, 761835.2782042213)"
     },
     "seed" : 1398,
     "shrunk" : {
-      "p" : "(-1.017881695239339, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.5735
+    "wallMilliseconds" : 44.77325
   },
   {
     "evaluations" : 338,
@@ -690,62 +690,62 @@
     "shrunk" : {
       "p" : "(-524287.12592175795, -1.0)"
     },
-    "wallMilliseconds" : 0.647583
+    "wallMilliseconds" : 0.714875
   },
   {
-    "evaluations" : 341,
+    "evaluations" : 29602,
     "original" : {
       "p" : "(209661.09165229072, -831856.7450762908)"
     },
     "seed" : 1400,
     "shrunk" : {
-      "p" : "(1.0061631501303054, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.612292
+    "wallMilliseconds" : 47.171167
   },
   {
-    "evaluations" : 139,
+    "evaluations" : 26518,
     "original" : {
       "p" : "(-910071.82168821, -359242.47030681226)"
     },
     "seed" : 1401,
     "shrunk" : {
-      "p" : "(-689333.82168821, -359243.0)"
+      "p" : "(-65535.988855513126, -1.0)"
     },
-    "wallMilliseconds" : 0.342916
+    "wallMilliseconds" : 41.271083
   },
   {
-    "evaluations" : 269,
+    "evaluations" : 29530,
     "original" : {
       "p" : "(105365.52138358116, -976325.4402940442)"
     },
     "seed" : 1402,
     "shrunk" : {
-      "p" : "(1.1410375498817302, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.518292
+    "wallMilliseconds" : 46.244416
   },
   {
-    "evaluations" : 237,
+    "evaluations" : 29498,
     "original" : {
       "p" : "(174971.45054831047, -746140.5175048319)"
     },
     "seed" : 1403,
     "shrunk" : {
-      "p" : "(1.4052186757908203, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.463667
+    "wallMilliseconds" : 46.024459
   },
   {
-    "evaluations" : 134,
+    "evaluations" : 35905,
     "original" : {
       "p" : "(-887263.1819706337, -213245.8419330435)"
     },
     "seed" : 1404,
     "shrunk" : {
-      "p" : "(-941953.1819706337, -106623.0)"
+      "p" : "(-65535.948873164605, -1.0)"
     },
-    "wallMilliseconds" : 0.304167
+    "wallMilliseconds" : 55.534833
   },
   {
     "evaluations" : 377,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.10598527844)"
     },
-    "wallMilliseconds" : 0.814292
+    "wallMilliseconds" : 0.871417
   },
   {
     "evaluations" : 408,
@@ -767,18 +767,18 @@
     "shrunk" : {
       "p" : "(-524287.0787211825, -1.0)"
     },
-    "wallMilliseconds" : 0.763375
+    "wallMilliseconds" : 0.832917
   },
   {
-    "evaluations" : 129,
+    "evaluations" : 53559,
     "original" : {
       "p" : "(-938456.7254250387, -988343.385050228)"
     },
     "seed" : 1407,
     "shrunk" : {
-      "p" : "(-938457.0, -110119.38505022798)"
+      "p" : "(-65535.96156563925, -1.0)"
     },
-    "wallMilliseconds" : 0.292208
+    "wallMilliseconds" : 83.397583
   },
   {
     "evaluations" : 494,
@@ -789,29 +789,29 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0180380755)"
     },
-    "wallMilliseconds" : 0.952084
+    "wallMilliseconds" : 1.000666
   },
   {
-    "evaluations" : 143,
+    "evaluations" : 912,
     "original" : {
       "p" : "(-475883.9292787704, -286801.4853320932)"
     },
     "seed" : 1409,
     "shrunk" : {
-      "p" : "(-380887.9292787704, -143401.0)"
+      "p" : "(-524287.9292787704, -1.0)"
     },
-    "wallMilliseconds" : 0.399417
+    "wallMilliseconds" : 1.753709
   },
   {
-    "evaluations" : 137,
+    "evaluations" : 15136,
     "original" : {
       "p" : "(-583604.003565715, -506261.1624012217)"
     },
     "seed" : 1410,
     "shrunk" : {
-      "p" : "(-795445.003565715, -253131.0)"
+      "p" : "(-65535.93772285719, -1.0)"
     },
-    "wallMilliseconds" : 0.358292
+    "wallMilliseconds" : 23.550208
   },
   {
     "evaluations" : 370,
@@ -822,18 +822,18 @@
     "shrunk" : {
       "p" : "(-524287.0082687997, -1.0)"
     },
-    "wallMilliseconds" : 0.713209
+    "wallMilliseconds" : 0.75975
   },
   {
-    "evaluations" : 127,
+    "evaluations" : 23611,
     "original" : {
       "p" : "(-864362.2925259644, -318068.10772843036)"
     },
     "seed" : 1412,
     "shrunk" : {
-      "p" : "(-730507.2925259644, -318069.0)"
+      "p" : "(-65535.95578287278, -1.0)"
     },
-    "wallMilliseconds" : 0.297875
+    "wallMilliseconds" : 37.28525
   },
   {
     "evaluations" : 249,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "(-524287.21921114816, -1.0)"
     },
-    "wallMilliseconds" : 0.5145
+    "wallMilliseconds" : 0.567375
   },
   {
     "evaluations" : 914,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "(-524287.01282408094, -1.0)"
     },
-    "wallMilliseconds" : 1.689959
+    "wallMilliseconds" : 1.864875
   },
   {
     "evaluations" : 579,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "(-524287.02251386276, -1.0)"
     },
-    "wallMilliseconds" : 1.078291
+    "wallMilliseconds" : 1.160334
   },
   {
     "evaluations" : 365,
@@ -877,40 +877,40 @@
     "shrunk" : {
       "p" : "(-524287.20583582023, -1.0)"
     },
-    "wallMilliseconds" : 0.70125
+    "wallMilliseconds" : 0.750833
   },
   {
-    "evaluations" : 135,
+    "evaluations" : 1399,
     "original" : {
       "p" : "(187539.88547726138, 452414.15520127484)"
     },
     "seed" : 1417,
     "shrunk" : {
-      "p" : "(187539.0, 336749.15520127484)"
+      "p" : "(1.0, 524287.15520127484)"
     },
-    "wallMilliseconds" : 0.328291
+    "wallMilliseconds" : 2.686833
   },
   {
-    "evaluations" : 307,
+    "evaluations" : 29568,
     "original" : {
       "p" : "(268976.55608742574, -943912.9556129331)"
     },
     "seed" : 1418,
     "shrunk" : {
-      "p" : "(1.5313932449207641, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.572125
+    "wallMilliseconds" : 47.076667
   },
   {
-    "evaluations" : 229,
+    "evaluations" : 1917,
     "original" : {
       "p" : "(-831142.9237278025, -620866.7704230727)"
     },
     "seed" : 1419,
     "shrunk" : {
-      "p" : "(-999999.9896741839, -48577.0)"
+      "p" : "(-65535.99935463649, -1.0)"
     },
-    "wallMilliseconds" : 0.525542
+    "wallMilliseconds" : 3.381083
   },
   {
     "evaluations" : 1029,
@@ -921,29 +921,29 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0015328527)"
     },
-    "wallMilliseconds" : 1.816042
+    "wallMilliseconds" : 2.014209
   },
   {
-    "evaluations" : 130,
+    "evaluations" : 29319,
     "original" : {
       "p" : "(-937625.6270348212, -924142.5932167482)"
     },
     "seed" : 1421,
     "shrunk" : {
-      "p" : "(-924143.0, -124433.6270348212)"
+      "p" : "(-65535.976689676325, -1.0)"
     },
-    "wallMilliseconds" : 0.294125
+    "wallMilliseconds" : 45.261583
   },
   {
-    "evaluations" : 135,
+    "evaluations" : 14387,
     "original" : {
       "p" : "(-924730.1687875394, -222470.1477693878)"
     },
     "seed" : 1422,
     "shrunk" : {
-      "p" : "(-826105.1687875394, -222471.0)"
+      "p" : "(-65535.94804922121, -1.0)"
     },
-    "wallMilliseconds" : 0.339375
+    "wallMilliseconds" : 22.397375
   },
   {
     "evaluations" : 367,
@@ -954,18 +954,18 @@
     "shrunk" : {
       "p" : "(-524287.03518684773, -1.0)"
     },
-    "wallMilliseconds" : 0.687292
+    "wallMilliseconds" : 0.749458
   },
   {
-    "evaluations" : 217,
+    "evaluations" : 2026,
     "original" : {
       "p" : "(-458975.24541654054, -648255.5295903727)"
     },
     "seed" : 1424,
     "shrunk" : {
-      "p" : "(-999998.8005905709, -48578.0)"
+      "p" : "(-65535.98753691068, -1.0)"
     },
-    "wallMilliseconds" : 0.481208
+    "wallMilliseconds" : 3.418959
   },
   {
     "evaluations" : 340,
@@ -976,29 +976,29 @@
     "shrunk" : {
       "p" : "(-524287.0405281783, -1.0)"
     },
-    "wallMilliseconds" : 0.636333
+    "wallMilliseconds" : 0.696375
   },
   {
-    "evaluations" : 269,
+    "evaluations" : 29530,
     "original" : {
       "p" : "(88055.0624330765, -616420.72335796)"
     },
     "seed" : 1426,
     "shrunk" : {
-      "p" : "(1.0279756561503746, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.508209
+    "wallMilliseconds" : 45.973583
   },
   {
-    "evaluations" : 141,
+    "evaluations" : 40184,
     "original" : {
       "p" : "(-614679.2641722499, -904943.7834679646)"
     },
     "seed" : 1427,
     "shrunk" : {
-      "p" : "(-971741.7834679646, -76835.0)"
+      "p" : "(-65535.98646674779, -1.0)"
     },
-    "wallMilliseconds" : 0.340083
+    "wallMilliseconds" : 62.766375
   },
   {
     "evaluations" : 432,
@@ -1009,18 +1009,18 @@
     "shrunk" : {
       "p" : "(-524287.0031257305, -1.0)"
     },
-    "wallMilliseconds" : 0.802084
+    "wallMilliseconds" : 1.025709
   },
   {
-    "evaluations" : 241,
+    "evaluations" : 1920,
     "original" : {
       "p" : "(-926307.9855169929, -837726.2438834623)"
     },
     "seed" : 1429,
     "shrunk" : {
-      "p" : "(-999999.5073338911, -48577.0)"
+      "p" : "(-65535.969208368195, -1.0)"
     },
-    "wallMilliseconds" : 0.514625
+    "wallMilliseconds" : 3.768542
   },
   {
     "evaluations" : 322,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "(1.0, 524287.1252176464)"
     },
-    "wallMilliseconds" : 0.638917
+    "wallMilliseconds" : 0.806333
   },
   {
     "evaluations" : 816,
@@ -1042,18 +1042,18 @@
     "shrunk" : {
       "p" : "(-524287.0004960299, -1.0)"
     },
-    "wallMilliseconds" : 1.516458
+    "wallMilliseconds" : 1.924084
   },
   {
-    "evaluations" : 266,
+    "evaluations" : 29527,
     "original" : {
       "p" : "(117284.53485609539, -732791.47568946)"
     },
     "seed" : 1432,
     "shrunk" : {
-      "p" : "(1.151139875932131, -524290.0)"
+      "p" : "(-65535.93750000001, -1.0)"
     },
-    "wallMilliseconds" : 0.539375
+    "wallMilliseconds" : 54.051375
   },
   {
     "evaluations" : 124,
@@ -1064,18 +1064,18 @@
     "shrunk" : {
       "p" : "(1.0, 524287.723736647)"
     },
-    "wallMilliseconds" : 0.402625
+    "wallMilliseconds" : 0.426125
   },
   {
-    "evaluations" : 235,
+    "evaluations" : 27175,
     "original" : {
       "p" : "(-162020.97821209632, 769887.2745709154)"
     },
     "seed" : 1434,
     "shrunk" : {
-      "p" : "(-1.7270718888030387, 524290.0)"
+      "p" : "(1.0, 65535.93750000001)"
     },
-    "wallMilliseconds" : 0.526875
+    "wallMilliseconds" : 45.87825
   },
   {
     "evaluations" : 414,
@@ -1086,17 +1086,17 @@
     "shrunk" : {
       "p" : "(1.0, 524287.0323876311)"
     },
-    "wallMilliseconds" : 0.8165
+    "wallMilliseconds" : 0.849292
   },
   {
-    "evaluations" : 138,
+    "evaluations" : 240,
     "original" : {
       "p" : "(-274089.0305052306, -350050.50846383057)"
     },
     "seed" : 1436,
     "shrunk" : {
-      "p" : "(-524285.3718438765, -3.0)"
+      "p" : "(-524287.3718438765, -1.0)"
     },
-    "wallMilliseconds" : 0.35225
+    "wallMilliseconds" : 0.589959
   }
 ]

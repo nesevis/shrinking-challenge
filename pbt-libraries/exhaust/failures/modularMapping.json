@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.088917
+    "wallMilliseconds" : 0.0695
   },
   {
     "evaluations" : 29,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.060708
+    "wallMilliseconds" : 0.068625
   },
   {
     "evaluations" : 15,
@@ -30,7 +30,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.042667
+    "wallMilliseconds" : 0.05
   },
   {
     "evaluations" : 18,
@@ -41,7 +41,7 @@
     "shrunk" : {
       "p" : "906"
     },
-    "wallMilliseconds" : 0.043458
+    "wallMilliseconds" : 0.050541
   },
   {
     "evaluations" : 17,
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.042917
+    "wallMilliseconds" : 0.047959
   },
   {
     "evaluations" : 15,
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.034709
+    "wallMilliseconds" : 0.041083
   },
   {
     "evaluations" : 15,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.038208
+    "wallMilliseconds" : 0.045417
   },
   {
     "evaluations" : 14,
@@ -85,7 +85,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.036333
+    "wallMilliseconds" : 0.0435
   },
   {
     "evaluations" : 27,
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.052667
+    "wallMilliseconds" : 0.0595
   },
   {
     "evaluations" : 17,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "910"
     },
-    "wallMilliseconds" : 0.034083
+    "wallMilliseconds" : 0.039875
   },
   {
     "evaluations" : 29,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.056959
+    "wallMilliseconds" : 0.064292
   },
   {
     "evaluations" : 15,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.030375
+    "wallMilliseconds" : 0.03625
   },
   {
     "evaluations" : 16,
@@ -140,7 +140,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.037584
+    "wallMilliseconds" : 0.044708
   },
   {
     "evaluations" : 15,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.037416
+    "wallMilliseconds" : 0.044333
   },
   {
     "evaluations" : 15,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.039083
+    "wallMilliseconds" : 0.04825
   },
   {
     "evaluations" : 28,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.05175
+    "wallMilliseconds" : 0.066125
   },
   {
     "evaluations" : 15,
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.040542
+    "wallMilliseconds" : 0.053291
   },
   {
     "evaluations" : 16,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.0375
+    "wallMilliseconds" : 0.049791
   },
   {
     "evaluations" : 14,
@@ -206,7 +206,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.031125
+    "wallMilliseconds" : 0.041
   },
   {
     "evaluations" : 17,
@@ -217,7 +217,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.038042
+    "wallMilliseconds" : 0.050375
   },
   {
     "evaluations" : 16,
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.038125
+    "wallMilliseconds" : 0.052834
   },
   {
     "evaluations" : 14,
@@ -239,7 +239,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.047709
+    "wallMilliseconds" : 0.050125
   },
   {
     "evaluations" : 14,
@@ -250,7 +250,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.036166
+    "wallMilliseconds" : 0.042917
   },
   {
     "evaluations" : 15,
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.036375
+    "wallMilliseconds" : 0.043833
   },
   {
     "evaluations" : 14,
@@ -272,7 +272,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.040834
+    "wallMilliseconds" : 0.047916
   },
   {
     "evaluations" : 30,
@@ -283,7 +283,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.054625
+    "wallMilliseconds" : 0.063083
   },
   {
     "evaluations" : 14,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.035083
+    "wallMilliseconds" : 0.043209
   },
   {
     "evaluations" : 15,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "932"
     },
-    "wallMilliseconds" : 0.036083
+    "wallMilliseconds" : 0.044875
   },
   {
     "evaluations" : 14,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.029666
+    "wallMilliseconds" : 0.039792
   },
   {
     "evaluations" : 17,
@@ -327,7 +327,7 @@
     "shrunk" : {
       "p" : "926"
     },
-    "wallMilliseconds" : 0.040292
+    "wallMilliseconds" : 0.049375
   },
   {
     "evaluations" : 18,
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "904"
     },
-    "wallMilliseconds" : 0.040334
+    "wallMilliseconds" : 0.051708
   },
   {
     "evaluations" : 15,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.046625
+    "wallMilliseconds" : 0.050375
   },
   {
     "evaluations" : 17,
@@ -360,7 +360,7 @@
     "shrunk" : {
       "p" : "910"
     },
-    "wallMilliseconds" : 0.040334
+    "wallMilliseconds" : 0.045375
   },
   {
     "evaluations" : 18,
@@ -371,7 +371,7 @@
     "shrunk" : {
       "p" : "906"
     },
-    "wallMilliseconds" : 0.038416
+    "wallMilliseconds" : 0.045833
   },
   {
     "evaluations" : 13,
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.035
+    "wallMilliseconds" : 0.041917
   },
   {
     "evaluations" : 27,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.051
+    "wallMilliseconds" : 0.063208
   },
   {
     "evaluations" : 12,
@@ -404,7 +404,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.034708
+    "wallMilliseconds" : 0.046041
   },
   {
     "evaluations" : 15,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "932"
     },
-    "wallMilliseconds" : 0.036667
+    "wallMilliseconds" : 0.049083
   },
   {
     "evaluations" : 17,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "910"
     },
-    "wallMilliseconds" : 0.038042
+    "wallMilliseconds" : 0.050292
   },
   {
     "evaluations" : 16,
@@ -437,7 +437,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.036791
+    "wallMilliseconds" : 0.04875
   },
   {
     "evaluations" : 13,
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.0345
+    "wallMilliseconds" : 0.046209
   },
   {
     "evaluations" : 15,
@@ -459,7 +459,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.041
+    "wallMilliseconds" : 0.049791
   },
   {
     "evaluations" : 16,
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.041333
+    "wallMilliseconds" : 0.047208
   },
   {
     "evaluations" : 31,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.057625
+    "wallMilliseconds" : 0.063
   },
   {
     "evaluations" : 18,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "931"
     },
-    "wallMilliseconds" : 0.051792
+    "wallMilliseconds" : 0.047458
   },
   {
     "evaluations" : 13,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.039667
+    "wallMilliseconds" : 0.044708
   },
   {
     "evaluations" : 31,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.056542
+    "wallMilliseconds" : 0.069542
   },
   {
     "evaluations" : 13,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.034666
+    "wallMilliseconds" : 0.046542
   },
   {
     "evaluations" : 29,
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.052958
+    "wallMilliseconds" : 0.067292
   },
   {
     "evaluations" : 17,
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.039125
+    "wallMilliseconds" : 0.052
   },
   {
     "evaluations" : 13,
@@ -558,7 +558,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.034125
+    "wallMilliseconds" : 0.045709
   },
   {
     "evaluations" : 16,
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.0365
+    "wallMilliseconds" : 0.044791
   },
   {
     "evaluations" : 15,
@@ -580,7 +580,7 @@
     "shrunk" : {
       "p" : "932"
     },
-    "wallMilliseconds" : 0.040459
+    "wallMilliseconds" : 0.046541
   },
   {
     "evaluations" : 27,
@@ -591,7 +591,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.053459
+    "wallMilliseconds" : 0.057208
   },
   {
     "evaluations" : 16,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.040166
+    "wallMilliseconds" : 0.045042
   },
   {
     "evaluations" : 17,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "922"
     },
-    "wallMilliseconds" : 0.039292
+    "wallMilliseconds" : 0.051583
   },
   {
     "evaluations" : 30,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.053375
+    "wallMilliseconds" : 0.067458
   },
   {
     "evaluations" : 17,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.038875
+    "wallMilliseconds" : 0.051042
   },
   {
     "evaluations" : 16,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.039084
+    "wallMilliseconds" : 0.051583
   },
   {
     "evaluations" : 15,
@@ -657,7 +657,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.036041
+    "wallMilliseconds" : 0.047709
   },
   {
     "evaluations" : 17,
@@ -668,7 +668,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.039375
+    "wallMilliseconds" : 0.049167
   },
   {
     "evaluations" : 14,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.031542
+    "wallMilliseconds" : 0.037042
   },
   {
     "evaluations" : 15,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.037709
+    "wallMilliseconds" : 0.044333
   },
   {
     "evaluations" : 15,
@@ -701,7 +701,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.039208
+    "wallMilliseconds" : 0.052417
   },
   {
     "evaluations" : 17,
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "906"
     },
-    "wallMilliseconds" : 0.0335
+    "wallMilliseconds" : 0.038625
   },
   {
     "evaluations" : 27,
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.052042
+    "wallMilliseconds" : 0.065167
   },
   {
     "evaluations" : 18,
@@ -734,7 +734,7 @@
     "shrunk" : {
       "p" : "927"
     },
-    "wallMilliseconds" : 0.039833
+    "wallMilliseconds" : 0.052291
   },
   {
     "evaluations" : 16,
@@ -745,7 +745,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.038334
+    "wallMilliseconds" : 0.050208
   },
   {
     "evaluations" : 15,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.038375
+    "wallMilliseconds" : 0.049708
   },
   {
     "evaluations" : 15,
@@ -767,7 +767,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.031625
+    "wallMilliseconds" : 0.041375
   },
   {
     "evaluations" : 16,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.037875
+    "wallMilliseconds" : 0.049167
   },
   {
     "evaluations" : 16,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.038542
+    "wallMilliseconds" : 0.045084
   },
   {
     "evaluations" : 16,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "901"
     },
-    "wallMilliseconds" : 0.037459
+    "wallMilliseconds" : 0.043625
   },
   {
     "evaluations" : 16,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.038208
+    "wallMilliseconds" : 0.050167
   },
   {
     "evaluations" : 15,
@@ -822,7 +822,7 @@
     "shrunk" : {
       "p" : "905"
     },
-    "wallMilliseconds" : 0.033709
+    "wallMilliseconds" : 0.041875
   },
   {
     "evaluations" : 16,
@@ -833,7 +833,7 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.037667
+    "wallMilliseconds" : 0.049166
   },
   {
     "evaluations" : 13,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.035958
+    "wallMilliseconds" : 0.047333
   },
   {
     "evaluations" : 17,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "902"
     },
-    "wallMilliseconds" : 0.038708
+    "wallMilliseconds" : 0.052333
   },
   {
     "evaluations" : 14,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.033333
+    "wallMilliseconds" : 0.040125
   },
   {
     "evaluations" : 16,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.038166
+    "wallMilliseconds" : 0.049208
   },
   {
     "evaluations" : 14,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.038958
+    "wallMilliseconds" : 0.048375
   },
   {
     "evaluations" : 17,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "910"
     },
-    "wallMilliseconds" : 0.046375
+    "wallMilliseconds" : 0.049625
   },
   {
     "evaluations" : 29,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.053208
+    "wallMilliseconds" : 0.060125
   },
   {
     "evaluations" : 17,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "910"
     },
-    "wallMilliseconds" : 0.038
+    "wallMilliseconds" : 0.04825
   },
   {
     "evaluations" : 17,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "926"
     },
-    "wallMilliseconds" : 0.040333
+    "wallMilliseconds" : 0.051625
   },
   {
     "evaluations" : 16,
@@ -943,7 +943,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.037791
+    "wallMilliseconds" : 0.049208
   },
   {
     "evaluations" : 17,
@@ -954,7 +954,7 @@
     "shrunk" : {
       "p" : "902"
     },
-    "wallMilliseconds" : 0.037375
+    "wallMilliseconds" : 0.049084
   },
   {
     "evaluations" : 15,
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.03675
+    "wallMilliseconds" : 0.04825
   },
   {
     "evaluations" : 14,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "921"
     },
-    "wallMilliseconds" : 0.036959
+    "wallMilliseconds" : 0.04825
   },
   {
     "evaluations" : 17,
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.038792
+    "wallMilliseconds" : 0.050333
   },
   {
     "evaluations" : 17,
@@ -998,7 +998,7 @@
     "shrunk" : {
       "p" : "918"
     },
-    "wallMilliseconds" : 0.037667
+    "wallMilliseconds" : 0.049417
   },
   {
     "evaluations" : 32,
@@ -1009,7 +1009,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.061125
+    "wallMilliseconds" : 0.062459
   },
   {
     "evaluations" : 17,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "934"
     },
-    "wallMilliseconds" : 0.040375
+    "wallMilliseconds" : 0.047166
   },
   {
     "evaluations" : 15,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.035667
+    "wallMilliseconds" : 0.047666
   },
   {
     "evaluations" : 14,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.028917
+    "wallMilliseconds" : 0.038291
   },
   {
     "evaluations" : 16,
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "913"
     },
-    "wallMilliseconds" : 0.038917
+    "wallMilliseconds" : 0.051208
   },
   {
     "evaluations" : 15,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.036833
+    "wallMilliseconds" : 0.048417
   },
   {
     "evaluations" : 14,
@@ -1075,7 +1075,7 @@
     "shrunk" : {
       "p" : "917"
     },
-    "wallMilliseconds" : 0.037125
+    "wallMilliseconds" : 0.049041
   },
   {
     "evaluations" : 27,
@@ -1086,7 +1086,7 @@
     "shrunk" : {
       "p" : "925"
     },
-    "wallMilliseconds" : 0.052375
+    "wallMilliseconds" : 0.070709
   },
   {
     "evaluations" : 14,
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "909"
     },
-    "wallMilliseconds" : 0.028667
+    "wallMilliseconds" : 0.039042
   }
 ]

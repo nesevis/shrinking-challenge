@@ -1,34 +1,34 @@
 # Nested Flatmap (product sequence), depth 4
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/depthFourProductSequenceBind.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/depthFourProductSequenceBind.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 297.5 | 213.0 |
+| Reduction invocations | 304.6 | 213.0 |
 | Original input length | 1107.9 | 374.5 |
-| Wall time (ms) | 63.352 | 35.358 |
-| generation (ms) | 0.107 | 0.042 |
-| reductions (ms) | 63.120 | 35.180 |
-| total (ms) | 63.336 | 35.344 |
+| Wall time (ms) | 44.440 | 9.695 |
+| Wall time, Linux/Windows build (ms) | 301.598 | 72.513 |
+| generation (ms) | 0.103 | 0.040 |
+| reductions (ms) | 44.210 | 9.500 |
+| total (ms) | 44.429 | 9.686 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/depthFourProductSequenceBind.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
-## Counterexamples (7 distinct)
+## Counterexamples (4 distinct)
 
 | Share | Counterexample |
 |---|---|
-| 83% | 🎯 `(3, 2, 2, 2, 0x23 + 1x1)` |
+| 89% | 🎯 `(3, 2, 2, 2, 0x23 + 1x1)` |
 | 9% | `(3, 3, 3, 1, 0x26 + 1x1)` |
-| 3% | `(9, 3, 1, 1, 0x26 + 1x1)` |
-| 2% | `(9, 4, 1, 1, 0x35 + 1x1)` |
+| 1% | `(9, 3, 1, 1, 0x26 + 1x1)` |
 | 1% | `(7, 2, 2, 1, 0x27 + 1x1)` |
-| 1% | `(8, 2, 2, 1, 0x31 + 1x1)` |
-| 1% | `(10, 3, 1, 1, 0x29 + 1x1)` |
 
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge depthFourProductSequenceBind --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge depthFourProductSequenceBind --iterations 100 --seed 1337 --report-path ../failures
 ```

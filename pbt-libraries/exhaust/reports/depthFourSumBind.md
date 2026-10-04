@@ -1,17 +1,20 @@
 # Nested Flatmap (sum), depth 4
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/depthFourSumBind.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/depthFourSumBind.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
 | Reduction invocations | 734.4 | 530.5 |
 | Original input length | 344.8 | 339.5 |
-| Wall time (ms) | 37.062 | 36.665 |
-| generation (ms) | 0.049 | 0.050 |
-| reductions (ms) | 36.880 | 36.490 |
-| total (ms) | 37.043 | 36.646 |
+| Wall time (ms) | 18.932 | 14.282 |
+| Wall time, Linux/Windows build (ms) | 205.388 | 120.497 |
+| generation (ms) | 0.041 | 0.040 |
+| reductions (ms) | 18.760 | 14.120 |
+| total (ms) | 18.919 | 14.271 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/depthFourSumBind.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
@@ -24,5 +27,5 @@ The main README adds the original failing call to generated-run evaluation count
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge depthFourSumBind --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge depthFourSumBind --iterations 100 --seed 1337 --report-path ../failures
 ```

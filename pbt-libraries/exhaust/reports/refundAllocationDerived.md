@@ -1,17 +1,20 @@
 # Refund Allocation (derived)
 
-Exhaust 1.5.5, release build. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/refundAllocationDerived.json). Dependency revision: `c7dbb96f2c713e463cd284b41db92d478799b61c`.
+[Raw results](../failures/refundAllocationDerived.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
 | Reduction invocations | 9133.6 | 768.5 |
 | Original input length | 55.6 | 53.0 |
-| Wall time (ms) | 31.350 | 3.349 |
-| generation (ms) | 0.122 | 0.071 |
-| reductions (ms) | 31.110 | 3.130 |
-| total (ms) | 31.338 | 3.338 |
+| Wall time (ms) | 39.102 | 4.261 |
+| Wall time, Linux/Windows build (ms) | 123.028 | 12.804 |
+| generation (ms) | 0.144 | 0.087 |
+| reductions (ms) | 38.840 | 4.050 |
+| total (ms) | 39.091 | 4.251 |
+
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/refundAllocationDerived.json)).
 
 The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
 
@@ -29,5 +32,5 @@ The main README adds the original failing call to generated-run evaluation count
 ## Running
 
 ```sh
-swift run -c release ExhaustRunner --challenge refundAllocationDerived --iterations 100 --seed 1337 --report-path ../failures
+swift run ExhaustRunner --challenge refundAllocationDerived --iterations 100 --seed 1337 --report-path ../failures
 ```
