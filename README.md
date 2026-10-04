@@ -1,12 +1,27 @@
-# Shrinking Challenge: Hypothesis vs Exhaust vs Hegel
+# Ad hoc shrinking challenge: Hypothesis vs Exhaust vs Hegel
 
-A comparison of [Hypothesis](/pbt-libraries/hypothesis/README.md) 6.168.3, [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.6, and [Hegel](/pbt-libraries/hegel/README.md) 0.48.1 (native engine 0.44.1) on seeded and fixed-start shrinking challenges.
+A fast and loose comparison of:
+
+- [Hypothesis](/pbt-libraries/hypothesis/README.md) 6.168.3
+- [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.6
+- [Hegel](/pbt-libraries/hegel/README.md) 0.48.1 (native engine 0.44.1)
 
 Library links point to each implementation of the challenge. 🎯 marks the ~minimal counterexample.
 
+This document has five parts:
+- Fixed start (reflecting or inverting and then reducing, no generation)
+- 100 seeded runs of a number of new and old challenges
+- 100 seeded runs of handwritten and derived generators for the same two challenges
+- 100 seeded runs of state machine tests
+- Best-effort representative wall clock timings
+
+This is largely generated using Claude, so caveats apply to the Hypothesis and Hegel implementations as to how idiomatic they are.
+
+Exhaust doesn't count the first failing evaluation in its stats, so 1 has been added to all numbers.
+
 ## Fixed start
 
-Hypothesis and Exhaust reduce the same fixed failing input once, with no generation phase. Fixed-start rows use each runner's reported evaluation count directly; the +1 adjustment to Exhaust applies to the generated rows below.
+Hypothesis and Exhaust reduce the same fixed failing input once, with no generation phase. Fixed-start rows use each runner's reported evaluation count directly.
 
 | Challenge | Library | Evaluations | Counterexample |
 |---|---|---|---|
@@ -40,14 +55,12 @@ Each library generated and reduced a failure in each of 100 seeded runs.
 
 Exhaust and Hegel use 100 consecutive seeds starting at 1337. Hypothesis hashes each challenge's filename with SHA1 to seed a PRNG, then draws 100 seeds from it.
 
-- **Top counterexamples**: the share of runs ending at each counterexample. The top three are shown, followed by the minimal counterexample if it occurred outside them.
+- **Top counterexamples**: the share of runs ending at each counterexample. The top three are shown, followed by the minimal counterexample if it occurred outside them
 - **Distinct CEs**: the number of different counterexamples across the 100 runs.
-- **Mean evaluations / Median evaluations**: both calculated across the 100 runs, using the counting conventions below.
-- **Mean original length**: the average character length of the first failing input's rendering, with nested flatmap payloads unabbreviated. Quoting and Unicode escape conventions differ between libraries.
+- **Mean evaluations / Median evaluations**: both calculated across the 100 runs, using the counting conventions below
+- **Mean original length**: the average character length of the first failing input's rendering.
 
-Calculator's Hegel generator uses signed-64-bit leaves and a maximum depth of 5; Hypothesis's integer and recursive expression domains are unbounded. Hegel evaluates with exact widened arithmetic and Python-style floor division, while Exhaust uses wrapping addition and truncating division.
-
-| Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples |
+| Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples<br><img src="assets/spacer.gif" width="1000" height="1" alt=""> |
 |---|---|---|---|---|---|---|
 | Binary Heap | [Hypothesis](/pbt-libraries/hypothesis/challenges/binheap.py) | 3 | 102.5 | 97.5 | 151.1 | 85% 🎯 `(0, None, (0, (0, None, None), (1, None, None)))`<br>14% `(0, None, (0, None, (0, (0, None, None), (1, None, None))))`<br>1% `(0, None, (0, (0, None, None), (0, None, (1, None, None))))` |
 |  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/BinaryHeap.swift) | 2 | 118.9 | 95.5 | 384.4 | 66% 🎯 `(0, None, (0, (0, None, None), (1, None, None)))`<br>34% `(0, (0, (1, None, None), None), (0, None, None))` |
@@ -129,19 +142,13 @@ Calculator's Hegel generator uses signed-64-bit leaves and a maximum depth of 5;
 |  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 5 | 652.7 | 651.5 | 117.5 | 71% 🎯 `([(0, 0)], 1000, 1)`<br>14% `([(0, 0)], 3000, 1)`<br>9% `([(0, 0)], 5000, 1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L147) | 1 | 532.3 | 544.5 | 110.0 | 100% 🎯 `([(0, 0)], 1000, 1)` |
 
-How each library counts evaluations:
-
-- **Hypothesis and Hegel** count every completed property call from the original failing input onwards. That includes any further generation calls after the first failure, and the final replay of the reduced counterexample.
-- **Hegel** also counts its confirmation calls. Both harnesses exclude assumption rejections and overruns that never reach a property verdict from failure recording and evaluation counts. For state machines, an evaluation is a whole command history, not an individual command.
-- **Exhaust** reports only the calls made during reduction, so both its mean and median here have 1 added to count the original failing input. Exhaust makes no final replay. Binary Heap's reduction mean of 117.9 is therefore shown as 118.9, and Calculator's 43.1 as 44.1.
-
 ## Handwritten and derived generators
 
 Each challenge pairs a handwritten generator with raw type derivation. Columns and evaluation counts follow the 100 seeds table above.
 
 Hegel's fully derived invoice uses raw signed 64-bit fields, as Exhaust's does, rather than Hypothesis's arbitrary-precision integers.
 
-| Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples |
+| Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples<br><img src="assets/spacer.gif" width="1000" height="1" alt=""> |
 |---|---|---|---|---|---|---|
 | Invoice Discount | [Hypothesis](/pbt-libraries/hypothesis/challenges/invoice_discount.py) | 22 | 61.5 | 57.5 | 19.6 | 40% `Invoice(28, 36, 1)`<br>8% `Invoice(201, 5, 1)`<br>6% `Invoice(11, 91, 1)`<br>4% 🎯 `Invoice(10, 100, 1)` |
 |  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/InvoiceDiscountChallenge.swift#L28) | 1 | 91.4 | 83.0 | 19.7 | 100% 🎯 `Invoice(10, 100, 1)` |
@@ -163,11 +170,9 @@ Hegel's fully derived invoice uses raw signed 64-bit fields, as Exhaust's does, 
 
 The recorded results cover 100 seeded state machine tests per library, generating command histories of up to 50 commands and reducing the first failing history. Exhaust uses `.commandLimit(50)` and Hegel uses `.steps(50)`, to match Hypothesis's default `stateful_step_count`.
 
-The columns are as in the 100 seeds table, with the same +1 added to Exhaust's evaluations.
-
 The Hash Collision rows run the same frame property as the generator rows above, checked after every put. Together, the two tables show how each library's reduction changes with the encoding.
 
-| Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples |
+| Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples<br><img src="assets/spacer.gif" width="1000" height="1" alt=""> |
 |---|---|---|---|---|---|---|
 | Snapshot Store | [Hypothesis](/pbt-libraries/hypothesis/challenges/snapshot_store.py) | 21 | 431.3 | 377.5 | 456.9 | 37% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>18% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]`<br>7% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]` |
 |  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/SnapshotStoreChallenge.swift) | 17 | 241.4 | 215.0 | 497.0 | 67% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>6% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]`<br>5% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]` |
@@ -188,16 +193,16 @@ The Hash Collision rows run the same frame property as the generator rows above,
 
 ## Timings
 
-Mean wall-clock milliseconds per run on an Apple M4 Max, over the same runs as the tables above. Each column is the build a developer gets by default on that platform:
+Mean wall-clock milliseconds per single-threaded run on an Apple M4 Max, over the same runs as the tables above. Each column is the build a developer gets by default on that platform:
 
 - **Hypothesis**: Hypothesis 6.168.3 on Python 3.12. Its recorded `total_seconds` includes the final replay.
 - **Hegel (default/opt-1)**: `cargo build` without the `static-engine` feature. The runner is unoptimised and loads `libhegel_c` as a shared library built at Cargo's dev-profile `opt-level = 1`. Covers generation, reduction, counterexample recording, confirmation calls and final replay.
 - **Exhaust (macOS)**: the 1.5.6 package with the runner built in debug. On Apple platforms the package links a prebuilt, optimised `ExhaustCore` XCFramework. Its `wallMilliseconds` covers generation and reduction; Exhaust makes no final replay.
 - **Exhaust (Linux/Windows)**: the same 1.5.6 source built entirely in debug, as on platforms without the XCFramework, where `ExhaustCore` is compiled from source alongside the test target.
 
-Fixed-start challenges have no generation phase, and Hegel does not implement them.
+Hegel (default/opt-1) stops one depth-6 run (seed 1361) at its 300-second shrink deadline, ending at a larger counterexample than the release build reaches. 
 
-Some product-sequence runs reach a library's wall-clock limit, which caps those means. Hegel (default/opt-1) stops one depth-6 run (seed 1361) at its 300-second shrink deadline, ending at a larger counterexample than the release build reaches. Exhaust (Linux/Windows) stops three runs at each of depths 5 and 6 (seeds 1388, 1403 and 1404) at its 125-second reduction deadline. The macOS build finishes the same seeds in 22–94 seconds, reaching the minimal counterexample at depth 5 and `(2, 2, 2, 2, 2, 1, 0x31 + 1x1)` at depth 6. The result tables above use the Exhaust (macOS) runs.
+Exhaust (Linux/Windows) stops three runs at each of depths 5 and 6 (seeds 1388, 1403 and 1404) at its 125-second reduction deadline.
 
 | Challenge | Hypothesis | Hegel (default/opt-1) | Exhaust (macOS) | Exhaust (Linux/Windows) |
 |---|---|---|---|---|
