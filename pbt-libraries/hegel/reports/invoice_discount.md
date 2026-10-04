@@ -1,12 +1,12 @@
 # Invoice Discount
 
-Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results](invoice_discount.json).
+Hegel 0.48.1, native engine 0.44.1, debug build. 100 seeded runs; [raw results](invoice_discount.json).
 
 | Metric | Mean |
 |---|---|
 | Evaluations from first failure | 657.0 |
 | Original counterexample length | 19.5 |
-| Total elapsed time (ms) | 2.24 |
+| Total elapsed time (ms) | 4.60 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 

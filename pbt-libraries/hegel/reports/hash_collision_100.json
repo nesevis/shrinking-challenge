@@ -1,5 +1,5 @@
 {
-  "build_profile": "release",
+  "build_profile": "debug",
   "challenge": "hash_collision_100",
   "engine_version": "0.44.1",
   "environment": {
@@ -20,7 +20,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007638875
+      "total_seconds": 0.0160445
     },
     {
       "evaluations": 277,
@@ -31,7 +31,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.004811167
+      "total_seconds": 0.009434375
     },
     {
       "evaluations": 335,
@@ -42,7 +42,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010488958
+      "total_seconds": 0.021176875
     },
     {
       "evaluations": 703,
@@ -53,7 +53,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.012759167
+      "total_seconds": 0.025647125
     },
     {
       "evaluations": 662,
@@ -64,7 +64,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009922
+      "total_seconds": 0.020109583
     },
     {
       "evaluations": 366,
@@ -75,7 +75,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005825292
+      "total_seconds": 0.011722166
     },
     {
       "evaluations": 356,
@@ -86,7 +86,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007194167
+      "total_seconds": 0.014004667
     },
     {
       "evaluations": 610,
@@ -97,7 +97,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008857584
+      "total_seconds": 0.017596959
     },
     {
       "evaluations": 370,
@@ -108,7 +108,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006693625
+      "total_seconds": 0.013351791
     },
     {
       "evaluations": 588,
@@ -119,7 +119,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006061083
+      "total_seconds": 0.012200083
     },
     {
       "evaluations": 634,
@@ -130,7 +130,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008358958
+      "total_seconds": 0.015846584
     },
     {
       "evaluations": 332,
@@ -141,7 +141,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005835417
+      "total_seconds": 0.012055875
     },
     {
       "evaluations": 427,
@@ -152,7 +152,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009512584
+      "total_seconds": 0.019757416
     },
     {
       "evaluations": 640,
@@ -163,7 +163,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010401958
+      "total_seconds": 0.02115225
     },
     {
       "evaluations": 753,
@@ -174,7 +174,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009619209
+      "total_seconds": 0.01906875
     },
     {
       "evaluations": 634,
@@ -185,7 +185,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009901334
+      "total_seconds": 0.01985825
     },
     {
       "evaluations": 345,
@@ -196,7 +196,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010566625
+      "total_seconds": 0.020821875
     },
     {
       "evaluations": 423,
@@ -207,7 +207,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010278916
+      "total_seconds": 0.021026834
     },
     {
       "evaluations": 575,
@@ -218,7 +218,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006323209
+      "total_seconds": 0.013068375
     },
     {
       "evaluations": 571,
@@ -229,7 +229,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006672333
+      "total_seconds": 0.013665
     },
     {
       "evaluations": 590,
@@ -240,7 +240,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007636792
+      "total_seconds": 0.015032334
     },
     {
       "evaluations": 270,
@@ -251,7 +251,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.004776625
+      "total_seconds": 0.0093675
     },
     {
       "evaluations": 795,
@@ -262,7 +262,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010548167
+      "total_seconds": 0.021990291
     },
     {
       "evaluations": 364,
@@ -273,7 +273,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.00572375
+      "total_seconds": 0.01132
     },
     {
       "evaluations": 596,
@@ -284,7 +284,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006475042
+      "total_seconds": 0.01307375
     },
     {
       "evaluations": 354,
@@ -295,7 +295,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005290208
+      "total_seconds": 0.010614208
     },
     {
       "evaluations": 327,
@@ -306,7 +306,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008172792
+      "total_seconds": 0.016759666
     },
     {
       "evaluations": 571,
@@ -317,7 +317,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008476625
+      "total_seconds": 0.017080292
     },
     {
       "evaluations": 345,
@@ -328,7 +328,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009825125
+      "total_seconds": 0.020045708
     },
     {
       "evaluations": 543,
@@ -339,7 +339,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009847792
+      "total_seconds": 0.021401958
     },
     {
       "evaluations": 461,
@@ -350,7 +350,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009366209
+      "total_seconds": 0.018929666
     },
     {
       "evaluations": 585,
@@ -361,7 +361,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008272459
+      "total_seconds": 0.017167375
     },
     {
       "evaluations": 521,
@@ -372,7 +372,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.0103735
+      "total_seconds": 0.021362833
     },
     {
       "evaluations": 658,
@@ -383,7 +383,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010892833
+      "total_seconds": 0.022058791
     },
     {
       "evaluations": 407,
@@ -394,7 +394,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006581708
+      "total_seconds": 0.013040208
     },
     {
       "evaluations": 499,
@@ -405,7 +405,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005687917
+      "total_seconds": 0.011448334
     },
     {
       "evaluations": 302,
@@ -416,7 +416,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005496709
+      "total_seconds": 0.011108292
     },
     {
       "evaluations": 368,
@@ -427,7 +427,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006208459
+      "total_seconds": 0.012309791
     },
     {
       "evaluations": 315,
@@ -438,7 +438,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.004939208
+      "total_seconds": 0.010315375
     },
     {
       "evaluations": 479,
@@ -449,7 +449,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010430209
+      "total_seconds": 0.021767542
     },
     {
       "evaluations": 262,
@@ -460,7 +460,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.003605
+      "total_seconds": 0.007122833
     },
     {
       "evaluations": 504,
@@ -471,7 +471,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006959542
+      "total_seconds": 0.014042542
     },
     {
       "evaluations": 404,
@@ -482,7 +482,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006326667
+      "total_seconds": 0.012956416
     },
     {
       "evaluations": 305,
@@ -493,7 +493,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.0038825
+      "total_seconds": 0.007976167
     },
     {
       "evaluations": 686,
@@ -504,7 +504,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010230583
+      "total_seconds": 0.020072209
     },
     {
       "evaluations": 708,
@@ -515,7 +515,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010355417
+      "total_seconds": 0.0216805
     },
     {
       "evaluations": 331,
@@ -526,7 +526,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006651875
+      "total_seconds": 0.012986375
     },
     {
       "evaluations": 384,
@@ -537,7 +537,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.00830525
+      "total_seconds": 0.016592208
     },
     {
       "evaluations": 729,
@@ -548,7 +548,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.00949475
+      "total_seconds": 0.019108625
     },
     {
       "evaluations": 409,
@@ -559,7 +559,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.0089375
+      "total_seconds": 0.018684459
     },
     {
       "evaluations": 632,
@@ -570,7 +570,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007674959
+      "total_seconds": 0.015520042
     },
     {
       "evaluations": 292,
@@ -581,7 +581,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.004928958
+      "total_seconds": 0.0095935
     },
     {
       "evaluations": 695,
@@ -592,7 +592,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010196375
+      "total_seconds": 0.019651583
     },
     {
       "evaluations": 426,
@@ -603,7 +603,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005523667
+      "total_seconds": 0.010812625
     },
     {
       "evaluations": 453,
@@ -614,7 +614,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009431291
+      "total_seconds": 0.018991625
     },
     {
       "evaluations": 673,
@@ -625,7 +625,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008419584
+      "total_seconds": 0.017051333
     },
     {
       "evaluations": 573,
@@ -636,7 +636,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007968625
+      "total_seconds": 0.016364083
     },
     {
       "evaluations": 654,
@@ -647,7 +647,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.012553709
+      "total_seconds": 0.025609791
     },
     {
       "evaluations": 425,
@@ -658,7 +658,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006759333
+      "total_seconds": 0.012605875
     },
     {
       "evaluations": 647,
@@ -669,7 +669,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009009916
+      "total_seconds": 0.01818525
     },
     {
       "evaluations": 570,
@@ -680,7 +680,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.00782475
+      "total_seconds": 0.015694333
     },
     {
       "evaluations": 672,
@@ -691,7 +691,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007303958
+      "total_seconds": 0.014626167
     },
     {
       "evaluations": 460,
@@ -702,7 +702,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010175334
+      "total_seconds": 0.02060375
     },
     {
       "evaluations": 297,
@@ -713,7 +713,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005983708
+      "total_seconds": 0.011505708
     },
     {
       "evaluations": 596,
@@ -724,7 +724,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007827166
+      "total_seconds": 0.015533333
     },
     {
       "evaluations": 395,
@@ -735,7 +735,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008008417
+      "total_seconds": 0.015761708
     },
     {
       "evaluations": 218,
@@ -746,7 +746,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.003341208
+      "total_seconds": 0.0066255
     },
     {
       "evaluations": 745,
@@ -757,7 +757,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010011416
+      "total_seconds": 0.020069959
     },
     {
       "evaluations": 289,
@@ -768,7 +768,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.003661333
+      "total_seconds": 0.007058375
     },
     {
       "evaluations": 624,
@@ -779,7 +779,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.010799458
+      "total_seconds": 0.022830459
     },
     {
       "evaluations": 721,
@@ -790,7 +790,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007896209
+      "total_seconds": 0.016247875
     },
     {
       "evaluations": 448,
@@ -801,7 +801,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.012453042
+      "total_seconds": 0.025919958
     },
     {
       "evaluations": 428,
@@ -812,7 +812,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007960375
+      "total_seconds": 0.015799625
     },
     {
       "evaluations": 579,
@@ -823,7 +823,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009985625
+      "total_seconds": 0.020783541
     },
     {
       "evaluations": 669,
@@ -834,7 +834,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.0112165
+      "total_seconds": 0.022748459
     },
     {
       "evaluations": 440,
@@ -845,7 +845,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.00780525
+      "total_seconds": 0.015970583
     },
     {
       "evaluations": 657,
@@ -856,7 +856,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008126458
+      "total_seconds": 0.016379083
     },
     {
       "evaluations": 458,
@@ -867,7 +867,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007042416
+      "total_seconds": 0.014280083
     },
     {
       "evaluations": 452,
@@ -878,7 +878,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.006634667
+      "total_seconds": 0.012885375
     },
     {
       "evaluations": 425,
@@ -889,7 +889,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007855084
+      "total_seconds": 0.015152375
     },
     {
       "evaluations": 790,
@@ -900,7 +900,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.00804575
+      "total_seconds": 0.016620875
     },
     {
       "evaluations": 384,
@@ -911,7 +911,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009580417
+      "total_seconds": 0.0196095
     },
     {
       "evaluations": 294,
@@ -922,7 +922,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005057333
+      "total_seconds": 0.010174375
     },
     {
       "evaluations": 708,
@@ -933,7 +933,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008000375
+      "total_seconds": 0.016236833
     },
     {
       "evaluations": 694,
@@ -944,7 +944,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008933625
+      "total_seconds": 0.018544208
     },
     {
       "evaluations": 619,
@@ -955,7 +955,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.011806083
+      "total_seconds": 0.024060583
     },
     {
       "evaluations": 606,
@@ -966,7 +966,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009635
+      "total_seconds": 0.019486125
     },
     {
       "evaluations": 470,
@@ -977,7 +977,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.008090125
+      "total_seconds": 0.0159835
     },
     {
       "evaluations": 623,
@@ -988,7 +988,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007707417
+      "total_seconds": 0.015553791
     },
     {
       "evaluations": 456,
@@ -999,7 +999,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009749417
+      "total_seconds": 0.019995834
     },
     {
       "evaluations": 440,
@@ -1010,7 +1010,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007403083
+      "total_seconds": 0.015095708
     },
     {
       "evaluations": 445,
@@ -1021,7 +1021,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007767167
+      "total_seconds": 0.015574209
     },
     {
       "evaluations": 663,
@@ -1032,7 +1032,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.009378667
+      "total_seconds": 0.019503875
     },
     {
       "evaluations": 607,
@@ -1043,7 +1043,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007232166
+      "total_seconds": 0.014750125
     },
     {
       "evaluations": 630,
@@ -1054,7 +1054,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.007832917
+      "total_seconds": 0.015779417
     },
     {
       "evaluations": 220,
@@ -1065,7 +1065,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005482125
+      "total_seconds": 0.011199958
     },
     {
       "evaluations": 676,
@@ -1076,7 +1076,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.012308542
+      "total_seconds": 0.025405208
     },
     {
       "evaluations": 852,
@@ -1087,7 +1087,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.017322833
+      "total_seconds": 0.035048042
     },
     {
       "evaluations": 348,
@@ -1098,7 +1098,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005218625
+      "total_seconds": 0.010445084
     },
     {
       "evaluations": 430,
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "value": "([(0, 0)], 100, 1)"
       },
-      "total_seconds": 0.005424542
+      "total_seconds": 0.010795666
     }
   ]
 }

@@ -1,12 +1,12 @@
 # Hash Collision (M = 10)
 
-Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results](hash_collision_state_machine_10.json).
+Hegel 0.48.1, native engine 0.44.1, debug build. 100 seeded runs; [raw results](hash_collision_state_machine_10.json).
 
 | Metric | Mean |
 |---|---|
 | Evaluations from first failure | 407.6 |
 | Original counterexample length | 60.4 |
-| Total elapsed time (ms) | 76.09 |
+| Total elapsed time (ms) | 127.65 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 

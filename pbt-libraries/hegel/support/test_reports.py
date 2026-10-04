@@ -1,19 +1,18 @@
 import json
 import unittest
 from copy import deepcopy
-from decimal import Decimal
-from unittest.mock import patch
 
 from make_reports import (
-    ROOT, SPECS, code, compact, examples, markdown, summarise, table_row,
-    timing_table, timing_totals, update_comparison, validate_comparison,
+    COMPARISON_PROFILE, IMPLEMENTATIONS, ROOT, SPECS, TIMING_HEADER, code, compact,
+    examples, implementation_link, markdown, summarise, table_row, update_comparison,
+    update_timings, validate_comparison,
 )
 
 
 def report(name="modular_mapping", values=(925, 925, 927)):
     return {
         "challenge": name, "hegel_version": "0.48.1", "engine_version": "0.44.1",
-        "build_profile": "release",
+        "build_profile": COMPARISON_PROFILE,
         "environment": {"os": "macos", "os_version": "test", "cpu": "test CPU",
                         "arch": "aarch64", "rustc": "test rustc"},
         "runs": [{"seed": i, "evaluations": i + 1,
@@ -71,59 +70,73 @@ class ReportsTests(unittest.TestCase):
 
     def test_refresh_is_idempotent_and_preserves_other_libraries(self):
         text = ("User introduction\n"
-                "| Modular Mapping | [Hypothesis](/pbt-libraries/hypothesis/challenges/modular_mapping.md) | original |\n"
-                "|  | [Exhaust](/pbt-libraries/exhaust/reports/modularMapping.md) | original |\n"
-                "\nUser timing note\n"
-                "| Challenge | Hypothesis generation (ms) | Exhaust generation (ms) | Hypothesis reduction (ms) | Exhaust reduction (ms) |\n"
+                "| Modular Mapping | [Hypothesis](/pbt-libraries/hypothesis/challenges/modular_mapping.py) | original |\n"
+                "|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/ModularMappingChallenge.swift) | original |\n"
+                "\n## Timings\nKeep the timing explanation.\n\n"
+                f"{TIMING_HEADER}\n"
                 "|---|---|---|---|---|\n"
-                "| Modular Mapping | 4.33 | 0.01 | 3.23 | 0.02 |\n"
-                "\n## Total timings\nKeep the timing explanation.\n"
-                "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n"
-                "|---|---|---|---|\n"
-                "| Modular Mapping | 8.37 | **0.04** | 999.00 |\n")
+                "| Anagrams | 172.95 | — | 18.31 | 60.90 |\n"
+                "| Modular Mapping | 8.37 | 999.00 | 0.04 | 0.15 |\n")
         data = {"modular_mapping": report()}
         first = update_comparison(text, data)
         self.assertEqual(update_comparison(first, data), first)
         self.assertIn("User introduction", first)
-        self.assertIn("User timing note", first)
-        self.assertIn("modularMapping.md) | original |", first)
+        self.assertIn("ModularMappingChallenge.swift) | original |", first)
         self.assertEqual(first.count("[Hegel]("), 1)
-        self.assertIn("| Modular Mapping | 8.37 | **0.04** | 1.00 |", first)
+        self.assertIn(f"[Hegel]({implementation_link('modular_mapping')})", first)
+        self.assertIn("| Anagrams | 172.95 | — | 18.31 | 60.90 |", first)
+        self.assertIn("| Modular Mapping | 8.37 | 1.00 | 0.04 | 0.15 |", first)
         self.assertIn("Keep the timing explanation.", first)
-        self.assertNotIn("## Hegel total timings", first)
-        self.assertNotIn("[Modular Mapping]", first)
+        self.assertNotIn("**", first)
         with_following_section = first + "\n## User section\nKeep this text.\n"
         self.assertEqual(update_comparison(with_following_section, data), with_following_section)
 
-    def test_timing_totals_preserve_wall_times_and_distinguish_state_machine_rows(self):
-        text = ("| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n"
-                "|---|---|---|---|\n"
-                "| Hash Collision (M = 1000) | 1,119.13 | **1.44** | 16.08 |\n"
-                "| Hash Collision (M = 1000) (state machine) | 449.59 | **1.77** | 80.75 |\n")
+    def test_timings_update_only_hegel_column_and_distinguish_state_machine_rows(self):
+        text = (f"{TIMING_HEADER}\n"
+                "|---|---|---|---|---|\n"
+                "| Hash Collision (M = 1000) | 1,117.16 | 38.60 | 5.68 | 12.19 |\n"
+                "| Hash Collision (M = 1000) (state machine) | 450.29 | 152.28 | 10.46 | 21.93 |\n")
         data = {name: report(name) for name in
                 ("hash_collision_1000", "hash_collision_state_machine_1000")}
-        table = timing_table(data, timing_totals(text))
-        self.assertIn("| Hash Collision (M = 1000) | 1,119.13 | 1.44 | **1.00** |", table)
-        self.assertIn("| Hash Collision (M = 1000) (state machine) | 449.59 | 1.77 | **1.00** |", table)
-        self.assertNotIn("/hegel/reports/", table)
+        table = update_timings(text, data)
+        self.assertIn("| Hash Collision (M = 1000) | 1,117.16 | 1.00 | 5.68 | 12.19 |", table)
+        self.assertIn("| Hash Collision (M = 1000) (state machine) | 450.29 | 1.00 | 10.46 | 21.93 |", table)
 
-    def test_refund_json_links_refresh_without_moving_its_table(self):
+    def test_timings_reject_missing_rows_or_table(self):
+        data = {"modular_mapping": report()}
+        with self.assertRaisesRegex(ValueError, "timing table is missing"):
+            update_timings("| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n", data)
+        with self.assertRaisesRegex(ValueError, "covers 0 of 1"):
+            update_timings(f"{TIMING_HEADER}\n|---|---|---|---|---|\n| Anagrams | 1 | — | 1 | 1 |\n", data)
+
+    def test_refund_rows_refresh_without_moving_their_table(self):
         text = ("## Handwritten and derived generators\n"
-                "| Refund Allocation | [Hypothesis](/pbt-libraries/hypothesis/challenges/refund_allocation.json) | original |\n"
-                "|  | [Exhaust](/pbt-libraries/exhaust/reports/refundAllocation.txt) | original |\n"
+                "| Refund Allocation | [Hypothesis](/pbt-libraries/hypothesis/challenges/refund_allocation.py) | original |\n"
+                "|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/RefundAllocationChallenge.swift#L31) | original |\n"
                 "|  | [Hegel](/pbt-libraries/hegel/reports/refund_allocation.json) | old |\n"
                 "\n## State machines\nKeep this section.\n"
-                "\n## Total timings\n"
-                "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |\n"
-                "|---|---|---|---|\n")
+                "\n## Timings\n"
+                f"{TIMING_HEADER}\n"
+                "|---|---|---|---|---|\n"
+                "| Refund Allocation | 95.83 | 193.90 | 3.96 | 20.53 |\n")
         data = {"refund_allocation": report("refund_allocation", ("RefundRequest([31, 33], 4)",))}
-        with patch("make_reports.refund_totals", return_value=(Decimal("95.83"), Decimal("3.96"))):
-            first = update_comparison(text, data)
-            self.assertEqual(first, update_comparison(first, data))
-        self.assertIn("| Refund Allocation | 95.83 | 3.96 | **1.00** |", first)
-        self.assertIn("[Hegel](/pbt-libraries/hegel/reports/refund_allocation.md)", first.split("## State machines")[0])
+        first = update_comparison(text, data)
+        self.assertEqual(first, update_comparison(first, data))
+        self.assertIn("| Refund Allocation | 95.83 | 1.00 | 3.96 | 20.53 |", first)
+        self.assertIn(f"[Hegel]({implementation_link('refund_allocation')})", first.split("## State machines")[0])
         self.assertIn("## State machines\nKeep this section.", first)
         self.assertEqual(first.count("[Hegel]("), 1)
+
+    def test_implementation_anchors_land_on_the_challenge_dispatch(self):
+        self.assertEqual(set(IMPLEMENTATIONS), set(SPECS))
+        for name, (filename, anchor) in IMPLEMENTATIONS.items():
+            with self.subTest(challenge=name):
+                source = (ROOT / "src" / filename).read_text().splitlines()
+                link = implementation_link(name)
+                if anchor is None:
+                    self.assertEqual(link, f"/pbt-libraries/hegel/src/{filename}")
+                else:
+                    self.assertRegex(source[int(link.rsplit("#L", 1)[1]) - 1], anchor)
 
     def test_markdown_protects_table_pipes_and_embedded_backticks(self):
         self.assertEqual(code('(text, "a|b`c", [1, 1])'), '``(text, "a\\|b`c", [1, 1])``')
@@ -144,7 +157,7 @@ class ReportsTests(unittest.TestCase):
             elif change == "environment":
                 item["environment"]["cpu"] = "different CPU"
             else:
-                item["build_profile"] = "debug"
+                item["build_profile"] = "release"
             with self.subTest(change=change), self.assertRaises(ValueError):
                 validate_comparison(invalid)
 

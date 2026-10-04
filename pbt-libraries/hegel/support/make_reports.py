@@ -5,7 +5,6 @@ import itertools
 import json
 import re
 from collections import Counter
-from decimal import Decimal
 from pathlib import Path
 from statistics import mean, median
 
@@ -52,6 +51,47 @@ def specifications():
 
 
 SPECS = specifications()
+COMPARISON_PROFILE = "debug"
+
+
+def implementations():
+    # Source file plus the line that dispatches each challenge, located at refresh time.
+    files = {
+        "binheap": ("binary_heap.rs", None),
+        "calculator": ("calculator.rs", None),
+        "refund_allocation": ("refund_allocation.rs", r"pub\(crate\) fn evaluate\("),
+        "refund_allocation_derived": ("refund_allocation.rs", r"pub\(crate\) fn evaluate\("),
+        "nested_flatmap_sum_4": ("challenges.rs", r"Self::Sum => \{"),
+        "modular_mapping": ("challenges.rs", r"Self::ModularMapping => \{"),
+        "weighted_linear_preservation": ("challenges.rs", r"Self::WeightedLinear => \{"),
+        "invoice_discount": ("challenges.rs", r"Self::Invoice \| Self::InvoiceDerived => \{"),
+        "invoice_discount_derived": ("challenges.rs", r"Self::Invoice \| Self::InvoiceDerived => \{"),
+        "float_cancellation": ("challenges.rs", r"Self::FloatCancellation => \{"),
+        "chunked_decoder": ("challenges.rs", r"Self::ChunkedDecoder => \{"),
+        "snapshot_store": ("stateful.rs", r"Challenge::SnapshotStore => \{"),
+    }
+    for depth in range(2, 7):
+        files[f"nested_flatmap_product_{depth}"] = ("challenges.rs", r"Self::ProductSequence\(depth\) \| Self::Product\(depth\) => \{")
+        files[f"nested_flatmap_product_sequence_{depth}"] = files[f"nested_flatmap_product_{depth}"]
+    for modulus in (10, 100, 1000):
+        files[f"hash_collision_{modulus}"] = ("challenges.rs", r"Self::HashCollision\(modulus\) => \{")
+        files[f"hash_collision_state_machine_{modulus}"] = ("stateful.rs", r"Challenge::HashCollisionMachine\(modulus\) => \{")
+    return files
+
+
+IMPLEMENTATIONS = implementations()
+
+
+def implementation_link(name):
+    filename, anchor = IMPLEMENTATIONS[name]
+    link = f"/pbt-libraries/hegel/src/{filename}"
+    if anchor is None:
+        return link
+    source = (ROOT / "src" / filename).read_text().splitlines()
+    lines = [number for number, line in enumerate(source, 1) if re.search(anchor, line)]
+    if len(lines) != 1:
+        raise ValueError(f"{name}: expected one {anchor!r} in {filename}, found {len(lines)}")
+    return f"{link}#L{lines[0]}"
 
 
 def value(record, field):
@@ -109,7 +149,7 @@ def table_row(report):
     minimal = SPECS[name][1]
     top = "<br>".join(f"{percent:g}% {'🎯 ' if target else ''}{code(text)}"
                         for text, percent, target in examples(summary, minimal, 3))
-    return (f"|  | [Hegel](/pbt-libraries/hegel/reports/{name}.md) | {summary['distinct']} | "
+    return (f"|  | [Hegel]({implementation_link(name)}) | {summary['distinct']} | "
             f"{summary['evaluations']:.1f} | {summary['median_evaluations']:.1f} | "
             f"{summary['original_length']:.1f} | {top} |")
 
@@ -139,77 +179,49 @@ def markdown(report):
     return "\n".join(lines) + "\n"
 
 
-TOTAL_HEADER = "| Challenge | Hypothesis total (ms) | Exhaust total (ms) | Hegel total (ms) |"
-TOTAL_TABLE = re.compile(re.escape(TOTAL_HEADER) + r"\n(?:\|[^\n]*\n)+")
-
-
-def timing_totals(text):
-    table = TOTAL_TABLE.search(text)
-    if table is None:
-        raise ValueError("total wall-time table is missing")
-    totals = {}
-    for row in table[0].splitlines()[2:]:
-        cells = [cell.strip() for cell in row.strip("|").split("|")]
-        label = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", cells[0])
-        totals[label] = tuple(Decimal(cell.replace(",", "").replace("**", ""))
-                              for cell in cells[1:3])
-    return totals
-
-
-def refund_totals(name):
-    hypothesis = json.loads((ROOT.parent / "hypothesis/challenges" / f"{name}.json").read_text())
-    hypothesis_ms = Decimal(str(1000 * mean(run["total_seconds"] for run in hypothesis)))
-    filename = "refundAllocationDerived" if name.endswith("_derived") else "refundAllocation"
-    log = (ROOT.parent / "exhaust/reports" / f"{filename}.txt").read_text()
-    match = re.search(r"^\s+wall \(ms\): .*?mean=([0-9.]+)", log, re.MULTILINE)
-    if match is None:
-        raise ValueError(f"{name}: Exhaust wall time is missing")
-    return hypothesis_ms, Decimal(match[1])
+TIMING_HEADER = "| Challenge | Hypothesis | Hegel (default/opt-1) | Exhaust (macOS) | Exhaust (Linux/Windows) |"
 
 
 def timing_label(name):
     return SPECS[name][0] + (" (state machine)" if "state_machine" in name else "")
 
 
-def timing_table(reports, existing_totals):
+def update_timings(text, reports):
+    # Only the Hegel column changes; other libraries' recorded wall times are preserved.
     names = {timing_label(name): name for name in reports}
-    labels = [label for label in existing_totals if label in names]
-    labels.extend(label for label in names if label not in existing_totals)
-    lines = [TOTAL_HEADER, "|---|---|---|---|"]
-    for label in labels:
-        name = names[label]
-        totals = existing_totals.get(label)
-        if totals is None:
-            if not name.startswith("refund_allocation"):
-                raise ValueError(f"{name}: existing wall-time row is missing")
-            totals = refund_totals(name)
-        numbers = [number.quantize(Decimal(".01")) for number in totals]
-        numbers.append(Decimal(f"{summarise(reports[name])['total_ms']:.2f}"))
-        smallest = min(numbers)
-        cells = [f"**{number:,.2f}**" if number == smallest else f"{number:,.2f}"
-                 for number in numbers]
-        lines.append(f"| {label} | " + " | ".join(cells) + " |")
+    lines = text.splitlines()
+    try:
+        start = lines.index(TIMING_HEADER)
+    except ValueError:
+        raise ValueError("timing table is missing") from None
+    updated = 0
+    for index in range(start + 2, len(lines)):
+        if not lines[index].startswith("| "):
+            break
+        cells = [cell.strip() for cell in lines[index].strip("|").split("|")]
+        if cells[0] in names:
+            cells[2] = f"{summarise(reports[names[cells[0]]])['total_ms']:,.2f}"
+            lines[index] = "| " + " | ".join(cells) + " |"
+            updated += 1
+    if updated != len(reports):
+        raise ValueError(f"timing table covers {updated} of {len(reports)} Hegel challenges")
     return "\n".join(lines) + "\n"
 
 
 def update_comparison(text, reports):
-    # Preserve other libraries' recorded wall times, never substitute phase sums.
-    totals = timing_totals(text)
     updated = []
     current = None
     for line in text.splitlines():
-        hegel = re.search(r"\[Hegel\]\(/pbt-libraries/hegel/reports/([^/.]+)\.(?:md|json)\)", line)
-        if hegel and hegel[1] in reports:
+        if line.startswith("|  | [Hegel]("):
             continue
-        hypothesis = re.search(r"\[Hypothesis\]\(/pbt-libraries/hypothesis/challenges/([^/.]+)\.(?:md|json)\)", line)
+        hypothesis = re.search(r"\[Hypothesis\]\(/pbt-libraries/hypothesis/challenges/([^/.]+)\.(?:py|md|json)\)", line)
         if hypothesis:
             current = hypothesis[1]
         updated.append(line)
-        if "[Exhaust](/pbt-libraries/exhaust/reports/" in line and current in reports:
+        if line.startswith("|  | [Exhaust](") and current in reports:
             updated.append(table_row(reports[current]))
             current = None
-    result = "\n".join(updated).rstrip() + "\n"
-    return TOTAL_TABLE.sub(lambda _: timing_table(reports, totals), result, count=1)
+    return update_timings("\n".join(updated).rstrip() + "\n", reports)
 
 
 def validate_comparison(reports):
@@ -224,8 +236,8 @@ def validate_comparison(reports):
             raise ValueError(f"{name}: README comparison requires 100 runs")
         if not consecutive or [run["seed"] for run in runs] != first_seeds:
             raise ValueError(f"{name}: inconsistent comparison seed schedule")
-        if report["build_profile"] != "release":
-            raise ValueError(f"{name}: README comparison requires a release build")
+        if report["build_profile"] != COMPARISON_PROFILE:
+            raise ValueError(f"{name}: README comparison requires a {COMPARISON_PROFILE} build")
         for field in ("hegel_version", "engine_version", "build_profile", "environment"):
             if report[field] != first[field]:
                 raise ValueError(f"{name}: mixed {field} metadata in comparison results")

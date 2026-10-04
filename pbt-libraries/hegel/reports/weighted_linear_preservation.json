@@ -1,5 +1,5 @@
 {
-  "build_profile": "release",
+  "build_profile": "debug",
   "challenge": "weighted_linear_preservation",
   "engine_version": "0.44.1",
   "environment": {
@@ -20,7 +20,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001409792
+      "total_seconds": 0.002748875
     },
     {
       "evaluations": 70,
@@ -31,7 +31,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001070167
+      "total_seconds": 0.002071833
     },
     {
       "evaluations": 65,
@@ -42,7 +42,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001035042
+      "total_seconds": 0.001979708
     },
     {
       "evaluations": 79,
@@ -53,7 +53,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00115225
+      "total_seconds": 0.002223667
     },
     {
       "evaluations": 53,
@@ -64,7 +64,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001328041
+      "total_seconds": 0.002523167
     },
     {
       "evaluations": 51,
@@ -75,7 +75,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001981833
+      "total_seconds": 0.003754459
     },
     {
       "evaluations": 72,
@@ -86,7 +86,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001038958
+      "total_seconds": 0.001875708
     },
     {
       "evaluations": 59,
@@ -97,7 +97,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000941625
+      "total_seconds": 0.001612541
     },
     {
       "evaluations": 79,
@@ -108,7 +108,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.002153834
+      "total_seconds": 0.00387325
     },
     {
       "evaluations": 71,
@@ -119,7 +119,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001181916
+      "total_seconds": 0.001980125
     },
     {
       "evaluations": 73,
@@ -130,7 +130,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001557042
+      "total_seconds": 0.002588334
     },
     {
       "evaluations": 78,
@@ -141,7 +141,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00141325
+      "total_seconds": 0.002559
     },
     {
       "evaluations": 46,
@@ -152,7 +152,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00085775
+      "total_seconds": 0.001543041
     },
     {
       "evaluations": 64,
@@ -163,7 +163,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001024458
+      "total_seconds": 0.001814209
     },
     {
       "evaluations": 31,
@@ -174,7 +174,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000878666
+      "total_seconds": 0.001544042
     },
     {
       "evaluations": 71,
@@ -185,7 +185,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00101375
+      "total_seconds": 0.001788708
     },
     {
       "evaluations": 51,
@@ -196,7 +196,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000997375
+      "total_seconds": 0.001802667
     },
     {
       "evaluations": 80,
@@ -207,7 +207,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001701084
+      "total_seconds": 0.003132375
     },
     {
       "evaluations": 41,
@@ -218,7 +218,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001087417
+      "total_seconds": 0.001975709
     },
     {
       "evaluations": 71,
@@ -229,7 +229,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001104625
+      "total_seconds": 0.001963042
     },
     {
       "evaluations": 53,
@@ -240,7 +240,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001185209
+      "total_seconds": 0.0021075
     },
     {
       "evaluations": 79,
@@ -251,7 +251,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00120875
+      "total_seconds": 0.002165334
     },
     {
       "evaluations": 71,
@@ -262,7 +262,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001601375
+      "total_seconds": 0.002933833
     },
     {
       "evaluations": 45,
@@ -273,7 +273,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000916583
+      "total_seconds": 0.001660541
     },
     {
       "evaluations": 71,
@@ -284,7 +284,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001187292
+      "total_seconds": 0.002143042
     },
     {
       "evaluations": 58,
@@ -295,7 +295,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.002188458
+      "total_seconds": 0.004120125
     },
     {
       "evaluations": 65,
@@ -306,7 +306,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000987166
+      "total_seconds": 0.001789666
     },
     {
       "evaluations": 56,
@@ -317,7 +317,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001257541
+      "total_seconds": 0.002283458
     },
     {
       "evaluations": 65,
@@ -328,7 +328,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001924917
+      "total_seconds": 0.003503959
     },
     {
       "evaluations": 51,
@@ -339,7 +339,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001026959
+      "total_seconds": 0.001772583
     },
     {
       "evaluations": 70,
@@ -350,7 +350,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001035958
+      "total_seconds": 0.001796584
     },
     {
       "evaluations": 56,
@@ -361,7 +361,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001079875
+      "total_seconds": 0.001980167
     },
     {
       "evaluations": 30,
@@ -372,7 +372,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000519041
+      "total_seconds": 0.000959583
     },
     {
       "evaluations": 88,
@@ -383,7 +383,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001452459
+      "total_seconds": 0.002716667
     },
     {
       "evaluations": 49,
@@ -394,7 +394,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00106
+      "total_seconds": 0.001919583
     },
     {
       "evaluations": 80,
@@ -405,7 +405,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001210208
+      "total_seconds": 0.002168834
     },
     {
       "evaluations": 79,
@@ -416,7 +416,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001115333
+      "total_seconds": 0.002032459
     },
     {
       "evaluations": 88,
@@ -427,7 +427,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001210042
+      "total_seconds": 0.002203292
     },
     {
       "evaluations": 49,
@@ -438,7 +438,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000873083
+      "total_seconds": 0.00158125
     },
     {
       "evaluations": 58,
@@ -449,7 +449,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.0011615
+      "total_seconds": 0.002113875
     },
     {
       "evaluations": 59,
@@ -460,7 +460,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001001
+      "total_seconds": 0.001812125
     },
     {
       "evaluations": 68,
@@ -471,7 +471,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000976083
+      "total_seconds": 0.001719875
     },
     {
       "evaluations": 52,
@@ -482,7 +482,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001103917
+      "total_seconds": 0.002002084
     },
     {
       "evaluations": 48,
@@ -493,7 +493,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001448833
+      "total_seconds": 0.002668417
     },
     {
       "evaluations": 66,
@@ -504,7 +504,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001045708
+      "total_seconds": 0.001900625
     },
     {
       "evaluations": 70,
@@ -515,7 +515,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000971041
+      "total_seconds": 0.00172725
     },
     {
       "evaluations": 79,
@@ -526,7 +526,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001041667
+      "total_seconds": 0.001880875
     },
     {
       "evaluations": 30,
@@ -537,7 +537,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000752167
+      "total_seconds": 0.001381125
     },
     {
       "evaluations": 30,
@@ -548,7 +548,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000563833
+      "total_seconds": 0.001024916
     },
     {
       "evaluations": 65,
@@ -559,7 +559,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000948584
+      "total_seconds": 0.001723208
     },
     {
       "evaluations": 88,
@@ -570,7 +570,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001146
+      "total_seconds": 0.002107292
     },
     {
       "evaluations": 56,
@@ -581,7 +581,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001010916
+      "total_seconds": 0.001823041
     },
     {
       "evaluations": 68,
@@ -592,7 +592,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001219459
+      "total_seconds": 0.002229709
     },
     {
       "evaluations": 68,
@@ -603,7 +603,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001322083
+      "total_seconds": 0.00233575
     },
     {
       "evaluations": 52,
@@ -614,7 +614,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001022042
+      "total_seconds": 0.001762333
     },
     {
       "evaluations": 68,
@@ -625,7 +625,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001112375
+      "total_seconds": 0.002005541
     },
     {
       "evaluations": 71,
@@ -636,7 +636,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001219708
+      "total_seconds": 0.002287584
     },
     {
       "evaluations": 71,
@@ -647,7 +647,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001439458
+      "total_seconds": 0.002684
     },
     {
       "evaluations": 71,
@@ -658,7 +658,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001041125
+      "total_seconds": 0.001881208
     },
     {
       "evaluations": 80,
@@ -669,7 +669,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001097958
+      "total_seconds": 0.001952875
     },
     {
       "evaluations": 56,
@@ -680,7 +680,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001062833
+      "total_seconds": 0.00179625
     },
     {
       "evaluations": 66,
@@ -691,7 +691,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000945875
+      "total_seconds": 0.001706083
     },
     {
       "evaluations": 51,
@@ -702,7 +702,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000955041
+      "total_seconds": 0.001747125
     },
     {
       "evaluations": 56,
@@ -713,7 +713,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001085666
+      "total_seconds": 0.002041125
     },
     {
       "evaluations": 72,
@@ -724,7 +724,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001159584
+      "total_seconds": 0.0021225
     },
     {
       "evaluations": 70,
@@ -735,7 +735,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001258208
+      "total_seconds": 0.00230375
     },
     {
       "evaluations": 65,
@@ -746,7 +746,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001130083
+      "total_seconds": 0.00248275
     },
     {
       "evaluations": 65,
@@ -757,7 +757,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000940666
+      "total_seconds": 0.00212125
     },
     {
       "evaluations": 45,
@@ -768,7 +768,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000922375
+      "total_seconds": 0.00189625
     },
     {
       "evaluations": 88,
@@ -779,7 +779,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001202417
+      "total_seconds": 0.002797375
     },
     {
       "evaluations": 88,
@@ -790,7 +790,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001128417
+      "total_seconds": 0.002655333
     },
     {
       "evaluations": 52,
@@ -801,7 +801,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000956417
+      "total_seconds": 0.002226083
     },
     {
       "evaluations": 72,
@@ -812,7 +812,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000994208
+      "total_seconds": 0.001822583
     },
     {
       "evaluations": 79,
@@ -823,7 +823,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000981959
+      "total_seconds": 0.001787125
     },
     {
       "evaluations": 66,
@@ -834,7 +834,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001028375
+      "total_seconds": 0.001899417
     },
     {
       "evaluations": 73,
@@ -845,7 +845,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000955166
+      "total_seconds": 0.001652083
     },
     {
       "evaluations": 30,
@@ -856,7 +856,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000639167
+      "total_seconds": 0.001128292
     },
     {
       "evaluations": 68,
@@ -867,7 +867,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.0009755
+      "total_seconds": 0.001684833
     },
     {
       "evaluations": 63,
@@ -878,7 +878,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000925709
+      "total_seconds": 0.001646417
     },
     {
       "evaluations": 88,
@@ -889,7 +889,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001107292
+      "total_seconds": 0.002052416
     },
     {
       "evaluations": 88,
@@ -900,7 +900,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001101583
+      "total_seconds": 0.002026125
     },
     {
       "evaluations": 30,
@@ -911,7 +911,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000509166
+      "total_seconds": 0.000919708
     },
     {
       "evaluations": 65,
@@ -922,7 +922,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001048542
+      "total_seconds": 0.001895208
     },
     {
       "evaluations": 58,
@@ -933,7 +933,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00093275
+      "total_seconds": 0.001655167
     },
     {
       "evaluations": 49,
@@ -944,7 +944,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000994708
+      "total_seconds": 0.001670416
     },
     {
       "evaluations": 72,
@@ -955,7 +955,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001600167
+      "total_seconds": 0.002759791
     },
     {
       "evaluations": 65,
@@ -966,7 +966,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000927917
+      "total_seconds": 0.001682875
     },
     {
       "evaluations": 31,
@@ -977,7 +977,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000992167
+      "total_seconds": 0.001826416
     },
     {
       "evaluations": 70,
@@ -988,7 +988,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.0013165
+      "total_seconds": 0.00246475
     },
     {
       "evaluations": 80,
@@ -999,7 +999,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001173709
+      "total_seconds": 0.002150959
     },
     {
       "evaluations": 76,
@@ -1010,7 +1010,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000978541
+      "total_seconds": 0.0017625
     },
     {
       "evaluations": 70,
@@ -1021,7 +1021,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001224208
+      "total_seconds": 0.002287875
     },
     {
       "evaluations": 49,
@@ -1032,7 +1032,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.00144325
+      "total_seconds": 0.002686042
     },
     {
       "evaluations": 65,
@@ -1043,7 +1043,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001028292
+      "total_seconds": 0.001853042
     },
     {
       "evaluations": 88,
@@ -1054,7 +1054,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001058042
+      "total_seconds": 0.001974542
     },
     {
       "evaluations": 70,
@@ -1065,7 +1065,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001616334
+      "total_seconds": 0.003032375
     },
     {
       "evaluations": 67,
@@ -1076,7 +1076,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000962125
+      "total_seconds": 0.001757
     },
     {
       "evaluations": 57,
@@ -1087,7 +1087,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001254583
+      "total_seconds": 0.002297375
     },
     {
       "evaluations": 80,
@@ -1098,7 +1098,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.001085416
+      "total_seconds": 0.002018208
     },
     {
       "evaluations": 30,
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "value": "(0, 0, 20)"
       },
-      "total_seconds": 0.000986667
+      "total_seconds": 0.001818125
     }
   ]
 }

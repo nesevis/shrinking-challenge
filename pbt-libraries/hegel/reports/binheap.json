@@ -1,5 +1,5 @@
 {
-  "build_profile": "release",
+  "build_profile": "debug",
   "challenge": "binheap",
   "engine_version": "0.44.1",
   "environment": {
@@ -20,7 +20,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.399546167
+      "total_seconds": 1.074736125
     },
     {
       "evaluations": 7516,
@@ -31,7 +31,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.396820333
+      "total_seconds": 1.067641291
     },
     {
       "evaluations": 5131,
@@ -42,7 +42,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.191671959
+      "total_seconds": 0.503527666
     },
     {
       "evaluations": 4716,
@@ -53,7 +53,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.182762791
+      "total_seconds": 0.470016583
     },
     {
       "evaluations": 668,
@@ -64,7 +64,7 @@
       "shrunk": {
         "value": "(127, None, (55190086533789320, (401787435511877632, None, (7196582761221413107, None, None)), (7196582761221412864, (7196582761221413107, None, None), None)))"
       },
-      "total_seconds": 0.011708917
+      "total_seconds": 0.023346625
     },
     {
       "evaluations": 7563,
@@ -75,7 +75,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392110625
+      "total_seconds": 1.052333042
     },
     {
       "evaluations": 4743,
@@ -86,7 +86,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181738708
+      "total_seconds": 0.466682125
     },
     {
       "evaluations": 7593,
@@ -97,7 +97,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392733291
+      "total_seconds": 1.049320708
     },
     {
       "evaluations": 7504,
@@ -108,7 +108,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.391609208
+      "total_seconds": 1.061387792
     },
     {
       "evaluations": 7499,
@@ -119,7 +119,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.394686417
+      "total_seconds": 1.061659792
     },
     {
       "evaluations": 4976,
@@ -130,7 +130,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.174193167
+      "total_seconds": 0.459535917
     },
     {
       "evaluations": 5117,
@@ -141,7 +141,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.17572075
+      "total_seconds": 0.460105625
     },
     {
       "evaluations": 7562,
@@ -152,7 +152,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.390803042
+      "total_seconds": 1.05079875
     },
     {
       "evaluations": 4745,
@@ -163,7 +163,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.180335292
+      "total_seconds": 0.462865
     },
     {
       "evaluations": 5273,
@@ -174,7 +174,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.17943025
+      "total_seconds": 0.466471917
     },
     {
       "evaluations": 5122,
@@ -185,7 +185,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.198240625
+      "total_seconds": 0.529043
     },
     {
       "evaluations": 6600,
@@ -196,7 +196,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.397017042
+      "total_seconds": 1.077505625
     },
     {
       "evaluations": 7541,
@@ -207,7 +207,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.391543792
+      "total_seconds": 1.055827459
     },
     {
       "evaluations": 7562,
@@ -218,7 +218,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.402246583
+      "total_seconds": 1.055569667
     },
     {
       "evaluations": 4809,
@@ -229,7 +229,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183337083
+      "total_seconds": 0.458847292
     },
     {
       "evaluations": 6496,
@@ -240,7 +240,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.474192333
+      "total_seconds": 1.317764583
     },
     {
       "evaluations": 7539,
@@ -251,7 +251,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392403625
+      "total_seconds": 1.055441292
     },
     {
       "evaluations": 5344,
@@ -262,7 +262,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.279206584
+      "total_seconds": 0.772444667
     },
     {
       "evaluations": 7650,
@@ -273,7 +273,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.395215958
+      "total_seconds": 1.0702838749999999
     },
     {
       "evaluations": 6120,
@@ -284,7 +284,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.289672125
+      "total_seconds": 0.80546025
     },
     {
       "evaluations": 4700,
@@ -295,7 +295,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.218056708
+      "total_seconds": 0.589557125
     },
     {
       "evaluations": 7498,
@@ -306,7 +306,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.391867375
+      "total_seconds": 1.062094084
     },
     {
       "evaluations": 6529,
@@ -317,7 +317,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.398195667
+      "total_seconds": 1.088066042
     },
     {
       "evaluations": 7518,
@@ -328,7 +328,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.39307175
+      "total_seconds": 1.0605145
     },
     {
       "evaluations": 4798,
@@ -339,7 +339,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.180689125
+      "total_seconds": 0.464801916
     },
     {
       "evaluations": 5096,
@@ -350,7 +350,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.198541083
+      "total_seconds": 0.529620125
     },
     {
       "evaluations": 6120,
@@ -361,7 +361,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.282051
+      "total_seconds": 0.738136708
     },
     {
       "evaluations": 7516,
@@ -372,7 +372,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392621708
+      "total_seconds": 1.059150166
     },
     {
       "evaluations": 7517,
@@ -383,7 +383,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392782083
+      "total_seconds": 1.055782291
     },
     {
       "evaluations": 5085,
@@ -394,7 +394,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.155311
+      "total_seconds": 0.407967667
     },
     {
       "evaluations": 7488,
@@ -405,7 +405,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.391855167
+      "total_seconds": 1.064099334
     },
     {
       "evaluations": 4890,
@@ -416,7 +416,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.182445541
+      "total_seconds": 0.475635334
     },
     {
       "evaluations": 4733,
@@ -427,7 +427,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.180530041
+      "total_seconds": 0.468893375
     },
     {
       "evaluations": 4718,
@@ -438,7 +438,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.182309041
+      "total_seconds": 0.472852
     },
     {
       "evaluations": 4827,
@@ -449,7 +449,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.191040792
+      "total_seconds": 0.514384333
     },
     {
       "evaluations": 6577,
@@ -460,7 +460,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.396170208
+      "total_seconds": 1.082757042
     },
     {
       "evaluations": 4744,
@@ -471,7 +471,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181306333
+      "total_seconds": 0.468298583
     },
     {
       "evaluations": 7596,
@@ -482,7 +482,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.388987959
+      "total_seconds": 1.053491042
     },
     {
       "evaluations": 7496,
@@ -493,7 +493,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392888042
+      "total_seconds": 1.05646375
     },
     {
       "evaluations": 7520,
@@ -504,7 +504,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.393107625
+      "total_seconds": 1.0572525
     },
     {
       "evaluations": 4728,
@@ -515,7 +515,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181471792
+      "total_seconds": 0.470026125
     },
     {
       "evaluations": 4816,
@@ -526,7 +526,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179230958
+      "total_seconds": 0.461234
     },
     {
       "evaluations": 5317,
@@ -537,7 +537,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.1572815
+      "total_seconds": 0.407241583
     },
     {
       "evaluations": 7585,
@@ -548,7 +548,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.391860709
+      "total_seconds": 1.059567709
     },
     {
       "evaluations": 4802,
@@ -559,7 +559,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179168792
+      "total_seconds": 0.462688875
     },
     {
       "evaluations": 4794,
@@ -570,7 +570,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.178803792
+      "total_seconds": 0.46020675
     },
     {
       "evaluations": 4783,
@@ -581,7 +581,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.182417416
+      "total_seconds": 0.463822916
     },
     {
       "evaluations": 5062,
@@ -592,7 +592,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.156393959
+      "total_seconds": 0.406016791
     },
     {
       "evaluations": 7601,
@@ -603,7 +603,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.390682667
+      "total_seconds": 1.049838875
     },
     {
       "evaluations": 4800,
@@ -614,7 +614,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179659708
+      "total_seconds": 0.462930083
     },
     {
       "evaluations": 4753,
@@ -625,7 +625,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.1795115
+      "total_seconds": 0.4651695
     },
     {
       "evaluations": 4718,
@@ -636,7 +636,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179654334
+      "total_seconds": 0.467370667
     },
     {
       "evaluations": 7520,
@@ -647,7 +647,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.392530833
+      "total_seconds": 1.056732834
     },
     {
       "evaluations": 4786,
@@ -658,7 +658,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179223708
+      "total_seconds": 0.46551525
     },
     {
       "evaluations": 7676,
@@ -669,7 +669,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.399437
+      "total_seconds": 1.066909208
     },
     {
       "evaluations": 4875,
@@ -680,7 +680,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.155005875
+      "total_seconds": 0.404602958
     },
     {
       "evaluations": 5133,
@@ -691,7 +691,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.193726416
+      "total_seconds": 0.513355833
     },
     {
       "evaluations": 7563,
@@ -702,7 +702,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.393231208
+      "total_seconds": 1.053384292
     },
     {
       "evaluations": 5363,
@@ -713,7 +713,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.187177792
+      "total_seconds": 0.468759
     },
     {
       "evaluations": 6669,
@@ -724,7 +724,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.401484125
+      "total_seconds": 1.069729583
     },
     {
       "evaluations": 5058,
@@ -735,7 +735,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.157914875
+      "total_seconds": 0.410343667
     },
     {
       "evaluations": 5135,
@@ -746,7 +746,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.201313958
+      "total_seconds": 0.534315084
     },
     {
       "evaluations": 4843,
@@ -757,7 +757,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.260850083
+      "total_seconds": 0.712435292
     },
     {
       "evaluations": 5215,
@@ -768,7 +768,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181908167
+      "total_seconds": 0.473346375
     },
     {
       "evaluations": 7531,
@@ -779,7 +779,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.4000845
+      "total_seconds": 1.055078042
     },
     {
       "evaluations": 4817,
@@ -790,7 +790,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181852166
+      "total_seconds": 0.464603667
     },
     {
       "evaluations": 4744,
@@ -801,7 +801,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181455917
+      "total_seconds": 0.464724959
     },
     {
       "evaluations": 7516,
@@ -812,7 +812,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.394687792
+      "total_seconds": 1.05039425
     },
     {
       "evaluations": 5989,
@@ -823,7 +823,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.282526458
+      "total_seconds": 0.737149584
     },
     {
       "evaluations": 4781,
@@ -834,7 +834,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.181001084
+      "total_seconds": 0.465924458
     },
     {
       "evaluations": 5335,
@@ -845,7 +845,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.173292917
+      "total_seconds": 0.452119667
     },
     {
       "evaluations": 4765,
@@ -856,7 +856,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.180574416
+      "total_seconds": 0.466034834
     },
     {
       "evaluations": 7542,
@@ -867,7 +867,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.405632583
+      "total_seconds": 1.058765042
     },
     {
       "evaluations": 5000,
@@ -878,7 +878,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183571125
+      "total_seconds": 0.480816792
     },
     {
       "evaluations": 5130,
@@ -889,7 +889,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.197564042
+      "total_seconds": 0.52212675
     },
     {
       "evaluations": 7597,
@@ -900,7 +900,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.394087041
+      "total_seconds": 1.056927666
     },
     {
       "evaluations": 4531,
@@ -911,7 +911,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.186852208
+      "total_seconds": 0.498684209
     },
     {
       "evaluations": 5981,
@@ -922,7 +922,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.285574625
+      "total_seconds": 0.725747625
     },
     {
       "evaluations": 4696,
@@ -933,7 +933,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.184791875
+      "total_seconds": 0.469299959
     },
     {
       "evaluations": 7551,
@@ -944,7 +944,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.39322025
+      "total_seconds": 1.058373458
     },
     {
       "evaluations": 4774,
@@ -955,7 +955,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.18062175
+      "total_seconds": 0.463986458
     },
     {
       "evaluations": 4756,
@@ -966,7 +966,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.182285458
+      "total_seconds": 0.467482875
     },
     {
       "evaluations": 5015,
@@ -977,7 +977,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.190532208
+      "total_seconds": 0.48244625
     },
     {
       "evaluations": 4742,
@@ -988,7 +988,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183457375
+      "total_seconds": 0.465155083
     },
     {
       "evaluations": 4811,
@@ -999,7 +999,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.180620541
+      "total_seconds": 0.460393875
     },
     {
       "evaluations": 4760,
@@ -1010,7 +1010,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179179625
+      "total_seconds": 0.462637333
     },
     {
       "evaluations": 5129,
@@ -1021,7 +1021,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183813167
+      "total_seconds": 0.473679917
     },
     {
       "evaluations": 7517,
@@ -1032,7 +1032,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.397073333
+      "total_seconds": 1.060526834
     },
     {
       "evaluations": 4762,
@@ -1043,7 +1043,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183374125
+      "total_seconds": 0.469317375
     },
     {
       "evaluations": 5325,
@@ -1054,7 +1054,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183809041
+      "total_seconds": 0.470045208
     },
     {
       "evaluations": 7697,
@@ -1065,7 +1065,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.401243708
+      "total_seconds": 1.067498958
     },
     {
       "evaluations": 4754,
@@ -1076,7 +1076,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.179822084
+      "total_seconds": 0.465683833
     },
     {
       "evaluations": 5941,
@@ -1087,7 +1087,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.283786792
+      "total_seconds": 0.730225125
     },
     {
       "evaluations": 5348,
@@ -1098,7 +1098,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.180023667
+      "total_seconds": 0.468918083
     },
     {
       "evaluations": 5301,
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "value": "(0, None, (0, (0, None, None), (1, None, None)))"
       },
-      "total_seconds": 0.183589584
+      "total_seconds": 0.482609458
     }
   ]
 }

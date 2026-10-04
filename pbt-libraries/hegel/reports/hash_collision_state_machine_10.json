@@ -1,5 +1,5 @@
 {
-  "build_profile": "release",
+  "build_profile": "debug",
   "challenge": "hash_collision_state_machine_10",
   "engine_version": "0.44.1",
   "environment": {
@@ -20,7 +20,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.086050125
+      "total_seconds": 0.145607167
     },
     {
       "evaluations": 419,
@@ -31,7 +31,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.074347959
+      "total_seconds": 0.12692875
     },
     {
       "evaluations": 332,
@@ -42,7 +42,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070503084
+      "total_seconds": 0.118821583
     },
     {
       "evaluations": 380,
@@ -53,7 +53,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072334791
+      "total_seconds": 0.122478208
     },
     {
       "evaluations": 345,
@@ -64,7 +64,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071150708
+      "total_seconds": 0.119282834
     },
     {
       "evaluations": 344,
@@ -75,7 +75,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070660958
+      "total_seconds": 0.118117792
     },
     {
       "evaluations": 490,
@@ -86,7 +86,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.082644875
+      "total_seconds": 0.141525292
     },
     {
       "evaluations": 417,
@@ -97,7 +97,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.081378541
+      "total_seconds": 0.140183667
     },
     {
       "evaluations": 396,
@@ -108,7 +108,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.07094025
+      "total_seconds": 0.121273083
     },
     {
       "evaluations": 286,
@@ -119,7 +119,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049410708
+      "total_seconds": 0.083065667
     },
     {
       "evaluations": 391,
@@ -130,7 +130,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071184875
+      "total_seconds": 0.119431666
     },
     {
       "evaluations": 327,
@@ -141,7 +141,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070482083
+      "total_seconds": 0.117933709
     },
     {
       "evaluations": 398,
@@ -152,7 +152,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.058344292
+      "total_seconds": 0.098593458
     },
     {
       "evaluations": 318,
@@ -163,7 +163,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.048148
+      "total_seconds": 0.082391208
     },
     {
       "evaluations": 302,
@@ -174,7 +174,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.048514167
+      "total_seconds": 0.082380584
     },
     {
       "evaluations": 372,
@@ -185,7 +185,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070426292
+      "total_seconds": 0.11940125
     },
     {
       "evaluations": 376,
@@ -196,7 +196,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071797542
+      "total_seconds": 0.120659
     },
     {
       "evaluations": 541,
@@ -207,7 +207,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.107471
+      "total_seconds": 0.179949166
     },
     {
       "evaluations": 306,
@@ -218,7 +218,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049151833
+      "total_seconds": 0.082418042
     },
     {
       "evaluations": 383,
@@ -229,7 +229,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.07027925
+      "total_seconds": 0.118658834
     },
     {
       "evaluations": 269,
@@ -240,7 +240,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.047658
+      "total_seconds": 0.081753208
     },
     {
       "evaluations": 526,
@@ -251,7 +251,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108554583
+      "total_seconds": 0.180255459
     },
     {
       "evaluations": 343,
@@ -262,7 +262,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.07052675
+      "total_seconds": 0.120239375
     },
     {
       "evaluations": 313,
@@ -273,7 +273,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049689792
+      "total_seconds": 0.083880625
     },
     {
       "evaluations": 290,
@@ -284,7 +284,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049172209
+      "total_seconds": 0.08284675
     },
     {
       "evaluations": 375,
@@ -295,7 +295,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070364625
+      "total_seconds": 0.118016875
     },
     {
       "evaluations": 550,
@@ -306,7 +306,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108119875
+      "total_seconds": 0.180338625
     },
     {
       "evaluations": 442,
@@ -317,7 +317,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.082730541
+      "total_seconds": 0.139840292
     },
     {
       "evaluations": 483,
@@ -328,7 +328,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.082848291
+      "total_seconds": 0.14137925
     },
     {
       "evaluations": 580,
@@ -339,7 +339,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.106466083
+      "total_seconds": 0.180068667
     },
     {
       "evaluations": 345,
@@ -350,7 +350,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071511334
+      "total_seconds": 0.118503708
     },
     {
       "evaluations": 524,
@@ -361,7 +361,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.1075025
+      "total_seconds": 0.179318583
     },
     {
       "evaluations": 376,
@@ -372,7 +372,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070268292
+      "total_seconds": 0.1183755
     },
     {
       "evaluations": 341,
@@ -383,7 +383,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071062333
+      "total_seconds": 0.118472417
     },
     {
       "evaluations": 383,
@@ -394,7 +394,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071712666
+      "total_seconds": 0.119383625
     },
     {
       "evaluations": 304,
@@ -405,7 +405,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.047912791
+      "total_seconds": 0.080532041
     },
     {
       "evaluations": 295,
@@ -416,7 +416,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.051287333
+      "total_seconds": 0.084221667
     },
     {
       "evaluations": 405,
@@ -427,7 +427,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.075011375
+      "total_seconds": 0.124229958
     },
     {
       "evaluations": 358,
@@ -438,7 +438,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.07360125
+      "total_seconds": 0.119502458
     },
     {
       "evaluations": 322,
@@ -449,7 +449,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049433875
+      "total_seconds": 0.081583125
     },
     {
       "evaluations": 542,
@@ -460,7 +460,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.109391667
+      "total_seconds": 0.180895584
     },
     {
       "evaluations": 562,
@@ -471,7 +471,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.109484167
+      "total_seconds": 0.1838215
     },
     {
       "evaluations": 456,
@@ -482,7 +482,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.083054083
+      "total_seconds": 0.139915333
     },
     {
       "evaluations": 451,
@@ -493,7 +493,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.083227625
+      "total_seconds": 0.139692917
     },
     {
       "evaluations": 328,
@@ -504,7 +504,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.048879584
+      "total_seconds": 0.082825833
     },
     {
       "evaluations": 320,
@@ -515,7 +515,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072153708
+      "total_seconds": 0.120714666
     },
     {
       "evaluations": 570,
@@ -526,7 +526,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.109291583
+      "total_seconds": 0.183290625
     },
     {
       "evaluations": 328,
@@ -537,7 +537,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049439
+      "total_seconds": 0.082674458
     },
     {
       "evaluations": 374,
@@ -548,7 +548,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071146166
+      "total_seconds": 0.11923275
     },
     {
       "evaluations": 563,
@@ -559,7 +559,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.107027792
+      "total_seconds": 0.184540708
     },
     {
       "evaluations": 563,
@@ -570,7 +570,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108614458
+      "total_seconds": 0.18172
     },
     {
       "evaluations": 372,
@@ -581,7 +581,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070269459
+      "total_seconds": 0.118182625
     },
     {
       "evaluations": 460,
@@ -592,7 +592,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.082312583
+      "total_seconds": 0.139295917
     },
     {
       "evaluations": 520,
@@ -603,7 +603,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.106691458
+      "total_seconds": 0.179320458
     },
     {
       "evaluations": 342,
@@ -614,7 +614,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070725667
+      "total_seconds": 0.119464
     },
     {
       "evaluations": 316,
@@ -625,7 +625,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.04702275
+      "total_seconds": 0.079432084
     },
     {
       "evaluations": 374,
@@ -636,7 +636,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072905833
+      "total_seconds": 0.121848959
     },
     {
       "evaluations": 476,
@@ -647,7 +647,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.083791958
+      "total_seconds": 0.140752167
     },
     {
       "evaluations": 538,
@@ -658,7 +658,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.107009083
+      "total_seconds": 0.181928542
     },
     {
       "evaluations": 544,
@@ -669,7 +669,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108282125
+      "total_seconds": 0.181607834
     },
     {
       "evaluations": 330,
@@ -680,7 +680,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.048901083
+      "total_seconds": 0.081434959
     },
     {
       "evaluations": 282,
@@ -691,7 +691,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.047709416
+      "total_seconds": 0.080032833
     },
     {
       "evaluations": 553,
@@ -702,7 +702,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108078459
+      "total_seconds": 0.180370459
     },
     {
       "evaluations": 294,
@@ -713,7 +713,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049662917
+      "total_seconds": 0.082622458
     },
     {
       "evaluations": 369,
@@ -724,7 +724,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070313625
+      "total_seconds": 0.117739041
     },
     {
       "evaluations": 337,
@@ -735,7 +735,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070979834
+      "total_seconds": 0.11813975
     },
     {
       "evaluations": 506,
@@ -746,7 +746,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.08375775
+      "total_seconds": 0.140692125
     },
     {
       "evaluations": 552,
@@ -757,7 +757,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108928917
+      "total_seconds": 0.182534416
     },
     {
       "evaluations": 352,
@@ -768,7 +768,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.074418459
+      "total_seconds": 0.119827958
     },
     {
       "evaluations": 344,
@@ -779,7 +779,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072843208
+      "total_seconds": 0.118868042
     },
     {
       "evaluations": 345,
@@ -790,7 +790,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.0728585
+      "total_seconds": 0.117366875
     },
     {
       "evaluations": 569,
@@ -801,7 +801,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.10832975
+      "total_seconds": 0.180912208
     },
     {
       "evaluations": 510,
@@ -812,7 +812,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.08432975
+      "total_seconds": 0.141225208
     },
     {
       "evaluations": 482,
@@ -823,7 +823,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.084487667
+      "total_seconds": 0.14174875
     },
     {
       "evaluations": 489,
@@ -834,7 +834,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.082873833
+      "total_seconds": 0.13846025
     },
     {
       "evaluations": 328,
@@ -845,7 +845,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.051268625
+      "total_seconds": 0.084763083
     },
     {
       "evaluations": 319,
@@ -856,7 +856,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.048456459
+      "total_seconds": 0.081302917
     },
     {
       "evaluations": 383,
@@ -867,7 +867,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071278208
+      "total_seconds": 0.118429333
     },
     {
       "evaluations": 356,
@@ -878,7 +878,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072112625
+      "total_seconds": 0.118302625
     },
     {
       "evaluations": 332,
@@ -889,7 +889,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049854583
+      "total_seconds": 0.084073292
     },
     {
       "evaluations": 297,
@@ -900,7 +900,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.047704166
+      "total_seconds": 0.07985475
     },
     {
       "evaluations": 324,
@@ -911,7 +911,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.049916833
+      "total_seconds": 0.082822209
     },
     {
       "evaluations": 451,
@@ -922,7 +922,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.083868333
+      "total_seconds": 0.138225625
     },
     {
       "evaluations": 367,
@@ -933,7 +933,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071555291
+      "total_seconds": 0.118645125
     },
     {
       "evaluations": 522,
@@ -944,7 +944,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.107985125
+      "total_seconds": 0.179785625
     },
     {
       "evaluations": 464,
@@ -955,7 +955,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.082576709
+      "total_seconds": 0.138753
     },
     {
       "evaluations": 369,
@@ -966,7 +966,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070556583
+      "total_seconds": 0.118220667
     },
     {
       "evaluations": 461,
@@ -977,7 +977,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.083131458
+      "total_seconds": 0.1398405
     },
     {
       "evaluations": 350,
@@ -988,7 +988,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070723083
+      "total_seconds": 0.118435667
     },
     {
       "evaluations": 371,
@@ -999,7 +999,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.071195166
+      "total_seconds": 0.119198792
     },
     {
       "evaluations": 344,
@@ -1010,7 +1010,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072559958
+      "total_seconds": 0.123940875
     },
     {
       "evaluations": 355,
@@ -1021,7 +1021,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.072682
+      "total_seconds": 0.121262083
     },
     {
       "evaluations": 527,
@@ -1032,7 +1032,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.108876834
+      "total_seconds": 0.183848417
     },
     {
       "evaluations": 368,
@@ -1043,7 +1043,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070815
+      "total_seconds": 0.119698583
     },
     {
       "evaluations": 521,
@@ -1054,7 +1054,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.107553208
+      "total_seconds": 0.181893209
     },
     {
       "evaluations": 478,
@@ -1065,7 +1065,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.084943792
+      "total_seconds": 0.142973208
     },
     {
       "evaluations": 377,
@@ -1076,7 +1076,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070671333
+      "total_seconds": 0.118271041
     },
     {
       "evaluations": 510,
@@ -1087,7 +1087,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.106951209
+      "total_seconds": 0.180207375
     },
     {
       "evaluations": 398,
@@ -1098,7 +1098,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.070423083
+      "total_seconds": 0.118788292
     },
     {
       "evaluations": 454,
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "steps": "[put(0, 0), put(10, 1)]"
       },
-      "total_seconds": 0.081875084
+      "total_seconds": 0.138036334
     }
   ]
 }

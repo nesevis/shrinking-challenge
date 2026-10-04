@@ -5,7 +5,7 @@ import math
 import re
 import unittest
 
-from make_reports import ROOT, SPECS, validate_comparison, value
+from make_reports import COMPARISON_PROFILE, ROOT, SPECS, validate_comparison, value
 
 
 def hash_put(entries, modulus, key, val):
@@ -260,7 +260,7 @@ class RecordedResultsTests(unittest.TestCase):
         for name, report in reports.items():
             with self.subTest(challenge=name):
                 self.assertEqual(report["challenge"], name)
-                self.assertEqual(report["build_profile"], "release")
+                self.assertEqual(report["build_profile"], COMPARISON_PROFILE)
                 runs = report["runs"]
                 for record in runs:
                     with self.subTest(seed=record["seed"]):

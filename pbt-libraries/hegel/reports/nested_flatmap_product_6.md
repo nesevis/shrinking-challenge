@@ -1,12 +1,12 @@
 # Nested Flatmap (product), depth 6
 
-Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results](nested_flatmap_product_6.json).
+Hegel 0.48.1, native engine 0.44.1, debug build. 100 seeded runs; [raw results](nested_flatmap_product_6.json).
 
 | Metric | Mean |
 |---|---|
 | Evaluations from first failure | 3596.3 |
 | Original counterexample length | 18.2 |
-| Total elapsed time (ms) | 22.73 |
+| Total elapsed time (ms) | 42.59 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 

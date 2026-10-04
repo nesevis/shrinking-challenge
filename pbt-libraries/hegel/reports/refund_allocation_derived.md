@@ -1,12 +1,12 @@
 # Refund Allocation (derived)
 
-Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results](refund_allocation_derived.json).
+Hegel 0.48.1, native engine 0.44.1, debug build. 100 seeded runs; [raw results](refund_allocation_derived.json).
 
 | Metric | Mean |
 |---|---|
 | Evaluations from first failure | 168.3 |
 | Original counterexample length | 42.6 |
-| Total elapsed time (ms) | 16.07 |
+| Total elapsed time (ms) | 26.63 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 

@@ -1,5 +1,5 @@
 {
-  "build_profile": "release",
+  "build_profile": "debug",
   "challenge": "refund_allocation_derived",
   "engine_version": "0.44.1",
   "environment": {
@@ -20,7 +20,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013635708
+      "total_seconds": 0.023885458
     },
     {
       "evaluations": 69,
@@ -31,7 +31,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.0164465
+      "total_seconds": 0.026314875
     },
     {
       "evaluations": 302,
@@ -42,7 +42,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.019696792
+      "total_seconds": 0.032484
     },
     {
       "evaluations": 111,
@@ -53,7 +53,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014135542
+      "total_seconds": 0.023598833
     },
     {
       "evaluations": 114,
@@ -64,7 +64,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.018364584
+      "total_seconds": 0.029975792
     },
     {
       "evaluations": 226,
@@ -75,7 +75,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015087291
+      "total_seconds": 0.024946291
     },
     {
       "evaluations": 161,
@@ -86,7 +86,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015558167
+      "total_seconds": 0.024973417
     },
     {
       "evaluations": 88,
@@ -97,7 +97,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017897625
+      "total_seconds": 0.029609875
     },
     {
       "evaluations": 499,
@@ -108,7 +108,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.021429458
+      "total_seconds": 0.036179667
     },
     {
       "evaluations": 114,
@@ -119,7 +119,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013267584
+      "total_seconds": 0.02184225
     },
     {
       "evaluations": 75,
@@ -130,7 +130,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.020623833
+      "total_seconds": 0.032936875
     },
     {
       "evaluations": 641,
@@ -141,7 +141,7 @@
       "shrunk": {
         "value": "RefundRequest([61, 5079374505385], 62852702378)"
       },
-      "total_seconds": 0.01441975
+      "total_seconds": 0.024660041
     },
     {
       "evaluations": 395,
@@ -152,7 +152,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.024374709
+      "total_seconds": 0.040716958
     },
     {
       "evaluations": 115,
@@ -163,7 +163,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012342667
+      "total_seconds": 0.020804083
     },
     {
       "evaluations": 89,
@@ -174,7 +174,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014924875
+      "total_seconds": 0.024158208
     },
     {
       "evaluations": 480,
@@ -185,7 +185,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.021277917
+      "total_seconds": 0.035351667
     },
     {
       "evaluations": 95,
@@ -196,7 +196,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017856875
+      "total_seconds": 0.029562667
     },
     {
       "evaluations": 240,
@@ -207,7 +207,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.0288135
+      "total_seconds": 0.049045291
     },
     {
       "evaluations": 378,
@@ -218,7 +218,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.019068959
+      "total_seconds": 0.032720791
     },
     {
       "evaluations": 191,
@@ -229,7 +229,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014702917
+      "total_seconds": 0.024679416
     },
     {
       "evaluations": 180,
@@ -240,7 +240,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013163042
+      "total_seconds": 0.022515125
     },
     {
       "evaluations": 79,
@@ -251,7 +251,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.018220833
+      "total_seconds": 0.029938625
     },
     {
       "evaluations": 84,
@@ -262,7 +262,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.010116875
+      "total_seconds": 0.017290083
     },
     {
       "evaluations": 95,
@@ -273,7 +273,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012619625
+      "total_seconds": 0.021105292
     },
     {
       "evaluations": 161,
@@ -284,7 +284,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012154792
+      "total_seconds": 0.020602542
     },
     {
       "evaluations": 105,
@@ -295,7 +295,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013036584
+      "total_seconds": 0.021704125
     },
     {
       "evaluations": 82,
@@ -306,7 +306,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.01060575
+      "total_seconds": 0.018120833
     },
     {
       "evaluations": 91,
@@ -317,7 +317,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.01099475
+      "total_seconds": 0.018741542
     },
     {
       "evaluations": 670,
@@ -328,7 +328,7 @@
       "shrunk": {
         "value": "RefundRequest([93, 790301990554], 21244677169)"
       },
-      "total_seconds": 0.014346375
+      "total_seconds": 0.024698333
     },
     {
       "evaluations": 210,
@@ -339,7 +339,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.01892325
+      "total_seconds": 0.031290959
     },
     {
       "evaluations": 628,
@@ -350,7 +350,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 1736534408644545], 28008619494300)"
       },
-      "total_seconds": 0.015672583
+      "total_seconds": 0.026149292
     },
     {
       "evaluations": 99,
@@ -361,7 +361,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.016211666
+      "total_seconds": 0.026411833
     },
     {
       "evaluations": 209,
@@ -372,7 +372,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.020480333
+      "total_seconds": 0.033934583
     },
     {
       "evaluations": 136,
@@ -383,7 +383,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.014003
+      "total_seconds": 0.023434459
     },
     {
       "evaluations": 235,
@@ -394,7 +394,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.019686
+      "total_seconds": 0.031687
     },
     {
       "evaluations": 148,
@@ -405,7 +405,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014251667
+      "total_seconds": 0.023737458
     },
     {
       "evaluations": 298,
@@ -416,7 +416,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.031414417
+      "total_seconds": 0.050999125
     },
     {
       "evaluations": 162,
@@ -427,7 +427,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013750042
+      "total_seconds": 0.02245675
     },
     {
       "evaluations": 93,
@@ -438,7 +438,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.011373042
+      "total_seconds": 0.019173292
     },
     {
       "evaluations": 72,
@@ -449,7 +449,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.023745333
+      "total_seconds": 0.037931291
     },
     {
       "evaluations": 207,
@@ -460,7 +460,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017037417
+      "total_seconds": 0.028501292
     },
     {
       "evaluations": 114,
@@ -471,7 +471,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014055791
+      "total_seconds": 0.023100708
     },
     {
       "evaluations": 95,
@@ -482,7 +482,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015729292
+      "total_seconds": 0.026365583
     },
     {
       "evaluations": 87,
@@ -493,7 +493,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.01972325
+      "total_seconds": 0.032282875
     },
     {
       "evaluations": 177,
@@ -504,7 +504,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017212791
+      "total_seconds": 0.028741416
     },
     {
       "evaluations": 125,
@@ -515,7 +515,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.015200292
+      "total_seconds": 0.025336917
     },
     {
       "evaluations": 102,
@@ -526,7 +526,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012237584
+      "total_seconds": 0.020560625
     },
     {
       "evaluations": 135,
@@ -537,7 +537,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012764583
+      "total_seconds": 0.021352542
     },
     {
       "evaluations": 130,
@@ -548,7 +548,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.016718
+      "total_seconds": 0.027611
     },
     {
       "evaluations": 78,
@@ -559,7 +559,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.010595458
+      "total_seconds": 0.017726958
     },
     {
       "evaluations": 80,
@@ -570,7 +570,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013890542
+      "total_seconds": 0.022851667
     },
     {
       "evaluations": 99,
@@ -581,7 +581,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013123625
+      "total_seconds": 0.022381084
     },
     {
       "evaluations": 247,
@@ -592,7 +592,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017457
+      "total_seconds": 0.02917575
     },
     {
       "evaluations": 102,
@@ -603,7 +603,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.01392625
+      "total_seconds": 0.0234885
     },
     {
       "evaluations": 290,
@@ -614,7 +614,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.017290625
+      "total_seconds": 0.028262375
     },
     {
       "evaluations": 114,
@@ -625,7 +625,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.016818416
+      "total_seconds": 0.027427125
     },
     {
       "evaluations": 106,
@@ -636,7 +636,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.012713667
+      "total_seconds": 0.022481042
     },
     {
       "evaluations": 90,
@@ -647,7 +647,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012604291
+      "total_seconds": 0.021319792
     },
     {
       "evaluations": 161,
@@ -658,7 +658,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.018510458
+      "total_seconds": 0.0308325
     },
     {
       "evaluations": 298,
@@ -669,7 +669,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.01970125
+      "total_seconds": 0.032402958
     },
     {
       "evaluations": 141,
@@ -680,7 +680,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015454917
+      "total_seconds": 0.025221708
     },
     {
       "evaluations": 111,
@@ -691,7 +691,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015827209
+      "total_seconds": 0.026027958
     },
     {
       "evaluations": 81,
@@ -702,7 +702,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.016115083
+      "total_seconds": 0.026125583
     },
     {
       "evaluations": 81,
@@ -713,7 +713,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.010233
+      "total_seconds": 0.017001042
     },
     {
       "evaluations": 65,
@@ -724,7 +724,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015615084
+      "total_seconds": 0.025469291
     },
     {
       "evaluations": 64,
@@ -735,7 +735,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.01353
+      "total_seconds": 0.022472416
     },
     {
       "evaluations": 121,
@@ -746,7 +746,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.026164917
+      "total_seconds": 0.042294667
     },
     {
       "evaluations": 109,
@@ -757,7 +757,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.011788416
+      "total_seconds": 0.019947625
     },
     {
       "evaluations": 538,
@@ -768,7 +768,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.026296625
+      "total_seconds": 0.043520166
     },
     {
       "evaluations": 121,
@@ -779,7 +779,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.018534291
+      "total_seconds": 0.030251416
     },
     {
       "evaluations": 238,
@@ -790,7 +790,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015441375
+      "total_seconds": 0.025717584
     },
     {
       "evaluations": 142,
@@ -801,7 +801,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.016350333
+      "total_seconds": 0.026764625
     },
     {
       "evaluations": 168,
@@ -812,7 +812,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.018653292
+      "total_seconds": 0.031083209
     },
     {
       "evaluations": 249,
@@ -823,7 +823,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017449959
+      "total_seconds": 0.029513583
     },
     {
       "evaluations": 64,
@@ -834,7 +834,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013726875
+      "total_seconds": 0.022610458
     },
     {
       "evaluations": 133,
@@ -845,7 +845,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015272583
+      "total_seconds": 0.025000958
     },
     {
       "evaluations": 87,
@@ -856,7 +856,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014000417
+      "total_seconds": 0.0234795
     },
     {
       "evaluations": 104,
@@ -867,7 +867,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013447833
+      "total_seconds": 0.02231575
     },
     {
       "evaluations": 95,
@@ -878,7 +878,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.016319541
+      "total_seconds": 0.027301333
     },
     {
       "evaluations": 91,
@@ -889,7 +889,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013125416
+      "total_seconds": 0.021263541
     },
     {
       "evaluations": 176,
@@ -900,7 +900,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.022986958
+      "total_seconds": 0.036760291
     },
     {
       "evaluations": 90,
@@ -911,7 +911,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012134917
+      "total_seconds": 0.020301875
     },
     {
       "evaluations": 71,
@@ -922,7 +922,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.0178065
+      "total_seconds": 0.028741875
     },
     {
       "evaluations": 144,
@@ -933,7 +933,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012828667
+      "total_seconds": 0.021428667
     },
     {
       "evaluations": 88,
@@ -944,7 +944,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.012697
+      "total_seconds": 0.020232917
     },
     {
       "evaluations": 124,
@@ -955,7 +955,7 @@
       "shrunk": {
         "value": "RefundRequest([33, 31], 2)"
       },
-      "total_seconds": 0.011231666
+      "total_seconds": 0.018382917
     },
     {
       "evaluations": 85,
@@ -966,7 +966,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.01271575
+      "total_seconds": 0.020937042
     },
     {
       "evaluations": 92,
@@ -977,7 +977,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.019243833
+      "total_seconds": 0.0311845
     },
     {
       "evaluations": 123,
@@ -988,7 +988,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.015544417
+      "total_seconds": 0.025762541
     },
     {
       "evaluations": 75,
@@ -999,7 +999,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.0183305
+      "total_seconds": 0.0300865
     },
     {
       "evaluations": 112,
@@ -1010,7 +1010,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012137042
+      "total_seconds": 0.020292791
     },
     {
       "evaluations": 202,
@@ -1021,7 +1021,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.013970667
+      "total_seconds": 0.023331959
     },
     {
       "evaluations": 81,
@@ -1032,7 +1032,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012697042
+      "total_seconds": 0.021514459
     },
     {
       "evaluations": 121,
@@ -1043,7 +1043,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.019728375
+      "total_seconds": 0.032047
     },
     {
       "evaluations": 103,
@@ -1054,7 +1054,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.017027167
+      "total_seconds": 0.027759166
     },
     {
       "evaluations": 117,
@@ -1065,7 +1065,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 33], 4)"
       },
-      "total_seconds": 0.01569375
+      "total_seconds": 0.026179708
     },
     {
       "evaluations": 79,
@@ -1076,7 +1076,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.012566791
+      "total_seconds": 0.020749292
     },
     {
       "evaluations": 186,
@@ -1087,7 +1087,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.018093
+      "total_seconds": 0.030200792
     },
     {
       "evaluations": 633,
@@ -1098,7 +1098,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 599688524507359], 36738571086018)"
       },
-      "total_seconds": 0.01587425
+      "total_seconds": 0.02693625
     },
     {
       "evaluations": 139,
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "value": "RefundRequest([31, 34], 2)"
       },
-      "total_seconds": 0.014507917
+      "total_seconds": 0.023929041
     }
   ]
 }

@@ -4,9 +4,9 @@ benchmark: run
 	python3 support/make_reports.py --update-readme
 
 run:
-	cargo build --release --locked
-	@set -e; for challenge in $$(target/release/hegel-runner --list); do \
-		target/release/hegel-runner --challenge $$challenge --seed 1337 --iterations 100; \
+	cargo build --locked
+	@set -e; for challenge in $$(target/debug/hegel-runner --list); do \
+		target/debug/hegel-runner --challenge $$challenge --seed 1337 --iterations 100; \
 	done
 
 reports:

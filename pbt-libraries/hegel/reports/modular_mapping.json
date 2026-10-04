@@ -1,5 +1,5 @@
 {
-  "build_profile": "release",
+  "build_profile": "debug",
   "challenge": "modular_mapping",
   "engine_version": "0.44.1",
   "environment": {
@@ -20,7 +20,7 @@
       "shrunk": {
         "value": "901"
       },
-      "total_seconds": 0.000867583
+      "total_seconds": 0.001542292
     },
     {
       "evaluations": 29,
@@ -31,7 +31,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000658416
+      "total_seconds": 0.001257708
     },
     {
       "evaluations": 30,
@@ -42,7 +42,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000611542
+      "total_seconds": 0.00117875
     },
     {
       "evaluations": 30,
@@ -53,7 +53,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00058875
+      "total_seconds": 0.001182292
     },
     {
       "evaluations": 30,
@@ -64,7 +64,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000587959
+      "total_seconds": 0.001166666
     },
     {
       "evaluations": 31,
@@ -75,7 +75,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000641917
+      "total_seconds": 0.001186875
     },
     {
       "evaluations": 32,
@@ -86,7 +86,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00059875
+      "total_seconds": 0.001149833
     },
     {
       "evaluations": 37,
@@ -97,7 +97,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000632541
+      "total_seconds": 0.001214375
     },
     {
       "evaluations": 31,
@@ -108,7 +108,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000601209
+      "total_seconds": 0.001148209
     },
     {
       "evaluations": 29,
@@ -119,7 +119,7 @@
       "shrunk": {
         "value": "927"
       },
-      "total_seconds": 0.000325166
+      "total_seconds": 0.000608041
     },
     {
       "evaluations": 33,
@@ -130,7 +130,7 @@
       "shrunk": {
         "value": "905"
       },
-      "total_seconds": 0.000570416
+      "total_seconds": 0.001036875
     },
     {
       "evaluations": 31,
@@ -141,7 +141,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00056675
+      "total_seconds": 0.001031166
     },
     {
       "evaluations": 40,
@@ -152,7 +152,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000607708
+      "total_seconds": 0.001098708
     },
     {
       "evaluations": 37,
@@ -163,7 +163,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000600667
+      "total_seconds": 0.001048834
     },
     {
       "evaluations": 32,
@@ -174,7 +174,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000610167
+      "total_seconds": 0.001045542
     },
     {
       "evaluations": 33,
@@ -185,7 +185,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000721875
+      "total_seconds": 0.001227917
     },
     {
       "evaluations": 29,
@@ -196,7 +196,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000548333
+      "total_seconds": 0.000944291
     },
     {
       "evaluations": 32,
@@ -207,7 +207,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000592
+      "total_seconds": 0.000995708
     },
     {
       "evaluations": 31,
@@ -218,7 +218,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000377792
+      "total_seconds": 0.000653
     },
     {
       "evaluations": 31,
@@ -229,7 +229,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000365041
+      "total_seconds": 0.0006105
     },
     {
       "evaluations": 31,
@@ -240,7 +240,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000609166
+      "total_seconds": 0.001016416
     },
     {
       "evaluations": 32,
@@ -251,7 +251,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000631792
+      "total_seconds": 0.001064959
     },
     {
       "evaluations": 30,
@@ -262,7 +262,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000575792
+      "total_seconds": 0.000950458
     },
     {
       "evaluations": 31,
@@ -273,7 +273,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000653917
+      "total_seconds": 0.001086
     },
     {
       "evaluations": 34,
@@ -284,7 +284,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000574875
+      "total_seconds": 0.000961542
     },
     {
       "evaluations": 32,
@@ -295,7 +295,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000594958
+      "total_seconds": 0.001015333
     },
     {
       "evaluations": 33,
@@ -306,7 +306,7 @@
       "shrunk": {
         "value": "905"
       },
-      "total_seconds": 0.000566291
+      "total_seconds": 0.000951833
     },
     {
       "evaluations": 32,
@@ -317,7 +317,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000574583
+      "total_seconds": 0.000964542
     },
     {
       "evaluations": 36,
@@ -328,7 +328,7 @@
       "shrunk": {
         "value": "930"
       },
-      "total_seconds": 0.000589917
+      "total_seconds": 0.000983
     },
     {
       "evaluations": 37,
@@ -339,7 +339,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000591166
+      "total_seconds": 0.00099075
     },
     {
       "evaluations": 33,
@@ -350,7 +350,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000596208
+      "total_seconds": 0.000973333
     },
     {
       "evaluations": 33,
@@ -361,7 +361,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000591709
+      "total_seconds": 0.00099225
     },
     {
       "evaluations": 29,
@@ -372,7 +372,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000579042
+      "total_seconds": 0.0009435
     },
     {
       "evaluations": 33,
@@ -383,7 +383,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.0006425
+      "total_seconds": 0.000960167
     },
     {
       "evaluations": 45,
@@ -394,7 +394,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000682875
+      "total_seconds": 0.001041875
     },
     {
       "evaluations": 32,
@@ -405,7 +405,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000602125
+      "total_seconds": 0.001009833
     },
     {
       "evaluations": 36,
@@ -416,7 +416,7 @@
       "shrunk": {
         "value": "927"
       },
-      "total_seconds": 0.000548167
+      "total_seconds": 0.000936583
     },
     {
       "evaluations": 37,
@@ -427,7 +427,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000604542
+      "total_seconds": 0.001034417
     },
     {
       "evaluations": 32,
@@ -438,7 +438,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000572459
+      "total_seconds": 0.000973334
     },
     {
       "evaluations": 29,
@@ -449,7 +449,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000634333
+      "total_seconds": 0.001076125
     },
     {
       "evaluations": 31,
@@ -460,7 +460,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000401291
+      "total_seconds": 0.000696125
     },
     {
       "evaluations": 36,
@@ -471,7 +471,7 @@
       "shrunk": {
         "value": "927"
       },
-      "total_seconds": 0.000578083
+      "total_seconds": 0.000988625
     },
     {
       "evaluations": 31,
@@ -482,7 +482,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000355625
+      "total_seconds": 0.000603375
     },
     {
       "evaluations": 31,
@@ -493,7 +493,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000370167
+      "total_seconds": 0.000632208
     },
     {
       "evaluations": 32,
@@ -504,7 +504,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000598625
+      "total_seconds": 0.000982417
     },
     {
       "evaluations": 29,
@@ -515,7 +515,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000567666
+      "total_seconds": 0.000934083
     },
     {
       "evaluations": 30,
@@ -526,7 +526,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000637833
+      "total_seconds": 0.001085416
     },
     {
       "evaluations": 29,
@@ -537,7 +537,7 @@
       "shrunk": {
         "value": "927"
       },
-      "total_seconds": 0.000353333
+      "total_seconds": 0.000622083
     },
     {
       "evaluations": 32,
@@ -548,7 +548,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000633625
+      "total_seconds": 0.001057375
     },
     {
       "evaluations": 31,
@@ -559,7 +559,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.00042175
+      "total_seconds": 0.000716041
     },
     {
       "evaluations": 40,
@@ -570,7 +570,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000599834
+      "total_seconds": 0.001019584
     },
     {
       "evaluations": 33,
@@ -581,7 +581,7 @@
       "shrunk": {
         "value": "905"
       },
-      "total_seconds": 0.000581208
+      "total_seconds": 0.000967208
     },
     {
       "evaluations": 31,
@@ -592,7 +592,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000598625
+      "total_seconds": 0.000996416
     },
     {
       "evaluations": 31,
@@ -603,7 +603,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000574916
+      "total_seconds": 0.000959958
     },
     {
       "evaluations": 29,
@@ -614,7 +614,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000567458
+      "total_seconds": 0.000966833
     },
     {
       "evaluations": 38,
@@ -625,7 +625,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000613459
+      "total_seconds": 0.001028959
     },
     {
       "evaluations": 32,
@@ -636,7 +636,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00061075
+      "total_seconds": 0.001026667
     },
     {
       "evaluations": 32,
@@ -647,7 +647,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000595292
+      "total_seconds": 0.001000541
     },
     {
       "evaluations": 27,
@@ -658,7 +658,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000358208
+      "total_seconds": 0.000614958
     },
     {
       "evaluations": 32,
@@ -669,7 +669,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000605833
+      "total_seconds": 0.001008958
     },
     {
       "evaluations": 33,
@@ -680,7 +680,7 @@
       "shrunk": {
         "value": "905"
       },
-      "total_seconds": 0.000562417
+      "total_seconds": 0.000954333
     },
     {
       "evaluations": 32,
@@ -691,7 +691,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000579542
+      "total_seconds": 0.000987042
     },
     {
       "evaluations": 33,
@@ -702,7 +702,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000565458
+      "total_seconds": 0.000962833
     },
     {
       "evaluations": 31,
@@ -713,7 +713,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000622625
+      "total_seconds": 0.001027791
     },
     {
       "evaluations": 45,
@@ -724,7 +724,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000618375
+      "total_seconds": 0.001062417
     },
     {
       "evaluations": 31,
@@ -735,7 +735,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000598208
+      "total_seconds": 0.0009885
     },
     {
       "evaluations": 33,
@@ -746,7 +746,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00061
+      "total_seconds": 0.001036625
     },
     {
       "evaluations": 29,
@@ -757,7 +757,7 @@
       "shrunk": {
         "value": "927"
       },
-      "total_seconds": 0.000370833
+      "total_seconds": 0.000628667
     },
     {
       "evaluations": 32,
@@ -768,7 +768,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000625209
+      "total_seconds": 0.001050959
     },
     {
       "evaluations": 31,
@@ -779,7 +779,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000556625
+      "total_seconds": 0.000959833
     },
     {
       "evaluations": 29,
@@ -790,7 +790,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000577541
+      "total_seconds": 0.000988291
     },
     {
       "evaluations": 36,
@@ -801,7 +801,7 @@
       "shrunk": {
         "value": "927"
       },
-      "total_seconds": 0.000560458
+      "total_seconds": 0.000961375
     },
     {
       "evaluations": 32,
@@ -812,7 +812,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00057125
+      "total_seconds": 0.000974042
     },
     {
       "evaluations": 47,
@@ -823,7 +823,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000626542
+      "total_seconds": 0.001044083
     },
     {
       "evaluations": 34,
@@ -834,7 +834,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000574834
+      "total_seconds": 0.000963292
     },
     {
       "evaluations": 32,
@@ -845,7 +845,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000621875
+      "total_seconds": 0.001028708
     },
     {
       "evaluations": 31,
@@ -856,7 +856,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000362166
+      "total_seconds": 0.000617875
     },
     {
       "evaluations": 31,
@@ -867,7 +867,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000454667
+      "total_seconds": 0.000750833
     },
     {
       "evaluations": 31,
@@ -878,7 +878,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000422917
+      "total_seconds": 0.000657875
     },
     {
       "evaluations": 34,
@@ -889,7 +889,7 @@
       "shrunk": {
         "value": "905"
       },
-      "total_seconds": 0.000656667
+      "total_seconds": 0.001044166
     },
     {
       "evaluations": 31,
@@ -900,7 +900,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000375667
+      "total_seconds": 0.000663833
     },
     {
       "evaluations": 32,
@@ -911,7 +911,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000603083
+      "total_seconds": 0.001020125
     },
     {
       "evaluations": 32,
@@ -922,7 +922,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000564375
+      "total_seconds": 0.000961584
     },
     {
       "evaluations": 37,
@@ -933,7 +933,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000627542
+      "total_seconds": 0.001081667
     },
     {
       "evaluations": 32,
@@ -944,7 +944,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000568583
+      "total_seconds": 0.000966458
     },
     {
       "evaluations": 32,
@@ -955,7 +955,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000575666
+      "total_seconds": 0.000971041
     },
     {
       "evaluations": 46,
@@ -966,7 +966,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000641166
+      "total_seconds": 0.001092208
     },
     {
       "evaluations": 32,
@@ -977,7 +977,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000620792
+      "total_seconds": 0.001051833
     },
     {
       "evaluations": 31,
@@ -988,7 +988,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00060225
+      "total_seconds": 0.0010215
     },
     {
       "evaluations": 47,
@@ -999,7 +999,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000631833
+      "total_seconds": 0.001056709
     },
     {
       "evaluations": 31,
@@ -1010,7 +1010,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000408583
+      "total_seconds": 0.000674667
     },
     {
       "evaluations": 31,
@@ -1021,7 +1021,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000640375
+      "total_seconds": 0.000975667
     },
     {
       "evaluations": 30,
@@ -1032,7 +1032,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00055125
+      "total_seconds": 0.000924292
     },
     {
       "evaluations": 31,
@@ -1043,7 +1043,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000353167
+      "total_seconds": 0.000599834
     },
     {
       "evaluations": 31,
@@ -1054,7 +1054,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000605875
+      "total_seconds": 0.001037542
     },
     {
       "evaluations": 31,
@@ -1065,7 +1065,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.000629625
+      "total_seconds": 0.001068542
     },
     {
       "evaluations": 31,
@@ -1076,7 +1076,7 @@
       "shrunk": {
         "value": "926"
       },
-      "total_seconds": 0.000440917
+      "total_seconds": 0.000779958
     },
     {
       "evaluations": 29,
@@ -1087,7 +1087,7 @@
       "shrunk": {
         "value": "925"
       },
-      "total_seconds": 0.00053475
+      "total_seconds": 0.000913958
     },
     {
       "evaluations": 32,
@@ -1098,7 +1098,7 @@
       "shrunk": {
         "value": "930"
       },
-      "total_seconds": 0.000345792
+      "total_seconds": 0.000610083
     },
     {
       "evaluations": 33,
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "value": "905"
       },
-      "total_seconds": 0.00059625
+      "total_seconds": 0.001013917
     }
   ]
 }

@@ -2,8 +2,9 @@
 
 [Hegel for Rust](https://github.com/hegeldev/hegel-rust) is a property-based testing
 library derived from Hypothesis. This runner pins `hegeltest` **0.48.1** and its
-native engine `hegeltest-c` **0.44.1**, statically linked into the executable. No
-Python runtime is used by generation or reduction. Python 3.9+ is needed only to
+native engine `hegeltest-c` **0.44.1** with default features: `hegeltest`'s build
+script compiles the engine as a shared library, `libhegel_c`, which the runner loads
+at startup. The `static-engine` feature is off. No Python runtime is used by generation or reduction. Python 3.9+ is needed only to
 generate Markdown reports, with no third-party Python packages.
 
 Hegel is in beta. The runner uses its programmatic `Hegel` builder, which is
@@ -31,7 +32,9 @@ machines in [`src/stateful.rs`](src/stateful.rs), and recording in
 
 ## Running
 
-Rust 1.86+; the checked-in results use Rust 1.93.1 and a release build.
+Rust 1.86+; the checked-in results use Rust 1.93.1 and Cargo's default dev profile, as
+`cargo test` would. The runner is unoptimised and `libhegel_c` is built at the dev
+profile's `opt-level = 1`.
 
 ```sh
 cd pbt-libraries/hegel
@@ -39,20 +42,20 @@ make benchmark
 ```
 
 This runs seeds 1337–1436 for all 28 listed challenges, generates the reports, and refreshes
-only Hegel's data rows and total-timing section in the root `README.md`.
+only Hegel's data rows and the Hegel column of the timing table in the root `README.md`.
 
 Run one challenge, then generate its report:
 
 ```sh
-cargo run --release --locked -- --challenge modular_mapping --iterations 100
+cargo run --locked -- --challenge modular_mapping --iterations 100
 python3 support/make_reports.py
 ```
 
 List challenge names or replay one seed into a separate output directory:
 
 ```sh
-cargo run --release --locked -- --list
-cargo run --release --locked -- --challenge modular_mapping --seed 42 --iterations 1 --output /tmp/hegel-results
+cargo run --locked -- --list
+cargo run --locked -- --challenge modular_mapping --seed 42 --iterations 1 --output /tmp/hegel-results
 python3 support/make_reports.py --reports /tmp/hegel-results
 ```
 
@@ -82,8 +85,8 @@ right-before-left traversal. [100-seed results](reports/binheap.md) are included
 in the main comparison.
 
 ```sh
-cargo run --release --locked -- --challenge binheap --seed 42 --iterations 1 --output /tmp/hegel-binheap
-cargo run --release --locked -- --challenge binheap --seed 1337 --iterations 100 --output reports
+cargo run --locked -- --challenge binheap --seed 42 --iterations 1 --output /tmp/hegel-binheap
+cargo run --locked -- --challenge binheap --seed 1337 --iterations 100 --output reports
 ```
 
 `--list` includes this standalone port; `--challenge all` retains the core suite.
@@ -99,8 +102,8 @@ and floor division follow Python's evaluation semantics within the bounded
 expression domain, avoiding machine-overflow failures.
 
 ```sh
-cargo run --release --locked -- --challenge calculator --seed 42 --iterations 1 --output /tmp/hegel-calculator
-cargo run --release --locked -- --challenge calculator --seed 1337 --iterations 100 --output reports
+cargo run --locked -- --challenge calculator --seed 42 --iterations 1 --output /tmp/hegel-calculator
+cargo run --locked -- --challenge calculator --seed 1337 --iterations 100 --output reports
 ```
 
 This standalone port is listed by `--list` and included in `make benchmark`,
@@ -117,8 +120,8 @@ ties, and deliberately incorrect gross-payment weighting. Invalid requests are
 rejected with `tc.assume`, before recording any property verdict.
 
 ```sh
-cargo run --release --locked -- --challenge refund_allocation --seed 42 --iterations 1 --output /tmp/hegel-refund
-cargo run --release --locked -- --challenge refund_allocation_derived --seed 1337 \
+cargo run --locked -- --challenge refund_allocation --seed 42 --iterations 1 --output /tmp/hegel-refund
+cargo run --locked -- --challenge refund_allocation_derived --seed 1337 \
   --iterations 100 --output /tmp/hegel-refund
 ```
 
@@ -175,5 +178,5 @@ CLI output/error handling, report formatting, README refresh idempotence and
 seed-schedule consistency. Every checked-in original and reduced counterexample is also
 replayed against independent fixture checks in Python.
 
-README updates require all 28 release-build result files, 100 consecutive seeds
+README updates require all 28 debug-build result files, 100 consecutive seeds
 per challenge, and consistent build/environment metadata.

@@ -1,12 +1,12 @@
 # Snapshot Store
 
-Hegel 0.48.1, native engine 0.44.1, release build. 100 seeded runs; [raw results](snapshot_store.json).
+Hegel 0.48.1, native engine 0.44.1, debug build. 100 seeded runs; [raw results](snapshot_store.json).
 
 | Metric | Mean |
 |---|---|
 | Evaluations from first failure | 2268.7 |
 | Original counterexample length | 484.9 |
-| Total elapsed time (ms) | 523.97 |
+| Total elapsed time (ms) | 1010.38 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 
