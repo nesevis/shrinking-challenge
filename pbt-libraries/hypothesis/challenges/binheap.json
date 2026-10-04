@@ -1,1302 +1,1302 @@
 [
     {
         "evaluations": 117,
-        "generate_seconds": 0.09530441695824265,
+        "generate_seconds": 0.0994628332555294,
         "original": {
             "value": "(615, (234094, (764989, None, None), None), (9547, (911771, None, None), (180031, None, None)))"
         },
         "seed": 6860359217867227313,
-        "shrink_seconds": 0.059489750070497394,
+        "shrink_seconds": 0.05880504194647074,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1562135829590261
+        "total_seconds": 0.15967558277770877
     },
     {
         "evaluations": 97,
-        "generate_seconds": 0.047803624998778105,
+        "generate_seconds": 0.04713349975645542,
         "original": {
             "value": "(4367, None, (4367, (4367, None, (9223372036854775807, None, None)), (9223372036854775807, None, None)))"
         },
         "seed": 757691598695592294,
-        "shrink_seconds": 0.055900291074067354,
+        "shrink_seconds": 0.055195124819874763,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10490854200907052
+        "total_seconds": 0.1034427909180522
     },
     {
         "evaluations": 108,
-        "generate_seconds": 0.035089208045974374,
+        "generate_seconds": 0.03366187494248152,
         "original": {
             "value": "(0, (274, (68996, None, None), (1836, None, None)), (316379, (11658690, None, None), (1000001, None, None)))"
         },
         "seed": 18069853912414787881,
-        "shrink_seconds": 0.07538345898501575,
+        "shrink_seconds": 0.07393662491813302,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11158816702663898
+        "total_seconds": 0.10871529206633568
     },
     {
         "evaluations": 136,
-        "generate_seconds": 0.16289520799182355,
+        "generate_seconds": 0.15949491690844297,
         "original": {
             "value": "(5430, (14117, None, (52647, (7561062757, None, None), (15905213450, None, None))), (169857, (20274862036889, (75559803183236, None, None), (8652141081802180, None, None)), (193526227399837664, (1124773768076363648, None, None), (193526227399837664, None, None))))"
         },
         "seed": 8905213737326957750,
-        "shrink_seconds": 0.055632625008001924,
+        "shrink_seconds": 0.05479549989104271,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.2196186250075698
+        "total_seconds": 0.21536083333194256
     },
     {
         "evaluations": 106,
-        "generate_seconds": 0.04372729198075831,
+        "generate_seconds": 0.041867957916110754,
         "original": {
             "value": "(35744, None, (1679726703217509, (117417123788853568, None, (6676756868987143168, None, None)), (1626114689608677376, (7489403922707803136, None, None), (5192111083139896320, None, None))))"
         },
         "seed": 2492989259215803524,
-        "shrink_seconds": 0.10199366603046656,
+        "shrink_seconds": 0.09998845821246505,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.14694054215215147
+        "total_seconds": 0.14298991719260812
     },
     {
         "evaluations": 101,
-        "generate_seconds": 0.07208483410067856,
+        "generate_seconds": 0.07010375009849668,
         "original": {
             "value": "(370467812, (263712379749, (61667051401551, None, None), (2637053508067, None, None)), (17156093529149, (98922258710505, None, None), (84975864120081, None, None)))"
         },
         "seed": 14664679008408948098,
-        "shrink_seconds": 0.05772191588766873,
+        "shrink_seconds": 0.05722783412784338,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1309060410130769
+        "total_seconds": 0.12840345781296492
     },
     {
         "evaluations": 93,
-        "generate_seconds": 0.05077016702853143,
+        "generate_seconds": 0.04967870796099305,
         "original": {
             "value": "(108137, (166118863643, (231561591176, None, None), (17706482633737636, None, None)), None)"
         },
         "seed": 13001345600415705270,
-        "shrink_seconds": 0.055680374847725034,
+        "shrink_seconds": 0.05547645827755332,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10757887503132224
+        "total_seconds": 0.10629387479275465
     },
     {
         "evaluations": 142,
-        "generate_seconds": 0.07783416681922972,
+        "generate_seconds": 0.07598191685974598,
         "original": {
             "value": "(182, (432093520204865920, (4175612183821451776, None, None), (4401909451411828224, None, None)), (135055492, (334624063101, None, None), (23989433958, None, None)))"
         },
         "seed": 13756889448269516979,
-        "shrink_seconds": 0.11680695903487504,
+        "shrink_seconds": 0.11351583292707801,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.19573900010436773
+        "total_seconds": 0.1906762500293553
     },
     {
         "evaluations": 73,
-        "generate_seconds": 0.010758832795545459,
+        "generate_seconds": 0.01056758314371109,
         "original": {
             "value": "(0, None, (11330, (13412, None, (67445062, None, None)), (451992682532955200, (882493275797942912, None, None), (2349417693081552384, None, None))))"
         },
         "seed": 3235235607222861915,
-        "shrink_seconds": 0.0616863330360502,
+        "shrink_seconds": 0.060986749827861786,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.07367399986833334
+        "total_seconds": 0.07268370827659965
     },
     {
         "evaluations": 87,
-        "generate_seconds": 0.07115395809523761,
+        "generate_seconds": 0.07048941683024168,
         "original": {
             "value": "(38474, None, (4292847214152956, (22966211712458932, None, None), (186951622714266464, None, None)))"
         },
         "seed": 18194937074541404341,
-        "shrink_seconds": 0.0499360419344157,
+        "shrink_seconds": 0.049403916113078594,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.12216616608202457
+        "total_seconds": 0.12093629175797105
     },
     {
         "evaluations": 93,
-        "generate_seconds": 0.06251312489621341,
+        "generate_seconds": 0.0611005830578506,
         "original": {
             "value": "(2, (757, (813, None, None), (21780405, None, None)), None)"
         },
         "seed": 13917939439677732499,
-        "shrink_seconds": 0.05277299997396767,
+        "shrink_seconds": 0.05160879110917449,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11647154204547405
+        "total_seconds": 0.11385116679593921
     },
     {
         "evaluations": 117,
-        "generate_seconds": 0.11220666696317494,
+        "generate_seconds": 0.10987791698426008,
         "original": {
             "value": "(8480905, (2121584518259, (292181567239959168, (318749824495864000, None, None), (6460994301655929856, None, None)), (25716412296199024, (63200432473184280, None, None), None)), (77413916, (77413917, (1326450336906689024, None, None), (162331771231784, None, None)), None))"
         },
         "seed": 13081466852508677472,
-        "shrink_seconds": 0.05439083301462233,
+        "shrink_seconds": 0.054132916033267975,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.16772091598249972
+        "total_seconds": 0.1650815000757575
     },
     {
         "evaluations": 88,
-        "generate_seconds": 0.06966104195453227,
+        "generate_seconds": 0.06765291607007384,
         "original": {
             "value": "(69101060782623808, (98350358736396064, (381084454801948544, None, None), (2152616795861787904, None, None)), None)"
         },
         "seed": 2885118622294920699,
-        "shrink_seconds": 0.05571616580709815,
+        "shrink_seconds": 0.05417749984189868,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.12658674991689622
+        "total_seconds": 0.1229564999230206
     },
     {
         "evaluations": 106,
-        "generate_seconds": 0.09024824993684888,
+        "generate_seconds": 0.08811733312904835,
         "original": {
             "value": "(424, (2262636005031, (93677204774992, None, None), None), (1829158585755219200, (2701047211394831360, None, None), (3723020275348127232, None, None)))"
         },
         "seed": 12914327423920267715,
-        "shrink_seconds": 0.04970654100179672,
+        "shrink_seconds": 0.04925016686320305,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1411009579896927
+        "total_seconds": 0.13848933298140764
     },
     {
         "evaluations": 78,
-        "generate_seconds": 0.025153083028271794,
+        "generate_seconds": 0.024130458012223244,
         "original": {
             "value": "(300616489651455, (521826882387850112, (1185758947521612032, None, None), (521826882387850112, None, None)), (1185758947521612032, None, (1185758947521612032, None, None)))"
         },
         "seed": 707037734609849411,
-        "shrink_seconds": 0.0599807919934392,
+        "shrink_seconds": 0.058214124757796526,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08626054204069078
+        "total_seconds": 0.08344075037166476
     },
     {
         "evaluations": 70,
-        "generate_seconds": 0.005733208963647485,
+        "generate_seconds": 0.005575374700129032,
         "original": {
             "value": "(10560, (13158, (86993430, None, None), (4757688, None, None)), (21060062016, (3233668796200588, None, None), None))"
         },
         "seed": 1527475987734747120,
-        "shrink_seconds": 0.06329900003038347,
+        "shrink_seconds": 0.06157341692596674,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.07019275007769465
+        "total_seconds": 0.06823916686698794
     },
     {
         "evaluations": 82,
-        "generate_seconds": 0.04144279100000858,
+        "generate_seconds": 0.03734379215165973,
         "original": {
             "value": "(35008880, (18436693304461, (46669242363673, None, None), (281474976710657, None, None)), (836095585, (23427761020, None, None), (4641501038, None, None)))"
         },
         "seed": 1656882743855495173,
-        "shrink_seconds": 0.06134470901452005,
+        "shrink_seconds": 0.05895116692408919,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10390954208560288
+        "total_seconds": 0.09742687502875924
     },
     {
         "evaluations": 144,
-        "generate_seconds": 0.11495745787397027,
+        "generate_seconds": 0.11161220818758011,
         "original": {
             "value": "(100, (9223372036854775807, None, (9223372036854775807, (9223372036854775807, None, None), (9223372036854775807, None, None))), (3565608, (3565609, (405493044, None, None), (2036517648801260, None, None)), (1634752424, (76074373020095, None, None), (1434496671371484416, None, None))))"
         },
         "seed": 2740220478018984040,
-        "shrink_seconds": 0.07196795800700784,
+        "shrink_seconds": 0.07013199990615249,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.18802645802497864
+        "total_seconds": 0.18291537510231137
     },
     {
         "evaluations": 177,
-        "generate_seconds": 0.03208233299665153,
+        "generate_seconds": 0.03158087469637394,
         "original": {
             "value": "(575542836987616, (573354712690339328, (2588028511573570560, (2604314125529066496, None, None), (6230065451049692160, None, None)), (2199200141851995392, None, (3280605048835943424, None, None))), None)"
         },
         "seed": 17014253864985898827,
-        "shrink_seconds": 0.16593729192391038,
+        "shrink_seconds": 0.1644447911530733,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.19917345908470452
+        "total_seconds": 0.1971873752772808
     },
     {
         "evaluations": 77,
-        "generate_seconds": 0.02878379193134606,
+        "generate_seconds": 0.027651415672153234,
         "original": {
             "value": "(162, (1142836495667, (5018900357507, None, None), (5826186609734, None, None)), None)"
         },
         "seed": 7698094402266415717,
-        "shrink_seconds": 0.05365395802073181,
+        "shrink_seconds": 0.053249416872859,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08357070805504918
+        "total_seconds": 0.08201941661536694
     },
     {
         "evaluations": 110,
-        "generate_seconds": 0.09144404088146985,
+        "generate_seconds": 0.08937404211610556,
         "original": {
             "value": "(6099748, (105805613499, (22462169044343196, None, None), (3216815144932308, None, None)), (367931492453, None, (1193583892679, None, None)))"
         },
         "seed": 6452681354319619157,
-        "shrink_seconds": 0.05921537498943508,
+        "shrink_seconds": 0.0579805001616478,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.15187800000421703
+        "total_seconds": 0.14849183335900307
     },
     {
         "evaluations": 85,
-        "generate_seconds": 0.008396208984777331,
+        "generate_seconds": 0.00827112514525652,
         "original": {
             "value": "(17982, (343556, (17071728344, None, None), (9223372036854775806, None, None)), (4599471, (103618848978, None, None), None))"
         },
         "seed": 6134195435564856295,
-        "shrink_seconds": 0.07865737495012581,
+        "shrink_seconds": 0.0751501671038568,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08821525005623698
+        "total_seconds": 0.08453341713175178
     },
     {
         "evaluations": 131,
-        "generate_seconds": 0.054701791843399405,
+        "generate_seconds": 0.052882916294038296,
         "original": {
             "value": "(1, (11392370, (5073203199, None, None), None), (2236643, (939267380, None, None), (94715042685160352, None, None)))"
         },
         "seed": 6810439536883910320,
-        "shrink_seconds": 0.12289679190143943,
+        "shrink_seconds": 0.11807058285921812,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.17886720807291567
+        "total_seconds": 0.17210962530225515
     },
     {
         "evaluations": 108,
-        "generate_seconds": 0.04084275010973215,
+        "generate_seconds": 0.0389293753542006,
         "original": {
             "value": "(711140, (1296263, (26347570, None, None), (1793224756, None, None)), (1415264, (1308180784, None, None), (301975750, None, None)))"
         },
         "seed": 11762428419339143142,
-        "shrink_seconds": 0.12393225007690489,
+        "shrink_seconds": 0.1187197919934988,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.16611958295106888
+        "total_seconds": 0.15889049973338842
     },
     {
         "evaluations": 99,
-        "generate_seconds": 0.0634951670654118,
+        "generate_seconds": 0.06041945796459913,
         "original": {
             "value": "(348, (4530709, (36516379, None, None), (2053178149, None, None)), None)"
         },
         "seed": 11889915041586573476,
-        "shrink_seconds": 0.06452983291819692,
+        "shrink_seconds": 0.061329124961048365,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.12922116601839662
+        "total_seconds": 0.12291554221883416
     },
     {
         "evaluations": 75,
-        "generate_seconds": 0.023806625045835972,
+        "generate_seconds": 0.022698833141475916,
         "original": {
             "value": "(2522, (52668, (3805971510940436, None, None), None), (9654556, (6689655492, None, None), None))"
         },
         "seed": 16132870722327732067,
-        "shrink_seconds": 0.06054312502965331,
+        "shrink_seconds": 0.059350416995584965,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08548383298330009
+        "total_seconds": 0.08313133381307125
     },
     {
         "evaluations": 121,
-        "generate_seconds": 0.112197709036991,
+        "generate_seconds": 0.10873291734606028,
         "original": {
             "value": "(1505835, (13212803, (10069911757673654, None, (33562830687850308, None, (513149821608565568, None, None))), (159003328765, (36227764525174768, (153659395120544192, None, None), (117081416989341888, None, None)), (562949953421313, None, (65303184792280768, None, None)))), (373590633, (90228451073830, (12460877797027362, (99010292396930448, None, None), (100000000000000000, None, None)), None), (95396681253, (52220674350744, (12095474042064926, None, None), None), (6402373705727999, (3696819375100151808, None, None), None))))"
         },
         "seed": 4223655653291512066,
-        "shrink_seconds": 0.06005170801654458,
+        "shrink_seconds": 0.059130750130862,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.17337149986997247
+        "total_seconds": 0.1689536669291556
     },
     {
         "evaluations": 97,
-        "generate_seconds": 0.056846040999516845,
+        "generate_seconds": 0.055258709006011486,
         "original": {
             "value": "(292, (312235, (2861602556, None, None), None), (13551646, (10437546103, None, None), (9862171847, None, None)))"
         },
         "seed": 9287555404585697499,
-        "shrink_seconds": 0.0585440001450479,
+        "shrink_seconds": 0.05743149993941188,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1165733749512583
+        "total_seconds": 0.11376099986955523
     },
     {
         "evaluations": 123,
-        "generate_seconds": 0.020640499889850616,
+        "generate_seconds": 0.019857916980981827,
         "original": {
             "value": "(794426029412, (4130853802825, (309771702955502976, None, None), None), (807649638895686, None, (7138915670515249, None, None)))"
         },
         "seed": 14341358984282223543,
-        "shrink_seconds": 0.12729241698980331,
+        "shrink_seconds": 0.12615974992513657,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.14914362505078316
+        "total_seconds": 0.14718658290803432
     },
     {
         "evaluations": 109,
-        "generate_seconds": 0.10874858312308788,
+        "generate_seconds": 0.10499116685241461,
         "original": {
             "value": "(0, None, (1642444463564317, (1642444463564317, None, None), (388001625110251328, None, None)))"
         },
         "seed": 16826512158060530288,
-        "shrink_seconds": 0.052416708087548614,
+        "shrink_seconds": 0.05125937471166253,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.16232629190199077
+        "total_seconds": 0.1573638333939016
     },
     {
         "evaluations": 70,
-        "generate_seconds": 0.025263417046517134,
+        "generate_seconds": 0.02450300008058548,
         "original": {
             "value": "(0, (224, (224, None, None), (3641741272, None, None)), (324805210, (5887465698, None, None), None))"
         },
         "seed": 6314297726385799532,
-        "shrink_seconds": 0.06023987499065697,
+        "shrink_seconds": 0.05810354184359312,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08665312500670552
+        "total_seconds": 0.08370574982836843
     },
     {
         "evaluations": 77,
-        "generate_seconds": 0.033194374991580844,
+        "generate_seconds": 0.03257220797240734,
         "original": {
             "value": "(6049, (2387495, (1435163600683, None, None), (118712522, None, None)), (3167613, (706008729078784, None, None), (1162089867432, None, None)))"
         },
         "seed": 6904173004107632114,
-        "shrink_seconds": 0.054253625217825174,
+        "shrink_seconds": 0.05539737502112985,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08857062505558133
+        "total_seconds": 0.08925412502139807
     },
     {
         "evaluations": 111,
-        "generate_seconds": 0.05495991697534919,
+        "generate_seconds": 0.05859945900738239,
         "original": {
             "value": "(276, (322539, (47739204, None, None), (52321969, None, None)), (2967, (1192417485, None, None), (158283356, None, None)))"
         },
         "seed": 11002451788734223143,
-        "shrink_seconds": 0.10673450003378093,
+        "shrink_seconds": 0.11620733374729753,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.16286716586910188
+        "total_seconds": 0.17599916690960526
     },
     {
         "evaluations": 74,
-        "generate_seconds": 0.01822025002911687,
+        "generate_seconds": 0.017843125388026237,
         "original": {
             "value": "(509710, (388889127673, (1708980802973516544, None, None), None), (126289074229, (3443250385310201, None, None), (1648453954033, None, None)))"
         },
         "seed": 10766006668886050759,
-        "shrink_seconds": 0.06591070792637765,
+        "shrink_seconds": 0.06605870835483074,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08527145790867507
+        "total_seconds": 0.08501650020480156
     },
     {
         "evaluations": 115,
-        "generate_seconds": 0.09756758296862245,
+        "generate_seconds": 0.09634325001388788,
         "original": {
             "value": "(3244, (45321, (439365172445521600, (8238223819643231232, None, None), (2078598587126381568, None, None)), (15384065, (3132255077, None, None), None)), (45321, (439365172445521600, (8238223819643231232, None, None), (2078598587126381568, None, None)), (15384065, (3132255077, None, None), None)))"
         },
         "seed": 15301955529134791361,
-        "shrink_seconds": 0.0592229999601841,
+        "shrink_seconds": 0.05752095812931657,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1579682498704642
+        "total_seconds": 0.1549642919562757
     },
     {
         "evaluations": 110,
-        "generate_seconds": 0.09052049997262657,
+        "generate_seconds": 0.08681170828640461,
         "original": {
             "value": "(343, None, (1386, (177212, None, (732309, None, None)), (280021, (17079184700, None, None), (1720297955, None, None))))"
         },
         "seed": 2395398641224133001,
-        "shrink_seconds": 0.06319295801222324,
+        "shrink_seconds": 0.062044457998126745,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.15491949999704957
+        "total_seconds": 0.15003733336925507
     },
     {
         "evaluations": 67,
-        "generate_seconds": 0.01365387486293912,
+        "generate_seconds": 0.013269416987895966,
         "original": {
             "value": "(1982043203, (9140132389059, (463445384209491648, (1152991696055491584, None, None), None), (2715420035160163, (38405976004199000, None, None), (3440299477697528832, None, None))), None)"
         },
         "seed": 3212688670430970460,
-        "shrink_seconds": 0.06157595803961158,
+        "shrink_seconds": 0.05998095776885748,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.07639899989590049
+        "total_seconds": 0.07432054122909904
     },
     {
         "evaluations": 91,
-        "generate_seconds": 0.04986525001004338,
+        "generate_seconds": 0.047690624836832285,
         "original": {
             "value": "(1151, None, (178088982, (40538580415, (692234814790, None, None), (40538580415, None, None)), (692234814790, None, None)))"
         },
         "seed": 6934951713496471458,
-        "shrink_seconds": 0.058086292119696736,
+        "shrink_seconds": 0.05552924983203411,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10906104184687138
+        "total_seconds": 0.10421858308836818
     },
     {
         "evaluations": 73,
-        "generate_seconds": 0.030701541109010577,
+        "generate_seconds": 0.029191624838858843,
         "original": {
             "value": "(22297, (17913077, (268803203, None, None), (3073826719, None, None)), None)"
         },
         "seed": 4410447248457348408,
-        "shrink_seconds": 0.0577722501475364,
+        "shrink_seconds": 0.05613570800051093,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08967537502758205
+        "total_seconds": 0.086452083196491
     },
     {
         "evaluations": 74,
-        "generate_seconds": 0.021709249820560217,
+        "generate_seconds": 0.02106595877557993,
         "original": {
             "value": "(6984871, (53341777020, (1000989603550, None, None), (22012605538836780, None, None)), (16511277, (23090480, None, None), (3740288589, None, None)))"
         },
         "seed": 10906360772508721512,
-        "shrink_seconds": 0.06033916701562703,
+        "shrink_seconds": 0.05804554093629122,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.083383624907583
+        "total_seconds": 0.08018029108643532
     },
     {
         "evaluations": 119,
-        "generate_seconds": 0.1305656658951193,
+        "generate_seconds": 0.12699091620743275,
         "original": {
             "value": "(2615966, (268435457, (418453481, None, None), (643972174502206080, None, None)), None)"
         },
         "seed": 9431513925228997838,
-        "shrink_seconds": 0.06292141694575548,
+        "shrink_seconds": 0.06025945907458663,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.194723250111565
+        "total_seconds": 0.1883690832182765
     },
     {
         "evaluations": 87,
-        "generate_seconds": 0.008287583943456411,
+        "generate_seconds": 0.00812266580760479,
         "original": {
             "value": "(99921202, (8374368707084, (4264376355500153, (7250308816532595712, None, None), None), (3922884187825288, (1152921504606846976, None, None), (660519688080043264, None, None))), None)"
         },
         "seed": 5163249923368877418,
-        "shrink_seconds": 0.11200429103337228,
+        "shrink_seconds": 0.10936679225414991,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.1215040828101337
+        "total_seconds": 0.11874345876276493
     },
     {
         "evaluations": 94,
-        "generate_seconds": 0.06247079209424555,
+        "generate_seconds": 0.06013449979946017,
         "original": {
             "value": "(162623, (64243018, (2264895400190, None, None), (329900603, None, None)), (293035, (63862088370962, None, None), None))"
         },
         "seed": 2796756130712812440,
-        "shrink_seconds": 0.0566298752091825,
+        "shrink_seconds": 0.05485833389684558,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.12024787510745227
+        "total_seconds": 0.11604562494903803
     },
     {
         "evaluations": 94,
-        "generate_seconds": 0.07449949998408556,
+        "generate_seconds": 0.07064129179343581,
         "original": {
             "value": "(93047, (50510849313, (588041919339580, None, None), (129957218814, None, None)), (5192983766, (2199023255551, None, None), (3395151783376, None, None)))"
         },
         "seed": 2113782528857747190,
-        "shrink_seconds": 0.055275874910876155,
+        "shrink_seconds": 0.05298912478610873,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.13096141698770225
+        "total_seconds": 0.12470024963840842
     },
     {
         "evaluations": 125,
-        "generate_seconds": 0.07401654217392206,
+        "generate_seconds": 0.0719057503156364,
         "original": {
             "value": "(1092823, (11941427, (457981094374, None, None), (219923815149175872, None, None)), (3992783, (271656026196, None, None), (419316168, None, None)))"
         },
         "seed": 502528421559519242,
-        "shrink_seconds": 0.11768399993889034,
+        "shrink_seconds": 0.11437483271583915,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.19297520793043077
+        "total_seconds": 0.18756595766171813
     },
     {
         "evaluations": 91,
-        "generate_seconds": 0.03491495898924768,
+        "generate_seconds": 0.03364108316600323,
         "original": {
             "value": "(1699049596973914624, None, (4861775228587889664, (7327179567258805248, (9109051744364838912, None, None), (9190124765824572416, None, None)), (4928193677549109248, (5348105114921349120, None, None), None)))"
         },
         "seed": 8495650386998626420,
-        "shrink_seconds": 0.10120370890945196,
+        "shrink_seconds": 0.09946158295497298,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.13732645800337195
+        "total_seconds": 0.13426824985072017
     },
     {
         "evaluations": 76,
-        "generate_seconds": 0.02231337479315698,
+        "generate_seconds": 0.021669750101864338,
         "original": {
             "value": "(121518, None, (49215259, (4182715382, None, None), (2616322180732, None, None)))"
         },
         "seed": 12155475647931007053,
-        "shrink_seconds": 0.06455195811577141,
+        "shrink_seconds": 0.06608329201117158,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08798966696485877
+        "total_seconds": 0.0888957092538476
     },
     {
         "evaluations": 106,
-        "generate_seconds": 0.06428441614843905,
+        "generate_seconds": 0.06277874996885657,
         "original": {
             "value": "(1045380, (4385519, (98728432, None, None), (30148841415254868, None, None)), None)"
         },
         "seed": 16607432642788958144,
-        "shrink_seconds": 0.06646820809692144,
+        "shrink_seconds": 0.06518050003796816,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.13189995801076293
+        "total_seconds": 0.12913516722619534
     },
     {
         "evaluations": 87,
-        "generate_seconds": 0.0481670000590384,
+        "generate_seconds": 0.0461820843629539,
         "original": {
             "value": "(402, (2886401521, (3430601463, None, None), (210628583410, None, None)), (6359, None, None))"
         },
         "seed": 1204331717877010536,
-        "shrink_seconds": 0.058471249882131815,
+        "shrink_seconds": 0.05664416728541255,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10775466705672443
+        "total_seconds": 0.10389233333989978
     },
     {
         "evaluations": 111,
-        "generate_seconds": 0.11672074999660254,
+        "generate_seconds": 0.11247870791703463,
         "original": {
             "value": "(7344529112, (791293812987287, None, (971625589999925, None, None)), (13815014468231352, (547713169520584768, None, None), (1901230355278690816, None, None)))"
         },
         "seed": 5728672357343442372,
-        "shrink_seconds": 0.06123237498104572,
+        "shrink_seconds": 0.05962354224175215,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.17912624985910952
+        "total_seconds": 0.17325983429327607
     },
     {
         "evaluations": 99,
-        "generate_seconds": 0.011399792041629553,
+        "generate_seconds": 0.010530916042625904,
         "original": {
             "value": "(21928, (1099511627775, (349536833159455360, None, None), (46546045732303400, None, None)), (202942, (4767394105, None, None), (13289132, None, None)))"
         },
         "seed": 3894199330223601545,
-        "shrink_seconds": 0.0948037919588387,
+        "shrink_seconds": 0.09225220885127783,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10735670803114772
+        "total_seconds": 0.10385099984705448
     },
     {
         "evaluations": 137,
-        "generate_seconds": 0.16163329198025167,
+        "generate_seconds": 0.1570467078126967,
         "original": {
             "value": "(3916020777896, (56696305856763, (83692015239695, (1677445975146139136, None, None), (105385144710790064, None, None)), (21285984301050452, None, (286228943120718816, None, None))), (34661392449456, (8305325700227097, (31016675250925640, None, None), (10053164049183344, None, None)), (8424248299579750, (161340436540464384, None, None), (2671973104934419456, None, None))))"
         },
         "seed": 10673576364926431849,
-        "shrink_seconds": 0.06044445792213082,
+        "shrink_seconds": 0.05880941590294242,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.22322504199109972
+        "total_seconds": 0.2169594168663025
     },
     {
         "evaluations": 125,
-        "generate_seconds": 0.05255879182368517,
+        "generate_seconds": 0.05214783409610391,
         "original": {
             "value": "(1502, (178132, (9223372036854775806, None, None), (1551044, None, None)), (5930361, (253176019762419072, None, None), (19047859, None, None)))"
         },
         "seed": 5603768794609936469,
-        "shrink_seconds": 0.11626595887355506,
+        "shrink_seconds": 0.11371495900675654,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.16993879107758403
+        "total_seconds": 0.16694608330726624
     },
     {
         "evaluations": 84,
-        "generate_seconds": 0.055316291050985456,
+        "generate_seconds": 0.05298283277079463,
         "original": {
             "value": "(1361, (10334332185161, (105452462972849, None, None), (3567552191414142976, None, None)), (30321, (134217728, None, None), (48291600352944, None, None)))"
         },
         "seed": 457599637772207391,
-        "shrink_seconds": 0.06167250010184944,
+        "shrink_seconds": 0.059461459051817656,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11815716698765755
+        "total_seconds": 0.1135062500834465
     },
     {
         "evaluations": 81,
-        "generate_seconds": 0.06519345799461007,
+        "generate_seconds": 0.062071000225842,
         "original": {
             "value": "(1, (18399868, None, (8433424150, None, None)), (7099, (5253064, None, None), (20361, None, None)))"
         },
         "seed": 5548906440267481055,
-        "shrink_seconds": 0.05394687480293214,
+        "shrink_seconds": 0.05271525029093027,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.12028629193082452
+        "total_seconds": 0.11590187484398484
     },
     {
         "evaluations": 73,
-        "generate_seconds": 0.014389499789103866,
+        "generate_seconds": 0.013931665569543839,
         "original": {
             "value": "(129859635, (9505903627366, (38731014910642680, None, None), (3917112180055693, None, None)), (21378075309798, (34901660380458, None, None), (11774241534930946, None, None)))"
         },
         "seed": 15876141114636760963,
-        "shrink_seconds": 0.05908137490041554,
+        "shrink_seconds": 0.05740183312445879,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.07459833309985697
+        "total_seconds": 0.07238641707226634
     },
     {
         "evaluations": 96,
-        "generate_seconds": 0.05499470792710781,
+        "generate_seconds": 0.05074416706338525,
         "original": {
             "value": "(93749, (172746, (959592, None, None), (81348420578210, None, None)), (176008, (338477801211150, None, None), (13679645, None, None)))"
         },
         "seed": 11661465649507888791,
-        "shrink_seconds": 0.06110008410178125,
+        "shrink_seconds": 0.05896025011315942,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11719554103910923
+        "total_seconds": 0.11074379179626703
     },
     {
         "evaluations": 149,
-        "generate_seconds": 0.16218758397735655,
+        "generate_seconds": 0.15767945908010006,
         "original": {
             "value": "(34220, (75864617, (3624982297478, (1237829092818468, None, None), (17305227489459, None, None)), (1674017704732, None, (10963351940927380, None, None))), None)"
         },
         "seed": 518443690548748719,
-        "shrink_seconds": 0.0718933749012649,
+        "shrink_seconds": 0.07031816709786654,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.2352404580451548
+        "total_seconds": 0.22915170900523663
     },
     {
         "evaluations": 209,
-        "generate_seconds": 0.12098154192790389,
+        "generate_seconds": 0.12194345891475677,
         "original": {
             "value": "(5, (219876852545, None, (140513427144323, None, None)), (5, (2305843009213693953, None, None), None))"
         },
         "seed": 7368827806746126518,
-        "shrink_seconds": 0.160532790934667,
+        "shrink_seconds": 0.15807591611519456,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.28273495892062783
+        "total_seconds": 0.2811299590393901
     },
     {
         "evaluations": 84,
-        "generate_seconds": 0.030349666951224208,
+        "generate_seconds": 0.029024915769696236,
         "original": {
             "value": "(2119, (7812039, (536065226, None, None), (795241111, None, None)), (289498, (9206572, None, None), (8388608, None, None)))"
         },
         "seed": 15034536722085207112,
-        "shrink_seconds": 0.06005454109981656,
+        "shrink_seconds": 0.05806970875710249,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.0915746670216322
+        "total_seconds": 0.08818875020369887
     },
     {
         "evaluations": 154,
-        "generate_seconds": 0.11926712491549551,
+        "generate_seconds": 0.11539766611531377,
         "original": {
             "value": "(100, (164, None, (122958408, None, None)), (100, (828, None, None), None))"
         },
         "seed": 1274630531606414572,
-        "shrink_seconds": 0.11060012481175363,
+        "shrink_seconds": 0.1070652911439538,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.23108179215341806
+        "total_seconds": 0.2236354579217732
     },
     {
         "evaluations": 89,
-        "generate_seconds": 0.04773079208098352,
+        "generate_seconds": 0.04606920899823308,
         "original": {
             "value": "(35381590242, (2157455106251100, (123744225722652400, None, None), (1730059418250061312, None, None)), (1056164207855885, (2191372810092724480, None, None), (5116871623498516, None, None)))"
         },
         "seed": 17038672338178594796,
-        "shrink_seconds": 0.06517245899885893,
+        "shrink_seconds": 0.06514604203402996,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11406087502837181
+        "total_seconds": 0.11231037462130189
     },
     {
         "evaluations": 79,
-        "generate_seconds": 0.026945834048092365,
+        "generate_seconds": 0.027050457894802094,
         "original": {
             "value": "(96, (8543, (28808132, None, (108634036097, None, None)), (102453, (9223372036854775806, None, None), (3558514293, None, None))), None)"
         },
         "seed": 185828442952525963,
-        "shrink_seconds": 0.06504783313721418,
+        "shrink_seconds": 0.06356629077345133,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.09317050012759864
+        "total_seconds": 0.09171241614967585
     },
     {
         "evaluations": 101,
-        "generate_seconds": 0.09451175015419722,
+        "generate_seconds": 0.09211208298802376,
         "original": {
             "value": "(0, (100, (2995, None, None), (49442, None, None)), (69732, (351369, None, None), (2020446744, None, None)))"
         },
         "seed": 17499366267825786743,
-        "shrink_seconds": 0.059926917077973485,
+        "shrink_seconds": 0.05810187477618456,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.15560416597872972
+        "total_seconds": 0.15132633317261934
     },
     {
         "evaluations": 116,
-        "generate_seconds": 0.0774764590896666,
+        "generate_seconds": 0.07497704215347767,
         "original": {
             "value": "(231734, (171652350155, (34433284398013712, None, None), (821093257147851, None, None)), (6123500, (1058308387485045, None, None), (15100080824, None, None)))"
         },
         "seed": 1331248584065694725,
-        "shrink_seconds": 0.0647897501476109,
+        "shrink_seconds": 0.06294995779171586,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.14342179102823138
+        "total_seconds": 0.13899604184553027
     },
     {
         "evaluations": 124,
-        "generate_seconds": 0.10164124984294176,
+        "generate_seconds": 0.09840433299541473,
         "original": {
             "value": "(50619297466880064, (417063803942577152, (1233491527731123456, None, None), (813631824291695872, None, None)), (222191356241438720, (3725811906034607616, None, None), (948370927371712256, None, None)))"
         },
         "seed": 12588109605878491695,
-        "shrink_seconds": 0.09841704205609858,
+        "shrink_seconds": 0.09544745879247785,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.20138920797035098
+        "total_seconds": 0.19508883263915777
     },
     {
         "evaluations": 135,
-        "generate_seconds": 0.014657000079751015,
+        "generate_seconds": 0.01379266707226634,
         "original": {
             "value": "(2262, (54057341, (72057594037927937, None, None), (420458598937451, None, None)), (43379400, (1159324398897, None, None), (406844607, None, None)))"
         },
         "seed": 7231921796869804209,
-        "shrink_seconds": 0.14177920785732567,
+        "shrink_seconds": 0.13726154202595353,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1575749998446554
+        "total_seconds": 0.15216250019147992
     },
     {
         "evaluations": 79,
-        "generate_seconds": 0.01861345791257918,
+        "generate_seconds": 0.018944708164781332,
         "original": {
             "value": "(37143024542880024, (2330080110317804544, (2503651621982350848, None, None), (3189355958650603520, None, None)), (391714174746264576, (5168461544980370432, None, None), (4322642503627746816, None, None)))"
         },
         "seed": 1211060220735108490,
-        "shrink_seconds": 0.06112245796248317,
+        "shrink_seconds": 0.065998500213027,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08096087514422834
+        "total_seconds": 0.08635133411735296
     },
     {
         "evaluations": 98,
-        "generate_seconds": 0.07739120814949274,
+        "generate_seconds": 0.08304745890200138,
         "original": {
             "value": "(251, (251, (9223372036854775806, None, None), (2031, None, None)), (11354041, (583594682545856128, None, None), (66323578860, None, None)))"
         },
         "seed": 4458785332402131335,
-        "shrink_seconds": 0.05685070785693824,
+        "shrink_seconds": 0.055791832972317934,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1354605001397431
+        "total_seconds": 0.14000983303412795
     },
     {
         "evaluations": 94,
-        "generate_seconds": 0.045375959016382694,
+        "generate_seconds": 0.04534937487915158,
         "original": {
             "value": "(8123, None, (73300814, (1313476943163104, (3813081856440078, None, None), (1675815774881367552, None, None)), None))"
         },
         "seed": 13511744871470769577,
-        "shrink_seconds": 0.0630871660541743,
+        "shrink_seconds": 0.061840000096708536,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10963675007224083
+        "total_seconds": 0.108302166685462
     },
     {
         "evaluations": 152,
-        "generate_seconds": 0.12656862498261034,
+        "generate_seconds": 0.12293445784598589,
         "original": {
             "value": "(149756, (603952, (603952, (453534684020, (1523066641157, None, None), (74141022029593, None, None)), (682767077335449, (2180961819845924608, None, None), (20571269133452896, None, None))), (32126759, (7702510974, (695573036143154, None, None), None), (695622050, None, (43480162236, None, None)))), (49663689, None, (1007054968500087296, (4298006244453786624, (9164006371233773568, None, None), (6728594402682884096, None, None)), (1709232557438234368, (2404187646997137408, None, None), (2950055628126098432, None, None)))))"
         },
         "seed": 2180791791232169189,
-        "shrink_seconds": 0.11944500007666647,
+        "shrink_seconds": 0.11617174977436662,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.24725987506099045
+        "total_seconds": 0.24031129200011492
     },
     {
         "evaluations": 124,
-        "generate_seconds": 0.12935129110701382,
+        "generate_seconds": 0.12424658378586173,
         "original": {
             "value": "(34830545, (966214035, (13928683726239, None, None), (26973054357705, None, None)), (260036139, (19341348930807936, None, None), (1053332635, None, None)))"
         },
         "seed": 4084415282341751498,
-        "shrink_seconds": 0.06995958392508328,
+        "shrink_seconds": 0.06757729081436992,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.20044416701421142
+        "total_seconds": 0.1928916247561574
     },
     {
         "evaluations": 110,
-        "generate_seconds": 0.10432816599495709,
+        "generate_seconds": 0.10001629125326872,
         "original": {
             "value": "(3, (8170306940, None, (8170306940, (8170306940, None, None), (2802595883522918, None, None))), None)"
         },
         "seed": 12677187144307656777,
-        "shrink_seconds": 0.05775333312340081,
+        "shrink_seconds": 0.05446054181084037,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1632338750641793
+        "total_seconds": 0.15550087485462427
     },
     {
         "evaluations": 72,
-        "generate_seconds": 0.023147416068241,
+        "generate_seconds": 0.02067079208791256,
         "original": {
             "value": "(8237, (31457, (77867466, None, None), (7802195, None, None)), (4107206, (92625079, None, None), (4107206, None, None)))"
         },
         "seed": 17772042015740843288,
-        "shrink_seconds": 0.06185662490315735,
+        "shrink_seconds": 0.059100250247865915,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08618220803327858
+        "total_seconds": 0.08080812497064471
     },
     {
         "evaluations": 77,
-        "generate_seconds": 0.014359208988025784,
+        "generate_seconds": 0.013324250001460314,
         "original": {
             "value": "(168, (550172, (782897735, None, None), None), (602, None, (1901520, None, None)))"
         },
         "seed": 4145511016645134436,
-        "shrink_seconds": 0.06050170795060694,
+        "shrink_seconds": 0.058188458904623985,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.07606904208660126
+        "total_seconds": 0.07266558287665248
     },
     {
         "evaluations": 90,
-        "generate_seconds": 0.03428758308291435,
+        "generate_seconds": 0.03278854209929705,
         "original": {
             "value": "(16303, (1302224, (67855114, None, None), (289191347231109760, None, None)), None)"
         },
         "seed": 12473636870135754204,
-        "shrink_seconds": 0.06743104197084904,
+        "shrink_seconds": 0.06554804230108857,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10287387482821941
+        "total_seconds": 0.09951583296060562
     },
     {
         "evaluations": 117,
-        "generate_seconds": 0.024073833832517266,
+        "generate_seconds": 0.02239895798265934,
         "original": {
             "value": "(1, (1181, (216753244819613, None, None), (38929563202939984, None, None)), (4808269, (39940649194407, None, None), (16777217, None, None)))"
         },
         "seed": 16497829858385927633,
-        "shrink_seconds": 0.12747320788912475,
+        "shrink_seconds": 0.12275920901447535,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.15274383313953876
+        "total_seconds": 0.14630658319219947
     },
     {
         "evaluations": 98,
-        "generate_seconds": 0.05332474992610514,
+        "generate_seconds": 0.050669874995946884,
         "original": {
             "value": "(330, None, (587, None, (1074642386363872, None, (2062503100413532160, (3989663000061705728, None, None), (6913829510321999872, None, None)))))"
         },
         "seed": 16485009666961590782,
-        "shrink_seconds": 0.06871875002980232,
+        "shrink_seconds": 0.06732795806601644,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.12332749995402992
+        "total_seconds": 0.1192572908475995
     },
     {
         "evaluations": 81,
-        "generate_seconds": 0.013323375023901463,
+        "generate_seconds": 0.013310249894857407,
         "original": {
             "value": "(18337497, (304250263527209, (6785014937459848192, None, None), (48161672805220192, None, None)), (834317836417121, None, None))"
         },
         "seed": 11614633502952973210,
-        "shrink_seconds": 0.06206074985675514,
+        "shrink_seconds": 0.06179145770147443,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.07655516592785716
+        "total_seconds": 0.07627187529578805
     },
     {
         "evaluations": 98,
-        "generate_seconds": 0.05744887515902519,
+        "generate_seconds": 0.05576016614213586,
         "original": {
             "value": "(281, (68207239424, (4262037534329, (37416540113034, None, None), None), (2072955166545362, (578026767027734016, None, None), None)), None)"
         },
         "seed": 5733211942513572129,
-        "shrink_seconds": 0.09672720800153911,
+        "shrink_seconds": 0.09568733302876353,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.15549295884557068
+        "total_seconds": 0.1526719587855041
     },
     {
         "evaluations": 70,
-        "generate_seconds": 0.020044709090143442,
+        "generate_seconds": 0.019116833340376616,
         "original": {
             "value": "(175114, (20216244224, (66815661396, None, None), (533283945229940480, None, None)), (24585073, None, None))"
         },
         "seed": 18035141251056754181,
-        "shrink_seconds": 0.05851975013501942,
+        "shrink_seconds": 0.05737445782870054,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.0797655419446528
+        "total_seconds": 0.07763487519696355
     },
     {
         "evaluations": 100,
-        "generate_seconds": 0.043442541966214776,
+        "generate_seconds": 0.04172508371993899,
         "original": {
             "value": "(6315791275, (67817254420713, (611344009928143, (611344009928143, None, None), (22034360405619512, None, None)), None), None)"
         },
         "seed": 11909198009662129959,
-        "shrink_seconds": 0.07244954095222056,
+        "shrink_seconds": 0.07058999966830015,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11709370906464756
+        "total_seconds": 0.1134854587726295
     },
     {
         "evaluations": 76,
-        "generate_seconds": 0.015708457911387086,
+        "generate_seconds": 0.015068083070218563,
         "original": {
             "value": "(94, (540228891672, None, None), (451854377900, (6689554111356, None, None), (129216769459450, None, None)))"
         },
         "seed": 8012617674849719246,
-        "shrink_seconds": 0.06768562505021691,
+        "shrink_seconds": 0.06579833291471004,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.08471245807595551
+        "total_seconds": 0.08204633370041847
     },
     {
         "evaluations": 89,
-        "generate_seconds": 0.032179208006709814,
+        "generate_seconds": 0.031399999745190144,
         "original": {
             "value": "(11783, (8489790, (38446257834919, None, None), (229685677, None, None)), (121645100408832001, (455788903961268864, None, None), (243969112687951040, None, None)))"
         },
         "seed": 8671077039335933872,
-        "shrink_seconds": 0.07053916715085506,
+        "shrink_seconds": 0.06757841585204005,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1038960418663919
+        "total_seconds": 0.10011020814999938
     },
     {
         "evaluations": 94,
-        "generate_seconds": 0.05043937498703599,
+        "generate_seconds": 0.04792387457564473,
         "original": {
             "value": "(283, None, (105846, (2361839668102, None, (236769527269138, None, None)), (1942433, (2244451309588252, None, None), (94219676761, None, None))))"
         },
         "seed": 11871250174616184774,
-        "shrink_seconds": 0.06224258313886821,
+        "shrink_seconds": 0.05985579174011946,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.11385229183360934
+        "total_seconds": 0.108946125023067
     },
     {
         "evaluations": 134,
-        "generate_seconds": 0.08742812485434115,
+        "generate_seconds": 0.08623533276841044,
         "original": {
             "value": "(7540, (1923365024, (22401191415, None, (87219357692, None, None)), (2419119793, (1129005193515385216, None, None), (34359738367, None, None))), None)"
         },
         "seed": 17010834470794674460,
-        "shrink_seconds": 0.12405020813457668,
+        "shrink_seconds": 0.12159762484952807,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.21272341604344547
+        "total_seconds": 0.2090535000897944
     },
     {
         "evaluations": 95,
-        "generate_seconds": 0.024763209046795964,
+        "generate_seconds": 0.023814875166863203,
         "original": {
             "value": "(2195, None, (3609, (7015, None, (10676, None, None)), (1091971231, (187872584786, None, None), (100000000000001, None, None))))"
         },
         "seed": 17798823957139242003,
-        "shrink_seconds": 0.0983464999590069,
+        "shrink_seconds": 0.09499929193407297,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.12442245800048113
+        "total_seconds": 0.12001083418726921
     },
     {
         "evaluations": 142,
-        "generate_seconds": 0.02690474991686642,
+        "generate_seconds": 0.025351000018417835,
         "original": {
             "value": "(3036, (4611686018427387905, (8623400212167568384, (8998247218055003136, None, None), None), (6378616542127263744, (6403279294330181632, None, None), (7789989570420453376, None, None))), None)"
         },
         "seed": 6704644213237994666,
-        "shrink_seconds": 0.14079529186710715,
+        "shrink_seconds": 0.1364169167354703,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.16882033296860754
+        "total_seconds": 0.16284100012853742
     },
     {
         "evaluations": 83,
-        "generate_seconds": 0.04605908296070993,
+        "generate_seconds": 0.04424641700461507,
         "original": {
             "value": "(15740733, (4799844478, (54681064310339, (54681064310339, None, None), (5676814880462812, None, None)), (25557144734, None, (116904398263, None, None))), None)"
         },
         "seed": 1013432266405697601,
-        "shrink_seconds": 0.05753916595131159,
+        "shrink_seconds": 0.055844000075012445,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10469554201699793
+        "total_seconds": 0.10119175026193261
     },
     {
         "evaluations": 83,
-        "generate_seconds": 0.03950295899994671,
+        "generate_seconds": 0.03884829208254814,
         "original": {
             "value": "(57113, (396154440649793, (31731149406689536, None, None), (179933706243859936, None, None)), (396154440649793, (396154440649793, None, None), (179933706243859936, None, None)))"
         },
         "seed": 3926172512092928268,
-        "shrink_seconds": 0.06681608292274177,
+        "shrink_seconds": 0.064453000202775,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.10748700005933642
+        "total_seconds": 0.1044133328832686
     },
     {
         "evaluations": 91,
-        "generate_seconds": 0.057443125173449516,
+        "generate_seconds": 0.05524691706523299,
         "original": {
             "value": "(304, (7249, (10064, None, None), (162017, None, None)), (1176, (53069358, None, None), (2633, None, None)))"
         },
         "seed": 4938844940643826700,
-        "shrink_seconds": 0.06698529096320271,
+        "shrink_seconds": 0.06400395929813385,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1255875842180103
+        "total_seconds": 0.12039754167199135
     },
     {
         "evaluations": 104,
-        "generate_seconds": 0.1065241671167314,
+        "generate_seconds": 0.1031683748587966,
         "original": {
             "value": "(1328, None, (9557, None, (10252, (2044532, (254382287, None, None), (225094684477, None, None)), None)))"
         },
         "seed": 5383930960256070271,
-        "shrink_seconds": 0.06471512489952147,
+        "shrink_seconds": 0.06299116741865873,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.17238750006072223
+        "total_seconds": 0.16728504234924912
     },
     {
         "evaluations": 84,
-        "generate_seconds": 0.03180774999782443,
+        "generate_seconds": 0.029894874896854162,
         "original": {
             "value": "(400534, (182379060, (2472090613731, None, (304250263527210, None, None)), (1946262408369, None, None)), (400534, (182379060, (2472090613731, None, None), None), (304250263527210, (304250263527210, None, None), None)))"
         },
         "seed": 14501333508132291308,
-        "shrink_seconds": 0.09573049983009696,
+        "shrink_seconds": 0.09306566696614027,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.1289397079963237
+        "total_seconds": 0.12414933415129781
     },
     {
         "evaluations": 100,
-        "generate_seconds": 0.08084616693668067,
+        "generate_seconds": 0.07810654165223241,
         "original": {
             "value": "(5, (5, (8589934593, None, None), (8589934593, None, None)), (5, (5, None, None), None))"
         },
         "seed": 9827260361379248663,
-        "shrink_seconds": 0.058502082945778966,
+        "shrink_seconds": 0.05779558327049017,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.1405189170036465
+        "total_seconds": 0.13700233306735754
     },
     {
         "evaluations": 78,
-        "generate_seconds": 0.036345249973237514,
+        "generate_seconds": 0.032696125097572803,
         "original": {
             "value": "(78, (551, (12284931, None, None), None), (652483, (688226, None, None), (748054827, None, None)))"
         },
         "seed": 8732867735924221258,
-        "shrink_seconds": 0.06077112490311265,
+        "shrink_seconds": 0.05827491683885455,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.09828799986280501
+        "total_seconds": 0.09210291737690568
     },
     {
         "evaluations": 130,
-        "generate_seconds": 0.10554779204539955,
+        "generate_seconds": 0.10041825007647276,
         "original": {
             "value": "(546, (546, (20399, None, (20399, None, None)), (546, (20399, None, None), (9223372036854775807, None, None))), None)"
         },
         "seed": 7888791449860877363,
-        "shrink_seconds": 0.10197316715493798,
+        "shrink_seconds": 0.09817683370783925,
         "shrunk": {
             "value": "(0, None, (0, None, (0, (0, None, None), (1, None, None))))"
         },
-        "total_seconds": 0.20879941689781845
+        "total_seconds": 0.1997589161619544
     },
     {
         "evaluations": 133,
-        "generate_seconds": 0.16938166692852974,
+        "generate_seconds": 0.16159195778891444,
         "original": {
             "value": "(551668, (36227957235, (6908286616095102, None, None), None), (36227957235, (6908286616095102, None, None), None))"
         },
         "seed": 17637440934470672810,
-        "shrink_seconds": 0.051825958071276546,
+        "shrink_seconds": 0.049611416179686785,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.22238095896318555
+        "total_seconds": 0.2122944169677794
     },
     {
         "evaluations": 139,
-        "generate_seconds": 0.12435804097913206,
+        "generate_seconds": 0.12309795804321766,
         "original": {
             "value": "(602, (120904566100, None, (1535985519934041344, (2487675262478275584, (6040798222552606720, None, None), (8772652478340634624, None, None)), (5124432689190447104, (5489959736178106368, None, None), (6989620835580731392, None, None)))), (8514, (1091350, (35161270, (588614531, None, None), (485306333, None, None)), (1101735, (19226357513876, None, None), (18014398509481985, None, None))), (103232120, (215564219, (81421919289, None, None), (992449057, None, None)), None)))"
         },
         "seed": 8804638787386595555,
-        "shrink_seconds": 0.11599512491375208,
+        "shrink_seconds": 0.11480287509039044,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (0, None, (1, None, None))))"
         },
-        "total_seconds": 0.24166629184037447
+        "total_seconds": 0.23914037505164742
     },
     {
         "evaluations": 111,
-        "generate_seconds": 0.10071374988183379,
+        "generate_seconds": 0.09881645906716585,
         "original": {
             "value": "(2655968134, (113904502064, None, (340823696526398464, None, None)), (267733397053, (173228789014645, None, None), (49517479993859, None, None)))"
         },
         "seed": 12349143339101850251,
-        "shrink_seconds": 0.060087667079642415,
+        "shrink_seconds": 0.059304208029061556,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.16196566703729331
+        "total_seconds": 0.15935858292505145
     },
     {
         "evaluations": 83,
-        "generate_seconds": 0.03317800001241267,
+        "generate_seconds": 0.03192087495699525,
         "original": {
             "value": "(26633, (631048, (3586025285, None, None), (6473903936, None, None)), (26952, (20037679, None, None), (3773936946, None, None)))"
         },
         "seed": 7594570068955946016,
-        "shrink_seconds": 0.06489358306862414,
+        "shrink_seconds": 0.06152949994429946,
         "shrunk": {
             "value": "(0, None, (0, (0, None, None), (1, None, None)))"
         },
-        "total_seconds": 0.09919295879080892
+        "total_seconds": 0.09448775043711066
     }
 ]

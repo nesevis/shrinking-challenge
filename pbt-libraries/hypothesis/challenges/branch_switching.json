@@ -6,10 +6,10 @@
             "value": "'a branch switch'"
         },
         "seed": 13534270016098124215,
-        "shrink_seconds": 0.005615625064820051,
+        "shrink_seconds": 0.004951125010848045,
         "shrunk": {
             "value": "1001"
         },
-        "total_seconds": 0.013637582771480083
+        "total_seconds": 0.011465625371783972
     }
 ]

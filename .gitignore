@@ -58,3 +58,7 @@ project/target/
 target/
 /.project
 /.bsp
+
+# Python
+__pycache__/
+*.pyc

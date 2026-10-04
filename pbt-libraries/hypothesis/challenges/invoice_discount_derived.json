@@ -1,1302 +1,1302 @@
 [
     {
         "evaluations": 1105,
-        "generate_seconds": 1.335183208109811,
+        "generate_seconds": 1.4280210421420634,
         "original": {
             "invoice": "Invoice(unit_price_cents=62, quantity=62, discount_percent=20)"
         },
         "seed": 3784473885879348406,
-        "shrink_seconds": 0.025972957955673337,
+        "shrink_seconds": 0.027719624806195498,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=17, quantity=59, discount_percent=1)"
         },
-        "total_seconds": 1.3626639160793275
+        "total_seconds": 1.457316542044282
     },
     {
         "evaluations": 1083,
-        "generate_seconds": 0.7360637919045985,
+        "generate_seconds": 0.7953312918543816,
         "original": {
             "invoice": "Invoice(unit_price_cents=46, quantity=46, discount_percent=46)"
         },
         "seed": 6229082571826914258,
-        "shrink_seconds": 0.020097166998311877,
+        "shrink_seconds": 0.022134334314614534,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.7572082499973476
+        "total_seconds": 0.8186716251075268
     },
     {
         "evaluations": 362,
-        "generate_seconds": 0.12185379094444215,
+        "generate_seconds": 0.13024116726592183,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 512307622628995394,
-        "shrink_seconds": 0.018516874872148037,
+        "shrink_seconds": 0.019713500048965216,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.14131112513132393
+        "total_seconds": 0.15094849979504943
     },
     {
         "evaluations": 1078,
-        "generate_seconds": 0.765414834022522,
+        "generate_seconds": 0.8167663333006203,
         "original": {
             "invoice": "Invoice(unit_price_cents=37, quantity=37, discount_percent=37)"
         },
         "seed": 884233677444636205,
-        "shrink_seconds": 0.01899841707199812,
+        "shrink_seconds": 0.01974287535995245,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.785355499945581
+        "total_seconds": 0.8374876673333347
     },
     {
         "evaluations": 477,
-        "generate_seconds": 0.17613629205152392,
+        "generate_seconds": 0.18730891589075327,
         "original": {
             "invoice": "Invoice(unit_price_cents=44, quantity=44, discount_percent=44)"
         },
         "seed": 10736809285208182321,
-        "shrink_seconds": 0.022955209016799927,
+        "shrink_seconds": 0.024815957993268967,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.20001187501475215
+        "total_seconds": 0.213104167021811
     },
     {
         "evaluations": 317,
-        "generate_seconds": 0.09619454108178616,
+        "generate_seconds": 0.1014915001578629,
         "original": {
             "invoice": "Invoice(unit_price_cents=45, quantity=45, discount_percent=45)"
         },
         "seed": 11685251519191040107,
-        "shrink_seconds": 0.021288709016516805,
+        "shrink_seconds": 0.02249929215759039,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.11841579200699925
+        "total_seconds": 0.12494654208421707
     },
     {
         "evaluations": 860,
-        "generate_seconds": 0.341309875017032,
+        "generate_seconds": 0.3574166251346469,
         "original": {
             "invoice": "Invoice(unit_price_cents=232, quantity=8, discount_percent=8)"
         },
         "seed": 8956879469633969890,
-        "shrink_seconds": 0.019492374965921044,
+        "shrink_seconds": 0.02034083427861333,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=201, quantity=5, discount_percent=1)"
         },
-        "total_seconds": 0.36176395881921053
+        "total_seconds": 0.3787432089447975
     },
     {
         "evaluations": 465,
-        "generate_seconds": 0.1607904159463942,
+        "generate_seconds": 0.1687142918817699,
         "original": {
             "invoice": "Invoice(unit_price_cents=38, quantity=38, discount_percent=38)"
         },
         "seed": 8826801251984865736,
-        "shrink_seconds": 0.018684749957174063,
+        "shrink_seconds": 0.02013791585341096,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.18039787490852177
+        "total_seconds": 0.1898312079720199
     },
     {
         "evaluations": 699,
-        "generate_seconds": 0.2692261249758303,
+        "generate_seconds": 0.28468570904806256,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 11780156337504651081,
-        "shrink_seconds": 0.017720957985147834,
+        "shrink_seconds": 0.018900957889854908,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.28792349994182587
+        "total_seconds": 0.3046096246689558
     },
     {
         "evaluations": 1078,
-        "generate_seconds": 0.46523383306339383,
+        "generate_seconds": 0.49043479189276695,
         "original": {
             "invoice": "Invoice(unit_price_cents=46, quantity=46, discount_percent=46)"
         },
         "seed": 10548039160173829240,
-        "shrink_seconds": 0.018022708129137754,
+        "shrink_seconds": 0.01905954210087657,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.4841808748897165
+        "total_seconds": 0.5104824169538915
     },
     {
         "evaluations": 767,
-        "generate_seconds": 0.29840783309191465,
+        "generate_seconds": 0.31700300006195903,
         "original": {
             "invoice": "Invoice(unit_price_cents=47, quantity=47, discount_percent=47)"
         },
         "seed": 9055834675201520696,
-        "shrink_seconds": 0.01917241606861353,
+        "shrink_seconds": 0.020227125380188227,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.3185228749644011
+        "total_seconds": 0.3382128747180104
     },
     {
         "evaluations": 119,
-        "generate_seconds": 0.02030158299021423,
+        "generate_seconds": 0.021502874791622162,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 121656937587539272,
-        "shrink_seconds": 0.016426125075668097,
+        "shrink_seconds": 0.01767908316105604,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.0376373331528157
+        "total_seconds": 0.04013166716322303
     },
     {
         "evaluations": 1079,
-        "generate_seconds": 0.681003708858043,
+        "generate_seconds": 0.7179453326389194,
         "original": {
             "invoice": "Invoice(unit_price_cents=43, quantity=43, discount_percent=43)"
         },
         "seed": 10362968451195038352,
-        "shrink_seconds": 0.019494917010888457,
+        "shrink_seconds": 0.02071733307093382,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.7014471660368145
+        "total_seconds": 0.7396200839430094
     },
     {
         "evaluations": 1081,
-        "generate_seconds": 0.7983919170219451,
+        "generate_seconds": 0.8441790831275284,
         "original": {
             "invoice": "Invoice(unit_price_cents=37, quantity=37, discount_percent=37)"
         },
         "seed": 16171257648632132193,
-        "shrink_seconds": 0.01906475005671382,
+        "shrink_seconds": 0.020059792324900627,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.8184161249082536
+        "total_seconds": 0.8652290417812765
     },
     {
         "evaluations": 1079,
-        "generate_seconds": 0.8543853329028934,
+        "generate_seconds": 0.9007146670483053,
         "original": {
             "invoice": "Invoice(unit_price_cents=38, quantity=38, discount_percent=38)"
         },
         "seed": 4556825303594270474,
-        "shrink_seconds": 0.01883070799522102,
+        "shrink_seconds": 0.019849167205393314,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.8741312499623746
+        "total_seconds": 0.9215520001016557
     },
     {
         "evaluations": 1228,
-        "generate_seconds": 0.812798083992675,
+        "generate_seconds": 0.8481249576434493,
         "original": {
             "invoice": "Invoice(unit_price_cents=294, quantity=29, discount_percent=29)"
         },
         "seed": 1207054803626555162,
-        "shrink_seconds": 0.06574454205110669,
+        "shrink_seconds": 0.06891720881685615,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=101, quantity=10, discount_percent=1)"
         },
-        "total_seconds": 0.8795042498968542
+        "total_seconds": 0.9180391668342054
     },
     {
         "evaluations": 1075,
-        "generate_seconds": 0.5328663338441402,
+        "generate_seconds": 0.5593747501261532,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 14048834004779382886,
-        "shrink_seconds": 0.017528834054246545,
+        "shrink_seconds": 0.018472667317837477,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.5513202080037445
+        "total_seconds": 0.5788309583440423
     },
     {
         "evaluations": 1082,
-        "generate_seconds": 0.7137280830647796,
+        "generate_seconds": 0.7463271669112146,
         "original": {
             "invoice": "Invoice(unit_price_cents=43, quantity=43, discount_percent=43)"
         },
         "seed": 15842262384911871748,
-        "shrink_seconds": 0.020290666026994586,
+        "shrink_seconds": 0.02126249996945262,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.7349527920596302
+        "total_seconds": 0.7685955828055739
     },
     {
         "evaluations": 1082,
-        "generate_seconds": 0.8870508328545839,
+        "generate_seconds": 0.927975791040808,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 8379401403050809943,
-        "shrink_seconds": 0.020184166030958295,
+        "shrink_seconds": 0.021013999823480844,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.908198666991666
+        "total_seconds": 0.9499951670877635
     },
     {
         "evaluations": 1074,
-        "generate_seconds": 0.9124716247897595,
+        "generate_seconds": 0.9514080830849707,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 10347759914105919912,
-        "shrink_seconds": 0.017798250075429678,
+        "shrink_seconds": 0.018629416823387146,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.9312052079476416
+        "total_seconds": 0.9710501246154308
     },
     {
         "evaluations": 837,
-        "generate_seconds": 0.34309237520210445,
+        "generate_seconds": 0.358796208165586,
         "original": {
             "invoice": "Invoice(unit_price_cents=49, quantity=49, discount_percent=49)"
         },
         "seed": 15113458919380337621,
-        "shrink_seconds": 0.021728500025346875,
+        "shrink_seconds": 0.02205837471410632,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.36579954205080867
+        "total_seconds": 0.3818431249819696
     },
     {
         "evaluations": 1066,
-        "generate_seconds": 0.5189957499969751,
+        "generate_seconds": 0.5506522078067064,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 1646880625183065961,
-        "shrink_seconds": 0.017661415971815586,
+        "shrink_seconds": 0.018620042130351067,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=11, quantity=91, discount_percent=1)"
         },
-        "total_seconds": 0.5376209169626236
+        "total_seconds": 0.570266833063215
     },
     {
         "evaluations": 1074,
-        "generate_seconds": 0.4707821251358837,
+        "generate_seconds": 0.4898425838910043,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 16705259941859356862,
-        "shrink_seconds": 0.017484999960288405,
+        "shrink_seconds": 0.018463040702044964,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.48920704098418355
+        "total_seconds": 0.5093129579909146
     },
     {
         "evaluations": 346,
-        "generate_seconds": 0.11712125013582408,
+        "generate_seconds": 0.12307429080829024,
         "original": {
             "invoice": "Invoice(unit_price_cents=46, quantity=46, discount_percent=46)"
         },
         "seed": 6923880347716704335,
-        "shrink_seconds": 0.023602000204846263,
+        "shrink_seconds": 0.024691958911716938,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.14164866716600955
+        "total_seconds": 0.14874487463384867
     },
     {
         "evaluations": 1080,
-        "generate_seconds": 0.44605774991214275,
+        "generate_seconds": 0.46310666715726256,
         "original": {
             "invoice": "Invoice(unit_price_cents=49, quantity=49, discount_percent=49)"
         },
         "seed": 1428106108334993669,
-        "shrink_seconds": 0.01978033292107284,
+        "shrink_seconds": 0.020275291055440903,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.4667885839007795
+        "total_seconds": 0.4843502910807729
     },
     {
         "evaluations": 339,
-        "generate_seconds": 0.12346150004304945,
+        "generate_seconds": 0.12669108342379332,
         "original": {
             "invoice": "Invoice(unit_price_cents=36, quantity=36, discount_percent=36)"
         },
         "seed": 17008938687918927866,
-        "shrink_seconds": 0.01827099989168346,
+        "shrink_seconds": 0.019075917080044746,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.14267170801758766
+        "total_seconds": 0.1467249160632491
     },
     {
         "evaluations": 395,
-        "generate_seconds": 0.02573874988593161,
+        "generate_seconds": 0.027004000265151262,
         "original": {
             "invoice": "Invoice(unit_price_cents=394, quantity=30, discount_percent=30)"
         },
         "seed": 10276786862445126998,
-        "shrink_seconds": 0.09628933295607567,
+        "shrink_seconds": 0.10068704187870026,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=10, quantity=100, discount_percent=1)"
         },
-        "total_seconds": 0.12298149988055229
+        "total_seconds": 0.12865599989891052
     },
     {
         "evaluations": 492,
-        "generate_seconds": 0.1971974589396268,
+        "generate_seconds": 0.2032267078757286,
         "original": {
             "invoice": "Invoice(unit_price_cents=505, quantity=4, discount_percent=4)"
         },
         "seed": 18337709527170875304,
-        "shrink_seconds": 0.012275375192984939,
+        "shrink_seconds": 0.012761499732732773,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=501, quantity=2, discount_percent=1)"
         },
-        "total_seconds": 0.2107145411428064
+        "total_seconds": 0.2172632496803999
     },
     {
         "evaluations": 963,
-        "generate_seconds": 0.3871892080642283,
+        "generate_seconds": 0.4019250422716141,
         "original": {
             "invoice": "Invoice(unit_price_cents=36, quantity=36, discount_percent=36)"
         },
         "seed": 1082170756069422451,
-        "shrink_seconds": 0.01809604186564684,
+        "shrink_seconds": 0.019440374802798033,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.4062129168305546
+        "total_seconds": 0.4223484587855637
     },
     {
         "evaluations": 1073,
-        "generate_seconds": 0.6097144999075681,
+        "generate_seconds": 0.6321604996919632,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 9028619211102657233,
-        "shrink_seconds": 0.017220624955371022,
+        "shrink_seconds": 0.01793979201465845,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6278900420293212
+        "total_seconds": 0.6511013749986887
     },
     {
         "evaluations": 1066,
-        "generate_seconds": 0.8496987498365343,
+        "generate_seconds": 0.884686500299722,
         "original": {
             "invoice": "Invoice(unit_price_cents=32, quantity=32, discount_percent=32)"
         },
         "seed": 16976738946939035314,
-        "shrink_seconds": 0.01530229183845222,
+        "shrink_seconds": 0.01588812517002225,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.8659729999490082
+        "total_seconds": 0.9015627088956535
     },
     {
         "evaluations": 144,
-        "generate_seconds": 0.024972583865746856,
+        "generate_seconds": 0.026233958080410957,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 5794998476109998107,
-        "shrink_seconds": 0.02146216598339379,
+        "shrink_seconds": 0.021967040840536356,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.047384874895215034
+        "total_seconds": 0.049184625037014484
     },
     {
         "evaluations": 207,
-        "generate_seconds": 0.05714379111304879,
+        "generate_seconds": 0.05974358320236206,
         "original": {
             "invoice": "Invoice(unit_price_cents=37, quantity=37, discount_percent=37)"
         },
         "seed": 17595817338601391972,
-        "shrink_seconds": 0.018093166872859,
+        "shrink_seconds": 0.018835207913070917,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.07613912504166365
+        "total_seconds": 0.07954187504947186
     },
     {
         "evaluations": 1085,
-        "generate_seconds": 0.4754724579397589,
+        "generate_seconds": 0.49306116718798876,
         "original": {
             "invoice": "Invoice(unit_price_cents=45, quantity=45, discount_percent=45)"
         },
         "seed": 3959971578835498364,
-        "shrink_seconds": 0.02171300002373755,
+        "shrink_seconds": 0.022302249912172556,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.4981795421335846
+        "total_seconds": 0.5163961658254266
     },
     {
         "evaluations": 152,
-        "generate_seconds": 0.03420904208905995,
+        "generate_seconds": 0.03583745798096061,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 4584903951281759182,
-        "shrink_seconds": 0.016604665899649262,
+        "shrink_seconds": 0.017428083345294,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.051737291971221566
+        "total_seconds": 0.05415095901116729
     },
     {
         "evaluations": 312,
-        "generate_seconds": 0.10424879193305969,
+        "generate_seconds": 0.10669133299961686,
         "original": {
             "invoice": "Invoice(unit_price_cents=46, quantity=46, discount_percent=46)"
         },
         "seed": 4486686087894137300,
-        "shrink_seconds": 0.023931083036586642,
+        "shrink_seconds": 0.023915540892630816,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.12910649995319545
+        "total_seconds": 0.1315027503296733
     },
     {
         "evaluations": 1084,
-        "generate_seconds": 0.5546322078444064,
+        "generate_seconds": 0.571552749723196,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 11630520070196158270,
-        "shrink_seconds": 0.02132583293132484,
+        "shrink_seconds": 0.022342749871313572,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.5769592500291765
+        "total_seconds": 0.5948825418017805
     },
     {
         "evaluations": 603,
-        "generate_seconds": 0.23547295783646405,
+        "generate_seconds": 0.25206412514671683,
         "original": {
             "invoice": "Invoice(unit_price_cents=45, quantity=45, discount_percent=45)"
         },
         "seed": 18159355541787686918,
-        "shrink_seconds": 0.020834374940022826,
+        "shrink_seconds": 0.021465749945491552,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.257251082919538
+        "total_seconds": 0.2745203748345375
     },
     {
         "evaluations": 1073,
-        "generate_seconds": 0.4669391249772161,
+        "generate_seconds": 0.48637991584837437,
         "original": {
             "invoice": "Invoice(unit_price_cents=196, quantity=93, discount_percent=27)"
         },
         "seed": 13009791144739839389,
-        "shrink_seconds": 0.01761991693638265,
+        "shrink_seconds": 0.018453917000442743,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.48547920817509294
+        "total_seconds": 0.5057912501506507
     },
     {
         "evaluations": 1069,
-        "generate_seconds": 0.9362588750664145,
+        "generate_seconds": 0.9641928751952946,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 2916270661991671958,
-        "shrink_seconds": 0.016768083907663822,
+        "shrink_seconds": 0.01708004204556346,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.9540275000035763
+        "total_seconds": 0.9822669168934226
     },
     {
         "evaluations": 1072,
-        "generate_seconds": 0.5977121668402106,
+        "generate_seconds": 0.6139353341422975,
         "original": {
             "invoice": "Invoice(unit_price_cents=43, quantity=43, discount_percent=43)"
         },
         "seed": 2725431442399634921,
-        "shrink_seconds": 0.017945042112842202,
+        "shrink_seconds": 0.0184968332760036,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6166167920455337
+        "total_seconds": 0.6334216250106692
     },
     {
         "evaluations": 227,
-        "generate_seconds": 0.06272449996322393,
+        "generate_seconds": 0.0653895833529532,
         "original": {
             "invoice": "Invoice(unit_price_cents=39, quantity=39, discount_percent=39)"
         },
         "seed": 4552360751128405413,
-        "shrink_seconds": 0.020509041845798492,
+        "shrink_seconds": 0.021101041696965694,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.08416416612453759
+        "total_seconds": 0.08746416587382555
     },
     {
         "evaluations": 206,
-        "generate_seconds": 0.05488887499086559,
+        "generate_seconds": 0.056020624935626984,
         "original": {
             "invoice": "Invoice(unit_price_cents=36, quantity=36, discount_percent=36)"
         },
         "seed": 5753688576014602186,
-        "shrink_seconds": 0.019751125015318394,
+        "shrink_seconds": 0.019940416794270277,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.07553345919586718
+        "total_seconds": 0.0769114582799375
     },
     {
         "evaluations": 451,
-        "generate_seconds": 0.1765455831773579,
+        "generate_seconds": 0.18397633265703917,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 14400709066693067584,
-        "shrink_seconds": 0.01794104091823101,
+        "shrink_seconds": 0.019033334217965603,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.19539870787411928
+        "total_seconds": 0.2039862498641014
     },
     {
         "evaluations": 245,
-        "generate_seconds": 0.06754004210233688,
+        "generate_seconds": 0.0708620841614902,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 13795596184838721947,
-        "shrink_seconds": 0.020572166191414,
+        "shrink_seconds": 0.02180725010111928,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.08901116717606783
+        "total_seconds": 0.09363891603425145
     },
     {
         "evaluations": 1082,
-        "generate_seconds": 0.9152031249832362,
+        "generate_seconds": 0.9441216248087585,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 10308815990887915497,
-        "shrink_seconds": 0.02093337499536574,
+        "shrink_seconds": 0.02150383312255144,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.937131583923474
+        "total_seconds": 0.9666597498580813
     },
     {
         "evaluations": 408,
-        "generate_seconds": 0.14369720802642405,
+        "generate_seconds": 0.14912533294409513,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 15675438239026913156,
-        "shrink_seconds": 0.01643341686576605,
+        "shrink_seconds": 0.016969250049442053,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.16104683303274214
+        "total_seconds": 0.16705954214558005
     },
     {
         "evaluations": 847,
-        "generate_seconds": 0.3532281247898936,
+        "generate_seconds": 0.3664175416342914,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 13882962912966917790,
-        "shrink_seconds": 0.020259583136066794,
+        "shrink_seconds": 0.02082191687077284,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.37447420903481543
+        "total_seconds": 0.38827204098924994
     },
     {
         "evaluations": 1079,
-        "generate_seconds": 0.6910475410986692,
+        "generate_seconds": 0.7129046251066029,
         "original": {
             "invoice": "Invoice(unit_price_cents=38, quantity=38, discount_percent=38)"
         },
         "seed": 1997504637189725711,
-        "shrink_seconds": 0.019098833203315735,
+        "shrink_seconds": 0.02015300001949072,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.7111025410704315
+        "total_seconds": 0.7340547498315573
     },
     {
         "evaluations": 438,
-        "generate_seconds": 0.17105349991470575,
+        "generate_seconds": 0.1766434581950307,
         "original": {
             "invoice": "Invoice(unit_price_cents=105, quantity=17, discount_percent=17)"
         },
         "seed": 10195855650347212242,
-        "shrink_seconds": 0.018493541050702333,
+        "shrink_seconds": 0.019583709072321653,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=101, quantity=10, discount_percent=1)"
         },
-        "total_seconds": 0.1904762089252472
+        "total_seconds": 0.19726433278992772
     },
     {
         "evaluations": 1069,
-        "generate_seconds": 0.7110659168101847,
+        "generate_seconds": 0.7441014996729791,
         "original": {
             "invoice": "Invoice(unit_price_cents=32, quantity=32, discount_percent=32)"
         },
         "seed": 16993646208419891889,
-        "shrink_seconds": 0.016676959116011858,
+        "shrink_seconds": 0.016889833845198154,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.7287045000120997
+        "total_seconds": 0.761933958157897
     },
     {
         "evaluations": 270,
-        "generate_seconds": 0.09615262504667044,
+        "generate_seconds": 0.09742499981075525,
         "original": {
             "invoice": "Invoice(unit_price_cents=43, quantity=43, discount_percent=43)"
         },
         "seed": 14036099265971480566,
-        "shrink_seconds": 0.021332917036488652,
+        "shrink_seconds": 0.021623999811708927,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.11845450010150671
+        "total_seconds": 0.1200024588033557
     },
     {
         "evaluations": 194,
-        "generate_seconds": 0.05407433304935694,
+        "generate_seconds": 0.05562241701409221,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 14358592952847606134,
-        "shrink_seconds": 0.016455833101645112,
+        "shrink_seconds": 0.016942332964390516,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.07145275012589991
+        "total_seconds": 0.07352966628968716
     },
     {
         "evaluations": 355,
-        "generate_seconds": 0.12455045897513628,
+        "generate_seconds": 0.12805716739967465,
         "original": {
             "invoice": "Invoice(unit_price_cents=603, quantity=42, discount_percent=42)"
         },
         "seed": 7487593936719271673,
-        "shrink_seconds": 0.018797750119119883,
+        "shrink_seconds": 0.019450583029538393,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.14424316608347
+        "total_seconds": 0.14846016699448228
     },
     {
         "evaluations": 651,
-        "generate_seconds": 0.2549751668702811,
+        "generate_seconds": 0.2640752079896629,
         "original": {
             "invoice": "Invoice(unit_price_cents=32, quantity=32, discount_percent=32)"
         },
         "seed": 12891668109416828071,
-        "shrink_seconds": 0.016447957837954164,
+        "shrink_seconds": 0.016867625061422586,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.27238562516868114
+        "total_seconds": 0.28195262467488647
     },
     {
         "evaluations": 1075,
-        "generate_seconds": 0.4462381249759346,
+        "generate_seconds": 0.4569574170745909,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 9067359177130275938,
-        "shrink_seconds": 0.01810558303259313,
+        "shrink_seconds": 0.018703333102166653,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.46527962503023446
+        "total_seconds": 0.476644332986325
     },
     {
         "evaluations": 1083,
-        "generate_seconds": 0.6412915838882327,
+        "generate_seconds": 0.6623530411161482,
         "original": {
             "invoice": "Invoice(unit_price_cents=43, quantity=43, discount_percent=43)"
         },
         "seed": 17165673433825240412,
-        "shrink_seconds": 0.020896041998639703,
+        "shrink_seconds": 0.02147045824676752,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6631102089304477
+        "total_seconds": 0.6847950830124319
     },
     {
         "evaluations": 681,
-        "generate_seconds": 0.2749880419578403,
+        "generate_seconds": 0.28412879118695855,
         "original": {
             "invoice": "Invoice(unit_price_cents=37, quantity=37, discount_percent=37)"
         },
         "seed": 7519885311893423224,
-        "shrink_seconds": 0.019534541992470622,
+        "shrink_seconds": 0.0204625828191638,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.29549762490205467
+        "total_seconds": 0.30561866564676166
     },
     {
         "evaluations": 498,
-        "generate_seconds": 0.18142916704528034,
+        "generate_seconds": 0.18659583386033773,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 18304119622073933350,
-        "shrink_seconds": 0.01740520796738565,
+        "shrink_seconds": 0.017659041099250317,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.1997629590332508
+        "total_seconds": 0.2052219589240849
     },
     {
         "evaluations": 533,
-        "generate_seconds": 0.20438691694289446,
+        "generate_seconds": 0.21081537520512938,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 12678825678332870083,
-        "shrink_seconds": 0.02025608322583139,
+        "shrink_seconds": 0.02116583287715912,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.2255755418445915
+        "total_seconds": 0.23294845782220364
     },
     {
         "evaluations": 449,
-        "generate_seconds": 0.16076883301138878,
+        "generate_seconds": 0.16387325013056397,
         "original": {
             "invoice": "Invoice(unit_price_cents=46, quantity=46, discount_percent=46)"
         },
         "seed": 12790397318880381979,
-        "shrink_seconds": 0.023413209011778235,
+        "shrink_seconds": 0.023808208294212818,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.18514120788313448
+        "total_seconds": 0.18864249996840954
     },
     {
         "evaluations": 1069,
-        "generate_seconds": 0.5908471250440925,
+        "generate_seconds": 0.602741792332381,
         "original": {
             "invoice": "Invoice(unit_price_cents=32, quantity=32, discount_percent=32)"
         },
         "seed": 12471245615942060980,
-        "shrink_seconds": 0.016771540977060795,
+        "shrink_seconds": 0.01641250029206276,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6086512908805162
+        "total_seconds": 0.6201059161685407
     },
     {
         "evaluations": 902,
-        "generate_seconds": 0.37188391597010195,
+        "generate_seconds": 0.38180791679769754,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 720396290203931512,
-        "shrink_seconds": 0.018659332999959588,
+        "shrink_seconds": 0.01897350000217557,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.39152933307923377
+        "total_seconds": 0.4017381248995662
     },
     {
         "evaluations": 1093,
-        "generate_seconds": 0.6695143328979611,
+        "generate_seconds": 0.6924929162487388,
         "original": {
             "invoice": "Invoice(unit_price_cents=45, quantity=45, discount_percent=45)"
         },
         "seed": 15047706720613128854,
-        "shrink_seconds": 0.0234220412094146,
+        "shrink_seconds": 0.023833292070776224,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6939040839206427
+        "total_seconds": 0.717295166105032
     },
     {
         "evaluations": 1069,
-        "generate_seconds": 0.802522666985169,
+        "generate_seconds": 0.8155067078769207,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 13669372731690293715,
-        "shrink_seconds": 0.03266958286985755,
+        "shrink_seconds": 0.028610708191990852,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.8362802078481764
+        "total_seconds": 0.8451554579660296
     },
     {
         "evaluations": 297,
-        "generate_seconds": 0.05626429105177522,
+        "generate_seconds": 0.055069958325475454,
         "original": {
             "invoice": "Invoice(unit_price_cents=274, quantity=28, discount_percent=28)"
         },
         "seed": 17901090363734146752,
-        "shrink_seconds": 0.05815741699188948,
+        "shrink_seconds": 0.05611900007352233,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=101, quantity=10, discount_percent=1)"
         },
-        "total_seconds": 0.11546525009907782
+        "total_seconds": 0.11216074973344803
     },
     {
         "evaluations": 160,
-        "generate_seconds": 0.04199466691352427,
+        "generate_seconds": 0.04079558327794075,
         "original": {
             "invoice": "Invoice(unit_price_cents=32, quantity=32, discount_percent=32)"
         },
         "seed": 12052633065468959988,
-        "shrink_seconds": 0.016812165966257453,
+        "shrink_seconds": 0.016812790650874376,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.05983329191803932
+        "total_seconds": 0.058557792101055384
     },
     {
         "evaluations": 265,
-        "generate_seconds": 0.08053774992004037,
+        "generate_seconds": 0.08007437456399202,
         "original": {
             "invoice": "Invoice(unit_price_cents=384, quantity=42, discount_percent=42)"
         },
         "seed": 13516965529886226937,
-        "shrink_seconds": 0.022916875081136823,
+        "shrink_seconds": 0.021874583791941404,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.10444050002843142
+        "total_seconds": 0.10287037491798401
     },
     {
         "evaluations": 1070,
-        "generate_seconds": 0.6147734159603715,
+        "generate_seconds": 0.6263024578802288,
         "original": {
             "invoice": "Invoice(unit_price_cents=36, quantity=36, discount_percent=36)"
         },
         "seed": 6868795510899873564,
-        "shrink_seconds": 0.01707941689528525,
+        "shrink_seconds": 0.01755116693675518,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6328414168674499
+        "total_seconds": 0.6448211250826716
     },
     {
         "evaluations": 1080,
-        "generate_seconds": 0.64896299992688,
+        "generate_seconds": 0.6662460840307176,
         "original": {
             "invoice": "Invoice(unit_price_cents=39, quantity=39, discount_percent=39)"
         },
         "seed": 6110382964756891323,
-        "shrink_seconds": 0.020389958983287215,
+        "shrink_seconds": 0.02061524987220764,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6703047500923276
+        "total_seconds": 0.6878601247444749
     },
     {
         "evaluations": 520,
-        "generate_seconds": 0.20701420796103776,
+        "generate_seconds": 0.2115493332967162,
         "original": {
             "invoice": "Invoice(unit_price_cents=39, quantity=39, discount_percent=39)"
         },
         "seed": 5434802574490508557,
-        "shrink_seconds": 0.019964874954894185,
+        "shrink_seconds": 0.020284416154026985,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.22793462499976158
+        "total_seconds": 0.23278833320364356
     },
     {
         "evaluations": 1075,
-        "generate_seconds": 0.48654183303005993,
+        "generate_seconds": 0.500984207727015,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 4907084398141863170,
-        "shrink_seconds": 0.025584624847397208,
+        "shrink_seconds": 0.026594207622110844,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.513075958006084
+        "total_seconds": 0.528537165839225
     },
     {
         "evaluations": 179,
-        "generate_seconds": 0.03715724986977875,
+        "generate_seconds": 0.03779462492093444,
         "original": {
             "invoice": "Invoice(unit_price_cents=46, quantity=46, discount_percent=46)"
         },
         "seed": 9332667595677109764,
-        "shrink_seconds": 0.024288207991048694,
+        "shrink_seconds": 0.025109208188951015,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.06236787489615381
+        "total_seconds": 0.06386329187080264
     },
     {
         "evaluations": 130,
-        "generate_seconds": 0.015115042217075825,
+        "generate_seconds": 0.015723000280559063,
         "original": {
             "invoice": "Invoice(unit_price_cents=44, quantity=44, discount_percent=44)"
         },
         "seed": 14048028281705086296,
-        "shrink_seconds": 0.023934582946822047,
+        "shrink_seconds": 0.024574459064751863,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.03996658301912248
+        "total_seconds": 0.04124716576188803
     },
     {
         "evaluations": 555,
-        "generate_seconds": 0.22466270811855793,
+        "generate_seconds": 0.22508491715416312,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 15074142728452200615,
-        "shrink_seconds": 0.018184333806857467,
+        "shrink_seconds": 0.018313917331397533,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.24389016604982316
+        "total_seconds": 0.2444335832260549
     },
     {
         "evaluations": 1074,
-        "generate_seconds": 0.8269530839752406,
+        "generate_seconds": 0.8561097919009626,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 10585364376143727486,
-        "shrink_seconds": 0.018035749904811382,
+        "shrink_seconds": 0.018478000070899725,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.8459400839637965
+        "total_seconds": 0.8755739172920585
     },
     {
         "evaluations": 1066,
-        "generate_seconds": 0.6377161671407521,
+        "generate_seconds": 0.6608260842040181,
         "original": {
             "invoice": "Invoice(unit_price_cents=39, quantity=39, discount_percent=39)"
         },
         "seed": 6537202041212247519,
-        "shrink_seconds": 0.015874707838520408,
+        "shrink_seconds": 0.01642295904457569,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6545645829755813
+        "total_seconds": 0.6782526252791286
     },
     {
         "evaluations": 837,
-        "generate_seconds": 0.3570505839306861,
+        "generate_seconds": 0.3724157093092799,
         "original": {
             "invoice": "Invoice(unit_price_cents=37, quantity=37, discount_percent=37)"
         },
         "seed": 7943544182443029637,
-        "shrink_seconds": 0.013018249999731779,
+        "shrink_seconds": 0.014116583857685328,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=11, quantity=91, discount_percent=1)"
         },
-        "total_seconds": 0.3710409579798579
+        "total_seconds": 0.38758475007489324
     },
     {
         "evaluations": 184,
-        "generate_seconds": 0.04473583307117224,
+        "generate_seconds": 0.04705562489107251,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 8633576326553921308,
-        "shrink_seconds": 0.03157908283174038,
+        "shrink_seconds": 0.03373695770278573,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.07735516713000834
+        "total_seconds": 0.08186033321544528
     },
     {
         "evaluations": 1082,
-        "generate_seconds": 0.9908347500022501,
+        "generate_seconds": 1.0165752922184765,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 7112366837942794678,
-        "shrink_seconds": 0.020864125108346343,
+        "shrink_seconds": 0.021495208144187927,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 1.0126300000119954
+        "total_seconds": 1.0390557907521725
     },
     {
         "evaluations": 189,
-        "generate_seconds": 0.040314708137884736,
+        "generate_seconds": 0.042230666149407625,
         "original": {
             "invoice": "Invoice(unit_price_cents=48, quantity=48, discount_percent=48)"
         },
         "seed": 1141000834960737565,
-        "shrink_seconds": 0.023748124949634075,
+        "shrink_seconds": 0.02417620923370123,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.06497245794162154
+        "total_seconds": 0.06735550006851554
     },
     {
         "evaluations": 1070,
-        "generate_seconds": 0.5510475831106305,
+        "generate_seconds": 0.5663464581593871,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 13893790668136216761,
-        "shrink_seconds": 0.01710091601125896,
+        "shrink_seconds": 0.017701792065054178,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.5691369590349495
+        "total_seconds": 0.5850668749772012
     },
     {
         "evaluations": 1094,
-        "generate_seconds": 0.4769803329836577,
+        "generate_seconds": 0.48539758287370205,
         "original": {
             "invoice": "Invoice(unit_price_cents=44, quantity=44, discount_percent=44)"
         },
         "seed": 13963223619790245829,
-        "shrink_seconds": 0.02374941692687571,
+        "shrink_seconds": 0.024472500197589397,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.5016827920917422
+        "total_seconds": 0.5108508747071028
     },
     {
         "evaluations": 1071,
-        "generate_seconds": 0.6994240421336144,
+        "generate_seconds": 0.7182462499476969,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 3004753086154360957,
-        "shrink_seconds": 0.01683970890007913,
+        "shrink_seconds": 0.017755040898919106,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.7172149578109384
+        "total_seconds": 0.7369878753088415
     },
     {
         "evaluations": 1080,
-        "generate_seconds": 0.6739604589529335,
+        "generate_seconds": 0.7144361669197679,
         "original": {
             "invoice": "Invoice(unit_price_cents=41, quantity=41, discount_percent=41)"
         },
         "seed": 12426995350228939134,
-        "shrink_seconds": 0.020044707925990224,
+        "shrink_seconds": 0.02108195796608925,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6949496669694781
+        "total_seconds": 0.7365178749896586
     },
     {
         "evaluations": 1076,
-        "generate_seconds": 0.524977499851957,
+        "generate_seconds": 0.5446971668861806,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 13919159549877068948,
-        "shrink_seconds": 0.01863516611047089,
+        "shrink_seconds": 0.019388749729841948,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.5445234999060631
+        "total_seconds": 0.5651061669923365
     },
     {
         "evaluations": 768,
-        "generate_seconds": 0.31072100019082427,
+        "generate_seconds": 0.3247507503256202,
         "original": {
             "invoice": "Invoice(unit_price_cents=550, quantity=25, discount_percent=25)"
         },
         "seed": 4427952411418782225,
-        "shrink_seconds": 0.022023499943315983,
+        "shrink_seconds": 0.022494792006909847,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.3336892498191446
+        "total_seconds": 0.34824070800095797
     },
     {
         "evaluations": 1069,
-        "generate_seconds": 0.8450433749239892,
+        "generate_seconds": 0.8744696248322725,
         "original": {
             "invoice": "Invoice(unit_price_cents=18, quantity=100, discount_percent=18)"
         },
         "seed": 15700985531497498315,
-        "shrink_seconds": 0.01824858388863504,
+        "shrink_seconds": 0.01921383384615183,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=11, quantity=91, discount_percent=1)"
         },
-        "total_seconds": 0.8642483330331743
+        "total_seconds": 0.8947442080825567
     },
     {
         "evaluations": 314,
-        "generate_seconds": 0.07198862498626113,
+        "generate_seconds": 0.07584333280101418,
         "original": {
             "invoice": "Invoice(unit_price_cents=562, quantity=25, discount_percent=25)"
         },
         "seed": 3494088720443561435,
-        "shrink_seconds": 0.0706309590023011,
+        "shrink_seconds": 0.07258958322927356,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=401, quantity=3, discount_percent=1)"
         },
-        "total_seconds": 0.14364050002768636
+        "total_seconds": 0.14948200015351176
     },
     {
         "evaluations": 1082,
-        "generate_seconds": 0.5784403330180794,
+        "generate_seconds": 0.5905145830474794,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 3339286046586661120,
-        "shrink_seconds": 0.021040291991084814,
+        "shrink_seconds": 0.021541499998420477,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6004156661219895
+        "total_seconds": 0.6130303330719471
     },
     {
         "evaluations": 1071,
-        "generate_seconds": 0.6265644999220967,
+        "generate_seconds": 0.6534972921945155,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 7738659290467103925,
-        "shrink_seconds": 0.017516084015369415,
+        "shrink_seconds": 0.018395541701465845,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6450902498327196
+        "total_seconds": 0.6728987079113722
     },
     {
         "evaluations": 1076,
-        "generate_seconds": 0.6241933749988675,
+        "generate_seconds": 0.6570962909609079,
         "original": {
             "invoice": "Invoice(unit_price_cents=35, quantity=35, discount_percent=35)"
         },
         "seed": 13906698922691143649,
-        "shrink_seconds": 0.018644083058461547,
+        "shrink_seconds": 0.01912570931017399,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.6438467500265688
+        "total_seconds": 0.6772796669974923
     },
     {
         "evaluations": 713,
-        "generate_seconds": 0.25068308296613395,
+        "generate_seconds": 0.25893499981611967,
         "original": {
             "invoice": "Invoice(unit_price_cents=271, quantity=24, discount_percent=24)"
         },
         "seed": 9933283739257973802,
-        "shrink_seconds": 0.05460600019432604,
+        "shrink_seconds": 0.05727945873513818,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=101, quantity=10, discount_percent=1)"
         },
-        "total_seconds": 0.30623154202476144
+        "total_seconds": 0.3172317920252681
     },
     {
         "evaluations": 1070,
-        "generate_seconds": 0.8354493749793619,
+        "generate_seconds": 0.8604284161701798,
         "original": {
             "invoice": "Invoice(unit_price_cents=33, quantity=33, discount_percent=33)"
         },
         "seed": 10011542173748824646,
-        "shrink_seconds": 0.01711845793761313,
+        "shrink_seconds": 0.01737383333966136,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.8535268339328468
+        "total_seconds": 0.8787928749807179
     },
     {
         "evaluations": 201,
-        "generate_seconds": 0.05571749992668629,
+        "generate_seconds": 0.05673137493431568,
         "original": {
             "invoice": "Invoice(unit_price_cents=34, quantity=34, discount_percent=34)"
         },
         "seed": 8363907794037212149,
-        "shrink_seconds": 0.01837970782071352,
+        "shrink_seconds": 0.01871141605079174,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.07504099979996681
+        "total_seconds": 0.07640495803207159
     },
     {
         "evaluations": 554,
-        "generate_seconds": 0.22930574999190867,
+        "generate_seconds": 0.23445545881986618,
         "original": {
             "invoice": "Invoice(unit_price_cents=47, quantity=47, discount_percent=47)"
         },
         "seed": 12141773156809246440,
-        "shrink_seconds": 0.0181109590921551,
+        "shrink_seconds": 0.018107417039573193,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=14, quantity=72, discount_percent=1)"
         },
-        "total_seconds": 0.24835941707715392
+        "total_seconds": 0.25350487511605024
     },
     {
         "evaluations": 1081,
-        "generate_seconds": 0.44610262499190867,
+        "generate_seconds": 0.4616987081244588,
         "original": {
             "invoice": "Invoice(unit_price_cents=38, quantity=38, discount_percent=38)"
         },
         "seed": 5706807859035662006,
-        "shrink_seconds": 0.019878792110830545,
+        "shrink_seconds": 0.02084224997088313,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.4669524170458317
+        "total_seconds": 0.4835434998385608
     },
     {
         "evaluations": 324,
-        "generate_seconds": 0.06685291696339846,
+        "generate_seconds": 0.06923258304595947,
         "original": {
             "invoice": "Invoice(unit_price_cents=262, quantity=30, discount_percent=30)"
         },
         "seed": 9050910273336900082,
-        "shrink_seconds": 0.053368041990324855,
+        "shrink_seconds": 0.054749750066548586,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=101, quantity=10, discount_percent=1)"
         },
-        "total_seconds": 0.1211636250372976
+        "total_seconds": 0.12497962499037385
     },
     {
         "evaluations": 1072,
-        "generate_seconds": 1.1538671248126775,
+        "generate_seconds": 1.19179975008592,
         "original": {
             "invoice": "Invoice(unit_price_cents=42, quantity=42, discount_percent=42)"
         },
         "seed": 15491250923147925280,
-        "shrink_seconds": 0.017322207801043987,
+        "shrink_seconds": 0.017372834030538797,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 1.172181790927425
+        "total_seconds": 1.2101664999499917
     },
     {
         "evaluations": 601,
-        "generate_seconds": 0.2562679999973625,
+        "generate_seconds": 0.2611693749204278,
         "original": {
             "invoice": "Invoice(unit_price_cents=37, quantity=37, discount_percent=37)"
         },
         "seed": 9267823276561366910,
-        "shrink_seconds": 0.017519874963909388,
+        "shrink_seconds": 0.01750908326357603,
         "shrunk": {
             "invoice": "Invoice(unit_price_cents=28, quantity=36, discount_percent=1)"
         },
-        "total_seconds": 0.2747675001155585
+        "total_seconds": 0.2796549587510526
     }
 ]

@@ -6,10 +6,10 @@
             "moment": "datetime.datetime(2088, 2, 29, 13, 47)"
         },
         "seed": 5791047475824272970,
-        "shrink_seconds": 0.008827290963381529,
+        "shrink_seconds": 0.008811500389128923,
         "shrunk": {
             "moment": "datetime.datetime(2000, 2, 29, 0, 0)"
         },
-        "total_seconds": 0.009262541076168418
+        "total_seconds": 0.009179582819342613
     }
 ]
