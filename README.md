@@ -3,7 +3,7 @@
 A fast and loose comparison of:
 
 - [Hypothesis](/pbt-libraries/hypothesis/README.md) 6.168.3
-- [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.6
+- [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.8
 - [Hegel](/pbt-libraries/hegel/README.md) 0.48.1 (native engine 0.44.1)
 
 Library links point to each implementation of the challenge. 🎯 marks the ~minimal counterexample.
@@ -193,12 +193,14 @@ The Hash Collision rows run the same frame property as the generator rows above,
 
 ## Timings
 
-Mean wall-clock milliseconds per single-threaded run on an Apple M4 Max, over the same runs as the tables above. Each column is the build a developer gets by default on that platform:
+Mean wall-clock milliseconds / mean peak resident memory in MiB per single-threaded run on an Apple M4 Max, over the same runs as the tables above.
+
+Each column is the build a developer gets by default on that platform:
 
 - **Hypothesis**: Hypothesis 6.168.3 on Python 3.12. Its recorded `total_seconds` includes the final replay.
 - **Hegel (default/opt-1)**: `cargo build` without the `static-engine` feature. The runner is unoptimised and loads `libhegel_c` as a shared library built at Cargo's dev-profile `opt-level = 1`. Covers generation, reduction, counterexample recording, confirmation calls and final replay.
-- **Exhaust (macOS)**: the 1.5.6 package with the runner built in debug. On Apple platforms the package links a prebuilt, optimised `ExhaustCore` XCFramework. Its `wallMilliseconds` covers generation and reduction; Exhaust makes no final replay.
-- **Exhaust (Linux/Windows)**: the same 1.5.6 source built entirely in debug, as on platforms without the XCFramework, where `ExhaustCore` is compiled from source alongside the test target.
+- **Exhaust (macOS)**: the 1.5.8 package with the runner built in debug. On Apple platforms the package links a prebuilt, optimised `ExhaustCore` XCFramework. Its `wallMilliseconds` covers generation and reduction; Exhaust makes no final replay.
+- **Exhaust (Linux/Windows)**: the same 1.5.8 source built entirely in debug, as on platforms without the XCFramework, where `ExhaustCore` is compiled from source alongside the test target.
 
 Hegel (default/opt-1) stops one depth-6 run (seed 1361) at its 300-second shrink deadline, ending at a larger counterexample than the release build reaches. 
 
@@ -206,39 +208,39 @@ Exhaust (Linux/Windows) stops three runs at each of depths 5 and 6 (seeds 1388, 
 
 | Challenge | Hypothesis | Hegel (default/opt-1) | Exhaust (macOS) | Exhaust (Linux/Windows) |
 |---|---|---|---|---|
-| Anagrams | 172.95 | — | 18.31 | 60.90 |
-| Username and Password | 41.12 | — | 3.24 | 18.02 |
-| Duplicated Text | 8.65 | — | 0.42 | 2.22 |
-| Haystack | 116.59 | — | 8.83 | 60.17 |
-| Zalgo Haystack | 2,994.38 | — | 14.90 | 101.68 |
-| Distinct Sum | 46.29 | — | 1.82 | 6.34 |
-| Leap Day | 9.18 | — | 0.82 | 1.07 |
-| Branch Switching | 11.47 | — | 0.35 | 1.34 |
-| Binary Heap | 133.68 | 700.81 | 5.40 | 25.15 |
-| Calculator | 1,499.83 | 194.23 | 0.59 | 2.83 |
-| Nested Flatmap (product sequence), depth 2 | 229.91 | 141.89 | 3.24 | 38.82 |
-| Nested Flatmap (product sequence), depth 3 | 401.54 | 221.14 | 6.06 | 64.50 |
-| Nested Flatmap (product sequence), depth 4 | 417.64 | 398.79 | 44.44 | 301.60 |
-| Nested Flatmap (product sequence), depth 5 | 493.79 | 1,510.60 | 985.34 | 4,306.57 |
-| Nested Flatmap (product sequence), depth 6 | 528.69 | 6,480.88 | 2,044.17 | 6,775.18 |
-| Nested Flatmap (product), depth 2 | 8.50 | 36.93 | 0.23 | 0.85 |
-| Nested Flatmap (product), depth 3 | 11.17 | 41.93 | 0.82 | 3.63 |
-| Nested Flatmap (product), depth 4 | 14.94 | 53.16 | 2.16 | 10.19 |
-| Nested Flatmap (product), depth 5 | 17.54 | 47.21 | 5.80 | 28.42 |
-| Nested Flatmap (product), depth 6 | 19.56 | 42.59 | 13.07 | 67.17 |
-| Nested Flatmap (sum), depth 4 | 629.88 | 164.02 | 18.93 | 205.39 |
-| Modular Mapping | 7.86 | 0.96 | 0.05 | 0.15 |
-| Weighted Linear Preservation | 21.31 | 2.08 | 0.44 | 1.89 |
-| Invoice Discount | 25.45 | 4.60 | 1.53 | 5.54 |
-| Invoice Discount (derived) | 454.02 | 10.92 | 2.44 | 10.11 |
-| Refund Allocation | 99.28 | 193.90 | 9.59 | 20.53 |
-| Refund Allocation (derived) | 216.35 | 26.63 | 39.10 | 123.03 |
-| Float Cancellation | 22.49 | 6.72 | 15.54 | 233.26 |
-| Chunked Decoder | 38.76 | 49.27 | 0.93 | 2.73 |
-| Hash Collision (M = 10) | 46.86 | 12.99 | 1.00 | 3.05 |
-| Hash Collision (M = 100) | 104.49 | 16.46 | 3.03 | 8.55 |
-| Hash Collision (M = 1000) | 1,117.16 | 38.60 | 5.68 | 12.19 |
-| Snapshot Store | 2,617.18 | 1,010.38 | 8.76 | 33.71 |
-| Hash Collision (M = 10) (state machine) | 70.15 | 127.65 | 1.92 | 6.98 |
-| Hash Collision (M = 100) (state machine) | 113.31 | 134.54 | 5.61 | 15.70 |
-| Hash Collision (M = 1000) (state machine) | 450.29 | 152.28 | 10.46 | 21.93 |
+| Anagrams | 172.95 ms<br>40.5 MiB | — | 22.96 ms<br>15.6 MiB | 66.75 ms<br>16.8 MiB |
+| Username and Password | 41.12 ms<br>38.7 MiB | — | 4.59 ms<br>15.1 MiB | 21.35 ms<br>16.2 MiB |
+| Duplicated Text | 8.65 ms<br>37.7 MiB | — | 1.32 ms<br>14.7 MiB | 4.05 ms<br>15.9 MiB |
+| Haystack | 116.59 ms<br>39.1 MiB | — | 11.24 ms<br>18.6 MiB | 67.08 ms<br>19.9 MiB |
+| Zalgo Haystack | 2,994.38 ms<br>41.6 MiB | — | 16.75 ms<br>22.7 MiB | 110.07 ms<br>23.8 MiB |
+| Distinct Sum | 46.29 ms<br>38.1 MiB | — | 2.75 ms<br>14.4 MiB | 8.28 ms<br>15.5 MiB |
+| Leap Day | 9.18 ms<br>37.0 MiB | — | 3.70 ms<br>17.0 MiB | 4.21 ms<br>17.8 MiB |
+| Branch Switching | 11.47 ms<br>38.3 MiB | — | 2.03 ms<br>15.7 MiB | 4.04 ms<br>16.9 MiB |
+| Binary Heap | 133.68 ms<br>40.1 MiB | 700.81 ms<br>26.3 MiB | 5.82 ms<br>16.4 MiB | 27.60 ms<br>17.8 MiB |
+| Calculator | 1,499.83 ms<br>61.6 MiB | 194.23 ms<br>8.2 MiB | 0.68 ms<br>15.3 MiB | 3.27 ms<br>16.5 MiB |
+| Nested Flatmap (product sequence), depth 2 | 229.91 ms<br>39.9 MiB | 141.89 ms<br>11.8 MiB | 3.41 ms<br>15.6 MiB | 40.87 ms<br>16.7 MiB |
+| Nested Flatmap (product sequence), depth 3 | 401.54 ms<br>41.8 MiB | 221.14 ms<br>19.9 MiB | 6.34 ms<br>16.2 MiB | 66.67 ms<br>17.4 MiB |
+| Nested Flatmap (product sequence), depth 4 | 417.64 ms<br>43.3 MiB | 398.79 ms<br>32.0 MiB | 45.54 ms<br>17.6 MiB | 313.94 ms<br>18.9 MiB |
+| Nested Flatmap (product sequence), depth 5 | 493.79 ms<br>44.2 MiB | 1,510.60 ms<br>38.8 MiB | 1,055.70 ms<br>21.8 MiB | 4,326.29 ms<br>22.7 MiB |
+| Nested Flatmap (product sequence), depth 6 | 528.69 ms<br>45.0 MiB | 6,480.88 ms<br>45.2 MiB | 2,176.61 ms<br>28.9 MiB | 6,881.07 ms<br>30.3 MiB |
+| Nested Flatmap (product), depth 2 | 8.50 ms<br>38.0 MiB | 36.93 ms<br>6.0 MiB | 0.27 ms<br>14.3 MiB | 1.02 ms<br>15.3 MiB |
+| Nested Flatmap (product), depth 3 | 11.17 ms<br>38.2 MiB | 41.93 ms<br>6.3 MiB | 0.94 ms<br>14.5 MiB | 3.95 ms<br>15.6 MiB |
+| Nested Flatmap (product), depth 4 | 14.94 ms<br>38.4 MiB | 53.16 ms<br>6.8 MiB | 2.45 ms<br>14.7 MiB | 11.33 ms<br>15.8 MiB |
+| Nested Flatmap (product), depth 5 | 17.54 ms<br>38.5 MiB | 47.21 ms<br>7.1 MiB | 6.31 ms<br>15.1 MiB | 30.28 ms<br>16.3 MiB |
+| Nested Flatmap (product), depth 6 | 19.56 ms<br>38.6 MiB | 42.59 ms<br>7.2 MiB | 14.26 ms<br>15.5 MiB | 71.51 ms<br>16.8 MiB |
+| Nested Flatmap (sum), depth 4 | 629.88 ms<br>43.2 MiB | 164.02 ms<br>25.8 MiB | 19.95 ms<br>17.5 MiB | 217.13 ms<br>18.7 MiB |
+| Modular Mapping | 7.86 ms<br>38.2 MiB | 0.96 ms<br>5.7 MiB | 0.06 ms<br>13.9 MiB | 0.20 ms<br>15.0 MiB |
+| Weighted Linear Preservation | 21.31 ms<br>38.5 MiB | 2.08 ms<br>5.9 MiB | 0.51 ms<br>14.2 MiB | 2.14 ms<br>15.4 MiB |
+| Invoice Discount | 25.45 ms<br>38.5 MiB | 4.60 ms<br>6.1 MiB | 1.67 ms<br>15.0 MiB | 5.90 ms<br>16.3 MiB |
+| Invoice Discount (derived) | 454.02 ms<br>47.0 MiB | 10.92 ms<br>6.7 MiB | 2.66 ms<br>15.2 MiB | 11.08 ms<br>16.4 MiB |
+| Refund Allocation | 99.28 ms<br>41.5 MiB | 193.90 ms<br>7.6 MiB | 10.13 ms<br>15.3 MiB | 22.16 ms<br>16.4 MiB |
+| Refund Allocation (derived) | 216.35 ms<br>44.4 MiB | 26.63 ms<br>7.4 MiB | 41.91 ms<br>15.8 MiB | 129.20 ms<br>17.0 MiB |
+| Float Cancellation | 22.49 ms<br>38.4 MiB | 6.72 ms<br>6.4 MiB | 17.19 ms<br>14.3 MiB | 242.09 ms<br>15.5 MiB |
+| Chunked Decoder | 38.76 ms<br>40.9 MiB | 49.27 ms<br>12.0 MiB | 1.07 ms<br>15.7 MiB | 3.00 ms<br>16.9 MiB |
+| Hash Collision (M = 10) | 46.86 ms<br>39.4 MiB | 12.99 ms<br>7.1 MiB | 1.12 ms<br>14.5 MiB | 3.35 ms<br>15.6 MiB |
+| Hash Collision (M = 100) | 104.49 ms<br>40.9 MiB | 16.46 ms<br>7.5 MiB | 3.22 ms<br>14.6 MiB | 9.20 ms<br>15.7 MiB |
+| Hash Collision (M = 1000) | 1,117.16 ms<br>61.8 MiB | 38.60 ms<br>7.9 MiB | 5.94 ms<br>14.7 MiB | 12.70 ms<br>15.8 MiB |
+| Snapshot Store | 2,617.18 ms<br>99.4 MiB | 1,010.38 ms<br>14.3 MiB | 8.92 ms<br>16.2 MiB | 32.85 ms<br>17.5 MiB |
+| Hash Collision (M = 10) (state machine) | 70.15 ms<br>40.5 MiB | 127.65 ms<br>7.4 MiB | 2.06 ms<br>15.7 MiB | 7.63 ms<br>16.9 MiB |
+| Hash Collision (M = 100) (state machine) | 113.31 ms<br>41.4 MiB | 134.54 ms<br>7.9 MiB | 5.94 ms<br>15.8 MiB | 16.96 ms<br>17.0 MiB |
+| Hash Collision (M = 1000) (state machine) | 450.29 ms<br>46.6 MiB | 152.28 ms<br>10.6 MiB | 11.09 ms<br>15.9 MiB | 23.16 ms<br>17.2 MiB |
