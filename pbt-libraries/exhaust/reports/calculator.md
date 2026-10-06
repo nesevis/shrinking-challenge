@@ -1,29 +1,40 @@
-# Calculator Report for Exhaust
+# Calculator
 
-These results are from Exhaust v1.1.0, September 3rd, 2026.
+Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-## Normalization
+[Raw results](../failures/calculator.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
 
-Exhaust produced 1 distinct counterexample across 1000 test runs:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 43.1 | 44.0 |
+| Original input length | 63.7 | 58.5 |
+| Wall time (ms) | 0.682 | 0.654 |
+| Wall time, Linux/Windows build (ms) | 3.274 | 3.250 |
+| generation (ms) | 0.046 | 0.037 |
+| reductions (ms) | 0.540 | 0.540 |
+| total (ms) | 0.671 | 0.644 |
 
-| Prevalence | Counterexample |
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/calculator.json)).
+
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
+
+## Counterexamples (1 distinct)
+
+| Share | Counterexample |
 |---|---|
-| 100% | `div(value(0), add(value(0), value(0)))` |
+| 100% | 🎯 `('/', 0, ('+', 0, 0))` |
 
-See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/calculator.json).
+## Peak resident memory
 
-## Performance
+| Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
+|---|---:|---:|---:|
+| macOS XCFramework / debug runner | 15.27 | 15.28 | 15.50 |
+| Source core / debug runner (on macOS) | 16.53 | 16.55 | 16.78 |
 
-| Metric | Min | Max | Median | Mean | 95% CI |
-|---|---|---|---|---|---|
-| Evaluations | 6.0 | 52.0 | 13.0 | 13.3 | 13.0–13.6 |
-| Reduction time (ms) | 0.11 | 0.92 | 0.22 | 0.23 | 0.23–0.24 |
-| Iterations to failure | 1.0 | 219.0 | 20.0 | 28.2 | 26.5–29.9 |
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run ExhaustRunner --challenge calculator --iterations 1000`
-
-The reduction time reflects running on an M4 Max running macOS 26.4. This is an unoptimised debug build, mirroring the experience of using Exhaust inside a `swift test` target rather than a best-case release benchmark.
+```sh
+swift run ExhaustRunner --challenge calculator --iterations 100 --seed 1337 --report-path ../failures
+```

@@ -1,18 +1,18 @@
 # Modular Mapping
 
-Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/modularMapping.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
+[Raw results](../failures/modularMapping.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
 | Reduction invocations | 17.5 | 16.0 |
 | Original input length | 3.0 | 3.0 |
-| Wall time (ms) | 0.050 | 0.049 |
-| Wall time, Linux/Windows build (ms) | 0.153 | 0.145 |
-| generation (ms) | 0.003 | 0.002 |
-| reductions (ms) | 0.030 | 0.030 |
-| total (ms) | 0.042 | 0.041 |
+| Wall time (ms) | 0.062 | 0.053 |
+| Wall time, Linux/Windows build (ms) | 0.195 | 0.176 |
+| generation (ms) | 0.003 | 0.003 |
+| reductions (ms) | 0.040 | 0.030 |
+| total (ms) | 0.052 | 0.045 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/modularMapping.json)).
 
@@ -40,6 +40,15 @@ The main README adds the original failing call to generated-run evaluation count
 | 1% | `922` |
 | 1% | `927` |
 | 1% | `918` |
+
+## Peak resident memory
+
+| Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
+|---|---:|---:|---:|
+| macOS XCFramework / debug runner | 13.86 | 13.88 | 13.91 |
+| Source core / debug runner (on macOS) | 14.96 | 14.98 | 15.02 |
+
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
 
 ## Running
 

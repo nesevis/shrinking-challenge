@@ -1,31 +1,41 @@
-# Binary Heap Report for Exhaust
+# Binary Heap
 
-These results are from Exhaust v1.1.0, September 3rd, 2026.
+Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-## Normalization
+[Raw results](../failures/binaryHeap.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
 
-Exhaust produced 3 distinct counterexamples across 1000 test runs:
+| Metric | Mean | Median |
+|---|---:|---:|
+| Reduction invocations | 117.9 | 94.5 |
+| Original input length | 384.4 | 352.0 |
+| Wall time (ms) | 5.825 | 4.517 |
+| Wall time, Linux/Windows build (ms) | 27.597 | 23.631 |
+| generation (ms) | 0.103 | 0.088 |
+| reductions (ms) | 5.530 | 4.270 |
+| total (ms) | 5.803 | 4.504 |
 
-| Prevalence | Counterexample |
+The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/binaryHeap.json)).
+
+The main README adds the original failing call to generated-run evaluation counts; fixed-start counts are used directly.
+
+## Counterexamples (2 distinct)
+
+| Share | Counterexample |
 |---|---|
-| 64.6% | `(0, None, (0, (0, None, None), (1, None, None)))` |
-| 33.7% | `(0, (0, (1, None, None), None), (0, None, None))` |
-| 1.7% | `(0, None, (0, None, (0, (0, None, None), (1, None, None))))` |
+| 66% | 🎯 `(0, None, (0, (0, None, None), (1, None, None)))` |
+| 34% | `(0, (0, (1, None, None), None), (0, None, None))` |
 
-See [the first 100 failing inputs before shrinking](/pbt-libraries/exhaust/failures/binaryHeap.json).
+## Peak resident memory
 
-## Performance
+| Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
+|---|---:|---:|---:|
+| macOS XCFramework / debug runner | 16.39 | 16.30 | 17.70 |
+| Source core / debug runner (on macOS) | 17.79 | 17.69 | 19.12 |
 
-| Metric | Min | Max | Median | Mean | 95% CI |
-|---|---|---|---|---|---|
-| Evaluations | 57.0 | 219.0 | 105.0 | 127.5 | 124.9–130.2 |
-| Reduction time (ms) | 1.4 | 10.25 | 3.34 | 4.16 | 4.05–4.28 |
-| Iterations to failure | 1.0 | 13.0 | 1.0 | 1.8 | 1.7–1.8 |
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
 
-## Reproduction
+## Running
 
-From the `exhaust/src` folder, run the following command:
-
-`swift run ExhaustRunner --challenge binaryHeap --iterations 1000`
-
-The reduction time reflects running on an M4 Max running macOS 26.4. This is an unoptimised debug build, mirroring the experience of using Exhaust inside a `swift test` target rather than a best-case release benchmark.
+```sh
+swift run ExhaustRunner --challenge binaryHeap --iterations 100 --seed 1337 --report-path ../failures
+```

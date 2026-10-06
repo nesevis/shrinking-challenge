@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 11.883625
+    "wallMilliseconds" : 8.5715
   },
   {
     "evaluations" : 170,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 15.317792
+    "wallMilliseconds" : 15.045709
   },
   {
     "evaluations" : 87,
@@ -30,7 +30,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 5.586375
+    "wallMilliseconds" : 6.260458
   },
   {
     "evaluations" : 180,
@@ -41,7 +41,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 12.944291
+    "wallMilliseconds" : 14.376583
   },
   {
     "evaluations" : 95,
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 5.31
+    "wallMilliseconds" : 6.065917
   },
   {
     "evaluations" : 80,
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.30775
+    "wallMilliseconds" : 4.990083
   },
   {
     "evaluations" : 101,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.553208
+    "wallMilliseconds" : 5.177667
   },
   {
     "evaluations" : 87,
@@ -85,7 +85,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.94
+    "wallMilliseconds" : 4.231
   },
   {
     "evaluations" : 93,
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.95
+    "wallMilliseconds" : 4.219
   },
   {
     "evaluations" : 85,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.585291
+    "wallMilliseconds" : 3.916458
   },
   {
     "evaluations" : 75,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.444541
+    "wallMilliseconds" : 3.681042
   },
   {
     "evaluations" : 176,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 6.978208
+    "wallMilliseconds" : 7.711
   },
   {
     "evaluations" : 94,
@@ -140,7 +140,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.052
+    "wallMilliseconds" : 4.101667
   },
   {
     "evaluations" : 94,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.416458
+    "wallMilliseconds" : 4.458667
   },
   {
     "evaluations" : 93,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.026667
+    "wallMilliseconds" : 4.135958
   },
   {
     "evaluations" : 67,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 2.332584
+    "wallMilliseconds" : 2.465458
   },
   {
     "evaluations" : 97,
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.188917
+    "wallMilliseconds" : 4.319834
   },
   {
     "evaluations" : 89,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.787459
+    "wallMilliseconds" : 3.878041
   },
   {
     "evaluations" : 161,
@@ -206,7 +206,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.257833
+    "wallMilliseconds" : 7.482417
   },
   {
     "evaluations" : 81,
@@ -217,7 +217,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.7935
+    "wallMilliseconds" : 3.932625
   },
   {
     "evaluations" : 141,
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 6.70875
+    "wallMilliseconds" : 7.0075
   },
   {
     "evaluations" : 90,
@@ -239,7 +239,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.718417
+    "wallMilliseconds" : 3.79275
   },
   {
     "evaluations" : 80,
@@ -250,7 +250,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.376375
+    "wallMilliseconds" : 3.547334
   },
   {
     "evaluations" : 67,
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 2.269625
+    "wallMilliseconds" : 2.445166
   },
   {
     "evaluations" : 201,
@@ -272,7 +272,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.698667
+    "wallMilliseconds" : 9.122083
   },
   {
     "evaluations" : 82,
@@ -283,7 +283,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.6205
+    "wallMilliseconds" : 3.744125
   },
   {
     "evaluations" : 170,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.594334
+    "wallMilliseconds" : 8.038792
   },
   {
     "evaluations" : 184,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.34225
+    "wallMilliseconds" : 9.187958
   },
   {
     "evaluations" : 180,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.984125
+    "wallMilliseconds" : 8.543458
   },
   {
     "evaluations" : 102,
@@ -327,7 +327,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.223541
+    "wallMilliseconds" : 4.473541
   },
   {
     "evaluations" : 94,
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.037583
+    "wallMilliseconds" : 4.361917
   },
   {
     "evaluations" : 171,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.213875
+    "wallMilliseconds" : 8.480167
   },
   {
     "evaluations" : 100,
@@ -360,7 +360,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.262208
+    "wallMilliseconds" : 4.474833
   },
   {
     "evaluations" : 85,
@@ -371,7 +371,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.608833
+    "wallMilliseconds" : 3.724375
   },
   {
     "evaluations" : 91,
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.787875
+    "wallMilliseconds" : 3.9335
   },
   {
     "evaluations" : 99,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.00225
+    "wallMilliseconds" : 4.168
   },
   {
     "evaluations" : 91,
@@ -404,7 +404,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.792583
+    "wallMilliseconds" : 3.944625
   },
   {
     "evaluations" : 91,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.116042
+    "wallMilliseconds" : 4.461541
   },
   {
     "evaluations" : 91,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.814041
+    "wallMilliseconds" : 4.005375
   },
   {
     "evaluations" : 194,
@@ -437,7 +437,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.402583
+    "wallMilliseconds" : 8.848917
   },
   {
     "evaluations" : 90,
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.163833
+    "wallMilliseconds" : 4.304458
   },
   {
     "evaluations" : 91,
@@ -459,7 +459,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.095166
+    "wallMilliseconds" : 4.312458
   },
   {
     "evaluations" : 92,
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.182834
+    "wallMilliseconds" : 4.508583
   },
   {
     "evaluations" : 63,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 2.133458
+    "wallMilliseconds" : 2.307542
   },
   {
     "evaluations" : 91,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.933583
+    "wallMilliseconds" : 4.082459
   },
   {
     "evaluations" : 96,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.04125
+    "wallMilliseconds" : 4.218084
   },
   {
     "evaluations" : 92,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.747458
+    "wallMilliseconds" : 3.844458
   },
   {
     "evaluations" : 182,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 9.080459
+    "wallMilliseconds" : 9.254166
   },
   {
     "evaluations" : 92,
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.011542
+    "wallMilliseconds" : 4.179584
   },
   {
     "evaluations" : 90,
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.880625
+    "wallMilliseconds" : 4.076625
   },
   {
     "evaluations" : 93,
@@ -558,7 +558,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.804875
+    "wallMilliseconds" : 3.940167
   },
   {
     "evaluations" : 180,
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.911125
+    "wallMilliseconds" : 8.394083
   },
   {
     "evaluations" : 87,
@@ -580,7 +580,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.882083
+    "wallMilliseconds" : 4.191791
   },
   {
     "evaluations" : 81,
@@ -591,7 +591,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.297958
+    "wallMilliseconds" : 3.478208
   },
   {
     "evaluations" : 96,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.146916
+    "wallMilliseconds" : 4.4455
   },
   {
     "evaluations" : 95,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.027666
+    "wallMilliseconds" : 4.526083
   },
   {
     "evaluations" : 65,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 2.254333
+    "wallMilliseconds" : 2.457292
   },
   {
     "evaluations" : 88,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.017667
+    "wallMilliseconds" : 4.240625
   },
   {
     "evaluations" : 84,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.593458
+    "wallMilliseconds" : 3.936458
   },
   {
     "evaluations" : 89,
@@ -657,7 +657,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.922958
+    "wallMilliseconds" : 4.23825
   },
   {
     "evaluations" : 147,
@@ -668,7 +668,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 5.270792
+    "wallMilliseconds" : 5.63425
   },
   {
     "evaluations" : 101,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.376833
+    "wallMilliseconds" : 4.580834
   },
   {
     "evaluations" : 96,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.166625
+    "wallMilliseconds" : 4.69125
   },
   {
     "evaluations" : 92,
@@ -701,7 +701,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.910834
+    "wallMilliseconds" : 3.944666
   },
   {
     "evaluations" : 86,
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.75275
+    "wallMilliseconds" : 3.849083
   },
   {
     "evaluations" : 188,
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.317958
+    "wallMilliseconds" : 8.966666
   },
   {
     "evaluations" : 90,
@@ -734,7 +734,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.927583
+    "wallMilliseconds" : 5.145541
   },
   {
     "evaluations" : 93,
@@ -745,7 +745,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.006583
+    "wallMilliseconds" : 4.564833
   },
   {
     "evaluations" : 149,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 6.881625
+    "wallMilliseconds" : 7.323125
   },
   {
     "evaluations" : 86,
@@ -767,7 +767,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.569125
+    "wallMilliseconds" : 4.149875
   },
   {
     "evaluations" : 163,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.488625
+    "wallMilliseconds" : 8.545958
   },
   {
     "evaluations" : 147,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 5.488125
+    "wallMilliseconds" : 5.845958
   },
   {
     "evaluations" : 167,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.02075
+    "wallMilliseconds" : 8.6675
   },
   {
     "evaluations" : 96,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.12325
+    "wallMilliseconds" : 4.928083
   },
   {
     "evaluations" : 177,
@@ -822,7 +822,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.528375
+    "wallMilliseconds" : 10.213875
   },
   {
     "evaluations" : 183,
@@ -833,7 +833,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.429
+    "wallMilliseconds" : 10.551375
   },
   {
     "evaluations" : 79,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.526584
+    "wallMilliseconds" : 3.906916
   },
   {
     "evaluations" : 162,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.221375
+    "wallMilliseconds" : 7.3805
   },
   {
     "evaluations" : 188,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.29125
+    "wallMilliseconds" : 9.887791
   },
   {
     "evaluations" : 174,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.629
+    "wallMilliseconds" : 8.859208
   },
   {
     "evaluations" : 174,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 6.909
+    "wallMilliseconds" : 8.075333
   },
   {
     "evaluations" : 189,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.920958
+    "wallMilliseconds" : 9.847
   },
   {
     "evaluations" : 89,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.584583
+    "wallMilliseconds" : 4.340375
   },
   {
     "evaluations" : 180,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.970625
+    "wallMilliseconds" : 8.897291
   },
   {
     "evaluations" : 171,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.487
+    "wallMilliseconds" : 8.632
   },
   {
     "evaluations" : 94,
@@ -943,7 +943,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.2895
+    "wallMilliseconds" : 4.7005
   },
   {
     "evaluations" : 100,
@@ -954,7 +954,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.362375
+    "wallMilliseconds" : 4.755958
   },
   {
     "evaluations" : 184,
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.111834
+    "wallMilliseconds" : 8.910042
   },
   {
     "evaluations" : 89,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.721917
+    "wallMilliseconds" : 4.198875
   },
   {
     "evaluations" : 102,
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.265208
+    "wallMilliseconds" : 4.756375
   },
   {
     "evaluations" : 189,
@@ -998,7 +998,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.541666
+    "wallMilliseconds" : 9.681958
   },
   {
     "evaluations" : 95,
@@ -1009,7 +1009,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.315709
+    "wallMilliseconds" : 5.091334
   },
   {
     "evaluations" : 186,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.064583
+    "wallMilliseconds" : 8.056333
   },
   {
     "evaluations" : 94,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.968792
+    "wallMilliseconds" : 4.466792
   },
   {
     "evaluations" : 78,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.337417
+    "wallMilliseconds" : 3.763833
   },
   {
     "evaluations" : 81,
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 3.413084
+    "wallMilliseconds" : 3.79925
   },
   {
     "evaluations" : 191,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 8.201375
+    "wallMilliseconds" : 8.861917
   },
   {
     "evaluations" : 157,
@@ -1075,7 +1075,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.069917
+    "wallMilliseconds" : 8.58925
   },
   {
     "evaluations" : 174,
@@ -1086,7 +1086,7 @@
     "shrunk" : {
       "p" : "(0, (0, (1, None, None), None), (0, None, None))"
     },
-    "wallMilliseconds" : 7.589
+    "wallMilliseconds" : 8.30875
   },
   {
     "evaluations" : 104,
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "(0, None, (0, (0, None, None), (1, None, None)))"
     },
-    "wallMilliseconds" : 4.283542
+    "wallMilliseconds" : 4.827583
   }
 ]

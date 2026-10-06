@@ -1,18 +1,18 @@
 # Float Cancellation
 
-Exhaust 1.5.6 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/floatCancellation.json). Dependency revision: `6bad138e956e568d57b041e4063bd0de0f964dc0`.
+[Raw results](../failures/floatCancellation.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
 | Reduction invocations | 9634.2 | 871.0 |
 | Original input length | 39.5 | 40.0 |
-| Wall time (ms) | 15.543 | 1.809 |
-| Wall time, Linux/Windows build (ms) | 233.261 | 14.078 |
-| generation (ms) | 0.007 | 0.007 |
-| reductions (ms) | 15.490 | 1.760 |
-| total (ms) | 15.533 | 1.801 |
+| Wall time (ms) | 17.187 | 2.008 |
+| Wall time, Linux/Windows build (ms) | 242.086 | 14.790 |
+| generation (ms) | 0.010 | 0.009 |
+| reductions (ms) | 17.100 | 1.900 |
+| total (ms) | 17.169 | 1.983 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/floatCancellation.json)).
 
@@ -104,6 +104,15 @@ The main README adds the original failing call to generated-run evaluation count
 | 1% | `(1.0, 524287.723736647)` |
 | 1% | `(1.0, 524287.0323876311)` |
 | 1% | `(-524287.3718438765, -1.0)` |
+
+## Peak resident memory
+
+| Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
+|---|---:|---:|---:|
+| macOS XCFramework / debug runner | 14.30 | 14.24 | 14.61 |
+| Source core / debug runner (on macOS) | 15.49 | 15.42 | 15.84 |
+
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
 
 ## Running
 
