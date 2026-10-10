@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 17.7065
+    "wallMilliseconds" : 18.772334
   },
   {
     "evaluations" : 244,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.352417
+    "wallMilliseconds" : 4.334208
   },
   {
     "evaluations" : 418,
@@ -30,7 +30,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 12.272209
+    "wallMilliseconds" : 12.904584
   },
   {
     "evaluations" : 223,
@@ -41,7 +41,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.654959
+    "wallMilliseconds" : 4.010583
   },
   {
     "evaluations" : 287,
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.380708
+    "wallMilliseconds" : 6.137458
   },
   {
     "evaluations" : 276,
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.477959
+    "wallMilliseconds" : 4.43275
   },
   {
     "evaluations" : 303,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.347875
+    "wallMilliseconds" : 5.689292
   },
   {
     "evaluations" : 308,
@@ -85,7 +85,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.567875
+    "wallMilliseconds" : 6.29375
   },
   {
     "evaluations" : 274,
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.461834
+    "wallMilliseconds" : 5.397292
   },
   {
     "evaluations" : 269,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.584791
+    "wallMilliseconds" : 5.4065
   },
   {
     "evaluations" : 203,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 2.908834
+    "wallMilliseconds" : 3.041209
   },
   {
     "evaluations" : 253,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.815083
+    "wallMilliseconds" : 4.04175
   },
   {
     "evaluations" : 387,
@@ -140,7 +140,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 9.538083
+    "wallMilliseconds" : 9.8765
   },
   {
     "evaluations" : 255,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.952833
+    "wallMilliseconds" : 4.0975
   },
   {
     "evaluations" : 297,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.225333
+    "wallMilliseconds" : 6.204459
   },
   {
     "evaluations" : 302,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.989083
+    "wallMilliseconds" : 5.305667
   },
   {
     "evaluations" : 242,
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.853625
+    "wallMilliseconds" : 4.627208
   },
   {
     "evaluations" : 363,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 8.123084
+    "wallMilliseconds" : 8.369125
   },
   {
     "evaluations" : 246,
@@ -206,18 +206,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.871084
+    "wallMilliseconds" : 4.472417
   },
   {
-    "evaluations" : 238,
+    "evaluations" : 32,
     "original" : {
       "p" : "(9, 3, 1, [0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1])"
     },
     "seed" : 1356,
     "shrunk" : {
-      "p" : "4, 3, 2, 24 length, [0,…,1]"
+      "p" : "9, 3, 1, 27 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.554833
+    "wallMilliseconds" : 2.059458
   },
   {
     "evaluations" : 282,
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.607541
+    "wallMilliseconds" : 4.80775
   },
   {
     "evaluations" : 346,
@@ -239,7 +239,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.514667
+    "wallMilliseconds" : 7.608375
   },
   {
     "evaluations" : 462,
@@ -250,7 +250,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.5345
+    "wallMilliseconds" : 8.263166
   },
   {
     "evaluations" : 245,
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.237
+    "wallMilliseconds" : 4.345125
   },
   {
     "evaluations" : 344,
@@ -272,7 +272,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.488209
+    "wallMilliseconds" : 7.475042
   },
   {
     "evaluations" : 283,
@@ -283,7 +283,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.670541
+    "wallMilliseconds" : 4.62625
   },
   {
     "evaluations" : 285,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.681542
+    "wallMilliseconds" : 5.913459
   },
   {
     "evaluations" : 239,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.037584
+    "wallMilliseconds" : 4.235292
   },
   {
     "evaluations" : 240,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.99525
+    "wallMilliseconds" : 4.502791
   },
   {
     "evaluations" : 325,
@@ -327,7 +327,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.987541
+    "wallMilliseconds" : 6.195709
   },
   {
     "evaluations" : 292,
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.142625
+    "wallMilliseconds" : 5.835917
   },
   {
     "evaluations" : 447,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 15.161583
+    "wallMilliseconds" : 15.403709
   },
   {
     "evaluations" : 255,
@@ -360,7 +360,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.550583
+    "wallMilliseconds" : 4.526166
   },
   {
     "evaluations" : 316,
@@ -371,7 +371,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.827
+    "wallMilliseconds" : 6.044417
   },
   {
     "evaluations" : 320,
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.927916
+    "wallMilliseconds" : 5.897125
   },
   {
     "evaluations" : 291,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.984166
+    "wallMilliseconds" : 4.964458
   },
   {
     "evaluations" : 360,
@@ -404,7 +404,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 9.527875
+    "wallMilliseconds" : 9.721416
   },
   {
     "evaluations" : 234,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.708625
+    "wallMilliseconds" : 3.518666
   },
   {
     "evaluations" : 267,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.234458
+    "wallMilliseconds" : 4.896333
   },
   {
     "evaluations" : 269,
@@ -437,7 +437,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.9845
+    "wallMilliseconds" : 4.842167
   },
   {
     "evaluations" : 270,
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.1095
+    "wallMilliseconds" : 5.061041
   },
   {
     "evaluations" : 44,
@@ -459,7 +459,7 @@
     "shrunk" : {
       "p" : "9, 3, 1, 27 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.017375
+    "wallMilliseconds" : 0.951917
   },
   {
     "evaluations" : 213,
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.232917
+    "wallMilliseconds" : 3.114709
   },
   {
     "evaluations" : 228,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.627458
+    "wallMilliseconds" : 3.855917
   },
   {
     "evaluations" : 249,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.922916
+    "wallMilliseconds" : 4.281292
   },
   {
     "evaluations" : 343,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.927375
+    "wallMilliseconds" : 7.041166
   },
   {
     "evaluations" : 324,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.037917
+    "wallMilliseconds" : 6.410209
   },
   {
     "evaluations" : 314,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.603917
+    "wallMilliseconds" : 5.898792
   },
   {
     "evaluations" : 311,
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.44375
+    "wallMilliseconds" : 5.545417
   },
   {
     "evaluations" : 275,
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.226
+    "wallMilliseconds" : 4.149834
   },
   {
     "evaluations" : 67,
@@ -558,7 +558,7 @@
     "shrunk" : {
       "p" : "7, 2, 2, 28 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.639125
+    "wallMilliseconds" : 2.156583
   },
   {
     "evaluations" : 521,
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 21.866334
+    "wallMilliseconds" : 22.849084
   },
   {
     "evaluations" : 371,
@@ -580,7 +580,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 8.627792
+    "wallMilliseconds" : 8.521792
   },
   {
     "evaluations" : 298,
@@ -591,7 +591,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.465958
+    "wallMilliseconds" : 5.794292
   },
   {
     "evaluations" : 277,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.072292
+    "wallMilliseconds" : 4.082291
   },
   {
     "evaluations" : 289,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.683542
+    "wallMilliseconds" : 5.432667
   },
   {
     "evaluations" : 320,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.0125
+    "wallMilliseconds" : 6.177333
   },
   {
     "evaluations" : 301,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.038458
+    "wallMilliseconds" : 5.221625
   },
   {
     "evaluations" : 304,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.925292
+    "wallMilliseconds" : 5.126875
   },
   {
     "evaluations" : 310,
@@ -657,7 +657,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.523167
+    "wallMilliseconds" : 5.294333
   },
   {
     "evaluations" : 430,
@@ -668,7 +668,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.859458
+    "wallMilliseconds" : 7.324333
   },
   {
     "evaluations" : 317,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.639584
+    "wallMilliseconds" : 5.396292
   },
   {
     "evaluations" : 323,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.80025
+    "wallMilliseconds" : 5.853042
   },
   {
     "evaluations" : 573,
@@ -701,7 +701,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 29.559959
+    "wallMilliseconds" : 30.585709
   },
   {
     "evaluations" : 306,
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.567208
+    "wallMilliseconds" : 6.161917
   },
   {
     "evaluations" : 217,
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.043083
+    "wallMilliseconds" : 3.075083
   },
   {
     "evaluations" : 569,
@@ -734,7 +734,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 29.090209
+    "wallMilliseconds" : 29.510416
   },
   {
     "evaluations" : 572,
@@ -745,7 +745,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 28.85525
+    "wallMilliseconds" : 29.805958
   },
   {
     "evaluations" : 442,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.096625
+    "wallMilliseconds" : 8.085667
   },
   {
     "evaluations" : 252,
@@ -767,7 +767,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.242333
+    "wallMilliseconds" : 4.7135
   },
   {
     "evaluations" : 220,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.20325
+    "wallMilliseconds" : 3.186
   },
   {
     "evaluations" : 312,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.573292
+    "wallMilliseconds" : 5.751042
   },
   {
     "evaluations" : 381,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 9.101125
+    "wallMilliseconds" : 9.346208
   },
   {
     "evaluations" : 218,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.325125
+    "wallMilliseconds" : 3.478167
   },
   {
     "evaluations" : 274,
@@ -822,18 +822,18 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.292917
+    "wallMilliseconds" : 5.290459
   },
   {
-    "evaluations" : 246,
+    "evaluations" : 40,
     "original" : {
       "p" : "(9, 3, 1, [0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0])"
     },
     "seed" : 1412,
     "shrunk" : {
-      "p" : "4, 3, 2, 24 length, [0,…,1]"
+      "p" : "9, 3, 1, 27 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.597333
+    "wallMilliseconds" : 2.1625
   },
   {
     "evaluations" : 350,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.4065
+    "wallMilliseconds" : 7.379625
   },
   {
     "evaluations" : 280,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.4225
+    "wallMilliseconds" : 4.832166
   },
   {
     "evaluations" : 309,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.293167
+    "wallMilliseconds" : 5.31625
   },
   {
     "evaluations" : 316,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.034375
+    "wallMilliseconds" : 5.949583
   },
   {
     "evaluations" : 215,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.111417
+    "wallMilliseconds" : 3.235458
   },
   {
     "evaluations" : 403,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 10.815958
+    "wallMilliseconds" : 10.938375
   },
   {
     "evaluations" : 356,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.95575
+    "wallMilliseconds" : 8.031125
   },
   {
     "evaluations" : 64,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "7, 2, 2, 28 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.669042
+    "wallMilliseconds" : 2.137625
   },
   {
     "evaluations" : 324,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.20825
+    "wallMilliseconds" : 6.187416
   },
   {
     "evaluations" : 242,
@@ -943,7 +943,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.9605
+    "wallMilliseconds" : 4.279417
   },
   {
     "evaluations" : 447,
@@ -954,7 +954,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.390375
+    "wallMilliseconds" : 7.580958
   },
   {
     "evaluations" : 256,
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.327875
+    "wallMilliseconds" : 4.65
   },
   {
     "evaluations" : 235,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.664208
+    "wallMilliseconds" : 4.058792
   },
   {
     "evaluations" : 84,
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "7, 2, 2, 28 length, [0,…,1]"
     },
-    "wallMilliseconds" : 1.92775
+    "wallMilliseconds" : 2.408375
   },
   {
     "evaluations" : 278,
@@ -998,7 +998,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.432792
+    "wallMilliseconds" : 4.299625
   },
   {
     "evaluations" : 447,
@@ -1009,7 +1009,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 7.315541
+    "wallMilliseconds" : 7.662167
   },
   {
     "evaluations" : 308,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.480792
+    "wallMilliseconds" : 5.424417
   },
   {
     "evaluations" : 292,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 6.428958
+    "wallMilliseconds" : 6.09275
   },
   {
     "evaluations" : 239,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.88
+    "wallMilliseconds" : 3.987292
   },
   {
     "evaluations" : 242,
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.269917
+    "wallMilliseconds" : 4.03125
   },
   {
     "evaluations" : 212,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.174416
+    "wallMilliseconds" : 2.937042
   },
   {
     "evaluations" : 300,
@@ -1075,7 +1075,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 5.454041
+    "wallMilliseconds" : 5.189583
   },
   {
     "evaluations" : 282,
@@ -1086,7 +1086,7 @@
     "shrunk" : {
       "p" : "4, 3, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 4.632625
+    "wallMilliseconds" : 4.475458
   },
   {
     "evaluations" : 212,
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "6, 2, 2, 24 length, [0,…,1]"
     },
-    "wallMilliseconds" : 3.087875
+    "wallMilliseconds" : 3.042917
   }
 ]

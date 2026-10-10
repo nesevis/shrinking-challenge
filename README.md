@@ -3,7 +3,7 @@
 A fast and loose comparison of:
 
 - [Hypothesis](/pbt-libraries/hypothesis/README.md) 6.168.3
-- [Exhaust](/pbt-libraries/exhaust/README.md) 1.5.8
+- [Exhaust](/pbt-libraries/exhaust/README.md) 1.6.0
 - [Hegel](/pbt-libraries/hegel/README.md) 0.48.1 (native engine 0.44.1)
 
 Library links point to each implementation of the challenge. 🎯 marks the ~minimal counterexample.
@@ -26,28 +26,28 @@ Hypothesis and Exhaust reduce the same fixed failing input once, with no generat
 | Challenge | Library | Evaluations | Counterexample |
 |---|---|---|---|
 | Anagrams | [Hypothesis](/pbt-libraries/hypothesis/challenges/anagrams.py) | 798 | `("000000000000000000000000011", "000000000000000000000000110")` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/Anagrams.swift) | 1239 | 🎯 `(" \0", "\0 ")` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/Anagrams.swift) | 1285 | 🎯 `(" \0", "\0 ")` |
 |  |  |  |  |
 | Username and Password | [Hypothesis](/pbt-libraries/hypothesis/challenges/username_password.py) | 301 | `("u: p0000000", "p: p0000000")` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/UsernamePasswordChallenge.swift) | 731 | 🎯 `("u: 0000", "p: 0000")` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/UsernamePasswordChallenge.swift) | 750 | 🎯 `("u: 0000", "p: 0000")` |
 |  |  |  |  |
 | Duplicated Text | [Hypothesis](/pbt-libraries/hypothesis/challenges/duplicated_text.py) | 30 | 🎯 `("00000012", "00000012")` |
 |  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/DuplicatedTextChallenge.swift) | 54 | `("10210210", "10210210")` |
 |  |  |  |  |
 | Haystack | [Hypothesis](/pbt-libraries/hypothesis/challenges/haystack.py) | 242 | 🎯 `"CREEPIDIOT"` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HaystackChallenge.swift) | 407 | 🎯 `"CREEPIDIOT"` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HaystackChallenge.swift) | 332 | 🎯 `"CREEPIDIOT"` |
 |  |  |  |  |
 | Zalgo Haystack | [Hypothesis](/pbt-libraries/hypothesis/challenges/zalgo_haystack.py) | 444 | 🎯 `"THE ICHOR PERMEATES"` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/ZalgoHaystackChallenge.swift) | 461 | 🎯 `"THE ICHOR PERMEATES"` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/ZalgoHaystackChallenge.swift) | 465 | 🎯 `"THE ICHOR PERMEATES"` |
 |  |  |  |  |
 | Distinct Sum | [Hypothesis](/pbt-libraries/hypothesis/challenges/distinct_sum.py) | 133 | 🎯 `[0, 1, -1, 2, 49]` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/DistinctSumChallenge.swift) | 636 | `[-2, -1, 0, 1, 53]` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/DistinctSumChallenge.swift) | 638 | `[-2, -1, 0, 1, 53]` |
 |  |  |  |  |
 | Leap Day | [Hypothesis](/pbt-libraries/hypothesis/challenges/leap_day.py) | 25 | 🎯 `2000-02-29 00:00:00 +0000` |
 |  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/LeapDayChallenge.swift) | 34 | `2088-02-29 00:00:00 +0000` |
 |  |  |  |  |
 | Branch Switching | [Hypothesis](/pbt-libraries/hypothesis/challenges/branch_switching.py) | 44 | 🎯 `1001` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/BranchSwitchingChallenge.swift) | 15 | `"    "` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/BranchSwitchingChallenge.swift) | 17 | `"    "` |
 
 ## 100 seeds
 
@@ -75,7 +75,7 @@ Exhaust and Hegel use 100 consecutive seeds starting at 1337. Hypothesis hashes 
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 2 | 1274.4 | 1361.5 | 142.5 | 73% 🎯 `(6, 4, 0x23 + 1x1)`<br>27% `(8, 3, 0x23 + 1x1)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product sequence), depth 3 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_3.py) | 6 | 86.9 | 79.5 | 210.4 | 32% `(6, 2, 2, 0x23 + 1x1)`<br>23% `(8, 3, 1, 0x23 + 1x1)`<br>21% 🎯 `(4, 3, 2, 0x23 + 1x1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L18) | 4 | 300.3 | 291.0 | 386.3 | 80% 🎯 `(4, 3, 2, 0x23 + 1x1)`<br>16% `(6, 2, 2, 0x23 + 1x1)`<br>3% `(7, 2, 2, 0x27 + 1x1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L18) | 4 | 296.1 | 291.0 | 386.3 | 78% 🎯 `(4, 3, 2, 0x23 + 1x1)`<br>16% `(6, 2, 2, 0x23 + 1x1)`<br>3% `(7, 2, 2, 0x27 + 1x1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 2 | 1740.1 | 1832.5 | 410.6 | 84% 🎯 `(4, 3, 2, 0x23 + 1x1)`<br>16% `(8, 3, 1, 0x23 + 1x1)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product sequence), depth 4 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_4.py) | 8 | 80.5 | 72.0 | 272.1 | 27% `(8, 3, 1, 1, 0x23 + 1x1)`<br>18% `(6, 4, 1, 1, 0x23 + 1x1)`<br>14% `(4, 3, 2, 1, 0x23 + 1x1)`<br>12% 🎯 `(3, 2, 2, 2, 0x23 + 1x1)` |
@@ -83,11 +83,11 @@ Exhaust and Hegel use 100 consecutive seeds starting at 1337. Hypothesis hashes 
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 3 | 1842.7 | 1841.5 | 1074.1 | 68% `(4, 3, 2, 1, 0x23 + 1x1)`<br>16% `(8, 3, 1, 1, 0x23 + 1x1)`<br>16% 🎯 `(3, 2, 2, 2, 0x23 + 1x1)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product sequence), depth 5 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_5.py) | 17 | 64.5 | 49.5 | 248.8 | 12% `(6, 4, 1, 1, 1, 0x23 + 1x1)`<br>10% `(7, 4, 1, 1, 1, 0x27 + 1x1)`<br>10% `(6, 2, 2, 1, 1, 0x23 + 1x1)`<br>4% 🎯 `(3, 2, 2, 2, 1, 0x23 + 1x1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L38) | 11 | 708.0 | 166.5 | 3737.7 | 85% 🎯 `(3, 2, 2, 2, 1, 0x23 + 1x1)`<br>4% `(6, 5, 1, 1, 1, 0x29 + 1x1)`<br>2% `(3, 3, 3, 1, 1, 0x26 + 1x1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L38) | 10 | 708.9 | 168.5 | 3737.7 | 86% 🎯 `(3, 2, 2, 2, 1, 0x23 + 1x1)`<br>4% `(6, 5, 1, 1, 1, 0x29 + 1x1)`<br>2% `(3, 3, 3, 1, 1, 0x26 + 1x1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 4 | 1884.8 | 1788.0 | 2049.6 | 65% `(4, 3, 2, 1, 1, 0x23 + 1x1)`<br>15% `(8, 3, 1, 1, 1, 0x23 + 1x1)`<br>12% `(2, 2, 2, 2, 2, 0x31 + 1x1)`<br>8% 🎯 `(3, 2, 2, 2, 1, 0x23 + 1x1)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product sequence), depth 6 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_sequence_6.py) | 20 | 62.9 | 48.5 | 261.4 | 20% `(6, 4, 1, 1, 1, 1, 0x23 + 1x1)`<br>10% `(8, 3, 1, 1, 1, 1, 0x23 + 1x1)`<br>10% `(5, 5, 1, 1, 1, 1, 0x24 + 1x1)`<br>5% 🎯 `(3, 2, 2, 2, 1, 1, 0x23 + 1x1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L51) | 27 | 1056.9 | 146.0 | 5867.6 | 56% `(2, 2, 2, 2, 2, 1, 0x31 + 1x1)`<br>4% `(6, 5, 2, 2, 1, 1, 0x119 + 1x1)`<br>4% `(6, 5, 1, 1, 1, 1, 0x29 + 1x1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L51) | 29 | 1058.6 | 156.0 | 5867.6 | 57% `(2, 2, 2, 2, 2, 1, 0x31 + 1x1)`<br>4% `(6, 5, 1, 1, 1, 1, 0x29 + 1x1)`<br>4% `(5, 4, 3, 2, 1, 1, 0x119 + 1x1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 6 | 2148.0 | 1800.5 | 3735.3 | 62% `(4, 3, 2, 1, 1, 1, 0x23 + 1x1)`<br>15% `(8, 3, 1, 1, 1, 1, 0x23 + 1x1)`<br>12% `(2, 2, 2, 2, 2, 1, 0x31 + 1x1)`<br>8% 🎯 `(3, 2, 2, 2, 1, 1, 0x23 + 1x1)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product), depth 2 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_2.py) | 1 | 18.8 | 18.0 | 6.3 | 100% 🎯 `(5, 5)` |
@@ -95,11 +95,11 @@ Exhaust and Hegel use 100 consecutive seeds starting at 1337. Hypothesis hashes 
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 1 | 3532.3 | 3640.0 | 6.3 | 100% 🎯 `(5, 5)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product), depth 3 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_3.py) | 1 | 22.1 | 20.0 | 9.2 | 100% 🎯 `(3, 3, 3)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L72) | 1 | 59.1 | 64.0 | 9.2 | 100% 🎯 `(3, 3, 3)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L72) | 1 | 61.1 | 66.0 | 9.2 | 100% 🎯 `(3, 3, 3)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 1 | 4171.8 | 4240.5 | 9.2 | 100% 🎯 `(3, 3, 3)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product), depth 4 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_4.py) | 1 | 24.3 | 23.5 | 12.3 | 100% 🎯 `(3, 2, 2, 2)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L79) | 1 | 73.5 | 82.5 | 12.2 | 100% 🎯 `(3, 2, 2, 2)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/NestedBinds.swift#L79) | 1 | 74.6 | 83.5 | 12.2 | 100% 🎯 `(3, 2, 2, 2)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L93) | 1 | 4743.4 | 4744.0 | 12.2 | 100% 🎯 `(3, 2, 2, 2)` |
 |  |  |  |  |  |  |  |
 | Nested Flatmap (product), depth 5 | [Hypothesis](/pbt-libraries/hypothesis/challenges/nested_flatmap_product_5.py) | 1 | 26.2 | 25.0 | 15.2 | 100% 🎯 `(2, 2, 2, 2, 2)` |
@@ -119,7 +119,7 @@ Exhaust and Hegel use 100 consecutive seeds starting at 1337. Hypothesis hashes 
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L110) | 6 | 32.8 | 32.0 | 3.0 | 71% 🎯 `925`<br>14% `926`<br>6% `927` |
 |  |  |  |  |  |  |  |
 | Weighted Linear Preservation | [Hypothesis](/pbt-libraries/hypothesis/challenges/weighted_linear_preservation.py) | 8 | 53.8 | 51.0 | 9.5 | 25% `(10, 0, 0)`<br>24% `(5, 0, 10)`<br>15% 🎯 `(0, 0, 20)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/WeightedLinearPreservationChallenge.swift) | 1 | 155.4 | 94.0 | 9.6 | 100% 🎯 `(0, 0, 20)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/WeightedLinearPreservationChallenge.swift) | 1 | 157.8 | 94.0 | 9.6 | 100% 🎯 `(0, 0, 20)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L119) | 1 | 63.8 | 66.0 | 9.4 | 100% 🎯 `(0, 0, 20)` |
 |  |  |  |  |  |  |  |
 | Float Cancellation | [Hypothesis](/pbt-libraries/hypothesis/challenges/float_cancellation.py) | 82 | 66.1 | 30.0 | 41.3 | 3% `(1.0, 3.1)`<br>3% `(1.1125369292536007e-308, 1.0)`<br>3% `(1.0, 3.9)` |
@@ -127,19 +127,19 @@ Exhaust and Hegel use 100 consecutive seeds starting at 1337. Hypothesis hashes 
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L136) | 32 | 552.2 | 436.5 | 43.4 | 33% `(1.0, 524287.00000000006)`<br>23% `(1.0, 1.0000000000000002)`<br>6% `(1.0, 65535.00000000001)` |
 |  |  |  |  |  |  |  |
 | Chunked Decoder | [Hypothesis](/pbt-libraries/hypothesis/challenges/chunked_decoder.py) | 1 | 50.1 | 47.0 | 61.2 | 100% 🎯 `(text, "\u{80}", [1, 1])` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/ChunkedDecoderChallenge.swift) | 5 | 85.1 | 77.0 | 31.2 | 56% `(text, "\u{10000}", [3, 1])`<br>40% `(text, "\u{800}", [2, 1])`<br>2% 🎯 `(text, "\u{80}", [1, 1])` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/ChunkedDecoderChallenge.swift) | 5 | 87.5 | 81.5 | 31.2 | 57% `(text, "\u{10000}", [3, 1])`<br>39% `(text, "\u{800}", [2, 1])`<br>2% 🎯 `(text, "\u{80}", [1, 1])` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L143) | 70 | 1847.7 | 1630.5 | 91.9 | 8% 🎯 `(text, "\u{80}", [1, 1])`<br>6% `(text, "\u{10000}\u{10000}", [7, 1])`<br>6% `(text, "\u{10000}", [3, 1])` |
 |  |  |  |  |  |  |  |
 | Hash Collision (M = 10) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_10.py) | 10 | 75.1 | 75.5 | 44.1 | 30% `([(10, 0)], 0, 1)`<br>17% `([(30, 0)], 0, 1)`<br>14% 🎯 `([(0, 0)], 10, 1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 1 | 199.6 | 167.5 | 29.9 | 100% 🎯 `([(0, 0)], 10, 1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 1 | 199.8 | 168.0 | 29.9 | 100% 🎯 `([(0, 0)], 10, 1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L147) | 1 | 440.3 | 458.5 | 87.6 | 100% 🎯 `([(0, 0)], 10, 1)` |
 |  |  |  |  |  |  |  |
 | Hash Collision (M = 100) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_100.py) | 8 | 132.0 | 114.5 | 64.3 | 62% `([(100, 0)], 0, 1)`<br>20% 🎯 `([(0, 0)], 100, 1)`<br>7% `([(300, 0)], 0, 1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 4 | 693.3 | 617.0 | 61.8 | 70% 🎯 `([(0, 0)], 100, 1)`<br>20% `([(0, 0)], 300, 1)`<br>7% `([(0, 0)], 700, 1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 4 | 693.1 | 617.0 | 61.8 | 70% 🎯 `([(0, 0)], 100, 1)`<br>20% `([(0, 0)], 300, 1)`<br>7% `([(0, 0)], 700, 1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L147) | 1 | 508.6 | 489.0 | 114.1 | 100% 🎯 `([(0, 0)], 100, 1)` |
 |  |  |  |  |  |  |  |
 | Hash Collision (M = 1000) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_1000.py) | 9 | 771.4 | 969.5 | 101.6 | 40% `([(1000, 0)], 0, 1)`<br>22% 🎯 `([(0, 0)], 1000, 1)`<br>13% `([(3000, 0)], 0, 1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 5 | 652.7 | 651.5 | 117.5 | 71% 🎯 `([(0, 0)], 1000, 1)`<br>14% `([(0, 0)], 3000, 1)`<br>9% `([(0, 0)], 5000, 1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L46) | 5 | 652.5 | 651.5 | 117.5 | 71% 🎯 `([(0, 0)], 1000, 1)`<br>14% `([(0, 0)], 3000, 1)`<br>9% `([(0, 0)], 5000, 1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L147) | 1 | 532.3 | 544.5 | 110.0 | 100% 🎯 `([(0, 0)], 1000, 1)` |
 
 ## Handwritten and derived generators
@@ -155,11 +155,11 @@ Hegel's fully derived invoice uses raw signed 64-bit fields, as Exhaust's does, 
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L127) | 1 | 657.0 | 630.0 | 19.5 | 100% 🎯 `Invoice(10, 100, 1)` |
 |  |  |  |  |  |  |  |
 | Invoice Discount (derived) | [Hypothesis](/pbt-libraries/hypothesis/challenges/invoice_discount_derived.py) | 9 | 748.5 | 881.0 | 19.1 | 86% `Invoice(28, 36, 1)`<br>5% `Invoice(101, 10, 1)`<br>3% `Invoice(11, 91, 1)`<br>1% 🎯 `Invoice(10, 100, 1)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/InvoiceDiscountChallenge.swift#L38) | 5 | 1220.5 | 769.5 | 19.0 | 69% `Invoice(15, 67, 1)`<br>12% `Invoice(14, 72, 1)`<br>8% `Invoice(13, 77, 1)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/InvoiceDiscountChallenge.swift#L38) | 5 | 1183.5 | 729.5 | 19.0 | 69% `Invoice(15, 67, 1)`<br>12% `Invoice(14, 72, 1)`<br>8% `Invoice(13, 77, 1)` |
 |  | [Hegel](/pbt-libraries/hegel/src/challenges.rs#L127) | 8 | 459.8 | 477.5 | 18.8 | 29% `Invoice(18, 56, 1)`<br>28% 🎯 `Invoice(10, 100, 1)`<br>27% `Invoice(14, 72, 1)` |
 |  |  |  |  |  |  |  |
 | Refund Allocation | [Hypothesis](/pbt-libraries/hypothesis/challenges/refund_allocation.py) | 5 | 175.7 | 127.5 | 45.8 | 78% `RefundRequest([31, 34], 2)`<br>13% `RefundRequest([33, 31], 2)`<br>5% 🎯 `RefundRequest([31, 33], 4)` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/RefundAllocationChallenge.swift#L31) | 1 | 903.8 | 649.0 | 78.6 | 100% 🎯 `RefundRequest([31, 33], 4)` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/RefundAllocationChallenge.swift#L31) | 1 | 903.9 | 649.0 | 78.6 | 100% 🎯 `RefundRequest([31, 33], 4)` |
 |  | [Hegel](/pbt-libraries/hegel/src/refund_allocation.rs#L153) | 5 | 1498.0 | 1438.0 | 60.8 | 96% 🎯 `RefundRequest([31, 33], 4)`<br>1% `RefundRequest([31, 36], 3)`<br>1% `RefundRequest([31, 35183], 2386)` |
 |  |  |  |  |  |  |  |
 | Refund Allocation (derived) | [Hypothesis](/pbt-libraries/hypothesis/challenges/refund_allocation_derived.py) | 4 | 129.3 | 108.5 | 46.1 | 69% `RefundRequest([33, 31], 2)`<br>28% `RefundRequest([31, 34], 2)`<br>2% `RefundRequest([31, 31, 33], 3)` |
@@ -175,72 +175,76 @@ The Hash Collision rows run the same frame property as the generator rows above,
 | Challenge | Library | Distinct CEs | Mean evaluations | Median evaluations | Mean original length | Top counterexamples<br><img src="assets/spacer.gif" width="1000" height="1" alt=""> |
 |---|---|---|---|---|---|---|
 | Snapshot Store | [Hypothesis](/pbt-libraries/hypothesis/challenges/snapshot_store.py) | 21 | 431.3 | 377.5 | 456.9 | 37% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>18% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]`<br>7% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/SnapshotStoreChallenge.swift) | 17 | 241.4 | 215.0 | 497.0 | 67% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>6% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]`<br>5% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/SnapshotStoreChallenge.swift) | 10 | 241.6 | 224.5 | 497.0 | 73% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>9% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]`<br>7% `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]` |
 |  | [Hegel](/pbt-libraries/hegel/src/stateful.rs#L33) | 5 | 2268.7 | 1908.0 | 484.9 | 71% 🎯 `[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]`<br>17% `[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]`<br>10% `[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]` |
 |  |  |  |  |  |  |  |
 | Hash Collision (M = 10) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_state_machine_10.py) | 77 | 34.4 | 32.0 | 59.0 | 7% 🎯 `[put(0, 0), put(10, 1)]`<br>5% `[put(30, 0), put(0, 1)]`<br>4% `[put(0, 0), put(30, 1)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L83) | 1 | 222.5 | 178.0 | 355.0 | 100% 🎯 `[put(0, 0), put(10, 1)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L83) | 1 | 220.8 | 177.0 | 355.0 | 100% 🎯 `[put(0, 0), put(10, 1)]` |
 |  | [Hegel](/pbt-libraries/hegel/src/stateful.rs#L24) | 1 | 407.6 | 376.0 | 60.4 | 100% 🎯 `[put(0, 0), put(10, 1)]` |
 |  |  |  |  |  |  |  |
 | Hash Collision (M = 100) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_state_machine_100.py) | 59 | 46.5 | 45.0 | 184.5 | 39% 🎯 `[put(0, 0), put(100, 1)]`<br>2% `[put(499, 0), put(99, 1)]`<br>2% `[put(100, 0), put(0, 1)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L100) | 3 | 747.9 | 715.5 | 421.7 | 80% 🎯 `[put(0, 0), put(100, 1)]`<br>14% `[put(0, 0), put(300, 1)]`<br>6% `[put(0, 0), put(700, 1)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L100) | 3 | 748.4 | 719.0 | 421.7 | 80% 🎯 `[put(0, 0), put(100, 1)]`<br>14% `[put(0, 0), put(300, 1)]`<br>6% `[put(0, 0), put(700, 1)]` |
 |  | [Hegel](/pbt-libraries/hegel/src/stateful.rs#L24) | 1 | 298.1 | 292.0 | 210.2 | 100% 🎯 `[put(0, 0), put(100, 1)]` |
 |  |  |  |  |  |  |  |
 | Hash Collision (M = 1000) | [Hypothesis](/pbt-libraries/hypothesis/challenges/hash_collision_state_machine_1000.py) | 98 | 103.5 | 107.0 | 434.6 | 2% `[put(140, 0), put(1140, 1)]`<br>2% `[put(4148, 0), put(148, 1)]`<br>1% `[put(3871, 0), put(7871, 1)]`<br>1% 🎯 `[put(0, 0), put(1000, 1)]` |
-|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L117) | 5 | 730.3 | 706.0 | 512.5 | 36% 🎯 `[put(0, 0), put(1000, 1)]`<br>23% `[put(0, 0), put(9000, 1)]`<br>15% `[put(0, 0), put(3000, 1)]` |
+|  | [Exhaust](/pbt-libraries/exhaust/src/Sources/ExhaustRunner/Challenges/HashCollisionChallenge.swift#L117) | 5 | 727.3 | 702.5 | 512.5 | 36% 🎯 `[put(0, 0), put(1000, 1)]`<br>23% `[put(0, 0), put(9000, 1)]`<br>15% `[put(0, 0), put(3000, 1)]` |
 |  | [Hegel](/pbt-libraries/hegel/src/stateful.rs#L24) | 1 | 348.1 | 353.5 | 418.3 | 100% 🎯 `[put(0, 0), put(1000, 1)]` |
 
 
 ## Timings
 
-Mean wall-clock milliseconds / mean peak resident memory in MiB per single-threaded run on an Apple M4 Max, over the same runs as the tables above.
+Mean wall-clock milliseconds / mean peak resident memory in MiB per single-threaded run on an Apple M4 Max, over the same workloads and seeds as the tables above. Exhaust 1.6.0 timings come from multi-seed runs; peak RSS is measured separately in fresh processes. [Raw memory results and provenance](/reports/memory-exhaust-1.6.0/).
 
 Each column is the build a developer gets by default on that platform:
 
 - **Hypothesis**: Hypothesis 6.168.3 on Python 3.12. Its recorded `total_seconds` includes the final replay.
 - **Hegel (default/opt-1)**: `cargo build` without the `static-engine` feature. The runner is unoptimised and loads `libhegel_c` as a shared library built at Cargo's dev-profile `opt-level = 1`. Covers generation, reduction, counterexample recording, confirmation calls and final replay.
-- **Exhaust (macOS)**: the 1.5.8 package with the runner built in debug. On Apple platforms the package links a prebuilt, optimised `ExhaustCore` XCFramework. Its `wallMilliseconds` covers generation and reduction; Exhaust makes no final replay.
-- **Exhaust (Linux/Windows)**: the same 1.5.8 source built entirely in debug, as on platforms without the XCFramework, where `ExhaustCore` is compiled from source alongside the test target.
+- **Exhaust (macOS)**: the 1.6.0 package with the runner built in debug. On Apple platforms the package links a prebuilt, optimised `ExhaustCore` XCFramework. Its `wallMilliseconds` covers generation and reduction; Exhaust makes no final replay.
+- **Exhaust (Linux/Windows)**: the tagged 1.6.0 source built entirely in debug on the same Mac, as on platforms without the XCFramework, where `ExhaustCore` is compiled from source alongside the test target.
 
 Hegel (default/opt-1) stops one depth-6 run (seed 1361) at its 300-second shrink deadline, ending at a larger counterexample than the release build reaches. 
 
-Exhaust (Linux/Windows) stops three runs at each of depths 5 and 6 (seeds 1388, 1403 and 1404) at its 125-second reduction deadline.
+The Exhaust (Linux/Windows) column measures the `release-1.6.0` source tag on macOS, with both runner and core built in debug. It represents that build configuration, rather than native Linux or Windows measurements.
+
+Exhaust uses a 125-second reduction deadline for these workloads. Source-debug sequence runs near that deadline are depth 5: seeds 1388, 1403, 1404; depth 6: seeds 1388, 1403, 1404.
 
 | Challenge | Hypothesis | Hegel (default/opt-1) | Exhaust (macOS) | Exhaust (Linux/Windows) |
 |---|---|---|---|---|
-| Anagrams | 172.95 ms<br>40.5 MiB | — | 22.96 ms<br>15.6 MiB | 66.75 ms<br>16.8 MiB |
-| Username and Password | 41.12 ms<br>38.7 MiB | — | 4.59 ms<br>15.1 MiB | 21.35 ms<br>16.2 MiB |
-| Duplicated Text | 8.65 ms<br>37.7 MiB | — | 1.32 ms<br>14.7 MiB | 4.05 ms<br>15.9 MiB |
-| Haystack | 116.59 ms<br>39.1 MiB | — | 11.24 ms<br>18.6 MiB | 67.08 ms<br>19.9 MiB |
-| Zalgo Haystack | 2,994.38 ms<br>41.6 MiB | — | 16.75 ms<br>22.7 MiB | 110.07 ms<br>23.8 MiB |
-| Distinct Sum | 46.29 ms<br>38.1 MiB | — | 2.75 ms<br>14.4 MiB | 8.28 ms<br>15.5 MiB |
-| Leap Day | 9.18 ms<br>37.0 MiB | — | 3.70 ms<br>17.0 MiB | 4.21 ms<br>17.8 MiB |
-| Branch Switching | 11.47 ms<br>38.3 MiB | — | 2.03 ms<br>15.7 MiB | 4.04 ms<br>16.9 MiB |
-| Binary Heap | 133.68 ms<br>40.1 MiB | 700.81 ms<br>26.3 MiB | 5.82 ms<br>16.4 MiB | 27.60 ms<br>17.8 MiB |
-| Calculator | 1,499.83 ms<br>61.6 MiB | 194.23 ms<br>8.2 MiB | 0.68 ms<br>15.3 MiB | 3.27 ms<br>16.5 MiB |
-| Nested Flatmap (product sequence), depth 2 | 229.91 ms<br>39.9 MiB | 141.89 ms<br>11.8 MiB | 3.41 ms<br>15.6 MiB | 40.87 ms<br>16.7 MiB |
-| Nested Flatmap (product sequence), depth 3 | 401.54 ms<br>41.8 MiB | 221.14 ms<br>19.9 MiB | 6.34 ms<br>16.2 MiB | 66.67 ms<br>17.4 MiB |
-| Nested Flatmap (product sequence), depth 4 | 417.64 ms<br>43.3 MiB | 398.79 ms<br>32.0 MiB | 45.54 ms<br>17.6 MiB | 313.94 ms<br>18.9 MiB |
-| Nested Flatmap (product sequence), depth 5 | 493.79 ms<br>44.2 MiB | 1,510.60 ms<br>38.8 MiB | 1,055.70 ms<br>21.8 MiB | 4,326.29 ms<br>22.7 MiB |
-| Nested Flatmap (product sequence), depth 6 | 528.69 ms<br>45.0 MiB | 6,480.88 ms<br>45.2 MiB | 2,176.61 ms<br>28.9 MiB | 6,881.07 ms<br>30.3 MiB |
-| Nested Flatmap (product), depth 2 | 8.50 ms<br>38.0 MiB | 36.93 ms<br>6.0 MiB | 0.27 ms<br>14.3 MiB | 1.02 ms<br>15.3 MiB |
-| Nested Flatmap (product), depth 3 | 11.17 ms<br>38.2 MiB | 41.93 ms<br>6.3 MiB | 0.94 ms<br>14.5 MiB | 3.95 ms<br>15.6 MiB |
-| Nested Flatmap (product), depth 4 | 14.94 ms<br>38.4 MiB | 53.16 ms<br>6.8 MiB | 2.45 ms<br>14.7 MiB | 11.33 ms<br>15.8 MiB |
-| Nested Flatmap (product), depth 5 | 17.54 ms<br>38.5 MiB | 47.21 ms<br>7.1 MiB | 6.31 ms<br>15.1 MiB | 30.28 ms<br>16.3 MiB |
-| Nested Flatmap (product), depth 6 | 19.56 ms<br>38.6 MiB | 42.59 ms<br>7.2 MiB | 14.26 ms<br>15.5 MiB | 71.51 ms<br>16.8 MiB |
-| Nested Flatmap (sum), depth 4 | 629.88 ms<br>43.2 MiB | 164.02 ms<br>25.8 MiB | 19.95 ms<br>17.5 MiB | 217.13 ms<br>18.7 MiB |
-| Modular Mapping | 7.86 ms<br>38.2 MiB | 0.96 ms<br>5.7 MiB | 0.06 ms<br>13.9 MiB | 0.20 ms<br>15.0 MiB |
-| Weighted Linear Preservation | 21.31 ms<br>38.5 MiB | 2.08 ms<br>5.9 MiB | 0.51 ms<br>14.2 MiB | 2.14 ms<br>15.4 MiB |
-| Invoice Discount | 25.45 ms<br>38.5 MiB | 4.60 ms<br>6.1 MiB | 1.67 ms<br>15.0 MiB | 5.90 ms<br>16.3 MiB |
-| Invoice Discount (derived) | 454.02 ms<br>47.0 MiB | 10.92 ms<br>6.7 MiB | 2.66 ms<br>15.2 MiB | 11.08 ms<br>16.4 MiB |
-| Refund Allocation | 99.28 ms<br>41.5 MiB | 193.90 ms<br>7.6 MiB | 10.13 ms<br>15.3 MiB | 22.16 ms<br>16.4 MiB |
-| Refund Allocation (derived) | 216.35 ms<br>44.4 MiB | 26.63 ms<br>7.4 MiB | 41.91 ms<br>15.8 MiB | 129.20 ms<br>17.0 MiB |
-| Float Cancellation | 22.49 ms<br>38.4 MiB | 6.72 ms<br>6.4 MiB | 17.19 ms<br>14.3 MiB | 242.09 ms<br>15.5 MiB |
-| Chunked Decoder | 38.76 ms<br>40.9 MiB | 49.27 ms<br>12.0 MiB | 1.07 ms<br>15.7 MiB | 3.00 ms<br>16.9 MiB |
-| Hash Collision (M = 10) | 46.86 ms<br>39.4 MiB | 12.99 ms<br>7.1 MiB | 1.12 ms<br>14.5 MiB | 3.35 ms<br>15.6 MiB |
-| Hash Collision (M = 100) | 104.49 ms<br>40.9 MiB | 16.46 ms<br>7.5 MiB | 3.22 ms<br>14.6 MiB | 9.20 ms<br>15.7 MiB |
-| Hash Collision (M = 1000) | 1,117.16 ms<br>61.8 MiB | 38.60 ms<br>7.9 MiB | 5.94 ms<br>14.7 MiB | 12.70 ms<br>15.8 MiB |
-| Snapshot Store | 2,617.18 ms<br>99.4 MiB | 1,010.38 ms<br>14.3 MiB | 8.92 ms<br>16.2 MiB | 32.85 ms<br>17.5 MiB |
-| Hash Collision (M = 10) (state machine) | 70.15 ms<br>40.5 MiB | 127.65 ms<br>7.4 MiB | 2.06 ms<br>15.7 MiB | 7.63 ms<br>16.9 MiB |
-| Hash Collision (M = 100) (state machine) | 113.31 ms<br>41.4 MiB | 134.54 ms<br>7.9 MiB | 5.94 ms<br>15.8 MiB | 16.96 ms<br>17.0 MiB |
-| Hash Collision (M = 1000) (state machine) | 450.29 ms<br>46.6 MiB | 152.28 ms<br>10.6 MiB | 11.09 ms<br>15.9 MiB | 23.16 ms<br>17.2 MiB |
+| Anagrams | 172.95 ms<br>40.5 MiB | — | 24.64 ms<br>15.6 MiB | 82.53 ms<br>16.7 MiB |
+| Username and Password | 41.12 ms<br>38.7 MiB | — | 4.84 ms<br>15.2 MiB | 25.11 ms<br>16.2 MiB |
+| Duplicated Text | 8.65 ms<br>37.7 MiB | — | 1.39 ms<br>14.8 MiB | 4.47 ms<br>15.8 MiB |
+| Haystack | 116.59 ms<br>39.1 MiB | — | 8.90 ms<br>18.7 MiB | 54.67 ms<br>19.6 MiB |
+| Zalgo Haystack | 2,994.38 ms<br>41.6 MiB | — | 14.80 ms<br>22.8 MiB | 106.04 ms<br>23.5 MiB |
+| Distinct Sum | 46.29 ms<br>38.1 MiB | — | 3.07 ms<br>14.7 MiB | 10.95 ms<br>15.5 MiB |
+| Leap Day | 9.18 ms<br>37.0 MiB | — | 3.70 ms<br>17.0 MiB | 4.80 ms<br>17.8 MiB |
+| Branch Switching | 11.47 ms<br>38.3 MiB | — | 2.16 ms<br>15.8 MiB | 3.97 ms<br>16.9 MiB |
+| Binary Heap | 133.68 ms<br>40.1 MiB | 700.81 ms<br>26.3 MiB | 5.50 ms<br>16.7 MiB | 29.83 ms<br>17.8 MiB |
+| Calculator | 1,499.83 ms<br>61.6 MiB | 194.23 ms<br>8.2 MiB | 0.65 ms<br>15.5 MiB | 3.61 ms<br>16.5 MiB |
+| Nested Flatmap (product sequence), depth 2 | 229.91 ms<br>39.9 MiB | 141.89 ms<br>11.8 MiB | 4.12 ms<br>16.0 MiB | 52.59 ms<br>16.8 MiB |
+| Nested Flatmap (product sequence), depth 3 | 401.54 ms<br>41.8 MiB | 221.14 ms<br>19.9 MiB | 6.50 ms<br>16.5 MiB | 75.58 ms<br>17.4 MiB |
+| Nested Flatmap (product sequence), depth 4 | 417.64 ms<br>43.3 MiB | 398.79 ms<br>32.0 MiB | 46.51 ms<br>18.0 MiB | 339.92 ms<br>18.9 MiB |
+| Nested Flatmap (product sequence), depth 5 | 493.79 ms<br>44.2 MiB | 1,510.60 ms<br>38.8 MiB | 1,054.14 ms<br>22.2 MiB | 4,387.55 ms<br>22.5 MiB |
+| Nested Flatmap (product sequence), depth 6 | 528.69 ms<br>45.0 MiB | 6,480.88 ms<br>45.2 MiB | 2,201.56 ms<br>29.5 MiB | 7,211.75 ms<br>30.6 MiB |
+| Nested Flatmap (product), depth 2 | 8.50 ms<br>38.0 MiB | 36.93 ms<br>6.0 MiB | 0.28 ms<br>14.5 MiB | 1.14 ms<br>15.4 MiB |
+| Nested Flatmap (product), depth 3 | 11.17 ms<br>38.2 MiB | 41.93 ms<br>6.3 MiB | 1.00 ms<br>14.7 MiB | 4.47 ms<br>15.7 MiB |
+| Nested Flatmap (product), depth 4 | 14.94 ms<br>38.4 MiB | 53.16 ms<br>6.8 MiB | 2.33 ms<br>14.9 MiB | 12.20 ms<br>15.9 MiB |
+| Nested Flatmap (product), depth 5 | 17.54 ms<br>38.5 MiB | 47.21 ms<br>7.1 MiB | 6.09 ms<br>15.4 MiB | 33.76 ms<br>16.4 MiB |
+| Nested Flatmap (product), depth 6 | 19.56 ms<br>38.6 MiB | 42.59 ms<br>7.2 MiB | 13.88 ms<br>15.8 MiB | 78.63 ms<br>16.8 MiB |
+| Nested Flatmap (sum), depth 4 | 629.88 ms<br>43.2 MiB | 164.02 ms<br>25.8 MiB | 20.25 ms<br>17.7 MiB | 251.55 ms<br>18.7 MiB |
+| Modular Mapping | 7.86 ms<br>38.2 MiB | 0.96 ms<br>5.7 MiB | 0.06 ms<br>14.1 MiB | 0.20 ms<br>15.0 MiB |
+| Weighted Linear Preservation | 21.31 ms<br>38.5 MiB | 2.08 ms<br>5.9 MiB | 0.51 ms<br>14.5 MiB | 2.59 ms<br>15.5 MiB |
+| Invoice Discount | 25.45 ms<br>38.5 MiB | 4.60 ms<br>6.1 MiB | 1.67 ms<br>15.3 MiB | 7.91 ms<br>16.4 MiB |
+| Invoice Discount (derived) | 454.02 ms<br>47.0 MiB | 10.92 ms<br>6.7 MiB | 2.68 ms<br>15.5 MiB | 13.38 ms<br>16.5 MiB |
+| Refund Allocation | 99.28 ms<br>41.5 MiB | 193.90 ms<br>7.6 MiB | 10.41 ms<br>15.6 MiB | 24.18 ms<br>16.5 MiB |
+| Refund Allocation (derived) | 216.35 ms<br>44.4 MiB | 26.63 ms<br>7.4 MiB | 40.61 ms<br>16.0 MiB | 135.79 ms<br>17.1 MiB |
+| Float Cancellation | 22.49 ms<br>38.4 MiB | 6.72 ms<br>6.4 MiB | 16.66 ms<br>14.5 MiB | 266.90 ms<br>15.5 MiB |
+| Chunked Decoder | 38.76 ms<br>40.9 MiB | 49.27 ms<br>12.0 MiB | 1.11 ms<br>15.9 MiB | 3.19 ms<br>16.8 MiB |
+| Hash Collision (M = 10) | 46.86 ms<br>39.4 MiB | 12.99 ms<br>7.1 MiB | 1.15 ms<br>14.8 MiB | 3.93 ms<br>15.7 MiB |
+| Hash Collision (M = 100) | 104.49 ms<br>40.9 MiB | 16.46 ms<br>7.5 MiB | 3.46 ms<br>14.9 MiB | 10.85 ms<br>15.8 MiB |
+| Hash Collision (M = 1000) | 1,117.16 ms<br>61.8 MiB | 38.60 ms<br>7.9 MiB | 6.60 ms<br>15.0 MiB | 14.98 ms<br>15.9 MiB |
+| Snapshot Store | 2,617.18 ms<br>99.4 MiB | 1,010.38 ms<br>14.3 MiB | 8.39 ms<br>15.9 MiB | 34.83 ms<br>17.4 MiB |
+| Hash Collision (M = 10) (state machine) | 70.15 ms<br>40.5 MiB | 127.65 ms<br>7.4 MiB | 1.97 ms<br>15.5 MiB | 8.59 ms<br>16.9 MiB |
+| Hash Collision (M = 100) (state machine) | 113.31 ms<br>41.4 MiB | 134.54 ms<br>7.9 MiB | 5.83 ms<br>15.6 MiB | 19.01 ms<br>17.0 MiB |
+| Hash Collision (M = 1000) (state machine) | 450.29 ms<br>46.6 MiB | 152.28 ms<br>10.6 MiB | 11.72 ms<br>15.8 MiB | 25.68 ms<br>17.1 MiB |
+
+[Generation speed and value complexity](GENERATION.md).

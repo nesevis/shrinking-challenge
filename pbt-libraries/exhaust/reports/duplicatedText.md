@@ -1,17 +1,17 @@
 # Duplicated Text
 
-Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. One fixed-start reduction.
+Exhaust 1.6.0 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. One fixed-start reduction.
 
-[Raw results](../failures/duplicatedText.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
+[Raw results](../failures/duplicatedText.json). Dependency revision: `ccc7e4c2e9749fc6eb4d75c24ba01702840c2eee`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
 | Reduction invocations | 54.0 | 54.0 |
 | Original input length | 24.0 | 24.0 |
-| Wall time (ms) | 1.317 | 1.317 |
-| Wall time, Linux/Windows build (ms) | 4.051 | 4.051 |
-| reductions (ms) | 1.070 | 1.070 |
-| total (ms) | 1.186 | 1.186 |
+| Wall time (ms) | 1.391 | 1.391 |
+| Wall time, Linux/Windows build (ms) | 4.468 | 4.468 |
+| reductions (ms) | 1.120 | 1.120 |
+| total (ms) | 1.246 | 1.246 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/duplicatedText.json)).
 
@@ -27,10 +27,10 @@ The main README adds the original failing call to generated-run evaluation count
 
 | Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
 |---|---:|---:|---:|
-| macOS XCFramework / debug runner | 14.67 | 14.67 | 14.67 |
-| Source core / debug runner (on macOS) | 15.86 | 15.86 | 15.86 |
+| macOS XCFramework / debug runner | 14.80 | 14.80 | 14.80 |
+| Source core / debug runner (on macOS) | 15.81 | 15.81 | 15.81 |
 
-[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.6.0/).
 
 ## Running
 

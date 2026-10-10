@@ -1,18 +1,18 @@
 # Hash Collision (M = 100) (state machine)
 
-Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.6.0 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/hashCollisionStateMachineHundred.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
+[Raw results](../failures/hashCollisionStateMachineHundred.json). Dependency revision: `ccc7e4c2e9749fc6eb4d75c24ba01702840c2eee`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 746.9 | 714.5 |
+| Reduction invocations | 747.4 | 718.0 |
 | Original input length | 421.7 | 436.5 |
-| Wall time (ms) | 5.937 | 5.524 |
-| Wall time, Linux/Windows build (ms) | 16.962 | 16.388 |
+| Wall time (ms) | 5.826 | 5.252 |
+| Wall time, Linux/Windows build (ms) | 19.014 | 18.385 |
 | generation (ms) | 0.000 | 0.000 |
-| reductions (ms) | 5.660 | 5.200 |
-| total (ms) | 5.919 | 5.507 |
+| reductions (ms) | 5.510 | 5.090 |
+| total (ms) | 5.795 | 5.225 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/hashCollisionStateMachineHundred.json)).
 
@@ -30,10 +30,10 @@ The main README adds the original failing call to generated-run evaluation count
 
 | Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
 |---|---:|---:|---:|
-| macOS XCFramework / debug runner | 15.79 | 15.80 | 16.19 |
-| Source core / debug runner (on macOS) | 17.04 | 17.04 | 17.44 |
+| macOS XCFramework / debug runner | 15.64 | 15.64 | 16.05 |
+| Source core / debug runner (on macOS) | 16.99 | 17.02 | 17.38 |
 
-[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.6.0/).
 
 ## Running
 

@@ -1,6 +1,6 @@
 [
   {
-    "evaluations" : 1225,
+    "evaluations" : 1227,
     "original" : {
       "p" : "[put(84, 2), put(850, 5), put(586, 8), put(169, 3), put(374, 4), put(871, 7), put(287, 4), put(622, 9), put(433, 6), put(763, 1), put(510, 4), put(340, 0), put(937, 9), put(709, 3), put(734, 1), put(459, 8), put(268, 0), put(505, 7), put(201, 6), put(511, 3), put(234, 8), put(952, 9), put(847, 3), put(37, 4), put(834, 3), put(434, 3), put(233, 3), put(922, 2), put(630, 8), put(246, 1), put(318, 0), put(913, 6), put(33, 6), put(927, 3), put(699, 8), put(217, 4), put(832, 7), put(30, 9), put(114, 0), put(944, 3), put(351, 0), put(54, 0), put(796, 0)]"
     },
@@ -8,10 +8,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 11.388875
+    "wallMilliseconds" : 10.876792
   },
   {
-    "evaluations" : 608,
+    "evaluations" : 610,
     "original" : {
       "p" : "[put(495, 6), put(160, 8), put(734, 9), put(503, 0), put(725, 7), put(924, 5), put(364, 7), put(843, 0), put(964, 5), put(179, 1), put(915, 4), put(993, 7), put(370, 9), put(392, 1), put(565, 2), put(987, 5), put(197, 8), put(905, 0), put(40, 6), put(868, 0), put(785, 1), put(375, 8), put(299, 9), put(564, 1), put(145, 2), put(848, 3), put(721, 1), put(891, 0), put(795, 2), put(276, 9), put(511, 6), put(57, 4), put(112, 9), put(874, 2), put(69, 5), put(923, 8), put(935, 9), put(475, 2), put(118, 4), put(907, 7), put(660, 1), put(807, 6), put(178, 5), put(647, 7), put(950, 7), put(343, 6), put(172, 6), put(247, 0), put(449, 5)]"
     },
@@ -19,10 +19,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 4.878375
+    "wallMilliseconds" : 4.598959
   },
   {
-    "evaluations" : 1101,
+    "evaluations" : 1102,
     "original" : {
       "p" : "[put(397, 4), put(354, 3), put(477, 3), put(897, 7), put(135, 4), put(368, 5), put(341, 3), put(947, 4), put(872, 2), put(382, 8), put(287, 9), put(862, 3), put(691, 9), put(694, 2), put(131, 2), put(416, 6), put(953, 8), put(768, 9), put(271, 1), put(447, 7), put(268, 2), put(395, 5), put(565, 2), put(463, 7), put(872, 5), put(255, 5), put(43, 7), put(250, 0), put(328, 5), put(543, 0), put(613, 1), put(556, 5), put(156, 1), put(291, 1), put(0, 8), put(142, 0), put(857, 8), put(683, 3), put(487, 1), put(433, 2), put(335, 2), put(944, 0), put(276, 2)]"
     },
@@ -30,10 +30,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.487375
+    "wallMilliseconds" : 7.297417
   },
   {
-    "evaluations" : 629,
+    "evaluations" : 618,
     "original" : {
       "p" : "[put(122, 2), put(410, 3), put(385, 3), put(906, 8), put(543, 8), put(651, 5), put(440, 2), put(904, 0), put(683, 3), put(296, 2), put(300, 7), put(50, 5), put(822, 8), put(387, 4), put(744, 5), put(614, 5)]"
     },
@@ -41,7 +41,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(700, 1)]"
     },
-    "wallMilliseconds" : 5.705292
+    "wallMilliseconds" : 5.167083
   },
   {
     "evaluations" : 1099,
@@ -52,10 +52,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.201625
+    "wallMilliseconds" : 7.315458
   },
   {
-    "evaluations" : 613,
+    "evaluations" : 612,
     "original" : {
       "p" : "[put(256, 0), put(223, 0), put(522, 2), put(948, 3), put(598, 8), put(386, 4), put(406, 6), put(813, 4), put(41, 5), put(534, 3), put(306, 2), put(235, 7), put(446, 6), put(954, 2), put(19, 6), put(3, 5), put(492, 0), put(93, 8)]"
     },
@@ -63,10 +63,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 4.528
+    "wallMilliseconds" : 4.360709
   },
   {
-    "evaluations" : 1116,
+    "evaluations" : 1119,
     "original" : {
       "p" : "[put(656, 5), put(483, 2), put(638, 6), put(993, 8), put(906, 1), put(584, 0), put(143, 3), put(763, 3), put(396, 0), put(151, 6), put(302, 3), put(721, 2), put(729, 2), put(513, 9), put(314, 2), put(392, 4), put(307, 8), put(809, 4), put(894, 0), put(126, 4), put(30, 9), put(317, 9), put(428, 7), put(56, 9), put(248, 8), put(262, 4), put(154, 8), put(355, 3), put(234, 4), put(842, 0), put(928, 6)]"
     },
@@ -74,10 +74,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 8.625833
+    "wallMilliseconds" : 8.651375
   },
   {
-    "evaluations" : 710,
+    "evaluations" : 712,
     "original" : {
       "p" : "[put(650, 1), put(731, 8), put(102, 3), put(348, 0), put(803, 7), put(451, 0), put(439, 6), put(707, 3), put(846, 2), put(174, 4), put(793, 4), put(145, 9), put(284, 6), put(299, 5), put(489, 3), put(285, 3), put(694, 2), put(178, 6), put(961, 5), put(703, 7), put(78, 5), put(165, 3), put(51, 2), put(135, 0), put(368, 4), put(961, 0), put(597, 3), put(739, 2), put(839, 7), put(686, 9), put(56, 0), put(374, 2), put(40, 3), put(595, 5), put(358, 0), put(916, 6), put(514, 5), put(151, 0), put(484, 8), put(937, 2), put(82, 7), put(689, 3), put(160, 1), put(340, 7), put(517, 0), put(740, 3), put(520, 2), put(487, 7), put(684, 1)]"
     },
@@ -85,7 +85,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.389458
+    "wallMilliseconds" : 6.147625
   },
   {
     "evaluations" : 599,
@@ -96,10 +96,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.257125
+    "wallMilliseconds" : 4.831875
   },
   {
-    "evaluations" : 745,
+    "evaluations" : 753,
     "original" : {
       "p" : "[put(172, 0), put(573, 2), put(25, 3), put(295, 5), put(871, 1), put(762, 6), put(718, 6), put(715, 2), put(9, 9), put(775, 9), put(931, 8), put(937, 5), put(846, 8), put(734, 3), put(110, 6), put(737, 0)]"
     },
@@ -107,10 +107,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.433583
+    "wallMilliseconds" : 5.267541
   },
   {
-    "evaluations" : 726,
+    "evaluations" : 725,
     "original" : {
       "p" : "[put(972, 5), put(708, 3), put(915, 4), put(649, 8), put(511, 1), put(4, 7), put(226, 5), put(881, 8), put(152, 6), put(106, 8), put(608, 1), put(180, 2), put(659, 2), put(298, 3), put(524, 4), put(184, 0), put(6, 6), put(303, 1), put(731, 6), put(281, 7), put(974, 6)]"
     },
@@ -118,10 +118,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.433791
+    "wallMilliseconds" : 5.173541
   },
   {
-    "evaluations" : 599,
+    "evaluations" : 598,
     "original" : {
       "p" : "[put(738, 3), put(752, 6), put(249, 5), put(526, 8), put(404, 5), put(471, 5), put(279, 9), put(104, 7), put(794, 4), put(435, 5), put(966, 7), put(744, 6), put(457, 8), put(813, 3), put(285, 7), put(359, 1), put(956, 8), put(904, 0), put(607, 6), put(933, 1), put(862, 5), put(769, 8), put(675, 6), put(780, 9), put(924, 7), put(763, 2), put(452, 2), put(555, 4), put(282, 2), put(607, 6), put(837, 5), put(764, 1), put(988, 2), put(731, 3), put(347, 9), put(875, 1), put(675, 5), put(379, 0), put(951, 5), put(366, 5), put(468, 0), put(306, 5), put(317, 2)]"
     },
@@ -129,10 +129,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.392209
+    "wallMilliseconds" : 4.139708
   },
   {
-    "evaluations" : 579,
+    "evaluations" : 563,
     "original" : {
       "p" : "[put(461, 1), put(807, 4), put(304, 7), put(679, 8), put(465, 7), put(345, 7), put(490, 6), put(252, 1), put(116, 9), put(700, 3), put(312, 2), put(326, 6), put(883, 2), put(797, 5), put(532, 7), put(927, 1), put(429, 0), put(404, 7), put(642, 6), put(781, 7), put(578, 2), put(230, 1), put(511, 3), put(577, 2), put(860, 8), put(300, 6)]"
     },
@@ -140,10 +140,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 8.789917
+    "wallMilliseconds" : 7.751958
   },
   {
-    "evaluations" : 624,
+    "evaluations" : 616,
     "original" : {
       "p" : "[put(415, 3), put(163, 6), put(439, 5), put(614, 6), put(248, 6), put(445, 4), put(684, 1), put(595, 5), put(538, 2), put(169, 4), put(128, 9), put(296, 6), put(823, 0), put(888, 0), put(914, 5), put(348, 9), put(239, 2), put(849, 5), put(626, 0), put(926, 9), put(640, 0), put(122, 9), put(630, 2), put(929, 9), put(694, 8), put(966, 7), put(638, 9), put(143, 6), put(493, 3), put(633, 5), put(645, 5), put(359, 2), put(142, 2), put(215, 5), put(407, 6), put(371, 7), put(252, 2), put(268, 5)]"
     },
@@ -151,10 +151,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 5.579792
+    "wallMilliseconds" : 5.06825
   },
   {
-    "evaluations" : 742,
+    "evaluations" : 745,
     "original" : {
       "p" : "[put(482, 6), put(544, 1), put(93, 7), put(621, 1), put(529, 3), put(150, 5), put(233, 1), put(50, 1), put(464, 7), put(527, 1), put(523, 3), put(873, 3), put(337, 3), put(86, 5), put(586, 9), put(272, 2), put(45, 2), put(648, 4), put(478, 9), put(271, 4), put(824, 7), put(79, 8), put(969, 9), put(249, 9), put(735, 5), put(60, 5), put(615, 1), put(448, 4), put(598, 1), put(367, 8), put(269, 9), put(700, 5), put(146, 0), put(596, 0), put(695, 5), put(235, 1)]"
     },
@@ -162,10 +162,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.464542
+    "wallMilliseconds" : 4.952958
   },
   {
-    "evaluations" : 614,
+    "evaluations" : 611,
     "original" : {
       "p" : "[put(970, 8), put(292, 6), put(751, 9), put(678, 7), put(349, 8), put(363, 0), put(692, 5), put(922, 9), put(107, 4), put(61, 8), put(180, 7)]"
     },
@@ -173,10 +173,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.101041
+    "wallMilliseconds" : 3.893167
   },
   {
-    "evaluations" : 733,
+    "evaluations" : 741,
     "original" : {
       "p" : "[put(858, 6), put(984, 4), put(647, 4), put(308, 9), put(7, 5), put(424, 0), put(729, 9), put(997, 3), put(83, 0), put(743, 5), put(735, 5), put(303, 2), put(496, 6), put(250, 0), put(512, 9), put(77, 3), put(378, 7), put(519, 8), put(252, 7), put(780, 5), put(308, 5), put(551, 0), put(357, 9), put(468, 3), put(843, 2), put(849, 2), put(129, 7), put(141, 0), put(796, 1), put(739, 8), put(639, 0), put(689, 8), put(766, 1), put(903, 3), put(901, 6), put(681, 1), put(802, 8), put(537, 6)]"
     },
@@ -184,10 +184,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.606666
+    "wallMilliseconds" : 6.835334
   },
   {
-    "evaluations" : 781,
+    "evaluations" : 785,
     "original" : {
       "p" : "[put(359, 9), put(473, 6), put(951, 7), put(639, 5), put(969, 5), put(843, 9), put(907, 4), put(558, 5), put(75, 4), put(135, 4), put(169, 3), put(465, 4), put(88, 3), put(524, 9), put(920, 4), put(317, 7), put(911, 5), put(771, 2), put(846, 2), put(912, 0), put(504, 7), put(903, 0), put(346, 0), put(894, 5), put(376, 8), put(775, 2), put(573, 7), put(247, 1), put(534, 4)]"
     },
@@ -195,10 +195,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.011292
+    "wallMilliseconds" : 5.759375
   },
   {
-    "evaluations" : 632,
+    "evaluations" : 636,
     "original" : {
       "p" : "[put(208, 1), put(78, 8), put(173, 2), put(257, 8), put(929, 1), put(923, 2), put(251, 9), put(665, 5), put(128, 7), put(68, 6), put(318, 5), put(493, 8), put(697, 1), put(812, 1), put(940, 7), put(355, 6), put(661, 7), put(444, 9), put(373, 6), put(589, 9), put(366, 6)]"
     },
@@ -206,10 +206,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.630375
+    "wallMilliseconds" : 8.159625
   },
   {
-    "evaluations" : 1118,
+    "evaluations" : 1121,
     "original" : {
       "p" : "[put(214, 7), put(789, 4), put(956, 2), put(593, 0), put(342, 6), put(988, 8), put(969, 1), put(21, 4), put(528, 8), put(866, 5), put(197, 1), put(31, 8), put(670, 3), put(868, 7), put(775, 7), put(682, 0), put(247, 5), put(765, 5), put(697, 2), put(488, 7), put(494, 0), put(801, 2), put(129, 0)]"
     },
@@ -217,10 +217,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 8.871042
+    "wallMilliseconds" : 8.640792
   },
   {
-    "evaluations" : 608,
+    "evaluations" : 613,
     "original" : {
       "p" : "[put(928, 7), put(450, 3), put(813, 6), put(670, 0), put(290, 0), put(221, 2), put(278, 5), put(913, 6), put(939, 4), put(251, 2), put(285, 5), put(400, 5), put(394, 3), put(427, 2), put(994, 7), put(568, 0), put(390, 8), put(795, 9), put(4, 8), put(459, 7), put(622, 0)]"
     },
@@ -228,10 +228,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 4.384666
+    "wallMilliseconds" : 4.282416
   },
   {
-    "evaluations" : 722,
+    "evaluations" : 726,
     "original" : {
       "p" : "[put(867, 3), put(391, 7), put(442, 4), put(395, 3), put(676, 1), put(292, 6), put(935, 3), put(752, 0), put(701, 8), put(839, 4), put(967, 3), put(99, 4), put(462, 2), put(177, 8), put(640, 0), put(776, 1), put(387, 6), put(170, 9), put(162, 1), put(218, 4), put(624, 2), put(432, 7), put(588, 4), put(887, 3), put(273, 4), put(927, 6), put(353, 4), put(625, 5), put(459, 0), put(570, 6), put(202, 2), put(152, 8), put(614, 3), put(267, 3), put(657, 6), put(890, 6), put(998, 9), put(182, 5), put(649, 7), put(587, 2), put(684, 9), put(331, 7), put(86, 2), put(609, 1), put(793, 8), put(72, 2), put(564, 6), put(569, 4), put(973, 3)]"
     },
@@ -239,10 +239,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.934
+    "wallMilliseconds" : 6.089583
   },
   {
-    "evaluations" : 611,
+    "evaluations" : 610,
     "original" : {
       "p" : "[put(924, 0), put(936, 8), put(983, 1), put(687, 0), put(570, 5), put(548, 5), put(875, 7), put(498, 7), put(934, 5), put(590, 9), put(454, 8), put(647, 9), put(442, 8), put(371, 2), put(580, 0), put(684, 0), put(558, 6), put(488, 1), put(13, 6), put(899, 7), put(256, 1), put(720, 9), put(861, 0), put(190, 2), put(211, 6), put(358, 5), put(779, 8), put(343, 2), put(303, 7), put(179, 6), put(603, 2), put(676, 5), put(137, 9), put(722, 4), put(261, 4), put(654, 4), put(766, 1), put(313, 9), put(725, 0), put(613, 7), put(649, 1), put(113, 5), put(635, 4), put(329, 4), put(498, 4), put(170, 5)]"
     },
@@ -250,10 +250,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 5.73
+    "wallMilliseconds" : 6.190916
   },
   {
-    "evaluations" : 607,
+    "evaluations" : 606,
     "original" : {
       "p" : "[put(446, 9), put(834, 1), put(798, 4), put(666, 5), put(250, 9), put(204, 7), put(70, 0), put(404, 5), put(609, 7), put(355, 9), put(692, 1), put(773, 3), put(216, 6), put(473, 2), put(373, 9), put(547, 0), put(988, 2), put(16, 2), put(447, 8), put(188, 1), put(278, 6), put(894, 6), put(578, 4), put(428, 8), put(692, 6), put(72, 8), put(999, 2), put(764, 6), put(408, 0), put(197, 1), put(530, 3), put(147, 8), put(725, 4), put(863, 2), put(506, 4), put(935, 8), put(870, 7), put(172, 7), put(172, 1), put(886, 6), put(681, 2), put(901, 5), put(812, 7), put(567, 1), put(598, 5)]"
     },
@@ -261,10 +261,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.450917
+    "wallMilliseconds" : 4.684917
   },
   {
-    "evaluations" : 623,
+    "evaluations" : 630,
     "original" : {
       "p" : "[put(292, 4), put(225, 1), put(82, 7), put(342, 9), put(389, 3), put(124, 9), put(900, 0), put(245, 3), put(482, 3), put(706, 8), put(433, 8), put(440, 6), put(377, 7), put(54, 5), put(677, 0), put(64, 0), put(652, 7), put(31, 9), put(61, 9), put(834, 0), put(22, 9), put(162, 6), put(186, 5), put(356, 3), put(737, 6), put(63, 9), put(100, 2), put(232, 9), put(440, 2), put(28, 0), put(293, 3)]"
     },
@@ -272,10 +272,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 4.113959
+    "wallMilliseconds" : 4.415375
   },
   {
-    "evaluations" : 734,
+    "evaluations" : 736,
     "original" : {
       "p" : "[put(689, 9), put(300, 7), put(302, 9), put(651, 5), put(84, 7), put(669, 0), put(201, 4), put(265, 5), put(191, 3), put(877, 6), put(459, 4), put(320, 3), put(225, 2), put(708, 0), put(645, 6), put(136, 0), put(468, 0), put(640, 3), put(667, 1), put(156, 5), put(156, 0), put(946, 4), put(597, 2), put(848, 5), put(549, 5), put(394, 1), put(295, 6), put(764, 1), put(80, 8), put(672, 8), put(368, 0), put(996, 5), put(464, 6), put(644, 3), put(832, 9), put(558, 3), put(252, 5), put(194, 0), put(956, 7), put(914, 2), put(789, 5), put(83, 1), put(69, 7)]"
     },
@@ -283,10 +283,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.796583
+    "wallMilliseconds" : 8.508042
   },
   {
-    "evaluations" : 728,
+    "evaluations" : 735,
     "original" : {
       "p" : "[put(565, 5), put(291, 6), put(104, 5), put(872, 0), put(337, 8), put(758, 2), put(169, 9), put(803, 7), put(256, 9), put(926, 2), put(677, 3), put(280, 6), put(2, 8), put(651, 7), put(716, 9), put(842, 6), put(125, 9), put(861, 2), put(593, 5), put(633, 9), put(624, 6), put(821, 9), put(477, 1), put(36, 4), put(420, 9), put(320, 0), put(267, 9), put(848, 6), put(439, 1), put(830, 0), put(428, 0), put(227, 3), put(654, 5), put(338, 5)]"
     },
@@ -294,10 +294,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.751
+    "wallMilliseconds" : 6.17
   },
   {
-    "evaluations" : 585,
+    "evaluations" : 586,
     "original" : {
       "p" : "[put(577, 3), put(894, 2), put(867, 7), put(115, 3), put(578, 2), put(193, 2), put(719, 6), put(354, 2), put(678, 9), put(333, 0), put(644, 2), put(433, 1), put(405, 3), put(83, 1), put(495, 2), put(329, 4), put(665, 3), put(350, 5), put(456, 4), put(550, 4), put(171, 0), put(664, 0), put(270, 3)]"
     },
@@ -305,10 +305,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.717333
+    "wallMilliseconds" : 3.814292
   },
   {
-    "evaluations" : 1118,
+    "evaluations" : 1108,
     "original" : {
       "p" : "[put(81, 4), put(168, 6), put(791, 6), put(295, 6), put(444, 9), put(475, 3), put(810, 2), put(800, 4), put(690, 9), put(297, 1), put(872, 7), put(0, 4), put(108, 6), put(516, 5), put(776, 5), put(802, 7), put(872, 2), put(532, 3), put(148, 8), put(560, 1), put(798, 5), put(436, 7), put(856, 2), put(361, 2), put(795, 8)]"
     },
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 11.322125
+    "wallMilliseconds" : 10.948208
   },
   {
     "evaluations" : 741,
@@ -327,7 +327,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.912708
+    "wallMilliseconds" : 5.809666
   },
   {
     "evaluations" : 607,
@@ -338,10 +338,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.061417
+    "wallMilliseconds" : 5.029791
   },
   {
-    "evaluations" : 601,
+    "evaluations" : 600,
     "original" : {
       "p" : "[put(141, 7), put(823, 3), put(369, 0), put(643, 8), put(975, 2), put(78, 5), put(655, 0), put(290, 4), put(827, 0), put(560, 4), put(955, 3), put(618, 0), put(170, 5), put(818, 0), put(805, 6), put(341, 6), put(442, 1), put(823, 3), put(216, 2), put(325, 1), put(894, 6), put(846, 7), put(318, 3), put(842, 1), put(989, 1), put(510, 4), put(262, 6), put(173, 4), put(267, 0), put(237, 2), put(41, 0), put(76, 1), put(556, 0), put(331, 0), put(46, 5), put(722, 0), put(483, 4), put(447, 2), put(652, 6), put(305, 7), put(719, 4), put(520, 7), put(329, 6), put(92, 0), put(246, 6), put(732, 2), put(105, 0)]"
     },
@@ -349,10 +349,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 4.303542
+    "wallMilliseconds" : 4.322709
   },
   {
-    "evaluations" : 620,
+    "evaluations" : 613,
     "original" : {
       "p" : "[put(921, 3), put(811, 2), put(866, 8), put(775, 2), put(759, 9), put(333, 1), put(926, 6), put(136, 0), put(574, 1), put(624, 0), put(784, 8), put(161, 0), put(911, 1), put(626, 1), put(833, 9), put(555, 4), put(20, 5), put(259, 2), put(235, 2), put(382, 6), put(532, 4), put(474, 7), put(832, 1), put(228, 6), put(399, 7), put(333, 7), put(692, 6), put(302, 4), put(2, 3), put(713, 9), put(598, 8), put(898, 8), put(702, 6), put(945, 8)]"
     },
@@ -360,10 +360,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.150458
+    "wallMilliseconds" : 5.1545
   },
   {
-    "evaluations" : 715,
+    "evaluations" : 720,
     "original" : {
       "p" : "[put(792, 6), put(139, 7), put(475, 0), put(665, 4), put(401, 7), put(903, 5), put(790, 5), put(756, 5), put(111, 6), put(656, 1), put(497, 5), put(677, 7), put(370, 0), put(638, 8), put(473, 5), put(94, 6), put(302, 8), put(626, 8), put(428, 4), put(74, 8), put(444, 2), put(160, 9), put(42, 1), put(192, 2), put(690, 2), put(79, 1), put(804, 5), put(353, 0), put(404, 9), put(282, 5), put(377, 6), put(158, 1), put(182, 9), put(217, 0), put(72, 1), put(230, 1), put(539, 9), put(605, 7), put(43, 8)]"
     },
@@ -371,10 +371,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.079959
+    "wallMilliseconds" : 4.957292
   },
   {
-    "evaluations" : 726,
+    "evaluations" : 728,
     "original" : {
       "p" : "[put(835, 3), put(37, 0), put(945, 9), put(730, 0), put(175, 0), put(688, 4), put(583, 7), put(443, 7), put(588, 6), put(787, 7), put(758, 5), put(737, 8), put(342, 2), put(896, 7), put(816, 0), put(447, 4), put(538, 2), put(672, 1), put(389, 5), put(646, 8), put(672, 0), put(523, 6), put(360, 6), put(122, 2), put(792, 6), put(290, 9), put(349, 4), put(866, 7), put(709, 9), put(461, 1), put(660, 2)]"
     },
@@ -382,10 +382,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.693917
+    "wallMilliseconds" : 5.564792
   },
   {
-    "evaluations" : 716,
+    "evaluations" : 719,
     "original" : {
       "p" : "[put(941, 0), put(228, 4), put(154, 8), put(166, 6), put(565, 8), put(750, 9), put(540, 6), put(377, 1), put(614, 8), put(961, 0), put(326, 4), put(651, 5), put(551, 7), put(230, 7), put(118, 0), put(902, 8), put(745, 1), put(388, 7), put(723, 2), put(701, 4), put(917, 9), put(250, 0), put(623, 2), put(754, 2), put(49, 9), put(28, 0), put(629, 9), put(821, 2), put(534, 5), put(378, 0), put(787, 4), put(342, 4), put(581, 3), put(949, 8), put(21, 5)]"
     },
@@ -393,10 +393,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.399542
+    "wallMilliseconds" : 5.056791
   },
   {
-    "evaluations" : 1113,
+    "evaluations" : 1124,
     "original" : {
       "p" : "[put(827, 0), put(993, 2), put(367, 8), put(890, 4), put(686, 0), put(379, 4), put(599, 5), put(352, 4), put(525, 9), put(852, 0), put(763, 4)]"
     },
@@ -404,10 +404,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.747417
+    "wallMilliseconds" : 6.689958
   },
   {
-    "evaluations" : 1102,
+    "evaluations" : 1100,
     "original" : {
       "p" : "[put(520, 9), put(77, 1), put(889, 8), put(116, 7), put(114, 2), put(794, 6), put(430, 1), put(182, 2), put(616, 8), put(54, 7), put(682, 2), put(137, 0), put(192, 8), put(115, 4), put(502, 1), put(393, 6), put(614, 9), put(890, 9)]"
     },
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.74925
+    "wallMilliseconds" : 6.720333
   },
   {
     "evaluations" : 594,
@@ -426,10 +426,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.607333
+    "wallMilliseconds" : 3.629541
   },
   {
-    "evaluations" : 604,
+    "evaluations" : 609,
     "original" : {
       "p" : "[put(289, 3), put(533, 3), put(615, 2), put(207, 4), put(715, 6), put(699, 8), put(199, 3), put(460, 1), put(39, 7), put(985, 2), put(431, 2), put(340, 8), put(974, 4), put(463, 7), put(463, 1), put(447, 9), put(649, 2), put(165, 7), put(363, 2), put(514, 1), put(65, 4), put(301, 7)]"
     },
@@ -437,10 +437,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.877917
+    "wallMilliseconds" : 3.839083
   },
   {
-    "evaluations" : 606,
+    "evaluations" : 608,
     "original" : {
       "p" : "[put(99, 7), put(757, 9), put(703, 3), put(990, 4), put(225, 4), put(756, 7), put(827, 9), put(91, 4), put(425, 7), put(297, 5), put(157, 5), put(977, 8), put(664, 4), put(347, 7), put(566, 0), put(284, 1), put(676, 7), put(583, 9), put(832, 2), put(916, 7), put(390, 5), put(842, 6), put(298, 1), put(558, 7), put(89, 6), put(660, 0), put(507, 4), put(579, 3), put(224, 5), put(5, 4), put(116, 2), put(277, 8), put(636, 7), put(326, 4), put(273, 6), put(357, 1), put(895, 5), put(511, 0), put(770, 3), put(615, 7), put(61, 6), put(41, 5), put(81, 0), put(882, 9), put(236, 2), put(635, 8)]"
     },
@@ -448,10 +448,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.480458
+    "wallMilliseconds" : 4.3835
   },
   {
-    "evaluations" : 1116,
+    "evaluations" : 1124,
     "original" : {
       "p" : "[put(821, 9), put(365, 3), put(763, 7), put(346, 7), put(689, 6), put(608, 0), put(276, 8), put(741, 5), put(776, 0), put(229, 7), put(575, 8), put(483, 0), put(911, 0), put(533, 2), put(943, 4), put(919, 8), put(198, 1), put(691, 2), put(825, 1), put(565, 8), put(18, 6), put(158, 7), put(205, 7), put(955, 5), put(69, 0), put(449, 2), put(18, 1), put(622, 8), put(124, 0), put(466, 9), put(759, 4), put(876, 3), put(383, 5), put(905, 7), put(126, 4), put(953, 5), put(495, 1), put(489, 6), put(814, 7), put(656, 6), put(311, 7), put(944, 8), put(288, 4), put(503, 7), put(230, 9), put(926, 5), put(500, 4), put(532, 2), put(27, 8), put(528, 5)]"
     },
@@ -459,10 +459,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.436541
+    "wallMilliseconds" : 7.197208
   },
   {
-    "evaluations" : 746,
+    "evaluations" : 751,
     "original" : {
       "p" : "[put(389, 5), put(325, 7), put(818, 6), put(331, 5), put(53, 5), put(474, 6), put(494, 0), put(35, 7), put(320, 4), put(164, 1), put(160, 0), put(404, 3), put(800, 8), put(78, 5), put(128, 2), put(934, 1), put(427, 0), put(1, 2), put(541, 4), put(279, 7), put(734, 0), put(760, 2), put(584, 3), put(493, 5), put(825, 1), put(353, 7), put(141, 6), put(813, 7), put(540, 7), put(251, 7), put(526, 4), put(624, 2), put(511, 0), put(929, 9), put(366, 0), put(360, 8), put(914, 5), put(950, 7), put(402, 5), put(183, 8), put(268, 9), put(863, 0), put(159, 4), put(804, 0)]"
     },
@@ -470,10 +470,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.774042
+    "wallMilliseconds" : 6.551042
   },
   {
-    "evaluations" : 620,
+    "evaluations" : 612,
     "original" : {
       "p" : "[put(296, 4), put(350, 4), put(629, 2), put(480, 5), put(799, 9), put(148, 4), put(687, 3), put(915, 8), put(460, 5), put(274, 3), put(893, 1), put(996, 8), put(849, 1), put(146, 6), put(950, 7)]"
     },
@@ -481,10 +481,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(700, 1)]"
     },
-    "wallMilliseconds" : 4.827583
+    "wallMilliseconds" : 4.485584
   },
   {
-    "evaluations" : 618,
+    "evaluations" : 608,
     "original" : {
       "p" : "[put(95, 5), put(78, 9), put(529, 8), put(476, 7), put(698, 0), put(471, 4), put(814, 3), put(375, 5), put(678, 1), put(848, 6), put(338, 3), put(193, 7), put(561, 3), put(296, 8), put(784, 2), put(352, 9), put(855, 7), put(680, 9), put(125, 0), put(165, 7), put(354, 9), put(208, 8), put(731, 6), put(60, 8), put(661, 5)]"
     },
@@ -492,10 +492,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 4.623458
+    "wallMilliseconds" : 4.112875
   },
   {
-    "evaluations" : 610,
+    "evaluations" : 611,
     "original" : {
       "p" : "[put(305, 7), put(294, 9), put(720, 0), put(575, 8), put(637, 6), put(491, 2), put(201, 7), put(449, 8), put(505, 7), put(549, 4), put(447, 3), put(26, 3), put(291, 8), put(472, 7), put(861, 9), put(342, 6), put(9, 6), put(984, 9), put(443, 8), put(40, 7), put(825, 6), put(567, 3), put(695, 9), put(288, 0), put(522, 0), put(414, 8), put(94, 5), put(22, 3), put(794, 8), put(524, 1), put(636, 1), put(518, 8)]"
     },
@@ -503,10 +503,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.34075
+    "wallMilliseconds" : 4.195084
   },
   {
-    "evaluations" : 605,
+    "evaluations" : 604,
     "original" : {
       "p" : "[put(693, 3), put(140, 2), put(432, 0), put(976, 3), put(86, 2), put(657, 6), put(256, 9), put(486, 4), put(728, 2), put(902, 4), put(740, 8), put(3, 7), put(415, 8), put(844, 7), put(265, 8), put(576, 5), put(817, 7), put(451, 7), put(738, 6), put(589, 5), put(686, 5), put(535, 9), put(712, 1), put(168, 8), put(754, 5), put(2, 1), put(28, 3), put(748, 5), put(991, 2), put(395, 6), put(153, 2), put(219, 3), put(819, 8), put(111, 6), put(638, 8), put(144, 1), put(410, 1), put(271, 3), put(251, 8), put(810, 4), put(61, 2), put(970, 1), put(596, 2), put(447, 0)]"
     },
@@ -514,10 +514,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.334541
+    "wallMilliseconds" : 4.141084
   },
   {
-    "evaluations" : 709,
+    "evaluations" : 716,
     "original" : {
       "p" : "[put(803, 8), put(607, 7), put(115, 7), put(981, 2), put(307, 8), put(698, 5), put(7, 4), put(180, 0), put(222, 6), put(477, 1), put(423, 4), put(630, 0), put(202, 1), put(727, 2), put(814, 7)]"
     },
@@ -525,10 +525,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.424084
+    "wallMilliseconds" : 4.399083
   },
   {
-    "evaluations" : 1118,
+    "evaluations" : 1113,
     "original" : {
       "p" : "[put(40, 0), put(688, 3), put(854, 9), put(247, 3), put(407, 6), put(375, 8), put(171, 1), put(396, 3), put(397, 8), put(94, 9), put(713, 4), put(410, 4), put(876, 9), put(671, 7), put(729, 3), put(336, 6), put(515, 1), put(613, 4), put(566, 4), put(920, 2), put(269, 2), put(681, 8), put(604, 9), put(560, 7)]"
     },
@@ -536,10 +536,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 8.01125
+    "wallMilliseconds" : 8.101875
   },
   {
-    "evaluations" : 716,
+    "evaluations" : 719,
     "original" : {
       "p" : "[put(171, 2), put(31, 0), put(470, 4), put(187, 0), put(600, 9), put(506, 9), put(423, 8), put(352, 3), put(675, 3), put(137, 3), put(315, 7), put(722, 7), put(402, 7), put(365, 6), put(893, 9), put(0, 0), put(738, 7), put(905, 9), put(629, 7), put(265, 3), put(771, 4), put(345, 9), put(676, 0), put(600, 5), put(852, 7), put(22, 1)]"
     },
@@ -547,10 +547,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.275375
+    "wallMilliseconds" : 5.236209
   },
   {
-    "evaluations" : 714,
+    "evaluations" : 717,
     "original" : {
       "p" : "[put(219, 0), put(781, 7), put(705, 2), put(344, 5), put(874, 2), put(858, 8), put(19, 8), put(485, 4), put(42, 7), put(470, 1), put(151, 2), put(613, 4), put(256, 1), put(475, 6), put(737, 1), put(370, 1), put(515, 3), put(850, 3), put(875, 6), put(839, 3), put(647, 1), put(553, 5), put(272, 1), put(374, 7), put(21, 2), put(936, 7), put(78, 2), put(467, 1), put(673, 5), put(720, 2), put(566, 6), put(358, 7), put(957, 0), put(207, 4)]"
     },
@@ -558,10 +558,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.252417
+    "wallMilliseconds" : 6.383459
   },
   {
-    "evaluations" : 1210,
+    "evaluations" : 1215,
     "original" : {
       "p" : "[put(637, 7), put(421, 4), put(421, 9), put(137, 8), put(607, 7), put(833, 2), put(113, 4), put(204, 3), put(603, 7), put(850, 6), put(881, 6), put(510, 1), put(633, 1), put(248, 0), put(596, 9), put(352, 5), put(627, 0), put(140, 9), put(563, 8), put(559, 8), put(65, 6), put(746, 4), put(680, 3), put(274, 7), put(157, 5), put(923, 6), put(906, 8), put(742, 6), put(575, 7), put(435, 0), put(264, 9), put(278, 9), put(167, 4), put(363, 8), put(254, 5)]"
     },
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.659
+    "wallMilliseconds" : 7.531459
   },
   {
     "evaluations" : 706,
@@ -580,10 +580,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.871625
+    "wallMilliseconds" : 6.001042
   },
   {
-    "evaluations" : 725,
+    "evaluations" : 722,
     "original" : {
       "p" : "[put(276, 8), put(330, 3), put(292, 3), put(471, 3), put(567, 7), put(22, 2), put(409, 6), put(973, 0), put(863, 5), put(362, 5), put(176, 6), put(844, 7), put(531, 1), put(419, 6), put(54, 9), put(317, 3), put(794, 0), put(706, 6), put(740, 3), put(206, 1), put(644, 9), put(615, 8), put(398, 4), put(580, 8), put(746, 4), put(859, 6), put(381, 0), put(916, 7), put(230, 9), put(130, 3), put(732, 3), put(765, 9), put(87, 4), put(491, 8), put(416, 9), put(700, 7), put(652, 4), put(93, 3), put(311, 6), put(66, 5), put(630, 5), put(360, 0), put(8, 9), put(261, 0), put(115, 5)]"
     },
@@ -591,10 +591,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.750542
+    "wallMilliseconds" : 5.320792
   },
   {
-    "evaluations" : 833,
+    "evaluations" : 845,
     "original" : {
       "p" : "[put(782, 8), put(322, 4), put(783, 2), put(193, 7), put(169, 2), put(831, 5), put(921, 4), put(112, 0), put(861, 8), put(987, 5), put(913, 0), put(570, 4), put(632, 8), put(457, 1), put(737, 8), put(429, 8), put(536, 0), put(130, 1), put(710, 5), put(559, 5), put(212, 7), put(407, 6), put(479, 9), put(612, 1), put(299, 3), put(968, 5), put(36, 8), put(964, 0), put(84, 0), put(264, 6)]"
     },
@@ -602,10 +602,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.470583
+    "wallMilliseconds" : 6.460833
   },
   {
-    "evaluations" : 701,
+    "evaluations" : 706,
     "original" : {
       "p" : "[put(971, 8), put(975, 0), put(692, 5), put(96, 7), put(85, 8), put(272, 5), put(182, 7), put(916, 2), put(758, 1), put(484, 0), put(745, 5), put(84, 4), put(507, 9), put(449, 3), put(909, 7), put(75, 7), put(579, 8), put(201, 9), put(547, 2), put(203, 0), put(685, 1), put(994, 0), put(393, 1), put(850, 2), put(824, 7), put(41, 0), put(154, 2), put(646, 8), put(490, 7), put(773, 1), put(543, 7), put(868, 8), put(842, 7), put(988, 4), put(235, 5), put(542, 5), put(930, 8)]"
     },
@@ -613,10 +613,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.005375
+    "wallMilliseconds" : 4.88125
   },
   {
-    "evaluations" : 601,
+    "evaluations" : 606,
     "original" : {
       "p" : "[put(137, 3), put(987, 0), put(421, 1), put(540, 5), put(621, 3), put(394, 0), put(883, 7), put(377, 0), put(511, 8), put(150, 0), put(786, 3)]"
     },
@@ -624,10 +624,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.805917
+    "wallMilliseconds" : 3.671458
   },
   {
-    "evaluations" : 704,
+    "evaluations" : 708,
     "original" : {
       "p" : "[put(968, 3), put(522, 2), put(511, 0), put(111, 8), put(628, 0), put(411, 8), put(893, 2), put(528, 5), put(482, 7), put(425, 9), put(575, 7), put(572, 6), put(947, 8), put(55, 9), put(781, 6), put(764, 1), put(115, 4), put(75, 6), put(846, 5), put(192, 0), put(673, 2), put(901, 7), put(187, 5), put(376, 0), put(669, 3), put(757, 0), put(38, 7), put(301, 3), put(813, 9), put(420, 3), put(464, 1), put(696, 4), put(29, 4), put(36, 7), put(230, 9), put(948, 9), put(558, 4), put(382, 2), put(620, 0), put(190, 5), put(525, 1), put(429, 6), put(387, 5)]"
     },
@@ -635,10 +635,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.092208
+    "wallMilliseconds" : 4.713959
   },
   {
-    "evaluations" : 662,
+    "evaluations" : 656,
     "original" : {
       "p" : "[put(967, 7), put(26, 7), put(398, 4), put(364, 7), put(751, 0), put(274, 4), put(900, 7), put(382, 7), put(592, 4), put(883, 0), put(579, 5), put(606, 9), put(658, 9), put(726, 0), put(69, 3), put(642, 0), put(12, 9), put(178, 2), put(787, 3), put(906, 3), put(508, 0), put(923, 9), put(104, 3), put(719, 5)]"
     },
@@ -646,10 +646,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(700, 1)]"
     },
-    "wallMilliseconds" : 6.163
+    "wallMilliseconds" : 5.396208
   },
   {
-    "evaluations" : 738,
+    "evaluations" : 749,
     "original" : {
       "p" : "[put(415, 2), put(356, 8), put(437, 5), put(131, 0), put(115, 0), put(984, 6), put(690, 2), put(672, 2), put(72, 2), put(643, 7), put(417, 8), put(474, 2), put(117, 4), put(429, 7), put(93, 3), put(531, 4), put(514, 1), put(506, 2), put(433, 9), put(51, 3), put(968, 0), put(860, 3), put(219, 7), put(226, 9), put(557, 4), put(894, 8), put(669, 4)]"
     },
@@ -657,10 +657,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.926542
+    "wallMilliseconds" : 4.943792
   },
   {
-    "evaluations" : 1127,
+    "evaluations" : 1115,
     "original" : {
       "p" : "[put(996, 7), put(632, 5), put(534, 2), put(878, 9), put(187, 1), put(363, 2), put(108, 4), put(51, 8), put(404, 0), put(299, 4), put(20, 6), put(957, 0), put(235, 0), put(565, 6), put(476, 2), put(46, 9), put(967, 9), put(569, 8), put(619, 2), put(863, 7), put(50, 7), put(345, 4), put(282, 6), put(901, 5), put(332, 7), put(558, 7), put(634, 3), put(536, 4), put(97, 0), put(567, 7), put(70, 9), put(70, 8), put(609, 8), put(522, 6), put(481, 5), put(60, 2)]"
     },
@@ -668,10 +668,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 10.539708
+    "wallMilliseconds" : 10.020917
   },
   {
-    "evaluations" : 729,
+    "evaluations" : 739,
     "original" : {
       "p" : "[put(384, 8), put(206, 9), put(819, 7), put(410, 9), put(817, 6), put(215, 8), put(330, 6), put(19, 1), put(877, 7), put(582, 5), put(277, 8), put(48, 6), put(491, 7), put(601, 0), put(234, 8), put(646, 1), put(5, 2), put(759, 5), put(313, 1), put(876, 6), put(170, 7), put(654, 4), put(932, 7), put(48, 4), put(475, 1), put(998, 3), put(379, 6), put(801, 8), put(739, 5), put(150, 0), put(966, 1), put(39, 7), put(397, 8), put(345, 5), put(743, 0), put(388, 5), put(116, 5), put(472, 6), put(962, 2), put(89, 3), put(351, 1), put(459, 6), put(743, 2), put(888, 2), put(432, 9), put(659, 6)]"
     },
@@ -679,10 +679,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.1545
+    "wallMilliseconds" : 5.072667
   },
   {
-    "evaluations" : 610,
+    "evaluations" : 602,
     "original" : {
       "p" : "[put(283, 7), put(73, 0), put(355, 0), put(893, 5), put(941, 6), put(464, 6), put(912, 9), put(962, 0), put(753, 7), put(873, 1), put(965, 7), put(564, 9), put(123, 2), put(982, 3), put(273, 1), put(507, 1), put(464, 7), put(806, 5), put(631, 3), put(197, 9), put(628, 6), put(469, 2), put(107, 2), put(954, 8), put(809, 1), put(780, 5), put(176, 9), put(733, 8), put(830, 7), put(727, 6), put(633, 4), put(152, 2), put(282, 4), put(85, 2), put(612, 1), put(532, 7), put(566, 6), put(371, 7), put(7, 4), put(55, 0), put(326, 8), put(554, 0), put(440, 0), put(874, 3), put(388, 6), put(338, 6), put(185, 9), put(687, 6), put(900, 5)]"
     },
@@ -690,10 +690,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.054
+    "wallMilliseconds" : 4.558834
   },
   {
-    "evaluations" : 769,
+    "evaluations" : 773,
     "original" : {
       "p" : "[put(469, 4), put(192, 7), put(600, 9), put(219, 2), put(518, 9), put(31, 9), put(359, 1), put(260, 1), put(122, 3), put(773, 3), put(120, 6), put(408, 3), put(110, 3), put(63, 0), put(755, 7), put(123, 4), put(484, 6), put(880, 2), put(700, 5), put(421, 2), put(768, 5), put(222, 6), put(436, 4), put(579, 5), put(108, 5), put(370, 3), put(88, 4), put(551, 9), put(9, 2), put(219, 5), put(151, 2), put(720, 4)]"
     },
@@ -701,10 +701,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.192834
+    "wallMilliseconds" : 5.94
   },
   {
-    "evaluations" : 734,
+    "evaluations" : 731,
     "original" : {
       "p" : "[put(843, 2), put(580, 8), put(474, 0), put(201, 2), put(430, 1), put(877, 9), put(688, 0), put(19, 0), put(356, 4), put(620, 1), put(638, 8), put(106, 8), put(918, 4), put(778, 9), put(462, 3), put(260, 0), put(664, 0), put(348, 4), put(487, 8), put(817, 3), put(131, 0), put(461, 7), put(262, 2), put(941, 0), put(504, 5), put(738, 7), put(248, 4), put(627, 1), put(776, 3), put(256, 0), put(107, 7), put(320, 0), put(871, 3), put(826, 8), put(203, 8), put(909, 6), put(564, 5), put(140, 2), put(570, 1), put(557, 4), put(531, 0), put(374, 4), put(814, 4), put(915, 7), put(775, 2), put(285, 2), put(841, 6)]"
     },
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.985042
+    "wallMilliseconds" : 6.596584
   },
   {
     "evaluations" : 602,
@@ -723,10 +723,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.973042
+    "wallMilliseconds" : 3.714417
   },
   {
-    "evaluations" : 729,
+    "evaluations" : 735,
     "original" : {
       "p" : "[put(790, 5), put(637, 8), put(799, 5), put(267, 6), put(834, 1), put(902, 8), put(899, 2), put(391, 5), put(634, 9), put(57, 6), put(156, 6), put(133, 9), put(664, 6), put(131, 6), put(501, 6), put(992, 4), put(559, 4), put(882, 8), put(310, 5), put(524, 8), put(558, 0), put(404, 6), put(403, 2), put(932, 7), put(267, 2), put(687, 4), put(123, 8), put(230, 4), put(484, 5), put(324, 0), put(907, 9), put(373, 2), put(418, 3), put(479, 3), put(34, 6), put(615, 9), put(480, 5), put(715, 5), put(487, 9), put(341, 6), put(784, 6), put(158, 7), put(394, 5), put(755, 4), put(771, 1), put(471, 8), put(116, 2)]"
     },
@@ -734,10 +734,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.336416
+    "wallMilliseconds" : 5.088125
   },
   {
-    "evaluations" : 731,
+    "evaluations" : 728,
     "original" : {
       "p" : "[put(966, 6), put(715, 2), put(821, 4), put(278, 0), put(847, 7), put(702, 2), put(223, 9), put(603, 2), put(742, 8), put(770, 4), put(755, 1), put(250, 8), put(177, 9), put(992, 4), put(747, 7), put(415, 3), put(456, 2), put(128, 6), put(254, 1), put(601, 7), put(353, 7), put(327, 1), put(361, 7), put(115, 1), put(694, 6), put(436, 6), put(412, 3), put(114, 5), put(573, 7), put(346, 4), put(747, 4), put(921, 8), put(150, 8), put(643, 8), put(504, 0), put(586, 7), put(251, 6), put(798, 7), put(659, 4), put(448, 5), put(388, 1), put(816, 3), put(345, 0), put(153, 3), put(460, 5), put(22, 1), put(671, 9), put(155, 0), put(794, 0), put(155, 6)]"
     },
@@ -745,10 +745,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.176292
+    "wallMilliseconds" : 5.851791
   },
   {
-    "evaluations" : 852,
+    "evaluations" : 859,
     "original" : {
       "p" : "[put(54, 3), put(383, 4), put(140, 4), put(745, 1), put(719, 9), put(11, 8), put(975, 2), put(258, 8), put(850, 6), put(538, 2), put(873, 8), put(139, 7), put(660, 4), put(173, 9), put(62, 9), put(205, 0), put(642, 7), put(868, 5), put(249, 5), put(228, 5), put(214, 6), put(22, 7), put(554, 1), put(644, 4), put(341, 6), put(997, 8), put(334, 8), put(876, 0), put(52, 6), put(525, 2), put(382, 9), put(665, 3), put(108, 9), put(131, 1), put(831, 2), put(390, 6), put(303, 6), put(413, 8), put(619, 2), put(931, 1), put(203, 4), put(680, 6), put(234, 0)]"
     },
@@ -756,10 +756,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.930167
+    "wallMilliseconds" : 6.642208
   },
   {
-    "evaluations" : 675,
+    "evaluations" : 663,
     "original" : {
       "p" : "[put(365, 0), put(209, 5), put(854, 7), put(302, 4), put(367, 0), put(12, 9), put(623, 7), put(157, 1), put(853, 5), put(283, 1), put(419, 2), put(945, 9), put(594, 9), put(716, 5), put(841, 0), put(203, 8), put(549, 1), put(390, 9), put(477, 5), put(801, 8), put(527, 6), put(370, 4), put(753, 9), put(384, 2), put(685, 0), put(211, 9), put(104, 0), put(409, 8)]"
     },
@@ -767,10 +767,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(700, 1)]"
     },
-    "wallMilliseconds" : 7.741875
+    "wallMilliseconds" : 7.045875
   },
   {
-    "evaluations" : 625,
+    "evaluations" : 614,
     "original" : {
       "p" : "[put(405, 1), put(817, 9), put(523, 4), put(649, 6), put(709, 0), put(106, 3), put(554, 1), put(96, 6), put(571, 4), put(198, 6), put(74, 5), put(170, 5), put(565, 4), put(358, 8), put(77, 7), put(37, 6), put(866, 3), put(606, 6), put(518, 8), put(224, 4), put(335, 3), put(233, 9), put(131, 3), put(459, 8), put(117, 4), put(474, 0), put(443, 3), put(112, 3), put(875, 2), put(196, 5), put(158, 5), put(136, 1), put(898, 7), put(302, 3), put(74, 0), put(163, 2), put(983, 2), put(320, 6), put(503, 5), put(83, 7), put(962, 3)]"
     },
@@ -778,10 +778,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 6.658458
+    "wallMilliseconds" : 5.981958
   },
   {
-    "evaluations" : 622,
+    "evaluations" : 608,
     "original" : {
       "p" : "[put(120, 9), put(385, 0), put(917, 9), put(754, 0), put(58, 6), put(310, 3), put(84, 2), put(381, 5), put(860, 3), put(756, 0), put(797, 0), put(89, 1), put(738, 4), put(305, 7), put(252, 7), put(935, 9), put(295, 8), put(298, 5), put(533, 4), put(120, 0), put(784, 7), put(770, 4), put(389, 2), put(148, 9)]"
     },
@@ -789,10 +789,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 6.544125
+    "wallMilliseconds" : 5.750375
   },
   {
-    "evaluations" : 1235,
+    "evaluations" : 1240,
     "original" : {
       "p" : "[put(209, 6), put(380, 4), put(940, 8), put(574, 5), put(332, 0), put(527, 8), put(148, 6), put(902, 9), put(847, 3), put(221, 8), put(510, 3), put(27, 3), put(687, 4), put(212, 9), put(175, 0), put(794, 8), put(444, 8), put(239, 1), put(8, 2), put(882, 4), put(836, 6), put(240, 0), put(665, 4), put(120, 0), put(187, 7), put(936, 1), put(133, 4), put(373, 0), put(30, 5), put(351, 2), put(656, 2), put(35, 7), put(685, 9), put(729, 1), put(805, 2), put(101, 6), put(106, 8), put(13, 5), put(667, 7), put(931, 4)]"
     },
@@ -800,10 +800,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 8.587625
+    "wallMilliseconds" : 8.656333
   },
   {
-    "evaluations" : 640,
+    "evaluations" : 629,
     "original" : {
       "p" : "[put(150, 8), put(218, 4), put(856, 3), put(131, 1), put(796, 2), put(771, 3), put(979, 0), put(968, 5), put(138, 7), put(516, 9), put(989, 9), put(683, 4), put(629, 3), put(652, 9), put(57, 2), put(209, 0), put(303, 2), put(886, 2), put(812, 8), put(642, 1), put(221, 2), put(996, 8), put(864, 0), put(423, 6), put(518, 4), put(107, 7), put(509, 8), put(790, 3), put(542, 8), put(524, 6), put(797, 2), put(892, 3), put(542, 7), put(115, 0), put(333, 1), put(952, 9), put(538, 9), put(959, 7), put(418, 1), put(627, 0), put(71, 7), put(95, 2), put(242, 3), put(635, 5), put(981, 0), put(27, 4), put(352, 5), put(857, 8)]"
     },
@@ -811,10 +811,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 10.027833
+    "wallMilliseconds" : 10.643208
   },
   {
-    "evaluations" : 1102,
+    "evaluations" : 1101,
     "original" : {
       "p" : "[put(713, 6), put(532, 7), put(417, 4), put(991, 7), put(78, 1), put(283, 0), put(438, 9), put(171, 1), put(974, 9), put(661, 7), put(28, 0), put(963, 8), put(0, 1), put(969, 6), put(198, 8), put(433, 7), put(131, 8), put(706, 8), put(96, 8), put(710, 9), put(631, 2), put(570, 3), put(853, 9), put(336, 3), put(773, 4), put(885, 1), put(225, 6), put(28, 5), put(868, 8), put(976, 2), put(613, 2), put(977, 9), put(534, 0), put(277, 2), put(249, 4), put(917, 8), put(563, 3), put(120, 0), put(644, 0), put(639, 0), put(800, 9), put(20, 9), put(798, 1), put(649, 7)]"
     },
@@ -822,10 +822,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.841166
+    "wallMilliseconds" : 7.926375
   },
   {
-    "evaluations" : 765,
+    "evaluations" : 761,
     "original" : {
       "p" : "[put(41, 8), put(870, 5), put(289, 2), put(486, 2), put(188, 7), put(905, 8), put(534, 8), put(46, 2), put(514, 8), put(514, 8), put(659, 7), put(227, 2), put(438, 5), put(560, 5), put(129, 4), put(876, 1), put(949, 7), put(124, 9), put(876, 0), put(79, 7), put(411, 5), put(947, 9), put(437, 7), put(523, 4), put(533, 0), put(303, 2), put(842, 5), put(714, 1), put(865, 8), put(552, 8), put(586, 2), put(926, 6), put(523, 6), put(160, 8), put(535, 6), put(256, 2), put(462, 8), put(251, 8), put(831, 9), put(769, 3), put(65, 0), put(188, 6), put(592, 8), put(50, 7), put(766, 9)]"
     },
@@ -833,10 +833,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 8.961083
+    "wallMilliseconds" : 8.355459
   },
   {
-    "evaluations" : 747,
+    "evaluations" : 739,
     "original" : {
       "p" : "[put(527, 1), put(380, 6), put(674, 4), put(406, 3), put(198, 7), put(48, 5), put(795, 0), put(35, 9), put(599, 5), put(85, 9), put(304, 3), put(726, 5), put(314, 8), put(653, 4), put(12, 4), put(837, 7), put(799, 6), put(893, 7), put(798, 7), put(366, 4), put(577, 9), put(823, 1), put(957, 9), put(63, 5), put(22, 3), put(766, 2), put(527, 8), put(190, 9), put(961, 1), put(925, 9), put(427, 6), put(333, 7), put(551, 7), put(717, 3), put(987, 5), put(690, 1), put(790, 9), put(332, 6)]"
     },
@@ -844,10 +844,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 6.964375
+    "wallMilliseconds" : 6.444041
   },
   {
-    "evaluations" : 733,
+    "evaluations" : 736,
     "original" : {
       "p" : "[put(85, 9), put(368, 8), put(57, 1), put(695, 2), put(435, 8), put(330, 4), put(941, 8), put(595, 4), put(272, 6), put(12, 9), put(373, 8), put(790, 2), put(761, 0), put(952, 7), put(502, 7), put(499, 6), put(837, 1), put(779, 1), put(96, 5), put(223, 1), put(27, 5), put(549, 0), put(174, 0), put(522, 9), put(788, 3), put(800, 7), put(469, 8)]"
     },
@@ -855,10 +855,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.169833
+    "wallMilliseconds" : 5.223042
   },
   {
-    "evaluations" : 622,
+    "evaluations" : 619,
     "original" : {
       "p" : "[put(574, 5), put(599, 4), put(44, 5), put(448, 7), put(44, 4), put(755, 1), put(905, 8), put(470, 6), put(251, 0), put(648, 6), put(342, 7), put(853, 2), put(262, 2), put(137, 2), put(502, 7), put(763, 8), put(41, 3), put(837, 4), put(638, 4), put(185, 3), put(488, 9), put(646, 3), put(145, 4), put(295, 4), put(870, 9), put(25, 3), put(816, 6), put(712, 1), put(879, 9), put(228, 8), put(731, 5), put(315, 6), put(773, 4), put(341, 0)]"
     },
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.7415
+    "wallMilliseconds" : 4.629167
   },
   {
     "evaluations" : 606,
@@ -877,10 +877,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(700, 1)]"
     },
-    "wallMilliseconds" : 3.867375
+    "wallMilliseconds" : 3.83775
   },
   {
-    "evaluations" : 604,
+    "evaluations" : 601,
     "original" : {
       "p" : "[put(559, 7), put(543, 0), put(405, 1), put(659, 4), put(793, 2), put(652, 9), put(611, 2), put(316, 7), put(873, 5), put(686, 5), put(129, 6), put(25, 1), put(931, 8)]"
     },
@@ -888,10 +888,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.018333
+    "wallMilliseconds" : 4.101459
   },
   {
-    "evaluations" : 721,
+    "evaluations" : 730,
     "original" : {
       "p" : "[put(441, 5), put(216, 5), put(846, 1), put(132, 0), put(659, 1), put(702, 7), put(234, 5), put(664, 6), put(550, 2), put(876, 5), put(422, 5), put(825, 6), put(698, 0), put(619, 5), put(857, 5), put(166, 0), put(745, 3), put(96, 3), put(522, 5), put(33, 5), put(422, 8), put(565, 3), put(852, 2), put(942, 4), put(622, 7), put(312, 1), put(320, 2), put(738, 2), put(380, 9), put(52, 7), put(874, 6), put(263, 3)]"
     },
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.614791
+    "wallMilliseconds" : 5.646667
   },
   {
     "evaluations" : 592,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.500333
+    "wallMilliseconds" : 3.474375
   },
   {
     "evaluations" : 609,
@@ -921,10 +921,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 3.9825
+    "wallMilliseconds" : 4.029458
   },
   {
-    "evaluations" : 750,
+    "evaluations" : 761,
     "original" : {
       "p" : "[put(572, 9), put(855, 1), put(950, 9), put(445, 0), put(579, 3), put(445, 2), put(47, 6), put(22, 4), put(240, 5), put(855, 3), put(406, 0), put(314, 4), put(379, 0), put(103, 3), put(641, 9), put(72, 6), put(408, 1), put(229, 4), put(339, 2), put(607, 8), put(264, 4), put(638, 0), put(597, 2), put(866, 0), put(632, 4), put(327, 8), put(513, 3), put(147, 6), put(65, 7), put(993, 4), put(501, 6), put(529, 6)]"
     },
@@ -932,10 +932,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.796709
+    "wallMilliseconds" : 6.095792
   },
   {
-    "evaluations" : 721,
+    "evaluations" : 726,
     "original" : {
       "p" : "[put(365, 1), put(744, 9), put(946, 2), put(850, 8), put(843, 3), put(243, 2), put(876, 6), put(995, 6), put(314, 8), put(382, 8), put(873, 9), put(127, 9), put(796, 9), put(788, 0), put(384, 1), put(38, 2), put(957, 4), put(718, 4), put(800, 5), put(671, 5), put(557, 2), put(873, 9), put(749, 7), put(699, 4), put(512, 4), put(285, 3), put(98, 2)]"
     },
@@ -943,10 +943,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.628125
+    "wallMilliseconds" : 4.775458
   },
   {
-    "evaluations" : 722,
+    "evaluations" : 723,
     "original" : {
       "p" : "[put(281, 9), put(738, 0), put(340, 8), put(477, 2), put(660, 7), put(10, 5), put(932, 3), put(240, 5), put(461, 3), put(898, 4), put(773, 2), put(391, 1), put(528, 0), put(732, 5), put(466, 3), put(980, 9), put(670, 8), put(300, 2), put(386, 0), put(653, 1), put(130, 8), put(243, 9), put(474, 8), put(452, 4), put(103, 1), put(267, 2), put(412, 6), put(655, 8), put(34, 6), put(32, 3), put(317, 2), put(916, 8), put(286, 0), put(337, 1), put(967, 6), put(468, 3), put(770, 3), put(377, 3), put(931, 5), put(670, 5), put(574, 4), put(137, 0), put(282, 8), put(889, 4), put(708, 4)]"
     },
@@ -954,10 +954,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.153625
+    "wallMilliseconds" : 5.233
   },
   {
-    "evaluations" : 734,
+    "evaluations" : 737,
     "original" : {
       "p" : "[put(776, 6), put(562, 4), put(258, 0), put(157, 0), put(694, 9), put(413, 5), put(185, 5), put(180, 0), put(332, 1), put(848, 3), put(594, 4), put(2, 4), put(762, 0), put(176, 2), put(808, 3), put(653, 8), put(690, 6), put(786, 4), put(825, 1), put(424, 5), put(810, 1), put(298, 0), put(613, 3), put(962, 0), put(493, 0), put(977, 6), put(532, 6), put(177, 4), put(65, 3), put(73, 5), put(536, 4), put(928, 7), put(784, 3), put(270, 2), put(265, 4)]"
     },
@@ -965,10 +965,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.878875
+    "wallMilliseconds" : 5.678375
   },
   {
-    "evaluations" : 658,
+    "evaluations" : 653,
     "original" : {
       "p" : "[put(599, 1), put(315, 8), put(453, 0), put(69, 6), put(535, 2), put(674, 8), put(939, 5), put(616, 8), put(128, 2), put(975, 5), put(63, 0), put(385, 0), put(504, 9), put(254, 6), put(10, 2), put(54, 6), put(627, 1), put(389, 7), put(573, 3), put(201, 9), put(496, 3), put(469, 1), put(234, 5), put(962, 9), put(402, 1), put(146, 5), put(564, 7), put(372, 9), put(925, 2), put(839, 8), put(886, 0), put(711, 4), put(112, 8), put(352, 4), put(679, 1), put(386, 1), put(614, 8), put(132, 7), put(182, 9), put(423, 7), put(300, 3), put(782, 2), put(479, 7), put(246, 3), put(592, 9), put(179, 9)]"
     },
@@ -976,10 +976,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 10.64975
+    "wallMilliseconds" : 11.190083
   },
   {
-    "evaluations" : 741,
+    "evaluations" : 748,
     "original" : {
       "p" : "[put(641, 6), put(721, 5), put(773, 1), put(643, 7), put(477, 1), put(45, 6), put(525, 6), put(10, 2), put(910, 0), put(706, 4), put(483, 5), put(699, 8), put(252, 1), put(634, 2), put(283, 0), put(123, 9), put(718, 3), put(742, 1), put(407, 1), put(463, 8), put(489, 6), put(726, 4), put(880, 9), put(388, 7), put(371, 0), put(427, 3), put(0, 1), put(532, 4), put(810, 3), put(276, 7), put(366, 4)]"
     },
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.125417
+    "wallMilliseconds" : 5.227916
   },
   {
     "evaluations" : 610,
@@ -998,10 +998,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 3.95425
+    "wallMilliseconds" : 3.975125
   },
   {
-    "evaluations" : 1104,
+    "evaluations" : 1105,
     "original" : {
       "p" : "[put(547, 2), put(154, 0), put(703, 0), put(550, 6), put(934, 4), put(213, 2), put(764, 9), put(435, 3), put(298, 7), put(666, 9), put(911, 6), put(285, 0), put(896, 5), put(162, 7), put(914, 0), put(194, 1), put(40, 4), put(764, 1), put(693, 4), put(224, 5), put(517, 9), put(907, 4), put(195, 6), put(26, 4), put(283, 9), put(728, 1), put(195, 6), put(37, 6), put(454, 3), put(484, 2), put(954, 9), put(341, 8), put(823, 5), put(110, 9), put(47, 9), put(207, 8), put(485, 2), put(550, 0), put(201, 8), put(555, 2), put(810, 3), put(39, 0), put(122, 9), put(343, 2)]"
     },
@@ -1009,10 +1009,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 8.509583
+    "wallMilliseconds" : 8.754334
   },
   {
-    "evaluations" : 620,
+    "evaluations" : 611,
     "original" : {
       "p" : "[put(66, 7), put(66, 3), put(744, 6), put(623, 1), put(888, 0), put(409, 9), put(756, 6), put(853, 5), put(162, 4), put(143, 1), put(395, 5), put(602, 9), put(730, 3), put(475, 1), put(996, 0), put(944, 1), put(652, 4), put(938, 5), put(89, 4), put(901, 4), put(585, 1), put(947, 0), put(502, 2), put(255, 4), put(574, 9), put(226, 2), put(330, 1), put(183, 9), put(362, 5), put(395, 4), put(552, 5)]"
     },
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.377791
+    "wallMilliseconds" : 5.173416
   },
   {
     "evaluations" : 617,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(700, 1)]"
     },
-    "wallMilliseconds" : 4.691084
+    "wallMilliseconds" : 4.683084
   },
   {
     "evaluations" : 1215,
@@ -1042,10 +1042,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 7.750875
+    "wallMilliseconds" : 7.730959
   },
   {
-    "evaluations" : 725,
+    "evaluations" : 726,
     "original" : {
       "p" : "[put(77, 3), put(89, 2), put(954, 5), put(37, 3), put(916, 8), put(276, 2), put(561, 5), put(849, 9), put(704, 8), put(668, 2), put(402, 6), put(828, 2), put(390, 8), put(883, 7), put(376, 2), put(142, 0), put(439, 5), put(188, 7), put(318, 8), put(929, 9), put(537, 2), put(914, 1), put(116, 6), put(113, 4), put(903, 3), put(447, 1), put(669, 4), put(953, 9), put(410, 4), put(440, 0), put(469, 5), put(606, 6), put(235, 1), put(323, 6), put(665, 7), put(169, 7), put(593, 4), put(504, 8)]"
     },
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.778375
+    "wallMilliseconds" : 6.041708
   },
   {
     "evaluations" : 604,
@@ -1064,10 +1064,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 3.775166
+    "wallMilliseconds" : 3.84325
   },
   {
-    "evaluations" : 623,
+    "evaluations" : 629,
     "original" : {
       "p" : "[put(175, 4), put(426, 8), put(483, 5), put(348, 4), put(317, 5), put(552, 2), put(617, 0), put(19, 0), put(580, 1), put(302, 6), put(462, 1), put(472, 2), put(199, 6), put(402, 8), put(480, 5), put(955, 9), put(628, 0), put(495, 8), put(891, 3), put(502, 1), put(769, 8)]"
     },
@@ -1075,10 +1075,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(300, 1)]"
     },
-    "wallMilliseconds" : 3.991167
+    "wallMilliseconds" : 4.036292
   },
   {
-    "evaluations" : 602,
+    "evaluations" : 601,
     "original" : {
       "p" : "[put(411, 3), put(433, 8), put(85, 9), put(13, 8), put(123, 1), put(402, 9), put(306, 2), put(557, 2), put(961, 6), put(924, 1), put(860, 8), put(863, 8), put(86, 6), put(600, 2), put(497, 0), put(921, 5), put(850, 6), put(153, 7), put(340, 9), put(704, 2), put(6, 1), put(676, 4), put(740, 7), put(652, 8)]"
     },
@@ -1086,10 +1086,10 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 4.550083
+    "wallMilliseconds" : 4.624458
   },
   {
-    "evaluations" : 739,
+    "evaluations" : 744,
     "original" : {
       "p" : "[put(177, 6), put(698, 6), put(699, 2), put(518, 5), put(722, 3), put(571, 7), put(69, 2), put(263, 0), put(147, 4), put(980, 2), put(478, 7), put(662, 7), put(496, 9), put(760, 0), put(534, 7), put(740, 3), put(818, 1), put(308, 3), put(939, 6), put(426, 1), put(857, 3), put(729, 9), put(49, 9), put(465, 3), put(629, 0)]"
     },
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "[put(0, 0), put(100, 1)]"
     },
-    "wallMilliseconds" : 5.467542
+    "wallMilliseconds" : 5.471666
   }
 ]

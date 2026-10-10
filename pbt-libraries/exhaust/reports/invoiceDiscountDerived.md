@@ -1,18 +1,18 @@
 # Invoice Discount (derived)
 
-Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.6.0 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/invoiceDiscountDerived.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
+[Raw results](../failures/invoiceDiscountDerived.json). Dependency revision: `ccc7e4c2e9749fc6eb4d75c24ba01702840c2eee`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 1219.5 | 768.5 |
+| Reduction invocations | 1182.5 | 728.5 |
 | Original input length | 19.0 | 19.0 |
-| Wall time (ms) | 2.659 | 2.184 |
-| Wall time, Linux/Windows build (ms) | 11.077 | 8.033 |
-| generation (ms) | 0.429 | 0.307 |
-| reductions (ms) | 2.150 | 1.280 |
-| total (ms) | 2.648 | 2.174 |
+| Wall time (ms) | 2.675 | 2.183 |
+| Wall time, Linux/Windows build (ms) | 13.384 | 9.727 |
+| generation (ms) | 0.418 | 0.298 |
+| reductions (ms) | 2.160 | 1.360 |
+| total (ms) | 2.579 | 2.105 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/invoiceDiscountDerived.json)).
 
@@ -32,10 +32,10 @@ The main README adds the original failing call to generated-run evaluation count
 
 | Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
 |---|---:|---:|---:|
-| macOS XCFramework / debug runner | 15.23 | 15.23 | 15.39 |
-| Source core / debug runner (on macOS) | 16.36 | 16.37 | 16.56 |
+| macOS XCFramework / debug runner | 15.49 | 15.47 | 15.66 |
+| Source core / debug runner (on macOS) | 16.48 | 16.48 | 16.69 |
 
-[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.6.0/).
 
 ## Running
 

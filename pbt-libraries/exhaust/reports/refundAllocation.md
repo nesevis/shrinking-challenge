@@ -1,18 +1,18 @@
 # Refund Allocation
 
-Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.6.0 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/refundAllocation.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
+[Raw results](../failures/refundAllocation.json). Dependency revision: `ccc7e4c2e9749fc6eb4d75c24ba01702840c2eee`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 902.8 | 648.0 |
+| Reduction invocations | 902.9 | 648.0 |
 | Original input length | 78.6 | 78.0 |
-| Wall time (ms) | 10.135 | 7.268 |
-| Wall time, Linux/Windows build (ms) | 22.158 | 17.252 |
-| generation (ms) | 0.035 | 0.031 |
-| reductions (ms) | 9.950 | 7.140 |
-| total (ms) | 10.116 | 7.256 |
+| Wall time (ms) | 10.414 | 7.572 |
+| Wall time, Linux/Windows build (ms) | 24.185 | 19.075 |
+| generation (ms) | 0.037 | 0.033 |
+| reductions (ms) | 10.210 | 7.380 |
+| total (ms) | 10.244 | 7.426 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/refundAllocation.json)).
 
@@ -28,10 +28,10 @@ The main README adds the original failing call to generated-run evaluation count
 
 | Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
 |---|---:|---:|---:|
-| macOS XCFramework / debug runner | 15.35 | 15.34 | 15.77 |
-| Source core / debug runner (on macOS) | 16.41 | 16.41 | 16.88 |
+| macOS XCFramework / debug runner | 15.61 | 15.61 | 15.86 |
+| Source core / debug runner (on macOS) | 16.52 | 16.52 | 16.78 |
 
-[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.6.0/).
 
 ## Running
 

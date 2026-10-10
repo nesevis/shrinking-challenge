@@ -1,18 +1,18 @@
 # Chunked Decoder
 
-Exhaust 1.5.8 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
+Exhaust 1.6.0 package, runner built in debug on macOS, which links the prebuilt `ExhaustCore`. 100 runs on seeds 1337–1436; 100 failures.
 
-[Raw results](../failures/chunkedDecoder.json). Dependency revision: `50b3b752872795b0637f4e34a5e604877d414e2f`.
+[Raw results](../failures/chunkedDecoder.json). Dependency revision: `ccc7e4c2e9749fc6eb4d75c24ba01702840c2eee`.
 
 | Metric | Mean | Median |
 |---|---:|---:|
-| Reduction invocations | 84.1 | 76.0 |
+| Reduction invocations | 86.5 | 80.5 |
 | Original input length | 31.2 | 30.0 |
-| Wall time (ms) | 1.065 | 0.980 |
-| Wall time, Linux/Windows build (ms) | 3.001 | 2.843 |
-| generation (ms) | 0.034 | 0.027 |
-| reductions (ms) | 0.930 | 0.850 |
-| total (ms) | 1.053 | 0.968 |
+| Wall time (ms) | 1.113 | 1.016 |
+| Wall time, Linux/Windows build (ms) | 3.192 | 3.018 |
+| generation (ms) | 0.036 | 0.028 |
+| reductions (ms) | 0.950 | 0.870 |
+| total (ms) | 0.991 | 0.919 |
 
 The Linux/Windows build compiles the same source entirely in debug, as on platforms without the XCFramework ([raw results](../failures-linux/chunkedDecoder.json)).
 
@@ -22,8 +22,8 @@ The main README adds the original failing call to generated-run evaluation count
 
 | Share | Counterexample |
 |---|---|
-| 56% | `(text, "\u{10000}", [3, 1])` |
-| 40% | `(text, "\u{800}", [2, 1])` |
+| 57% | `(text, "\u{10000}", [3, 1])` |
+| 39% | `(text, "\u{800}", [2, 1])` |
 | 2% | 🎯 `(text, "\u{80}", [1, 1])` |
 | 1% | `(text, "\u{10000}\u{800}", [6, 1])` |
 | 1% | `(text, "\u{10000}\u{10000}", [7, 1])` |
@@ -32,10 +32,10 @@ The main README adds the original failing call to generated-run evaluation count
 
 | Configuration | Mean (MiB) | Median (MiB) | Max (MiB) |
 |---|---:|---:|---:|
-| macOS XCFramework / debug runner | 15.68 | 15.67 | 15.83 |
-| Source core / debug runner (on macOS) | 16.90 | 16.91 | 17.00 |
+| macOS XCFramework / debug runner | 15.87 | 15.86 | 16.08 |
+| Source core / debug runner (on macOS) | 16.85 | 16.86 | 16.98 |
 
-[Per-run memory logs and summaries](/reports/memory-exhaust-1.5.8/).
+[Per-run memory logs and summaries](/reports/memory-exhaust-1.6.0/).
 
 ## Running
 
