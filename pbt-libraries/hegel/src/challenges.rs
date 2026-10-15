@@ -209,7 +209,7 @@ fn nested_repr(factors: &[i64], payload: Option<&Vec<i64>>) -> String {
 }
 
 // Fully derived means no bounds, filtering, or customised field generators.
-#[derive(Debug, hegel::DefaultGenerator, hegel::PrettyPrintable)]
+#[derive(Debug, hegel::DefaultGenerator)]
 struct Invoice {
     unit_price_cents: i64,
     quantity: i64,
@@ -253,13 +253,13 @@ fn invoices(tc: &TestCase) -> Invoice {
     }
 }
 
-#[derive(Debug, hegel::PrettyPrintable)]
+#[derive(Debug)]
 enum Message {
     Binary(Vec<u8>),
     Text(String),
 }
 
-#[derive(Debug, hegel::PrettyPrintable)]
+#[derive(Debug)]
 struct Transmission {
     message: Message,
     cuts: Vec<bool>,

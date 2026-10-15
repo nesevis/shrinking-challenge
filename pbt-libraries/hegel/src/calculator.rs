@@ -3,7 +3,7 @@
 use hegel::TestCase;
 use hegel::generators::{self as gs, Generator, PrintableGenerator};
 
-#[derive(Clone, Debug, hegel::PrettyPrintable)]
+#[derive(Clone, Debug)]
 enum Expr {
     Value(i64),
     Add(Box<Expr>, Box<Expr>),

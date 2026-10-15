@@ -6,7 +6,7 @@ use hegel::generators::{self as gs, Generator};
 const PROCESSING_FEE_CENTS: i64 = 30;
 const CHARGE_LIMIT: usize = 20;
 
-#[derive(Clone, Debug, hegel::DefaultGenerator, hegel::PrettyPrintable)]
+#[derive(Clone, Debug, hegel::DefaultGenerator)]
 struct Charge {
     paid_cents: i64,
 }
@@ -17,7 +17,7 @@ impl Charge {
     }
 }
 
-#[derive(Clone, Debug, hegel::DefaultGenerator, hegel::PrettyPrintable)]
+#[derive(Clone, Debug, hegel::DefaultGenerator)]
 struct RefundRequest {
     charges: Vec<Charge>,
     refund_cents: i64,

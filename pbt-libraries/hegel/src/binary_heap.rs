@@ -3,7 +3,7 @@
 use hegel::TestCase;
 use hegel::generators as gs;
 
-#[derive(Clone, Debug, PartialEq, Eq, hegel::PrettyPrintable)]
+#[derive(Clone, Debug, PartialEq, Eq)]
 enum Heap {
     Empty,
     Node(i64, Box<Heap>, Box<Heap>),

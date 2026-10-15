@@ -1,7 +1,8 @@
 mod binary_heap;
 mod calculator;
-mod refund_allocation;
 pub mod challenges;
+mod pythagorean;
+mod refund_allocation;
 mod stateful;
 
 use challenges::Challenge;
@@ -11,8 +12,8 @@ use std::collections::BTreeMap;
 use std::panic::{AssertUnwindSafe, catch_unwind, panic_any};
 use std::time::Instant;
 
-pub const HEGEL_VERSION: &str = "0.48.1";
-pub const ENGINE_VERSION: &str = "0.44.1";
+pub const HEGEL_VERSION: &str = "0.49.14";
+pub const ENGINE_VERSION: &str = "0.45.13";
 
 #[derive(Debug)]
 struct BenchmarkFailure;

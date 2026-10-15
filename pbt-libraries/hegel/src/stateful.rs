@@ -131,7 +131,7 @@ impl SnapshotStore {
     }
 }
 
-#[derive(Clone, Debug, hegel::PrettyPrintable)]
+#[derive(Clone, Debug)]
 struct Snapshot {
     handle: (usize, usize),
     visible_writes: usize,
