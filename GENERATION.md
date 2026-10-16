@@ -11,27 +11,29 @@
 
 Milliseconds per 1,000 generated values.
 
+Exhaust 1.7.2 columns show the median of ten fresh-process batches per workload; both configurations are measured on this Mac.
+
 | Generator | Hypothesis | Hegel (default/opt-1) | Exhaust (macOS) | Exhaust (Linux/Windows) |
 |---|---:|---:|---:|---:|
-| Binary Heap | 1,313.77 ms | 43.06 ms | 29.01 ms | 49.96 ms |
-| Calculator | 15,288.09 ms | 56.71 ms | 1.51 ms | 3.63 ms |
-| Nested Flatmap (product sequence), depth 2 | 632.79 ms | 22.92 ms | 1.26 ms | 6.16 ms |
-| Nested Flatmap (product sequence), depth 3 | 1,431.56 ms | 44.25 ms | 1.83 ms | 16.03 ms |
-| Modular Mapping | 262.33 ms | 5.41 ms | 0.41 ms | 0.63 ms |
-| Weighted Linear Preservation | 274.32 ms | 7.00 ms | 0.61 ms | 1.18 ms |
-| Invoice Discount | 283.42 ms | 6.99 ms | 1.44 ms | 2.34 ms |
-| Invoice Discount (derived) | 240.31 ms | 7.31 ms | 0.68 ms | 1.79 ms |
-| Refund Allocation | 579.03 ms | 12.30 ms | 3.25 ms | 5.28 ms |
-| Refund Allocation (derived) | 424.14 ms | 11.75 ms | 2.43 ms | 6.32 ms |
-| Float Cancellation | 258.28 ms | 6.15 ms | 0.76 ms | 1.66 ms |
-| Chunked Decoder | 486.72 ms | 11.96 ms | 3.90 ms | 10.40 ms |
-| Hash Collision (M = 10) | 512.59 ms | 14.54 ms | 3.00 ms | 7.08 ms |
-| Hash Collision (M = 100) | 518.40 ms | 14.55 ms | 3.03 ms | 7.23 ms |
-| Hash Collision (M = 1000) | 581.76 ms | 14.49 ms | 3.05 ms | 7.41 ms |
-| Snapshot Store | 3,918.12 ms | 1,382.35 ms | 9.85 ms | 31.30 ms |
-| Hash Collision (M = 10) (state machine) | 3,419.80 ms | 199.50 ms | 13.74 ms | 34.19 ms |
-| Hash Collision (M = 100) (state machine) | 3,105.93 ms | 209.02 ms | 14.11 ms | 34.46 ms |
-| Hash Collision (M = 1000) (state machine) | 2,959.78 ms | 202.85 ms | 13.90 ms | 34.40 ms |
+| Binary Heap | 1,313.77 ms | 43.06 ms | 29.19 ms | 52.03 ms |
+| Calculator | 15,288.09 ms | 56.71 ms | 1.43 ms | 3.42 ms |
+| Nested Flatmap (product sequence), depth 2 | 632.79 ms | 22.92 ms | 1.21 ms | 5.98 ms |
+| Nested Flatmap (product sequence), depth 3 | 1,431.56 ms | 44.25 ms | 1.82 ms | 16.08 ms |
+| Modular Mapping | 262.33 ms | 5.41 ms | 0.38 ms | 0.59 ms |
+| Weighted Linear Preservation | 274.32 ms | 7.00 ms | 0.65 ms | 1.27 ms |
+| Invoice Discount | 283.42 ms | 6.99 ms | 1.46 ms | 2.31 ms |
+| Invoice Discount (derived) | 240.31 ms | 7.31 ms | 0.66 ms | 1.74 ms |
+| Refund Allocation | 579.03 ms | 12.30 ms | 3.24 ms | 5.44 ms |
+| Refund Allocation (derived) | 424.14 ms | 11.75 ms | 2.43 ms | 6.14 ms |
+| Float Cancellation | 258.28 ms | 6.15 ms | 0.67 ms | 1.47 ms |
+| Chunked Decoder | 486.72 ms | 11.96 ms | 3.98 ms | 10.55 ms |
+| Hash Collision (M = 10) | 512.59 ms | 14.54 ms | 2.96 ms | 7.10 ms |
+| Hash Collision (M = 100) | 518.40 ms | 14.55 ms | 3.02 ms | 7.25 ms |
+| Hash Collision (M = 1000) | 581.76 ms | 14.49 ms | 2.96 ms | 7.29 ms |
+| Snapshot Store | 3,918.12 ms | 1,382.35 ms | 10.06 ms | 31.81 ms |
+| Hash Collision (M = 10) (state machine) | 3,419.80 ms | 199.50 ms | 13.93 ms | 34.67 ms |
+| Hash Collision (M = 100) (state machine) | 3,105.93 ms | 209.02 ms | 13.72 ms | 34.53 ms |
+| Hash Collision (M = 1000) (state machine) | 2,959.78 ms | 202.85 ms | 13.93 ms | 34.39 ms |
 
 ## Generated value complexity
 
@@ -63,3 +65,4 @@ Mean / median / maximum.
 | Hash Collision (M = 100) (state machine) | Commands per history | 49.75<br>50.00<br>50.00 | 49.69<br>50.00<br>50.00 | 25.08<br>25.00<br>50.00 |
 | Hash Collision (M = 1000) (state machine) | Commands per history | 49.67<br>50.00<br>50.00 | 49.69<br>50.00<br>50.00 | 25.08<br>25.00<br>50.00 |
 
+[Exhaust 1.7.2 raw generation and value observations](/reports/generation-1.7.2/).
