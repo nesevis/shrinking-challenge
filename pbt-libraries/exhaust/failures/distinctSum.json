@@ -1,13 +1,13 @@
 [
   {
-    "evaluations" : 842,
+    "evaluations" : 960,
     "original" : {
       "p" : "[9973, 4421, 8810, 1203, 7777, 5050]"
     },
     "seed" : 1337,
     "shrunk" : {
-      "p" : "[-2, -1, 0, 1, 53]"
+      "p" : "[-1, 0, 1, 2, 49]"
     },
-    "wallMilliseconds" : 4.319584
+    "wallMilliseconds" : 4.216834
   }
 ]

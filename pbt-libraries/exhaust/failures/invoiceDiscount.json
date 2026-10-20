@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.49375
+    "wallMilliseconds" : 3.550167
   },
   {
     "evaluations" : 299,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.741125
+    "wallMilliseconds" : 2.67675
   },
   {
     "evaluations" : 73,
@@ -30,7 +30,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.745083
+    "wallMilliseconds" : 1.62325
   },
   {
     "evaluations" : 72,
@@ -41,7 +41,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.688917
+    "wallMilliseconds" : 1.544166
   },
   {
     "evaluations" : 915,
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.010375
+    "wallMilliseconds" : 5.079125
   },
   {
     "evaluations" : 160,
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.971542
+    "wallMilliseconds" : 2.015167
   },
   {
     "evaluations" : 1149,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.481583
+    "wallMilliseconds" : 5.700125
   },
   {
     "evaluations" : 1069,
@@ -85,7 +85,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.157083
+    "wallMilliseconds" : 5.170125
   },
   {
     "evaluations" : 75,
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.655416
+    "wallMilliseconds" : 1.639541
   },
   {
     "evaluations" : 83,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.737334
+    "wallMilliseconds" : 1.803417
   },
   {
     "evaluations" : 75,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.600167
+    "wallMilliseconds" : 1.691792
   },
   {
     "evaluations" : 97,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.80225
+    "wallMilliseconds" : 1.841875
   },
   {
     "evaluations" : 101,
@@ -140,7 +140,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.639334
+    "wallMilliseconds" : 1.718208
   },
   {
     "evaluations" : 88,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.603166
+    "wallMilliseconds" : 1.65075
   },
   {
     "evaluations" : 183,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.0155
+    "wallMilliseconds" : 2.058333
   },
   {
     "evaluations" : 67,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.566208
+    "wallMilliseconds" : 1.635083
   },
   {
     "evaluations" : 336,
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.648042
+    "wallMilliseconds" : 2.655125
   },
   {
     "evaluations" : 80,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.661792
+    "wallMilliseconds" : 1.695917
   },
   {
     "evaluations" : 336,
@@ -206,7 +206,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.654
+    "wallMilliseconds" : 2.773375
   },
   {
     "evaluations" : 94,
@@ -217,7 +217,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.612458
+    "wallMilliseconds" : 1.604791
   },
   {
     "evaluations" : 78,
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.580417
+    "wallMilliseconds" : 1.640708
   },
   {
     "evaluations" : 586,
@@ -239,7 +239,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.687916
+    "wallMilliseconds" : 3.878041
   },
   {
     "evaluations" : 95,
@@ -250,7 +250,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.656833
+    "wallMilliseconds" : 1.7615
   },
   {
     "evaluations" : 752,
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.23425
+    "wallMilliseconds" : 4.3715
   },
   {
     "evaluations" : 75,
@@ -272,7 +272,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.600375
+    "wallMilliseconds" : 1.583958
   },
   {
     "evaluations" : 719,
@@ -283,7 +283,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.182416
+    "wallMilliseconds" : 4.2505
   },
   {
     "evaluations" : 90,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.676375
+    "wallMilliseconds" : 1.674917
   },
   {
     "evaluations" : 582,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.549875
+    "wallMilliseconds" : 3.530083
   },
   {
     "evaluations" : 1153,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.38825
+    "wallMilliseconds" : 5.447458
   },
   {
     "evaluations" : 97,
@@ -327,7 +327,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.797792
+    "wallMilliseconds" : 1.780708
   },
   {
     "evaluations" : 118,
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.837791
+    "wallMilliseconds" : 1.865791
   },
   {
     "evaluations" : 72,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.547334
+    "wallMilliseconds" : 1.627584
   },
   {
     "evaluations" : 738,
@@ -360,7 +360,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.193292
+    "wallMilliseconds" : 4.366834
   },
   {
     "evaluations" : 88,
@@ -371,7 +371,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.543667
+    "wallMilliseconds" : 1.614167
   },
   {
     "evaluations" : 245,
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.035333
+    "wallMilliseconds" : 2.130958
   },
   {
     "evaluations" : 430,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.03875
+    "wallMilliseconds" : 3.014375
   },
   {
     "evaluations" : 659,
@@ -404,7 +404,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.831
+    "wallMilliseconds" : 3.833875
   },
   {
     "evaluations" : 972,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.933541
+    "wallMilliseconds" : 4.965125
   },
   {
     "evaluations" : 63,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.242291
+    "wallMilliseconds" : 1.245292
   },
   {
     "evaluations" : 1148,
@@ -437,7 +437,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.394
+    "wallMilliseconds" : 5.43775
   },
   {
     "evaluations" : 1240,
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.523708
+    "wallMilliseconds" : 5.613917
   },
   {
     "evaluations" : 1211,
@@ -459,7 +459,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.607458
+    "wallMilliseconds" : 5.614375
   },
   {
     "evaluations" : 952,
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.881
+    "wallMilliseconds" : 4.945167
   },
   {
     "evaluations" : 660,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.818542
+    "wallMilliseconds" : 3.921
   },
   {
     "evaluations" : 73,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.702584
+    "wallMilliseconds" : 1.617
   },
   {
     "evaluations" : 80,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.624208
+    "wallMilliseconds" : 1.572167
   },
   {
     "evaluations" : 114,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.814667
+    "wallMilliseconds" : 1.782792
   },
   {
     "evaluations" : 95,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.628625
+    "wallMilliseconds" : 1.60825
   },
   {
     "evaluations" : 71,
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.599959
+    "wallMilliseconds" : 1.608083
   },
   {
     "evaluations" : 1212,
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.588292
+    "wallMilliseconds" : 5.617542
   },
   {
     "evaluations" : 77,
@@ -558,7 +558,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.569167
+    "wallMilliseconds" : 1.573
   },
   {
     "evaluations" : 77,
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.533959
+    "wallMilliseconds" : 1.554625
   },
   {
     "evaluations" : 679,
@@ -580,7 +580,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.955667
+    "wallMilliseconds" : 4.133958
   },
   {
     "evaluations" : 823,
@@ -591,7 +591,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.361459
+    "wallMilliseconds" : 4.418708
   },
   {
     "evaluations" : 77,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.644625
+    "wallMilliseconds" : 1.606208
   },
   {
     "evaluations" : 107,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.833708
+    "wallMilliseconds" : 1.855416
   },
   {
     "evaluations" : 68,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.595792
+    "wallMilliseconds" : 1.57875
   },
   {
     "evaluations" : 341,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.5835
+    "wallMilliseconds" : 2.584667
   },
   {
     "evaluations" : 68,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.577375
+    "wallMilliseconds" : 1.559042
   },
   {
     "evaluations" : 79,
@@ -657,7 +657,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.588708
+    "wallMilliseconds" : 1.587375
   },
   {
     "evaluations" : 94,
@@ -668,7 +668,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.66975
+    "wallMilliseconds" : 1.66575
   },
   {
     "evaluations" : 78,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.589917
+    "wallMilliseconds" : 1.568583
   },
   {
     "evaluations" : 73,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.591792
+    "wallMilliseconds" : 1.596583
   },
   {
     "evaluations" : 1116,
@@ -701,7 +701,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.343917
+    "wallMilliseconds" : 5.327334
   },
   {
     "evaluations" : 1246,
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.606583
+    "wallMilliseconds" : 5.5945
   },
   {
     "evaluations" : 76,
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.539208
+    "wallMilliseconds" : 1.530542
   },
   {
     "evaluations" : 82,
@@ -734,7 +734,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.61025
+    "wallMilliseconds" : 1.590167
   },
   {
     "evaluations" : 73,
@@ -745,7 +745,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.591709
+    "wallMilliseconds" : 1.57975
   },
   {
     "evaluations" : 68,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.595417
+    "wallMilliseconds" : 1.594083
   },
   {
     "evaluations" : 583,
@@ -767,7 +767,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.497416
+    "wallMilliseconds" : 3.511625
   },
   {
     "evaluations" : 756,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.21175
+    "wallMilliseconds" : 4.229208
   },
   {
     "evaluations" : 73,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.577833
+    "wallMilliseconds" : 1.555
   },
   {
     "evaluations" : 550,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.538375
+    "wallMilliseconds" : 3.587833
   },
   {
     "evaluations" : 623,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.740709
+    "wallMilliseconds" : 3.909458
   },
   {
     "evaluations" : 598,
@@ -822,7 +822,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.663083
+    "wallMilliseconds" : 3.917083
   },
   {
     "evaluations" : 229,
@@ -833,7 +833,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.418625
+    "wallMilliseconds" : 2.435084
   },
   {
     "evaluations" : 123,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.941667
+    "wallMilliseconds" : 1.956459
   },
   {
     "evaluations" : 245,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.245
+    "wallMilliseconds" : 2.253875
   },
   {
     "evaluations" : 73,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.563833
+    "wallMilliseconds" : 1.590458
   },
   {
     "evaluations" : 944,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 4.990708
+    "wallMilliseconds" : 4.847958
   },
   {
     "evaluations" : 186,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.142792
+    "wallMilliseconds" : 1.983083
   },
   {
     "evaluations" : 435,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.062125
+    "wallMilliseconds" : 3.098292
   },
   {
     "evaluations" : 78,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.560875
+    "wallMilliseconds" : 1.540667
   },
   {
     "evaluations" : 67,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.568583
+    "wallMilliseconds" : 1.547042
   },
   {
     "evaluations" : 71,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.620875
+    "wallMilliseconds" : 1.548333
   },
   {
     "evaluations" : 77,
@@ -943,7 +943,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.598291
+    "wallMilliseconds" : 1.594458
   },
   {
     "evaluations" : 125,
@@ -954,7 +954,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.027459
+    "wallMilliseconds" : 1.986792
   },
   {
     "evaluations" : 1099,
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.126125
+    "wallMilliseconds" : 5.073166
   },
   {
     "evaluations" : 370,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.691208
+    "wallMilliseconds" : 2.660334
   },
   {
     "evaluations" : 95,
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.786875
+    "wallMilliseconds" : 1.759042
   },
   {
     "evaluations" : 1089,
@@ -998,7 +998,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.170083
+    "wallMilliseconds" : 4.979333
   },
   {
     "evaluations" : 92,
@@ -1009,7 +1009,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.712667
+    "wallMilliseconds" : 1.576917
   },
   {
     "evaluations" : 1154,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 5.5425
+    "wallMilliseconds" : 5.398417
   },
   {
     "evaluations" : 540,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 3.667625
+    "wallMilliseconds" : 3.578625
   },
   {
     "evaluations" : 80,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.637541
+    "wallMilliseconds" : 1.587625
   },
   {
     "evaluations" : 113,
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.8135
+    "wallMilliseconds" : 1.754458
   },
   {
     "evaluations" : 79,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.571709
+    "wallMilliseconds" : 1.540584
   },
   {
     "evaluations" : 277,
@@ -1075,7 +1075,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 2.43825
+    "wallMilliseconds" : 2.385
   },
   {
     "evaluations" : 77,
@@ -1086,7 +1086,7 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.589875
+    "wallMilliseconds" : 1.541291
   },
   {
     "evaluations" : 83,
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "Invoice(10, 100, 1)"
     },
-    "wallMilliseconds" : 1.64675
+    "wallMilliseconds" : 1.623708
   }
 ]

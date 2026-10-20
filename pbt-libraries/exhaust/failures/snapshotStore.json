@@ -8,7 +8,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.105708
+    "wallMilliseconds" : 5.032334
   },
   {
     "evaluations" : 357,
@@ -19,7 +19,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 16.9085
+    "wallMilliseconds" : 16.858416
   },
   {
     "evaluations" : 393,
@@ -30,7 +30,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 12.666916
+    "wallMilliseconds" : 12.401958
   },
   {
     "evaluations" : 247,
@@ -41,7 +41,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.50525
+    "wallMilliseconds" : 7.280917
   },
   {
     "evaluations" : 391,
@@ -52,7 +52,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 12.848459
+    "wallMilliseconds" : 12.396708
   },
   {
     "evaluations" : 269,
@@ -63,7 +63,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 21.099209
+    "wallMilliseconds" : 20.468
   },
   {
     "evaluations" : 158,
@@ -74,7 +74,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.935166
+    "wallMilliseconds" : 5.764709
   },
   {
     "evaluations" : 266,
@@ -85,7 +85,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), release(s3), release(s2), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.418708
+    "wallMilliseconds" : 7.935167
   },
   {
     "evaluations" : 289,
@@ -96,7 +96,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.103042
+    "wallMilliseconds" : 6.752375
   },
   {
     "evaluations" : 134,
@@ -107,7 +107,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.873875
+    "wallMilliseconds" : 4.648958
   },
   {
     "evaluations" : 215,
@@ -118,7 +118,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.73125
+    "wallMilliseconds" : 5.497
   },
   {
     "evaluations" : 148,
@@ -129,7 +129,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.405
+    "wallMilliseconds" : 8.048333
   },
   {
     "evaluations" : 229,
@@ -140,7 +140,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), release(s2), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.84475
+    "wallMilliseconds" : 5.60475
   },
   {
     "evaluations" : 132,
@@ -151,7 +151,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.378625
+    "wallMilliseconds" : 4.215833
   },
   {
     "evaluations" : 235,
@@ -162,7 +162,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.367583
+    "wallMilliseconds" : 8.088291
   },
   {
     "evaluations" : 448,
@@ -173,7 +173,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 14.38675
+    "wallMilliseconds" : 13.8955
   },
   {
     "evaluations" : 336,
@@ -184,7 +184,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), s3 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.023916
+    "wallMilliseconds" : 9.673208
   },
   {
     "evaluations" : 404,
@@ -195,7 +195,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.386333
+    "wallMilliseconds" : 10.015333
   },
   {
     "evaluations" : 183,
@@ -206,7 +206,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.622209
+    "wallMilliseconds" : 8.113333
   },
   {
     "evaluations" : 143,
@@ -217,7 +217,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.625167
+    "wallMilliseconds" : 6.315666
   },
   {
     "evaluations" : 220,
@@ -228,7 +228,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.985833
+    "wallMilliseconds" : 7.383791
   },
   {
     "evaluations" : 276,
@@ -239,7 +239,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.425416
+    "wallMilliseconds" : 9.86725
   },
   {
     "evaluations" : 249,
@@ -250,7 +250,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.011334
+    "wallMilliseconds" : 9.5935
   },
   {
     "evaluations" : 246,
@@ -261,7 +261,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.496916
+    "wallMilliseconds" : 6.197417
   },
   {
     "evaluations" : 783,
@@ -272,7 +272,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 21.973708
+    "wallMilliseconds" : 21.232125
   },
   {
     "evaluations" : 251,
@@ -283,7 +283,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.91725
+    "wallMilliseconds" : 9.724709
   },
   {
     "evaluations" : 219,
@@ -294,7 +294,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.172041
+    "wallMilliseconds" : 5.996792
   },
   {
     "evaluations" : 122,
@@ -305,7 +305,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.832209
+    "wallMilliseconds" : 3.70975
   },
   {
     "evaluations" : 461,
@@ -316,7 +316,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 16.11775
+    "wallMilliseconds" : 15.632917
   },
   {
     "evaluations" : 143,
@@ -327,7 +327,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.140167
+    "wallMilliseconds" : 4.963291
   },
   {
     "evaluations" : 158,
@@ -338,7 +338,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.864667
+    "wallMilliseconds" : 5.674667
   },
   {
     "evaluations" : 175,
@@ -349,7 +349,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.336417
+    "wallMilliseconds" : 4.046792
   },
   {
     "evaluations" : 190,
@@ -360,7 +360,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.427417
+    "wallMilliseconds" : 7.146583
   },
   {
     "evaluations" : 151,
@@ -371,7 +371,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.713583
+    "wallMilliseconds" : 4.540417
   },
   {
     "evaluations" : 206,
@@ -382,7 +382,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.215125
+    "wallMilliseconds" : 8.867625
   },
   {
     "evaluations" : 235,
@@ -393,7 +393,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.354
+    "wallMilliseconds" : 10.883541
   },
   {
     "evaluations" : 156,
@@ -404,7 +404,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.239
+    "wallMilliseconds" : 4.059917
   },
   {
     "evaluations" : 321,
@@ -415,7 +415,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.660917
+    "wallMilliseconds" : 9.142875
   },
   {
     "evaluations" : 182,
@@ -426,7 +426,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.444792
+    "wallMilliseconds" : 4.214042
   },
   {
     "evaluations" : 239,
@@ -437,7 +437,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.692709
+    "wallMilliseconds" : 6.4025
   },
   {
     "evaluations" : 235,
@@ -448,7 +448,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), release(s4), s5 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.639708
+    "wallMilliseconds" : 7.39375
   },
   {
     "evaluations" : 215,
@@ -459,7 +459,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.279083
+    "wallMilliseconds" : 8.808292
   },
   {
     "evaluations" : 323,
@@ -470,7 +470,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.139916
+    "wallMilliseconds" : 7.93675
   },
   {
     "evaluations" : 299,
@@ -481,7 +481,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.420542
+    "wallMilliseconds" : 8.112291
   },
   {
     "evaluations" : 402,
@@ -492,7 +492,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.138125
+    "wallMilliseconds" : 10.790167
   },
   {
     "evaluations" : 228,
@@ -503,7 +503,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.92775
+    "wallMilliseconds" : 6.715375
   },
   {
     "evaluations" : 205,
@@ -514,7 +514,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.195875
+    "wallMilliseconds" : 3.834166
   },
   {
     "evaluations" : 272,
@@ -525,7 +525,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.448292
+    "wallMilliseconds" : 6.154667
   },
   {
     "evaluations" : 361,
@@ -536,7 +536,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.543416
+    "wallMilliseconds" : 7.337542
   },
   {
     "evaluations" : 125,
@@ -547,7 +547,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.211375
+    "wallMilliseconds" : 4.032208
   },
   {
     "evaluations" : 320,
@@ -558,7 +558,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.65025
+    "wallMilliseconds" : 10.341583
   },
   {
     "evaluations" : 371,
@@ -569,7 +569,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.266125
+    "wallMilliseconds" : 10.888042
   },
   {
     "evaluations" : 172,
@@ -580,7 +580,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.065292
+    "wallMilliseconds" : 4.782417
   },
   {
     "evaluations" : 176,
@@ -591,7 +591,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.305667
+    "wallMilliseconds" : 10.948834
   },
   {
     "evaluations" : 140,
@@ -602,7 +602,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.271375
+    "wallMilliseconds" : 3.144583
   },
   {
     "evaluations" : 356,
@@ -613,7 +613,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.522167
+    "wallMilliseconds" : 10.158541
   },
   {
     "evaluations" : 195,
@@ -624,7 +624,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.652208
+    "wallMilliseconds" : 5.435
   },
   {
     "evaluations" : 222,
@@ -635,7 +635,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.512042
+    "wallMilliseconds" : 4.384208
   },
   {
     "evaluations" : 176,
@@ -646,7 +646,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.915459
+    "wallMilliseconds" : 3.770792
   },
   {
     "evaluations" : 188,
@@ -657,7 +657,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.65825
+    "wallMilliseconds" : 6.406625
   },
   {
     "evaluations" : 210,
@@ -668,7 +668,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.686791
+    "wallMilliseconds" : 5.539625
   },
   {
     "evaluations" : 374,
@@ -679,7 +679,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.3575
+    "wallMilliseconds" : 9.939042
   },
   {
     "evaluations" : 400,
@@ -690,7 +690,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 22.849542
+    "wallMilliseconds" : 21.58375
   },
   {
     "evaluations" : 197,
@@ -701,7 +701,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.055709
+    "wallMilliseconds" : 8.472292
   },
   {
     "evaluations" : 183,
@@ -712,7 +712,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.65475
+    "wallMilliseconds" : 4.40375
   },
   {
     "evaluations" : 242,
@@ -723,7 +723,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.843584
+    "wallMilliseconds" : 5.511416
   },
   {
     "evaluations" : 98,
@@ -734,7 +734,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.67575
+    "wallMilliseconds" : 3.497833
   },
   {
     "evaluations" : 203,
@@ -745,7 +745,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 13.478333
+    "wallMilliseconds" : 12.70475
   },
   {
     "evaluations" : 147,
@@ -756,7 +756,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.599625
+    "wallMilliseconds" : 8.158209
   },
   {
     "evaluations" : 201,
@@ -767,7 +767,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.879833
+    "wallMilliseconds" : 7.667916
   },
   {
     "evaluations" : 178,
@@ -778,7 +778,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.6515
+    "wallMilliseconds" : 4.470541
   },
   {
     "evaluations" : 215,
@@ -789,7 +789,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 9.705458
+    "wallMilliseconds" : 8.78675
   },
   {
     "evaluations" : 166,
@@ -800,7 +800,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.576375
+    "wallMilliseconds" : 4.262542
   },
   {
     "evaluations" : 194,
@@ -811,7 +811,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.173125
+    "wallMilliseconds" : 9.527875
   },
   {
     "evaluations" : 331,
@@ -822,7 +822,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.844542
+    "wallMilliseconds" : 7.342333
   },
   {
     "evaluations" : 206,
@@ -833,7 +833,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.856083
+    "wallMilliseconds" : 6.413917
   },
   {
     "evaluations" : 150,
@@ -844,7 +844,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.369583
+    "wallMilliseconds" : 5.93925
   },
   {
     "evaluations" : 131,
@@ -855,7 +855,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.559625
+    "wallMilliseconds" : 6.116709
   },
   {
     "evaluations" : 217,
@@ -866,7 +866,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), s2 = snapshot(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.45075
+    "wallMilliseconds" : 5.219542
   },
   {
     "evaluations" : 273,
@@ -877,7 +877,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.826125
+    "wallMilliseconds" : 10.220125
   },
   {
     "evaluations" : 125,
@@ -888,7 +888,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.140542
+    "wallMilliseconds" : 3.98275
   },
   {
     "evaluations" : 164,
@@ -899,7 +899,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), s2 = snapshot(), release(s2), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.388459
+    "wallMilliseconds" : 4.162709
   },
   {
     "evaluations" : 307,
@@ -910,7 +910,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 19.202625
+    "wallMilliseconds" : 18.375833
   },
   {
     "evaluations" : 206,
@@ -921,7 +921,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.72925
+    "wallMilliseconds" : 7.482042
   },
   {
     "evaluations" : 232,
@@ -932,7 +932,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), release(s1), read(s0, 0)]"
     },
-    "wallMilliseconds" : 10.046
+    "wallMilliseconds" : 9.797833
   },
   {
     "evaluations" : 169,
@@ -943,7 +943,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.363334
+    "wallMilliseconds" : 7.243833
   },
   {
     "evaluations" : 151,
@@ -954,7 +954,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 8.519416
+    "wallMilliseconds" : 8.3205
   },
   {
     "evaluations" : 257,
@@ -965,7 +965,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.3905
+    "wallMilliseconds" : 7.330291
   },
   {
     "evaluations" : 98,
@@ -976,7 +976,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.658375
+    "wallMilliseconds" : 5.6435
   },
   {
     "evaluations" : 330,
@@ -987,7 +987,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 14.182542
+    "wallMilliseconds" : 14.072416
   },
   {
     "evaluations" : 460,
@@ -998,7 +998,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 11.685
+    "wallMilliseconds" : 11.438416
   },
   {
     "evaluations" : 300,
@@ -1009,7 +1009,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 17.876375
+    "wallMilliseconds" : 17.728084
   },
   {
     "evaluations" : 219,
@@ -1020,7 +1020,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.8915
+    "wallMilliseconds" : 6.799625
   },
   {
     "evaluations" : 259,
@@ -1031,7 +1031,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.540917
+    "wallMilliseconds" : 5.494625
   },
   {
     "evaluations" : 202,
@@ -1042,7 +1042,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 5.229041
+    "wallMilliseconds" : 5.168667
   },
   {
     "evaluations" : 195,
@@ -1053,7 +1053,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.999666
+    "wallMilliseconds" : 4.945916
   },
   {
     "evaluations" : 143,
@@ -1064,7 +1064,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 3.324042
+    "wallMilliseconds" : 3.289333
   },
   {
     "evaluations" : 293,
@@ -1075,7 +1075,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 6.369208
+    "wallMilliseconds" : 6.262708
   },
   {
     "evaluations" : 162,
@@ -1086,7 +1086,7 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 4.75125
+    "wallMilliseconds" : 4.719208
   },
   {
     "evaluations" : 216,
@@ -1097,6 +1097,6 @@
     "shrunk" : {
       "p" : "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
     },
-    "wallMilliseconds" : 7.297042
+    "wallMilliseconds" : 6.925792
   }
 ]
