@@ -1,37 +1,37 @@
 {
   "build_profile": "debug",
   "challenge": "snapshot_store",
-  "engine_version": "0.44.1",
+  "engine_version": "0.45.13",
   "environment": {
     "arch": "aarch64",
-    "cpu": "Apple M4 Max",
+    "cpu": null,
     "os": "macos",
     "os_version": "26.6.2",
     "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)"
   },
-  "hegel_version": "0.48.1",
+  "hegel_version": "0.49.14",
   "runs": [
     {
-      "evaluations": 1705,
+      "evaluations": 1735,
       "original": {
-        "steps": "[compact(), compact(), s0 = snapshot(), read(s0, 3), s1 = snapshot(), get(6), compact(), s2 = snapshot(), compact(), put(6, 1), get(4), put(7, 8), put(0, 7), compact(), read(s2, 2), read(s2, 9), put(5, 2), s3 = snapshot(), put(7, 2), s4 = snapshot(), compact(), compact(), get(6), s5 = snapshot(), compact(), get(1), read(s0, 5), compact(), s6 = snapshot(), get(1), s7 = snapshot(), read(s5, 1), put(1, 5), put(5, 2), put(3, 2), put(4, 6), get(7), read(s6, 5), compact(), put(7, 9), s8 = snapshot(), read(s3, 5), s9 = snapshot(), compact(), compact(), s10 = snapshot(), s11 = snapshot(), read(s0, 0), put(9, 7), read(s6, 7)]"
+        "steps": "[get(7), put(0, 1), put(2, 6), s0 = snapshot(), read(s0, 6), release(s0), s1 = snapshot(), compact(), put(7, 0), get(9), compact(), put(8, 1), s2 = snapshot(), s3 = snapshot(), release(s2), compact(), read(s1, 5), s4 = snapshot(), get(3), release(s4), get(1), release(s1), compact(), s5 = snapshot(), get(1), compact(), put(9, 2), compact(), read(s5, 5), put(0, 4), put(2, 3), s6 = snapshot(), compact(), read(s5, 5), put(2, 0), release(s6), get(3), read(s5, 6), compact(), compact(), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), read(s5, 1), get(2), s10 = snapshot(), get(2), read(s3, 4), read(s5, 0)]"
       },
       "seed": 1337,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.085779375
+      "total_seconds": 0.787104625
     },
     {
-      "evaluations": 1950,
+      "evaluations": 1644,
       "original": {
-        "steps": "[s0 = snapshot(), put(8, 6), compact(), get(3), read(s0, 9), s1 = snapshot(), get(2), put(5, 8), s2 = snapshot(), get(9), read(s2, 6), s3 = snapshot(), s4 = snapshot(), get(7), s5 = snapshot(), compact(), compact(), s6 = snapshot(), put(1, 0), compact(), s7 = snapshot(), compact(), s8 = snapshot(), get(9), read(s0, 9), read(s1, 2), put(6, 4), compact(), put(0, 7), compact(), read(s3, 0), s9 = snapshot(), compact(), get(8), s10 = snapshot(), put(6, 6), compact(), read(s4, 3), read(s1, 4), put(0, 7), s11 = snapshot(), compact(), read(s9, 0)]"
+        "steps": "[get(8), put(1, 7), s0 = snapshot(), get(1), s1 = snapshot(), compact(), compact(), compact(), put(2, 4), s2 = snapshot(), put(1, 6), read(s2, 6), compact(), get(6), read(s2, 9), read(s2, 6), read(s1, 0), put(7, 4), compact(), s3 = snapshot(), put(1, 5), s4 = snapshot(), put(6, 0), s5 = snapshot(), put(1, 6), s6 = snapshot(), read(s3, 6), s7 = snapshot(), put(0, 3), compact(), put(1, 7), compact(), compact(), get(9), get(8), compact(), s8 = snapshot(), read(s1, 1)]"
       },
       "seed": 1338,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.368462458
+      "total_seconds": 0.802892166
     },
     {
       "evaluations": 1660,
@@ -42,29 +42,29 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.780768334
+      "total_seconds": 0.8117125
     },
     {
-      "evaluations": 1711,
+      "evaluations": 1709,
       "original": {
-        "steps": "[put(9, 7), s0 = snapshot(), compact(), read(s0, 6), put(8, 6), put(3, 7), compact(), put(4, 0), read(s0, 4), compact(), read(s0, 0), compact(), s1 = snapshot(), put(7, 7), put(9, 3), read(s1, 8), put(6, 8), s2 = snapshot(), s3 = snapshot(), compact(), put(4, 2), read(s3, 9), read(s3, 6), s4 = snapshot(), s5 = snapshot(), put(0, 7), s6 = snapshot(), put(0, 1), read(s0, 5), read(s2, 2), put(8, 0), read(s3, 5), compact(), s7 = snapshot(), compact(), put(5, 0), read(s2, 5), compact(), read(s3, 8)]"
+        "steps": "[put(4, 0), put(2, 7), put(0, 8), compact(), compact(), compact(), put(6, 9), put(1, 5), compact(), put(4, 9), s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), release(s3), put(5, 3), release(s2), put(2, 6), release(s0), read(s1, 4), release(s1), compact(), put(8, 6), compact(), compact(), compact(), s4 = snapshot(), put(4, 2), s5 = snapshot(), compact(), read(s4, 4)]"
       },
       "seed": 1340,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.088262792
+      "total_seconds": 0.822687667
     },
     {
-      "evaluations": 1946,
+      "evaluations": 1672,
       "original": {
-        "steps": "[put(6, 3), s0 = snapshot(), release(s0), compact(), compact(), compact(), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), put(8, 9), read(s3, 2), put(5, 3), compact(), release(s1), read(s2, 8), s4 = snapshot(), s5 = snapshot(), read(s2, 4), compact(), read(s4, 5), put(8, 1), compact(), put(4, 4), release(s5), release(s2), put(9, 4), compact(), put(4, 1), compact(), compact(), s6 = snapshot(), put(8, 3), put(8, 3), put(9, 8), s7 = snapshot(), read(s6, 0), compact(), s8 = snapshot(), read(s7, 8), release(s3), release(s4), read(s8, 3), put(6, 0), compact(), compact(), s9 = snapshot(), read(s6, 9)]"
+        "steps": "[put(1, 4), put(0, 5), put(5, 5), get(2), compact(), put(6, 8), put(2, 1), put(4, 7), get(7), s0 = snapshot(), compact(), read(s0, 6), compact(), s1 = snapshot(), put(0, 3), read(s0, 8), compact(), s2 = snapshot(), compact(), read(s1, 5), get(0), put(4, 6), read(s2, 8), read(s0, 0)]"
       },
       "seed": 1341,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.122712625
+      "total_seconds": 1.219237708
     },
     {
       "evaluations": 1698,
@@ -75,7 +75,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.706005208
+      "total_seconds": 0.747546041
     },
     {
       "evaluations": 1931,
@@ -86,7 +86,7 @@
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.945749834
+      "total_seconds": 0.980765125
     },
     {
       "evaluations": 2074,
@@ -97,7 +97,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.77825225
+      "total_seconds": 0.800384375
     },
     {
       "evaluations": 1606,
@@ -108,51 +108,51 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.710401083
+      "total_seconds": 0.731663958
     },
     {
-      "evaluations": 1702,
+      "evaluations": 2006,
       "original": {
-        "steps": "[compact(), put(7, 9), s0 = snapshot(), s1 = snapshot(), put(1, 2), s2 = snapshot(), read(s2, 8), s3 = snapshot(), compact(), s4 = snapshot(), compact(), put(4, 3), read(s4, 1), s5 = snapshot(), read(s3, 9), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), put(1, 5), s9 = snapshot(), s10 = snapshot(), compact(), put(9, 1), put(6, 9), put(6, 9), compact(), read(s0, 4), s11 = snapshot(), read(s6, 7), put(9, 6), put(9, 5), compact(), put(5, 6), compact(), s12 = snapshot(), read(s12, 4), put(0, 1), read(s9, 4), compact(), s13 = snapshot(), put(6, 8), read(s3, 7), s14 = snapshot(), read(s2, 0), compact(), read(s11, 7), read(s7, 4), read(s10, 7), s15 = snapshot(), read(s13, 6)]"
+        "steps": "[s0 = snapshot(), read(s0, 6), put(8, 7), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), compact(), read(s3, 8), compact(), compact(), s7 = snapshot(), put(5, 7), read(s5, 7), s8 = snapshot(), put(4, 8), put(8, 0), s9 = snapshot(), s10 = snapshot(), put(4, 6), read(s10, 6), put(6, 9), put(9, 9), s11 = snapshot(), put(3, 9), compact(), s12 = snapshot(), s13 = snapshot(), s14 = snapshot(), put(1, 5), put(1, 7), s15 = snapshot(), compact(), compact(), s16 = snapshot(), put(8, 9), compact(), s17 = snapshot(), read(s10, 6), read(s15, 1), put(6, 0), compact(), read(s12, 2), read(s9, 7), read(s5, 8)]"
       },
       "seed": 1346,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.914015541
+      "total_seconds": 1.259303084
     },
     {
-      "evaluations": 1989,
+      "evaluations": 1913,
       "original": {
-        "steps": "[compact(), put(4, 0), get(1), compact(), put(6, 1), put(1, 2), put(9, 5), compact(), get(5), s0 = snapshot(), get(5), put(5, 9), s1 = snapshot(), put(3, 3), get(6), put(9, 8), put(5, 2), s2 = snapshot(), put(0, 3), get(2), compact(), compact(), read(s2, 5), s3 = snapshot(), compact(), read(s1, 7), get(5), s4 = snapshot(), put(9, 4), put(3, 7), put(7, 5), s5 = snapshot(), s6 = snapshot(), read(s0, 9)]"
+        "steps": "[get(8), s0 = snapshot(), get(5), s1 = snapshot(), put(3, 4), s2 = snapshot(), put(2, 7), get(8), get(1), s3 = snapshot(), get(1), get(0), put(0, 7), put(2, 2), read(s3, 7), s4 = snapshot(), read(s3, 7), put(7, 8), s5 = snapshot(), compact(), s6 = snapshot(), compact(), read(s5, 6), compact(), put(1, 4), compact(), compact(), put(9, 9), get(1), put(8, 4), compact(), s7 = snapshot(), put(2, 9), read(s1, 5), read(s6, 3), put(0, 7), read(s6, 2), get(7), s8 = snapshot(), read(s1, 5), compact(), compact(), get(2), get(4), compact(), read(s5, 2)]"
       },
       "seed": 1347,
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 1.014220583
+      "total_seconds": 1.469614833
     },
     {
-      "evaluations": 1975,
+      "evaluations": 3192,
       "original": {
-        "steps": "[s0 = snapshot(), get(1), read(s0, 3), get(5), get(7), read(s0, 8), release(s0), put(0, 4), get(6), put(9, 6), compact(), get(6), put(9, 4), s1 = snapshot(), read(s1, 6), put(5, 4), s2 = snapshot(), put(2, 4), s3 = snapshot(), put(4, 6), get(8), put(7, 1), s4 = snapshot(), release(s2), s5 = snapshot(), put(7, 2), put(1, 0), get(4), read(s5, 0), s6 = snapshot(), compact(), release(s5), compact(), get(7), compact(), get(9), s7 = snapshot(), s8 = snapshot(), put(8, 3), put(3, 4), s9 = snapshot(), put(0, 3), compact(), s10 = snapshot(), s11 = snapshot(), get(1), read(s9, 0), s12 = snapshot(), read(s4, 7)]"
+        "steps": "[s0 = snapshot(), read(s0, 2), put(2, 3), put(4, 1), s1 = snapshot(), release(s0), s2 = snapshot(), compact(), release(s2), put(3, 4), put(0, 8), put(1, 2), read(s1, 0), release(s1), put(4, 0), s3 = snapshot(), read(s3, 2), release(s3), put(0, 6), s4 = snapshot(), compact(), release(s4), compact(), compact(), s5 = snapshot(), put(0, 0), compact(), s6 = snapshot(), put(3, 6), put(8, 6), s7 = snapshot(), s8 = snapshot(), put(8, 4), read(s7, 0), release(s5), put(4, 1), release(s7), s9 = snapshot(), put(8, 6), compact(), read(s8, 8)]"
       },
       "seed": 1348,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 1.096155542
+      "total_seconds": 1.39463125
     },
     {
-      "evaluations": 1957,
+      "evaluations": 1677,
       "original": {
-        "steps": "[s0 = snapshot(), compact(), compact(), put(5, 0), read(s0, 6), get(9), s1 = snapshot(), compact(), put(4, 3), compact(), compact(), s2 = snapshot(), s3 = snapshot(), put(5, 1), get(5), put(8, 1), compact(), get(1), compact(), get(2), put(1, 6), read(s3, 0), get(2), compact(), read(s2, 9), get(0), s4 = snapshot(), get(2), compact(), read(s3, 5)]"
+        "steps": "[put(9, 5), put(6, 9), compact(), compact(), put(0, 4), put(4, 3), compact(), put(4, 2), compact(), put(9, 4), compact(), s0 = snapshot(), s1 = snapshot(), put(4, 8), s2 = snapshot(), s3 = snapshot(), compact(), put(3, 7), read(s3, 4), read(s2, 3), put(4, 6), compact(), read(s1, 4)]"
       },
       "seed": 1349,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.748429667
+      "total_seconds": 1.189917375
     },
     {
       "evaluations": 1623,
@@ -163,29 +163,29 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.685330417
+      "total_seconds": 0.705499167
     },
     {
-      "evaluations": 1733,
+      "evaluations": 2045,
       "original": {
-        "steps": "[compact(), compact(), get(9), compact(), put(0, 2), put(0, 1), s0 = snapshot(), s1 = snapshot(), put(4, 1), release(s0), get(3), compact(), get(9), get(9), put(2, 6), compact(), s2 = snapshot(), compact(), get(8), get(3), compact(), compact(), s3 = snapshot(), release(s1), compact(), get(6), put(0, 6), s4 = snapshot(), get(9), get(7), compact(), get(6), get(2), read(s3, 0)]"
+        "steps": "[get(3), s0 = snapshot(), get(3), put(9, 1), put(0, 6), compact(), put(7, 8), compact(), read(s0, 9), read(s0, 2), put(2, 9), read(s0, 7), get(8), get(6), compact(), read(s0, 9), s1 = snapshot(), get(7), get(4), s2 = snapshot(), get(3), put(9, 4), read(s2, 9), put(5, 5), read(s2, 9), put(6, 9), put(2, 5), get(3), compact(), get(3), compact(), put(1, 3), compact(), compact(), compact(), s3 = snapshot(), compact(), put(1, 1), s4 = snapshot(), read(s1, 7), compact(), put(7, 9), put(8, 6), put(9, 5), put(2, 2), read(s2, 9)]"
       },
       "seed": 1351,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.911613584
+      "total_seconds": 1.210939291
     },
     {
-      "evaluations": 2973,
+      "evaluations": 1928,
       "original": {
-        "steps": "[compact(), s0 = snapshot(), read(s0, 4), get(3), s1 = snapshot(), put(5, 6), put(9, 0), put(8, 6), release(s1), compact(), get(5), get(1), s2 = snapshot(), get(8), s3 = snapshot(), s4 = snapshot(), get(1), s5 = snapshot(), release(s5), put(5, 9), read(s3, 7), compact(), put(2, 4), put(3, 7), s6 = snapshot(), s7 = snapshot(), put(7, 0), compact(), s8 = snapshot(), read(s6, 2), read(s7, 1), s9 = snapshot(), compact(), compact(), s10 = snapshot(), read(s3, 5)]"
+        "steps": "[s0 = snapshot(), read(s0, 1), release(s0), put(7, 6), s1 = snapshot(), read(s1, 4), release(s1), get(7), get(1), s2 = snapshot(), read(s2, 2), s3 = snapshot(), compact(), put(0, 2), put(8, 4), get(6), read(s2, 7), put(8, 6), put(7, 5), read(s3, 7), release(s2), put(4, 3), get(1), read(s3, 8), put(2, 6), get(5), s4 = snapshot(), s5 = snapshot(), compact(), s6 = snapshot(), read(s4, 8), s7 = snapshot(), put(1, 3), s8 = snapshot(), get(3), compact(), put(3, 0), s9 = snapshot(), s10 = snapshot(), put(8, 8), put(6, 4), s11 = snapshot(), release(s6), release(s4), put(9, 9), compact(), put(0, 2), release(s9), read(s8, 9), read(s8, 8)]"
       },
       "seed": 1352,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 1.648666167
+      "total_seconds": 1.247474542
     },
     {
       "evaluations": 1666,
@@ -196,40 +196,40 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.689806208
+      "total_seconds": 0.715967208
     },
     {
-      "evaluations": 1794,
+      "evaluations": 3056,
       "original": {
-        "steps": "[compact(), put(9, 6), compact(), compact(), put(7, 7), put(8, 9), s0 = snapshot(), s1 = snapshot(), compact(), release(s1), read(s0, 9), compact(), read(s0, 8), put(2, 5), s2 = snapshot(), compact(), read(s0, 6), put(9, 3), release(s0), read(s2, 8), s3 = snapshot(), compact(), compact(), release(s3), s4 = snapshot(), compact(), read(s4, 2), put(9, 3), put(7, 1), s5 = snapshot(), s6 = snapshot(), put(5, 6), s7 = snapshot(), s8 = snapshot(), put(8, 0), read(s8, 0), compact(), s9 = snapshot(), s10 = snapshot(), read(s2, 7)]"
+        "steps": "[compact(), s0 = snapshot(), put(0, 9), compact(), release(s0), s1 = snapshot(), release(s1), s2 = snapshot(), release(s2), s3 = snapshot(), s4 = snapshot(), release(s4), release(s3), s5 = snapshot(), release(s5), compact(), s6 = snapshot(), put(0, 5), s7 = snapshot(), compact(), put(0, 9), compact(), read(s6, 0)]"
       },
       "seed": 1354,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.968853125
+      "total_seconds": 1.208795916
     },
     {
-      "evaluations": 2956,
+      "evaluations": 1675,
       "original": {
-        "steps": "[compact(), put(2, 2), get(6), put(4, 8), s0 = snapshot(), get(5), read(s0, 9), put(0, 0), release(s0), put(9, 1), put(4, 3), put(6, 0), put(4, 0), s1 = snapshot(), compact(), get(1), read(s1, 6), get(1), s2 = snapshot(), put(6, 2), s3 = snapshot(), release(s3), read(s1, 2), put(2, 0), release(s1), s4 = snapshot(), read(s4, 4), s5 = snapshot(), compact(), compact(), compact(), put(6, 1), compact(), compact(), put(3, 9), s6 = snapshot(), get(1), compact(), get(9), release(s6), release(s2), s7 = snapshot(), compact(), compact(), compact(), release(s7), compact(), read(s5, 6)]"
+        "steps": "[put(8, 9), s0 = snapshot(), read(s0, 8), s1 = snapshot(), put(4, 0), put(3, 4), read(s1, 2), put(2, 4), s2 = snapshot(), put(8, 9), read(s2, 5), compact(), read(s0, 5), s3 = snapshot(), get(8), read(s3, 5), read(s3, 7), read(s1, 8), put(7, 3), get(9), compact(), read(s2, 8)]"
       },
       "seed": 1355,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.175693917
+      "total_seconds": 0.980321291
     },
     {
-      "evaluations": 1942,
+      "evaluations": 1708,
       "original": {
-        "steps": "[compact(), compact(), s0 = snapshot(), release(s0), compact(), s1 = snapshot(), release(s1), compact(), get(9), compact(), s2 = snapshot(), read(s2, 3), put(6, 0), s3 = snapshot(), release(s3), read(s2, 6), release(s2), get(3), compact(), put(6, 7), compact(), get(2), compact(), compact(), get(8), s4 = snapshot(), s5 = snapshot(), put(4, 7), compact(), get(3), s6 = snapshot(), read(s4, 6), get(7), s7 = snapshot(), compact(), release(s4), get(3), get(4), read(s6, 3), compact(), put(4, 1), s8 = snapshot(), put(9, 7), s9 = snapshot(), compact(), read(s7, 4)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 9), s2 = snapshot(), release(s1), compact(), read(s0, 3), compact(), s3 = snapshot(), s4 = snapshot(), read(s3, 9), get(5), compact(), release(s3), get(0), put(0, 8), release(s4), release(s0), read(s2, 4), release(s2), put(1, 0), get(0), put(2, 6), s5 = snapshot(), put(1, 3), get(3), read(s5, 4), compact(), get(1), s6 = snapshot(), put(7, 7), get(7), put(2, 2), s7 = snapshot(), read(s6, 9), release(s6), compact(), compact(), read(s5, 2)]"
       },
       "seed": 1356,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.9755305
+      "total_seconds": 1.09903125
     },
     {
       "evaluations": 1906,
@@ -240,18 +240,18 @@
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.966631459
+      "total_seconds": 0.990348791
     },
     {
-      "evaluations": 2011,
+      "evaluations": 2317,
       "original": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(8, 9), get(7), s2 = snapshot(), put(2, 1), compact(), s3 = snapshot(), read(s2, 2), compact(), s4 = snapshot(), s5 = snapshot(), put(4, 6), s6 = snapshot(), read(s2, 0), put(9, 8), compact(), get(8), get(3), compact(), read(s4, 3), put(5, 6), compact(), compact(), s7 = snapshot(), get(6), get(0), read(s7, 8), put(2, 5), s8 = snapshot(), put(6, 8), compact(), s9 = snapshot(), s10 = snapshot(), s11 = snapshot(), read(s6, 1), put(5, 8), compact(), get(1), read(s1, 8), compact(), read(s6, 8), put(9, 1), read(s5, 2)]"
+        "steps": "[get(0), put(7, 1), put(5, 9), s0 = snapshot(), get(6), read(s0, 7), compact(), s1 = snapshot(), release(s0), release(s1), put(4, 7), get(6), compact(), get(1), compact(), put(7, 2), compact(), s2 = snapshot(), s3 = snapshot(), compact(), put(0, 3), release(s2), read(s3, 3), compact(), put(8, 9), s4 = snapshot(), get(8), read(s4, 4), put(0, 1), put(7, 8), compact(), s5 = snapshot(), read(s3, 1), release(s3), put(8, 4), release(s5), s6 = snapshot(), read(s4, 3), get(6), release(s6), read(s4, 2), s7 = snapshot(), read(s4, 2), compact(), read(s4, 8)]"
       },
       "seed": 1358,
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 1.21644325
+      "total_seconds": 1.280268709
     },
     {
       "evaluations": 1715,
@@ -262,7 +262,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.772560542
+      "total_seconds": 0.79032825
     },
     {
       "evaluations": 1799,
@@ -273,40 +273,40 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.797714
+      "total_seconds": 0.828478
     },
     {
-      "evaluations": 3079,
+      "evaluations": 1678,
       "original": {
-        "steps": "[put(6, 5), compact(), put(5, 0), s0 = snapshot(), get(4), compact(), s1 = snapshot(), s2 = snapshot(), read(s2, 4), read(s1, 5), read(s2, 1), get(7), compact(), get(0), put(5, 8), compact(), get(0), compact(), s3 = snapshot(), read(s1, 2), put(1, 4), release(s0), compact(), release(s3), compact(), compact(), compact(), read(s2, 9), release(s2), s4 = snapshot(), compact(), put(7, 6), put(0, 0), read(s1, 9), read(s4, 1), read(s1, 1), s5 = snapshot(), put(5, 7), read(s1, 5)]"
+        "steps": "[put(2, 7), put(6, 1), put(2, 3), get(4), put(2, 8), compact(), put(8, 5), get(9), s0 = snapshot(), s1 = snapshot(), put(8, 5), get(2), compact(), get(8), s2 = snapshot(), compact(), put(1, 2), s3 = snapshot(), put(2, 4), put(8, 1), get(3), s4 = snapshot(), put(2, 2), put(3, 4), get(6), compact(), release(s0), put(5, 4), put(6, 9), release(s4), get(9), compact(), get(7), compact(), read(s3, 6), compact(), get(1), release(s1), get(5), s5 = snapshot(), compact(), compact(), s6 = snapshot(), release(s2), read(s5, 8), s7 = snapshot(), put(0, 2), put(8, 1), put(5, 2), read(s3, 8)]"
       },
       "seed": 1361,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.222549917
+      "total_seconds": 0.798443042
     },
     {
-      "evaluations": 1725,
+      "evaluations": 1941,
       "original": {
-        "steps": "[compact(), put(9, 0), get(3), compact(), compact(), get(7), get(3), s0 = snapshot(), s1 = snapshot(), get(2), release(s1), read(s0, 8), release(s0), compact(), s2 = snapshot(), s3 = snapshot(), compact(), s4 = snapshot(), put(9, 0), s5 = snapshot(), read(s2, 6), put(1, 3), read(s3, 4), release(s3), compact(), get(7), release(s5), compact(), get(1), put(4, 7), read(s2, 9)]"
+        "steps": "[put(4, 6), s0 = snapshot(), get(6), put(5, 2), s1 = snapshot(), release(s0), put(6, 8), s2 = snapshot(), put(6, 4), put(4, 7), get(9), s3 = snapshot(), compact(), read(s3, 6), compact(), put(8, 9), get(7), compact(), put(2, 5), s4 = snapshot(), get(2), read(s1, 9), compact(), read(s4, 9), s5 = snapshot(), compact(), release(s5), get(6), get(5), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), get(7), get(1), put(0, 3), read(s7, 4), put(4, 7), read(s2, 6)]"
       },
       "seed": 1362,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.207674
+      "total_seconds": 0.973724792
     },
     {
-      "evaluations": 1683,
+      "evaluations": 1732,
       "original": {
-        "steps": "[put(2, 3), get(9), get(9), put(8, 3), put(0, 7), put(7, 7), get(6), s0 = snapshot(), get(9), compact(), get(5), compact(), s1 = snapshot(), get(0), compact(), read(s0, 8), put(8, 1), put(4, 3), put(3, 5), get(9), read(s1, 8), read(s0, 3), read(s0, 9), compact(), read(s0, 2), read(s0, 2), put(5, 3), put(8, 0), s2 = snapshot(), release(s1), put(9, 8), get(0), put(0, 6), compact(), release(s2), put(6, 6), get(5), compact(), get(3), read(s0, 8)]"
+        "steps": "[put(7, 6), s0 = snapshot(), compact(), put(6, 5), get(1), read(s0, 0), put(4, 5), s1 = snapshot(), get(1), compact(), put(4, 1), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), compact(), read(s4, 0), put(9, 6), compact(), get(3), put(0, 9), get(7), s5 = snapshot(), read(s4, 9), compact(), put(5, 3), compact(), compact(), s6 = snapshot(), put(2, 5), put(9, 4), compact(), s7 = snapshot(), s8 = snapshot(), compact(), compact(), get(0), compact(), s9 = snapshot(), s10 = snapshot(), put(5, 3), put(9, 7), put(0, 9), put(9, 8), put(5, 3), read(s9, 1), get(2), put(5, 1), s11 = snapshot(), get(8), read(s6, 9)]"
       },
       "seed": 1363,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.981783416
+      "total_seconds": 0.8174545
     },
     {
       "evaluations": 1641,
@@ -317,40 +317,40 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.695106042
+      "total_seconds": 0.728615375
     },
     {
-      "evaluations": 3028,
+      "evaluations": 1678,
       "original": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(3, 4), put(8, 5), release(s0), get(3), s1 = snapshot(), put(4, 4), get(5), compact(), put(6, 6), compact(), s2 = snapshot(), get(6), put(7, 3), compact(), get(9), read(s1, 8), put(8, 3), compact(), read(s2, 0), read(s2, 1), compact(), put(5, 6), compact(), put(4, 7), put(2, 8), put(4, 9), s3 = snapshot(), read(s1, 9), get(0), put(7, 9), read(s1, 2), put(8, 7), get(2), put(2, 7), put(9, 3), s4 = snapshot(), get(9), get(8), compact(), compact(), read(s3, 5), compact(), put(9, 8), compact(), read(s4, 1), s5 = snapshot(), read(s1, 0), read(s3, 8)]"
+        "steps": "[compact(), s0 = snapshot(), s1 = snapshot(), get(3), s2 = snapshot(), read(s1, 6), s3 = snapshot(), release(s2), read(s1, 6), put(4, 3), s4 = snapshot(), put(2, 5), s5 = snapshot(), read(s1, 6), put(4, 8), get(2), s6 = snapshot(), put(2, 4), s7 = snapshot(), compact(), read(s3, 9), compact(), put(7, 1), read(s7, 0), compact(), read(s3, 4), put(0, 2), get(4), compact(), compact(), get(9), put(2, 4), put(3, 7), put(7, 9), get(3), get(9), release(s6), s8 = snapshot(), read(s4, 0), s9 = snapshot(), compact(), read(s8, 0), release(s9), get(4), read(s8, 7), compact(), release(s5), read(s4, 4)]"
       },
       "seed": 1365,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.384948917
+      "total_seconds": 0.945104916
     },
     {
-      "evaluations": 5172,
+      "evaluations": 4851,
       "original": {
-        "steps": "[compact(), put(5, 8), compact(), put(8, 6), put(2, 0), compact(), s0 = snapshot(), read(s0, 1), compact(), put(2, 7), put(6, 1), put(7, 3), get(4), read(s0, 0), get(5), get(2), put(0, 0), put(5, 6), get(2), put(6, 5), compact(), get(5), s1 = snapshot(), get(7), put(8, 4), put(0, 8), get(4), compact(), put(5, 2), s2 = snapshot(), read(s1, 4), read(s0, 8), put(7, 4), put(6, 7), put(4, 9), compact(), read(s1, 3), s3 = snapshot(), compact(), put(4, 5), get(5), s4 = snapshot(), get(2), put(3, 1), read(s0, 6), get(9), compact(), read(s4, 4), read(s0, 2)]"
+        "steps": "[s0 = snapshot(), put(7, 7), s1 = snapshot(), read(s0, 3), put(8, 6), s2 = snapshot(), s3 = snapshot(), put(6, 4), s4 = snapshot(), read(s3, 5), compact(), compact(), read(s0, 1), get(7), read(s4, 4), release(s1), compact(), compact(), put(6, 2), compact(), put(1, 6), s5 = snapshot(), put(2, 5), release(s3), put(9, 8), get(9), get(0), put(1, 4), compact(), read(s4, 0), release(s4), read(s0, 9), get(8), s6 = snapshot(), read(s2, 5), release(s0), read(s6, 3), compact(), get(3), read(s5, 1)]"
       },
       "seed": 1366,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.552791542
+      "total_seconds": 1.087786208
     },
     {
-      "evaluations": 1849,
+      "evaluations": 2034,
       "original": {
-        "steps": "[compact(), compact(), compact(), get(7), put(9, 7), compact(), s0 = snapshot(), put(4, 7), get(2), get(9), put(7, 0), read(s0, 2), s1 = snapshot(), read(s0, 1), get(7), get(0), s2 = snapshot(), put(7, 8), s3 = snapshot(), read(s3, 1), s4 = snapshot(), get(8), read(s1, 6), read(s2, 7), get(8), get(7), s5 = snapshot(), compact(), put(5, 0), get(9), put(0, 3), read(s3, 4), s6 = snapshot(), compact(), read(s2, 8), read(s0, 7), compact(), s7 = snapshot(), compact(), read(s4, 4), read(s6, 4), put(2, 5), put(5, 4), read(s0, 2), compact(), compact(), s8 = snapshot(), s9 = snapshot(), compact(), read(s2, 7)]"
+        "steps": "[compact(), compact(), compact(), compact(), s0 = snapshot(), put(5, 7), get(3), put(2, 6), s1 = snapshot(), s2 = snapshot(), get(9), get(4), put(0, 0), get(7), get(0), s3 = snapshot(), put(4, 3), s4 = snapshot(), compact(), s5 = snapshot(), put(0, 8), release(s1), get(3), put(6, 0), read(s5, 5), release(s0), s6 = snapshot(), compact(), put(0, 3), read(s2, 3), compact(), release(s5), read(s4, 2), release(s6), get(3), compact(), read(s2, 9), read(s4, 0)]"
       },
       "seed": 1367,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.53681025
+      "total_seconds": 1.174608209
     },
     {
       "evaluations": 1684,
@@ -361,84 +361,84 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.746351
+      "total_seconds": 0.773135208
     },
     {
-      "evaluations": 1896,
+      "evaluations": 2980,
       "original": {
-        "steps": "[get(7), put(5, 6), s0 = snapshot(), release(s0), s1 = snapshot(), s2 = snapshot(), get(3), read(s2, 7), read(s2, 2), compact(), put(1, 4), read(s1, 7), put(9, 2), put(4, 0), release(s1), put(8, 1), put(6, 8), get(4), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), release(s6), release(s4), get(0), compact(), s7 = snapshot(), get(9), read(s3, 5), get(0), release(s5), put(9, 0), get(8), s8 = snapshot(), s9 = snapshot(), compact(), read(s9, 3), release(s2), read(s3, 1), put(9, 9), read(s9, 7), release(s9), s10 = snapshot(), put(3, 9), compact(), compact(), get(0), read(s7, 9)]"
+        "steps": "[put(8, 1), compact(), s0 = snapshot(), compact(), release(s0), get(8), get(4), s1 = snapshot(), s2 = snapshot(), read(s2, 6), read(s1, 2), read(s2, 2), release(s2), get(7), put(1, 3), s3 = snapshot(), compact(), read(s1, 6), put(8, 4), put(9, 4), put(2, 0), s4 = snapshot(), read(s4, 7), s5 = snapshot(), compact(), get(0), put(3, 5), read(s5, 4), get(6), s6 = snapshot(), put(4, 2), compact(), release(s6), s7 = snapshot(), compact(), release(s7), put(0, 4), compact(), read(s1, 8)]"
       },
       "seed": 1369,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.962046541
+      "total_seconds": 1.1081017499999999
     },
     {
-      "evaluations": 1720,
+      "evaluations": 1850,
       "original": {
-        "steps": "[put(4, 2), put(2, 3), put(8, 3), compact(), compact(), s0 = snapshot(), put(6, 1), read(s0, 6), s1 = snapshot(), compact(), s2 = snapshot(), put(2, 5), read(s0, 3), s3 = snapshot(), s4 = snapshot(), compact(), put(8, 6), read(s0, 8), put(5, 2), put(0, 5), s5 = snapshot(), put(0, 8), put(5, 9), put(9, 2), read(s2, 3), read(s0, 3), read(s0, 6), read(s4, 8), read(s4, 1), compact(), compact(), read(s3, 6), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), put(4, 0), put(4, 3), put(0, 6), read(s2, 2)]"
+        "steps": "[compact(), s0 = snapshot(), put(1, 3), put(1, 9), compact(), get(5), s1 = snapshot(), read(s0, 5), read(s1, 4), compact(), put(6, 2), release(s0), s2 = snapshot(), get(7), put(7, 3), get(8), get(0), compact(), put(7, 3), read(s2, 1), get(8), get(8), compact(), get(8), read(s1, 2), put(3, 2), put(3, 8), put(4, 2), put(6, 9), compact(), put(8, 5), read(s2, 1), put(0, 4), put(7, 6), s3 = snapshot(), compact(), read(s2, 6)]"
       },
       "seed": 1370,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.864915209
+      "total_seconds": 0.9163485
     },
     {
-      "evaluations": 2082,
+      "evaluations": 1926,
       "original": {
-        "steps": "[compact(), put(9, 1), compact(), s0 = snapshot(), s1 = snapshot(), compact(), get(4), read(s1, 1), compact(), put(8, 9), put(2, 1), release(s1), release(s0), s2 = snapshot(), read(s2, 6), get(8), read(s2, 5), get(2), s3 = snapshot(), s4 = snapshot(), release(s3), compact(), s5 = snapshot(), s6 = snapshot(), read(s5, 2), put(8, 8), s7 = snapshot(), s8 = snapshot(), read(s7, 6), compact(), put(9, 8), read(s2, 1), read(s7, 9), compact(), read(s7, 2), put(9, 3), read(s6, 8)]"
+        "steps": "[put(4, 9), put(7, 5), compact(), compact(), get(3), put(5, 4), compact(), s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), get(3), release(s0), compact(), s3 = snapshot(), compact(), release(s1), put(6, 3), s4 = snapshot(), get(5), compact(), get(6), s5 = snapshot(), read(s4, 0), read(s5, 5), put(3, 9), put(7, 5), s6 = snapshot(), read(s5, 6), get(4), put(6, 3), put(5, 3), release(s4), release(s6), s7 = snapshot(), release(s7), s8 = snapshot(), put(4, 6), put(9, 9), compact(), get(6), read(s5, 5)]"
       },
       "seed": 1371,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.112247541
+      "total_seconds": 0.84589575
     },
     {
-      "evaluations": 1845,
+      "evaluations": 1722,
       "original": {
-        "steps": "[compact(), put(3, 6), get(9), s0 = snapshot(), release(s0), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), get(5), s4 = snapshot(), compact(), put(3, 0), get(7), s5 = snapshot(), release(s5), compact(), release(s1), s6 = snapshot(), compact(), read(s6, 0), release(s6), get(0), s7 = snapshot(), put(6, 8), put(1, 8), s8 = snapshot(), get(7), put(5, 7), get(1), read(s2, 5), release(s7), s9 = snapshot(), release(s2), compact(), release(s9), read(s8, 3), put(6, 2), read(s3, 3)]"
+        "steps": "[compact(), s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), read(s1, 8), s3 = snapshot(), release(s0), release(s1), compact(), release(s2), release(s3), put(2, 8), put(0, 3), compact(), s4 = snapshot(), put(2, 4), s5 = snapshot(), compact(), read(s5, 6), compact(), put(9, 4), read(s5, 3), read(s5, 4), read(s4, 3), s6 = snapshot(), release(s4), s7 = snapshot(), put(2, 6), put(3, 6), put(0, 0), compact(), s8 = snapshot(), release(s8), release(s7), s9 = snapshot(), read(s6, 6), s10 = snapshot(), read(s9, 0), release(s10), put(0, 5), compact(), compact(), compact(), put(4, 3), read(s9, 1), release(s9), release(s5), read(s6, 2)]"
       },
       "seed": 1372,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.815855208
+      "total_seconds": 0.863245084
     },
     {
-      "evaluations": 6527,
+      "evaluations": 1663,
       "original": {
-        "steps": "[s0 = snapshot(), read(s0, 6), s1 = snapshot(), read(s0, 6), compact(), read(s1, 5), put(5, 0), s2 = snapshot(), read(s2, 9), compact(), compact(), compact(), s3 = snapshot(), read(s1, 8), compact(), compact(), s4 = snapshot(), put(9, 0), read(s3, 6), put(0, 7), read(s0, 6), compact(), s5 = snapshot(), compact(), read(s1, 6), compact(), put(0, 3), s6 = snapshot(), compact(), put(6, 8), compact(), s7 = snapshot(), put(7, 2), read(s5, 0)]"
+        "steps": "[put(8, 1), s0 = snapshot(), read(s0, 9), s1 = snapshot(), s2 = snapshot(), put(9, 2), s3 = snapshot(), compact(), compact(), s4 = snapshot(), s5 = snapshot(), compact(), put(9, 4), read(s1, 9), read(s4, 6), read(s2, 8), put(1, 3), read(s3, 5), read(s5, 4), s6 = snapshot(), compact(), compact(), read(s4, 9)]"
       },
       "seed": 1373,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), put(0, 0), s5 = snapshot(), put(0, 0), s6 = snapshot(), compact(), read(s5, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.60423525
+      "total_seconds": 1.096100375
     },
     {
-      "evaluations": 1710,
+      "evaluations": 2970,
       "original": {
-        "steps": "[s0 = snapshot(), compact(), s1 = snapshot(), s2 = snapshot(), release(s2), release(s0), release(s1), put(8, 5), put(8, 4), s3 = snapshot(), put(4, 5), release(s3), compact(), put(6, 7), s4 = snapshot(), s5 = snapshot(), compact(), s6 = snapshot(), put(2, 8), read(s4, 1), compact(), release(s5), compact(), put(6, 8), s7 = snapshot(), s8 = snapshot(), put(7, 6), read(s8, 0), read(s7, 0), read(s7, 6), read(s8, 8), put(8, 9), read(s4, 6), put(5, 5), release(s8), compact(), s9 = snapshot(), read(s4, 0), compact(), put(2, 9), put(9, 4), put(2, 9), read(s6, 6)]"
+        "steps": "[s0 = snapshot(), put(2, 3), read(s0, 8), s1 = snapshot(), get(0), get(1), get(3), read(s1, 0), s2 = snapshot(), read(s2, 7), read(s1, 5), put(2, 3), s3 = snapshot(), s4 = snapshot(), get(4), s5 = snapshot(), s6 = snapshot(), get(9), read(s4, 3), get(5), s7 = snapshot(), put(1, 5), compact(), put(4, 8), s8 = snapshot(), read(s1, 2)]"
       },
       "seed": 1374,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.860558084
+      "total_seconds": 1.151913417
     },
     {
-      "evaluations": 4740,
+      "evaluations": 4754,
       "original": {
-        "steps": "[put(4, 0), compact(), get(9), get(2), put(7, 0), s0 = snapshot(), compact(), get(8), compact(), release(s0), s1 = snapshot(), release(s1), get(8), s2 = snapshot(), put(2, 1), release(s2), s3 = snapshot(), put(5, 0), put(5, 5), s4 = snapshot(), put(7, 0), get(7), release(s4), release(s3), s5 = snapshot(), s6 = snapshot(), put(6, 4), put(2, 3), put(4, 5), s7 = snapshot(), release(s6), read(s7, 7), s8 = snapshot(), put(2, 5), read(s8, 8), compact(), release(s8), get(3), read(s5, 0), read(s5, 4)]"
+        "steps": "[s0 = snapshot(), put(7, 0), compact(), s1 = snapshot(), read(s0, 1), s2 = snapshot(), read(s1, 8), put(5, 5), read(s2, 4), compact(), s3 = snapshot(), put(5, 4), compact(), read(s1, 6), compact(), compact(), put(6, 9), compact(), compact(), s4 = snapshot(), put(1, 7), compact(), s5 = snapshot(), s6 = snapshot(), read(s0, 5), put(9, 6), read(s6, 3), put(7, 0), read(s3, 5)]"
       },
       "seed": 1375,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), put(0, 0), s3 = snapshot(), put(0, 0), s4 = snapshot(), compact(), read(s3, 0)]"
       },
-      "total_seconds": 1.116838291
+      "total_seconds": 0.641716584
     },
     {
       "evaluations": 1635,
@@ -449,84 +449,84 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.7108625
+      "total_seconds": 0.746468167
     },
     {
-      "evaluations": 1696,
+      "evaluations": 1736,
       "original": {
-        "steps": "[get(3), put(8, 5), put(2, 3), get(9), compact(), s0 = snapshot(), read(s0, 4), compact(), compact(), s1 = snapshot(), put(8, 2), read(s1, 2), read(s0, 0), get(8), compact(), get(2), get(4), s2 = snapshot(), compact(), read(s1, 5), read(s0, 5), put(9, 3), read(s0, 8)]"
+        "steps": "[put(3, 7), s0 = snapshot(), compact(), read(s0, 2), get(6), compact(), put(6, 2), put(7, 3), read(s0, 0), get(2), compact(), put(3, 3), put(7, 6), s1 = snapshot(), get(8), compact(), compact(), read(s0, 7), get(2), get(0), read(s1, 9), compact(), compact(), read(s0, 0), put(1, 4), read(s1, 2), put(5, 9), read(s0, 3)]"
       },
       "seed": 1377,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.745108292
+      "total_seconds": 0.892270917
     },
     {
-      "evaluations": 1717,
+      "evaluations": 2290,
       "original": {
-        "steps": "[put(5, 6), s0 = snapshot(), put(2, 3), s1 = snapshot(), read(s1, 7), s2 = snapshot(), put(1, 0), compact(), s3 = snapshot(), s4 = snapshot(), read(s4, 5), read(s3, 7), read(s1, 9), put(7, 0), put(9, 5), compact(), put(0, 5), compact(), read(s2, 2), s5 = snapshot(), read(s2, 5), compact(), put(5, 1), s6 = snapshot(), put(7, 5), s7 = snapshot(), compact(), s8 = snapshot(), put(7, 0), s9 = snapshot(), s10 = snapshot(), compact(), compact(), read(s7, 5), put(0, 7), compact(), read(s7, 1), read(s2, 5)]"
+        "steps": "[s0 = snapshot(), get(0), compact(), put(5, 6), compact(), get(0), put(9, 5), release(s0), s1 = snapshot(), compact(), s2 = snapshot(), get(7), get(4), s3 = snapshot(), compact(), read(s3, 1), release(s1), get(3), s4 = snapshot(), compact(), release(s2), read(s4, 7), release(s4), compact(), s5 = snapshot(), put(5, 8), get(5), compact(), release(s3), put(1, 5), compact(), s6 = snapshot(), put(0, 0), s7 = snapshot(), compact(), put(7, 2), s8 = snapshot(), put(6, 5), read(s5, 6), put(3, 5), read(s8, 8), get(6), release(s7), get(9), put(6, 2), put(4, 8), get(7), put(8, 2), release(s8), read(s5, 5)]"
       },
       "seed": 1378,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.367357167
+      "total_seconds": 1.170921875
     },
     {
-      "evaluations": 1939,
+      "evaluations": 1938,
       "original": {
-        "steps": "[put(2, 3), s0 = snapshot(), read(s0, 4), s1 = snapshot(), put(6, 1), read(s0, 9), compact(), put(2, 9), put(6, 7), compact(), put(7, 8), compact(), put(6, 2), s2 = snapshot(), put(7, 8), put(8, 4), read(s0, 3), s3 = snapshot(), compact(), s4 = snapshot(), s5 = snapshot(), compact(), put(8, 4), put(6, 9), s6 = snapshot(), read(s4, 6), put(2, 6), put(9, 5), s7 = snapshot(), compact(), read(s3, 4), read(s1, 3), read(s4, 4), read(s6, 5), s8 = snapshot(), put(7, 0), s9 = snapshot(), put(6, 4), s10 = snapshot(), compact(), read(s7, 7)]"
+        "steps": "[s0 = snapshot(), put(0, 0), read(s0, 3), put(1, 0), compact(), s1 = snapshot(), compact(), compact(), s2 = snapshot(), put(0, 5), read(s1, 1), s3 = snapshot(), s4 = snapshot(), read(s4, 6), s5 = snapshot(), put(3, 1), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), read(s7, 7), put(7, 9), read(s0, 9), put(1, 0), s9 = snapshot(), put(3, 2), s10 = snapshot(), read(s8, 6), read(s5, 8), put(9, 0), read(s10, 9), read(s7, 4), put(2, 8), compact(), read(s10, 3), compact(), compact(), s11 = snapshot(), compact(), s12 = snapshot(), put(1, 4), put(3, 6), read(s6, 1)]"
       },
       "seed": 1379,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.844843542
+      "total_seconds": 1.013386667
     },
     {
-      "evaluations": 1681,
+      "evaluations": 1982,
       "original": {
-        "steps": "[get(7), put(3, 5), compact(), compact(), s0 = snapshot(), s1 = snapshot(), compact(), release(s0), get(2), read(s1, 7), put(6, 5), release(s1), s2 = snapshot(), get(2), release(s2), put(8, 4), compact(), get(3), put(1, 5), s3 = snapshot(), put(3, 6), get(4), release(s3), get(8), s4 = snapshot(), put(6, 2), put(3, 1), get(1), compact(), read(s4, 3), get(5), compact(), s5 = snapshot(), read(s4, 6), compact(), s6 = snapshot(), get(9), read(s6, 5), get(0), s7 = snapshot(), put(7, 7), s8 = snapshot(), read(s5, 7), compact(), s9 = snapshot(), get(9), release(s8), read(s4, 3)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), release(s1), read(s0, 4), compact(), read(s0, 3), put(1, 3), s2 = snapshot(), put(6, 6), s3 = snapshot(), release(s0), get(2), read(s3, 1), put(6, 0), s4 = snapshot(), s5 = snapshot(), put(1, 5), release(s5), read(s4, 9), read(s3, 4), get(8), release(s3), put(8, 5), compact(), s6 = snapshot(), compact(), read(s2, 2), put(1, 8), get(9), read(s2, 6), get(5), read(s4, 0), read(s4, 1)]"
       },
       "seed": 1380,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.830345417
+      "total_seconds": 1.032152167
     },
     {
-      "evaluations": 1948,
+      "evaluations": 1761,
       "original": {
-        "steps": "[put(7, 2), compact(), put(7, 2), put(0, 6), s0 = snapshot(), put(0, 7), read(s0, 8), compact(), compact(), s1 = snapshot(), s2 = snapshot(), read(s1, 9), s3 = snapshot(), read(s2, 9), put(9, 2), compact(), s4 = snapshot(), compact(), s5 = snapshot(), s6 = snapshot(), read(s6, 1), read(s0, 3), put(5, 2), put(2, 0), s7 = snapshot(), put(5, 2), read(s0, 4), put(4, 7), read(s7, 5), read(s2, 5), put(5, 4), s8 = snapshot(), compact(), s9 = snapshot(), read(s7, 8), read(s8, 6), s10 = snapshot(), compact(), read(s7, 5)]"
+        "steps": "[get(3), compact(), compact(), compact(), put(9, 1), compact(), get(0), put(1, 0), compact(), get(9), put(3, 2), compact(), get(2), s0 = snapshot(), s1 = snapshot(), release(s1), s2 = snapshot(), s3 = snapshot(), compact(), compact(), read(s0, 2), compact(), s4 = snapshot(), release(s4), s5 = snapshot(), s6 = snapshot(), get(5), s7 = snapshot(), get(0), put(3, 1), read(s7, 6), get(9), read(s2, 6), read(s5, 3), release(s3), compact(), release(s5), get(3), release(s7), s8 = snapshot(), s9 = snapshot(), s10 = snapshot(), read(s2, 4), get(0), compact(), read(s2, 3)]"
       },
       "seed": 1381,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.794614875
+      "total_seconds": 0.969368959
     },
     {
-      "evaluations": 2973,
+      "evaluations": 1660,
       "original": {
-        "steps": "[s0 = snapshot(), put(7, 9), read(s0, 1), s1 = snapshot(), compact(), put(1, 9), s2 = snapshot(), get(1), put(7, 2), compact(), put(7, 7), read(s1, 3), read(s2, 3), get(3), release(s0), put(3, 7), read(s2, 3), compact(), s3 = snapshot(), get(4), read(s3, 0), get(0), release(s3), s4 = snapshot(), get(0), compact(), put(3, 2), get(1), get(1), get(6), s5 = snapshot(), compact(), read(s1, 2), s6 = snapshot(), put(5, 4), read(s1, 7)]"
+        "steps": "[put(2, 0), s0 = snapshot(), compact(), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), get(1), compact(), put(1, 9), s4 = snapshot(), release(s0), read(s4, 8), read(s4, 2), read(s2, 1), release(s4), compact(), read(s2, 7), read(s1, 5), get(9), release(s3), compact(), get(3), put(2, 0), s5 = snapshot(), put(7, 6), get(2), get(8), release(s2), put(5, 9), get(5), s6 = snapshot(), put(2, 7), s7 = snapshot(), put(3, 8), compact(), get(2), read(s1, 2)]"
       },
       "seed": 1382,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.039048291
+      "total_seconds": 0.997683333
     },
     {
-      "evaluations": 3020,
+      "evaluations": 3045,
       "original": {
-        "steps": "[get(5), s0 = snapshot(), get(7), put(0, 0), read(s0, 1), s1 = snapshot(), compact(), s2 = snapshot(), compact(), get(4), put(6, 2), put(5, 1), get(2), read(s2, 8), put(8, 5), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), put(6, 2), release(s1), get(0), read(s5, 8), compact(), compact(), compact(), put(9, 4), put(6, 4), release(s2), put(4, 3), s6 = snapshot(), put(5, 7), read(s6, 3), read(s4, 3), get(8), put(3, 9), read(s0, 0), compact(), compact(), s7 = snapshot(), get(9), put(1, 8), put(9, 5), release(s3), get(6), get(5), s8 = snapshot(), read(s5, 6)]"
+        "steps": "[compact(), compact(), s0 = snapshot(), release(s0), compact(), compact(), compact(), compact(), put(9, 6), put(1, 7), s1 = snapshot(), read(s1, 3), put(5, 8), s2 = snapshot(), release(s2), compact(), put(0, 7), s3 = snapshot(), release(s1), put(7, 2), read(s3, 3), put(4, 8), s4 = snapshot(), read(s3, 2), compact(), compact(), read(s4, 1), read(s4, 1), put(2, 6), compact(), put(6, 5), read(s4, 1), put(7, 5), compact(), put(1, 4), put(6, 9), s5 = snapshot(), compact(), release(s4), read(s5, 4), put(3, 0), read(s5, 0), s6 = snapshot(), put(5, 1), read(s5, 3), read(s3, 1)]"
       },
       "seed": 1383,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 1.0565605
+      "total_seconds": 1.633399958
     },
     {
       "evaluations": 4723,
@@ -537,40 +537,40 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.067435208
+      "total_seconds": 1.146296167
     },
     {
-      "evaluations": 2972,
+      "evaluations": 2934,
       "original": {
-        "steps": "[s0 = snapshot(), compact(), put(2, 7), put(4, 5), s1 = snapshot(), put(8, 1), compact(), put(9, 0), s2 = snapshot(), compact(), put(1, 2), read(s2, 9), put(9, 0), put(8, 3), compact(), s3 = snapshot(), read(s2, 4), put(9, 7), compact(), read(s2, 0), s4 = snapshot(), read(s2, 0), put(9, 2), s5 = snapshot(), s6 = snapshot(), put(6, 2), put(0, 3), s7 = snapshot(), put(0, 6), compact(), s8 = snapshot(), put(7, 6), put(2, 8), put(1, 0), s9 = snapshot(), put(6, 4), read(s4, 1), put(6, 4), put(8, 1), s10 = snapshot(), compact(), compact(), read(s7, 1)]"
+        "steps": "[s0 = snapshot(), put(8, 9), compact(), read(s0, 4), s1 = snapshot(), compact(), release(s1), put(2, 1), compact(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), release(s4), s6 = snapshot(), get(5), put(7, 5), s7 = snapshot(), release(s2), s8 = snapshot(), compact(), get(5), compact(), compact(), get(2), s9 = snapshot(), put(1, 2), put(8, 9), s10 = snapshot(), compact(), put(3, 1), read(s5, 7), get(7), read(s8, 8)]"
       },
       "seed": 1385,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.0273215
+      "total_seconds": 1.04043025
     },
     {
-      "evaluations": 1949,
+      "evaluations": 1701,
       "original": {
-        "steps": "[compact(), put(6, 1), compact(), put(7, 5), compact(), put(0, 1), compact(), get(2), compact(), s0 = snapshot(), put(3, 6), put(4, 6), s1 = snapshot(), compact(), compact(), release(s1), release(s0), s2 = snapshot(), put(7, 6), release(s2), put(8, 2), compact(), s3 = snapshot(), s4 = snapshot(), read(s3, 7), compact(), read(s4, 4), put(7, 4), s5 = snapshot(), s6 = snapshot(), put(0, 8), put(3, 1), compact(), put(7, 6), compact(), s7 = snapshot(), compact(), release(s6), get(7), s8 = snapshot(), read(s5, 9), read(s3, 3)]"
+        "steps": "[get(2), compact(), put(9, 2), compact(), compact(), put(8, 0), compact(), compact(), get(5), get(7), compact(), compact(), get(3), put(2, 9), get(9), compact(), s0 = snapshot(), compact(), put(7, 2), s1 = snapshot(), s2 = snapshot(), put(4, 3), read(s1, 2), put(7, 8), read(s1, 3), get(5), s3 = snapshot(), read(s2, 6), s4 = snapshot(), get(3), release(s2), compact(), compact(), read(s1, 3), read(s1, 7)]"
       },
       "seed": 1386,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.263211959
+      "total_seconds": 0.752705916
     },
     {
-      "evaluations": 2981,
+      "evaluations": 2023,
       "original": {
-        "steps": "[put(1, 0), compact(), s0 = snapshot(), release(s0), s1 = snapshot(), release(s1), put(7, 3), s2 = snapshot(), compact(), s3 = snapshot(), put(7, 8), read(s3, 2), put(4, 5), release(s2), read(s3, 8), put(1, 0), read(s3, 1), s4 = snapshot(), s5 = snapshot(), release(s5), s6 = snapshot(), compact(), put(4, 5), put(7, 6), compact(), s7 = snapshot(), put(2, 5), compact(), release(s4), compact(), read(s6, 8), compact(), compact(), put(7, 3), put(3, 0), compact(), compact(), s8 = snapshot(), release(s7), release(s6), release(s8), read(s3, 1)]"
+        "steps": "[compact(), compact(), compact(), s0 = snapshot(), read(s0, 7), read(s0, 0), compact(), put(9, 7), read(s0, 4), compact(), compact(), put(2, 2), read(s0, 5), s1 = snapshot(), put(6, 6), compact(), put(9, 8), s2 = snapshot(), read(s2, 5), s3 = snapshot(), read(s3, 5), s4 = snapshot(), read(s2, 8), compact(), read(s2, 3), s5 = snapshot(), read(s1, 9)]"
       },
       "seed": 1387,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 2.09459325
+      "total_seconds": 1.454590625
     },
     {
       "evaluations": 1814,
@@ -581,7 +581,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.751518375
+      "total_seconds": 0.783106791
     },
     {
       "evaluations": 1647,
@@ -592,106 +592,106 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.7214395
+      "total_seconds": 0.743776417
     },
     {
-      "evaluations": 1681,
+      "evaluations": 4707,
       "original": {
-        "steps": "[compact(), get(1), put(1, 1), s0 = snapshot(), s1 = snapshot(), put(2, 3), get(5), put(8, 7), compact(), put(1, 3), read(s1, 1), s2 = snapshot(), get(1), put(5, 2), read(s1, 7), put(2, 2), s3 = snapshot(), put(4, 0), s4 = snapshot(), read(s4, 4), read(s1, 2), s5 = snapshot(), put(0, 1), s6 = snapshot(), read(s6, 4), get(9), compact(), get(6), get(9), read(s1, 1)]"
+        "steps": "[s0 = snapshot(), compact(), read(s0, 4), compact(), release(s0), s1 = snapshot(), read(s1, 9), read(s1, 9), put(4, 9), read(s1, 7), put(3, 1), read(s1, 4), put(9, 0), read(s1, 1), s2 = snapshot(), put(4, 8), release(s2), s3 = snapshot(), put(9, 9), put(8, 3), compact(), put(3, 2), get(2), s4 = snapshot(), compact(), get(6), compact(), read(s3, 9)]"
       },
       "seed": 1390,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.876670208
+      "total_seconds": 1.6029735
     },
     {
-      "evaluations": 2028,
+      "evaluations": 4226,
       "original": {
-        "steps": "[s0 = snapshot(), put(0, 9), compact(), put(5, 9), read(s0, 0), s1 = snapshot(), compact(), read(s0, 4), read(s0, 8), read(s1, 2), s2 = snapshot(), read(s1, 9), compact(), get(8), get(3), put(9, 7), put(5, 5), compact(), put(9, 4), compact(), read(s1, 6), read(s0, 4), get(4), read(s1, 2), put(1, 4), compact(), compact(), s3 = snapshot(), get(5), put(6, 1), read(s2, 7), compact(), compact(), s4 = snapshot(), compact(), s5 = snapshot(), get(3), read(s2, 6), get(3), put(5, 6), put(5, 7), compact(), s6 = snapshot(), read(s1, 5)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), compact(), put(2, 1), put(5, 7), compact(), read(s1, 8), s2 = snapshot(), put(9, 2), s3 = snapshot(), compact(), put(4, 7), s4 = snapshot(), compact(), put(6, 1), s5 = snapshot(), s6 = snapshot(), s7 = snapshot(), put(6, 9), read(s4, 4), s8 = snapshot(), compact(), put(1, 4), s9 = snapshot(), put(5, 5), compact(), put(1, 5), compact(), s10 = snapshot(), read(s2, 5), compact(), s11 = snapshot(), s12 = snapshot(), compact(), read(s4, 5)]"
       },
       "seed": 1391,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.799436666
+      "total_seconds": 0.441462
     },
     {
-      "evaluations": 3037,
+      "evaluations": 1688,
       "original": {
-        "steps": "[compact(), s0 = snapshot(), compact(), get(4), release(s0), put(8, 8), get(3), put(7, 3), put(5, 4), compact(), compact(), put(9, 5), get(8), compact(), get(5), s1 = snapshot(), s2 = snapshot(), put(5, 1), put(9, 4), get(6), compact(), get(9), compact(), s3 = snapshot(), get(3), put(9, 9), compact(), read(s2, 5)]"
+        "steps": "[get(4), compact(), get(0), get(2), get(7), s0 = snapshot(), put(8, 1), put(0, 2), read(s0, 9), s1 = snapshot(), compact(), compact(), read(s1, 5), read(s1, 1), s2 = snapshot(), put(0, 3), read(s1, 3), put(1, 1), s3 = snapshot(), compact(), s4 = snapshot(), put(0, 7), compact(), compact(), s5 = snapshot(), compact(), s6 = snapshot(), compact(), put(6, 8), put(6, 6), read(s0, 0), read(s0, 5), release(s1), get(1), s7 = snapshot(), s8 = snapshot(), compact(), get(9), read(s4, 8), compact(), read(s2, 8), read(s3, 0)]"
       },
       "seed": 1392,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.430965291
+      "total_seconds": 0.765335416
     },
     {
-      "evaluations": 1910,
+      "evaluations": 1655,
       "original": {
-        "steps": "[put(2, 2), compact(), compact(), s0 = snapshot(), compact(), release(s0), s1 = snapshot(), put(0, 8), s2 = snapshot(), read(s2, 4), release(s1), compact(), s3 = snapshot(), s4 = snapshot(), read(s2, 9), s5 = snapshot(), get(7), compact(), s6 = snapshot(), s7 = snapshot(), compact(), compact(), release(s4), s8 = snapshot(), compact(), release(s7), get(9), read(s6, 4), put(9, 3), s9 = snapshot(), compact(), read(s8, 0), compact(), read(s9, 9), compact(), s10 = snapshot(), put(0, 5), put(0, 8), get(2), put(7, 7), release(s3), put(2, 9), s11 = snapshot(), compact(), put(0, 6), compact(), read(s6, 2)]"
+        "steps": "[get(7), compact(), compact(), s0 = snapshot(), compact(), release(s0), get(6), get(8), get(3), get(6), s1 = snapshot(), get(7), get(9), get(7), s2 = snapshot(), compact(), put(5, 4), compact(), put(8, 7), release(s2), get(8), s3 = snapshot(), s4 = snapshot(), compact(), s5 = snapshot(), get(7), get(1), put(8, 9), s6 = snapshot(), compact(), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), put(0, 7), get(8), put(1, 2), release(s3), release(s8), put(7, 9), put(7, 7), read(s4, 5), s10 = snapshot(), s11 = snapshot(), put(6, 7), put(9, 7), read(s4, 8)]"
       },
       "seed": 1393,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.251189167
+      "total_seconds": 1.0732765
     },
     {
-      "evaluations": 2934,
+      "evaluations": 2984,
       "original": {
-        "steps": "[put(5, 1), get(5), s0 = snapshot(), put(7, 9), s1 = snapshot(), put(3, 2), put(6, 1), compact(), compact(), get(9), s2 = snapshot(), put(3, 6), release(s0), put(8, 3), s3 = snapshot(), get(6), s4 = snapshot(), s5 = snapshot(), get(1), read(s1, 8), compact(), compact(), read(s2, 3)]"
+        "steps": "[s0 = snapshot(), read(s0, 1), s1 = snapshot(), put(5, 7), put(9, 6), read(s1, 1), read(s1, 9), s2 = snapshot(), compact(), read(s1, 3), put(7, 4), s3 = snapshot(), put(2, 5), read(s0, 8), compact(), read(s0, 1), s4 = snapshot(), s5 = snapshot(), put(9, 3), read(s0, 0), s6 = snapshot(), compact(), put(0, 2), compact(), read(s4, 1), read(s0, 0), compact(), read(s6, 3), s7 = snapshot(), put(0, 6), s8 = snapshot(), compact(), compact(), read(s8, 0), s9 = snapshot(), read(s3, 8), put(2, 4), read(s5, 6), s10 = snapshot(), read(s8, 4), read(s1, 6), read(s9, 7), s11 = snapshot(), read(s4, 9)]"
       },
       "seed": 1394,
       "shrunk": {
         "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 1.549430875
+      "total_seconds": 1.2596949579999999
     },
     {
-      "evaluations": 1735,
+      "evaluations": 3003,
       "original": {
-        "steps": "[compact(), s0 = snapshot(), put(5, 7), put(0, 6), compact(), compact(), put(4, 3), compact(), s1 = snapshot(), compact(), compact(), put(5, 0), s2 = snapshot(), read(s1, 4), compact(), read(s0, 3), s3 = snapshot(), s4 = snapshot(), compact(), read(s4, 2), put(7, 6), put(8, 3), read(s3, 1), compact(), s5 = snapshot(), compact(), compact(), compact(), put(2, 5), s6 = snapshot(), put(0, 4), s7 = snapshot(), put(0, 4), put(7, 9), put(7, 6), put(4, 7), s8 = snapshot(), read(s3, 3), s9 = snapshot(), compact(), compact(), put(5, 5), s10 = snapshot(), put(4, 0), compact(), compact(), compact(), read(s6, 7)]"
+        "steps": "[s0 = snapshot(), compact(), get(3), compact(), get(3), s1 = snapshot(), put(7, 5), s2 = snapshot(), s3 = snapshot(), put(3, 2), s4 = snapshot(), get(7), read(s1, 6), put(7, 0), compact(), s5 = snapshot(), read(s0, 5), get(2), get(5), compact(), compact(), compact(), get(4), release(s2), read(s1, 6), s6 = snapshot(), compact(), put(5, 1), release(s0), release(s4), put(3, 1), put(6, 7), compact(), get(3), put(6, 2), get(8), get(1), compact(), s7 = snapshot(), release(s7), release(s5), read(s3, 7)]"
       },
       "seed": 1395,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 0.804108042
+      "total_seconds": 1.3150695
     },
     {
-      "evaluations": 3426,
+      "evaluations": 2100,
       "original": {
-        "steps": "[s0 = snapshot(), get(2), get(5), release(s0), s1 = snapshot(), release(s1), put(0, 0), s2 = snapshot(), release(s2), get(5), get(2), put(5, 7), compact(), compact(), put(2, 1), compact(), put(6, 4), put(3, 8), s3 = snapshot(), get(3), s4 = snapshot(), put(7, 8), put(5, 4), put(7, 0), s5 = snapshot(), compact(), get(7), get(4), put(6, 4), s6 = snapshot(), read(s3, 5)]"
+        "steps": "[compact(), s0 = snapshot(), s1 = snapshot(), release(s1), get(5), get(9), compact(), put(7, 2), s2 = snapshot(), read(s0, 2), s3 = snapshot(), release(s3), compact(), s4 = snapshot(), release(s4), get(9), s5 = snapshot(), put(8, 7), compact(), put(1, 7), read(s5, 9), release(s5), release(s2), get(5), release(s0), s6 = snapshot(), get(3), put(8, 0), s7 = snapshot(), compact(), release(s7), read(s6, 4), read(s6, 8)]"
       },
       "seed": 1396,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.169843334
+      "total_seconds": 1.2889532080000001
     },
     {
-      "evaluations": 1831,
+      "evaluations": 1596,
       "original": {
-        "steps": "[s0 = snapshot(), read(s0, 6), read(s0, 1), read(s0, 6), s1 = snapshot(), put(8, 3), put(1, 3), get(3), compact(), read(s1, 5), put(9, 7), read(s0, 9), get(6), put(6, 2), read(s1, 3), read(s0, 5), read(s1, 4), s2 = snapshot(), s3 = snapshot(), compact(), compact(), get(7), s4 = snapshot(), get(5), s5 = snapshot(), read(s4, 0), get(7), read(s3, 8), put(9, 4), read(s0, 0), s6 = snapshot(), s7 = snapshot(), get(7), compact(), read(s3, 5), get(4), s8 = snapshot(), get(5), get(2), read(s4, 5), compact(), compact(), s9 = snapshot(), read(s7, 3), read(s3, 9)]"
+        "steps": "[put(2, 2), s0 = snapshot(), put(2, 5), compact(), s1 = snapshot(), get(7), compact(), release(s1), put(3, 9), put(8, 1), get(8), s2 = snapshot(), read(s0, 1), put(1, 6), compact(), get(1), read(s0, 2)]"
       },
       "seed": 1397,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.13287875
+      "total_seconds": 1.1300275
     },
     {
-      "evaluations": 1773,
+      "evaluations": 1864,
       "original": {
-        "steps": "[compact(), put(0, 2), put(0, 1), put(4, 6), get(2), compact(), get(5), compact(), get(1), get(3), get(1), s0 = snapshot(), get(7), get(1), put(5, 2), get(5), get(2), put(8, 7), get(7), s1 = snapshot(), compact(), s2 = snapshot(), put(4, 9), put(3, 6), put(0, 2), s3 = snapshot(), compact(), compact(), release(s3), read(s1, 2), compact(), compact(), compact(), s4 = snapshot(), read(s4, 0), put(1, 8), s5 = snapshot(), read(s1, 4)]"
+        "steps": "[put(3, 7), compact(), get(6), compact(), get(7), s0 = snapshot(), put(0, 8), compact(), compact(), release(s0), put(8, 9), put(5, 3), get(7), get(4), get(5), s1 = snapshot(), read(s1, 8), read(s1, 8), s2 = snapshot(), read(s1, 9), s3 = snapshot(), put(6, 3), release(s2), compact(), get(9), s4 = snapshot(), compact(), s5 = snapshot(), get(5), s6 = snapshot(), release(s4), put(6, 4), release(s5), get(0), put(4, 9), release(s1), put(7, 8), put(8, 3), read(s6, 8), read(s6, 1), s7 = snapshot(), compact(), s8 = snapshot(), release(s3), s9 = snapshot(), put(4, 8), read(s6, 1), read(s6, 8)]"
       },
       "seed": 1398,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.96921175
+      "total_seconds": 0.845754583
     },
     {
       "evaluations": 3009,
@@ -702,18 +702,18 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.972841041
+      "total_seconds": 1.023809208
     },
     {
-      "evaluations": 1842,
+      "evaluations": 3025,
       "original": {
-        "steps": "[compact(), compact(), s0 = snapshot(), s1 = snapshot(), put(7, 5), read(s1, 4), read(s1, 4), s2 = snapshot(), put(0, 3), s3 = snapshot(), s4 = snapshot(), read(s0, 1), compact(), put(7, 0), s5 = snapshot(), compact(), compact(), s6 = snapshot(), read(s3, 5), put(7, 2), read(s3, 7)]"
+        "steps": "[compact(), s0 = snapshot(), compact(), release(s0), compact(), compact(), put(7, 4), put(3, 9), put(9, 2), put(8, 0), compact(), compact(), compact(), s1 = snapshot(), put(5, 5), read(s1, 0), compact(), compact(), s2 = snapshot(), put(1, 0), put(6, 6), read(s1, 6), s3 = snapshot(), compact(), put(0, 1), compact(), read(s3, 3), put(3, 4), compact(), s4 = snapshot(), s5 = snapshot(), compact(), s6 = snapshot(), read(s3, 1), release(s5), compact(), compact(), s7 = snapshot(), compact(), put(9, 9), release(s6), read(s7, 3), s8 = snapshot(), release(s1), compact(), s9 = snapshot(), read(s2, 3)]"
       },
       "seed": 1400,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.82365075
+      "total_seconds": 1.069172541
     },
     {
       "evaluations": 2009,
@@ -724,106 +724,106 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.794790083
+      "total_seconds": 0.815354208
     },
     {
-      "evaluations": 2002,
+      "evaluations": 1977,
       "original": {
-        "steps": "[compact(), get(6), put(1, 1), put(5, 0), get(8), put(9, 0), s0 = snapshot(), read(s0, 1), release(s0), get(3), put(7, 3), put(8, 1), s1 = snapshot(), put(5, 8), s2 = snapshot(), put(9, 4), read(s2, 2), get(7), compact(), s3 = snapshot(), read(s2, 7), put(7, 8), get(6), compact(), put(0, 8), read(s2, 9)]"
+        "steps": "[put(0, 7), compact(), s0 = snapshot(), put(2, 7), read(s0, 6), compact(), s1 = snapshot(), compact(), s2 = snapshot(), read(s2, 5), compact(), compact(), compact(), put(2, 3), compact(), put(3, 3), s3 = snapshot(), put(2, 6), read(s3, 8), put(4, 2), release(s1), put(1, 0), put(3, 4), s4 = snapshot(), read(s4, 3), compact(), read(s2, 2)]"
       },
       "seed": 1402,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.796072208
+      "total_seconds": 1.061239458
     },
     {
-      "evaluations": 1671,
+      "evaluations": 1774,
       "original": {
-        "steps": "[put(3, 8), s0 = snapshot(), get(6), compact(), s1 = snapshot(), s2 = snapshot(), get(1), put(9, 8), read(s2, 0), put(3, 9), s3 = snapshot(), put(8, 1), read(s3, 2), s4 = snapshot(), put(4, 6), compact(), compact(), s5 = snapshot(), put(9, 6), get(0), compact(), compact(), put(3, 4), put(4, 9), put(4, 6), read(s1, 2), s6 = snapshot(), get(3), s7 = snapshot(), put(0, 5), compact(), read(s3, 3)]"
+        "steps": "[compact(), compact(), compact(), compact(), put(6, 9), s0 = snapshot(), compact(), s1 = snapshot(), release(s1), s2 = snapshot(), s3 = snapshot(), read(s2, 2), release(s3), s4 = snapshot(), compact(), read(s4, 4), read(s0, 5), release(s2), s5 = snapshot(), release(s5), release(s4), compact(), read(s0, 4), release(s0), s6 = snapshot(), compact(), compact(), compact(), read(s6, 5), put(0, 2), put(8, 7), compact(), s7 = snapshot(), compact(), put(8, 8), s8 = snapshot(), release(s6), compact(), release(s8), put(7, 7), compact(), read(s7, 8)]"
       },
       "seed": 1403,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.02234575
+      "total_seconds": 0.915847958
     },
     {
-      "evaluations": 2912,
+      "evaluations": 1916,
       "original": {
-        "steps": "[s0 = snapshot(), release(s0), compact(), put(7, 1), put(7, 3), s1 = snapshot(), read(s1, 0), put(8, 1), s2 = snapshot(), put(0, 1), put(1, 2), put(8, 4), compact(), s3 = snapshot(), compact(), compact(), release(s3), put(2, 3), release(s1), put(4, 9), read(s2, 8)]"
+        "steps": "[s0 = snapshot(), put(6, 0), compact(), compact(), put(7, 9), put(0, 2), read(s0, 2), read(s0, 5), put(2, 3), put(8, 9), put(7, 2), read(s0, 3), s1 = snapshot(), put(7, 6), read(s0, 4), put(3, 2), compact(), compact(), s2 = snapshot(), put(6, 0), compact(), s3 = snapshot(), put(0, 3), put(1, 3), s4 = snapshot(), put(0, 8), put(5, 3), put(4, 1), read(s0, 9), compact(), put(3, 9), compact(), read(s4, 7), read(s1, 2), compact(), compact(), put(8, 6), read(s1, 0)]"
       },
       "seed": 1404,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 1.323447542
+      "total_seconds": 1.089728917
     },
     {
-      "evaluations": 1701,
+      "evaluations": 1781,
       "original": {
-        "steps": "[put(1, 2), put(3, 8), s0 = snapshot(), release(s0), put(3, 1), put(1, 3), s1 = snapshot(), s2 = snapshot(), release(s2), s3 = snapshot(), release(s3), release(s1), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), compact(), s7 = snapshot(), release(s7), read(s5, 1), compact(), put(2, 1), put(3, 4), release(s4), s8 = snapshot(), release(s5), release(s8), s9 = snapshot(), put(4, 8), compact(), release(s6), read(s9, 1), read(s9, 3), release(s9), s10 = snapshot(), compact(), put(5, 6), put(8, 2), s11 = snapshot(), read(s11, 3), compact(), put(4, 9), compact(), put(6, 4), read(s11, 1), read(s11, 3), put(1, 5), s12 = snapshot(), compact(), read(s10, 4)]"
+        "steps": "[s0 = snapshot(), read(s0, 8), compact(), compact(), release(s0), compact(), s1 = snapshot(), read(s1, 0), compact(), read(s1, 0), put(1, 5), s2 = snapshot(), release(s1), put(6, 3), put(4, 2), put(6, 2), s3 = snapshot(), s4 = snapshot(), put(6, 9), s5 = snapshot(), put(1, 7), read(s5, 9), release(s5), compact(), read(s3, 0), s6 = snapshot(), put(7, 5), release(s2), compact(), release(s3), read(s4, 1)]"
       },
       "seed": 1405,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.741330333
+      "total_seconds": 0.887473292
     },
     {
-      "evaluations": 4700,
+      "evaluations": 1971,
       "original": {
-        "steps": "[get(8), put(0, 6), put(2, 2), get(1), s0 = snapshot(), s1 = snapshot(), read(s1, 9), read(s0, 4), read(s1, 8), read(s1, 6), put(1, 4), put(5, 1), s2 = snapshot(), s3 = snapshot(), put(9, 5), get(6), s4 = snapshot(), compact(), put(2, 2), compact(), compact(), get(9), get(0), read(s3, 9), put(9, 5), compact(), compact(), put(5, 1), compact(), read(s2, 9), s5 = snapshot(), s6 = snapshot(), read(s6, 4), compact(), read(s3, 2)]"
+        "steps": "[put(2, 4), get(0), compact(), put(8, 5), compact(), put(1, 9), put(7, 2), compact(), get(6), put(9, 7), s0 = snapshot(), compact(), put(8, 5), put(4, 1), s1 = snapshot(), put(1, 4), put(6, 1), put(3, 9), compact(), put(4, 0), get(7), compact(), read(s1, 2), compact(), read(s1, 7), read(s1, 4), s2 = snapshot(), read(s0, 5), put(4, 2), s3 = snapshot(), read(s1, 5), get(6), s4 = snapshot(), get(3), s5 = snapshot(), compact(), compact(), compact(), put(8, 0), read(s3, 9), compact(), s6 = snapshot(), get(8), s7 = snapshot(), read(s7, 5), compact(), get(4), read(s2, 4)]"
       },
       "seed": 1406,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.112271084
+      "total_seconds": 0.836856167
     },
     {
-      "evaluations": 1724,
+      "evaluations": 1679,
       "original": {
-        "steps": "[put(3, 1), compact(), compact(), put(4, 4), get(8), s0 = snapshot(), put(6, 5), s1 = snapshot(), read(s1, 7), get(2), release(s0), get(5), release(s1), s2 = snapshot(), put(4, 9), read(s2, 1), get(5), put(6, 0), get(9), read(s2, 8), compact(), put(3, 8), get(8), get(4), compact(), compact(), put(0, 5), get(4), put(8, 8), put(6, 4), put(0, 8), get(9), s3 = snapshot(), compact(), s4 = snapshot(), put(1, 2), get(0), read(s2, 3)]"
+        "steps": "[compact(), put(1, 2), get(9), put(8, 4), compact(), get(2), s0 = snapshot(), compact(), compact(), s1 = snapshot(), get(8), get(4), put(5, 8), compact(), read(s1, 6), compact(), release(s0), get(8), release(s1), compact(), put(7, 1), compact(), s2 = snapshot(), put(7, 7), s3 = snapshot(), put(3, 1), put(2, 4), read(s2, 6), compact(), release(s3), get(5), read(s2, 7)]"
       },
       "seed": 1407,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.774776
+      "total_seconds": 1.163440333
     },
     {
-      "evaluations": 1646,
+      "evaluations": 1684,
       "original": {
-        "steps": "[put(5, 4), put(2, 3), put(9, 1), get(5), compact(), get(2), compact(), put(3, 1), get(2), s0 = snapshot(), release(s0), get(8), put(2, 8), get(4), put(7, 6), put(6, 1), put(6, 6), get(3), s1 = snapshot(), read(s1, 6), get(6), get(5), s2 = snapshot(), read(s1, 8), put(8, 8), compact(), get(5), get(3), release(s2), s3 = snapshot(), put(7, 3), release(s3), compact(), read(s1, 8), s4 = snapshot(), put(9, 0), put(1, 6), put(7, 6), s5 = snapshot(), put(2, 8), get(1), s6 = snapshot(), compact(), s7 = snapshot(), get(1), read(s6, 7), compact(), read(s1, 7)]"
+        "steps": "[put(9, 5), s0 = snapshot(), put(2, 0), s1 = snapshot(), compact(), read(s1, 0), read(s1, 9), compact(), read(s1, 2), s2 = snapshot(), compact(), read(s2, 4), compact(), compact(), s3 = snapshot(), read(s3, 6), compact(), s4 = snapshot(), read(s0, 8), read(s3, 4), put(2, 1), put(3, 3), read(s3, 1), read(s2, 0), read(s2, 0), put(0, 6), put(2, 1), compact(), put(1, 2), compact(), put(3, 3), s5 = snapshot(), compact(), s6 = snapshot(), compact(), read(s1, 2)]"
       },
       "seed": 1408,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.055818875
+      "total_seconds": 1.316381791
     },
     {
-      "evaluations": 2397,
+      "evaluations": 1679,
       "original": {
-        "steps": "[compact(), s0 = snapshot(), get(9), s1 = snapshot(), release(s1), put(3, 7), read(s0, 5), release(s0), s2 = snapshot(), read(s2, 8), put(6, 4), read(s2, 5), release(s2), compact(), put(9, 9), s3 = snapshot(), get(9), compact(), compact(), read(s3, 9), get(5), put(8, 0), get(0), get(5), put(6, 7), read(s3, 1), get(5), put(6, 3), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), read(s5, 0), put(2, 8), read(s3, 5), put(4, 8), put(0, 2), release(s4), compact(), compact(), get(0), read(s3, 6)]"
+        "steps": "[put(5, 1), compact(), s0 = snapshot(), read(s0, 8), read(s0, 1), get(2), put(4, 4), compact(), put(4, 8), release(s0), s1 = snapshot(), put(3, 6), read(s1, 9), read(s1, 5), s2 = snapshot(), read(s2, 2), read(s1, 9), put(4, 0), put(3, 2), s3 = snapshot(), s4 = snapshot(), put(8, 3), put(8, 5), read(s2, 4), read(s3, 6), read(s1, 1), read(s1, 0), compact(), get(0), read(s2, 2), get(4), release(s3), s5 = snapshot(), get(8), put(8, 2), put(8, 9), release(s1), s6 = snapshot(), s7 = snapshot(), compact(), release(s4), read(s7, 9), s8 = snapshot(), read(s6, 2), get(2), read(s7, 6), compact(), read(s5, 8)]"
       },
       "seed": 1409,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.923413959
+      "total_seconds": 0.989050833
     },
     {
-      "evaluations": 3027,
+      "evaluations": 1705,
       "original": {
-        "steps": "[get(2), s0 = snapshot(), compact(), put(5, 1), release(s0), compact(), compact(), compact(), put(0, 2), compact(), compact(), compact(), s1 = snapshot(), release(s1), put(7, 4), get(1), put(6, 0), get(3), s2 = snapshot(), compact(), s3 = snapshot(), get(3), release(s2), get(6), compact(), read(s3, 5), release(s3), put(5, 1), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), put(6, 0), s7 = snapshot(), compact(), release(s6), read(s4, 6)]"
+        "steps": "[put(0, 4), compact(), put(2, 8), put(9, 4), s0 = snapshot(), s1 = snapshot(), compact(), s2 = snapshot(), put(0, 5), put(4, 8), compact(), s3 = snapshot(), put(6, 5), read(s0, 4), compact(), read(s3, 1), compact(), put(6, 9), read(s0, 0)]"
       },
       "seed": 1410,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.06214675
+      "total_seconds": 1.022174083
     },
     {
       "evaluations": 1691,
@@ -834,18 +834,18 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.715042
+      "total_seconds": 0.743956875
     },
     {
-      "evaluations": 6879,
+      "evaluations": 1641,
       "original": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), release(s1), release(s0), put(2, 8), compact(), put(6, 0), compact(), compact(), compact(), put(1, 5), compact(), compact(), put(0, 3), compact(), put(4, 9), s2 = snapshot(), put(4, 8), put(5, 5), s3 = snapshot(), read(s2, 1), read(s2, 5), read(s3, 9), s4 = snapshot(), compact(), compact(), release(s4), read(s3, 0), put(1, 3), put(8, 6), s5 = snapshot(), compact(), put(7, 1), put(9, 0), s6 = snapshot(), s7 = snapshot(), read(s3, 1)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), read(s2, 0), put(5, 2), s3 = snapshot(), put(3, 9), put(9, 9), s4 = snapshot(), get(6), compact(), s5 = snapshot(), put(8, 7), s6 = snapshot(), s7 = snapshot(), get(6), read(s7, 2), get(4), get(5), s8 = snapshot(), put(3, 6), compact(), s9 = snapshot(), compact(), s10 = snapshot(), s11 = snapshot(), get(2), s12 = snapshot(), put(3, 6), s13 = snapshot(), put(9, 0), get(0), compact(), compact(), s14 = snapshot(), compact(), read(s12, 0), s15 = snapshot(), read(s11, 3)]"
       },
       "seed": 1412,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), put(0, 0), s7 = snapshot(), put(0, 0), s8 = snapshot(), compact(), read(s7, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.888091041
+      "total_seconds": 0.980598625
     },
     {
       "evaluations": 1778,
@@ -856,7 +856,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.712880042
+      "total_seconds": 0.746455459
     },
     {
       "evaluations": 1965,
@@ -867,7 +867,7 @@
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.993513875
+      "total_seconds": 1.059158958
     },
     {
       "evaluations": 1595,
@@ -878,7 +878,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.679128125
+      "total_seconds": 0.713548167
     },
     {
       "evaluations": 2974,
@@ -889,40 +889,40 @@
       "shrunk": {
         "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 1.121238125
+      "total_seconds": 1.194292792
     },
     {
-      "evaluations": 1785,
+      "evaluations": 1956,
       "original": {
-        "steps": "[compact(), compact(), put(4, 5), s0 = snapshot(), compact(), put(5, 8), get(3), put(2, 3), get(3), put(6, 0), get(0), s1 = snapshot(), get(5), get(2), read(s1, 2), s2 = snapshot(), put(2, 3), get(1), get(4), s3 = snapshot(), read(s3, 6), get(6), read(s0, 3), get(8), read(s1, 1), compact(), compact(), put(6, 2), read(s0, 5), get(0), read(s1, 2)]"
+        "steps": "[s0 = snapshot(), put(6, 5), put(9, 5), read(s0, 1), put(7, 5), put(8, 3), compact(), get(2), compact(), compact(), compact(), get(2), compact(), compact(), read(s0, 5), get(6), get(2), put(0, 9), read(s0, 3), release(s0), compact(), put(4, 4), put(7, 2), s1 = snapshot(), s2 = snapshot(), put(1, 4), s3 = snapshot(), s4 = snapshot(), put(7, 7), get(2), compact(), compact(), s5 = snapshot(), get(2), s6 = snapshot(), compact(), release(s6), put(8, 8), compact(), put(9, 5), put(4, 7), release(s2), put(9, 0), get(5), s7 = snapshot(), release(s5), get(6), compact(), read(s4, 9)]"
       },
       "seed": 1417,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.886141667
+      "total_seconds": 1.095940708
     },
     {
-      "evaluations": 1639,
+      "evaluations": 3435,
       "original": {
-        "steps": "[put(0, 8), compact(), s0 = snapshot(), compact(), put(0, 2), put(5, 7), get(5), s1 = snapshot(), compact(), put(7, 5), compact(), read(s1, 0), read(s1, 3), read(s1, 3), get(5), get(8), s2 = snapshot(), s3 = snapshot(), read(s3, 1), release(s1), release(s3), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), release(s0), release(s1), put(4, 5), s2 = snapshot(), release(s2), s3 = snapshot(), get(4), s4 = snapshot(), read(s4, 4), compact(), put(1, 8), compact(), put(9, 7), get(6), compact(), compact(), read(s3, 0), s5 = snapshot(), s6 = snapshot(), release(s5), compact(), get(6), compact(), put(1, 6), compact(), release(s3), release(s4), s7 = snapshot(), get(5), get(7), put(9, 9), put(3, 0), s8 = snapshot(), release(s8), s9 = snapshot(), compact(), read(s7, 9)]"
       },
       "seed": 1418,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 0.845432583
+      "total_seconds": 1.2355397909999999
     },
     {
-      "evaluations": 1859,
+      "evaluations": 2355,
       "original": {
-        "steps": "[put(0, 2), s0 = snapshot(), read(s0, 3), compact(), compact(), release(s0), get(0), get(8), s1 = snapshot(), read(s1, 1), s2 = snapshot(), put(0, 5), put(9, 6), s3 = snapshot(), read(s1, 7), get(5), s4 = snapshot(), put(2, 1), put(0, 5), release(s4), read(s2, 2), put(8, 5), compact(), s5 = snapshot(), compact(), release(s2), read(s3, 3), read(s3, 7), compact(), compact(), compact(), read(s1, 0)]"
+        "steps": "[put(8, 5), s0 = snapshot(), release(s0), compact(), compact(), get(4), compact(), put(8, 6), get(4), put(8, 7), s1 = snapshot(), get(1), release(s1), s2 = snapshot(), compact(), put(9, 1), s3 = snapshot(), compact(), put(3, 8), put(4, 3), compact(), get(4), put(8, 4), get(9), s4 = snapshot(), release(s4), put(4, 2), put(2, 4), compact(), read(s2, 4), compact(), read(s3, 4), s5 = snapshot(), read(s5, 8), read(s5, 8), compact(), compact(), release(s5), get(7), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), release(s6), read(s3, 8)]"
       },
       "seed": 1419,
       "shrunk": {
-        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
+        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 0.995295917
+      "total_seconds": 1.243264375
     },
     {
       "evaluations": 1678,
@@ -933,7 +933,7 @@
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.7218845
+      "total_seconds": 0.74712025
     },
     {
       "evaluations": 3032,
@@ -944,172 +944,172 @@
       "shrunk": {
         "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 1.138262833
+      "total_seconds": 1.170265542
     },
     {
-      "evaluations": 1631,
+      "evaluations": 2326,
       "original": {
-        "steps": "[s0 = snapshot(), put(1, 1), compact(), s1 = snapshot(), read(s1, 1), read(s1, 3), read(s1, 9), put(4, 4), s2 = snapshot(), compact(), s3 = snapshot(), s4 = snapshot(), put(4, 1), put(2, 8), put(3, 2), compact(), compact(), read(s2, 8), s5 = snapshot(), read(s0, 7), compact(), put(3, 5), s6 = snapshot(), compact(), compact(), put(3, 3), s7 = snapshot(), compact(), put(1, 6), read(s6, 6), read(s7, 9), put(2, 8), put(7, 3), s8 = snapshot(), s9 = snapshot(), s10 = snapshot(), read(s3, 1), s11 = snapshot(), compact(), put(7, 0), compact(), compact(), read(s3, 2), read(s11, 1), put(2, 3), read(s2, 4)]"
+        "steps": "[put(7, 5), put(6, 2), s0 = snapshot(), read(s0, 9), put(0, 5), compact(), get(5), put(2, 4), put(2, 9), get(6), compact(), s1 = snapshot(), get(1), read(s0, 7), s2 = snapshot(), compact(), s3 = snapshot(), read(s3, 8), put(0, 4), get(5), compact(), compact(), put(0, 4), put(0, 9), compact(), read(s1, 4), get(8), get(0), s4 = snapshot(), get(2), s5 = snapshot(), get(1), put(6, 4), s6 = snapshot(), get(4), get(0), s7 = snapshot(), read(s5, 3), read(s7, 6), put(1, 3), read(s7, 3), put(5, 2), put(3, 5), s8 = snapshot(), get(6), compact(), compact(), read(s4, 6)]"
       },
       "seed": 1422,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.752466625
+      "total_seconds": 0.400562167
     },
     {
-      "evaluations": 1955,
+      "evaluations": 1971,
       "original": {
-        "steps": "[put(3, 7), s0 = snapshot(), compact(), put(8, 1), put(4, 4), read(s0, 3), read(s0, 9), get(0), put(9, 0), compact(), read(s0, 9), s1 = snapshot(), get(2), get(7), read(s1, 2), release(s0), read(s1, 3), get(5), put(1, 7), compact(), read(s1, 9), s2 = snapshot(), put(9, 0), put(1, 1), s3 = snapshot(), compact(), get(3), compact(), read(s1, 9)]"
+        "steps": "[s0 = snapshot(), compact(), read(s0, 0), get(3), read(s0, 5), read(s0, 3), read(s0, 5), compact(), s1 = snapshot(), put(7, 5), get(9), get(3), s2 = snapshot(), put(3, 4), s3 = snapshot(), s4 = snapshot(), read(s0, 4), read(s2, 3), read(s3, 4), get(7), compact(), s5 = snapshot(), put(7, 6), put(8, 3), read(s2, 8), put(2, 2), compact(), read(s2, 8), get(1), put(0, 6), read(s2, 9), compact(), get(6), put(9, 4), s6 = snapshot(), compact(), read(s2, 7)]"
       },
       "seed": 1423,
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 1.004096541
+      "total_seconds": 1.057950167
     },
     {
-      "evaluations": 1646,
+      "evaluations": 2004,
       "original": {
-        "steps": "[get(1), put(8, 0), put(4, 0), compact(), s0 = snapshot(), read(s0, 7), compact(), read(s0, 6), put(9, 6), s1 = snapshot(), put(4, 8), put(8, 7), put(4, 6), compact(), read(s0, 6), put(8, 8), read(s0, 6), get(4), compact(), compact(), s2 = snapshot(), compact(), compact(), get(4), read(s1, 8)]"
+        "steps": "[compact(), compact(), s0 = snapshot(), get(8), get(6), release(s0), put(7, 8), get(6), s1 = snapshot(), read(s1, 3), release(s1), put(4, 6), put(9, 8), get(6), get(0), put(7, 0), compact(), compact(), get(1), compact(), s2 = snapshot(), s3 = snapshot(), put(8, 5), put(4, 1), put(3, 9), put(1, 0), release(s2), s4 = snapshot(), release(s3), s5 = snapshot(), s6 = snapshot(), s7 = snapshot(), release(s7), read(s4, 9), s8 = snapshot(), read(s4, 6), put(4, 8), s9 = snapshot(), get(3), s10 = snapshot(), get(4), put(2, 5), release(s4), release(s8), compact(), read(s6, 4)]"
       },
       "seed": 1424,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.915982916
+      "total_seconds": 0.870945125
     },
     {
-      "evaluations": 1703,
+      "evaluations": 1693,
       "original": {
-        "steps": "[get(7), compact(), s0 = snapshot(), read(s0, 5), compact(), compact(), read(s0, 4), get(9), put(6, 8), compact(), get(4), put(6, 3), put(6, 0), get(4), put(8, 3), s1 = snapshot(), s2 = snapshot(), read(s0, 4), put(6, 2), get(3), s3 = snapshot(), compact(), s4 = snapshot(), read(s0, 9), put(1, 6), s5 = snapshot(), compact(), read(s1, 5), get(2), s6 = snapshot(), put(8, 0), put(5, 3), put(4, 9), put(1, 2), put(1, 6), s7 = snapshot(), put(1, 8), put(7, 1), put(3, 0), read(s2, 6)]"
+        "steps": "[put(1, 7), get(5), put(4, 0), get(1), s0 = snapshot(), read(s0, 8), s1 = snapshot(), compact(), get(2), s2 = snapshot(), compact(), compact(), compact(), read(s2, 5), s3 = snapshot(), get(6), compact(), read(s0, 2), read(s1, 9), read(s2, 3), read(s0, 0), get(7), put(2, 8), put(1, 8), s4 = snapshot(), get(0), compact(), read(s2, 8), s5 = snapshot(), read(s2, 6), s6 = snapshot(), compact(), read(s2, 9), read(s1, 1)]"
       },
       "seed": 1425,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.276366833
+      "total_seconds": 1.1895187919999999
     },
     {
-      "evaluations": 1722,
+      "evaluations": 1601,
       "original": {
-        "steps": "[put(3, 4), put(1, 9), compact(), s0 = snapshot(), put(0, 2), put(6, 7), compact(), put(9, 2), read(s0, 0), s1 = snapshot(), read(s0, 3), read(s1, 0), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), s5 = snapshot(), compact(), s6 = snapshot(), put(2, 3), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), put(5, 5), put(7, 9), s10 = snapshot(), put(3, 8), s11 = snapshot(), put(9, 8), compact(), s12 = snapshot(), read(s12, 7), put(6, 8), compact(), read(s1, 2), compact(), s13 = snapshot(), read(s11, 7), put(5, 4), read(s7, 7), read(s5, 3)]"
+        "steps": "[compact(), compact(), compact(), put(6, 4), put(4, 6), s0 = snapshot(), s1 = snapshot(), read(s1, 7), compact(), s2 = snapshot(), s3 = snapshot(), s4 = snapshot(), read(s4, 1), compact(), s5 = snapshot(), read(s2, 8), put(2, 6), s6 = snapshot(), read(s6, 0), read(s3, 2), read(s0, 3), put(8, 6), read(s5, 4), read(s3, 8), put(0, 8), put(6, 1), compact(), s7 = snapshot(), read(s3, 9), s8 = snapshot(), put(1, 9), compact(), read(s7, 5), read(s7, 9), s9 = snapshot(), read(s8, 6), s10 = snapshot(), s11 = snapshot(), compact(), put(1, 2), put(2, 9), s12 = snapshot(), s13 = snapshot(), compact(), s14 = snapshot(), s15 = snapshot(), put(6, 1), put(1, 3), s16 = snapshot(), read(s8, 2)]"
       },
       "seed": 1426,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.995812916
+      "total_seconds": 1.095297792
     },
     {
-      "evaluations": 1833,
+      "evaluations": 1734,
       "original": {
-        "steps": "[s0 = snapshot(), put(0, 4), get(7), compact(), get(6), release(s0), s1 = snapshot(), get(6), read(s1, 9), put(4, 8), put(8, 1), get(2), compact(), s2 = snapshot(), release(s2), release(s1), get(2), s3 = snapshot(), put(2, 6), s4 = snapshot(), read(s4, 0), put(1, 6), put(6, 7), get(0), get(9), put(0, 4), get(8), s5 = snapshot(), s6 = snapshot(), s7 = snapshot(), release(s5), compact(), get(1), compact(), get(0), compact(), compact(), get(3), release(s6), compact(), get(6), get(9), read(s4, 8), read(s4, 3), get(0), read(s4, 7), s8 = snapshot(), read(s3, 0)]"
+        "steps": "[get(4), put(9, 3), get(9), compact(), compact(), put(1, 7), s0 = snapshot(), read(s0, 2), compact(), put(5, 6), compact(), compact(), read(s0, 5), read(s0, 8), get(9), s1 = snapshot(), put(5, 3), s2 = snapshot(), put(7, 7), s3 = snapshot(), get(4), s4 = snapshot(), put(7, 0), read(s2, 3), s5 = snapshot(), compact(), s6 = snapshot(), put(8, 7), read(s0, 2), get(2), compact(), read(s5, 3), s7 = snapshot(), compact(), s8 = snapshot(), read(s3, 7)]"
       },
       "seed": 1427,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.917342083
+      "total_seconds": 0.771530333
     },
     {
-      "evaluations": 3058,
+      "evaluations": 1677,
       "original": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), read(s0, 1), s2 = snapshot(), release(s2), put(3, 9), release(s1), read(s0, 4), s3 = snapshot(), compact(), read(s0, 9), put(4, 1), put(8, 9), put(0, 3), compact(), put(3, 8), read(s0, 4), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), put(3, 1), s7 = snapshot(), s8 = snapshot(), s9 = snapshot(), put(9, 6), read(s9, 4), compact(), read(s3, 6), release(s6), read(s5, 4), s10 = snapshot(), read(s10, 7), release(s5), s11 = snapshot(), read(s7, 3), s12 = snapshot(), read(s4, 3)]"
+        "steps": "[s0 = snapshot(), release(s0), s1 = snapshot(), s2 = snapshot(), get(3), compact(), compact(), put(6, 2), read(s1, 4), read(s2, 3), s3 = snapshot(), compact(), read(s1, 0), put(3, 9), read(s1, 2), read(s1, 4), release(s1), get(8), compact(), s4 = snapshot(), put(7, 7), put(1, 0), put(0, 4), put(7, 7), compact(), s5 = snapshot(), release(s2), put(4, 1), get(2), put(8, 0), s6 = snapshot(), release(s5), read(s4, 3), release(s4), compact(), put(0, 5), put(4, 6), get(6), release(s3), get(7), compact(), compact(), put(2, 2), s7 = snapshot(), put(5, 1), compact(), read(s6, 4)]"
       },
       "seed": 1428,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.055249542
+      "total_seconds": 0.879637625
     },
     {
-      "evaluations": 1976,
+      "evaluations": 3013,
       "original": {
-        "steps": "[s0 = snapshot(), put(8, 2), read(s0, 0), release(s0), compact(), s1 = snapshot(), release(s1), put(3, 4), put(4, 7), compact(), put(8, 3), compact(), s2 = snapshot(), put(9, 9), s3 = snapshot(), compact(), compact(), put(1, 0), read(s2, 2), s4 = snapshot(), put(9, 8), read(s4, 6), put(3, 1), compact(), read(s2, 4), release(s2), s5 = snapshot(), s6 = snapshot(), put(7, 5), read(s5, 1), put(3, 6), release(s5), read(s4, 3), put(0, 2), compact(), put(8, 3), read(s6, 4), compact(), put(2, 3), release(s6), read(s3, 3)]"
+        "steps": "[put(9, 3), get(6), s0 = snapshot(), compact(), s1 = snapshot(), release(s0), compact(), s2 = snapshot(), compact(), compact(), release(s2), compact(), release(s1), compact(), s3 = snapshot(), release(s3), compact(), s4 = snapshot(), get(1), s5 = snapshot(), compact(), read(s5, 2), release(s5), read(s4, 5), s6 = snapshot(), read(s6, 4), put(3, 2), get(0), get(3), get(0), s7 = snapshot(), put(3, 3), release(s4), get(0), compact(), compact(), put(9, 5), s8 = snapshot(), get(0), s9 = snapshot(), read(s7, 2), release(s7), put(1, 9), s10 = snapshot(), read(s10, 8), release(s9), get(0), put(6, 0), compact(), read(s6, 9)]"
       },
       "seed": 1429,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.2601425
+      "total_seconds": 1.040585
     },
     {
-      "evaluations": 3028,
+      "evaluations": 1738,
       "original": {
-        "steps": "[compact(), s0 = snapshot(), release(s0), compact(), put(3, 2), s1 = snapshot(), put(3, 6), put(3, 3), release(s1), compact(), get(8), put(3, 5), s2 = snapshot(), get(2), compact(), put(5, 0), put(1, 2), compact(), put(3, 2), put(0, 0), s3 = snapshot(), release(s3), compact(), get(8), get(5), s4 = snapshot(), s5 = snapshot(), s6 = snapshot(), put(7, 4), get(9), read(s5, 3), put(8, 1), read(s6, 4), compact(), put(9, 0), compact(), s7 = snapshot(), s8 = snapshot(), compact(), compact(), s9 = snapshot(), put(8, 7), release(s6), release(s8), compact(), put(8, 6), read(s2, 3)]"
+        "steps": "[compact(), put(0, 5), s0 = snapshot(), read(s0, 1), put(6, 3), get(1), read(s0, 8), s1 = snapshot(), compact(), s2 = snapshot(), put(7, 0), release(s1), put(1, 9), release(s0), compact(), read(s2, 1), compact(), s3 = snapshot(), put(3, 6), s4 = snapshot(), put(0, 1), compact(), compact(), get(1), get(0), put(4, 7), get(3), s5 = snapshot(), compact(), put(6, 5), read(s2, 9), s6 = snapshot(), read(s4, 0)]"
       },
       "seed": 1430,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.557128
+      "total_seconds": 0.911177709
     },
     {
-      "evaluations": 2931,
+      "evaluations": 2918,
       "original": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(7, 5), put(5, 9), read(s1, 2), put(2, 1), read(s0, 5), compact(), s2 = snapshot(), read(s1, 2), compact(), put(4, 9), put(3, 8), s3 = snapshot(), read(s0, 9), compact(), put(0, 6), compact(), put(6, 9), compact(), compact(), read(s0, 6), s4 = snapshot(), s5 = snapshot(), put(1, 1), put(5, 7), s6 = snapshot(), put(3, 9), compact(), s7 = snapshot(), compact(), s8 = snapshot(), s9 = snapshot(), put(4, 5), put(7, 3), compact(), compact(), read(s8, 1), read(s4, 5)]"
+        "steps": "[s0 = snapshot(), read(s0, 6), s1 = snapshot(), get(6), read(s0, 8), get(6), release(s1), read(s0, 9), put(3, 0), read(s0, 1), s2 = snapshot(), compact(), s3 = snapshot(), put(3, 0), read(s2, 4), put(5, 7), s4 = snapshot(), read(s0, 8), s5 = snapshot(), compact(), read(s2, 3)]"
       },
       "seed": 1431,
       "shrunk": {
         "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
       },
-      "total_seconds": 1.087447833
+      "total_seconds": 1.23910825
     },
     {
-      "evaluations": 2916,
+      "evaluations": 1644,
       "original": {
-        "steps": "[s0 = snapshot(), put(1, 1), s1 = snapshot(), put(6, 7), read(s0, 9), read(s1, 1), compact(), release(s0), put(0, 9), put(5, 8), s2 = snapshot(), read(s1, 6), release(s1), put(0, 8), compact(), read(s2, 5), compact(), put(7, 8), read(s2, 0), compact(), s3 = snapshot(), compact(), compact(), put(1, 0), read(s3, 3), compact(), read(s2, 4), s4 = snapshot(), put(9, 8), read(s2, 2), read(s2, 0)]"
+        "steps": "[put(2, 1), put(5, 5), compact(), compact(), put(4, 8), put(2, 6), compact(), s0 = snapshot(), put(0, 6), release(s0), put(1, 6), put(6, 6), s1 = snapshot(), put(8, 3), s2 = snapshot(), release(s1), read(s2, 7), read(s2, 4), read(s2, 5), s3 = snapshot(), compact(), s4 = snapshot(), put(6, 7), s5 = snapshot(), put(2, 0), compact(), put(8, 0), release(s3), s6 = snapshot(), compact(), release(s2), compact(), put(7, 1), read(s6, 0), read(s6, 3), read(s6, 9), compact(), compact(), s7 = snapshot(), put(9, 0), s8 = snapshot(), release(s7), read(s5, 2)]"
       },
       "seed": 1432,
       "shrunk": {
-        "steps": "[s0 = snapshot(), s1 = snapshot(), put(0, 0), s2 = snapshot(), put(0, 0), s3 = snapshot(), compact(), read(s2, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.136886333
+      "total_seconds": 0.779438792
     },
     {
-      "evaluations": 1961,
+      "evaluations": 1934,
       "original": {
-        "steps": "[s0 = snapshot(), put(1, 8), s1 = snapshot(), put(9, 1), put(9, 9), s2 = snapshot(), compact(), put(3, 2), read(s1, 9), s3 = snapshot(), compact(), put(0, 2), s4 = snapshot(), compact(), read(s2, 6), put(3, 7), s5 = snapshot(), put(3, 4), read(s4, 3), s6 = snapshot(), read(s6, 8), read(s1, 9), compact(), put(5, 2), compact(), put(7, 2), compact(), compact(), read(s6, 7), s7 = snapshot(), s8 = snapshot(), read(s8, 0), s9 = snapshot(), put(1, 9), put(6, 9), s10 = snapshot(), read(s8, 6), put(7, 1), s11 = snapshot(), read(s3, 7), s12 = snapshot(), s13 = snapshot(), put(9, 5), read(s4, 2), compact(), read(s7, 1)]"
+        "steps": "[put(7, 1), s0 = snapshot(), put(8, 4), read(s0, 4), s1 = snapshot(), read(s0, 5), s2 = snapshot(), get(5), read(s0, 5), put(5, 7), compact(), get(4), put(4, 6), compact(), s3 = snapshot(), get(0), compact(), put(0, 2), compact(), get(2), read(s0, 7), read(s0, 5), compact(), s4 = snapshot(), get(5), get(7), get(4), read(s2, 0), get(9), compact(), get(8), read(s3, 2), compact(), compact(), s5 = snapshot(), s6 = snapshot(), s7 = snapshot(), s8 = snapshot(), read(s5, 7), put(2, 1), read(s4, 0), put(7, 0), get(3), s9 = snapshot(), put(4, 4), compact(), compact(), put(1, 5), read(s5, 7)]"
       },
       "seed": 1433,
       "shrunk": {
         "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
       },
-      "total_seconds": 1.065837
+      "total_seconds": 1.0544555
     },
     {
-      "evaluations": 1953,
+      "evaluations": 3033,
       "original": {
-        "steps": "[s0 = snapshot(), read(s0, 6), put(0, 2), compact(), s1 = snapshot(), read(s0, 0), read(s1, 7), s2 = snapshot(), compact(), compact(), compact(), compact(), read(s1, 8), s3 = snapshot(), read(s0, 6), read(s0, 5), s4 = snapshot(), get(2), read(s2, 3), get(4), s5 = snapshot(), compact(), s6 = snapshot(), get(4), s7 = snapshot(), read(s4, 7), put(4, 7), put(2, 6), put(9, 2), put(0, 0), s8 = snapshot(), put(5, 8), get(5), get(5), read(s4, 0), get(2), compact(), get(1), s9 = snapshot(), s10 = snapshot(), read(s8, 9), read(s2, 6), compact(), put(5, 3), put(9, 4), compact(), get(8), read(s5, 0)]"
+        "steps": "[s0 = snapshot(), put(2, 6), put(8, 5), put(5, 9), read(s0, 5), compact(), compact(), s1 = snapshot(), put(9, 1), read(s0, 5), read(s0, 2), put(7, 7), put(0, 8), get(7), s2 = snapshot(), get(8), get(8), get(7), s3 = snapshot(), put(5, 3), compact(), get(5), put(9, 2), put(4, 9), put(8, 7), read(s2, 0), s4 = snapshot(), get(3), read(s0, 1), read(s3, 5), compact(), put(1, 0), s5 = snapshot(), compact(), compact(), get(4), put(3, 3), compact(), compact(), s6 = snapshot(), put(0, 9), get(1), get(0), compact(), put(3, 9), s7 = snapshot(), get(8), s8 = snapshot(), read(s3, 5)]"
       },
       "seed": 1434,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 1.088178209
+      "total_seconds": 1.110547875
     },
     {
-      "evaluations": 1670,
+      "evaluations": 1704,
       "original": {
-        "steps": "[put(4, 0), s0 = snapshot(), read(s0, 6), compact(), read(s0, 7), put(7, 3), compact(), put(2, 3), put(1, 2), s1 = snapshot(), put(0, 5), s2 = snapshot(), compact(), compact(), release(s1), read(s0, 0), put(2, 7), read(s0, 6), compact(), release(s2), s3 = snapshot(), compact(), s4 = snapshot(), read(s3, 8), release(s3), s5 = snapshot(), s6 = snapshot(), compact(), put(5, 2), put(6, 7), put(7, 7), read(s0, 3), read(s4, 9), put(7, 4), read(s0, 1), compact(), s7 = snapshot(), read(s7, 8), compact(), put(2, 3), compact(), read(s0, 9), compact(), s8 = snapshot(), compact(), s9 = snapshot(), release(s9), read(s8, 4), read(s0, 9), read(s5, 2)]"
+        "steps": "[get(2), put(7, 8), get(7), get(2), put(6, 2), s0 = snapshot(), compact(), get(9), read(s0, 4), get(6), get(4), get(1), read(s0, 7), read(s0, 0), compact(), put(6, 8), s1 = snapshot(), s2 = snapshot(), s3 = snapshot(), compact(), put(6, 8), read(s1, 2), read(s3, 4), compact(), read(s3, 6), get(3), get(7), get(0), s4 = snapshot(), read(s4, 2), put(5, 3), compact(), put(3, 6), put(8, 6), put(0, 7), read(s3, 3), compact(), compact(), read(s0, 9), compact(), read(s4, 4), read(s0, 6)]"
       },
       "seed": 1435,
       "shrunk": {
         "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.746769042
+      "total_seconds": 0.950454667
     },
     {
-      "evaluations": 1914,
+      "evaluations": 1679,
       "original": {
-        "steps": "[compact(), s0 = snapshot(), read(s0, 0), put(0, 5), get(9), get(3), s1 = snapshot(), get(5), s2 = snapshot(), put(3, 5), get(3), s3 = snapshot(), put(0, 2), s4 = snapshot(), read(s3, 7), put(7, 8), get(7), compact(), put(8, 4), compact(), put(1, 7), get(4), read(s1, 0)]"
+        "steps": "[put(6, 6), put(5, 9), compact(), compact(), s0 = snapshot(), release(s0), compact(), compact(), s1 = snapshot(), put(1, 8), release(s1), put(4, 2), s2 = snapshot(), release(s2), put(2, 7), compact(), s3 = snapshot(), compact(), compact(), put(8, 7), compact(), release(s3), s4 = snapshot(), release(s4), put(5, 9), put(1, 6), s5 = snapshot(), s6 = snapshot(), read(s5, 1), s7 = snapshot(), read(s6, 1), put(6, 9), read(s7, 1), s8 = snapshot(), s9 = snapshot(), read(s8, 7), put(6, 7), release(s5), s10 = snapshot(), release(s7), read(s8, 5), compact(), release(s9), release(s10), read(s8, 6)]"
       },
       "seed": 1436,
       "shrunk": {
-        "steps": "[s0 = snapshot(), put(0, 0), s1 = snapshot(), put(0, 0), s2 = snapshot(), compact(), read(s1, 0)]"
+        "steps": "[put(0, 0), s0 = snapshot(), put(0, 0), s1 = snapshot(), compact(), read(s0, 0)]"
       },
-      "total_seconds": 0.947966125
+      "total_seconds": 1.00401
     }
   ]
 }

@@ -195,6 +195,16 @@ enum ChallengeRunner {
                 stats.append(report: report, counterExample: output?.description, seed: seed, original: original, wallMilliseconds: wall)
             case .anagrams, .usernamePassword, .duplicatedText, .distinctSum, .leapDay, .branchSwitching, .haystack, .zalgoHaystack:
                 break
+            case .ascendingArray:
+                let (output, report, original, wall) = exhaust(
+                    AscendingArrayChallenge.gen,
+                    seed: seed,
+                    property: AscendingArrayChallenge.property
+                )
+                stats.append(
+                    report: report, counterExample: output?.description, seed: seed,
+                    original: original, wallMilliseconds: wall
+                )
             case .depthTwoProductSequenceBind:
                 let (output, report, original, wall) = exhaust(
                     NestedBindsChallenge.depthTwoProductSequence,

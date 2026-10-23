@@ -1,15 +1,15 @@
 [
     {
-        "evaluations": 44,
+        "evaluations": 11,
         "generate_seconds": 0.0,
         "original": {
             "value": "'a branch switch'"
         },
         "seed": 13534270016098124215,
-        "shrink_seconds": 0.004951125010848045,
+        "shrink_seconds": 0.0022752080112695694,
         "shrunk": {
-            "value": "1001"
+            "value": "'0000'"
         },
-        "total_seconds": 0.011465625371783972
+        "total_seconds": 0.008779665920883417
     }
 ]

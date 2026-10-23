@@ -15,10 +15,12 @@ from hypothesis.internal.reflection import proxies
 from hypothesis.statistics import collector
 
 
-def main(filename, n_runs=100):
+def main(filename, n_runs=100, *, seeds=None, output=None):
     if n_runs < 1:
         raise ValueError("n_runs must be positive")
-    target = os.path.splitext(filename)[0] + ".json"
+    if seeds is not None and len(seeds) != n_runs:
+        raise ValueError("seeds must contain exactly n_runs entries")
+    target = output if output is not None else os.path.splitext(filename)[0] + ".json"
 
     random = Random(
         int.from_bytes(
@@ -37,13 +39,13 @@ def main(filename, n_runs=100):
     namespace = {}
     exec(compiled, namespace)
     if "shrink_once" in namespace:
-        results.append(namespace["shrink_once"](random.getrandbits(64)))
+        results.append(namespace["shrink_once"](seeds[0] if seeds is not None else random.getrandbits(64)))
         with open(target, "w") as o:
             o.write(json.dumps(results, sort_keys=True, indent=4))
         return
 
-    for _ in trange(n_runs):
-        seed = random.getrandbits(64)
+    for index in trange(n_runs):
+        seed = seeds[index] if seeds is not None else random.getrandbits(64)
 
         namespace = {}
 
@@ -93,7 +95,8 @@ def main(filename, n_runs=100):
             settings(
                 database=None,
                 suppress_health_check=list(HealthCheck),
-                max_examples=10 ** 6,
+                max_examples=namespace.get("generation_budget", 10 ** 6),
+                report_multiple_bugs=False,
                 phases=[Phase.generate, Phase.shrink],
                 verbosity=Verbosity.quiet,
             )(test)

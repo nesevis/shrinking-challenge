@@ -1,7 +1,7 @@
 mod binary_heap;
+pub mod ascending_array;
 mod calculator;
 pub mod challenges;
-mod pythagorean;
 mod refund_allocation;
 mod stateful;
 

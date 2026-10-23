@@ -1,32 +1,31 @@
 # Chunked Decoder
 
-Hegel 0.48.1, native engine 0.44.1, debug build. 100 seeded runs; [raw results](chunked_decoder.json).
+Hegel 0.49.14, native engine 0.45.13, debug build. 100 seeded runs; [raw results](chunked_decoder.json).
 
 | Metric | Mean |
 |---|---|
-| Evaluations from first failure | 1847.7 |
-| Original counterexample length | 91.9 |
-| Total elapsed time (ms) | 49.27 |
+| Evaluations from first failure | 1761.0 |
+| Original counterexample length | 87.9 |
+| Total elapsed time (ms) | 47.30 |
 
 Evaluations include the starting failure, subsequent property calls, confirmation calls and final replay. Rejected/overrun histories that never reach a property verdict are not counted. Total time includes generation, shrinking, recording and replay; phase timings are not exposed.
 
 Original length uses the full counterexample notation, including the complete nested payload. Payloads below use run-length notation. 🎯 matches the reference counterexample in the main comparison.
 
-## Counterexamples (70 distinct)
+## Counterexamples (69 distinct)
 
 | Share | Counterexample |
 |---|---|
-| 8% | 🎯 `(text, "\u{80}", [1, 1])` |
+| 11% | 🎯 `(text, "\u{80}", [1, 1])` |
 | 6% | `(text, "\u{10000}\u{10000}", [7, 1])` |
 | 6% | `(text, "\u{10000}", [3, 1])` |
 | 4% | `(text, "\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{800}", [16, 1])` |
 | 3% | `(text, "00\u{80}\u{80}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}", [29, 1])` |
-| 3% | `(text, "0\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}", [42, 1])` |
 | 2% | `(text, "00000\u{80}\u{80}", [8, 1])` |
 | 2% | `(text, "000\u{80}\u{80}\u{80}", [8, 1])` |
+| 2% | `(text, "0\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}", [42, 1])` |
 | 2% | `(text, "\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}", [11, 1])` |
 | 2% | `(text, "000\u{80}\u{80}\u{80}\u{80}\u{10000}", [14, 1])` |
-| 2% | `(text, "\u{80}\u{80}\u{80}", [5, 1])` |
 | 2% | `(text, "0\u{80}", [2, 1])` |
 | 1% | `(text, "\u{80}\u{80}", [3, 1])` |
 | 1% | `(text, "\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}", [21, 1])` |
@@ -56,12 +55,13 @@ Original length uses the full counterexample notation, including the complete ne
 | 1% | `(text, "00000\u{80}\u{80}\u{10000}\u{10000}", [16, 1])` |
 | 1% | `(text, "00\u{80}\u{80}\u{80}", [7, 1])` |
 | 1% | `(text, "0\u{80}\u{80}\u{80}", [6, 1])` |
-| 1% | `(text, "0\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{800}\u{800}\u{10000}\u{10000}\u{10000}", [36, 1])` |
 | 1% | `(text, "0\u{80}\u{80}\u{80}\u{800}\u{800}\u{800}\u{800}", [18, 1])` |
 | 1% | `(text, "0\u{80}\u{80}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}\u{800}", [28, 1])` |
 | 1% | `(text, "000000\u{800}\u{10000}\u{10000}\u{10000}\u{10000}", [24, 1])` |
 | 1% | `(text, "00000\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}", [24, 1])` |
 | 1% | `(text, "0\u{10000}", [4, 1])` |
+| 1% | `(text, "\u{80}\u{80}\u{80}", [5, 1])` |
+| 1% | `(text, "\u{80}\u{80}\u{10000}\u{10000}", [11, 1])` |
 | 1% | `(text, "0000\u{80}\u{80}\u{80}\u{80}\u{10000}", [15, 1])` |
 | 1% | `(text, "00000000\u{80}\u{80}\u{80}\u{10000}\u{10000}\u{10000}\u{10000}\u{10000}", [33, 1])` |
 | 1% | `(text, "\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{10000}\u{10000}\u{10000}", [35, 1])` |
@@ -81,7 +81,6 @@ Original length uses the full counterexample notation, including the complete ne
 | 1% | `(text, "00\u{80}\u{80}\u{80}\u{80}\u{80}\u{10000}\u{10000}\u{10000}\u{10000}\u{10000}\u{10000}\u{10000}", [39, 1])` |
 | 1% | `(text, "\u{80}\u{10000}\u{10000}", [9, 1])` |
 | 1% | `(text, "00000\u{80}\u{80}\u{80}\u{80}\u{80}\u{10000}\u{10000}\u{10000}\u{10000}", [30, 1])` |
-| 1% | `(text, "000\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{10000}", [20, 1])` |
 | 1% | `(text, "\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}\u{80}", [31, 1])` |
 | 1% | `(text, "00\u{80}\u{80}\u{80}\u{80}\u{10000}\u{10000}\u{10000}", [21, 1])` |
 | 1% | `(text, "00000\u{80}\u{80}\u{80}\u{80}\u{10000}", [16, 1])` |

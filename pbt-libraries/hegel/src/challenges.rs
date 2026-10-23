@@ -3,6 +3,7 @@ use hegel::generators::{self as gs, Generator};
 
 #[derive(Clone, Copy, Debug)]
 pub enum Challenge {
+    AscendingArray,
     BinaryHeap,
     Calculator,
     RefundAllocation,
@@ -51,6 +52,7 @@ impl Challenge {
             .into_iter()
             .chain([
                 Self::BinaryHeap,
+                Self::AscendingArray,
                 Self::Calculator,
                 Self::RefundAllocation,
                 Self::RefundAllocationDerived,
@@ -60,6 +62,7 @@ impl Challenge {
 
     pub fn name(self) -> String {
         match self {
+            Self::AscendingArray => "ascending_array".into(),
             Self::BinaryHeap => "binheap".into(),
             Self::Calculator => "calculator".into(),
             Self::RefundAllocation => "refund_allocation".into(),
@@ -85,10 +88,14 @@ impl Challenge {
 
     pub fn evaluate(self, tc: &TestCase) -> (String, bool) {
         match self {
+            Self::AscendingArray => super::ascending_array::evaluate(tc),
             Self::BinaryHeap => super::binary_heap::evaluate(tc),
             Self::Calculator => super::calculator::evaluate(tc),
             Self::RefundAllocation | Self::RefundAllocationDerived => {
-                super::refund_allocation::evaluate(tc, matches!(self, Self::RefundAllocationDerived))
+                super::refund_allocation::evaluate(
+                    tc,
+                    matches!(self, Self::RefundAllocationDerived),
+                )
             }
             Self::ProductSequence(depth) | Self::Product(depth) => {
                 let with_payload = matches!(self, Self::ProductSequence(_));

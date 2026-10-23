@@ -1,8 +1,8 @@
 # Hegel
 
 [Hegel for Rust](https://github.com/hegeldev/hegel-rust) is a property-based testing
-library derived from Hypothesis. This runner pins `hegeltest` **0.48.1** and its
-native engine `hegeltest-c` **0.44.1** with default features: `hegeltest`'s build
+library derived from Hypothesis. This runner pins `hegeltest` **0.49.14** and its
+native engine `hegeltest-c` **0.45.13** with default features: `hegeltest`'s build
 script compiles the engine as a shared library, `libhegel_c`, which the runner loads
 at startup. The `static-engine` feature is off. No Python runtime is used by generation or reduction. Python 3.9+ is needed only to
 generate Markdown reports, with no third-party Python packages.
@@ -32,6 +32,9 @@ machines in [`src/stateful.rs`](src/stateful.rs), and recording in
 
 ## Running
 
+All challenges use `report_multiple_failures(false)` in the shared runner,
+including state machines: discovery stops at the first failure before shrinking.
+
 Rust 1.86+; the checked-in results use Rust 1.93.1 and Cargo's default dev profile, as
 `cargo test` would. The runner is unoptimised and `libhegel_c` is built at the dev
 profile's `opt-level = 1`.
@@ -41,8 +44,6 @@ cd pbt-libraries/hegel
 make benchmark
 ```
 
-This runs seeds 1337–1436 for all 28 listed challenges, generates the reports, and refreshes
-only Hegel's data rows and the Hegel column of the timing table in the root `README.md`.
 
 Run one challenge, then generate its report:
 
@@ -90,7 +91,7 @@ cargo run --locked -- --challenge binheap --seed 1337 --iterations 100 --output 
 ```
 
 `--list` includes this standalone port; `--challenge all` retains the core suite.
-`make benchmark` runs every listed challenge, including standalone ports.
+`make benchmark` includes the published standalone ports.
 
 ## Calculator port
 

@@ -200,7 +200,11 @@ def update_timings(text, reports):
             break
         cells = [cell.strip() for cell in lines[index].strip("|").split("|")]
         if cells[0] in names:
-            cells[2] = f"{summarise(reports[names[cells[0]]])['total_ms']:,.2f}"
+            previous_time, separator, memory = cells[2].partition("<br>")
+            elapsed = f"{summarise(reports[names[cells[0]]])['total_ms']:,.2f}"
+            if previous_time.endswith(" ms"):
+                elapsed += " ms"
+            cells[2] = elapsed + separator + memory
             lines[index] = "| " + " | ".join(cells) + " |"
             updated += 1
     if updated != len(reports):
@@ -211,8 +215,12 @@ def update_timings(text, reports):
 def update_comparison(text, reports):
     updated = []
     current = None
+    replaced = False
     for line in text.splitlines():
-        if line.startswith("|  | [Hegel]("):
+        if line.startswith("## ") or (line.startswith("| ") and line.split("|", 2)[1].strip()):
+            current = None
+            replaced = False
+        if line.startswith("|  | [Hegel](") and replaced:
             continue
         hypothesis = re.search(r"\[Hypothesis\]\(/pbt-libraries/hypothesis/challenges/([^/.]+)\.(?:py|md|json)\)", line)
         if hypothesis:
@@ -221,6 +229,7 @@ def update_comparison(text, reports):
         if line.startswith("|  | [Exhaust](") and current in reports:
             updated.append(table_row(reports[current]))
             current = None
+            replaced = True
     return update_timings("\n".join(updated).rstrip() + "\n", reports)
 
 

@@ -7,8 +7,8 @@ from hypothesis.internal.conjecture.data import ConjectureData, Status
 from hypothesis.internal.conjecture.engine import ConjectureRunner
 from hypothesis.internal.escalation import InterestingOrigin
 
-# The simpler counterexample lives in the first branch, while the start is in the second.
-strategy = st.one_of(st.integers(), st.text())
+# The start lives in the first branch, while the integer counterexample is in the last.
+strategy = st.one_of(st.text(), st.integers())
 start = "a branch switch"
 
 
@@ -40,7 +40,7 @@ def shrink_once(seed):
 
     runner = ConjectureRunner(
         test_function,
-        settings=settings(database=None, phases=[Phase.shrink]),
+        settings=settings(database=None, phases=[Phase.shrink], report_multiple_bugs=False),
         random=Random(seed),
         ignore_limits=True,
     )

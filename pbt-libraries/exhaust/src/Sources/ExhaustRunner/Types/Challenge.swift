@@ -29,6 +29,7 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
     case duplicatedText
     case haystack
     case zalgoHaystack
+    case ascendingArray
 
     case distinctSum
     case leapDay
@@ -84,6 +85,7 @@ enum Challenge: String, CaseIterable, CustomStringConvertible, Decodable, Expres
         case .branchSwitching: "Branch Switching"
         case .haystack: "Haystack"
         case .zalgoHaystack: "Zalgo Haystack"
+        case .ascendingArray: "AscendingArray"
         case .depthTwoProductSequenceBind: "Depth 2 Bind (product sequence)"
         case .depthThreeProductSequenceBind: "Depth 3 Bind (product sequence)"
         case .depthFourProductSequenceBind: "Depth 4 Bind (product sequence)"

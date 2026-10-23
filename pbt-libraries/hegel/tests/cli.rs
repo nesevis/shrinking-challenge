@@ -31,6 +31,31 @@ impl Drop for OutputDirectory {
 }
 
 #[test]
+fn ascending_array_cli_generates_five_to_ten_values_for_each_seed() {
+    let directory = OutputDirectory::new();
+    let listed = directory.invoke(&["--list"]);
+    assert!(String::from_utf8_lossy(&listed.stdout).lines().any(|name| name == "ascending_array"));
+    let result = directory.invoke(&[
+        "--challenge", "ascending_array", "--seed", "1337", "--iterations", "3",
+    ]);
+    assert!(result.status.success(), "{}", String::from_utf8_lossy(&result.stderr));
+    let report: Value = serde_json::from_slice(
+        &std::fs::read(directory.0.join("ascending_array.json")).unwrap()
+    ).unwrap();
+    let runs = report["runs"].as_array().unwrap();
+    assert_eq!(runs.len(), 3);
+    for (index, run) in runs.iter().enumerate() {
+        assert_eq!(run["seed"], 1337 + index);
+        for field in ["original", "shrunk"] {
+            let values: Vec<i64> = serde_json::from_str(run[field]["value"].as_str().unwrap()).unwrap();
+            assert!((5..=10).contains(&values.len()));
+            assert!(values.windows(2).all(|pair| pair[0] < pair[1]));
+            if field == "shrunk" { assert_eq!(values.len(), 5); }
+        }
+    }
+}
+
+#[test]
 fn one_seed_produces_reproducible_results_and_environment_metadata() {
     let directory = OutputDirectory::new();
     let args = [

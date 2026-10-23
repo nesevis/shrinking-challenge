@@ -1,18 +1,18 @@
 {
   "build_profile": "debug",
   "challenge": "invoice_discount",
-  "engine_version": "0.44.1",
+  "engine_version": "0.45.13",
   "environment": {
     "arch": "aarch64",
-    "cpu": "Apple M4 Max",
+    "cpu": null,
     "os": "macos",
     "os_version": "26.6.2",
     "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)"
   },
-  "hegel_version": "0.48.1",
+  "hegel_version": "0.49.14",
   "runs": [
     {
-      "evaluations": 652,
+      "evaluations": 656,
       "original": {
         "value": "Invoice(412, 19, 6)"
       },
@@ -20,10 +20,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006422333
+      "total_seconds": 0.006556792
     },
     {
-      "evaluations": 613,
+      "evaluations": 619,
       "original": {
         "value": "Invoice(354, 74, 14)"
       },
@@ -31,10 +31,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004816667
+      "total_seconds": 0.004895584
     },
     {
-      "evaluations": 626,
+      "evaluations": 630,
       "original": {
         "value": "Invoice(413, 64, 46)"
       },
@@ -42,10 +42,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004692959
+      "total_seconds": 0.004847375
     },
     {
-      "evaluations": 646,
+      "evaluations": 650,
       "original": {
         "value": "Invoice(288, 17, 30)"
       },
@@ -53,10 +53,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004800167
+      "total_seconds": 0.005058125
     },
     {
-      "evaluations": 627,
+      "evaluations": 632,
       "original": {
         "value": "Invoice(128, 85, 6)"
       },
@@ -64,10 +64,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004424834
+      "total_seconds": 0.004682458
     },
     {
-      "evaluations": 648,
+      "evaluations": 652,
       "original": {
         "value": "Invoice(887, 15, 26)"
       },
@@ -75,10 +75,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004707041
+      "total_seconds": 0.00555
     },
     {
-      "evaluations": 631,
+      "evaluations": 634,
       "original": {
         "value": "Invoice(127, 95, 24)"
       },
@@ -86,10 +86,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004337834
+      "total_seconds": 0.004806834
     },
     {
-      "evaluations": 623,
+      "evaluations": 628,
       "original": {
         "value": "Invoice(468, 73, 16)"
       },
@@ -97,10 +97,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004276875
+      "total_seconds": 0.004514208
     },
     {
-      "evaluations": 634,
+      "evaluations": 638,
       "original": {
         "value": "Invoice(64, 49, 23)"
       },
@@ -108,10 +108,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004335125
+      "total_seconds": 0.004504209
     },
     {
-      "evaluations": 630,
+      "evaluations": 633,
       "original": {
         "value": "Invoice(999, 94, 24)"
       },
@@ -119,10 +119,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00431925
+      "total_seconds": 0.004502541
     },
     {
-      "evaluations": 580,
+      "evaluations": 583,
       "original": {
         "value": "Invoice(425, 18, 5)"
       },
@@ -130,10 +130,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004551792
+      "total_seconds": 0.005090958
     },
     {
-      "evaluations": 620,
+      "evaluations": 622,
       "original": {
         "value": "Invoice(108, 91, 8)"
       },
@@ -141,10 +141,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004266334
+      "total_seconds": 0.004496875
     },
     {
-      "evaluations": 632,
+      "evaluations": 637,
       "original": {
         "value": "Invoice(434, 68, 45)"
       },
@@ -152,10 +152,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004363875
+      "total_seconds": 0.004553875
     },
     {
-      "evaluations": 631,
+      "evaluations": 634,
       "original": {
         "value": "Invoice(244, 82, 33)"
       },
@@ -163,10 +163,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004344667
+      "total_seconds": 0.004788791
     },
     {
-      "evaluations": 885,
+      "evaluations": 891,
       "original": {
         "value": "Invoice(373, 17, 10)"
       },
@@ -174,10 +174,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006388
+      "total_seconds": 0.006547958
     },
     {
-      "evaluations": 633,
+      "evaluations": 637,
       "original": {
         "value": "Invoice(951, 71, 39)"
       },
@@ -185,10 +185,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004335208
+      "total_seconds": 0.004489041
     },
     {
-      "evaluations": 618,
+      "evaluations": 625,
       "original": {
         "value": "Invoice(27, 74, 33)"
       },
@@ -196,10 +196,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00428325
+      "total_seconds": 0.004734667
     },
     {
-      "evaluations": 644,
+      "evaluations": 649,
       "original": {
         "value": "Invoice(519, 34, 33)"
       },
@@ -207,10 +207,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004359333
+      "total_seconds": 0.004652459
     },
     {
-      "evaluations": 633,
+      "evaluations": 637,
       "original": {
         "value": "Invoice(403, 55, 24)"
       },
@@ -218,10 +218,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.0043115
+      "total_seconds": 0.004737875
     },
     {
-      "evaluations": 647,
+      "evaluations": 650,
       "original": {
         "value": "Invoice(151, 63, 15)"
       },
@@ -229,10 +229,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004757709
+      "total_seconds": 0.004595417
     },
     {
-      "evaluations": 624,
+      "evaluations": 626,
       "original": {
         "value": "Invoice(710, 6, 6)"
       },
@@ -240,10 +240,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00503975
+      "total_seconds": 0.005133958
     },
     {
-      "evaluations": 617,
+      "evaluations": 623,
       "original": {
         "value": "Invoice(90, 95, 44)"
       },
@@ -251,10 +251,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.0042205
+      "total_seconds": 0.004319333
     },
     {
-      "evaluations": 635,
+      "evaluations": 639,
       "original": {
         "value": "Invoice(62, 61, 9)"
       },
@@ -262,10 +262,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004432916
+      "total_seconds": 0.00459975
     },
     {
-      "evaluations": 659,
+      "evaluations": 665,
       "original": {
         "value": "Invoice(583, 50, 50)"
       },
@@ -273,10 +273,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00540775
+      "total_seconds": 0.0055685
     },
     {
-      "evaluations": 628,
+      "evaluations": 635,
       "original": {
         "value": "Invoice(91, 38, 26)"
       },
@@ -284,10 +284,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004364584
+      "total_seconds": 0.004490542
     },
     {
-      "evaluations": 861,
+      "evaluations": 867,
       "original": {
         "value": "Invoice(256, 80, 8)"
       },
@@ -295,10 +295,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006088166
+      "total_seconds": 0.006364875
     },
     {
-      "evaluations": 929,
+      "evaluations": 940,
       "original": {
         "value": "Invoice(491, 26, 15)"
       },
@@ -306,10 +306,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.007032208
+      "total_seconds": 0.007271958
     },
     {
-      "evaluations": 683,
+      "evaluations": 687,
       "original": {
         "value": "Invoice(256, 4, 17)"
       },
@@ -317,10 +317,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.005115
+      "total_seconds": 0.005253833
     },
     {
-      "evaluations": 617,
+      "evaluations": 622,
       "original": {
         "value": "Invoice(424, 84, 48)"
       },
@@ -328,10 +328,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004168333
+      "total_seconds": 0.00437875
     },
     {
-      "evaluations": 634,
+      "evaluations": 638,
       "original": {
         "value": "Invoice(243, 54, 28)"
       },
@@ -339,10 +339,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004292166
+      "total_seconds": 0.004440292
     },
     {
-      "evaluations": 630,
+      "evaluations": 637,
       "original": {
         "value": "Invoice(519, 3, 32)"
       },
@@ -350,10 +350,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004994417
+      "total_seconds": 0.005227167
     },
     {
-      "evaluations": 663,
+      "evaluations": 667,
       "original": {
         "value": "Invoice(433, 35, 19)"
       },
@@ -361,10 +361,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004686167
+      "total_seconds": 0.004877208
     },
     {
-      "evaluations": 671,
+      "evaluations": 677,
       "original": {
         "value": "Invoice(127, 12, 50)"
       },
@@ -372,10 +372,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004708791
+      "total_seconds": 0.004864208
     },
     {
-      "evaluations": 626,
+      "evaluations": 631,
       "original": {
         "value": "Invoice(378, 73, 31)"
       },
@@ -383,10 +383,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004161291
+      "total_seconds": 0.004438333
     },
     {
-      "evaluations": 765,
+      "evaluations": 776,
       "original": {
         "value": "Invoice(753, 41, 4)"
       },
@@ -394,10 +394,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.005876167
+      "total_seconds": 0.006267208
     },
     {
-      "evaluations": 623,
+      "evaluations": 624,
       "original": {
         "value": "Invoice(549, 97, 43)"
       },
@@ -405,10 +405,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004187083
+      "total_seconds": 0.004424958
     },
     {
-      "evaluations": 654,
+      "evaluations": 659,
       "original": {
         "value": "Invoice(538, 19, 31)"
       },
@@ -416,10 +416,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004551292
+      "total_seconds": 0.0047785
     },
     {
-      "evaluations": 870,
+      "evaluations": 875,
       "original": {
         "value": "Invoice(253, 55, 7)"
       },
@@ -427,10 +427,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006149667
+      "total_seconds": 0.006460583
     },
     {
-      "evaluations": 636,
+      "evaluations": 640,
       "original": {
         "value": "Invoice(953, 54, 33)"
       },
@@ -438,10 +438,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004267708
+      "total_seconds": 0.004564292
     },
     {
-      "evaluations": 651,
+      "evaluations": 654,
       "original": {
         "value": "Invoice(316, 36, 24)"
       },
@@ -449,10 +449,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.0044945
+      "total_seconds": 0.004739375
     },
     {
-      "evaluations": 626,
+      "evaluations": 632,
       "original": {
         "value": "Invoice(329, 73, 50)"
       },
@@ -460,10 +460,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004180459
+      "total_seconds": 0.0043865
     },
     {
-      "evaluations": 624,
+      "evaluations": 630,
       "original": {
         "value": "Invoice(155, 85, 14)"
       },
@@ -471,10 +471,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004166083
+      "total_seconds": 0.004428584
     },
     {
-      "evaluations": 638,
+      "evaluations": 642,
       "original": {
         "value": "Invoice(502, 51, 17)"
       },
@@ -482,10 +482,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004279208
+      "total_seconds": 0.0045445
     },
     {
-      "evaluations": 625,
+      "evaluations": 628,
       "original": {
         "value": "Invoice(64, 31, 13)"
       },
@@ -493,10 +493,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004157625
+      "total_seconds": 0.004394417
     },
     {
-      "evaluations": 624,
+      "evaluations": 629,
       "original": {
         "value": "Invoice(255, 60, 39)"
       },
@@ -504,10 +504,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004200292
+      "total_seconds": 0.004374792
     },
     {
-      "evaluations": 670,
+      "evaluations": 676,
       "original": {
         "value": "Invoice(198, 6, 13)"
       },
@@ -515,10 +515,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004953
+      "total_seconds": 0.00525725
     },
     {
-      "evaluations": 642,
+      "evaluations": 646,
       "original": {
         "value": "Invoice(117, 16, 4)"
       },
@@ -526,10 +526,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004357625
+      "total_seconds": 0.004568291
     },
     {
-      "evaluations": 720,
+      "evaluations": 722,
       "original": {
         "value": "Invoice(660, 63, 4)"
       },
@@ -537,10 +537,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.005285375
+      "total_seconds": 0.00558875
     },
     {
-      "evaluations": 612,
+      "evaluations": 615,
       "original": {
         "value": "Invoice(65, 70, 32)"
       },
@@ -548,10 +548,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004096542
+      "total_seconds": 0.00430975
     },
     {
-      "evaluations": 633,
+      "evaluations": 639,
       "original": {
         "value": "Invoice(31, 58, 5)"
       },
@@ -559,10 +559,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004280875
+      "total_seconds": 0.004486708
     },
     {
-      "evaluations": 633,
+      "evaluations": 635,
       "original": {
         "value": "Invoice(299, 95, 33)"
       },
@@ -570,10 +570,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004245833
+      "total_seconds": 0.0044795
     },
     {
-      "evaluations": 627,
+      "evaluations": 632,
       "original": {
         "value": "Invoice(624, 80, 14)"
       },
@@ -581,10 +581,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004182417
+      "total_seconds": 0.004405709
     },
     {
-      "evaluations": 620,
+      "evaluations": 623,
       "original": {
         "value": "Invoice(64, 78, 34)"
       },
@@ -592,10 +592,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004151834
+      "total_seconds": 0.004419
     },
     {
-      "evaluations": 634,
+      "evaluations": 638,
       "original": {
         "value": "Invoice(32, 41, 5)"
       },
@@ -603,10 +603,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004250833
+      "total_seconds": 0.004452334
     },
     {
-      "evaluations": 624,
+      "evaluations": 630,
       "original": {
         "value": "Invoice(91, 47, 2)"
       },
@@ -614,10 +614,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004234416
+      "total_seconds": 0.004430542
     },
     {
-      "evaluations": 632,
+      "evaluations": 635,
       "original": {
         "value": "Invoice(309, 95, 30)"
       },
@@ -625,10 +625,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004239125
+      "total_seconds": 0.004432916
     },
     {
-      "evaluations": 630,
+      "evaluations": 635,
       "original": {
         "value": "Invoice(357, 78, 50)"
       },
@@ -636,10 +636,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004220833
+      "total_seconds": 0.004478916
     },
     {
-      "evaluations": 628,
+      "evaluations": 632,
       "original": {
         "value": "Invoice(321, 69, 1)"
       },
@@ -647,10 +647,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004234375
+      "total_seconds": 0.004394041
     },
     {
-      "evaluations": 606,
+      "evaluations": 607,
       "original": {
         "value": "Invoice(31, 55, 33)"
       },
@@ -658,10 +658,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.003805792
+      "total_seconds": 0.004336583
     },
     {
-      "evaluations": 634,
+      "evaluations": 636,
       "original": {
         "value": "Invoice(105, 95, 19)"
       },
@@ -669,10 +669,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004132917
+      "total_seconds": 0.004472875
     },
     {
-      "evaluations": 903,
+      "evaluations": 909,
       "original": {
         "value": "Invoice(655, 18, 10)"
       },
@@ -680,10 +680,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006376542
+      "total_seconds": 0.006834542
     },
     {
-      "evaluations": 627,
+      "evaluations": 630,
       "original": {
         "value": "Invoice(457, 65, 28)"
       },
@@ -691,10 +691,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004233416
+      "total_seconds": 0.004423125
     },
     {
-      "evaluations": 861,
+      "evaluations": 866,
       "original": {
         "value": "Invoice(255, 26, 9)"
       },
@@ -702,10 +702,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006135333
+      "total_seconds": 0.006405
     },
     {
-      "evaluations": 725,
+      "evaluations": 727,
       "original": {
         "value": "Invoice(638, 71, 5)"
       },
@@ -713,10 +713,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.005253167
+      "total_seconds": 0.00547625
     },
     {
-      "evaluations": 640,
+      "evaluations": 642,
       "original": {
         "value": "Invoice(360, 22, 41)"
       },
@@ -724,10 +724,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.0043585
+      "total_seconds": 0.004629625
     },
     {
-      "evaluations": 632,
+      "evaluations": 635,
       "original": {
         "value": "Invoice(113, 95, 30)"
       },
@@ -735,10 +735,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004199292
+      "total_seconds": 0.00440775
     },
     {
-      "evaluations": 620,
+      "evaluations": 626,
       "original": {
         "value": "Invoice(256, 56, 48)"
       },
@@ -746,10 +746,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00413275
+      "total_seconds": 0.004406833
     },
     {
-      "evaluations": 620,
+      "evaluations": 623,
       "original": {
         "value": "Invoice(941, 77, 32)"
       },
@@ -757,10 +757,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004113458
+      "total_seconds": 0.004327292
     },
     {
-      "evaluations": 632,
+      "evaluations": 637,
       "original": {
         "value": "Invoice(852, 36, 13)"
       },
@@ -768,10 +768,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004365959
+      "total_seconds": 0.004685625
     },
     {
-      "evaluations": 565,
+      "evaluations": 566,
       "original": {
         "value": "Invoice(109, 10, 9)"
       },
@@ -779,10 +779,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.003905
+      "total_seconds": 0.004112458
     },
     {
-      "evaluations": 628,
+      "evaluations": 634,
       "original": {
         "value": "Invoice(279, 87, 26)"
       },
@@ -790,10 +790,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004184417
+      "total_seconds": 0.004371666
     },
     {
-      "evaluations": 623,
+      "evaluations": 627,
       "original": {
         "value": "Invoice(63, 45, 50)"
       },
@@ -801,10 +801,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.0041805
+      "total_seconds": 0.004379292
     },
     {
-      "evaluations": 578,
+      "evaluations": 580,
       "original": {
         "value": "Invoice(345, 68, 10)"
       },
@@ -812,10 +812,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00406825
+      "total_seconds": 0.004280792
     },
     {
-      "evaluations": 620,
+      "evaluations": 624,
       "original": {
         "value": "Invoice(403, 77, 18)"
       },
@@ -823,10 +823,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004139167
+      "total_seconds": 0.004380459
     },
     {
-      "evaluations": 872,
+      "evaluations": 878,
       "original": {
         "value": "Invoice(358, 56, 8)"
       },
@@ -834,10 +834,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006174167
+      "total_seconds": 0.006451209
     },
     {
-      "evaluations": 590,
+      "evaluations": 594,
       "original": {
         "value": "Invoice(879, 100, 36)"
       },
@@ -845,10 +845,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.003990167
+      "total_seconds": 0.004174792
     },
     {
-      "evaluations": 613,
+      "evaluations": 616,
       "original": {
         "value": "Invoice(483, 59, 33)"
       },
@@ -856,10 +856,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004075292
+      "total_seconds": 0.004260292
     },
     {
-      "evaluations": 634,
+      "evaluations": 639,
       "original": {
         "value": "Invoice(31, 100, 43)"
       },
@@ -867,10 +867,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004235875
+      "total_seconds": 0.004693375
     },
     {
-      "evaluations": 634,
+      "evaluations": 637,
       "original": {
         "value": "Invoice(360, 25, 11)"
       },
@@ -878,10 +878,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004314
+      "total_seconds": 0.004805916
     },
     {
-      "evaluations": 627,
+      "evaluations": 632,
       "original": {
         "value": "Invoice(33, 57, 44)"
       },
@@ -889,10 +889,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004197458
+      "total_seconds": 0.004434458
     },
     {
-      "evaluations": 626,
+      "evaluations": 629,
       "original": {
         "value": "Invoice(337, 29, 8)"
       },
@@ -900,10 +900,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004603584
+      "total_seconds": 0.00482125
     },
     {
-      "evaluations": 625,
+      "evaluations": 629,
       "original": {
         "value": "Invoice(982, 67, 27)"
       },
@@ -911,10 +911,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004205667
+      "total_seconds": 0.004445667
     },
     {
-      "evaluations": 867,
+      "evaluations": 873,
       "original": {
         "value": "Invoice(323, 74, 7)"
       },
@@ -922,10 +922,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.005903583
+      "total_seconds": 0.006774417
     },
     {
-      "evaluations": 637,
+      "evaluations": 641,
       "original": {
         "value": "Invoice(196, 55, 12)"
       },
@@ -933,10 +933,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.0042765
+      "total_seconds": 0.004707875
     },
     {
-      "evaluations": 593,
+      "evaluations": 596,
       "original": {
         "value": "Invoice(63, 100, 8)"
       },
@@ -944,10 +944,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.003950708
+      "total_seconds": 0.004230417
     },
     {
-      "evaluations": 611,
+      "evaluations": 614,
       "original": {
         "value": "Invoice(173, 65, 16)"
       },
@@ -955,10 +955,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004022375
+      "total_seconds": 0.004299084
     },
     {
-      "evaluations": 577,
+      "evaluations": 579,
       "original": {
         "value": "Invoice(232, 52, 13)"
       },
@@ -966,10 +966,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.003938833
+      "total_seconds": 0.004150041
     },
     {
-      "evaluations": 728,
+      "evaluations": 734,
       "original": {
         "value": "Invoice(401, 45, 3)"
       },
@@ -977,10 +977,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.005493459
+      "total_seconds": 0.005844834
     },
     {
-      "evaluations": 633,
+      "evaluations": 636,
       "original": {
         "value": "Invoice(234, 71, 22)"
       },
@@ -988,10 +988,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004201834
+      "total_seconds": 0.00467675
     },
     {
-      "evaluations": 628,
+      "evaluations": 634,
       "original": {
         "value": "Invoice(31, 90, 3)"
       },
@@ -999,10 +999,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.00417925
+      "total_seconds": 0.004604875
     },
     {
-      "evaluations": 575,
+      "evaluations": 577,
       "original": {
         "value": "Invoice(212, 6, 6)"
       },
@@ -1010,10 +1010,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004298167
+      "total_seconds": 0.004518875
     },
     {
-      "evaluations": 996,
+      "evaluations": 1012,
       "original": {
         "value": "Invoice(511, 7, 29)"
       },
@@ -1021,10 +1021,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.007440458
+      "total_seconds": 0.010029083
     },
     {
-      "evaluations": 625,
+      "evaluations": 629,
       "original": {
         "value": "Invoice(64, 18, 5)"
       },
@@ -1032,10 +1032,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004141
+      "total_seconds": 0.004740291
     },
     {
-      "evaluations": 592,
+      "evaluations": 595,
       "original": {
         "value": "Invoice(512, 5, 26)"
       },
@@ -1043,10 +1043,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004575167
+      "total_seconds": 0.005198083
     },
     {
-      "evaluations": 873,
+      "evaluations": 880,
       "original": {
         "value": "Invoice(383, 9, 31)"
       },
@@ -1054,10 +1054,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.006183875
+      "total_seconds": 0.00684725
     },
     {
-      "evaluations": 579,
+      "evaluations": 580,
       "original": {
         "value": "Invoice(603, 72, 10)"
       },
@@ -1065,10 +1065,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004041667
+      "total_seconds": 0.004373125
     },
     {
-      "evaluations": 617,
+      "evaluations": 620,
       "original": {
         "value": "Invoice(63, 35, 22)"
       },
@@ -1076,10 +1076,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004242167
+      "total_seconds": 0.004596708
     },
     {
-      "evaluations": 621,
+      "evaluations": 625,
       "original": {
         "value": "Invoice(23, 50, 16)"
       },
@@ -1087,10 +1087,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004095541
+      "total_seconds": 0.004423542
     },
     {
-      "evaluations": 622,
+      "evaluations": 625,
       "original": {
         "value": "Invoice(697, 40, 26)"
       },
@@ -1098,10 +1098,10 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004099167
+      "total_seconds": 0.00447325
     },
     {
-      "evaluations": 618,
+      "evaluations": 624,
       "original": {
         "value": "Invoice(33, 90, 12)"
       },
@@ -1109,7 +1109,7 @@
       "shrunk": {
         "value": "Invoice(10, 100, 1)"
       },
-      "total_seconds": 0.004190084
+      "total_seconds": 0.00453475
     }
   ]
 }

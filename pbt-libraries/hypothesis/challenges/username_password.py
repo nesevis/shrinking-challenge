@@ -53,7 +53,7 @@ def shrink_once(seed):
 
     runner = ConjectureRunner(
         test_function,
-        settings=settings(database=None, phases=[Phase.shrink]),
+        settings=settings(database=None, phases=[Phase.shrink], report_multiple_bugs=False),
         random=Random(seed),
         ignore_limits=True,
     )
